@@ -1,0 +1,44 @@
+{
+	"name": "npp-pluginList",
+	"version": "1.0",
+	"arch": "32",
+	"npp-plugins" : [
+		{
+			"folder-name": "pork2sausage",
+			"display-name": "Pork to Sausage",
+			"version": "2.0",
+			"id": "b7fce57c3485abbb3a3e6a1f5f9e4f1f3d712a84271e6e6552002be9d6b3bbae",
+			"repository": "https://github.com/npp-plugins/pork2sausage/releases/download/v2.1/pork2sausage.2.1.bin.zip",
+			"description": "Pork to Sausage is a plugin which is capable to pass any selected text to any command line program as input and to takes the output (the result of program) to replace the selected text.",
+			"author":"Don HO",
+			"homepage": "https://github.com/npp-plugins/pork2sausage"
+		},
+		{
+			"folder-name": "mimeTools",
+			"display-name": "Mime tools",
+			"version": "2.1",
+			"repository": "https://github.com/npp-plugins/mimetools/releases/download/v2.1/mimetools.v2.1.bin.zip",
+			"description": "MIME plugin for Notepad++ implements several main functionalities defined in MIME (Multipurpose Internet Mail Extensions).",
+			"author":"Don HO",
+			"homepage": "https://github.com/npp-plugins/mimetools"
+		},
+		{
+			"folder-name": "nppConverter",
+			"display-name": "Npp Converter",
+			"version": "4.2.1",
+			"repository": "https://github.com/npp-plugins/converter/releases/download/v4.2.1/nppConvert.v4.2.1.zip",
+			"description": "NppConverter is a ASCII<->Hex converter plugin for Notepad++.",
+			"author":"Don HO",
+			"homepage": "https://github.com/npp-plugins/converter/"
+		},
+		{
+			"folder-name": "selectNLaunch",
+			"display-name": "Select N' Launch",
+			"version": "2.1",
+			"repository": "https://github.com/npp-plugins/selectnlaunch/releases/download/v2.1/selectNLaunch.v2.1.bin.zip",
+			"description": "Select 'N' Launch's basic feature is get your selected text, save it as file with the extension you customized in the system temporary directory, then call system to open it with the extension associated program.",
+			"author":"Don HO",
+			"homepage": "https://github.com/npp-plugins/converter"
+		}
+	]
+}
