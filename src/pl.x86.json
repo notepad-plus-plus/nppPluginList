@@ -17,7 +17,7 @@
 			"folder-name": "mimeTools",
 			"display-name": "Mime tools",
 			"version": "2.1",
-			"repository": "https://github.com/npp-plugins/mimetools/releases/download/v2.1/mimetools.v2.1.bin.zip",
+			"repository": "https://github.com/npp-plugins/mimetools/releases/download/v2.1/mimetools.v2.1.zip",
 			"description": "MIME plugin for Notepad++ implements several main functionalities defined in MIME (Multipurpose Internet Mail Extensions).",
 			"author":"Don HO",
 			"homepage": "https://github.com/npp-plugins/mimetools"
@@ -39,6 +39,24 @@
 			"description": "Select 'N' Launch's basic feature is get your selected text, save it as file with the extension you customized in the system temporary directory, then call system to open it with the extension associated program.",
 			"author":"Don HO",
 			"homepage": "https://github.com/npp-plugins/converter"
+		},
+		{
+			"folder-name": "NppPluginDemo",
+			"display-name": "Notepad++ Plugin Demo",
+			"version": "3.1",
+			"repository": "https://github.com/npp-plugins/plugindemo/releases/download/3.1/pluginDemo.v3.1.bin.zip",
+			"description": "Notepad++ Plugin Demo is written from Notepad++ Plugin Template to demostrate the usage of plugin API.",
+			"author":"Don HO",
+			"homepage": "https://notepad-plus-plus.org/contribute/plugin-howto.html"
+		},
+		{
+			"folder-name": "NppPluginTemplate",
+			"display-name": "Notepad++ Plugin Template",
+			"version": "3.1",
+			"repository": "https://github.com/npp-plugins/plugintemplate/releases/download/v3.1/pluginTemplate.v3.1.bin.zip",
+			"description": "This template is done for making plugin development as easy and simple as possible. 4 steps and it's done - Even your grandmom can do it!",
+			"author":"Don HO",
+			"homepage": "https://notepad-plus-plus.org/contribute/plugin-howto.html"
 		}
 	]
 }
