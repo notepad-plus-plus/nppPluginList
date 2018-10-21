@@ -49,7 +49,7 @@
 			"version": "3.1",
 			"id": "855a6c23a5672c691a512314c0a8b01674e2d26d91b0466f011392495f13cb28",
 			"repository": "https://github.com/npp-plugins/plugindemo/releases/download/3.1/pluginDemo.v3.1.bin.x64.zip",
-			"description": "Notepad++ Plugin Demo is written from Notepad++ Plugin Template to demostrate the usage of plugin API.",
+			"description": "Notepad++ Plugin Demo is written from Notepad++ Plugin Template to demonstrate the usage of plugin API.",
 			"author":"Don HO",
 			"homepage": "https://notepad-plus-plus.org/contribute/plugin-howto.html"
 		},
