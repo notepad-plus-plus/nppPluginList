@@ -62,6 +62,16 @@
 			"description": "This template is done for making plugin development as easy and simple as possible. 4 steps and it's done - Even your grandmom can do it!",
 			"author":"Don HO",
 			"homepage": "https://notepad-plus-plus.org/contribute/plugin-howto.html"
+		},
+		{
+			"folder-name": "NppGTags",
+			"display-name": "NppGTags",
+			"version": "4.4.0",
+			"id": "c68e8e7361e3af0379ca69bb8d91c20adab2cea6d138e8eb5c3dac6cf7e57a2b",
+			"repository": "https://github.com/pnedev/nppgtags/releases/download/v4.4.0/NppGTags_v4.4.0_x86.zip",
+			"description": "This plugin is a front-end to GNU Global source code tagging system (GTags). It provides code indexing and search/navigation tools for various languages.",
+			"author":"Pavel Nedev",
+			"homepage": "https://github.com/pnedev/nppgtags"
 		}
 	]
 }
