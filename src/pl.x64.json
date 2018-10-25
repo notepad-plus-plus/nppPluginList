@@ -62,6 +62,16 @@
 			"description": "This template is done for making plugin development as easy and simple as possible. 4 steps and it's done - Even your grandmom can do it!",
 			"author":"Don HO",
 			"homepage": "https://notepad-plus-plus.org/contribute/plugin-howto.html"
+		},
+		{
+			"folder-name": "NppFTP",
+			"display-name": "NppFTP",
+			"version": "0.27.5",
+			"id": "a5c2d60b4269c9a8f3e167cce90844da641b5e74e62609ad2391055ca9f09631",
+			"repository": "https://github.com/ashkulz/NppFTP/releases/download/v0.27.5/NppFTP-x64_N759.zip",
+			"description": "NppFTP: a plugin that allows FTP, FTPS, FTPES and SFTP communications. Very useful for web development.",
+			"author":"ashish_kulz",
+			"homepage": "https://ashkulz.github.io/NppFTP/"
 		}
 	]
 }
