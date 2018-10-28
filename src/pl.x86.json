@@ -62,6 +62,16 @@
 			"description": "This template is done for making plugin development as easy and simple as possible. 4 steps and it's done - Even your grandmom can do it!",
 			"author":"Don HO",
 			"homepage": "https://notepad-plus-plus.org/contribute/plugin-howto.html"
+		},
+		{
+			"folder-name": "NppSaveAsAdmin",
+			"display-name": "Save as admin",
+			"version": "1.0.169",
+			"id": "230962a02080c00fddfadb02509742d311de17352372d2778127d43ab1ab10a9",
+			"repository": "https://github.com/Hsilgos/nppsaveasadmin/releases/download/plugin_admin_support/NppSaveAsAdmin_1.0.169_x86.zip",
+			"description": "Allows to save file as administrator with UAC prompt.",
+			"author":"Yauheni Khnykin",
+			"homepage": "https://github.com/Hsilgos/nppsaveasadmin"
 		}
 	]
 }
