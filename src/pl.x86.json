@@ -72,6 +72,26 @@
 			"description": "This plugin is a front-end to GNU Global source code tagging system (GTags). It provides code indexing and search/navigation tools for various languages.",
 			"author":"Pavel Nedev",
 			"homepage": "https://github.com/pnedev/nppgtags"
+		},
+		{
+			"folder-name": "AutoCodepage",
+			"display-name": "AutoCodepage",
+			"version": "1.2.2",
+			"id": "620596531c87d87dada92e839ab7ede3baab5a4d6c7b64eec31d8b4bb377af0c",
+			"repository": "https://github.com/dinkumoil/AutoCodepage/releases/download/v1.2.2/AutoCodepage_v1.2.2_UNI_Npp7.5.9_PA.zip",
+			"description": "A plugin to automatically set a document's code page to your needs on loading or renaming a document, changing its language or activating its tab. Usefull especially when coding batch scripts.",
+			"author":"Andreas Heim",
+			"homepage": "https://github.com/dinkumoil/AutoCodepage"
+		},
+		{
+			"folder-name": "AutoEolFormat",
+			"display-name": "AutoEolFormat",
+			"version": "1.0",
+			"id": "12aa6176cd5d280aeb9d45fef9bd7e8b3e8c17c0489bdaec9e7abd397ec22db7",
+			"repository": "https://github.com/dinkumoil/AutoEolFormat/releases/download/v1.0/AutoEolFormat_v1.0_UNI_Npp7.5.9_PA.zip",
+			"description": "A plugin to automatically set a document's EOL (End of Line) format to your needs on loading, saving or renaming a document or activating its tab.",
+			"author":"Andreas Heim",
+			"homepage": "https://github.com/dinkumoil/AutoEolFormat"
 		}
 	]
 }
