@@ -102,6 +102,16 @@
 			"description": "NppFTP: a plugin that allows FTP, FTPS, FTPES and SFTP communications. Very useful for web development.",
 			"author":"ashish_kulz",
 			"homepage": "https://ashkulz.github.io/NppFTP/"
+		},
+		{
+			"folder-name": "NppSaveAsAdmin",
+			"display-name": "Save as admin",
+			"version": "1.0.172",
+			"id": "016716c575a0b6f042862f6ffa329c68acb99c8f1bbfedc858a68eadf85788e2",
+			"repository": "https://github.com/Hsilgos/nppsaveasadmin/releases/download/1.0.172/NppSaveAsAdmin_1.0.172_x64.zip",
+			"description": "Allows to save file as administrator with UAC prompt.",
+			"author":"Yauheni Khnykin",
+			"homepage": "https://github.com/Hsilgos/nppsaveasadmin"
 		}
 	]
 }
