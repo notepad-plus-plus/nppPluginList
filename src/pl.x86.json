@@ -102,7 +102,7 @@
 			"description": "NppFTP: a plugin that allows FTP, FTPS, FTPES and SFTP communications. Very useful for web development.",
 			"author":"ashish_kulz",
 			"homepage": "https://ashkulz.github.io/NppFTP/"
-		};
+		},
 		{
 			"folder-name": "NppSaveAsAdmin",
 			"display-name": "Save as admin",
