@@ -172,6 +172,76 @@
 			"description": "Automatically surround the selection in quotes/brackets/parenthesis/etc.",
 			"author": "Justin Dailey",
 			"homepage": "https://github.com/dail8859/SurroundSelection"
+		},
+		{
+			"folder-name": "3P",
+			"display-name": "3P - Progress Programmers Pal",
+			"version": "1.8.2",
+			"id": "40965ba7c9377fc6be6b94ab62f748421253013e7245c0879e016551aa5baf60",
+			"repository": "https://github.com/jcaillon/3P/releases/download/v1.8.2/3P_x64.zip",
+			"description": "[Requires .net framework 4.6.1]\r\n3P is a notepad++ plug-in designed to help writing OpenEdge ABL (formerly known as Progress 4GL) code. It provides :\r\n- a powerful auto-completion\r\n- tool-tips on every words\r\n- a code explorer to quickly navigate through your code\r\n- a file explorer to easily access all your sources\r\n- the ability to run/compile and even PROLINT your source file with an in-line visualization of errors\r\n- more than 50 options to better suit your needs\r\n- and so much more!\r\nVisit http://jcaillon.github.io/3P/ for more details on the plugin",
+			"author": "Julien Caillon",
+			"homepage": "https://jcaillon.github.io/3P/"
+		},
+		{
+			"folder-name": "CodeAlignmentNpp",
+			"display-name": "Code alignment",
+			"version": "14.0.77",
+			"id": "e4d6c0a08359a656055829326bd8db55bc77ea515d822c64ef6953965e048933",
+			"repository": "https://github.com/cpmcgrath/codealignment/releases/download/v14/CodeAlignmentNpp_v14_x64.zip",
+			"description": "Code alignment helps you present your code beautifully, enhancing clarity and readability.\r\nAlign your code by any character. Fast logical shortcuts to perform common alignments such as equals and period.\r\nRequires .NET Framework 4.0",
+			"author": "Chris McGrath",
+			"homepage": "https://github.com/cpmcgrath/codealignment"
+		},
+		{
+			"folder-name": "CodeStats",
+			"display-name": "Code::Stats",
+			"version": "1.0.1",
+			"id": "b4a8d6c3987b1999a7147283428e9a624a190ce7903893a02f07e496ffe2b16f",
+			"repository": "https://github.com/p0358/notepadpp-CodeStats/releases/download/v1.0.1/notepadpp-CodeStats_x64.zip",
+			"description": "Code::Stats - Write code, level up, show off! A free stats tracking service for programmers. This plugin enables XP tracking in Notepad++.",
+			"author": "p0358",
+			"homepage": "https://github.com/p0358/notepadpp-CodeStats"
+		},
+		{
+			"folder-name": "ComparePlugin",
+			"display-name": "Compare",
+			"version": "2.0.0",
+			"id": "c169a4bf1b63ccd05211b927d871b4bed2782fc489ee2acc4ba1f81eb2869dde",
+			"repository": "https://github.com/pnedev/compare-plugin/releases/download/v2.0.0/ComparePlugin_v2.0.0_X64.zip",
+			"description": "A very useful compare plugin to show the differences between 2 files (side by side).",
+			"author": "Ty Landercasper, Jean-Sebastien Leroy, Pavel Nedev",
+			"homepage": "https://github.com/jsleroy/compare-plugin"
+		},
+		{
+			"folder-name": "CsvQuery",
+			"display-name": "CsvQuery",
+			"version": "1.2.6",
+			"id": "1ea7e282da8e04d2a4a0dcf8730d59daf51c84a47a2f0c0795ff7d26e43b82b9",
+			"repository": "https://github.com/jokedst/CsvQuery/releases/download/v1.2.6/CsvQuery-v1.2.6-x64.zip",
+			"description": "Enables SQL queries against CSV files",
+			"author": "jokedst",
+			"homepage": "https://github.com/jokedst/CsvQuery"
+		},
+		{
+			"folder-name": "CustomizeToolbar",
+			"display-name": "Customize Toolbar",
+			"version": "4.1",
+			"id": "ea51f5218c398793b58457c506ff5f06cc0a0b44748045bcb9395c3bd530fb21",
+			"repository": "https://sourceforge.net/projects/npp-customize/files/Customize%20Toolbar%20v4.1/CustomizeToolbar_4_1_x64.zip",
+			"description": "This plugin allows the Notepad++ toolbar to be fully customised by the user, and includes twenty-nine additional buttons for frequently used menu commands.\r\nAll buttons on the toolbar can be customized, whether Notepad++ built-in buttons, the additional buttons, or buttons belonging to other plugins.\r\n                                   \r\nCustom buttons for Notepad++ or plugin menu commands can be defined using a configuration file.  It is possible to replace the icons of existing Notepad++ buttons.",
+			"author": "dw-dev@gmx.com",
+			"homepage": "https://sourceforge.net/projects/npp-customize"
+		},
+		{
+			"folder-name": "HTMLTag",
+			"display-name": "HTML Tag",
+			"version": "1.1.0.0",
+			"id": "fd64f3f5a6a3da14dc2f592eb438ce316b207abae189d560680b46e965dd8f55",
+			"repository": "https://fossil.2of4.net/npp_htmltag/doc/v1.1.0/publish/HTMLTag_plugin_latest_64.zip",
+			"description": "This plug-in provides three core functions to Notepad++:\r\n- HTML and XML tag jumping, like the built-in brace matching (Ctrl+B / Shift+Ctrl+B), and selection\r\n  of tags and/or contents.\r\n- HTML entity encoding/decoding (example: é to &eacute;)\r\n- JS character encoding/decoding (example: é to \\u00E9)",
+			"author": "Martijn Coppoolse",
+			"homepage": "https://fossil.2of4.net/npp_htmltag/"
 		}
 	]
 }
