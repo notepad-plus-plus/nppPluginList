@@ -94,6 +94,16 @@
 			"homepage": "https://github.com/dinkumoil/AutoEolFormat"
 		},
 		{
+			"folder-name": "CustomLineNumbers",
+			"display-name": "CustomLineNumbers",
+			"version": "1.1.5",
+			"id": "37b353036b26b1462ce37b5e55937370f4daaa52890c34a0bd5e43348a0ded1f",
+			"repository": "https://github.com/dinkumoil/CustomLineNumbers/releases/download/v1.1.5/CustomLineNumbers_v1.1.5_x64_Npp7.5.9_PA.zip",
+			"description": "A plugin to display line numbers as hex numbers. You can also configure the starting line number.",
+			"author":"Andreas Heim",
+			"homepage": "https://github.com/dinkumoil/CustomLineNumbers"
+		},
+		{
 			"folder-name": "NppFTP",
 			"display-name": "NppFTP",
 			"version": "0.27.5",
