@@ -172,6 +172,66 @@
 			"description": "Automatically surround the selection in quotes/brackets/parenthesis/etc.",
 			"author": "Justin Dailey",
 			"homepage": "https://github.com/dail8859/SurroundSelection"
+		},
+		{
+			"folder-name": "3P",
+			"display-name": "3P - Progress Programmers Pal",
+			"version": "1.8.2",
+			"id": "a86c37fd26c34c58e95acea7ac46f4e7a50bb468f46eaa25cc37cd4bfd1a6385",
+			"repository": "https://github.com/jcaillon/3P/releases/download/v1.8.2/3P.zip",
+			"description": "[Requires .net framework 4.6.1]\r\n3P is a notepad++ plug-in designed to help writing OpenEdge ABL (formerly known as Progress 4GL) code. It provides :\r\n- a powerful auto-completion\r\n- tool-tips on every words\r\n- a code explorer to quickly navigate through your code\r\n- a file explorer to easily access all your sources\r\n- the ability to run/compile and even PROLINT your source file with an in-line visualization of errors\r\n- more than 50 options to better suit your needs\r\n- and so much more!\r\nVisit http://jcaillon.github.io/3P/ for more details on the plugin",
+			"author": "Julien Caillon",
+			"homepage": "https://jcaillon.github.io/3P/"
+		},
+		{
+			"folder-name": "CodeStats",
+			"display-name": "Code::Stats",
+			"version": "1.0.1",
+			"id": "e82def2cb807eddba5591281bc2f980bb6f99c50497380738ad5a9131d1a8246",
+			"repository": "https://github.com/p0358/notepadpp-CodeStats/releases/download/v1.0.1/notepadpp-CodeStats_x86.zip",
+			"description": "Code::Stats - Write code, level up, show off! A free stats tracking service for programmers. This plugin enables XP tracking in Notepad++.",
+			"author": "p0358",
+			"homepage": "https://github.com/p0358/notepadpp-CodeStats"
+		},
+		{
+			"folder-name": "ComparePlugin",
+			"display-name": "Compare",
+			"version": "2.0.0",
+			"id": "ff7891d4b463c525352a31496b559b1b6898bd0dac7bf9617e5b269a9c0b567c",
+			"repository": "https://github.com/pnedev/compare-plugin/releases/download/v2.0.0/ComparePlugin_v2.0.0_x86.zip",
+			"description": "A very useful compare plugin to show the differences between 2 files (side by side).",
+			"author": "Ty Landercasper, Jean-Sebastien Leroy, Pavel Nedev",
+			"homepage": "https://github.com/jsleroy/compare-plugin"
+		},
+		{
+			"folder-name": "CsvQuery",
+			"display-name": "CsvQuery",
+			"version": "1.2.6",
+			"id": "dea1a93c2e862669272fc61f53a884e266aac06e6a456e83b46d4971e2ade3cc",
+			"repository": "https://github.com/jokedst/CsvQuery/releases/download/v1.2.6/CsvQuery-v1.2.6-x86.zip",
+			"description": "Enables SQL queries against CSV files",
+			"author": "jokedst",
+			"homepage": "https://github.com/jokedst/CsvQuery"
+		},
+		{
+			"folder-name": "CustomizeToolbar",
+			"display-name": "Customize Toolbar",
+			"version": "4.1",
+			"id": "2f5d2676c1db32d2911bf12cc007bd536f87580ece6a6ad9a5347e1959a05429",
+			"repository": "https://sourceforge.net/projects/npp-customize/files/Customize%20Toolbar%20v4.1/CustomizeToolbar_4_1_UNI.zip",
+			"description": "This plugin allows the Notepad++ toolbar to be fully customised by the user, and includes twenty-nine additional buttons for frequently used menu commands.\r\nAll buttons on the toolbar can be customized, whether Notepad++ built-in buttons, the additional buttons, or buttons belonging to other plugins.\r\n                                   \r\nCustom buttons for Notepad++ or plugin menu commands can be defined using a configuration file.  It is possible to replace the icons of existing Notepad++ buttons.",
+			"author": "dw-dev@gmx.com",
+			"homepage": "https://sourceforge.net/projects/npp-customize"
+		},
+		{
+			"folder-name": "HTMLTag_unicode",
+			"display-name": "HTML Tag",
+			"version": "1.1.0.0",
+			"id": "d956aebc3cde36fbe87d128ece490c1227deff4470478973ab1affdd80fa3d5a",
+			"repository": "https://fossil.2of4.net/npp_htmltag/doc/v1.1.0/publish/HTMLTag_plugin_latest_unicode.zip",
+			"description": "This plug-in provides three core functions to Notepad++:\r\n- HTML and XML tag jumping, like the built-in brace matching (Ctrl+B / Shift+Ctrl+B), and selection\r\n  of tags and/or contents.\r\n- HTML entity encoding/decoding (example: é to &eacute;)\r\n- JS character encoding/decoding (example: é to \\u00E9)",
+			"author": "Martijn Coppoolse",
+			"homepage": "https://fossil.2of4.net/npp_htmltag/"
 		}
 	]
 }
