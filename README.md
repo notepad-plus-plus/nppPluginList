@@ -4,4 +4,4 @@ The list is in json format, but encapsulated in a binary (DLL), so it can be sig
 https://notepad-plus-plus.org/features/plugin-admin.html
 
 Please check here if you need any support:
-https://notepad-plus-plus.org/community/topic/16494/new-built-in-plugin-admin-plugin-manager-is-ready
+https://notepad-plus-plus.org/community/topic/16566/support-for-plugins-admin-npppluginlist
