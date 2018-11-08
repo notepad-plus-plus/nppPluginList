@@ -2,7 +2,7 @@
 	"name": "npp-pluginList",
 	"version": "1.0",
 	"arch": "64",
-	"npp-plugins" : [
+	"npp-plugins": [
 		{
 			"folder-name": "pork2sausage",
 			"display-name": "Pork to Sausage",
@@ -10,7 +10,7 @@
 			"id": "a5f17a0d3143b62c93feb9099e04e4fcc17b2f210c969a6acfab6272d76c3d2a",
 			"repository": "https://github.com/npp-plugins/pork2sausage/releases/download/v2.1/pork2sausage.2.1.bin.x64.zip",
 			"description": "Pork to Sausage is a plugin which is capable to pass any selected text to any command line program as input and to takes the output (the result of program) to replace the selected text.",
-			"author":"Don HO",
+			"author": "Don HO",
 			"homepage": "https://github.com/npp-plugins/pork2sausage"
 		},
 		{
@@ -20,7 +20,7 @@
 			"id": "9e58d41961884d0d0ef890010a817a9314d737c900da52f5243cef5559c71fc6",
 			"repository": "https://github.com/npp-plugins/mimetools/releases/download/v2.1/mimetools.v2.1.x64.zip",
 			"description": "MIME plugin for Notepad++ implements several main functionalities defined in MIME (Multipurpose Internet Mail Extensions).",
-			"author":"Don HO",
+			"author": "Don HO",
 			"homepage": "https://github.com/npp-plugins/mimetools"
 		},
 		{
@@ -30,7 +30,7 @@
 			"id": "ff5863e5d41818bf6f6d8bf0630a7051dcc28e2ba8ccb0a38612f6dd561ae020",
 			"repository": "https://github.com/npp-plugins/converter/releases/download/v4.2.1/nppConvert.v4.2.1.x64.zip",
 			"description": "NppConverter is a ASCII<->Hex converter plugin for Notepad++.",
-			"author":"Don HO",
+			"author": "Don HO",
 			"homepage": "https://github.com/npp-plugins/converter/"
 		},
 		{
@@ -40,7 +40,7 @@
 			"id": "15a2af2d2904c4e1674e52fd0a8eba34b3dacea0b7e911a380af9eae2282db3f",
 			"repository": "https://github.com/npp-plugins/selectnlaunch/releases/download/v2.1/selectNLaunch.v2.1.bin.x64.zip",
 			"description": "Select 'N' Launch's basic feature is get your selected text, save it as file with the extension you customized in the system temporary directory, then call system to open it with the extension associated program.",
-			"author":"Don HO",
+			"author": "Don HO",
 			"homepage": "https://github.com/npp-plugins/converter"
 		},
 		{
@@ -50,7 +50,7 @@
 			"id": "855a6c23a5672c691a512314c0a8b01674e2d26d91b0466f011392495f13cb28",
 			"repository": "https://github.com/npp-plugins/plugindemo/releases/download/3.1/pluginDemo.v3.1.bin.x64.zip",
 			"description": "Notepad++ Plugin Demo is written from Notepad++ Plugin Template to demonstrate the usage of plugin API.",
-			"author":"Don HO",
+			"author": "Don HO",
 			"homepage": "https://notepad-plus-plus.org/contribute/plugin-howto.html"
 		},
 		{
@@ -60,7 +60,7 @@
 			"id": "3b61450758939fdf273d491f148dcf3e8311e0f7af4c1c225a8a2bbd87a69886",
 			"repository": "https://github.com/npp-plugins/plugintemplate/releases/download/v3.1/pluginTemplate.v3.1.bin.x64.zip",
 			"description": "This template is done for making plugin development as easy and simple as possible. 4 steps and it's done - Even your grandmom can do it!",
-			"author":"Don HO",
+			"author": "Don HO",
 			"homepage": "https://notepad-plus-plus.org/contribute/plugin-howto.html"
 		},
 		{
@@ -70,28 +70,38 @@
 			"id": "4f094d8c3e50c60e513342a4abae0b3a78a2ff11241165a7cb984f6e81af5471",
 			"repository": "https://github.com/pnedev/nppgtags/releases/download/v4.4.1/NppGTags_v4.4.1_X64.zip",
 			"description": "This plugin is a front-end to GNU Global source code tagging system (GTags). It provides code indexing and search/navigation tools for various languages.",
-			"author":"Pavel Nedev",
+			"author": "Pavel Nedev",
 			"homepage": "https://github.com/pnedev/nppgtags"
 		},
 		{
 			"folder-name": "AutoCodepage",
 			"display-name": "AutoCodepage",
-			"version": "1.2.2",
-			"id": "23c0caa1fcdd726d7b17d0c385855ae1feca290e590964fc7a975e5fdd2bfe48",
-			"repository": "https://github.com/dinkumoil/AutoCodepage/releases/download/v1.2.2/AutoCodepage_v1.2.2_x64_Npp7.5.9_PA.zip",
+			"version": "1.2.3",
+			"id": "b22d9aa03f93578a176dff3ec4a61f80f05aa5a19a00136bcbb964668dafaa13",
+			"repository": "https://sourceforge.net/projects/autocodepage/files/v1.2.3/plugin/x64/AutoCodepage_v1.2.3_x64_PA.zip",
 			"description": "A plugin to automatically set a document's code page to your needs on loading or renaming a document, changing its language or activating its tab. Usefull especially when coding batch scripts.",
-			"author":"Andreas Heim",
-			"homepage": "https://github.com/dinkumoil/AutoCodepage"
+			"author": "Andreas Heim",
+			"homepage": "https://sourceforge.net/projects/autocodepage"
 		},
 		{
 			"folder-name": "AutoEolFormat",
 			"display-name": "AutoEolFormat",
-			"version": "1.0",
-			"id": "24b3fd927f4a50333675bfdc4934c17874d30bf04e07a71cbec90d051461aef9",
-			"repository": "https://github.com/dinkumoil/AutoEolFormat/releases/download/v1.0/AutoEolFormat_v1.0_x64_Npp7.5.9_PA.zip",
+			"version": "1.0.1",
+			"id": "dda28fce24058131c56cc12e0477b69070e6efd8be583faeca718af91d9f8a69",
+			"repository": "https://sourceforge.net/projects/autoeolformat/files/v1.0.1/plugin/x64/AutoEolFormat_v1.0.1_x64_PA.zip",
 			"description": "A plugin to automatically set a document's EOL (End of Line) format to your needs on loading, saving or renaming a document or activating its tab.",
-			"author":"Andreas Heim",
-			"homepage": "https://github.com/dinkumoil/AutoEolFormat"
+			"author": "Andreas Heim",
+			"homepage": "https://sourceforge.net/projects/autoeolformat"
+		},
+		{
+			"folder-name": "CustomLineNumbers",
+			"display-name": "CustomLineNumbers",
+			"version": "1.1.6",
+			"id": "9c155c45ed910210d20e67b1940262d4322d8ee5438f9bbbc69a2543a7c0c010",
+			"repository": "https://sourceforge.net/projects/customlinenumbers/files/v1.1.6/plugin/x64/CustomLineNumbers_v1.1.6_x64_PA.zip",
+			"description": "A plugin to display line numbers as hex numbers. You can also configure the starting line number.",
+			"author": "Andreas Heim",
+			"homepage": "https://sourceforge.net/projects/customlinenumbers"
 		},
 		{
 			"folder-name": "NppFTP",
@@ -100,7 +110,7 @@
 			"id": "a5c2d60b4269c9a8f3e167cce90844da641b5e74e62609ad2391055ca9f09631",
 			"repository": "https://github.com/ashkulz/NppFTP/releases/download/v0.27.5/NppFTP-x64_N759.zip",
 			"description": "NppFTP: a plugin that allows FTP, FTPS, FTPES and SFTP communications. Very useful for web development.",
-			"author":"ashish_kulz",
+			"author": "ashish_kulz",
 			"homepage": "https://ashkulz.github.io/NppFTP/"
 		},
 		{
@@ -110,7 +120,7 @@
 			"id": "016716c575a0b6f042862f6ffa329c68acb99c8f1bbfedc858a68eadf85788e2",
 			"repository": "https://github.com/Hsilgos/nppsaveasadmin/releases/download/1.0.172/NppSaveAsAdmin_1.0.172_x64.zip",
 			"description": "Allows to save file as administrator with UAC prompt.",
-			"author":"Yauheni Khnykin",
+			"author": "Yauheni Khnykin",
 			"homepage": "https://github.com/Hsilgos/nppsaveasadmin"
 		},
 		{
@@ -120,7 +130,7 @@
 			"id": "ee6adafdf8c96ecfa1c93d888d25528d53f5c47fd59bdc59d163308210ab77e8",
 			"repository": "https://github.com/Predelnik/DSpellCheck/releases/download/v1.4.7/DSpellCheck_x64.zip",
 			"description": "Spell-checking plugin, with following main features:\r\n-Underlining spelling mistakes\r\n-Iterating through all mistakes in document\r\n-Finding mistakes only in comments and strings (For files with standard programming language syntax e.g. C++)\r\n-Possible usage of multiple languages (dictionaries) simultaneously to do spell-checking.\r\n-Getting suggestions for words by either using default Notepad++ menu or separate context menu called by special button appearing under word.\r\n-Able to add words to user dictionary or ignore them for current session of Notepad++\r\n-Using either Hunspell library (included in plugin) or Aspell library (needs to be installed).\r\n-A lot of customizing available from Plugin settings (Ignoring/Allowing only specific files, Choosing delimiters for words, Maximum number of suggestions etc)\r\n-Support for downloading and removing Hunspell dictionaries through user friendly GUI interface\r\n-Ability to quickly change current language through the nice menu.",
-			"author":"Sergey Semushin",
+			"author": "Sergey Semushin",
 			"homepage": "https://github.com/Predelnik/DSpellCheck/releases"
 		},
 		{
@@ -232,6 +242,66 @@
 			"description": "This plug-in provides three core functions to Notepad++:\r\n- HTML and XML tag jumping, like the built-in brace matching (Ctrl+B / Shift+Ctrl+B), and selection\r\n  of tags and/or contents.\r\n- HTML entity encoding/decoding (example: é to &eacute;)\r\n- JS character encoding/decoding (example: é to \\u00E9)",
 			"author": "Martijn Coppoolse",
 			"homepage": "https://fossil.2of4.net/npp_htmltag/"
+		},
+		{
+			"folder-name": "ImgTag",
+			"display-name": "ImgTag",
+			"version": "2.0.1",
+			"id": "731d0fa26cea7057c694fb84364cd8f4905002c4e2e21bea2799b6ba6f0ab265",
+			"repository": "https://github.com/chcg/ImgTag/releases/download/2.0.1.8/ImgTag_2.0.1.8_x64.zip",
+			"description": "ImgTag allows to insert img tags, in your html document, using the Open File Dialog Box to select image files.",
+			"author": "salvom",
+			"homepage": "https://sourceforge.net/projects/imgtag/"
+		},
+		{
+			"folder-name": "JsMapParser.NppPlugin",
+			"display-name": "JavaScript Map Parser",
+			"version": "4.2",
+			"id": "87adc16dafdc1438fe9ab2a9377adb205bc1f75f00cc4541431afeb83240d8c3",
+			"repository": "https://github.com/megaboich/js-map-parser/releases/download/4.2/JsMapParser_NppPlugin_4_2_x64.zip",
+			"description": "This is an extension for for better JavaScript support. It provides a panel with hierarchy structure of functions in your js file.",
+			"author": "Oleksandr Boiko",
+			"homepage": "https://github.com/megaboich/js-map-parser/"
+		},
+		{
+			"folder-name": "NPPJSONViewer",
+			"display-name": "JSON Viewer",
+			"version": "1.32",
+			"id": "8aa2b15de7992f7699c92ac89212dc966a146bec9651ba4c2220e40bc5544e36",
+			"repository": "https://github.com/kapilratnani/JSON-Viewer/releases/download/1.32/NPPJSONViewerX64.zip",
+			"description": "A JSON viewer plugin for notepad++. Displays the selected JSON string in a tree view.",
+			"author": "Kapil Ratnani",
+			"homepage": "https://github.com/kapilratnani/JSON-Viewer"
+		},
+		{
+			"folder-name": "JSMinNPP",
+			"display-name": "JSTool",
+			"version": "1.1810.3",
+			"id": "4ef40da9d6d4ef3aef89889cd6cf1f681ea91250023c20734a5842d06afadd62",
+			"repository": "https://sourceforge.net/projects/jsminnpp/files/Uni/JSToolNPP.1.1810.3.uni.64.zip",
+			"description": "A javascript plugin for Notepad++.\r\n * Douglas Crockford's JSMin algorithm to minimize javascript code.\r\n * My own algorithm to format javascript code.\r\n * A JSON data viewer. This JSON data viewer can handle >10MB JSON file easily.\r\n * Support 64bit Notepad++ (from version 1.20.0).\r\nReally helpful to javascript coder on Notepad++ and really easy to use it.\r\nMade in China.",
+			"author": "Sun Junwen",
+			"homepage": "https://github.com/sunjw/jstoolnpp"
+		},
+		{
+			"folder-name": "MarkdownViewerPlusPlus",
+			"display-name": "MarkdownViewer++",
+			"version": "0.8.2",
+			"id": "e343c52798d76ef91bba41821088cc3e199d475c7124571881b560b6a3ec4693",
+			"repository": "https://github.com/nea/MarkdownViewerPlusPlus/releases/download/0.8.2/MarkdownViewerPlusPlus-0.8.2-x64.zip",
+			"description": "View a Markdown/CommonMark compliant text file rendered on-the-fly directly in Notepad++ in a docked panel.\r\nExport the rendered result as HTML or PDF and configure the file extensions to be rendered.",
+			"author": "nea",
+			"homepage": "https://nea.github.io/MarkdownViewerPlusPlus/"
+		},
+		{
+			"folder-name": "MusicPlayer_1.0.11x64",
+			"display-name": "MusicPlayer",
+			"version": "1.0.0.3",
+			"id": "beff62a207cceb47be805a4c32f8e791cf61bc3338e7bb13308dd0358354f439",
+			"repository": "https://github.com/gallettube/MusicPlayer/releases/download/1.0.11/MusicPlayer_1.0.11x64.dll.zip",
+			"description": "It's a plug in to open and play music files.\r\nSupports:\r\n*.wav\r\n*.mp3\r\n*.aiff\r\n*.wma",
+			"author": "Jon Galletero",
+			"homepage": "https://sourceforge.net/projects/nppmusicplayer"
 		}
 	]
 }
