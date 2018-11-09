@@ -232,6 +232,66 @@
 			"description": "This plug-in provides three core functions to Notepad++:\r\n- HTML and XML tag jumping, like the built-in brace matching (Ctrl+B / Shift+Ctrl+B), and selection\r\n  of tags and/or contents.\r\n- HTML entity encoding/decoding (example: é to &eacute;)\r\n- JS character encoding/decoding (example: é to \\u00E9)",
 			"author": "Martijn Coppoolse",
 			"homepage": "https://fossil.2of4.net/npp_htmltag/"
+		},
+		{
+			"folder-name": "ImgTag",
+			"display-name": "ImgTag",
+			"version": "2.0.1",
+			"id": "0381685bc8410c301dc492e52c5fc99abdb55368ce18822f67e2fb31cf88886c",
+			"repository": "https://sourceforge.net/projects/imgtag/files/ImgTag_binary_unicode_2.0.1.zip",
+			"description": "ImgTag allows to insert img tags, in your html document, using the Open File Dialog Box to select image files.",
+			"author": "salvom",
+			"homepage": "https://sourceforge.net/projects/imgtag/"
+		},
+		{
+			"folder-name": "JsMapParser.NppPlugin",
+			"display-name": "JavaScript Map Parser",
+			"version": "4.2",
+			"id": "a42f6f1496a652b37b47bb4d304e6b1dbf22bb74181a345b3b391016a73e8d7c",
+			"repository": "https://github.com/megaboich/js-map-parser/releases/download/4.2/JsMapParser_NppPlugin_4_2_x86.zip",
+			"description": "This is an extension for for better JavaScript support. It provides a panel with hierarchy structure of functions in your js file.",
+			"author": "Oleksandr Boiko",
+			"homepage": "https://github.com/megaboich/js-map-parser/"
+		},
+		{
+			"folder-name": "NPPJSONViewer",
+			"display-name": "JSON Viewer",
+			"version": "1.32",
+			"id": "2f119a644edab00baf0ab112bcc713a87cadd4cb66c7431b444d10d55fb11824",
+			"repository": "https://github.com/kapilratnani/JSON-Viewer/releases/download/1.32/NPPJSONViewerWin32.zip",
+			"description": "A JSON viewer plugin for notepad++. Displays the selected JSON string in a tree view.",
+			"author": "Kapil Ratnani",
+			"homepage": "https://github.com/kapilratnani/JSON-Viewer"
+		},
+		{
+			"folder-name": "JSMinNPP",
+			"display-name": "JSTool",
+			"version": "1.1810.3",
+			"id": "4d511ec705777b8ccb2b2c2b5689ad591c49d70a2dbc989b0c1a9c5b27510ce7",
+			"repository": "https://sourceforge.net/projects/jsminnpp/files/Uni/JSToolNPP.1.1810.3.uni.32.zip",
+			"description": "A javascript plugin for Notepad++.\r\n * Douglas Crockford's JSMin algorithm to minimize javascript code.\r\n * My own algorithm to format javascript code.\r\n * A JSON data viewer. This JSON data viewer can handle >10MB JSON file easily.\r\n * Support 64bit Notepad++ (from version 1.20.0).\r\nReally helpful to javascript coder on Notepad++ and really easy to use it.\r\nMade in China.",
+			"author": "Sun Junwen",
+			"homepage": "https://github.com/sunjw/jstoolnpp"
+		},
+		{
+			"folder-name": "MarkdownViewerPlusPlus",
+			"display-name": "MarkdownViewer++",
+			"version": "0.8.2",
+			"id": "c62cce888f6a580c2e958480bd6bbed0e2c80f15ec1c422643650ed1eb1d0e3c",
+			"repository": "https://github.com/nea/MarkdownViewerPlusPlus/releases/download/0.8.2/MarkdownViewerPlusPlus-0.8.2-x86.zip",
+			"description": "View a Markdown/CommonMark compliant text file rendered on-the-fly directly in Notepad++ in a docked panel.\r\nExport the rendered result as HTML or PDF and configure the file extensions to be rendered.",
+			"author": "nea",
+			"homepage": "https://nea.github.io/MarkdownViewerPlusPlus/"
+		},
+		{
+			"folder-name": "MusicPlaye_1.0.11x86r",
+			"display-name": "MusicPlayer",
+			"version": "1.0.0.3",
+			"id": "0961a0238198fd2245b39a2303483aa0ddb028532db26dd6e0101ee0e5c406fb",
+			"repository": "https://github.com/gallettube/MusicPlayer/releases/download/1.0.11/MusicPlaye_1.0.11x86r.dll.zip",
+			"description": "It's a plug in to open and play music files.\r\nSupports:\r\n*.wav\r\n*.mp3\r\n*.aiff\r\n*.wma",
+			"author": "Jon Galletero",
+			"homepage": "https://sourceforge.net/projects/nppmusicplayer"
 		}
 	]
 }
