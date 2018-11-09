@@ -2,7 +2,7 @@
 	"name": "npp-pluginList",
 	"version": "1.0",
 	"arch": "32",
-	"npp-plugins" : [
+	"npp-plugins": [
 		{
 			"folder-name": "pork2sausage",
 			"display-name": "Pork to Sausage",
@@ -10,7 +10,7 @@
 			"id": "0744ee41277831e353337c6c651f46dc34c663da70f47df1590cf18c9eeaccd6",
 			"repository": "https://github.com/npp-plugins/pork2sausage/releases/download/v2.1/pork2sausage.2.1.bin.zip",
 			"description": "Pork to Sausage is a plugin which is capable to pass any selected text to any command line program as input and to takes the output (the result of program) to replace the selected text.",
-			"author":"Don HO",
+			"author": "Don HO",
 			"homepage": "https://github.com/npp-plugins/pork2sausage"
 		},
 		{
@@ -20,7 +20,7 @@
 			"id": "feaa1225099ad073daf5b4bc715a0b39ad7ba051805b1ccd2b5520a2f53e5f0d",
 			"repository": "https://github.com/npp-plugins/mimetools/releases/download/v2.1/mimetools.v2.1.zip",
 			"description": "MIME plugin for Notepad++ implements several main functionalities defined in MIME (Multipurpose Internet Mail Extensions).",
-			"author":"Don HO",
+			"author": "Don HO",
 			"homepage": "https://github.com/npp-plugins/mimetools"
 		},
 		{
@@ -30,7 +30,7 @@
 			"id": "b476cc31ae49747b1ab4847e9b13b498fdef9e26b9854688f19987a6093a9a17",
 			"repository": "https://github.com/npp-plugins/converter/releases/download/v4.2.1/nppConvert.v4.2.1.zip",
 			"description": "NppConverter is a ASCII<->Hex converter plugin for Notepad++.",
-			"author":"Don HO",
+			"author": "Don HO",
 			"homepage": "https://github.com/npp-plugins/converter/"
 		},
 		{
@@ -40,7 +40,7 @@
 			"id": "bb6e5eeb6707ac469e0cecd36b021349d8a9b223c7c5351777cfdba8463cca69",
 			"repository": "https://github.com/npp-plugins/selectnlaunch/releases/download/v2.1/selectNLaunch.v2.1.bin.zip",
 			"description": "Select 'N' Launch's basic feature is get your selected text, save it as file with the extension you customized in the system temporary directory, then call system to open it with the extension associated program.",
-			"author":"Don HO",
+			"author": "Don HO",
 			"homepage": "https://github.com/npp-plugins/converter"
 		},
 		{
@@ -50,7 +50,7 @@
 			"id": "fe51bb91d6fdc29c9338e2a8b84004db704c6a0bb5d78c3b430c307dd0a47ef1",
 			"repository": "https://github.com/npp-plugins/plugindemo/releases/download/3.1/pluginDemo.v3.1.bin.zip",
 			"description": "Notepad++ Plugin Demo is written from Notepad++ Plugin Template to demonstrate the usage of plugin API.",
-			"author":"Don HO",
+			"author": "Don HO",
 			"homepage": "https://notepad-plus-plus.org/contribute/plugin-howto.html"
 		},
 		{
@@ -60,7 +60,7 @@
 			"id": "ed3be3588343a414d28a3d6e9dd672535dc2ead8e7c83804afa4463e7cb2e04b",
 			"repository": "https://github.com/npp-plugins/plugintemplate/releases/download/v3.1/pluginTemplate.v3.1.bin.zip",
 			"description": "This template is done for making plugin development as easy and simple as possible. 4 steps and it's done - Even your grandmom can do it!",
-			"author":"Don HO",
+			"author": "Don HO",
 			"homepage": "https://notepad-plus-plus.org/contribute/plugin-howto.html"
 		},
 		{
@@ -70,28 +70,38 @@
 			"id": "d779dfac1a82cab4650236a7c7d52bb675f65092570649451091ae0f4c2cbef3",
 			"repository": "https://github.com/pnedev/nppgtags/releases/download/v4.4.1/NppGTags_v4.4.1_x86.zip",
 			"description": "This plugin is a front-end to GNU Global source code tagging system (GTags). It provides code indexing and search/navigation tools for various languages.",
-			"author":"Pavel Nedev",
+			"author": "Pavel Nedev",
 			"homepage": "https://github.com/pnedev/nppgtags"
 		},
 		{
 			"folder-name": "AutoCodepage",
 			"display-name": "AutoCodepage",
-			"version": "1.2.2",
-			"id": "44ac7d2a48c4860aabccb838584e0c2f268a0c550aa542d226eec8650cb04430",
-			"repository": "https://github.com/dinkumoil/AutoCodepage/releases/download/v1.2.2/AutoCodepage_v1.2.2_UNI_Npp7.5.9_PA.zip",
+			"version": "1.2.3",
+			"id": "16215219727c057c87d87c7c4d1bbbff183c44260667ca724829ecb8819447d1",
+			"repository": "https://sourceforge.net/projects/autocodepage/files/v1.2.3/plugin/x86/AutoCodepage_v1.2.3_UNI_PA.zip",
 			"description": "A plugin to automatically set a document's code page to your needs on loading or renaming a document, changing its language or activating its tab. Usefull especially when coding batch scripts.",
-			"author":"Andreas Heim",
-			"homepage": "https://github.com/dinkumoil/AutoCodepage"
+			"author": "Andreas Heim",
+			"homepage": "https://sourceforge.net/projects/autocodepage"
 		},
 		{
 			"folder-name": "AutoEolFormat",
 			"display-name": "AutoEolFormat",
-			"version": "1.0",
-			"id": "3605975080f72a141223b5be8f83931a76e0dbb9069adb22edb12c11ebb04c48",
-			"repository": "https://github.com/dinkumoil/AutoEolFormat/releases/download/v1.0/AutoEolFormat_v1.0_UNI_Npp7.5.9_PA.zip",
+			"version": "1.0.1",
+			"id": "2c1ad18ffda3fe17ecd0c8b788b75e813adfde3b4f4f7f1871e7253bd054a00e",
+			"repository": "https://sourceforge.net/projects/autoeolformat/files/v1.0.1/plugin/x86/AutoEolFormat_v1.0.1_UNI_PA.zip",
 			"description": "A plugin to automatically set a document's EOL (End of Line) format to your needs on loading, saving or renaming a document or activating its tab.",
-			"author":"Andreas Heim",
-			"homepage": "https://github.com/dinkumoil/AutoEolFormat"
+			"author": "Andreas Heim",
+			"homepage": "https://sourceforge.net/projects/autoeolformat"
+		},
+		{
+			"folder-name": "CustomLineNumbers",
+			"display-name": "CustomLineNumbers",
+			"version": "1.1.6",
+			"id": "5630a07a135dce0f9542547685d180490e1cf3e5486ce404948d34d63ce9efc3",
+			"repository": "https://sourceforge.net/projects/customlinenumbers/files/v1.1.6/plugin/x86/CustomLineNumbers_v1.1.6_UNI_PA.zip",
+			"description": "A plugin to display line numbers as hex numbers. You can also configure the starting line number.",
+			"author": "Andreas Heim",
+			"homepage": "https://sourceforge.net/projects/customlinenumbers"
 		},
 		{
 			"folder-name": "NppFTP",
@@ -100,7 +110,7 @@
 			"id": "33ce9ebc17c95816f210c122868076291586410ad8e965823e4839da88be9134",
 			"repository": "https://github.com/ashkulz/NppFTP/releases/download/v0.27.5/NppFTP-x86_N759.zip",
 			"description": "NppFTP: a plugin that allows FTP, FTPS, FTPES and SFTP communications. Very useful for web development.",
-			"author":"ashish_kulz",
+			"author": "ashish_kulz",
 			"homepage": "https://ashkulz.github.io/NppFTP/"
 		},
 		{
@@ -110,7 +120,7 @@
 			"id": "f926ac2b4be6977c2562eb7d5207e746bcfa067d8c632e63652e797866202e8c",
 			"repository": "https://github.com/Hsilgos/nppsaveasadmin/releases/download/1.0.172/NppSaveAsAdmin_1.0.172_x86.zip",
 			"description": "Allows to save file as administrator with UAC prompt.",
-			"author":"Yauheni Khnykin",
+			"author": "Yauheni Khnykin",
 			"homepage": "https://github.com/Hsilgos/nppsaveasadmin"
 		},
 		{
@@ -120,7 +130,7 @@
 			"id": "e6870b26edde1bcd901c699b8a21464e49176df40b722072096f50a82205737a",
 			"repository": "https://github.com/Predelnik/DSpellCheck/releases/download/v1.4.7/DSpellCheck_x86.zip",
 			"description": "Spell-checking plugin, with following main features:\r\n-Underlining spelling mistakes\r\n-Iterating through all mistakes in document\r\n-Finding mistakes only in comments and strings (For files with standard programming language syntax e.g. C++)\r\n-Possible usage of multiple languages (dictionaries) simultaneously to do spell-checking.\r\n-Getting suggestions for words by either using default Notepad++ menu or separate context menu called by special button appearing under word.\r\n-Able to add words to user dictionary or ignore them for current session of Notepad++\r\n-Using either Hunspell library (included in plugin) or Aspell library (needs to be installed).\r\n-A lot of customizing available from Plugin settings (Ignoring/Allowing only specific files, Choosing delimiters for words, Maximum number of suggestions etc)\r\n-Support for downloading and removing Hunspell dictionaries through user friendly GUI interface\r\n-Ability to quickly change current language through the nice menu.",
-			"author":"Sergey Semushin",
+			"author": "Sergey Semushin",
 			"homepage": "https://github.com/Predelnik/DSpellCheck/releases"
 		},
 		{
