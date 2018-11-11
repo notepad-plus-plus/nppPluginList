@@ -302,6 +302,226 @@
 			"description": "It's a plug in to open and play music files.\r\nSupports:\r\n*.wav\r\n*.mp3\r\n*.aiff\r\n*.wma",
 			"author": "Jon Galletero",
 			"homepage": "https://sourceforge.net/projects/nppmusicplayer"
+		},
+		{
+			"folder-name": "NppBplistPlugin",
+			"display-name": "Notepad++ bplist plugin",
+			"version": "1.2.0.4",
+			"id": "51cbcb16d4f31f71ceda4faa237ab613eb2332ec3d97d31e0c12ddaf81c870fa",
+			"repository": "https://github.com/azerg/NppBplistPlugin/releases/download/1.2.0.4/NppBplistPlugin_x86.zip",
+			"description": "This plugin supports viewing/editing binary plist files. As long as ordinary plist files comes in XML format, this plugin dont supports them. It loads only binary plist files ( bplist ).",
+			"author": "azerg",
+			"homepage": "http://blog.azerg.com/"
+		},
+		{
+			"folder-name": "NotepadStarterPlugin",
+			"display-name": "NotepadStarterPlugin",
+			"version": "2.3.2.0",
+			"id": "4022cb3db419a5f89ab0e94a11400d1b4ca763468b875c2bc3de7181a5ad8bf0",
+			"repository": "https://github.com/lygstate/NotepadStarter/releases/download/2.3.2.0/NotepadStarter_2.3.2.0_Win32.zip",
+			"description": "This tool designed as a Notepad++ plugin by [Yonggang Luo](luoyonggang(at)gmail.com), when\r\nit installed as a Notepad++ plugin or running NotepadStarter.exe in the Notepad++ app\r\ndirectory, it's will automatically replace the system default notepad.exe application with\r\nNotepad++ (Without need for removing anything from the windows system.).  It's tested\r\nunder Windows 7, but Windows XP should also works.",
+			"author": "Yonggang Luo",
+			"homepage": "https://github.com/lygstate/NotepadStarter/"
+		},
+		{
+			"folder-name": "NppXmlTreeviewPlugin",
+			"display-name": "Npp Xml Treeview",
+			"version": "2.0.0",
+			"id": "d18c0c61b9d070aeba138a0ac3cb98d9ece4efbe6181cf71dbd6f9a1b00fedb9",
+			"repository": "https://github.com/joaoasrosa/nppxmltreeview/releases/download/v2.0.0/NppXMLTreeViewPlugin_x86.zip",
+			"description": "A treeview visualization for xml files.",
+			"author": "João Rosa",
+			"homepage": ""
+		},
+		{
+			"folder-name": "nppcrypt",
+			"display-name": "NppCrypt",
+			"version": "1.0.1.5",
+			"id": "e59a84a31a39414e43a5b6e770ab4debbad0174391bf40d3444abef9d62c7a03",
+			"repository": "https://github.com/jeanpaulrichter/nppcrypt/releases/download/1.0.1.5/nppcrypt_1.0.1.5_x86.zip",
+			"description": "encryption/decryption with various block ciphers, hash-algorithms, random-characters, encoding with base-16/32/64",
+			"author": "Jean Paul Richter",
+			"homepage": "https://github.com/jeanpaulrichter/nppcrypt"
+		},
+		{
+			"folder-name": "NppEventExec",
+			"display-name": "NppEventExec",
+			"version": "0.9.0",
+			"id": "4402d18ca936d3a53462cf31749766077f54e6eb6b1acb9cab1a96c1979d6c16",
+			"repository": "https://github.com/MIvanchev/NppEventExec/releases/download/v0.9.0/NppEventExec-plugin-x86-0.9.0.zip",
+			"description": "NppEventExec allows you to automatically execute NppExec scripts on Notepad++ events. You can use it for example to format and compile source code. Unleash the beast.",
+			"author": "Mihail Ivanchev",
+			"homepage": "https://github.com/MIvanchev/NppEventExec"
+		},
+		{
+			"folder-name": "NppExec",
+			"display-name": "NppExec",
+			"version": "0.6",
+			"id": "ee79ef41545d5ec2dbb13418d8602aa5963359a691ed0174dd07194f2cb83783",
+			"repository": "https://sourceforge.net/projects/npp-plugins/files/NppExec/NppExec%20Plugin%20v0.6%20RC2/NppExec_06RC2_dll.zip",
+			"description": "With this NppExec plugin you can execute your commands or saved scripts without leaving Notepad++. It makes you triple your productivity!",
+			"author": "Vitaliy Dovgan",
+			"homepage": ""
+		},
+		{
+			"folder-name": "NppExport",
+			"display-name": "NppExport",
+			"version": "0.2.8.0",
+			"id": "aa13d9fd0e4f0dcc2f45dba634b67646fad81ede452978708c57afb0cf59ef7a",
+			"repository": "https://downloads.sourceforge.net/sourceforge/npp-plugins/NppExport_0_2_8_dll.zip",
+			"description": "NppExport is a true WYSIWYG exporter. It allows you not only to save your source code as a html/rtf file, but also to copy your source code in the clipboard in RTF/HTML format, so you can paste it into your word processor (MS Word, Abiword, openoffice.org Writer) to get the same visual effect.",
+			"author": "",
+			"homepage": ""
+		},
+		{
+			"folder-name": "NppFavorites",
+			"display-name": "NppFavorites",
+			"version": "1.0.0.1",
+			"id": "2fe563d3c926bc510e1ca913c3c8c3aad2277b3fa1a602ec4c4d0acf95ce5097",
+			"repository": "https://github.com/heldersepu/nppfavorites/releases/download/1.0.0.1.21/NppFavorites_1.0.0.1.21_x86.zip",
+			"description": "Favorites plugin for Notepad++\r\n\r\nNotepad++ is a GREAT text editor for programmers, but it does not come with favorites...\r\nThis project is a simple solution to that problem.",
+			"author": "Helder Sepulveda",
+			"homepage": ""
+		},
+		{
+			"folder-name": "NppJumpList",
+			"display-name": "NppJumpList",
+			"version": "1.2.2",
+			"id": "d0cfeda1a5a452a5904400f2dcafd8f861aede30a8afd806123e53b40dad2cc3",
+			"repository": "https://downloads.sourceforge.net/project/nppjumplist/1.2.2/NppJumpList.1.2.2.bin.zip",
+			"description": "Adds windows 7 jump list support.",
+			"author": "ahvgeezer",
+			"homepage": "https://sourceforge.net/projects/nppjumplist/"
+		},
+		{
+			"folder-name": "NppDocShare",
+			"display-name": "NppNetNote",
+			"version": "0.1.0.0",
+			"id": "b403831ad9e3578ecc8f2d4ffca1f5074b5c867e37791a8f17fce6098506e49d",
+			"repository": "https://downloads.sourceforge.net/sourceforge/npp-plugins/NppDocShare_0_1_dll.zip",
+			"description": "Allows the same document to be edited in real time on two different computers.  Only needs a network connection between the two.",
+			"author": "Harrybharry",
+			"homepage": ""
+		},
+		{
+			"folder-name": "NppQrCode32",
+			"display-name": "NppQrCode",
+			"version": "0.0.0.1",
+			"id": "c6a2cefbd8d71258f85f95e44fcb37cbc153a147f34c8bb41b34f58fe9d2a3b9",
+			"repository": "https://github.com/vladk1973/NppQrCode/releases/download/v0.0.0.1/NppQrCode-0.0.0.1-x32.zip",
+			"description": "This plugin allows to create QR-Code from selected text. Just select the text and push plugin button.",
+			"author": "Vladimir Korobenkov",
+			"homepage": "https://github.com/vladk1973/NppQrCode"
+		},
+		{
+			"folder-name": "NppRegExTractorPlugin",
+			"display-name": "NppRegExTractor",
+			"version": "2.0.0",
+			"id": "9d005287cfab63f624bcb3efe0bd38e48f0c8e2e1a711ed94857099fbd79fd75",
+			"repository": "https://github.com/viper3400/NppRegExTractor/releases/download/2.0.0/NppRegExTractor_2.0.0_BUILD_2_x86.zip",
+			"description": "Search one or more regular expression in one ore more different files and get and xml search result.",
+			"author": "Jan Graefe",
+			"homepage": "https://github.com/viper3400/RegExTractor/wiki/de_userdocumentation"
+		},
+		{
+			"folder-name": "PluginManager",
+			"display-name": "Plugin Manager",
+			"version": "1.4.12",
+			"id": "1675091ee23a0624fd9c200d9185eb90cc0dfe23d2c982781e5f60a5bad67b40",
+			"repository": "https://github.com/bruderstein/nppPluginManager/releases/download/v1.4.12/PluginManager_v1.4.12_UNI_PA.zip",
+			"description": "The Plugin Manager is this plugin, that allows installation, update and removal of Notepad++ plugins. It will notify you of updates to plugins that you have installed, and automatically install dependencies and required files into the correct places.",
+			"author": "Dave Brotherstone",
+			"homepage": "https://bruderste.in/npp/pm/"
+		},
+		{
+			"folder-name": "SelectQuotedText",
+			"display-name": "SelectQuotedText",
+			"version": "1.0.0",
+			"id": "798b6624432a62adbfd9ef514d3ce8e0a423c22d2fe1b030eca2b1fdf7ae6533",
+			"repository": "https://github.com/ffes/selectquotedtext/releases/download/v1.0.0/SelectQuotedText-100-x32.zip",
+			"description": "Select the text in quotes (aka a string) based on the Scintilla lexers in Notepad++. Just press Alt+' and select the entire string under the cursor. If no string is found, it select the current word.",
+			"author": "Frank Fesevur",
+			"homepage": "https://www.fesevur.com/selectquotedtext"
+		},
+		{
+			"folder-name": "NppSnippets",
+			"display-name": "Snippets",
+			"version": "1.4.0",
+			"id": "26751a8805f273603d1f1d3d90459083750723310a66671a9a061f317eeaa1b4",
+			"repository": "https://github.com/ffes/nppsnippets/releases/download/v1.4.0/NppSnippets-140-x32.zip",
+			"description": "Adds the possibility to add code snippets to the current document by selecting it from a simple list.",
+			"author": "Frank Fesevur",
+			"homepage": "https://www.fesevur.com/nppsnippets"
+		},
+		{
+			"folder-name": "SQLinFormNpp",
+			"display-name": "SQLinForm",
+			"version": "5.3.19",
+			"id": "4e389597822cab23d6056a78ec3691555a14406e0480551dd915e256751a3ad4",
+			"repository": "https://www.sqlinform.com/npp/SQLinFormNpp_5.3.19.zip",
+			"description": "SQLinForm formats plain SQL, SQL embedded in Program Code, SQL snippets and SQL Statements with syntax errors.\r\n SQLinForm's Plugin for Notepad++ has a powerful code folding feature and formats your SQL as you Type. It supports all major DB like Oracle, DB2, SQL Server, Teradata, Netezza, MySQL, Sybase, MS Access, etc. SQLinForm incorporates its own multi-DB parser engine. No additional software is required.",
+			"author": "Guido Thelen",
+			"homepage": "https://www.sqlinform.com"
+		},
+		{
+			"folder-name": "TagLEET",
+			"display-name": "TagLEET",
+			"version": "1.3.1.0",
+			"id": "c28bfe210c28917e2ca1a4fd45ff0eb4688277472fff86bfdbc0aee524a01777",
+			"repository": "https://sourceforge.net/projects/tagleet/files/v1.3.1/TagLEET_1.3.1.1.zip",
+			"description": "Ctags browser. Look up the definition of variables and functions in source code. Can also find include files if ctags file was generated correctly. Ultra fast with low memory usage. Allow working with a single ctags file for very large projects.",
+			"author": "Gur Stavi",
+			"homepage": "https://sourceforge.net/projects/tagleet/"
+		},
+		{
+			"folder-name": "NppTaskList",
+			"display-name": "Task List",
+			"version": "2.1",
+			"id": "8366c7a9290267fd0d0995086baeb0927f7ed3ad4398f2d861ecf90b7935ee3d",
+			"repository": "https://github.com/Megabyteceer/npp-task-list/releases/download/v2.1.0/NppTaskList_v2.1.0_x86.zip",
+			"description": "This plugin automatically scans the open document in Notepad++ and adds all \"TODO:*\" items to your task list, a window pane docked on the right. Double-clicking an item in the list will take you to that line in the code.",
+			"author": "blitowitz",
+			"homepage": "https://code.google.com/p/npp-task-list/"
+		},
+		{
+			"folder-name": "NppToolBucket",
+			"display-name": "ToolBucket",
+			"version": "1.10",
+			"id": "6d28d2a74d9ab77cb451380d3482a15760bd1f353cf0a808a35fc5a989f8f781",
+			"repository": "https://phdesign.com.au/assets/files/NppToolBucket-1.10.zip",
+			"description": "Requires .NET 3.5\r\nMulti-line search and replace dialog.\r\nChange indentation dialog.\r\nGenerate GUID\r\nGenerate Lorem Ipsum\r\nCompute MD5 Hash\r\nCompute SHA1 Hash\r\nBase 64 encode\r\nBase 64 decode",
+			"author": "Paul Heasley",
+			"homepage": "https://phdesign.com.au/npptoolbucket/"
+		},
+		{
+			"folder-name": "ViSimulator",
+			"display-name": "ViSimulator for Notepad++",
+			"version": "18.03.08",
+			"id": "5fbdf19d3005462d453a0346f10794ad7e2062450d8fbccf8503624b182ed488",
+			"repository": "https://github.com/bycn82/visimulator/raw/master/x32/ViSimulator-x32-20180308.zip",
+			"description": "It is a plugin for Notepad++ which provides a Vi-Style input scheme like moving around with hjkl and editing text on Notepad++.\r\n\r\nMost of the common commands in vi are supported via this plugin Fast tap the 'ESC' 3 times to enable/disable the plugin\r\n\r\nBelow are list of the supported commands:\r\n\r\n    h j k l - move the cursor\r\n    a i o - switch to edit mode\r\n    $ - move to the end of the line\r\n    0 - move to the beginning of the line\r\n    w e - move to next word\r\n    u - undo\r\n    x - delete character[s]\r\n    d[G] - cut line[s]\r\n    y[G] - yank line[s]\r\n    p - paste\r\n    n N - search next matched\r\n    :number - move to the cursor to line\r\n    :w - save\r\n    :q - quit\r\n    :help - show all the supported commands",
+			"author": "bycn82",
+			"homepage": "https://github.com/bycn82/visimulator"
+		},
+		{
+			"folder-name": "XBrackets",
+			"display-name": "XBrackets Lite",
+			"version": "1.3.0",
+			"id": "777d45fa10ba929efb6ae6b77f96d9ca77ed9236c7be7d1125748447adcd8049",
+			"repository": "https://sourceforge.net/projects/npp-plugins/files/XBrackets%20Lite/XBrackets%20Plugin%20v1.3.0/XBrackets_v130_dll.zip",
+			"description": "XBrackets Lite allows to autocomplete brackets ([{\"\"}]) i.e. it inserts corresponding right bracket when the left bracket is typed. The plugin uses \"smart\" autocompletion: * next character is analysed for ([{ brackets; * next &amp; previous characters are analysed for \" quote.",
+			"author": "Dovgan Vitaliy",
+			"homepage": ""
+		},
+		{
+			"folder-name": "zoomdisabler",
+			"display-name": "Zoom Disabler",
+			"version": "1.2.0",
+			"id": "eb49c4fce581fa63b024a3a0454ccc49d082b9524c0cc9a0d5c25544e264da55",
+			"repository": "https://github.com/StanDog/npp-zoomdisabler/raw/master/RELEASES/zoomdisabler_1.2.0.zip",
+			"description": "Worried about zooming your document everytime you just want to scroll but accidentally still holding the [Ctrl] key? Then this plugin is what you want! It disables mouse zoom or keyboard zoom or both.",
+			"author": "Stanislav Eckert",
+			"homepage": "https://github.com/StanDog/npp-zoomdisabler"
 		}
 	]
 }
