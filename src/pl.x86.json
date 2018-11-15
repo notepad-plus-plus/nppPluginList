@@ -254,6 +254,17 @@
 			"homepage": "https://sourceforge.net/projects/imgtag/"
 		},
 		{
+
+                        "folder-name": "jN",
+                        "display-name": "jN",
+                        "version": "2.2.185.4",
+                        "id": "ab1eb13c3912635e1df89488866357f1a8dcc4e99d09915d2496153d80f60fd6",
+                        "repository": "https://github.com/sieukrem/jn-npp-plugin/releases/download/2.2.185.4/jN_2.2.185.4_x86.zip",
+                        "description": "Allows you to automate NPP with the ancient and insecure implementation of JavaScript used in Windows Script Host",
+                        "author": "Eugen Kremer",
+                        "homepage": "https://github.com/sieukrem/jn-npp-plugin"
+                },
+		{
 			"folder-name": "JsMapParser.NppPlugin",
 			"display-name": "JavaScript Map Parser",
 			"version": "4.2",
