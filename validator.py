@@ -1,4 +1,5 @@
 import json
+import sys
 
 def parse(filename):
     try:
@@ -9,5 +10,9 @@ def parse(filename):
         raise -2
         return None # or: raise
 
-parse("src/pl.x64.json")
-parse("src/pl.x86.json")
+bitness_from_input = sys.argv[1]
+print('input: %s' % bitness_from_input)
+if bitness_from_input == 'x64':
+    parse("src/pl.x64.json")
+else:
+    parse("src/pl.x86.json")
