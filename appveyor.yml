@@ -5,17 +5,28 @@ image: Visual Studio 2017
 environment:
   matrix:
   - PlatformToolset: v140_xp
-  - PlatformToolset: v141_xp
+    PLATFORM: amd64
+    PYTHONTEST: x64
 
-platform:
-    - x64
-    - Win32
+  - PlatformToolset: v140_xp
+    PLATFORM: Win32
+    PYTHONTEST: Win32
+
+  - PlatformToolset: v140_xp
+    PLATFORM: x64
+    
+  - PlatformToolset: v140_xp
+    PLATFORM: Win32
+
+  #- PlatformToolset: v141_xp
 
 configuration:
     - Release
-    - Debug
+    #- Debug
 
 install:
+    - if not "%PYTHONTEST%"=="" python -m pip install requests jsonschema rfc3987
+
     - if "%platform%"=="x64" set archi=amd64
     - if "%platform%"=="x64" set platform_input=x64
 
@@ -26,47 +37,50 @@ install:
     - if "%PlatformToolset%"=="v140_xp" call "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\vcvarsall.bat" %archi%
 
 build_script:
+    - cd "%APPVEYOR_BUILD_FOLDER%"
+    - if not "%PYTHONTEST%"=="" call python validator.py %PYTHONTEST%
     - cd "%APPVEYOR_BUILD_FOLDER%"/vcxproj
-    - msbuild nppPluginList.vcxproj /p:configuration="%configuration%" /p:platform="%platform_input%" /p:PlatformToolset="%PlatformToolset%"
-    - cd ..
-    - python validator.py
+    - if "%PYTHONTEST%"=="" msbuild nppPluginList.vcxproj /p:configuration="%configuration%" /p:platform="%platform_input%" /p:PlatformToolset="%PlatformToolset%"
 
 after_build:
     - cd "%APPVEYOR_BUILD_FOLDER%"
     - ps: >-
 
-        if ($env:PLATFORM_INPUT -eq "x64" -and $env:CONFIGURATION -eq "Release") {
-            Push-AppveyorArtifact "vcxproj\$env:PLATFORM_INPUT\$env:CONFIGURATION\nppPluginList.dll" -FileName nppPluginList.dll
-        }
-
-        if ($env:PLATFORM_INPUT -eq "Win32" -and $env:CONFIGURATION -eq "Release") {
-            Push-AppveyorArtifact "vcxproj\$env:CONFIGURATION\nppPluginList.dll" -FileName nppPluginList.dll
-        }
-
-        if ($($env:APPVEYOR_REPO_TAG) -eq "true" -and $env:CONFIGURATION -eq "Release" -and $env:PLATFORMTOOLSET -eq "v140_xp") {
-            if($env:PLATFORM_INPUT -eq "x64"){
-                $ZipFileName = "nppPluginList_$($env:APPVEYOR_REPO_TAG_NAME)_x64.zip"
-                7z a $ZipFileName vcxproj\$env:PLATFORM_INPUT\$env:CONFIGURATION\*.dll
+        if(-not ($env:PYTHONTEST))
+        {
+            if ($env:PLATFORM_INPUT -eq "x64" -and $env:CONFIGURATION -eq "Release") {
+                Push-AppveyorArtifact "bin64\nppPluginList.dll" -FileName nppPluginList.dll
             }
-            if($env:PLATFORM_INPUT -eq "Win32"){
-                $ZipFileName = "nppPluginList_$($env:APPVEYOR_REPO_TAG_NAME)_x86.zip"
-                7z a $ZipFileName vcxproj\$env:CONFIGURATION\*.dll
+
+            if ($env:PLATFORM_INPUT -eq "Win32" -and $env:CONFIGURATION -eq "Release") {
+                Push-AppveyorArtifact "bin\nppPluginList.dll" -FileName nppPluginList.dll
+            }
+
+            if ($($env:APPVEYOR_REPO_TAG) -eq "true" -and $env:CONFIGURATION -eq "Release" -and $env:PLATFORMTOOLSET -eq "v140_xp") {
+                if($env:PLATFORM_INPUT -eq "x64"){
+                    $ZipFileName = "nppPluginList_$($env:APPVEYOR_REPO_TAG_NAME)_x64.zip"
+                    7z a $ZipFileName bin64\*.dll
+                }
+                if($env:PLATFORM_INPUT -eq "Win32"){
+                    $ZipFileName = "nppPluginList_$($env:APPVEYOR_REPO_TAG_NAME)_x86.zip"
+                    7z a $ZipFileName bin\*.dll
+                }
             }
         }
 
-artifacts:
-  - path: nppPluginList_*.zip
-    name: releases
+# artifacts:
+  # - path: nppPluginList_*.zip
+    # name: releases
 
-deploy:
-    provider: GitHub
-    auth_token:
-        secure: !!TODO, see https://www.appveyor.com/docs/deployment/github/#provider-settings!!
-    artifact: releases
-    draft: false
-    prerelease: false
-    force_update: true
-    on:
-        appveyor_repo_tag: true
-        PlatformToolset: v140_xp
-        configuration: Release
+# deploy:
+    # provider: GitHub
+    # auth_token:
+        # secure: !!TODO, see https://www.appveyor.com/docs/deployment/github/#provider-settings!!
+    # artifact: releases
+    # draft: false
+    # prerelease: false
+    # force_update: true
+    # on:
+        # appveyor_repo_tag: true
+        # PlatformToolset: v140_xp
+        # configuration: Release
