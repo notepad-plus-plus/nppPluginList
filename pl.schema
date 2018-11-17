@@ -1,0 +1,64 @@
+{
+	"type": "object",
+	"required": [
+		"name",
+		"version",
+		"arch",
+		"npp-plugins"
+	],
+	"properties": {
+		"name": { "const": "npp-pluginList" },
+		"version": { "const": "1.0" },
+		"arch": { "enum": ["32", "64"] },
+		"npp-plugins": {
+			"type": "array",
+			"items": { "$ref": "#/definitions/plugin" }
+		}
+	},
+	"definitions": {
+		"plugin": {
+			"type": "object",
+			"required": [
+				"folder-name",
+				"display-name",
+				"version",
+				"id",
+				"repository",
+				"description",
+				"author",
+				"homepage"
+			],
+			"properties": {
+				"folder-name": {
+					"type": "string",
+					"minLength": 1
+				},
+				"folder-name": {
+					"type": "string",
+					"minLength": 1
+				},
+				"version": {
+					"type": "string",
+					"pattern": "^\\d+(\\.\\d+){,3}$"
+				},
+				"id": {
+					"type": "string",
+					"pattern": "^(?i)^[A-Z0-9]{64}$"
+				},
+				"repository": {
+					"format": "uri"
+				},
+				"description": {
+					"type": "string",
+					"minLength": 1
+				},
+				"author": {
+					"type": "string"
+				},
+				"homepage": {
+					"type": "string"
+				}
+			}
+		}
+	}
+}
