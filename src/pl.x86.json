@@ -466,7 +466,7 @@
 		{
 			"folder-name": "TagLEET",
 			"display-name": "TagLEET",
-			"version": "1.3.1.0",
+			"version": "1.3.1.1",
 			"id": "c28bfe210c28917e2ca1a4fd45ff0eb4688277472fff86bfdbc0aee524a01777",
 			"repository": "https://sourceforge.net/projects/tagleet/files/v1.3.1/TagLEET_1.3.1.1.zip",
 			"description": "Ctags browser. Look up the definition of variables and functions in source code. Can also find include files if ctags file was generated correctly. Ultra fast with low memory usage. Allow working with a single ctags file for very large projects.",
@@ -486,7 +486,7 @@
 		{
 			"folder-name": "NppToolBucket",
 			"display-name": "ToolBucket",
-			"version": "1.10",
+			"version": "1.10.6622.41516",
 			"id": "6d28d2a74d9ab77cb451380d3482a15760bd1f353cf0a808a35fc5a989f8f781",
 			"repository": "https://phdesign.com.au/assets/files/NppToolBucket-1.10.zip",
 			"description": "Requires .NET 3.5\r\nMulti-line search and replace dialog.\r\nChange indentation dialog.\r\nGenerate GUID\r\nGenerate Lorem Ipsum\r\nCompute MD5 Hash\r\nCompute SHA1 Hash\r\nBase 64 encode\r\nBase 64 decode",
@@ -622,6 +622,166 @@
 			"repository": "https://downloads.sourceforge.net/project/npp-plugins/Explorer/Explorer%20Plugin%20v1.8.2/Explorer_1_8_2_UNI_dll.zip",
 			"description": "Explorer plugin is a file browser. You can open whatever you want from it in Notepad++, just double click!",
 			"author": "Jens Lorenz",
+			"homepage": ""
+		},
+		{
+			"folder-name": "NPPFSIPlugin",
+			"display-name": "F# Interactive",
+			"version": "0.1.1",
+			"id": "894c89d401c668f76aabe20bf37cadcec26418bfc57fe275687615e8af759810",
+			"repository": "https://github.com/downloads/ppv/NPPFSIPlugin/NPPFSIPlugin.zip",
+			"description": "This plugin hosts F# Interactive inside Notepad++ (Note: F# should be installed separately).",
+			"author": "Prapin Peethambaran",
+			"homepage": ""
+		},
+		{
+			"folder-name": "FallingBricks",
+			"display-name": "Falling Bricks",
+			"version": "1.1.0.0",
+			"id": "5bace8e94c194f2d9a916cfc63d2e0bdbd4cab157de9cf0b3970a44cc4acf37b",
+			"repository": "https://downloads.sourceforge.net/project/npp-plugins/FallingBricks/FallingBricks%201.1%20UNI/fallingbricks_v1.1_unicode_dll.zip",
+			"description": "This plugin for Notepad++ is a simple tetris-like game that you can play from within Notepad++.The rules are exactly the same, so I hope no explanation is needed :-P This is the most bare-basic implementation of tetris, so don't expect any fancy 3D graphics or surround sound effects. If you close the dialog box of this plugin (maybe your boss just appeared?), the game will auto pause, and you can resume from where you last left it. Your high scores are not remembered, So please scribble it into Notepad++ yourself!",
+			"author": "loonychewy",
+			"homepage": ""
+		},
+		{
+			"folder-name": "FileSwitcher",
+			"display-name": "File Switcher",
+			"version": "1.0.3.0",
+			"id": "c539b6e19d3524eea8df5fa02f2fefe84104e2b2170159555a00ec9a3715cc56",
+			"repository": "https://downloads.sourceforge.net/project/npp-plugins/File%20Switcher/FileSwitcher%201.0.3.0/FileSwitcher1030_UNI.zip",
+			"description": "This plugin allows you to switch the active buffer using just the keyboard.  You can type any part of the filename, path or tab index.  You can also use it as a replacement for the Ctrl-Tab functionality built into Notepad++.",
+			"author": "Dave Brotherstone",
+			"homepage": ""
+		},
+		{
+			"folder-name": "FingerText",
+			"display-name": "FingerText",
+			"version": "0.5.60",
+			"id": "eed1470179624edae57b29ba0971bfa22e568ab51d2896edc90d5ac968fa88c5",
+			"repository": "https://downloads.sourceforge.net/project/fingertext/Alpha%20Releases/FingerText%20-%200.5.60.zip",
+			"description": "A Snippet plugin with support for multiple hotspots.  Set the shortcut to Tab and remove from the Scintilla tab command for best usage.",
+			"author": "Tom Lam",
+			"homepage": "https://sourceforge.net/projects/fingertext/"
+		},
+		{
+			"folder-name": "gedcomlexer",
+			"display-name": "GEDCOM Lexer",
+			"version": "0.3.3.100",
+			"id": "b2b148879b88cab3f967e7678a66d009481b91abf5a02aa29324ce2821ee2561",
+			"repository": "https://sourceforge.net/projects/gedcomlexer/files/GedcomLexer-0.3.3-r100/GedcomLexer-0.3.3-r100.zip",
+			"description": "View &amp; edit GEDCOM files with syntax highlighting of: level, xref id, tag, pointer, value and escape tokens. Customize coloration and font styles. Grammar errors are also highlighted. View GEDCOM files in outline mode by folding sections based on line level.",
+			"author": "Stan Mitchell",
+			"homepage": "http://www.genapps.net"
+		},
+		{
+			"folder-name": "GmodLua",
+			"display-name": "Gmod Lua Lexer",
+			"version": "1.5",
+			"id": "fe753ae0cb0f585d9bef3fd882f4f7eceb7d0e3014bcd0f12cd5aab323de0d7f",
+			"repository": "https://sourceforge.net/projects/npp-plugins/files/Gmod%20Lua%20Highlighter/Gmod%20Lua%20v1.5/NppGmodLuaPlugin-v1.5.zip",
+			"description": "A Garry's Mod 10 lua syntax highlighter plugin. It's also a good demonstration of syntax highlighter plugins for Notepad++.",
+			"author": "Kyle Fleming (aka Garthex)",
+			"homepage": "https://code.google.com/p/npp-gmod-lua/"
+		},
+		{
+			"folder-name": "GOnpp",
+			"display-name": "GOnpp",
+			"version": "1.2.0.0",
+			"id": "cec990ef66d9d2264e1066585016b955cfa04f48a11535cf5245c07e5e959c85",
+			"repository": "https://sourceforge.net/projects/gonpp/files/GOnpp_1.2_UNI.zip",
+			"description": "GOnpp assists you writing Go-programms. It has code completion and function calltips (using gocode, see below)  as well as direct interaction with the go command. Currently the following actions are implemented:\ngocode complete -&gt; ALT+O || gocode calltip -&gt; ALT+P\ngo fmt -&gt; ALT+F || go test -&gt; ALT+T || go install -&gt; ALT+I || go run -&gt; ALT+R\n\nPlease note, that you must have the GO programming language installed on your computer to make use of GOnpp. You can get GO from http://golang.org/doc/install\n\nTo use the code-completion you need to have gocode installed and located either in your PATH or in GOROOT/bin. You can get gocode from https://github.com/nsf/gocode!",
+			"author": "tike",
+			"homepage": "https://github.com/tike/GOnpp"
+		},
+		{
+			"folder-name": "GrepBugsPluginNpp",
+			"display-name": "GrepBugs",
+			"version": "1.0.0",
+			"id": "0971e9eee0032f9c5f408f3c2d8176b2efc929677442683e6c79b77d3b62cf86",
+			"repository": "https://grepbugs.com/plugin/notepad%2B%2B",
+			"description": "The plugin will download the latest regular expressions from GrepBugs.com and grep for matches in all open files. Requires .NET 4+",
+			"author": "Peter Parker",
+			"homepage": "https://grepbugs.com/plugins"
+		},
+		{
+			"folder-name": "IndentByFold",
+			"display-name": "Indent By Fold",
+			"version": "0.7.1",
+			"id": "587fbd3333122abe8ab8d46c3761a756e52cd50d2e2955b2dc3328618d6c116e",
+			"repository": "https://github.com/ffes/indentbyfold/releases/download/v0.7.1/IndentByFold-071.zip",
+			"description": "IndentByFold plugin for Notepad++ to Indent using Fold points\n\nNote: Disable Notepad++'s Auto Indent in Settings - Preferences - MISC - Untick Auto Indent.",
+			"author": "Ben Bluemel, Frank Fesevur",
+			"homepage": "https://github.com/ffes/indentbyfold/"
+		},
+		{
+			"folder-name": "iTimeTrack",
+			"display-name": "iTimeTrack",
+			"version": "3.0.0",
+			"id": "b40ddd0e9d679d39acc1f731f07a646cf42f404e4470fb30673f091175a73024",
+			"repository": "https://github.com/itimetrack/itimetrack-notepadpp/releases/download/3.0.0/itimetrack-notepadpp-bin-3.0.0.zip",
+			"description": "iTimeTrack is automated time tracking tool for programmers. Once the iTimeTrack plugin is installed, your billable time worked in files will be assigned to a project then a time-entry will be generated at https://itimetrack.com",
+			"author": "iTimeTrack",
+			"homepage": "https://itimetrack.com"
+		},
+		{
+			"folder-name": "JSLintNpp",
+			"display-name": "JSLint",
+			"version": "0.8.3",
+			"id": "8306c76dbbb7ea07f22b613ddbedc60f1eaf74c286136bba92acd593a6557336",
+			"repository": "https://downloads.sourceforge.net/project/jslintnpp/0.8.3/JSLintNPP.0.8.3.zip",
+			"description": "A Notepad++ plugin that allows users to run JSLint (The JavaScript Code Quality Tool) against their open JavaScript files (more about JSLint at http://www.jslint.com/lint.html).",
+			"author": "Martin Vladic",
+			"homepage": "https://github.com/kapilratnani/JSON-Viewer"
+		},
+		{
+			"folder-name": "lexamples",
+			"display-name": "lexamples",
+			"version": "1.0.0.0",
+			"id": "0703a38b16c574562159526e909588a98ee76b3213d9f01b0089ab70283c101f",
+			"repository": "https://sourceforge.net/projects/lexamples/files/v1.0.0/lexamples_1_0_0.zip",
+			"description": "External lexer package with improved lexers for Makefiles and MIB/ASN.1 files.",
+			"author": "Gur Stavi",
+			"homepage": "https://sourceforge.net/projects/lexamples"
+		},
+		{
+			"folder-name": "LightExplorer",
+			"display-name": "Light Explorer",
+			"version": "2.0.0.0",
+			"id": "0c6f915ac926e12acdc6bff30307549cb074f97bebd04205a350cced8931463a",
+			"description": "Allows documents to be opened from a dockable file explorer, that is very light weight and fast.",
+			"author": "Javier Sanjose",
+			"repository": "https://downloads.sourceforge.net/project/npp-plugins/LightExplorer/LightExplorer%202.0%20UNICODE/LightExplorer_2_0_dll.zip",
+			"homepage": ""
+		},
+		{
+			"folder-name": "linefilter2",
+			"display-name": "Linefilter2",
+			"version": "1.1.0.0",
+			"id": "4b75c44ba024d8f18062c47bee35cdac7493d10daf70bbf3ccef153f19e585bb",
+			"repository": "http://www.scout-soft.com/linefilter/linefilter2.zip",
+			"description": "A plugin for Notepad++ that allows you to filter a text for a search string :\n\n- Display searchresult in new NPP window\n- Display linenr of original text\n- Hits can be highlighted\n- Display  lines before and after a hit\n- Perl compatible regular expressions.",
+			"author": "Heinz",
+			"homepage": "http://www.scout-soft.com/linefilter"
+		},
+		{
+			"folder-name": "LocationNavigate",
+			"display-name": "Location Navigate",
+			"version": "0.4.7.7",
+			"id": "d01ae1223c523772b0786ae4bc9a0100438d80056a64dc352f4c480ed0a4bf1f",
+			"repository": "https://sourceforge.net/projects/locationnav/files/LocationNavigate_v0.4.7.7.zip",
+			"description": "Navigate between your last edit/view points, it is usefull for code/text edit and view, especially for many and large text files\n1. Automatically record the cursor position and modified points\n2. You can jump to any position that your cursor has visited.\n3. Can use shortcuts (ctrl + - for previous position and ctrl + shift+ - for next position) to jump forward and back in code\n4. Can jump to any modified points( ctrl+atl + z ) back and forward ( ctrl+atl + y )\n5. History positions are automatically adjusted when text is modified.\n6. Can record positions data when application exit and it will be loaded in next run.\n7. Can navigate only in current file",
+			"author": "Austin Young",
+			"homepage": "https://sourceforge.net/projects/locationnav/"
+		},
+		{
+			"folder-name": "MultiClipboard",
+			"display-name": "MultiClipboard",
+			"version": "2.1.0.0",
+			"id": "fba2177939eae03056b0baeb724fd73faabb95298cca4beea91fe0bc19c3df56",
+			"repository": "https://downloads.sourceforge.net/project/npp-plugins/MultiClipboard/MultiClipboard%202.1%20unicode/MultiClipboard_2.1_unicode_dll.zip",
+			"description": "MultiClipboard plugin implements multiple (10) text buffers that is filled up via copying and/or cutting of text. To paste any text from the buffers, use Ctrl-V or middle mouse click (normal paste): to paste the most recently copied/cut text Ctrl-Shift-V or Shift-middle mouse click: to pop up a menu with the text buffer entries. Select the desired menu item to paste it",
+			"author": "LoonyChewy",
 			"homepage": ""
 		}
 	]
