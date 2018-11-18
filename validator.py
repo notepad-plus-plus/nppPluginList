@@ -1,6 +1,7 @@
 import json
 import os
 import sys
+from hashlib import sha256
 import requests
 from jsonschema import Draft4Validator, FormatChecker
 
@@ -41,6 +42,22 @@ def parse(filename):
     for error in schema.iter_errors(pl):
         post_error(error.message)
 
+
+    for plugin in pl["npp-plugins"]:
+        try:
+            response = requests.get(plugin["repository"])
+        except requests.exceptions.RequestException as e:
+            post_error(str(e))
+            continue
+
+        if response.status_code != 200:
+            post_error(f'{plugin["display-name"]}: failed to download plugin. Returned code {response.status_code}')
+            continue
+
+        hash = sha256(response.content).hexdigest()
+        if plugin["id"].lower() != hash.lower():
+            post_error(f'{plugin["display-name"]}: Invalid hash. Got {hash.lower()} but expected {plugin["id"]}')
+            continue
 
 bitness_from_input = sys.argv[1]
 print('input: %s' % bitness_from_input)
