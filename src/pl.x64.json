@@ -496,7 +496,7 @@
 		{
 			"folder-name": "NppToolBucket",
 			"display-name": "ToolBucket",
-			"version": "1.10",
+			"version": "1.10.6622.41516",
 			"id": "50586e7462ce6d09f012187ea3936d29912acfc4e41107f01d40e2e9afa46f53",
 			"repository": "https://phdesign.com.au/assets/files/NppToolBucket-1.10-x64.zip",
 			"description": "Requires .NET 3.5\r\nMulti-line search and replace dialog.\r\nChange indentation dialog.\r\nGenerate GUID\r\nGenerate Lorem Ipsum\r\nCompute MD5 Hash\r\nCompute SHA1 Hash\r\nBase 64 encode\r\nBase 64 decode",
