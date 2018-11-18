@@ -7,10 +7,12 @@ environment:
   - PlatformToolset: v140_xp
     PLATFORM: amd64
     PYTHONTEST: x64
+    PYTHON: "C:\\Python37"
 
   - PlatformToolset: v140_xp
     PLATFORM: Win32
     PYTHONTEST: Win32
+    PYTHON: "C:\\Python37"
 
   - PlatformToolset: v140_xp
     PLATFORM: x64
@@ -25,6 +27,7 @@ configuration:
     #- Debug
 
 install:
+    - SET PATH=%PYTHON%;%PATH%
     - if not "%PYTHONTEST%"=="" python -m pip install requests jsonschema rfc3987 pywin32
 
     - if "%platform%"=="x64" set archi=amd64
