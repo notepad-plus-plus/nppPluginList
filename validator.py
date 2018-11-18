@@ -13,7 +13,6 @@ api_url = os.environ.get('APPVEYOR_API_URL')
 has_error = False
 
 def get_version_number(filename):
-    print(filename)
     info = GetFileVersionInfo(filename, "\\")
     ms = info['FileVersionMS']
     ls = info['FileVersionLS']
