@@ -522,6 +522,107 @@
 			"description": "Worried about zooming your document everytime you just want to scroll but accidentally still holding the [Ctrl] key? Then this plugin is what you want! It disables mouse zoom or keyboard zoom or both.",
 			"author": "Stanislav Eckert",
 			"homepage": "https://github.com/StanDog/npp-zoomdisabler"
+		},
+		{
+			"folder-name": "ActiveX",
+			"display-name": "ActiveX Plugin",
+			"version": "1.1.7.3",
+			"id": "c89214e3bcf05abb6b81626e766b009027202eee14cd88dcd3ed0843adfe40e7",
+			"repository": "https://sourceforge.net/projects/nppactivexplugin/files/bin/ActiveX_Unicode_1_1_7_3.zip",
+			"description": "This plugin allows you to control Notepad++ via ActiveX.\r\nYou can use ActiveX with many scripting languages (VBScript, JScript, PHP, ...) and other languages (C++, C+, VB.NET, Delphi, ...).\r\nSo you are not bound to a single language.",
+			"author": "Bananen-Joe",
+			"homepage": "https://sourceforge.net/projects/nppactivexplugin/"
+		},
+
+		{
+			"folder-name": "Autosave2",
+			"display-name": "Autosave2",
+			"version": "1.0.0.0",
+			"id": "86ae6ad30b9d34533b160ffe55e6fe57d3e820fb9fd06e169a2b454dbaebd3ee",
+			"repository": "http://www.scout-soft.com/autosave/autosave2.zip",
+			"description": "Allows you to automatically save your Notepad++ text with a timestamp.\r\n\r\nThis plugin does create new files (ie. copies) of the currently opened files.\r\nThe original files will not be saved automatically. (So basically, it is more a Autocopy rather than a Autosave)\r\n\r\nUsing a timer schedule and timestamps in the newly created filenames you will have a history of changed files like this:\r\n\r\nToDo.txt.2013-04-19 10.13.09\r\nToDo.txt.2013-04-19 10.14.09\r\nToDo.txt.2013-04-19 10.15.09",
+			"author": "Heinz",
+			"homepage": "http://www.scout-soft.com/autosave"
+		},
+		{
+			"folder-name": "BracketsCheck",
+			"display-name": "BracketsCheck",
+			"version": "1.2",
+			"id": "11bccdbc4762f075442d993f5ada1c8a60804bfdbf8322ebe1fee45b5f71dde9",
+			"repository": "https://github.com/niccord/BracketsCheck/raw/master/BracketsCheck/bin/Release/BracketsCheck.zip",
+			"description": "A plugin that helps you to check if brackets in your file are balanced.\r\nYou can check all text in a file or only the part you selected.",
+			"author": "niccord",
+			"homepage": "https://github.com/niccord/BracketsCheck/"
+		},
+		{
+			"folder-name": "NppCCompletionPlugin",
+			"display-name": "CCompletion",
+			"version": "1.19",
+			"id": "f3bdf4b7cbe0cd76b4d9ae2880ccde369c16f20326f89f3d0e83cd8e58169247",
+			"repository": "http://freeweb.siol.net/rmihor/NppCCompletionPlugin.zip",
+			"description": "CCompletion is a code autocompletion plugin, with other useful features like listing functions / variables, quicky moving to their definition and easily returning to where you were before",
+			"author": "Bostjan Mihoric",
+			"homepage": ""
+		},
+		{
+			"folder-name": "combine",
+			"display-name": "Combine",
+			"version": "1.0.0.0",
+			"id": "064b74cc914b0f5438e0c1ee6f37cad02f8112f7dbe14c67ec24cde21ffe64a1",
+			"repository": "http://www.scout-soft.com/combine/combine.zip",
+			"description": "This plugin allows you to combine/merge all currently opened files into one file.",
+			"author": "Heinz",
+			"homepage": "http://www.scout-soft.com/combine"
+		},
+		{
+			"folder-name": "docMonitor.unicode",
+			"display-name": "Document Monitor",
+			"version": "2.2.0.0",
+			"id": "19bef201852ef6c725d2f28029b9a1ccab831d882a7084baada384934be06e1e",
+			"repository": "https://downloads.sourceforge.net/project/npp-plugins/DocMonitor/DocMonitor%20v2.2/DocMonitor.v2.2.dll.zip",
+			"description": "Document updater updates your opened documents in Notepad++ every 3 seconds",
+			"author": "Don Ho",
+			"homepage": ""
+		},
+		{
+			"folder-name": "ColorPicker",
+			"display-name": "Don Rowlett Color Picker",
+			"version": "2.3",
+			"id": "db861fd46649c92b2d0b048c3e298a9cba76e610dc5ec8bdf90bcada598744f3",
+			"repository": "https://sourceforge.net/projects/npp-plugins/files/ColorPicker/Color%20Picker%20v.2.3/ColorPicker_230_dll.zip",
+			"description": "Developer tool for selecting color codes in various formats. It is not a color sampling tool.",
+			"author": "Don Rowlett",
+			"homepage": ""
+		},
+		{
+			"folder-name": "NppEditorConfig",
+			"display-name": "EditorConfig",
+			"version": "0.3.1",
+			"id": "d9f1d6391b323567f36b61055534c4fb24f84b02fc9c13cb1ce0f29b46787f43",
+			"repository": "https://downloads.sourceforge.net/project/editorconfig/EditorConfig-Notepad%2B%2B-Plugin/0.3.1/Unicode/NppEditorConfig.zip",
+			"description": "EditorConfig helps developers define and maintain consistent coding styles between different editors and IDEs. The EditorConfig project consists of a file format for defining coding styles and a collection of text editor plugins that enable editors to read the file format and adhere to defined styles. EditorConfig files are easily readibly and they work nicely with version control systems.",
+			"author": "Hong Xu",
+			"homepage": "https://github.com/editorconfig/editorconfig-notepad-plus-plus#readme"
+		},
+		{
+			"folder-name": "eibericht",
+			"display-name": "Ei-bericht",
+			"version": "1.6",
+			"id": "4631f2ef965dfe564c52eec5c7616292fb2b23d40f5a91e0bb407b129ccfacc8",
+			"repository": "https://www.eibericht.nl/eibericht16.zip",
+			"description": "Highlighting for ei-berichten, making it easier to edit these files used in The Netherlands for health care claims.",
+			"author": "Mark de Ronde",
+			"homepage": "https://www.eibericht.nl"
+		},
+		{
+			"folder-name": "Explorer",
+			"display-name": "Explorer",
+			"version": "1.8.2.0",
+			"id": "757e384d23df4995230111fd4777d64e9a6e50f94ec25bc454a5c7a618b123a1",
+			"repository": "https://downloads.sourceforge.net/project/npp-plugins/Explorer/Explorer%20Plugin%20v1.8.2/Explorer_1_8_2_UNI_dll.zip",
+			"description": "Explorer plugin is a file browser. You can open whatever you want from it in Notepad++, just double click!",
+			"author": "Jens Lorenz",
+			"homepage": ""
 		}
 	]
 }
