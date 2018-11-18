@@ -1,12 +1,23 @@
 import json
 import os
+import io
 import sys
-from hashlib import sha256
 import requests
+import zipfile
+from hashlib import sha256
 from jsonschema import Draft4Validator, FormatChecker
+import win32api
+from win32api import GetFileVersionInfo, LOWORD, HIWORD
 
 api_url = os.environ.get('APPVEYOR_API_URL')
 has_error = False
+
+def get_version_number(filename):
+    print(filename)
+    info = GetFileVersionInfo(filename, "\\")
+    ms = info['FileVersionMS']
+    ls = info['FileVersionLS']
+    return '.'.join(map(str, [HIWORD(ms), LOWORD(ms), HIWORD(ls), LOWORD(ls)]))
 
 def post_error(message):
     global has_error
@@ -43,7 +54,10 @@ def parse(filename):
         post_error(error.message)
 
 
+    os.mkdir("./" + bitness_from_input)
     for plugin in pl["npp-plugins"]:
+        print(plugin["display-name"])
+
         try:
             response = requests.get(plugin["repository"])
         except requests.exceptions.RequestException as e:
@@ -54,10 +68,50 @@ def parse(filename):
             post_error(f'{plugin["display-name"]}: failed to download plugin. Returned code {response.status_code}')
             continue
 
+        # Hash it and make sure its what is expected
         hash = sha256(response.content).hexdigest()
         if plugin["id"].lower() != hash.lower():
             post_error(f'{plugin["display-name"]}: Invalid hash. Got {hash.lower()} but expected {plugin["id"]}')
             continue
+
+        # Make sure its a valid zip file
+        try:
+            zip = zipfile.ZipFile(io.BytesIO(response.content))
+        except zipfile.BadZipFile as e:
+            post_error(f'{plugin["display-name"]}: Invalid zip file')
+            continue
+
+        # The expected DLL name
+        dll_name = f'{plugin["folder-name"]}.dll'.lower()
+
+        # Notepad++ is not case sensitive, but extracting files from the zip is,
+        # so find the exactfile name to use
+        for file in zip.namelist():
+            if dll_name == file.lower():
+                dll_name = file
+                break
+        else:
+            post_error(f'{plugin["display-name"]}: Zip file does not contain {plugin["folder-name"]}.dll')
+            continue
+
+        with zip.open(dll_name) as dll_file, open("./" + bitness_from_input + "/" + dll_name, 'wb') as f:
+            f.write(dll_file.read())
+
+        version = plugin["version"]
+
+        # Fill in any of the missing numbers as zeros
+        version = version + (3 - version.count('.')) * ".0"
+
+        try:
+            dll_version = get_version_number("./" + bitness_from_input + "/" + dll_name)
+        except win32api.error:
+            post_error(f'{plugin["display-name"]}: Does not contain any version information')
+            continue
+
+        if dll_version != version:
+            post_error(f'{plugin["display-name"]}: Unexpected DLL version. DLL is {dll_version} but expected {version}')
+            continue
+
 
 bitness_from_input = sys.argv[1]
 print('input: %s' % bitness_from_input)

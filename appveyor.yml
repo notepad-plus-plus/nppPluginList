@@ -25,7 +25,7 @@ configuration:
     #- Debug
 
 install:
-    - if not "%PYTHONTEST%"=="" python -m pip install requests jsonschema rfc3987
+    - if not "%PYTHONTEST%"=="" python -m pip install requests jsonschema rfc3987 pywin32
 
     - if "%platform%"=="x64" set archi=amd64
     - if "%platform%"=="x64" set platform_input=x64
