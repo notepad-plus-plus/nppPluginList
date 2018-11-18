@@ -504,16 +504,6 @@
 			"homepage": "https://phdesign.com.au/npptoolbucket/"
 		},
 		{
-			"folder-name": "ViSimulator",
-			"display-name": "ViSimulator for Notepad++",
-			"version": "18.03.08",
-			"id": "2995af6b3f43458fa6282a7742af0a073a16909dc186f797030dd9050340be11",
-			"repository": "https://github.com/bycn82/visimulator/raw/master/x64/ViSimulator-x64-20180308.zip",
-			"description": "It is a plugin for Notepad++ which provides a Vi-Style input scheme like moving around with hjkl and editing text on Notepad++.\r\n\r\nMost of the common commands in vi are supported via this plugin Fast tap the 'ESC' 3 times to enable/disable the plugin\r\n\r\nBelow are list of the supported commands:\r\n\r\n    h j k l - move the cursor\r\n    a i o - switch to edit mode\r\n    $ - move to the end of the line\r\n    0 - move to the beginning of the line\r\n    w e - move to next word\r\n    u - undo\r\n    x - delete character[s]\r\n    d[G] - cut line[s]\r\n    y[G] - yank line[s]\r\n    p - paste\r\n    n N - search next matched\r\n    :number - move to the cursor to line\r\n    :w - save\r\n    :q - quit\r\n    :help - show all the supported commands",
-			"author": "bycn82",
-			"homepage": "https://github.com/bycn82/visimulator"
-		},
-		{
 			"folder-name": "XBrackets",
 			"display-name": "XBrackets Lite",
 			"version": "1.3.0",
