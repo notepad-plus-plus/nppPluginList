@@ -4,18 +4,25 @@ import sys
 import requests
 from jsonschema import Draft4Validator, FormatChecker
 
-api_url = os.environ['APPVEYOR_API_URL']
+api_url = os.environ.get('APPVEYOR_API_URL')
 has_error = False
 
 def post_error(message):
     global has_error
 
     has_error = True
-    requests.post(api_url + "api/build/messages", json={
+
+    message = {
         "message": message,
         "category": "error",
         "details": ""
-    })
+    }
+
+    if api_url:
+        requests.post(api_url + "api/build/messages", json=message)
+    else:
+        from pprint import pprint
+        pprint(message)
 
 def parse(filename):
     try:
