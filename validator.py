@@ -58,7 +58,7 @@ def parse(filename):
         print(plugin["display-name"])
 
         try:
-            response = requests.get(plugin["repository"])
+            response = requests.get(plugin["repository"], verify=False)
         except requests.exceptions.RequestException as e:
             post_error(str(e))
             continue
