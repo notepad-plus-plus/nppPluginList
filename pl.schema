@@ -7,8 +7,11 @@
 		"npp-plugins"
 	],
 	"properties": {
-		"name": { "const": "npp-pluginList" },
-		"version": { "const": "1.0" },
+		"name": { "enum": ["npp-pluginList"] },
+		"version": {
+			"type": "string",
+			"pattern": "^\\d+(\\.\\d+){,3}$"
+		},
 		"arch": { "enum": ["32", "64"] },
 		"npp-plugins": {
 			"type": "array",
