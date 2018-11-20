@@ -823,6 +823,16 @@
 			"description": "Npp Hash Maker is a plugin which computes the hash of selected text in Notepad++.\r\nMoreover, it provides hash result in base64 encoded (optional).\r\n\r\nThis plugin is coded in C# by using .NET Framework.\r\nLike Notepad++, it's under GPL.\r\n\r\nSupported hash methods:\r\n1. MD5\r\n2. SHA1\r\n3. SHA256\r\n4. SHA384\r\n5. SHA512",
 			"author": "Don Ho",
 			"homepage": ""
+		},
+		{
+			"folder-name": "SecurePad",
+			"display-name": "SecurePad",
+			"version": "2.2",
+			"id": "362bbdbed4f13d42941a499f4284a58188ab6d25ab73738a79105beb386980e5",
+			"repository": "https://github.com/DominicTobias/SecurePad/releases/download/v2.2/SecurePad_v2.2_x86.zip",
+			"description": "With this you can encrypt/decrypt whole documents or selected text with your own key.  It is useful for storing sensitive information like logins and you don't want them lying around in a plaintext file.",
+			"author": "Dominic Tobias",
+			"homepage": "https://github.com/DominicTobias/SecurePad"
 		}
 	]
 }
