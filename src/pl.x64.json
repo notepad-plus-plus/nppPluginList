@@ -526,7 +526,7 @@
 		{
 			"folder-name": "NavigateTo",
 			"display-name": "NavigateTo",
-			"version": "1.12.3",
+			"version": "1.12.4.1",
 			"id": "3d6d36776d2a058e17873663c6f4dadf94d49efbf1b248cb36839080aea58bb6",
 			"repository": "https://github.com/young-developer/nppNavigateTo/releases/download/1.12.4/NavigateTo_x64.zip",
 			"description": "Do you have more then 10 open tabs? than this plugin is for you.\r\n\r\nNavigate To is a new and efficient way to quickly navigate between tabs(files) in your Notepad++. It allows you to search for a symbol or filename, filepath by matching against a keyword you type in, and get a real time preview while going through the search results by Shift key.\r\nAnd YES indeed you can uncheck the Multi-line option, in the Preferences &gt; General &gt; Tab Bar zone because you don’t need the multi-lines tab feature anymore :)\r\n\r\nAuthor: Oleksii Maryshchenko\r\nEmail: young_developer@mail.ru",
