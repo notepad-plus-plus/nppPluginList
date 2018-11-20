@@ -331,7 +331,7 @@
 			"repository": "https://github.com/joaoasrosa/nppxmltreeview/releases/download/v2.0.0/NppXMLTreeViewPlugin_x86.zip",
 			"description": "A treeview visualization for xml files.",
 			"author": "João Rosa",
-			"homepage": ""
+			"homepage": "https://github.com/joaoasrosa/nppxmltreeview/"
 		},
 		{
 			"folder-name": "nppcrypt",
@@ -762,6 +762,66 @@
 			"repository": "https://downloads.sourceforge.net/project/npp-plugins/MultiClipboard/MultiClipboard%202.1%20unicode/MultiClipboard_2.1_unicode_dll.zip",
 			"description": "MultiClipboard plugin implements multiple (10) text buffers that is filled up via copying and/or cutting of text. To paste any text from the buffers, use Ctrl-V or middle mouse click (normal paste): to paste the most recently copied/cut text Ctrl-Shift-V or Shift-middle mouse click: to pop up a menu with the text buffer entries. Select the desired menu item to paste it",
 			"author": "LoonyChewy",
+			"homepage": ""
+		},
+		{
+			"folder-name": "NativeLang",
+			"display-name": "NativeLang",
+			"version": "1.1.0.0",
+			"id": "efb28bdd378a59924239b9dce61cd6fc43f163f9c27af972effa3af6ddf1abc3",
+			"repository": "https://downloads.sourceforge.net/sourceforge/npp-plugins/NativeLang_1_2_dll.zip",
+			"description": "NativeLang is a helper plugin that allows other plugins to translate their menus and dialogs.",
+			"author": "Jens Lorenz",
+			"homepage": ""
+		},
+		{
+			"folder-name": "NavigateTo",
+			"display-name": "NavigateTo",
+			"version": "1.12.3",
+			"id": "a51577492c0f134032c7470e00d8015fae28cacf6f82c4b4c32535022e9e6227",
+			"repository": "https://github.com/young-developer/nppNavigateTo/releases/download/1.12.4/NavigateTo_x32.zip",
+			"description": "Do you have more then 10 open tabs? than this plugin is for you.\r\n\r\nNavigate To is a new and efficient way to quickly navigate between tabs(files) in your Notepad++. It allows you to search for a symbol or filename, filepath by matching against a keyword you type in, and get a real time preview while going through the search results by Shift key.\r\nAnd YES indeed you can uncheck the Multi-line option, in the Preferences &gt; General &gt; Tab Bar zone because you don’t need the multi-lines tab feature anymore :)\r\n\r\nAuthor: Oleksii Maryshchenko\r\nEmail: young_developer@mail.ru",
+			"author": "Oleksii Maryshchenko",
+			"homepage": "https://github.com/young-developer/nppNavigateTo"
+		},
+		{
+			"folder-name": "NewFileBrowser",
+			"display-name": "NewFileBrowser",
+			"version": "0.1.3",
+			"id": "213f3bdd4572c0e11225070bc9057d6c07f586c22fd5b93130f2e2d9febb681b",
+			"repository": "https://sourceforge.net/projects/locationnav/files/NewFileBrowser_v0.1.3.zip",
+			"description": "NewFileBrowser can define 20 new file's inital text and have a inner webbrowser which could run current file.",
+			"author": "Austin Young",
+			"homepage": "https://sourceforge.net/projects/locationnav/"
+		},
+		{
+			"folder-name": "NppAutoIndent",
+			"display-name": "NppAutoIndent",
+			"version": "1.2.0.0",
+			"id": "22cd5ef26c777727e8c7c8b56e1e00e509737bfb3e6a57dddc37b2739419210a",
+			"repository": "https://downloads.sourceforge.net/sourceforge/npp-plugins/NppAutoIndent_1_2_dll.zip",
+			"description": "NppAutoIndent plugin has 'smart' indentation for C-style languages, such as C/C++, PHP, Java and such. There is NO support for HTML/XML and such, maybe later, tag matching is much more difficult to implement.",
+			"author": "Harrybharry",
+			"homepage": ""
+		},
+		{
+			"folder-name": "NppCalc",
+			"display-name": "NppCalc",
+			"version": "1.5",
+			"id": "56f4d908552f5611fb0f8dda817f4ef0075f161d556767b0559bd6118a6dc771",
+			"repository": "https://sourceforge.net/projects/nppcalc/files/nppcalc_1.5_bin.zip",
+			"description": "NppCalc - plugin for evaluates the expressions in the Notepad++\r\n\r\nNppCalc used to work with math, trigonometry, statistics, combinatorics, arrays, sets, bits, strings, dates, color, image, measurement, file and folder, RS-232, TCP/IP, encoding, encryption, hashing, compression, etc, Over 400 functions.\r\n\r\nQ: How does this work?\r\nA: Just type function name and press Enter!",
+			"author": "RinOSpro",
+			"homepage": "https://sourceforge.net/projects/nppcalc/"
+		},
+		{
+			"folder-name": "NppHasher",
+			"display-name": "NppHash",
+			"version": "1.0",
+			"id": "9b013b43ffa3c4de550036c6299407d1f370f4ba90186c7b4987096577c8033a",
+			"repository": "https://download.tuxfamily.org/nppplugins/NppHashMaker/NppHashMaker.v1.0.zip",
+			"description": "Npp Hash Maker is a plugin which computes the hash of selected text in Notepad++.\r\nMoreover, it provides hash result in base64 encoded (optional).\r\n\r\nThis plugin is coded in C# by using .NET Framework.\r\nLike Notepad++, it's under GPL.\r\n\r\nSupported hash methods:\r\n1. MD5\r\n2. SHA1\r\n3. SHA256\r\n4. SHA384\r\n5. SHA512",
+			"author": "Don Ho",
 			"homepage": ""
 		}
 	]
