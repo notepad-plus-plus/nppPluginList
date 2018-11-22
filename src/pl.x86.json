@@ -825,6 +825,296 @@
 			"homepage": ""
 		},
 		{
+			"folder-name": "nppplugin_ofis2",
+			"display-name": "Open File In Solution",
+			"version": "2.194",
+			"id": "888538cc4f40c0d3a3fed03c5ef3faf150edb2c4273011f900bd44d9e320c75e",
+			"repository": "http://www.incrediblejunior.com/npp_plugins/downloads/ofis2_r194.zip",
+			"description": "Lets you index specific folders and possible specific types of resources (xml-, cpp, py-files) for a fast indexing of files.",
+			"author": "incfred",
+			"homepage": "http://www.incrediblejunior.com/npp_plugins/"
+		},
+		{
+			"folder-name": "ccc",
+			"display-name": "PHP Autocompletion",
+			"version": "1.4.1",
+			"id": "86d29d7a7998eec33cff35af54071ecf767c014048755cfbc0e54c1fda9d73d8",
+			"repository": "https://github.com/StanDog/npp-phpautocompletion/raw/master/RELEASES/ccc_1.4.1.zip",
+			"description": "This plugin implements code completion for custom PHP classes in Notepad++. Keep an overview over your classes' attributes &amp; methods in a nice popup!\n\nA popup window appears after typing the \"-&gt;\" or \"::\" behind a class or an instantiated object variable which displays all attributes and methods of it's class. As soon as the popup appears you can type in the name of the method or attribute you are looking for and the plugin will select it in the list automatically. Hitting [return] or double clicking the entry will insert the name of the property to your script. Additionally, there is a list with all classes and their properties in a dockable window. Double clicking this entries opens their file &amp; jumps right to the declaration. The list offers a quick search function also.",
+			"author": "Stanislav Eckert",
+			"homepage": "https://github.com/StanDog/npp-phpautocompletion"
+		},
+		{
+			"folder-name": "PyNPP",
+			"display-name": "PyNPP",
+			"version": "1.2",
+			"id": "e5ac10066afdf1bde3f5b1b1219b9556989dc43c0cbcf7a8e2dc81b0e84bd67f",
+			"repository": "https://github.com/mpcabd/PyNPP/releases/download/v1.2/PyNPP.dll.zip",
+			"description": "Allows writing Python scripts in Notepad++ and run them from Notepad++ without having to open a command line prompt.",
+			"author": "Abdullah Diab",
+			"homepage": "http://mpcabd.igeex.biz/notepad-plugin-to-run-python-scripts/"
+		},
+		{
+			"folder-name": "Python Indent",
+			"display-name": "Python Indent",
+			"version": "1.0",
+			"id": "8250a3d429e2929f3f04ba27b704a0b3d4367ec718f744e008d3302b18ce8e73",
+			"repository": "https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/kereds-notepad-plus-plus-plugins/Python%20Indent.zip",
+			"description": "Indents Python code as you type according to Python syntax.",
+			"author": "kered13",
+			"homepage": "https://code.google.com/p/kereds-notepad-plus-plus-plugins"
+		},
+		{
+			"folder-name": "NppQCP",
+			"display-name": "Quick Color Picker +",
+			"version": "2.0",
+			"id": "ce03eb04f13a29c60435fee23032b7414c22614cfe00f07e160d687dc1faed87",
+			"repository": "https://s3-ap-southeast-1.amazonaws.com/nppqcp/nppqcp-2.0.zip",
+			"description": "DOWNLOAD: https://s3-ap-southeast-1.amazonaws.com/nppqcp/nppqcp-2.0.zip\nSCREENSHOT: https://s3-ap-southeast-1.amazonaws.com/nppqcp/features-2.0.png\n\nFEATURES\n* HEX/RGB/RGBA/HSL/HSLA color code highlight\n* Double-click activation of color picker\n* Allow assign hotkeys for Color Picker and Screen Picker\n* Professional color palette\n* Quick HSLA color tuning\n* Screen color picker\n*  Access Windows Color Chooser",
+			"author": "NPlus",
+			"homepage": "https://github.com/nulled666/nppqcp/"
+		},
+		{
+			"folder-name": "QuickOpenPlugin",
+			"display-name": "QuickOpenPlugin",
+			"version": "1.1",
+			"id": "43d57c67a30a777076a4d4083b9c6c914898028d21d0094c8f54cd58ffa803de",
+			"repository": "https://downloads.sourceforge.net/project/quickopenplugin/QuickOpenPlugin%20V1.2.zip",
+			"description": "This plugin mimics the \"open selected file\" in PSPad.\n\nI am a PHP developer and i often see an 'require_once(\"../this/is/some/file.php\");'. In pspad you can select the whole path (../this/is/some/file.php) and open it from the menu.\n\nNow you can do the same in notepad++. Just select the whole path and press alt+o, or use the button in the toolbar on top. It will open the file automatically.\n\nThe plugin understands the relative path.",
+			"author": "Sandor Gezel",
+			"homepage": "https://sourceforge.net/projects/quickopenplugin/"
+		},
+		{
+			"folder-name": "nppRegEx",
+			"display-name": "RainLexer",
+			"version": "0.2.3",
+			"id": "71bad88b38e7c1a902a4e5e1881f9690f33e78d617bc9d94102d47e0aedd1975",
+			"repository": "https://github.com/larryb82/npp-regexhelper/raw/master/bin/0.2.3/nppRegEx.zip",
+			"description": "Rainmeter .ini configuration file syntax highlighting plugin.\n\nDOWNLOAD FROM: https://github.com/poiru/rainlexer/releases",
+			"author": "Birunthan Mohanathas",
+			"homepage": "https://poiru.github.com/rainlexer"
+		},
+		{
+			"folder-name": "NppPlugin_SciMarkerSymbol",
+			"display-name": "SciMarkerSymbol",
+			"version": "1.0.0.0",
+			"id": "9df9fbc086c68a26950dafa624fa03e9a2a3ea500743a8afcde9d9c882b1448f",
+			"repository": "http://www.brotherstone.co.uk/npp/changemarker/NppPlugin_ChangeMarker_Unicode_bin.zip",
+			"description": "This plugin is used by other plugins. It retrieves the marker symbol type for a line marker from Scintilla. If the marker has not had a marker symbol defined to it the value SC_MARK_AVAILABLE type is returned. This allows plugins to cooperate when when using line markers.",
+			"author": "Thell Fowler",
+			"homepage": ""
+		},
+		{
+			"folder-name": "ScrollPastEOFUni",
+			"display-name": "ScrollPastEOF",
+			"version": "1.0",
+			"id": "0c7547b2434500c790ace1daf716b0c701220a64bae4e2ea17e80870c9ba4536",
+			"repository": "https://downloads.sourceforge.net/project/npp-plugins/ScrollPastEOF/ScrollPastEOF%201.0U/ScrollPastEOF.1.0U.zip",
+			"description": "This plugin simply configures the Scintilla components on startup to allow scrolling up to one page down past the end of file. Currently (as of Notepad++ 5.6.2) there is no GUI setting to enable this feature. It may be added at a later time, but if you are using an older version, you may still want to use this plugin.",
+			"author": "Alexander Iljin &lt;AlexIljin@users.SourceForge.net&gt;",
+			"homepage": ""
+		},
+		{
+			"folder-name": "SessionMgr",
+			"display-name": "Session Manager",
+			"version": "1.4.2",
+			"id": "6673f1cb560b110697412f6bbfb195170dec15eca65e805996f4ab8543df9be4",
+			"repository": "https://mfoster.com/npp/SessionMgr-1.4.2-plugin.zip",
+			"description": "IMPORTANT: If you are upgrading from a version older than 1.2 then, immediately after the upgrade, open the Settings dialog and reconfigure your settings.",
+			"author": "Mike Foster",
+			"homepage": "https://mfoster.com/npp/SessionMgr.html"
+		},
+		{
+			"folder-name": "SherloXplorer",
+			"display-name": "SherloXplorer",
+			"version": "0.3",
+			"id": "abb3bd754d3ca2da6215800f1cbbe1e9731404faea4514cee03feea4aaba2be0",
+			"repository": "https://downloads.sourceforge.net/project/sourcecookifier/other%20plugins/SherloXplorer.v0.3.0.bin.zip",
+			"description": "Explorer-like plugin (.NET 2.0 is required)",
+			"author": "UFO-pu55y",
+			"homepage": ""
+		},
+		{
+			"folder-name": "SourceCookifier",
+			"display-name": "Source Cookifier",
+			"version": "0.7.3",
+			"id": "ccc0e93ddb580511b5c2b4a3363713ef0cd96187515e972362bf5b6b235430de",
+			"repository": "https://downloads.sourceforge.net/project/sourcecookifier/0.7.3/SourceCookifier.v0.7.3.bin.zip",
+			"description": "A plugin which uses Exuberant Ctags to parse either only the currently activated source file or multiple files of so-called sessions. The results are shown and can be browsed in a treeview inside of a dockable window. (.NET 2.0 is required)",
+			"author": "UFO-Pu55y",
+			"homepage": "https://sourceforge.net/projects/sourcecookifier/"
+		},
+		{
+			"folder-name": "SpellChecker",
+			"display-name": "Spell-Checker",
+			"version": "1.3.3.0",
+			"id": "4306120f5dad3952a24d2a38bcd611e1c15c713d6a2a1cfab3b847588f6eb859",
+			"repository": "https://downloads.sourceforge.net/sourceforge/npp-plugins/SpellChecker_1_3_3_UNI_dll.zip",
+			"description": "Spellchecker can correct your typos in your language. Before using it, you will need to install GNU Aspell and a dictionary for your language(s) in the Aspell directory. Aspell and dictionaries are available from http://aspell.net/win32.",
+			"author": "Jens Lorenz",
+			"homepage": "http://www.scout-soft.com/sql/"
+		},
+		{
+			"folder-name": "TabIndentSpaceAlign",
+			"display-name": "TabIndentSpaceAlign",
+			"version": "1.0",
+			"id": "a9b09e1d22aa6eed160097f460bb96d1400de42d2b68b94bf28f31eba26eb055",
+			"repository": "https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/kereds-notepad-plus-plus-plugins/TabIndentSpaceAlign.zip",
+			"description": "Support using tabs for indent and spaces for alignment. It does a couple things. First, when you insert a new line it will exactly copy the preceding indent, instead of turning tabs to spaces or vice-versa. Second, if you insert a tab anywhere in the indentation part of a line (which is considered to be from the beginning of the line to the first non-tab) it will insert a tab, otherwise it will insert spaces. (For multiple lines, tab is always inserted)",
+			"author": "kered13",
+			"homepage": "https://code.google.com/p/kereds-notepad-plus-plus-plugins"
+		},
+		{
+			"folder-name": "TagsJump",
+			"display-name": "TagsJump",
+			"version": "1.4",
+			"id": "d4bc3fddd9520ffbb239536d2cc50ce0afe865e855a741efb140b42604f87674",
+			"repository": "https://downloads.sourceforge.net/project/tagsjump/TagsJump_v1.1.4_release0924.zip",
+			"description": "Plugin for reading large code.\nIt lets us generate index file, jump to a definition and jump back.",
+			"author": "N.V.Nhat Vu",
+			"homepage": "https://sourceforge.net/projects/tagsjump/"
+		},
+		{
+			"folder-name": "TagsView",
+			"display-name": "TagsView",
+			"version": "1.0.3",
+			"id": "481561400b1ee1d87c72bf39283412fdc2912a8fc6ad72a5fd96ac71fa27fb67",
+			"repository": "https://downloads.sourceforge.net/project/tagsview/TagsView%20for%20Notepad%2B%2B/TagsView_Npp_03beta.zip",
+			"description": "TagsView is a generic plugin which provides user interface for ctags parsed result. \nCurrently supported editors are Notepad++ and AkelPad. \nPowered by Win32++ (by David Nash) and by Exuberant Ctags (by Darren Hiebert). \nInspired by FunctionList plugin (by Jens Lorenz) for Notepad++ text editor (by Don HO).",
+			"author": "Dovgan Vitaliy",
+			"homepage": ""
+		},
+		{
+			"folder-name": "NppTextFX",
+			"display-name": "TextFX Characters",
+			"version": "0.2.6",
+			"id": "f882c2046f72a2ef207d33ae17b035f22b8f4479e56ca7b075347f15a1c1a280",
+			"repository": "https://downloads.sourceforge.net/project/npp-plugins/TextFX/TextFX%20v0.26/TextFX.v0.26.unicode.bin.zip",
+			"description": "TextFX includes numerous features to transform selected text.  Featuring: * Interactive Brace Matching * Quote handling * Character case alternation * Text rewrap * Column Lineup * Fill Text Down * Insert counter text down * Text to code conversion * Numeric Conversion * URI &amp; HTML encoding * HTML to text conversion * Submit text to W3C * Text sorting * Ascii Chart * Leading whitespace repair * Autoclose HTML &amp; braces",
+			"author": "",
+			"homepage": "http://textfx.no-ip.com/textfx/"
+		},
+		{
+			"folder-name": "NppTFS",
+			"display-name": "TFS Work Item",
+			"version": "1.0",
+			"id": "3aa58f7cddb8af06db017b7b24d5ee660277e84d2ba840c674e9c1791cccec5e",
+			"repository": "https://downloads.sourceforge.net/project/npptfs/NppTFS.zip",
+			"description": "Plugin attaches opened (in the current Notepad++ tab) file to the TFS work item\nThe plugin is tested only on TFS 2010 and requires .NET 4.",
+			"author": "",
+			"homepage": "https://sourceforge.net/projects/npptfs"
+		},
+		{
+			"folder-name": "Tidy2",
+			"display-name": "Tidy2",
+			"version": "0.2",
+			"id": "59cf24719009f0a62ad4414faa9b5dac7dfd637c12a13c024492fee1a5eca3ab",
+			"repository": "https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/npp-tidy2/Tidy2_0.2.zip",
+			"description": "HTML Tidy with support for HTML5.  Tidy up HTML or XML, pretty print. \nEnables 3 different configuration presets.",
+			"author": "Dave Brotherstone",
+			"homepage": "https://code.google.com/p/npp-tidy2/"
+		},
+		{
+			"folder-name": "Translate",
+			"display-name": "Translate",
+			"version": "3.1.1.0",
+			"id": "f5b84324f494ffbfb125ea44d33dc71d82e03696366452805b9ee88ccf506b99",
+			"repository": "https://sourceforge.net/projects/npptranslate/files/bin/Translate_3.1.1.0.zip",
+			"description": "Translate plugin provides quick translation of selected text to your language of choice. Just select the text and press Ctrl+Alt+Z. Supports multiple languages. \nSupports two translation engines:\n1) MyMemory (Free)\n2) BING (Free but requires registration to obtains Client ID and Secret). \n\nSee Engine Settings after installation. \n\nRequires .NET Framework 3.5",
+			"author": "Shaleen Mishra",
+			"homepage": "https://sourceforge.net/projects/npptranslate/"
+		},
+		{
+			"folder-name": "NppVerilog",
+			"display-name": "Verilog",
+			"version": "1.2.1",
+			"id": "cb447b09939fed2b89ff61f60bb30f170d676d904846af5d81500c5b41d913a9",
+			"repository": "https://sourceforge.net/projects/nppverilog/files/nppVerilog%20v1.2.1/nppVerilog_v1.2.1.zip",
+			"description": "Verilog processor for Notepad++. Current features:\n\n- Instantiate a module\n- Insert registers/wires from a module\n- Generate a test bench template\n- Automatically inserts a default header for a test bench\n- Insert a clocked always block\n\nTo use this plugin, select the module declaration (including parameter and I/O definitions below for non-ANSI) and click SHIFT-CTRL-C. This selects the module and parses its components. After this, all other functions are available.",
+			"author": "Steve Kopman",
+			"homepage": "https://sourceforge.net/projects/nppverilog/"
+		},
+		{
+			"folder-name": "NppVHDL",
+			"display-name": "VHDL",
+			"version": "1.0.0",
+			"id": "ad1f4c5f9b00e33b9e99a1c1bc635525b7da52a60f707804fc45086b430fdc39",
+			"repository": "https://sourceforge.net/projects/nppvhdl/files/NppVHDL%20v1.0.0/nppVHDL_v1.0.0.zip",
+			"description": "This version is enhanced to include:\n- Insert Instantiation\n- Insert Signals\n- Create Test Bench Framework\n- Insert Component\n- Make comments Doxygen compliant\n- Create New Behavioral/Structural Entity Template\n- Create New Package File Template\n- Insert Synchronous Process\n- Insert Asynchronous Process\n- Insert a Default Header\n\nThe default header is set in the vhdlConfig.txt file.",
+			"author": "Steve Kopman",
+			"homepage": "https://sourceforge.net/projects/nppvhdl/?source=directory"
+		},
+		{
+			"folder-name": "VisualStudioLineCopy.Unicode",
+			"display-name": "Visual Studio Line Copy",
+			"version": "1.0.1",
+			"id": "e516c0b8b69579bf1433b501416684bdced7930e6e96f54f268154ed8ae6eed7",
+			"repository": "https://bitbucket.org/zastrowm/notepad-visualstudiolinecopy/downloads/VisualStudioLineCopy.Unicode.zip",
+			"description": "Adds two commands to Notepad++ CopyAllowLine and CutAllowLine, which adds Visual Studio style copy/cutting to Notepad++.",
+			"author": "Mackenzie Zastrow",
+			"homepage": "https://bitbucket.org/zastrowm/notepad-visualstudiolinecopy"
+		},
+		{
+			"folder-name": "WakaTime",
+			"display-name": "WakaTime",
+			"version": "4.0.2",
+			"id": "c2f40c5fcd2e7b46d92631652a44c2c598915cb471ba62682b467e0ea1071af0",
+			"repository": "https://github.com/wakatime/notepadpp-wakatime/releases/download/4.0.2/notepadpp-wakatime-4.0.2.zip",
+			"description": "Metrics, insights, and time tracking automatically generated from your programming activity.",
+			"author": "WakaTime",
+			"homepage": "https://wakatime.com/"
+		},
+		{
+			"folder-name": "WindowManager",
+			"display-name": "Window Manager",
+			"version": "1.2.2.0",
+			"id": "edfcfa2d82ea0eaa68beb3dcba58c3c830c313705a25d249222c1d3a85f5ddfc",
+			"repository": "https://downloads.sourceforge.net/sourceforge/npp-plugins/WindowManager_1_2_2_UNI_dll.zip",
+			"description": "Window Manager gives a short overview of your open documents in Notepad++. This overview is dockable and gives you the same capability as the tabs have. Left click on a list item selects the document. Right click opens the tab context menu from Notepad++. When documents are opened in main and second view (by duplicate or move), two lists are shown in dialog window.",
+			"author": "Jens Lorenz",
+			"homepage": ""
+		},
+		{
+			"folder-name": "WLangLexer",
+			"display-name": "WLangLexer",
+			"version": "4.1.0.16",
+			"id": "f7108be1ced52b98553e80674ed5fd493445ce668c2444648477632c0c0da0d3",
+			"repository": "https://downloads.sourceforge.net/project/wdscript/Syntax%20Highlighting/WDScript%202.5%20Notepad%2B%2B%20Syntax%20File/NPP.Plugin.WLangLexer.v4.1.0.16-wd16038f.zip",
+			"description": "Lexer for the WDScript language: WDScript and Linux portability of WDScript Project. WDScript is a CGI like php where native language is W-Langage from PCSoft (english and french). Can be used to access Hyperfile Databases from a web server.",
+			"author": "tpruvot",
+			"homepage": ""
+		},
+		{
+			"folder-name": "XMLTools",
+			"display-name": "XML Tools",
+			"version": "2.4.11",
+			"id": "a189a565b1ed222727d960e35bef067376302009223da90742a3b98274173440",
+			"repository": "https://github.com/morbac/xmltools/releases/download/2.4.11.0/Xml.Tools.2.4.11.0.x86.Unicode.zip",
+			"description": "This plugin is a small set of useful tools for editing XML with Notepad++. The plugin is libXML2-based. The plugin features are:\n- XML syntax Check\n- XML Schema (XSD) + DTD Validation\n- XML tag autoclose\n- Pretty print\n- Linarize XML\n- Current XML Path\n- Conversion XML &amp;lt;-&amp;gt; Text\n- Comment / Uncomment\n- XPath expression evaluation",
+			"author": "Nicolas Crittin",
+			"homepage": ""
+		},
+		{
+			"folder-name": "XPatherizerNPP",
+			"display-name": "XPatherizerNPP",
+			"version": "2.10",
+			"id": "92e8393a2bf94b27a8084d8d84734616a56ea51f877bf5cc62b6d494642e76b5",
+			"repository": "https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/xpatherizernpp/XPatherizerNPP-2.10.zip",
+			"description": "Analyze multiple XPath queries with reverse lookup\nFeatures:\nAnalyze multiple XPath queries with one keypress.\nAbility to only search on selected text.\nAbility to Auto Search as you type your xPath queries. \nReverse lookup from results.\nBeautify XML documents.\nSaved queries for files left open in NPP.\nCan save and load XML files with XPath queries into a single file.\nSelect multiple results nodes for exporting.\nExport results to new XML file.\nRemove results from the XML document. \nCan display information about Attributes on the Parent node results.",
+			"author": "bguenthner",
+			"homepage": "https://code.google.com/p/xpatherizernpp/"
+		},
+		{
+			"folder-name": "ZenCoding-Python",
+			"display-name": "Zen Coding - Python",
+			"version": "0.7.0.1",
+			"id": "a781ee5c76ebc543b412a41e024c2d96f9a6edcae591f27868e190a48bc7bba6",
+			"repository": "https://downloads.sourceforge.net/project/npppythonscript/ZenCoding-Python/ZenCoding-Python-0.7.0.1a.zip",
+			"description": "An implementation of the Zen Coding method by Sergey Chikuyonok. Expand HTML, CSS, XML, XSLT and XSD from abbreviations\ntr#head1.header&gt;td*2 becomes &lt;tr id=\"head1\" class=\"header\"&gt;\n  &lt;td&gt;&lt;/td&gt;\n  &lt;td&gt;&lt;/td&gt;\n&lt;/tr&gt;\nUses the Python Script plugin.",
+			"author": "Dave Brotherstone",
+			"homepage": ""
+		},
+		{
 			"folder-name": "SecurePad",
 			"display-name": "SecurePad",
 			"version": "2.2",
