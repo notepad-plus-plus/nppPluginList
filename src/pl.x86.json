@@ -361,7 +361,7 @@
 			"repository": "https://sourceforge.net/projects/npp-plugins/files/NppExec/NppExec%20Plugin%20v0.6%20RC2/NppExec_06RC2_dll.zip",
 			"description": "With this NppExec plugin you can execute your commands or saved scripts without leaving Notepad++. It makes you triple your productivity!",
 			"author": "Vitaliy Dovgan",
-			"homepage": ""
+			"homepage": "https://github.com/d0vgan/nppexec"
 		},
 		{
 			"folder-name": "NppExport",
@@ -381,7 +381,7 @@
 			"repository": "https://github.com/heldersepu/nppfavorites/releases/download/1.0.0.1.21/NppFavorites_1.0.0.1.21_x86.zip",
 			"description": "Favorites plugin for Notepad++\r\n\r\nNotepad++ is a GREAT text editor for programmers, but it does not come with favorites...\r\nThis project is a simple solution to that problem.",
 			"author": "Helder Sepulveda",
-			"homepage": ""
+			"homepage": "https://github.com/heldersepu/nppfavorites"
 		},
 		{
 			"folder-name": "NppJumpList",
@@ -612,7 +612,7 @@
 			"repository": "https://github.com/downloads/ppv/NPPFSIPlugin/NPPFSIPlugin.zip",
 			"description": "This plugin hosts F# Interactive inside Notepad++ (Note: F# should be installed separately).",
 			"author": "Prapin Peethambaran",
-			"homepage": ""
+			"homepage": "https://github.com/ppv/NPPFSIPlugin"
 		},
 		{
 			"folder-name": "FallingBricks",
@@ -632,7 +632,7 @@
 			"repository": "https://downloads.sourceforge.net/project/npp-plugins/File%20Switcher/FileSwitcher%201.0.3.0/FileSwitcher1030_UNI.zip",
 			"description": "This plugin allows you to switch the active buffer using just the keyboard.  You can type any part of the filename, path or tab index.  You can also use it as a replacement for the Ctrl-Tab functionality built into Notepad++.",
 			"author": "Dave Brotherstone",
-			"homepage": ""
+			"homepage": "https://github.com/bruderstein/FileSwitcher"
 		},
 		{
 			"folder-name": "FingerText",
@@ -822,7 +822,7 @@
 			"repository": "https://download.tuxfamily.org/nppplugins/NppHashMaker/NppHashMaker.v1.0.zip",
 			"description": "Npp Hash Maker is a plugin which computes the hash of selected text in Notepad++.\r\nMoreover, it provides hash result in base64 encoded (optional).\r\n\r\nThis plugin is coded in C# by using .NET Framework.\r\nLike Notepad++, it's under GPL.\r\n\r\nSupported hash methods:\r\n1. MD5\r\n2. SHA1\r\n3. SHA256\r\n4. SHA384\r\n5. SHA512",
 			"author": "Don Ho",
-			"homepage": ""
+			"homepage": "https://github.com/npp-plugins/hasher"
 		},
 		{
 			"folder-name": "nppplugin_ofis2",
@@ -886,20 +886,20 @@
 		},
 		{
 			"folder-name": "nppRegEx",
-			"display-name": "RainLexer",
+			"display-name": "RegEx Helper",
 			"version": "0.2.3",
 			"id": "71bad88b38e7c1a902a4e5e1881f9690f33e78d617bc9d94102d47e0aedd1975",
 			"repository": "https://github.com/larryb82/npp-regexhelper/raw/master/bin/0.2.3/nppRegEx.zip",
-			"description": "Rainmeter .ini configuration file syntax highlighting plugin.\n\nDOWNLOAD FROM: https://github.com/poiru/rainlexer/releases",
-			"author": "Birunthan Mohanathas",
-			"homepage": "https://poiru.github.com/rainlexer"
+			"description": "Highlights all matches of a regular expression within a document. Clicking on an individual result shows the matching groups for that result.",
+			"author": "lbarsanti",
+			"homepage": "https://github.com/larryb82/npp-regexhelper"
 		},
 		{
 			"folder-name": "NppPlugin_SciMarkerSymbol",
 			"display-name": "SciMarkerSymbol",
 			"version": "1.0.0.0",
 			"id": "9df9fbc086c68a26950dafa624fa03e9a2a3ea500743a8afcde9d9c882b1448f",
-			"repository": "http://www.brotherstone.co.uk/npp/changemarker/NppPlugin_ChangeMarker_Unicode_bin.zip",
+			"repository": "https://bruderste.in/npp/changemarker/NppPlugin_ChangeMarker_Unicode_bin.zip",
 			"description": "This plugin is used by other plugins. It retrieves the marker symbol type for a line marker from Scintilla. If the marker has not had a marker symbol defined to it the value SC_MARK_AVAILABLE type is returned. This allows plugins to cooperate when when using line markers.",
 			"author": "Thell Fowler",
 			"homepage": ""
@@ -1082,7 +1082,7 @@
 			"repository": "https://downloads.sourceforge.net/project/wdscript/Syntax%20Highlighting/WDScript%202.5%20Notepad%2B%2B%20Syntax%20File/NPP.Plugin.WLangLexer.v4.1.0.16-wd16038f.zip",
 			"description": "Lexer for the WDScript language: WDScript and Linux portability of WDScript Project. WDScript is a CGI like php where native language is W-Langage from PCSoft (english and french). Can be used to access Hyperfile Databases from a web server.",
 			"author": "tpruvot",
-			"homepage": ""
+			"homepage": "https://sourceforge.net/projects/wdscript/"
 		},
 		{
 			"folder-name": "XMLTools",
@@ -1092,7 +1092,7 @@
 			"repository": "https://github.com/morbac/xmltools/releases/download/2.4.11.0/Xml.Tools.2.4.11.0.x86.Unicode.zip",
 			"description": "This plugin is a small set of useful tools for editing XML with Notepad++. The plugin is libXML2-based. The plugin features are:\n- XML syntax Check\n- XML Schema (XSD) + DTD Validation\n- XML tag autoclose\n- Pretty print\n- Linarize XML\n- Current XML Path\n- Conversion XML &amp;lt;-&amp;gt; Text\n- Comment / Uncomment\n- XPath expression evaluation",
 			"author": "Nicolas Crittin",
-			"homepage": ""
+			"homepage": "https://github.com/morbac/xmltools"
 		},
 		{
 			"folder-name": "XPatherizerNPP",
@@ -1112,7 +1112,7 @@
 			"repository": "https://downloads.sourceforge.net/project/npppythonscript/ZenCoding-Python/ZenCoding-Python-0.7.0.1a.zip",
 			"description": "An implementation of the Zen Coding method by Sergey Chikuyonok. Expand HTML, CSS, XML, XSLT and XSD from abbreviations\ntr#head1.header&gt;td*2 becomes &lt;tr id=\"head1\" class=\"header\"&gt;\n  &lt;td&gt;&lt;/td&gt;\n  &lt;td&gt;&lt;/td&gt;\n&lt;/tr&gt;\nUses the Python Script plugin.",
 			"author": "Dave Brotherstone",
-			"homepage": ""
+			"homepage": "https://github.com/bruderstein/ZenCoding-Python"
 		},
 		{
 			"folder-name": "SecurePad",
