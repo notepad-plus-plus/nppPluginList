@@ -1127,7 +1127,7 @@
 		{
 			"folder-name": "CSScriptNpp",
 			"display-name": "CS-Script - C# Intellisense",
-			"version": "1.7.31.0",
+			"version": "1.7.24.0",
 			"id": "E24715048FB7E380119518CEEDD8410E3BFDF4E0BA70BF32DFC380E9C38446FA",
 			"repository": "https://github.com/oleg-shilo/cs-script.npp/releases/download/v1.7.24/CSScriptNpp.1.7.24.0.x86.zip",
 			"description": "Notepad++ plugin for CS-Script integration. It implements a real C# Intellisense solution based on CS-Script and Roslyn. It also allows loading, executing modifying and debugging C# scripts in a way very similar to the Visual Studio C# projects support. This includes referencing assemblies and other scripts, code formatting, adding missing namespaces and intercepting Debug and Console output.",
