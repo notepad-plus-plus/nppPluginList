@@ -62,6 +62,16 @@
 			"description": "This template is done for making plugin development as easy and simple as possible. 4 steps and it's done - Even your grandmom can do it!",
 			"author":"Don HO",
 			"homepage": "https://notepad-plus-plus.org/contribute/plugin-howto.html"
+		},
+		{
+			"folder-name": "CSScriptNpp",
+			"display-name": "CS-Script - C# Intellisense",
+			"version": "1.7.31.0",
+			"id": "C9C93D04B7FDD4A6E59B7E494ABC0478BE27FA013B9FE38EA9C5BBB63EA04F0E",
+			"repository": "https://github.com/oleg-shilo/cs-script.npp/releases/download/v1.7.23.0/CSScriptNpp.1.7.31.0.x64.zip",
+			"description": "Notepad++ plugin for CS-Script integration. It implements a real C# Intellisense solution based on CS-Script and Roslyn. It also allows loading, executing modifying and debugging C# scripts in a way very similar to the Visual Studio C# projects support. This includes referencing assemblies and other scripts, code formatting, adding missing namespaces and intercepting Debug and Console output.",
+			"author": "Oleg Shilo",
+			"homepage": "https://github.com/oleg-shilo/cs-script.npp"
 		}
 	]
 }
