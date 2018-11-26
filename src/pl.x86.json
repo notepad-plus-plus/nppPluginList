@@ -1087,7 +1087,7 @@
 		{
 			"folder-name": "XMLTools",
 			"display-name": "XML Tools",
-			"version": "2.4.11",
+			"version": "2.4.11.0",
 			"id": "a189a565b1ed222727d960e35bef067376302009223da90742a3b98274173440",
 			"repository": "https://github.com/morbac/xmltools/releases/download/2.4.11.0/Xml.Tools.2.4.11.0.x86.Unicode.zip",
 			"description": "This plugin is a small set of useful tools for editing XML with Notepad++. The plugin is libXML2-based. The plugin features are:\n- XML syntax Check\n- XML Schema (XSD) + DTD Validation\n- XML tag autoclose\n- Pretty print\n- Linarize XML\n- Current XML Path\n- Conversion XML &amp;lt;-&amp;gt; Text\n- Comment / Uncomment\n- XPath expression evaluation",
@@ -1133,16 +1133,6 @@
 			"description": "Notepad++ plugin for CS-Script integration. It implements a real C# Intellisense solution based on CS-Script and Roslyn. It also allows loading, executing modifying and debugging C# scripts in a way very similar to the Visual Studio C# projects support. This includes referencing assemblies and other scripts, code formatting, adding missing namespaces and intercepting Debug and Console output.",
 			"author": "Oleg Shilo",
 			"homepage": "https://github.com/oleg-shilo/cs-script.npp"
-		},
-		{
-			"folder-name": "XMLTools",
-			"display-name": "XMLTools",
-			"version": "2.4.11.0",
-			"id": "a189a565b1ed222727d960e35bef067376302009223da90742a3b98274173440",
-			"repository": "https://github.com/morbac/xmltools/releases/download/2.4.11.0/Xml.Tools.2.4.11.0.x86.Unicode.zip",
-			"description": "Add some functions to Notepad++ for XML support. The plugin is based on libXML.",
-			"author": "Nicolas Crittin",
-			"homepage": "https://github.com/morbac/xmltools"
 		}
 	]
 }

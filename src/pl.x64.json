@@ -555,11 +555,11 @@
 		},
 		{
 			"folder-name": "XMLTools",
-			"display-name": "XMLTools",
+			"display-name": "XML Tools",
 			"version": "2.4.11.0",
 			"id": "9c1de52b873b633646a6ea32df9209d652652361ba5c2b8cbb90f91438bca2bd",
 			"repository": "https://github.com/morbac/xmltools/releases/download/2.4.11.0/Xml.Tools.2.4.11.0.x64.Unicode.zip",
-			"description": "Add some functions to Notepad++ for XML support. The plugin is based on libXML.",
+			"description": "This plugin is a small set of useful tools for editing XML with Notepad++. The plugin is libXML2-based. The plugin features are:\n- XML syntax Check\n- XML Schema (XSD) + DTD Validation\n- XML tag autoclose\n- Pretty print\n- Linarize XML\n- Current XML Path\n- Conversion XML &amp;lt;-&amp;gt; Text\n- Comment / Uncomment\n- XPath expression evaluation",
 			"author": "Nicolas Crittin",
 			"homepage": "https://github.com/morbac/xmltools"
 		}
