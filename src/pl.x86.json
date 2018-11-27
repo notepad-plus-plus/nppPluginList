@@ -835,16 +835,6 @@
 			"homepage": "https://github.com/npp-plugins/hasher"
 		},
 		{
-			"folder-name": "nppplugin_ofis2",
-			"display-name": "Open File In Solution",
-			"version": "2.194",
-			"id": "888538cc4f40c0d3a3fed03c5ef3faf150edb2c4273011f900bd44d9e320c75e",
-			"repository": "http://www.incrediblejunior.com/npp_plugins/downloads/ofis2_r194.zip",
-			"description": "Lets you index specific folders and possible specific types of resources (xml-, cpp, py-files) for a fast indexing of files.",
-			"author": "incfred",
-			"homepage": "http://www.incrediblejunior.com/npp_plugins/"
-		},
-		{
 			"folder-name": "ccc",
 			"display-name": "PHP Autocompletion",
 			"version": "1.4.1",
@@ -865,16 +855,6 @@
 			"homepage": "http://mpcabd.igeex.biz/notepad-plugin-to-run-python-scripts/"
 		},
 		{
-			"folder-name": "Python Indent",
-			"display-name": "Python Indent",
-			"version": "1.0",
-			"id": "8250a3d429e2929f3f04ba27b704a0b3d4367ec718f744e008d3302b18ce8e73",
-			"repository": "https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/kereds-notepad-plus-plus-plugins/Python%20Indent.zip",
-			"description": "Indents Python code as you type according to Python syntax.",
-			"author": "kered13",
-			"homepage": "https://code.google.com/p/kereds-notepad-plus-plus-plugins"
-		},
-		{
 			"folder-name": "NppQCP",
 			"display-name": "Quick Color Picker +",
 			"version": "2.0",
@@ -893,26 +873,6 @@
 			"description": "This plugin mimics the \"open selected file\" in PSPad.\n\nI am a PHP developer and i often see an 'require_once(\"../this/is/some/file.php\");'. In pspad you can select the whole path (../this/is/some/file.php) and open it from the menu.\n\nNow you can do the same in notepad++. Just select the whole path and press alt+o, or use the button in the toolbar on top. It will open the file automatically.\n\nThe plugin understands the relative path.",
 			"author": "Sandor Gezel",
 			"homepage": "https://sourceforge.net/projects/quickopenplugin/"
-		},
-		{
-			"folder-name": "nppRegEx",
-			"display-name": "RegEx Helper",
-			"version": "0.2.3",
-			"id": "71bad88b38e7c1a902a4e5e1881f9690f33e78d617bc9d94102d47e0aedd1975",
-			"repository": "https://github.com/larryb82/npp-regexhelper/raw/master/bin/0.2.3/nppRegEx.zip",
-			"description": "Highlights all matches of a regular expression within a document. Clicking on an individual result shows the matching groups for that result.",
-			"author": "lbarsanti",
-			"homepage": "https://github.com/larryb82/npp-regexhelper"
-		},
-		{
-			"folder-name": "NppPlugin_SciMarkerSymbol",
-			"display-name": "SciMarkerSymbol",
-			"version": "1.0.0.0",
-			"id": "9df9fbc086c68a26950dafa624fa03e9a2a3ea500743a8afcde9d9c882b1448f",
-			"repository": "https://bruderste.in/npp/changemarker/NppPlugin_ChangeMarker_Unicode_bin.zip",
-			"description": "This plugin is used by other plugins. It retrieves the marker symbol type for a line marker from Scintilla. If the marker has not had a marker symbol defined to it the value SC_MARK_AVAILABLE type is returned. This allows plugins to cooperate when when using line markers.",
-			"author": "Thell Fowler",
-			"homepage": ""
 		},
 		{
 			"folder-name": "ScrollPastEOFUni",
@@ -965,26 +925,6 @@
 			"homepage": "http://www.scout-soft.com/sql/"
 		},
 		{
-			"folder-name": "TabIndentSpaceAlign",
-			"display-name": "TabIndentSpaceAlign",
-			"version": "1.0",
-			"id": "a9b09e1d22aa6eed160097f460bb96d1400de42d2b68b94bf28f31eba26eb055",
-			"repository": "https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/kereds-notepad-plus-plus-plugins/TabIndentSpaceAlign.zip",
-			"description": "Support using tabs for indent and spaces for alignment. It does a couple things. First, when you insert a new line it will exactly copy the preceding indent, instead of turning tabs to spaces or vice-versa. Second, if you insert a tab anywhere in the indentation part of a line (which is considered to be from the beginning of the line to the first non-tab) it will insert a tab, otherwise it will insert spaces. (For multiple lines, tab is always inserted)",
-			"author": "kered13",
-			"homepage": "https://code.google.com/p/kereds-notepad-plus-plus-plugins"
-		},
-		{
-			"folder-name": "TagsJump",
-			"display-name": "TagsJump",
-			"version": "1.4",
-			"id": "d4bc3fddd9520ffbb239536d2cc50ce0afe865e855a741efb140b42604f87674",
-			"repository": "https://downloads.sourceforge.net/project/tagsjump/TagsJump_v1.1.4_release0924.zip",
-			"description": "Plugin for reading large code.\nIt lets us generate index file, jump to a definition and jump back.",
-			"author": "N.V.Nhat Vu",
-			"homepage": "https://sourceforge.net/projects/tagsjump/"
-		},
-		{
 			"folder-name": "TagsView",
 			"display-name": "TagsView",
 			"version": "1.0.3",
@@ -1033,36 +973,6 @@
 			"description": "Translate plugin provides quick translation of selected text to your language of choice. Just select the text and press Ctrl+Alt+Z. Supports multiple languages. \nSupports two translation engines:\n1) MyMemory (Free)\n2) BING (Free but requires registration to obtains Client ID and Secret). \n\nSee Engine Settings after installation. \n\nRequires .NET Framework 3.5",
 			"author": "Shaleen Mishra",
 			"homepage": "https://sourceforge.net/projects/npptranslate/"
-		},
-		{
-			"folder-name": "NppVerilog",
-			"display-name": "Verilog",
-			"version": "1.2.1",
-			"id": "cb447b09939fed2b89ff61f60bb30f170d676d904846af5d81500c5b41d913a9",
-			"repository": "https://sourceforge.net/projects/nppverilog/files/nppVerilog%20v1.2.1/nppVerilog_v1.2.1.zip",
-			"description": "Verilog processor for Notepad++. Current features:\n\n- Instantiate a module\n- Insert registers/wires from a module\n- Generate a test bench template\n- Automatically inserts a default header for a test bench\n- Insert a clocked always block\n\nTo use this plugin, select the module declaration (including parameter and I/O definitions below for non-ANSI) and click SHIFT-CTRL-C. This selects the module and parses its components. After this, all other functions are available.",
-			"author": "Steve Kopman",
-			"homepage": "https://sourceforge.net/projects/nppverilog/"
-		},
-		{
-			"folder-name": "NppVHDL",
-			"display-name": "VHDL",
-			"version": "1.0.0",
-			"id": "ad1f4c5f9b00e33b9e99a1c1bc635525b7da52a60f707804fc45086b430fdc39",
-			"repository": "https://sourceforge.net/projects/nppvhdl/files/NppVHDL%20v1.0.0/nppVHDL_v1.0.0.zip",
-			"description": "This version is enhanced to include:\n- Insert Instantiation\n- Insert Signals\n- Create Test Bench Framework\n- Insert Component\n- Make comments Doxygen compliant\n- Create New Behavioral/Structural Entity Template\n- Create New Package File Template\n- Insert Synchronous Process\n- Insert Asynchronous Process\n- Insert a Default Header\n\nThe default header is set in the vhdlConfig.txt file.",
-			"author": "Steve Kopman",
-			"homepage": "https://sourceforge.net/projects/nppvhdl/?source=directory"
-		},
-		{
-			"folder-name": "VisualStudioLineCopy.Unicode",
-			"display-name": "Visual Studio Line Copy",
-			"version": "1.0.1",
-			"id": "e516c0b8b69579bf1433b501416684bdced7930e6e96f54f268154ed8ae6eed7",
-			"repository": "https://bitbucket.org/zastrowm/notepad-visualstudiolinecopy/downloads/VisualStudioLineCopy.Unicode.zip",
-			"description": "Adds two commands to Notepad++ CopyAllowLine and CutAllowLine, which adds Visual Studio style copy/cutting to Notepad++.",
-			"author": "Mackenzie Zastrow",
-			"homepage": "https://bitbucket.org/zastrowm/notepad-visualstudiolinecopy"
 		},
 		{
 			"folder-name": "WakaTime",
