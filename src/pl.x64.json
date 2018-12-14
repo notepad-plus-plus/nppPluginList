@@ -514,16 +514,6 @@
 			"homepage": "https://phdesign.com.au/npptoolbucket/"
 		},
 		{
-			"folder-name": "ViSimulator",
-			"display-name": "ViSimulator for Notepad++",
-			"version": "18.03.08",
-			"id": "2995af6b3f43458fa6282a7742af0a073a16909dc186f797030dd9050340be11",
-			"repository": "https://github.com/bycn82/visimulator/raw/master/x64/ViSimulator-x64-20180308.zip",
-			"description": "It is a plugin for Notepad++ which provides a Vi-Style input scheme like moving around with hjkl and editing text on Notepad++.\r\n\r\nMost of the common commands in vi are supported via this plugin Fast tap the 'ESC' 3 times to enable/disable the plugin\r\n\r\nBelow are list of the supported commands:\r\n\r\n    h j k l - move the cursor\r\n    a i o - switch to edit mode\r\n    $ - move to the end of the line\r\n    0 - move to the beginning of the line\r\n    w e - move to next word\r\n    u - undo\r\n    x - delete character[s]\r\n    d[G] - cut line[s]\r\n    y[G] - yank line[s]\r\n    p - paste\r\n    n N - search next matched\r\n    :number - move to the cursor to line\r\n    :w - save\r\n    :q - quit\r\n    :help - show all the supported commands",
-			"author": "bycn82",
-			"homepage": "https://github.com/bycn82/visimulator"
-		},
-		{
 			"folder-name": "XBrackets",
 			"display-name": "XBrackets Lite",
 			"version": "1.3.0",
@@ -552,6 +542,16 @@
 			"description": "Do you have more then 10 open tabs? than this plugin is for you.\r\n\r\nNavigate To is a new and efficient way to quickly navigate between tabs(files) in your Notepad++. It allows you to search for a symbol or filename, filepath by matching against a keyword you type in, and get a real time preview while going through the search results by Shift key.\r\nAnd YES indeed you can uncheck the Multi-line option, in the Preferences &gt; General &gt; Tab Bar zone because you don’t need the multi-lines tab feature anymore :)\r\n\r\nAuthor: Oleksii Maryshchenko\r\nEmail: young_developer@mail.ru",
 			"author": "Oleksii Maryshchenko",
 			"homepage": "https://github.com/young-developer/nppNavigateTo"
+		},
+		{
+			"folder-name": "SessionMgr",
+			"display-name": "Session Manager",
+			"version": "1.4.3",
+			"id": "1baa3ec3938c80c38964db8bbd2934b203215b8c4dc7d45dc0088837147f4943",
+			"repository": "https://github.com/chcg/npp-session-manager/releases/download/v1.4.3/SessionMgr_v1.4.3_x64.zip",
+			"description": "IMPORTANT: If you are upgrading from a version older than 1.2 then, immediately after the upgrade, open the Settings dialog and reconfigure your settings.",
+			"author": "Mike Foster",
+			"homepage": "https://mfoster.com/npp/SessionMgr.html"
 		},
 		{
 			"folder-name": "XMLTools",
