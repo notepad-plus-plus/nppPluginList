@@ -504,6 +504,16 @@
 			"homepage": "https://phdesign.com.au/npptoolbucket/"
 		},
 		{
+			"folder-name": "ViSimulator",
+			"display-name": "ViSimulator for Notepad++",
+			"version": "18.03.08",
+			"id": "5fbdf19d3005462d453a0346f10794ad7e2062450d8fbccf8503624b182ed488",
+			"repository": "https://github.com/bycn82/visimulator/raw/master/x32/ViSimulator-x32-20180308.zip",
+			"description": "It is a plugin for Notepad++ which provides a Vi-Style input scheme like moving around with hjkl and editing text on Notepad++.\r\n\r\nMost of the common commands in vi are supported via this plugin Fast tap the 'ESC' 3 times to enable/disable the plugin\r\n\r\nBelow are list of the supported commands:\r\n\r\n    h j k l - move the cursor\r\n    a i o - switch to edit mode\r\n    $ - move to the end of the line\r\n    0 - move to the beginning of the line\r\n    w e - move to next word\r\n    u - undo\r\n    x - delete character[s]\r\n    d[G] - cut line[s]\r\n    y[G] - yank line[s]\r\n    p - paste\r\n    n N - search next matched\r\n    :number - move to the cursor to line\r\n    :w - save\r\n    :q - quit\r\n    :help - show all the supported commands",
+			"author": "bycn82",
+			"homepage": "https://github.com/bycn82/visimulator"
+		},
+		{
 			"folder-name": "XBrackets",
 			"display-name": "XBrackets Lite",
 			"version": "1.3.0",
@@ -604,6 +614,16 @@
 			"homepage": "https://github.com/editorconfig/editorconfig-notepad-plus-plus#readme"
 		},
 		{
+			"folder-name": "eibericht",
+			"display-name": "Ei-bericht",
+			"version": "1.6",
+			"id": "4631f2ef965dfe564c52eec5c7616292fb2b23d40f5a91e0bb407b129ccfacc8",
+			"repository": "https://www.eibericht.nl/eibericht16.zip",
+			"description": "Highlighting for ei-berichten, making it easier to edit these files used in The Netherlands for health care claims.",
+			"author": "Mark de Ronde",
+			"homepage": "https://www.eibericht.nl"
+		},
+		{
 			"folder-name": "Explorer",
 			"display-name": "Explorer",
 			"version": "1.8.2.0",
@@ -692,6 +712,16 @@
 			"description": "The plugin will download the latest regular expressions from GrepBugs.com and grep for matches in all open files. Requires .NET 4+",
 			"author": "Peter Parker",
 			"homepage": "https://grepbugs.com/plugins"
+		},
+		{
+			"folder-name": "HexEditor",
+			"display-name": "HEX-Editor",
+			"version": "0.9.5.0",
+			"id": "2352b9a8ad459bb9ce4d231d990d89f22d338aa446226f5c36ffa32dad7c3826",
+			"repository": "https://downloads.sourceforge.net/project/npp-plugins/Hex%20Editor/Hex%20Editor%20Plugin%20v0.9.5/HexEditor_0_9_5_UNI_dll.zip",
+			"description": "Some reported issues, however many bugs fixed in latest release",
+			"author": "Jens Lorenz",
+			"homepage": "http://f0dder.dcmembers.com/nppplugs.index.php"
 		},
 		{
 			"folder-name": "IndentByFold",

@@ -254,6 +254,16 @@
 			"homepage": "https://sourceforge.net/projects/imgtag/"
 		},
 		{
+			"folder-name": "jN",
+			"display-name": "jN Notepad++ Plugin",
+			"version": "2.2.185.5",
+			"id": "813be0e66c90415233538b8c993d3bb1be0297d69ba073bd62c13d9fc6972e32",
+			"repository": "https://github.com/sieukrem/jn-npp-plugin/releases/download/2.2.185.5/jN_2.2.185.5_x64.zip",
+			"description": "jN (JavaScript for Notepad++) allows you to extend Notepad++ by using JavaScript.\r\n- You can create new menu elements which execute JavaScript\r\n- You can use a lot of ActiveX components available on your PC\r\n- You can add shortcuts executing JavaScript\r\n- You can create Html based dialogs and docking windows\r\n- You can write JavaScript wrappers around Win32 API\r\n - Since version 2.0.116 you can debug your automating scripts\r\n - Selection highlighting and navigation bar\r\n - Integrated Zen Coding v0.7\r\n - You can catch context menu request and create your own",
+			"author": "Eugen Kremer",
+			"homepage": "https://github.com/sieukrem/jn-npp-plugin/wiki"
+		},
+		{
 			"folder-name": "JsMapParser.NppPlugin",
 			"display-name": "JavaScript Map Parser",
 			"version": "4.2",
@@ -371,7 +381,7 @@
 			"repository": "https://sourceforge.net/projects/npp-plugins/files/NppExec/NppExec%20Plugin%20v0.6%20RC2/NppExec_06RC2_dll_x64.zip",
 			"description": "With this NppExec plugin you can execute your commands or saved scripts without leaving Notepad++. It makes you triple your productivity!",
 			"author": "Vitaliy Dovgan",
-			"homepage": ""
+			"homepage": "https://github.com/d0vgan/nppexec"
 		},
 		{
 			"folder-name": "NppExport",
@@ -391,7 +401,7 @@
 			"repository": "https://github.com/heldersepu/nppfavorites/releases/download/1.0.0.1.21/NppFavorites_1.0.0.1.21_x64.zip",
 			"description": "Favorites plugin for Notepad++\r\n\r\nNotepad++ is a GREAT text editor for programmers, but it does not come with favorites...\r\nThis project is a simple solution to that problem.",
 			"author": "Helder Sepulveda",
-			"homepage": ""
+			"homepage": "https://github.com/heldersepu/nppfavorites"
 		},
 		{
 			"folder-name": "NppJumpList",
@@ -422,16 +432,6 @@
 			"description": "This plugin allows to create QR-Code from selected text. Just select the text and push plugin button.",
 			"author": "Vladimir Korobenkov",
 			"homepage": "https://github.com/vladk1973/NppQrCode"
-		},
-		{
-			"folder-name": "jN",
-			"display-name": "jN Notepad++ Plugin",
-			"version": "2.2.185.5",
-			"id": "813be0e66c90415233538b8c993d3bb1be0297d69ba073bd62c13d9fc6972e32",
-			"repository": "https://github.com/sieukrem/jn-npp-plugin/releases/download/2.2.185.5/jN_2.2.185.5_x64.zip",
-			"description": "jN (JavaScript for Notepad++) allows you to extend Notepad++ by using JavaScript.\r\n- You can create new menu elements which execute JavaScript\r\n- You can use a lot of ActiveX components available on your PC\r\n- You can add shortcuts executing JavaScript\r\n- You can create Html based dialogs and docking windows\r\n- You can write JavaScript wrappers around Win32 API\r\n - Since version 2.0.116 you can debug your automating scripts\r\n - Selection highlighting and navigation bar\r\n - Integrated Zen Coding v0.7\r\n - You can catch context menu request and create your own",
-			"author": "Eugen Kremer",
-			"homepage": "https://github.com/sieukrem/jn-npp-plugin/wiki"
 		},
 		{
 			"folder-name": "NppRegExTractorPlugin",
@@ -514,6 +514,16 @@
 			"homepage": "https://phdesign.com.au/npptoolbucket/"
 		},
 		{
+			"folder-name": "ViSimulator",
+			"display-name": "ViSimulator for Notepad++",
+			"version": "18.03.08",
+			"id": "2995af6b3f43458fa6282a7742af0a073a16909dc186f797030dd9050340be11",
+			"repository": "https://github.com/bycn82/visimulator/raw/master/x64/ViSimulator-x64-20180308.zip",
+			"description": "It is a plugin for Notepad++ which provides a Vi-Style input scheme like moving around with hjkl and editing text on Notepad++.\r\n\r\nMost of the common commands in vi are supported via this plugin Fast tap the 'ESC' 3 times to enable/disable the plugin\r\n\r\nBelow are list of the supported commands:\r\n\r\n    h j k l - move the cursor\r\n    a i o - switch to edit mode\r\n    $ - move to the end of the line\r\n    0 - move to the beginning of the line\r\n    w e - move to next word\r\n    u - undo\r\n    x - delete character[s]\r\n    d[G] - cut line[s]\r\n    y[G] - yank line[s]\r\n    p - paste\r\n    n N - search next matched\r\n    :number - move to the cursor to line\r\n    :w - save\r\n    :q - quit\r\n    :help - show all the supported commands",
+			"author": "bycn82",
+			"homepage": "https://github.com/bycn82/visimulator"
+		},
+		{
 			"folder-name": "XBrackets",
 			"display-name": "XBrackets Lite",
 			"version": "1.3.0",
@@ -544,6 +554,16 @@
 			"homepage": "https://github.com/young-developer/nppNavigateTo"
 		},
 		{
+			"folder-name": "XMLTools",
+			"display-name": "XML Tools",
+			"version": "2.4.11.0",
+			"id": "9c1de52b873b633646a6ea32df9209d652652361ba5c2b8cbb90f91438bca2bd",
+			"repository": "https://github.com/morbac/xmltools/releases/download/2.4.11.0/Xml.Tools.2.4.11.0.x64.Unicode.zip",
+			"description": "This plugin is a small set of useful tools for editing XML with Notepad++. The plugin is libXML2-based. The plugin features are:\n- XML syntax Check\n- XML Schema (XSD) + DTD Validation\n- XML tag autoclose\n- Pretty print\n- Linarize XML\n- Current XML Path\n- Conversion XML &amp;lt;-&amp;gt; Text\n- Comment / Uncomment\n- XPath expression evaluation",
+			"author": "Nicolas Crittin",
+			"homepage": "https://github.com/morbac/xmltools"
+		},
+		{
 			"folder-name": "SecurePad",
 			"display-name": "SecurePad",
 			"version": "2.2",
@@ -562,16 +582,6 @@
 			"description": "Notepad++ plugin for CS-Script integration. It implements a real C# Intellisense solution based on CS-Script and Roslyn. It also allows loading, executing modifying and debugging C# scripts in a way very similar to the Visual Studio C# projects support. This includes referencing assemblies and other scripts, code formatting, adding missing namespaces and intercepting Debug and Console output.",
 			"author": "Oleg Shilo",
 			"homepage": "https://github.com/oleg-shilo/cs-script.npp"
-		},
-		{
-			"folder-name": "XMLTools",
-			"display-name": "XML Tools",
-			"version": "2.4.11.0",
-			"id": "9c1de52b873b633646a6ea32df9209d652652361ba5c2b8cbb90f91438bca2bd",
-			"repository": "https://github.com/morbac/xmltools/releases/download/2.4.11.0/Xml.Tools.2.4.11.0.x64.Unicode.zip",
-			"description": "This plugin is a small set of useful tools for editing XML with Notepad++. The plugin is libXML2-based. The plugin features are:\n- XML syntax Check\n- XML Schema (XSD) + DTD Validation\n- XML tag autoclose\n- Pretty print\n- Linarize XML\n- Current XML Path\n- Conversion XML &amp;lt;-&amp;gt; Text\n- Comment / Uncomment\n- XPath expression evaluation",
-			"author": "Nicolas Crittin",
-			"homepage": "https://github.com/morbac/xmltools"
 		}
 	]
 }
