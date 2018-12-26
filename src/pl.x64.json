@@ -224,12 +224,12 @@
 			"homepage": "https://github.com/jokedst/CsvQuery"
 		},
 		{
-			"folder-name": "CustomizeToolbar",
+			"folder-name": "_CustomizeToolbar",
 			"display-name": "Customize Toolbar",
-			"version": "4.1",
-			"id": "ea51f5218c398793b58457c506ff5f06cc0a0b44748045bcb9395c3bd530fb21",
-			"repository": "https://sourceforge.net/projects/npp-customize/files/Customize%20Toolbar%20v4.1/CustomizeToolbar_4_1_x64.zip",
-			"description": "This plugin allows the Notepad++ toolbar to be fully customised by the user, and includes twenty-nine additional buttons for frequently used menu commands.\r\nAll buttons on the toolbar can be customized, whether Notepad++ built-in buttons, the additional buttons, or buttons belonging to other plugins.\r\n                                   \r\nCustom buttons for Notepad++ or plugin menu commands can be defined using a configuration file.  It is possible to replace the icons of existing Notepad++ buttons.",
+			"version": "4.2",
+			"id": "0423f22f31c760664a78d0472e4316a9fd8858986baeb7cf5301f222afe50127",
+			"repository": "https://sourceforge.net/projects/npp-customize/files/Customize%20Toolbar%20v4.2/CustomizeToolbar_4_2_x64_UNI.zip",
+			"description": "This plugin allows the Notepad++ toolbar to be fully customised by the user, and includes twenty-nine additional buttons for frequently used menu commands.  All buttons on the toolbar can be customized, whether Notepad++ built-in buttons, the additional buttons, or buttons belonging to other plugins.\r\n\r\nCustom buttons for Notepad++ or plugin menu commands can be defined using a configuration file.  It is possible to replace the icons of existing Notepad++ buttons.\r\n",
 			"author": "dw-dev@gmx.com",
 			"homepage": "https://sourceforge.net/projects/npp-customize"
 		},
