@@ -167,7 +167,7 @@
 			"folder-name": "FormatUtils",
 			"display-name": "FormatUtils",
 			"version": "1.0",
-			"id": "89c602695fd74a508e29114adc536b336b1f6a99245c41d980b1a58de559c75c",
+			"id": "2e21dfa62166f23a466519b41cfbce1ec5f310df5518df5952f4bf17a994dcd8",
 			"repository": "http://www.healthintersections.com.au/FhirServer/npp-formatutils-32.zip",
 			"description": "Various formatting utilities for XML and JSON",
 			"author": "Grahame Grieve",
