@@ -164,6 +164,16 @@
 			"homepage": "https://github.com/dail8859/ElasticTabstops"
 		},
 		{
+			"folder-name": "FormatUtils",
+			"display-name": "FormatUtils",
+			"version": "1.0",
+			"id": "89c602695fd74a508e29114adc536b336b1f6a99245c41d980b1a58de559c75c",
+			"repository": "http://www.healtintersections.com.au/FhirServer/npp-formatutils-64.zip",
+			"description": "Various formatting utilities for XML and JSON",
+			"author": "Grahame Grieve",
+			"homepage": "https://github.com/grahamegrieve/fhirserver"
+		},
+		{
 			"folder-name": "LuaScript",
 			"display-name": "LuaScript",
 			"version": "0.8",
