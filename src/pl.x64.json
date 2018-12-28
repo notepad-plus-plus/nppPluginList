@@ -582,6 +582,16 @@
 			"description": "Notepad++ plugin for CS-Script integration. It implements a real C# Intellisense solution based on CS-Script and Roslyn. It also allows loading, executing modifying and debugging C# scripts in a way very similar to the Visual Studio C# projects support. This includes referencing assemblies and other scripts, code formatting, adding missing namespaces and intercepting Debug and Console output.",
 			"author": "Oleg Shilo",
 			"homepage": "https://github.com/oleg-shilo/cs-script.npp"
+		},
+		{
+			"folder-name": "FHIR",
+			"display-name": "FHIR Notepad++ Plugin",
+			"version": "1.0.47.0",
+			"id": "698c7743287f454eb9d7828837f5304bd54fbc25b80449e09e0c6865716b93a7",
+			"repository": "http://www.healthintersections.com.au/FhirServer/fhir-npp-64.zip",
+			"description": "Notepad++ plugin for working with FHIR resources and servers",
+			"author": "Grahame Grieve",
+			"homepage": "https://github.com/grahamegrieve/fhirserver"
 		}
 	]
 }
