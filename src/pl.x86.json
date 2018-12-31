@@ -1066,9 +1066,9 @@
 		{
 			"folder-name": "FHIR",
 			"display-name": "FHIR Notepad++ Plugin",
-			"version": "1.0.47.0",
-			"id": "ccaec03d0007b052d085887cff2072ea71f08d9f508847215da626cde37fb505",
-			"repository": "http://www.healthintersections.com.au/FhirServer/fhir-npp-32.zip",
+			"version": "1.0.35.0",
+			"id": "C0FC7960324D51F5AD735C6C8ADBFA4BF6017731DFB77A57C5439810988271D2",
+			"repository": "http://www.healthintersections.com.au/FhirServer/fhir-npp-32-1.0.35.zip",
 			"description": "Notepad++ plugin for working with FHIR resources and servers",
 			"author": "Grahame Grieve",
 			"homepage": "https://github.com/grahamegrieve/fhirserver"
