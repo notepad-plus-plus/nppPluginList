@@ -74,6 +74,16 @@
 			"homepage": "https://github.com/pnedev/nppgtags"
 		},
 		{
+			"folder-name": "AnalysePlugin",
+			"display-name": "AnalysePlugin",
+			"version": "1.11.37.0",
+			"id": "70848c2504e8c1bc9cfa77296f015cbd968aa9d329d65dd4953b8d1dba8667ed",
+			"repository": "https://downloads.sourceforge.net/project/analyseplugin/binaries/v01.11-R37-x64.zip",
+			"description": "AnalysePlugin will help you to search for more than one search pattern at a time. Great for analysing log files..\r\nLast changes and How to use you will find in Help... in Plugins Menu.",
+			"author": "Mattes H.",
+			"homepage": "https://sourceforge.net/projects/analyseplugin"
+		},
+		{
 			"folder-name": "AutoCodepage",
 			"display-name": "AutoCodepage",
 			"version": "1.2.3",
