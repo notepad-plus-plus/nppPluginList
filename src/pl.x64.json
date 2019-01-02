@@ -74,6 +74,16 @@
 			"homepage": "https://github.com/pnedev/nppgtags"
 		},
 		{
+			"folder-name": "AnalysePlugin",
+			"display-name": "AnalysePlugin",
+			"version": "1.11.37.0",
+			"id": "70848c2504e8c1bc9cfa77296f015cbd968aa9d329d65dd4953b8d1dba8667ed",
+			"repository": "https://downloads.sourceforge.net/project/analyseplugin/binaries/v01.11-R37-x64.zip",
+			"description": "AnalysePlugin will help you to search for more than one search pattern at a time. Great for analysing log files..\r\nLast changes and How to use you will find in Help... in Plugins Menu.",
+			"author": "Mattes H.",
+			"homepage": "https://sourceforge.net/projects/analyseplugin"
+		},
+		{
 			"folder-name": "AutoCodepage",
 			"display-name": "AutoCodepage",
 			"version": "1.2.3",
@@ -582,6 +592,16 @@
 			"description": "Notepad++ plugin for CS-Script integration. It implements a real C# Intellisense solution based on CS-Script and Roslyn. It also allows loading, executing modifying and debugging C# scripts in a way very similar to the Visual Studio C# projects support. This includes referencing assemblies and other scripts, code formatting, adding missing namespaces and intercepting Debug and Console output.",
 			"author": "Oleg Shilo",
 			"homepage": "https://github.com/oleg-shilo/cs-script.npp"
+		},
+		{
+			"folder-name": "CodeAlignmentNpp",
+			"display-name": "Code Alignment",
+			"version": "14.1.107",
+			"id": "A11C60AD2DCAF0064A5C3CCA01AA2D2A6743897875E23887867783A2756B796B",
+			"repository": "https://github.com/cpmcgrath/codealignment/releases/download/v14.1/CodeAlignmentNpp_v14.1_x64.zip",
+			"description": "Code alignment helps you present your code beautifully, enhancing clarity and readability.\n\nAlign your code by any character. Fast logical shortcuts to perform common alignments such as equals and period.",
+			"author": "Chris McGrath",
+			"homepage": "https://github.com/cpmcgrath/codealignment"
 		}
 	]
 }

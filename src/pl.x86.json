@@ -74,6 +74,16 @@
 			"homepage": "https://github.com/pnedev/nppgtags"
 		},
 		{
+			"folder-name": "AnalysePlugin",
+			"display-name": "AnalysePlugin",
+			"version": "1.11.37.0",
+			"id": "6ca78ed2ae93f594cc0f057deb31d4b4b6f932b6e2368347e0cd91730e2a1e39",
+			"repository": "https://downloads.sourceforge.net/project/analyseplugin/binaries/v01.11-R37-x86.zip",
+			"description": "AnalysePlugin will help you to search for more than one search pattern at a time. Great for analysing log files..\r\nLast changes and How to use you will find in Help... in Plugins Menu.",
+			"author": "Mattes H.",
+			"homepage": "https://sourceforge.net/projects/analyseplugin"
+		},
+		{
 			"folder-name": "AutoCodepage",
 			"display-name": "AutoCodepage",
 			"version": "1.2.3",
@@ -1072,6 +1082,16 @@
 			"description": "Notepad++ plugin for working with FHIR resources and servers",
 			"author": "Grahame Grieve",
 			"homepage": "https://github.com/grahamegrieve/fhirserver"
+    },
+		{
+			"folder-name": "CodeAlignmentNpp",
+			"display-name": "Code Alignment",
+			"version": "14.1.107",
+			"id": "F731F5B018A2C56FDBEFE0B13641FF4B8A94838260AED2078FA1333356B8024A",
+			"repository": "https://github.com/cpmcgrath/codealignment/releases/download/v14.1/CodeAlignmentNpp_v14.1_x86.zip",
+			"description": "Code alignment helps you present your code beautifully, enhancing clarity and readability.\n\nAlign your code by any character. Fast logical shortcuts to perform common alignments such as equals and period.",
+			"author": "Chris McGrath",
+			"homepage": "https://github.com/cpmcgrath/codealignment"
 		}
 	]
 }
