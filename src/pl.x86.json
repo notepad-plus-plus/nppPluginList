@@ -18,7 +18,7 @@
 			"display-name": "Mime tools",
 			"version": "2.3",
 			"id": "04afb3e1a44f639074c10083735eaf8766570e18138e1d3c60539c37a4f40d77",
-			"repository": "https://github.com/npp-plugins/mimetools/releases/download/v2.2/mimetools.v2.3.zip",
+			"repository": "https://github.com/npp-plugins/mimetools/releases/download/v2.3/mimetools.v2.3.zip",
 			"description": "MIME plugin for Notepad++ implements several main functionalities defined in MIME (Multipurpose Internet Mail Extensions).",
 			"author": "Don HO",
 			"homepage": "https://github.com/npp-plugins/mimetools"
