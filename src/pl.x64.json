@@ -602,6 +602,16 @@
 			"description": "Code alignment helps you present your code beautifully, enhancing clarity and readability.\n\nAlign your code by any character. Fast logical shortcuts to perform common alignments such as equals and period.",
 			"author": "Chris McGrath",
 			"homepage": "https://github.com/cpmcgrath/codealignment"
+		},
+		{
+			"folder-name": "ShtirlitzNppPlugin",
+			"display-name": "Shtirlitz",
+			"version": "1.1.2",
+			"id": "14be96a911c4f692fb967ef4e2a1b43657874b91e159df5069ae05b4eb9a2bf6",
+			"repository": "https://github.com/shtirlitz-dev/notepadpp-plugin/raw/master/64bit/ShtirlitzNppPlugin.zip",
+			"description": "The Shtirlitz plug-in menu lists decoding styles. Choose a style - and this style decodes the selected text (Turbo-5 style should fit in most cases). The styles themselves and all the settings can be made by Stirlitz.exe, which is in the Shtirlitz folder. It is there without advertising pictures and due to this only 428 KB.",
+			"author": "Vsevolod Lukyanin",
+			"homepage": "https://vk.com/wall203102356_293"
 		}
 	]
 }
