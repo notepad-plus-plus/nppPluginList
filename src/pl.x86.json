@@ -1082,6 +1082,16 @@
 			"description": "Code alignment helps you present your code beautifully, enhancing clarity and readability.\n\nAlign your code by any character. Fast logical shortcuts to perform common alignments such as equals and period.",
 			"author": "Chris McGrath",
 			"homepage": "https://github.com/cpmcgrath/codealignment"
+		},
+		{
+			"folder-name": "PoorMansTSqlFormatterNppPlugin",
+			"display-name": "Poor Man's T-Sql Formatter",
+			"version": "1.6.10",
+			"id": "c475b44f403504f5854dcc29ad9220924e893d6999c4670d93e4efed7130c748",
+			"repository": "https://github.com/TaoK/PoorMansTSqlFormatter/releases/download/1.6.10/SqlFormatterNppPlugin.1.6.10.b.zip",
+			"description": "A simple SQL formatter performing full multi-batch T-SQL formatting (individual statements, stored procedures, any DML, any DDL) with numerous formatting options.",
+			"author": "Tao Klerks",
+			"homepage": "http://www.architectshack.com/PoorMansTSqlFormatter.ashx"
 		}
 	]
 }
