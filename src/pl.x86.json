@@ -1092,6 +1092,16 @@
 			"description": "A simple SQL formatter performing full multi-batch T-SQL formatting (individual statements, stored procedures, any DML, any DDL) with numerous formatting options.",
 			"author": "Tao Klerks",
 			"homepage": "http://www.architectshack.com/PoorMansTSqlFormatter.ashx"
+		},
+		{
+			"folder-name": "ShtirlitzNppPlugin",
+			"display-name": "Shtirlitz",
+			"version": "1.1.2",
+			"id": "5cbdfa3fec96e478b4002a5fc2b68b60a9a4f90a401d645845c99a5a784bb5a6",
+			"repository": "https://github.com/shtirlitz-dev/notepadpp-plugin/raw/master/32bit/ShtirlitzNppPlugin.zip",
+			"description": "The Shtirlitz plug-in menu lists decoding styles. Choose a style - and this style decodes the selected text (Turbo-5 style should fit in most cases). The styles themselves and all the settings can be made by Stirlitz.exe, which is in the Shtirlitz folder. It is there without advertising pictures and due to this only 428 KB.",
+			"author": "Vsevolod Lukyanin",
+			"homepage": "https://vk.com/wall203102356_293"
 		}
 	]
 }
