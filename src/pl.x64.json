@@ -604,6 +604,16 @@
 			"homepage": "https://github.com/cpmcgrath/codealignment"
 		},
 		{
+			"folder-name": "PoorMansTSqlFormatterNppPlugin",
+			"display-name": "Poor Man's T-Sql Formatter",
+			"version": "1.6.10.1289",
+			"id": "ff94ba0f1883617341cc00b7f761a134d5514d286db25cff072252627b13aaf2",
+			"repository": "https://github.com/TaoK/PoorMansTSqlFormatter/releases/download/1.6.10/SqlFormatterNppPlugin.x64.1.6.10.b.zip",
+			"description": "A simple SQL formatter performing full multi-batch T-SQL formatting (individual statements, stored procedures, any DML, any DDL) with numerous formatting options.",
+			"author": "Tao Klerks",
+			"homepage": "http://www.architectshack.com/PoorMansTSqlFormatter.ashx"
+		},
+		{
 			"folder-name": "ShtirlitzNppPlugin",
 			"display-name": "Shtirlitz",
 			"version": "1.1.2",
