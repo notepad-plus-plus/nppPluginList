@@ -622,36 +622,6 @@
 			"description": "Worried about zooming your document everytime you just want to scroll but accidentally still holding the [Ctrl] key? Then this plugin is what you want! It disables mouse zoom or keyboard zoom or both.",
 			"author": "Stanislav Eckert",
 			"homepage": "https://github.com/StanDog/npp-zoomdisabler"
-		},
-		{
-			"folder-name": "zoomdisabler_x64",
-			"display-name": "Zoom Disabler",
-			"version": "1.2.0",
-			"id": "eb49c4fce581fa63b024a3a0454ccc49d082b9524c0cc9a0d5c25544e264da55",
-			"repository": "https://github.com/StanDog/npp-zoomdisabler/raw/master/RELEASES/zoomdisabler_1.2.0.zip",
-			"description": "Worried about zooming your document everytime you just want to scroll but accidentally still holding the [Ctrl] key? Then this plugin is what you want! It disables mouse zoom or keyboard zoom or both.",
-			"author": "Stanislav Eckert",
-			"homepage": "https://github.com/StanDog/npp-zoomdisabler"
-		},
-		{
-			"folder-name": "zoomdisabler_x64",
-			"display-name": "Zoom Disabler2",
-			"version": "1.2.0",
-			"id": "eb49c4fce581fa63b024a3a0454ccc49d082b9524c0cc9a0d5c25544e264da55",
-			"repository": "https://github.com/StanDog/npp-zoomdisabler/raw/master/RELEASES/zoomdisabler_1.2.0.zip",
-			"description": "Worried about zooming your document everytime you just want to scroll but accidentally still holding the [Ctrl] key? Then this plugin is what you want! It disables mouse zoom or keyboard zoom or both.",
-			"author": "Stanislav Eckert",
-			"homepage": "https://github.com/StanDog/npp-zoomdisabler"
-		},
-		{
-			"folder-name": "zoomdisabler_x32",
-			"display-name": "Zoom Disabler2",
-			"version": "1.2.0",
-			"id": "eb49c4fce581fa63b024a3a0454ccc49d082b9524c0cc9a0d5c25544e264da55",
-			"repository": "https://github.com/StanDog/npp-zoomdisabler/raw/master/RELEASES/zoomdisabler_1.2.0.zip",
-			"description": "Worried about zooming your document everytime you just want to scroll but accidentally still holding the [Ctrl] key? Then this plugin is what you want! It disables mouse zoom or keyboard zoom or both.",
-			"author": "Stanislav Eckert",
-			"homepage": "https://github.com/StanDog/npp-zoomdisabler"
 		}
 	]
 }
