@@ -85,20 +85,22 @@ after_build:
                 if($env:PLATFORM_INPUT -eq "ARM64"){
                     $ZipFileName = "nppPluginList_$($env:APPVEYOR_REPO_TAG_NAME)_arm64.zip"
                     7z a $ZipFileName binarm64\*.dll
-                }
             }
+        }
         }
         else
         {
             if ($env:PLATFORM_INPUT -eq "x64") {
                 Push-AppveyorArtifact "plugin_list_x64.md" -FileName plugin_list_x64.md
+                Push-AppveyorArtifact "c:\tmp\winup.log" -FileName winup.log
             }
 
             if ($env:PLATFORM_INPUT -eq "Win32") {
                 Push-AppveyorArtifact "plugin_list_x86.md" -FileName plugin_list_x86.md
+                Push-AppveyorArtifact "c:\tmp\winup.log" -FileName winup.log
             }
 
             if ($env:PLATFORM_INPUT -eq "ARM64") {
                 Push-AppveyorArtifact "plugin_list_arm64.md" -FileName plugin_list_arm64.md
-            }
+        }
         }
