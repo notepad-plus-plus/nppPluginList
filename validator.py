@@ -52,6 +52,9 @@ def parse(filename):
     for error in schema.iter_errors(pl):
         post_error(error.message)
 
+    foldernames = []
+    displaynames = []
+    repositories = []
 
     os.mkdir("./" + bitness_from_input)
     for plugin in pl["npp-plugins"]:
@@ -110,6 +113,33 @@ def parse(filename):
         if dll_version != version:
             post_error(f'{plugin["display-name"]}: Unexpected DLL version. DLL is {dll_version} but expected {version}')
             continue
+
+
+        #check uniquess of json folder-name, display-name and repository
+        found = False
+        for name in displaynames :
+           if plugin["display-name"] == name :
+               post_error(f'{plugin["display-name"]}: non unique display-name entry')
+               found = True
+        if found == False:
+               displaynames.append(plugin["display-name"])
+
+        found = False
+        for folder in foldernames :
+           if plugin["folder-name"] == folder :
+               post_error(f'{plugin["folder-name"]}: non unique folder-name entry')
+               found = True
+        if found == False:
+           foldernames.append(plugin["folder-name"])
+
+        found = False
+        for repo in repositories :
+           if plugin["repository"] == repo :
+               post_error(f'{plugin["repository"]}: non unique repository entry')
+               found = True
+        if found == False:
+           repositories.append(plugin["repository"])
+
 
 
 bitness_from_input = sys.argv[1]
