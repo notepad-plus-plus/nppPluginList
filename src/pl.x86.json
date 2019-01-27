@@ -454,6 +454,16 @@
 			"homepage": "http://www.scout-soft.com/linefilter"
 		},
 		{
+			"folder-name": "Linter",
+			"display-name": "Linter",
+			"version": "0.1.0.0",
+			"id": "5ebbd8d01a2342e1916974a15e10280fecf61c41bf073d269d15a5c3fa316b49",
+			"repository": "https://github.com/deadem/notepad-pp-linter/raw/v0.1.0.0/bin/x32/linter.zip",
+			"description": "A Notepad++ plugin that allows realtime code check against any checkstyle-compatible linter: jshint, eslint, jscs, phpcs, csslint and many others.",
+			"author": "Vladimir Soshkin",
+			"homepage": "https://github.com/deadem/notepad-pp-linter"
+		},
+		{
 			"folder-name": "LocationNavigate",
 			"display-name": "Location Navigate",
 			"version": "0.4.7.7",
