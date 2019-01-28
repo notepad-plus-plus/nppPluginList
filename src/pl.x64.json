@@ -214,6 +214,16 @@
 			"homepage": "https://github.com/sunjw/jstoolnpp"
 		},
 		{
+			"folder-name": "Linter",
+			"display-name": "Linter",
+			"version": "0.1.0.0",
+			"id": "9e973e8c6d74cfc27f93ae8aedf169c4f83442c42042c519a4a3adfdb5e75292",
+			"repository": "https://github.com/deadem/notepad-pp-linter/raw/v0.1.0.0/bin/x64/linter.zip",
+			"description": "A Notepad++ plugin that allows realtime code check against any checkstyle-compatible linter: jshint, eslint, jscs, phpcs, csslint and many others.",
+			"author": "Vladimir Soshkin",
+			"homepage": "https://github.com/deadem/notepad-pp-linter"
+		},
+		{
 			"folder-name": "LuaScript",
 			"display-name": "LuaScript",
 			"version": "0.8",
