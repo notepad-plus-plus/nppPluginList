@@ -247,7 +247,7 @@
 			"folder-name": "mimeTools",
 			"display-name": "Mime tools",
 			"version": "2.4",
-			"id": "b082e2614a75da2c395c5b85a09f9c331a6d2aaaae2d92e43e62478bae25b5a6",
+			"id": "2b0057c0141d413a0c98f05208992b90d860901a499298503ffb638fe46e9d9c",
 			"repository": "https://github.com/npp-plugins/mimetools/releases/download/v2.4/mimetools.v2.4.x64.zip",
 			"description": "MIME plugin for Notepad++ implements several main functionalities defined in MIME (Multipurpose Internet Mail Extensions).",
 			"author": "Don HO",
@@ -566,9 +566,9 @@
 		{
 			"folder-name": "SurroundSelection",
 			"display-name": "SurroundSelection",
-			"version": "1.1",
-			"id": "f31a113cf30fdb286fd4d2dc40d2bfe4e66d0c0567dc5384d84e06635aeb8423",
-			"repository": "https://github.com/dail8859/SurroundSelection/releases/download/v1.1/SurroundSelection_64_PA.zip",
+			"version": "1.2",
+			"id": "54e593cf6b7a9a79d1646edb4557e06245d2c187f0ea4f6f0be8cdde59a7d2cd  ",
+			"repository": "https://github.com/dail8859/SurroundSelection/releases/download/v1.2/SurroundSelection_v1.2_x64.zip",
 			"description": "Automatically surround the selection in quotes/brackets/parenthesis/etc.",
 			"author": "Justin Dailey",
 			"homepage": "https://github.com/dail8859/SurroundSelection"
