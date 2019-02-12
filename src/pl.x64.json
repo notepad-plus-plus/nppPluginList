@@ -567,7 +567,7 @@
 			"folder-name": "SurroundSelection",
 			"display-name": "SurroundSelection",
 			"version": "1.2",
-			"id": "54e593cf6b7a9a79d1646edb4557e06245d2c187f0ea4f6f0be8cdde59a7d2cd  ",
+			"id": "54e593cf6b7a9a79d1646edb4557e06245d2c187f0ea4f6f0be8cdde59a7d2cd",
 			"repository": "https://github.com/dail8859/SurroundSelection/releases/download/v1.2/SurroundSelection_v1.2_x64.zip",
 			"description": "Automatically surround the selection in quotes/brackets/parenthesis/etc.",
 			"author": "Justin Dailey",
