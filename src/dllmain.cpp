@@ -25,24 +25,14 @@
 // along with this program; if not, write to the Free Software
 // Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 
-
+#include <windows.h>
 #include "resource.h"
-#include "nppPluginList.h"
 
-//extern "C" __declspec(dllexport) const char * getList();
-
-
-PluginList* pl = nullptr;
-
-BOOL APIENTRY DllMain( HMODULE hModule,
-                       DWORD  ul_reason_for_call,
-                       LPVOID /*lpReserved*/
-					 )
+BOOL APIENTRY DllMain(HMODULE, DWORD ul_reason_for_call, LPVOID /*lpReserved*/)
 {
 	switch (ul_reason_for_call)
 	{
 		case DLL_PROCESS_ATTACH:
-			pl = new PluginList(hModule);
 			break;
 			
 		case DLL_THREAD_ATTACH:
@@ -51,13 +41,7 @@ BOOL APIENTRY DllMain( HMODULE hModule,
 			break;
 
 		case DLL_PROCESS_DETACH:
-			delete pl;
 			break;
 	}
 	return TRUE;
-}
-
-extern "C" __declspec(dllexport) const char * getList()
-{
-	return pl->get();
 }

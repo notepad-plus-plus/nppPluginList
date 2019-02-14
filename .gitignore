@@ -21,3 +21,6 @@ obj/
 [Rr]elease*/
 _ReSharper*/
 .vs/
+*.opendb
+*.db
+bin64/
