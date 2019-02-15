@@ -824,6 +824,16 @@
 			"homepage": "https://sourceforge.net/projects/quickopenplugin/"
 		},
 		{
+			"folder-name": "Remove_dup_lines",
+			"display-name": "Remove duplicate lines",
+			"version": "1.0.7",
+			"id": "6a858d3a91942d8414b4859fcd9eb219bd401533d540a2d9ead3458b4e74d5c0",
+			"repository": "https://github.com/gurikbal/Remove_dup_lines/files/2869784/Remove_dup_lines.zip",
+			"description": "Remove duplicate lines without Remove Empty lines",
+			"author": "G. Singh",
+			"homepage": "https://github.com/gurikbal/Remove_dup_lines/tree/1.0.7"
+		},        
+		{
 			"folder-name": "NppSaveAsAdmin",
 			"display-name": "Save as admin",
 			"version": "1.0.172",
