@@ -484,6 +484,16 @@
 			"homepage": "https://github.com/npp-plugins/pork2sausage"
 		},
 		{
+			"folder-name": "Python Indent",
+			"display-name": "Python Indent",
+			"version": "1.0.0.1",
+			"id": "0ac14c25d9132f99dc55da86f9098a8a8979f805424f0f368f1a4736b581bc4f",
+			"repository": "https://bitbucket.org/Kered13/python-indent-for-notepad/downloads/Python%20Indent%20x64.zip",
+			"description": "Python auto-indent plugin.",
+			"author": "Derek Brown",
+			"homepage": "https://bitbucket.org/Kered13/python-indent-for-notepad"
+		},
+		{
 			"folder-name": "NppSaveAsAdmin",
 			"display-name": "Save as admin",
 			"version": "1.0.172",
