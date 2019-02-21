@@ -614,6 +614,16 @@
 			"homepage": ""
 		},
 		{
+			"folder-name": "VisualStudioLineCopy",
+			"display-name": "Visual Studio Line Copy",
+			"version": "1.0.0.1",
+			"id": "215b517858412b642c28686673c5ddc71a7a3a78bfa1669482992ed761b667aa",
+			"repository": "https://bitbucket.org/Kered13/notepad-visualstudiolinecopy/downloads/VisualStudioLineCopy%20x64.zip",
+			"description": "Adds two commands to Notepad++ CopyAllowLine and CutAllowLine, which adds Visual Studio style copy/cutting to Notepad++.",
+			"author": "Mackenzie Zastrow (forked by Derek Brown)",
+			"homepage": "https://bitbucket.org/Kered13/notepad-visualstudiolinecopy"
+		},
+		{
 			"folder-name": "XMLTools",
 			"display-name": "XML Tools",
 			"version": "2.4.11.0",
