@@ -226,12 +226,12 @@
 		{
 			"folder-name": "NppEditorConfig",
 			"display-name": "EditorConfig",
-			"version": "0.3.1",
-			"id": "d9f1d6391b323567f36b61055534c4fb24f84b02fc9c13cb1ce0f29b46787f43",
-			"repository": "https://downloads.sourceforge.net/project/editorconfig/EditorConfig-Notepad%2B%2B-Plugin/0.3.1/Unicode/NppEditorConfig.zip",
+			"version": "0.4.0",
+			"id": "d5e76e32dd8a06c4b9e3c2c057ca0849cee466c2e608c0ad04907f68698db850",
+			"repository": "https://github.com/editorconfig/editorconfig-notepad-plus-plus/releases/download/v0.4.0/NppEditorConfig-040-x86.zip",
 			"description": "EditorConfig helps developers define and maintain consistent coding styles between different editors and IDEs. The EditorConfig project consists of a file format for defining coding styles and a collection of text editor plugins that enable editors to read the file format and adhere to defined styles. EditorConfig files are easily readibly and they work nicely with version control systems.",
-			"author": "Hong Xu",
-			"homepage": "https://github.com/editorconfig/editorconfig-notepad-plus-plus#readme"
+			"author": "EditorConfig Team",
+			"homepage": "https://github.com/editorconfig/editorconfig-notepad-plus-plus"
 		},
 		{
 			"folder-name": "ElasticTabstops",
