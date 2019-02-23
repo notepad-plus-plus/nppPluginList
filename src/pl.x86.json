@@ -411,7 +411,7 @@
 			"repository": "https://downloads.sourceforge.net/project/jslintnpp/0.8.3/JSLintNPP.0.8.3.zip",
 			"description": "A Notepad++ plugin that allows users to run JSLint (The JavaScript Code Quality Tool) against their open JavaScript files (more about JSLint at http://www.jslint.com/lint.html).",
 			"author": "Martin Vladic",
-			"homepage": "https://github.com/kapilratnani/JSON-Viewer"
+			"homepage": "https://sourceforge.net/projects/jslintnpp/"
 		},
 		{
 			"folder-name": "NPPJSONViewer",
