@@ -124,6 +124,16 @@
 			"homepage": "http://www.scout-soft.com/combine"
 		},
 		{
+			"folder-name": "Comment Wrap",
+			"display-name": "Comment Wrap",
+			"version": "1.0.0.1",
+			"id": "0db7bb610acf9fe2130be02c33c93b9bcb539a747241c55130d5b10b8999f344",
+			"repository": "https://bitbucket.org/Kered13/notepad-comment-wrap/downloads/Comment%20Wrap.zip",
+			"description": "Wraps comments as you type. Supports C-style, Python-style, and Lua-style comments.",
+			"author": "Derek Brown",
+			"homepage": "https://bitbucket.org/Kered13/notepad-comment-wrap"
+		},
+		{
 			"folder-name": "ComparePlugin",
 			"display-name": "Compare",
 			"version": "2.0.0",

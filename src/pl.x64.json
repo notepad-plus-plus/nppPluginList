@@ -74,6 +74,16 @@
 			"homepage": "https://github.com/p0358/notepadpp-CodeStats"
 		},
 		{
+			"folder-name": "Comment Wrap",
+			"display-name": "Comment Wrap",
+			"version": "1.0.0.1",
+			"id": "aed82cb19ddfdf76077de7fc8d4571ffd15c8fdbfe971da75cedb54b1aa05032",
+			"repository": "https://bitbucket.org/Kered13/notepad-comment-wrap/downloads/Comment%20Wrap%20x64.zip",
+			"description": "Wraps comments as you type. Supports C-style, Python-style, and Lua-style comments.",
+			"author": "Derek Brown",
+			"homepage": "https://bitbucket.org/Kered13/notepad-comment-wrap"
+		},
+		{
 			"folder-name": "ComparePlugin",
 			"display-name": "Compare",
 			"version": "2.0.0",
