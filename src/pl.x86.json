@@ -1064,6 +1064,16 @@
 			"homepage": "https://sourceforge.net/projects/npptranslate/"
 		},
 		{
+			"folder-name": "VisualStudioLineCopy",
+			"display-name": "Visual Studio Line Copy",
+			"version": "1.0.0.1",
+			"id": "65bb55f0b3e209ef9262fdb26a28606ecc6a3f8fb1878b827d190d9da7859287",
+			"repository": "https://bitbucket.org/Kered13/notepad-visualstudiolinecopy/downloads/VisualStudioLineCopy.zip",
+			"description": "Adds two commands to Notepad++ CopyAllowLine and CutAllowLine, which adds Visual Studio style copy/cutting to Notepad++.",
+			"author": "Mackenzie Zastrow (forked by Derek Brown)",
+			"homepage": "https://bitbucket.org/Kered13/notepad-visualstudiolinecopy"
+		},
+		{
 			"folder-name": "WakaTime",
 			"display-name": "WakaTime",
 			"version": "4.0.2",
