@@ -764,6 +764,16 @@
 			"homepage": "https://github.com/viper3400/RegExTractor/wiki/de_userdocumentation"
 		},
 		{
+			"folder-name": "NppMarkdownPanel",
+			"display-name": "Markdown Panel",
+			"version": "0.3.0",
+			"id": "dc496d34ae312b2a0b2e593101938b99fc94afe75ecbbb612c410a4e862f5434",
+			"repository": "https://github.com/mohzy83/NppMarkdownPanel/releases/download/0.3.0/NppMarkdownPanel-0.3.0.0-x86.zip",
+			"description": "Lightweight Notepad++ plugin to preview Markdown files with good default style",
+			"author": "Mohzy83",
+			"homepage": "https://github.com/mohzy83/NppMarkdownPanel"
+		},
+		{
 			"folder-name": "ccc",
 			"display-name": "PHP Autocompletion",
 			"version": "1.4.1",
