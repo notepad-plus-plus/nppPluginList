@@ -814,6 +814,16 @@
 			"homepage": "https://github.com/npp-plugins/pork2sausage"
 		},
 		{
+			"folder-name": "PreviewHTML",
+			"display-name": "Preview HTML",
+			"version": "1.3.2.0",
+			"id": "b7538d5b4c61e7232ad6befe3a5eb1799544a4de741d4acd896716e9273f260b",
+			"repository": "https://fossil.2of4.net/npp_preview/zip/PreviewHTML32.zip?name=&uuid=v1.3.2.0-32",
+			"description": "Preview HTML files inside Notepad++ (or in a floating window) without having to save them first.",
+			"author": "Martijn Coppoolse",
+			"homepage": "https://fossil.2of4.net/npp_preview"
+		},
+		{
 			"folder-name": "PyNPP",
 			"display-name": "PyNPP",
 			"version": "1.2",
