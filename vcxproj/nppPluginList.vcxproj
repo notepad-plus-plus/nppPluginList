@@ -20,10 +20,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\src\dllmain.cpp" />
-    <ClCompile Include="..\src\nppPluginList.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\src\nppPluginList.h" />
     <ClInclude Include="..\src\resource.h" />
   </ItemGroup>
   <ItemGroup>

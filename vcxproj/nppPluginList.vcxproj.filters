@@ -21,14 +21,8 @@
     <ClCompile Include="..\src\dllmain.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\src\nppPluginList.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\src\nppPluginList.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\src\resource.h">
       <Filter>Header Files</Filter>
     </ClInclude>
