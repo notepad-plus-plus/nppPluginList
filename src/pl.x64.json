@@ -486,10 +486,10 @@
 		{
 			"folder-name": "NppMarkdownPanel",
 			"display-name": "Markdown Panel",
-			"version": "0.3.0",
-			"id": "8473aa2f610e483a42397be292b78887363b1c53e89042d4def2580925e9ac21",
-			"repository": "https://github.com/mohzy83/NppMarkdownPanel/releases/download/0.3.0/NppMarkdownPanel-0.3.0.0-x64.zip",
-			"description": "Lightweight Notepad++ plugin to preview Markdown files with good default style",
+			"version": "0.4.0",
+			"id": "884643607e38a933cb5637a53e2c6ed7c4cb341dabaa440a8aec42ca9d73cf33",
+			"repository": "https://github.com/mohzy83/NppMarkdownPanel/releases/download/0.4.0/NppMarkdownPanel-0.4.0.0-x64.zip",
+			"description": "Lightweight Notepad++ plugin to preview Markdown files with a good default style.",
 			"author": "Mohzy83",
 			"homepage": "https://github.com/mohzy83/NppMarkdownPanel"
 		},
