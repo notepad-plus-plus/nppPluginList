@@ -1,14 +1,14 @@
 {
 	"name": "npp-pluginList",
-	"version": "1.0.6",
+	"version": "1.0.8",
 	"arch": "32",
 	"npp-plugins": [
 		{
 			"folder-name": "3P",
 			"display-name": "3P - Progress Programmers Pal",
-			"version": "1.8.2",
-			"id": "a86c37fd26c34c58e95acea7ac46f4e7a50bb468f46eaa25cc37cd4bfd1a6385",
-			"repository": "https://github.com/jcaillon/3P/releases/download/v1.8.2/3P.zip",
+			"version": "1.8.4",
+			"id": "c26d0cbde59688501f683e2ac4a8b5a2d5327b13e14f0be1e6cf6abb9059f401",
+			"repository": "https://github.com/jcaillon/3P/releases/download/v1.8.4/3P.zip",
 			"description": "[Requires .net framework 4.6.1]\r\n3P is a notepad++ plug-in designed to help writing OpenEdge ABL (formerly known as Progress 4GL) code. It provides :\r\n- a powerful auto-completion\r\n- tool-tips on every words\r\n- a code explorer to quickly navigate through your code\r\n- a file explorer to easily access all your sources\r\n- the ability to run/compile and even PROLINT your source file with an in-line visualization of errors\r\n- more than 50 options to better suit your needs\r\n- and so much more!\r\nVisit http://jcaillon.github.io/3P/ for more details on the plugin",
 			"author": "Julien Caillon",
 			"homepage": "https://jcaillon.github.io/3P/"
@@ -124,6 +124,16 @@
 			"homepage": "http://www.scout-soft.com/combine"
 		},
 		{
+			"folder-name": "Comment Wrap",
+			"display-name": "Comment Wrap",
+			"version": "1.0.0.1",
+			"id": "0db7bb610acf9fe2130be02c33c93b9bcb539a747241c55130d5b10b8999f344",
+			"repository": "https://bitbucket.org/Kered13/notepad-comment-wrap/downloads/Comment%20Wrap.zip",
+			"description": "Wraps comments as you type. Supports C-style, Python-style, and Lua-style comments.",
+			"author": "Derek Brown",
+			"homepage": "https://bitbucket.org/Kered13/notepad-comment-wrap"
+		},
+		{
 			"folder-name": "ComparePlugin",
 			"display-name": "Compare",
 			"version": "2.0.0",
@@ -206,9 +216,9 @@
 		{
 			"folder-name": "DSpellCheck",
 			"display-name": "DSpellCheck",
-			"version": "1.4.10",
-			"id": "a62e15b75b76690064ddf32a4631060ad35fbff1e47090be557babff3937ed0d",
-			"repository": "https://github.com/Predelnik/DSpellCheck/releases/download/v1.4.10/DSpellCheck_x86.zip",
+			"version": "1.4.11",
+			"id": "8f59c329b9f6aa6ef20f378df51c9aba92b45054ffd2126c9c313087fe6be81b",
+			"repository": "https://github.com/Predelnik/DSpellCheck/releases/download/v1.4.11/DSpellCheck_x86.zip",
 			"description": "Spell-checking plugin, with following main features:\r\n-Underlining spelling mistakes\r\n-Iterating through all mistakes in document\r\n-Finding mistakes only in comments and strings (For files with standard programming language syntax e.g. C++)\r\n-Possible usage of multiple languages (dictionaries) simultaneously to do spell-checking.\r\n-Getting suggestions for words by either using default Notepad++ menu or separate context menu called by special button appearing under word.\r\n-Able to add words to user dictionary or ignore them for current session of Notepad++\r\n-Using either Hunspell library (included in plugin) or Aspell library (needs to be installed).\r\n-A lot of customizing available from Plugin settings (Ignoring/Allowing only specific files, Choosing delimiters for words, Maximum number of suggestions etc)\r\n-Support for downloading and removing Hunspell dictionaries through user friendly GUI interface\r\n-Ability to quickly change current language through the nice menu.",
 			"author": "Sergey Semushin",
 			"homepage": "https://github.com/Predelnik/DSpellCheck"
@@ -216,12 +226,12 @@
 		{
 			"folder-name": "NppEditorConfig",
 			"display-name": "EditorConfig",
-			"version": "0.3.1",
-			"id": "d9f1d6391b323567f36b61055534c4fb24f84b02fc9c13cb1ce0f29b46787f43",
-			"repository": "https://downloads.sourceforge.net/project/editorconfig/EditorConfig-Notepad%2B%2B-Plugin/0.3.1/Unicode/NppEditorConfig.zip",
+			"version": "0.4.0",
+			"id": "d5e76e32dd8a06c4b9e3c2c057ca0849cee466c2e608c0ad04907f68698db850",
+			"repository": "https://github.com/editorconfig/editorconfig-notepad-plus-plus/releases/download/v0.4.0/NppEditorConfig-040-x86.zip",
 			"description": "EditorConfig helps developers define and maintain consistent coding styles between different editors and IDEs. The EditorConfig project consists of a file format for defining coding styles and a collection of text editor plugins that enable editors to read the file format and adhere to defined styles. EditorConfig files are easily readibly and they work nicely with version control systems.",
-			"author": "Hong Xu",
-			"homepage": "https://github.com/editorconfig/editorconfig-notepad-plus-plus#readme"
+			"author": "EditorConfig Team",
+			"homepage": "https://github.com/editorconfig/editorconfig-notepad-plus-plus"
 		},
 		{
 			"folder-name": "ElasticTabstops",
@@ -236,12 +246,12 @@
 		{
 			"folder-name": "Explorer",
 			"display-name": "Explorer",
-			"version": "1.8.2.0",
-			"id": "757e384d23df4995230111fd4777d64e9a6e50f94ec25bc454a5c7a618b123a1",
-			"repository": "https://downloads.sourceforge.net/project/npp-plugins/Explorer/Explorer%20Plugin%20v1.8.2/Explorer_1_8_2_UNI_dll.zip",
+			"version": "1.8.5.0",
+			"id": "53fce37c197f818ec774fe32fa800b5d1bfe3022516d86b8b688ff48d2ee8da6",
+			"repository": "https://github.com/oviradoi/npp-explorer-plugin/releases/download/v1.8.5/Explorer.zip",
 			"description": "Explorer plugin is a file browser. You can open whatever you want from it in Notepad++, just double click!",
 			"author": "Jens Lorenz",
-			"homepage": ""
+			"homepage": "https://github.com/oviradoi/npp-explorer-plugin"
 		},
 		{
 			"folder-name": "NPPFSIPlugin",
@@ -401,7 +411,7 @@
 			"repository": "https://downloads.sourceforge.net/project/jslintnpp/0.8.3/JSLintNPP.0.8.3.zip",
 			"description": "A Notepad++ plugin that allows users to run JSLint (The JavaScript Code Quality Tool) against their open JavaScript files (more about JSLint at http://www.jslint.com/lint.html).",
 			"author": "Martin Vladic",
-			"homepage": "https://github.com/kapilratnani/JSON-Viewer"
+			"homepage": "https://sourceforge.net/projects/jslintnpp/"
 		},
 		{
 			"folder-name": "NPPJSONViewer",
@@ -416,9 +426,9 @@
 		{
 			"folder-name": "JSMinNPP",
 			"display-name": "JSTool",
-			"version": "1.1901.2",
-			"id": "0131e58c734cc2b8b56b8b549626093e4d76347c692e1856fa3b6a1c73030b5b",
-			"repository": "https://sourceforge.net/projects/jsminnpp/files/Uni/JSToolNPP.1.1901.2.uni.32.zip",
+			"version": "1.1903.0",
+			"id": "803458bf92d45d7c318c609f04427fcfeafeeaff2f317feb4e5ce891e0ecad7e",
+			"repository": "https://sourceforge.net/projects/jsminnpp/files/Uni/JSToolNPP.1.1903.0.uni.32.zip",
 			"description": "A javascript plugin for Notepad++.\r\n * Douglas Crockford's JSMin algorithm to minimize javascript code.\r\n * My own algorithm to format javascript code.\r\n * A JSON data viewer. This JSON data viewer can handle >10MB JSON file easily.\r\n * Support 64bit Notepad++ (from version 1.20.0).\r\nReally helpful to javascript coder on Notepad++ and really easy to use it.\r\nMade in China.",
 			"author": "Sun Junwen",
 			"homepage": "https://github.com/sunjw/jstoolnpp"
@@ -496,9 +506,9 @@
 		{
 			"folder-name": "mimeTools",
 			"display-name": "Mime tools",
-			"version": "2.4",
-			"id": "27aa5e266af95c58bb1d65d1bcca9ec04492590d3753a9b98910363b5fe644b7",
-			"repository": "https://github.com/npp-plugins/mimetools/releases/download/v2.4/mimetools.v2.4.zip",
+			"version": "2.5",
+			"id": "d9662406f329b14c539d87ae91ccfeb6b857a8b6e0b6fc493aafbb11eb27de7b",
+			"repository": "https://github.com/npp-plugins/mimetools/releases/download/v2.5/mimetools.v2.5.zip",
 			"description": "MIME plugin for Notepad++ implements several main functionalities defined in MIME (Multipurpose Internet Mail Extensions).",
 			"author": "Don HO",
 			"homepage": "https://github.com/npp-plugins/mimetools"
@@ -686,9 +696,9 @@
 		{
 			"folder-name": "NppFTP",
 			"display-name": "NppFTP",
-			"version": "0.27.5",
-			"id": "33ce9ebc17c95816f210c122868076291586410ad8e965823e4839da88be9134",
-			"repository": "https://github.com/ashkulz/NppFTP/releases/download/v0.27.5/NppFTP-x86_N759.zip",
+			"version": "0.28.3",
+			"id": "e37bd5b3eec2924c39955ffd945fd084bba507bc0620df3d42e411504af95a16",
+			"repository": "https://github.com/ashkulz/NppFTP/releases/download/v0.28.3/NppFTP-x86.zip",
 			"description": "NppFTP: a plugin that allows FTP, FTPS, FTPES and SFTP communications. Very useful for web development.",
 			"author": "ashish_kulz",
 			"homepage": "https://ashkulz.github.io/NppFTP/"
@@ -804,6 +814,16 @@
 			"homepage": "https://github.com/npp-plugins/pork2sausage"
 		},
 		{
+			"folder-name": "PreviewHTML",
+			"display-name": "Preview HTML",
+			"version": "1.3.2.0",
+			"id": "b7538d5b4c61e7232ad6befe3a5eb1799544a4de741d4acd896716e9273f260b",
+			"repository": "https://fossil.2of4.net/npp_preview/zip/PreviewHTML32.zip?name=&uuid=v1.3.2.0-32",
+			"description": "Preview HTML files inside Notepad++ (or in a floating window) without having to save them first.",
+			"author": "Martijn Coppoolse",
+			"homepage": "https://fossil.2of4.net/npp_preview"
+		},
+		{
 			"folder-name": "PyNPP",
 			"display-name": "PyNPP",
 			"version": "1.2",
@@ -812,6 +832,16 @@
 			"description": "Allows writing Python scripts in Notepad++ and run them from Notepad++ without having to open a command line prompt.",
 			"author": "Abdullah Diab",
 			"homepage": "http://mpcabd.igeex.biz/notepad-plugin-to-run-python-scripts/"
+		},
+		{
+			"folder-name": "Python Indent",
+			"display-name": "Python Indent",
+			"version": "1.0.0.1",
+			"id": "1b26acb5a6d143b98e698e99d7fbde32492f3d5b936ab58d8ddcefd2af884374",
+			"repository": "https://bitbucket.org/Kered13/python-indent-for-notepad/downloads/Python%20Indent.zip",
+			"description": "Python auto-indent plugin.",
+			"author": "Derek Brown",
+			"homepage": "https://bitbucket.org/Kered13/python-indent-for-notepad"
 		},
 		{
 			"folder-name": "NppQCP",
@@ -946,9 +976,9 @@
 		{
 			"folder-name": "SQLinFormNpp",
 			"display-name": "SQLinForm",
-			"version": "5.3.24",
-			"id": "00fff4746b2d5e0936f6959ce9f042e541911068793803b57fa9c0009dfb8c28",
-			"repository": "https://www.sqlinform.com/npp/SQLinFormNpp_5.3.24.zip",
+			"version": "5.3.25",
+			"id": "cb4681d5b64b441447340180ea869f1c90cfacfec655bd659df42eed1d817db5",
+			"repository": "https://www.sqlinform.com/npp/SQLinFormNpp_5.3.25.zip",
 			"description": "SQLinForm formats plain SQL, SQL embedded in Program Code, SQL snippets and SQL Statements with syntax errors.\r\n SQLinForm's Plugin for Notepad++ has a powerful code folding feature and formats your SQL as you Type. It supports all major DB like Oracle, DB2, SQL Server, Teradata, Netezza, MySQL, Sybase, MS Access, etc. SQLinForm incorporates its own multi-DB parser engine. No additional software is required.",
 			"author": "Guido Thelen",
 			"homepage": "https://www.sqlinform.com"
@@ -1042,6 +1072,16 @@
 			"description": "Translate plugin provides quick translation of selected text to your language of choice. Just select the text and press Ctrl+Alt+Z. Supports multiple languages. \nSupports two translation engines:\n1) MyMemory (Free)\n2) BING (Free but requires registration to obtains Client ID and Secret). \n\nSee Engine Settings after installation. \n\nRequires .NET Framework 3.5",
 			"author": "Shaleen Mishra",
 			"homepage": "https://sourceforge.net/projects/npptranslate/"
+		},
+		{
+			"folder-name": "VisualStudioLineCopy",
+			"display-name": "Visual Studio Line Copy",
+			"version": "1.0.0.1",
+			"id": "65bb55f0b3e209ef9262fdb26a28606ecc6a3f8fb1878b827d190d9da7859287",
+			"repository": "https://bitbucket.org/Kered13/notepad-visualstudiolinecopy/downloads/VisualStudioLineCopy.zip",
+			"description": "Adds two commands to Notepad++ CopyAllowLine and CutAllowLine, which adds Visual Studio style copy/cutting to Notepad++.",
+			"author": "Mackenzie Zastrow (forked by Derek Brown)",
+			"homepage": "https://bitbucket.org/Kered13/notepad-visualstudiolinecopy"
 		},
 		{
 			"folder-name": "WakaTime",

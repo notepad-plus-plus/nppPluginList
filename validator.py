@@ -115,7 +115,7 @@ def parse(filename):
             continue
 
 
-        #check uniquess of json folder-name, display-name and repository
+        #check uniqueness of json folder-name, display-name and repository
         found = False
         for name in displaynames :
            if plugin["display-name"] == name :
