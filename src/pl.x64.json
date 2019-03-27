@@ -1,6 +1,6 @@
 {
 	"name": "npp-pluginList",
-	"version": "1.0.7",
+	"version": "1.0.8",
 	"arch": "64",
 	"npp-plugins": [
 		{
@@ -146,9 +146,9 @@
 		{
 			"folder-name": "DSpellCheck",
 			"display-name": "DSpellCheck",
-			"version": "1.4.10",
-			"id": "9e3022982e6aefa7095f7f61e5471a696d8cd5165974eeae67aa42cdf1e7d1dd",
-			"repository": "https://github.com/Predelnik/DSpellCheck/releases/download/v1.4.10/DSpellCheck_x64.zip",
+			"version": "1.4.11",
+			"id": "45fe4f319b473dd18ccc04711e9fd1734e9971dab993721fe062e0d7ca1da007",
+			"repository": "https://github.com/Predelnik/DSpellCheck/releases/download/v1.4.11/DSpellCheck_x64.zip",
 			"description": "Spell-checking plugin, with following main features:\r\n-Underlining spelling mistakes\r\n-Iterating through all mistakes in document\r\n-Finding mistakes only in comments and strings (For files with standard programming language syntax e.g. C++)\r\n-Possible usage of multiple languages (dictionaries) simultaneously to do spell-checking.\r\n-Getting suggestions for words by either using default Notepad++ menu or separate context menu called by special button appearing under word.\r\n-Able to add words to user dictionary or ignore them for current session of Notepad++\r\n-Using either Hunspell library (included in plugin) or Aspell library (needs to be installed).\r\n-A lot of customizing available from Plugin settings (Ignoring/Allowing only specific files, Choosing delimiters for words, Maximum number of suggestions etc)\r\n-Support for downloading and removing Hunspell dictionaries through user friendly GUI interface\r\n-Ability to quickly change current language through the nice menu.",
 			"author": "Sergey Semushin",
 			"homepage": "https://github.com/Predelnik/DSpellCheck"
@@ -236,9 +236,9 @@
 		{
 			"folder-name": "JSMinNPP",
 			"display-name": "JSTool",
-			"version": "1.1901.2",
-			"id": "087b6a872e1050502014cc29982eaf803d827ef2392a498da4efe0e7a5de6037",
-			"repository": "https://sourceforge.net/projects/jsminnpp/files/Uni/JSToolNPP.1.1901.2.uni.64.zip",
+			"version": "1.1903.0",
+			"id": "8344688c9152b9fdd1d1d678f9c88e5f3f06100ea4bbec5b2a7522d585ebc189",
+			"repository": "https://sourceforge.net/projects/jsminnpp/files/Uni/JSToolNPP.1.1903.0.uni.64.zip",
 			"description": "A javascript plugin for Notepad++.\r\n * Douglas Crockford's JSMin algorithm to minimize javascript code.\r\n * My own algorithm to format javascript code.\r\n * A JSON data viewer. This JSON data viewer can handle >10MB JSON file easily.\r\n * Support 64bit Notepad++ (from version 1.20.0).\r\nReally helpful to javascript coder on Notepad++ and really easy to use it.\r\nMade in China.",
 			"author": "Sun Junwen",
 			"homepage": "https://github.com/sunjw/jstoolnpp"
@@ -616,9 +616,9 @@
 		{
 			"folder-name": "SQLinFormNpp64",
 			"display-name": "SQLinForm",
-			"version": "5.3.19",
-			"id": "651b3ce87fe1263c7ccfaa63d61ddf1ed41532a9572c513a6ec942cc445f3524",
-			"repository": "https://www.sqlinform.com/npp/SQLinFormNpp64_5.3.19.zip",
+			"version": "5.3.25",
+			"id": "079a9a9698092c63c69a78bb62d0360818a4386c99f2015abb5490dd734a383c",
+			"repository": "https://www.sqlinform.com/npp/SQLinFormNpp64_5.3.25.zip",
 			"description": "SQLinForm formats plain SQL, SQL embedded in Program Code, SQL snippets and SQL Statements with syntax errors.\r\n SQLinForm's Plugin for Notepad++ has a powerful code folding feature and formats your SQL as you Type. It supports all major DB like Oracle, DB2, SQL Server, Teradata, Netezza, MySQL, Sybase, MS Access, etc. SQLinForm incorporates its own multi-DB parser engine. No additional software is required.",
 			"author": "Guido Thelen",
 			"homepage": "https://www.sqlinform.com"
