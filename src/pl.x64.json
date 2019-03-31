@@ -376,9 +376,9 @@
 		{
 			"folder-name": "nppcrypt",
 			"display-name": "NppCrypt",
-			"version": "1.0.1.5",
-			"id": "c0b36593e24881e950b587118ce0b6fb8acf5266bb3e6db0dfb48da895c530f0",
-			"repository": "https://github.com/jeanpaulrichter/nppcrypt/releases/download/1.0.1.5/nppcrypt_1.0.1.5_x64.zip",
+			"version": "1.0.1.6",
+			"id": "37d04936e9f4c33e6232a1333e405d19a7d5c32a26faef8e1172ff84a7930a6a",
+			"repository": "https://github.com/jeanpaulrichter/nppcrypt/releases/download/1.0.1.6/nppcrypt_1.0.1.6_x64.zip",
 			"description": "encryption/decryption with various block ciphers, hash-algorithms, random-characters, encoding with base-16/32/64",
 			"author": "Jean Paul Richter",
 			"homepage": "https://github.com/jeanpaulrichter/nppcrypt"
