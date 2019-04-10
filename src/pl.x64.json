@@ -710,7 +710,7 @@
 			"id": "9e57161a22f93452b167f98a6d8b7e1e422f4f236eb0d04afd5a4fc18efb75db",
 			"repository": "https://github.com/wakatime/notepadpp-wakatime/releases/download/4.1.0/WakaTime-4.1.0-x64.zip",
 			"description": "Notepad++ plugin for automatic time tracking and metrics generated from your programming activity.\r\nVisit https://wakatime.com to see your logged time.",
-			"author": "Carlos Henrique Guardão Gandarez",
+			"author": "WakaTime",
 			"homepage": "https://github.com/wakatime/notepadpp-wakatime"
 		}
 	]
