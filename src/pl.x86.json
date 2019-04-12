@@ -1086,12 +1086,12 @@
 		{
 			"folder-name": "WakaTime",
 			"display-name": "WakaTime",
-			"version": "4.0.2",
-			"id": "c2f40c5fcd2e7b46d92631652a44c2c598915cb471ba62682b467e0ea1071af0",
-			"repository": "https://github.com/wakatime/notepadpp-wakatime/releases/download/4.0.2/notepadpp-wakatime-4.0.2.zip",
-			"description": "Metrics, insights, and time tracking automatically generated from your programming activity.",
+			"version": "4.1.0",
+			"id": "85230c140cb81e6ac334a0e55b44a280cf3616ce4d0ab2a55252a7c214761460",
+			"repository": "https://github.com/wakatime/notepadpp-wakatime/releases/download/4.1.0/WakaTime-4.1.0-x86.zip",
+			"description": "Notepad++ plugin for automatic time tracking and metrics generated from your programming activity.\r\nVisit https://wakatime.com to see your logged time.",
 			"author": "WakaTime",
-			"homepage": "https://wakatime.com/"
+			"homepage": "https://github.com/wakatime/notepadpp-wakatime"
 		},
 		{
 			"folder-name": "WindowManager",
@@ -1162,16 +1162,6 @@
 			"description": "Worried about zooming your document everytime you just want to scroll but accidentally still holding the [Ctrl] key? Then this plugin is what you want! It disables mouse zoom or keyboard zoom or both.",
 			"author": "Stanislav Eckert",
 			"homepage": "https://github.com/StanDog/npp-zoomdisabler"
-		},
-		{
-			"folder-name": "WakaTime",
-			"display-name": "WakaTime",
-			"version": "4.1.0",
-			"id": "85230c140cb81e6ac334a0e55b44a280cf3616ce4d0ab2a55252a7c214761460",
-			"repository": "https://github.com/wakatime/notepadpp-wakatime/releases/download/4.1.0/WakaTime-4.1.0-x86.zip",
-			"description": "Notepad++ plugin for automatic time tracking and metrics generated from your programming activity.\r\nVisit https://wakatime.com to see your logged time.",
-			"author": "WakaTime",
-			"homepage": "https://github.com/wakatime/notepadpp-wakatime"
 		}
 	]
 }
