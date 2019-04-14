@@ -494,16 +494,6 @@
 			"homepage": "https://github.com/mohzy83/NppMarkdownPanel"
 		},
 		{
-			"folder-name": "PluginManager",
-			"display-name": "Plugin Manager",
-			"version": "1.4.12",
-			"id": "290d8bd017d9ed1267de1af60928e3dc4c2d1143b60dbaa3c984268034f82d4d",
-			"repository": "https://github.com/bruderstein/nppPluginManager/releases/download/v1.4.12/PluginManager_v1.4.12_x64_PA.zip",
-			"description": "The Plugin Manager is this plugin, that allows installation, update and removal of Notepad++ plugins. It will notify you of updates to plugins that you have installed, and automatically install dependencies and required files into the correct places.",
-			"author": "Dave Brotherstone",
-			"homepage": "https://bruderste.in/npp/pm/"
-		},
-		{
 			"folder-name": "PoorMansTSqlFormatterNppPlugin",
 			"display-name": "Poor Man's T-Sql Formatter",
 			"version": "1.6.10.1289",
