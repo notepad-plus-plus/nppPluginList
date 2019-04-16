@@ -74,16 +74,6 @@
 			"homepage": "https://github.com/dail8859/BetterMultiSelection"
 		},
 		{
-			"folder-name": "BookmarksDook",
-			"display-name": "Bookmarks@Dook",
-			"version": "1.0.0.0",
-			"id": "f6e5d9678901bce21ff89f784240cbc4eee37c7da68bd174b90cf262494e32f3",
-			"repository": "https://github.com/Dook1/Bookmarks-Dook/releases/download/32/BookmarksDook.zip",
-			"description": "Bookmarks list",
-			"author": "Dook",
-			"homepage": "https://github.com/Dook1/Bookmarks-Dook/issues"
-		},
-		{
 			"folder-name": "BracketsCheck",
 			"display-name": "BracketsCheck",
 			"version": "1.2",
