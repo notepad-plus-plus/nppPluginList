@@ -54,6 +54,16 @@
 			"homepage": "https://github.com/dail8859/BetterMultiSelection"
 		},
 		{
+			"folder-name": "BookmarksDook",
+			"display-name": "Bookmarks@Dook",
+			"version": "1.0.0.0",
+			"id": "8c8f4968457df0cd2d2724a16aad0118eda943abaed30642578d739d7bbb55c8",
+			"repository": "https://github.com/Dook1/Bookmarks-Dook/releases/download/64/BookmarksDook.zip",
+			"description": "Bookmarks list",
+			"author": "Dook",
+			"homepage": "https://github.com/Dook1/Bookmarks-Dook/issues"
+		},
+		{
 			"folder-name": "CodeAlignmentNpp",
 			"display-name": "Code Alignment",
 			"version": "14.1.107",
