@@ -204,6 +204,16 @@
 			"homepage": ""
 		},
 		{
+			"folder-name": "dbgpPlugin",
+			"display-name": "DBGp",
+			"version": "0.0.13.27",
+			"id": "9ab506a6eaa765b152ff1b7886e2173a7537788a205ea932cf92c08b4e2093b0",
+			"repository": "https://sourceforge.net/projects/npp-plugins/files/DBGP%20Plugin/DBGP%20Plugin%20v0.13%20beta/DBGpPlugin_0_13b_dll.zip",
+			"description": "This is a php debugger (XDebug) which talks DBGP protocol. Use this plugin to transform your Notepad++ to a php IDE.",
+			"author": "Damjan Zobo Cvetko",
+			"homepage": "https://sourceforge.net/projects/npp-plugins/files/DBGP%20Plugin/"
+		},
+		{
 			"folder-name": "DoxyIt",
 			"display-name": "DoxyIt",
 			"version": "0.4.3",
