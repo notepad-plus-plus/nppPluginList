@@ -1,6 +1,6 @@
 {
 	"name": "npp-pluginList",
-	"version": "1.0.7",
+	"version": "1.0.8",
 	"arch": "64",
 	"npp-plugins": [
 		{
@@ -52,6 +52,16 @@
 			"description": "Provides better cursor movements when using multiple selections.",
 			"author": "Justin Dailey",
 			"homepage": "https://github.com/dail8859/BetterMultiSelection"
+		},
+		{
+			"folder-name": "BookmarksDook",
+			"display-name": "Bookmarks@Dook",
+			"version": "1.0.0.0",
+			"id": "8c8f4968457df0cd2d2724a16aad0118eda943abaed30642578d739d7bbb55c8",
+			"repository": "https://github.com/Dook1/Bookmarks-Dook/releases/download/64/BookmarksDook.zip",
+			"description": "Bookmarks list",
+			"author": "Dook",
+			"homepage": "https://github.com/Dook1/Bookmarks-Dook/issues"
 		},
 		{
 			"folder-name": "CodeAlignmentNpp",
@@ -146,9 +156,9 @@
 		{
 			"folder-name": "DSpellCheck",
 			"display-name": "DSpellCheck",
-			"version": "1.4.10",
-			"id": "9e3022982e6aefa7095f7f61e5471a696d8cd5165974eeae67aa42cdf1e7d1dd",
-			"repository": "https://github.com/Predelnik/DSpellCheck/releases/download/v1.4.10/DSpellCheck_x64.zip",
+			"version": "1.4.12",
+			"id": "44c6c86aea0ab4b853109cf743b74e4f792b146785da6a4f014c3ba61f986d25",
+			"repository": "https://github.com/Predelnik/DSpellCheck/releases/download/v1.4.12/DSpellCheck_x64.zip",
 			"description": "Spell-checking plugin, with following main features:\r\n-Underlining spelling mistakes\r\n-Iterating through all mistakes in document\r\n-Finding mistakes only in comments and strings (For files with standard programming language syntax e.g. C++)\r\n-Possible usage of multiple languages (dictionaries) simultaneously to do spell-checking.\r\n-Getting suggestions for words by either using default Notepad++ menu or separate context menu called by special button appearing under word.\r\n-Able to add words to user dictionary or ignore them for current session of Notepad++\r\n-Using either Hunspell library (included in plugin) or Aspell library (needs to be installed).\r\n-A lot of customizing available from Plugin settings (Ignoring/Allowing only specific files, Choosing delimiters for words, Maximum number of suggestions etc)\r\n-Support for downloading and removing Hunspell dictionaries through user friendly GUI interface\r\n-Ability to quickly change current language through the nice menu.",
 			"author": "Sergey Semushin",
 			"homepage": "https://github.com/Predelnik/DSpellCheck"
@@ -236,7 +246,7 @@
 		{
 			"folder-name": "JSMinNPP",
 			"display-name": "JSTool",
-			"version": "1.1901.2",
+			"version": "1.1903.0",
 			"id": "8344688c9152b9fdd1d1d678f9c88e5f3f06100ea4bbec5b2a7522d585ebc189",
 			"repository": "https://sourceforge.net/projects/jsminnpp/files/Uni/JSToolNPP.1.1903.0.uni.64.zip",
 			"description": "A javascript plugin for Notepad++.\r\n * Douglas Crockford's JSMin algorithm to minimize javascript code.\r\n * My own algorithm to format javascript code.\r\n * A JSON data viewer. This JSON data viewer can handle >10MB JSON file easily.\r\n * Support 64bit Notepad++ (from version 1.20.0).\r\nReally helpful to javascript coder on Notepad++ and really easy to use it.\r\nMade in China.",
@@ -376,9 +386,9 @@
 		{
 			"folder-name": "nppcrypt",
 			"display-name": "NppCrypt",
-			"version": "1.0.1.5",
-			"id": "c0b36593e24881e950b587118ce0b6fb8acf5266bb3e6db0dfb48da895c530f0",
-			"repository": "https://github.com/jeanpaulrichter/nppcrypt/releases/download/1.0.1.5/nppcrypt_1.0.1.5_x64.zip",
+			"version": "1.0.1.6",
+			"id": "37d04936e9f4c33e6232a1333e405d19a7d5c32a26faef8e1172ff84a7930a6a",
+			"repository": "https://github.com/jeanpaulrichter/nppcrypt/releases/download/1.0.1.6/nppcrypt_1.0.1.6_x64.zip",
 			"description": "encryption/decryption with various block ciphers, hash-algorithms, random-characters, encoding with base-16/32/64",
 			"author": "Jean Paul Richter",
 			"homepage": "https://github.com/jeanpaulrichter/nppcrypt"
@@ -486,22 +496,12 @@
 		{
 			"folder-name": "NppMarkdownPanel",
 			"display-name": "Markdown Panel",
-			"version": "0.3.0",
-			"id": "8473aa2f610e483a42397be292b78887363b1c53e89042d4def2580925e9ac21",
-			"repository": "https://github.com/mohzy83/NppMarkdownPanel/releases/download/0.3.0/NppMarkdownPanel-0.3.0.0-x64.zip",
-			"description": "Lightweight Notepad++ plugin to preview Markdown files with good default style",
+			"version": "0.4.0",
+			"id": "884643607e38a933cb5637a53e2c6ed7c4cb341dabaa440a8aec42ca9d73cf33",
+			"repository": "https://github.com/mohzy83/NppMarkdownPanel/releases/download/0.4.0/NppMarkdownPanel-0.4.0.0-x64.zip",
+			"description": "Lightweight Notepad++ plugin to preview Markdown files with a good default style.",
 			"author": "Mohzy83",
 			"homepage": "https://github.com/mohzy83/NppMarkdownPanel"
-		},
-		{
-			"folder-name": "PluginManager",
-			"display-name": "Plugin Manager",
-			"version": "1.4.12",
-			"id": "290d8bd017d9ed1267de1af60928e3dc4c2d1143b60dbaa3c984268034f82d4d",
-			"repository": "https://github.com/bruderstein/nppPluginManager/releases/download/v1.4.12/PluginManager_v1.4.12_x64_PA.zip",
-			"description": "The Plugin Manager is this plugin, that allows installation, update and removal of Notepad++ plugins. It will notify you of updates to plugins that you have installed, and automatically install dependencies and required files into the correct places.",
-			"author": "Dave Brotherstone",
-			"homepage": "https://bruderste.in/npp/pm/"
 		},
 		{
 			"folder-name": "PoorMansTSqlFormatterNppPlugin",
@@ -702,6 +702,16 @@
 			"description": "Worried about zooming your document everytime you just want to scroll but accidentally still holding the [Ctrl] key? Then this plugin is what you want! It disables mouse zoom or keyboard zoom or both.",
 			"author": "Stanislav Eckert",
 			"homepage": "https://github.com/StanDog/npp-zoomdisabler"
+		},
+		{
+			"folder-name": "WakaTime",
+			"display-name": "WakaTime",
+			"version": "4.1.0",
+			"id": "9e57161a22f93452b167f98a6d8b7e1e422f4f236eb0d04afd5a4fc18efb75db",
+			"repository": "https://github.com/wakatime/notepadpp-wakatime/releases/download/4.1.0/WakaTime-4.1.0-x64.zip",
+			"description": "Notepad++ plugin for automatic time tracking and metrics generated from your programming activity.\r\nVisit https://wakatime.com to see your logged time.",
+			"author": "WakaTime",
+			"homepage": "https://github.com/wakatime/notepadpp-wakatime"
 		}
 	]
 }
