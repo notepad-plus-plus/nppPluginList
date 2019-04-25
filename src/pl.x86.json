@@ -74,6 +74,16 @@
 			"homepage": "https://github.com/dail8859/BetterMultiSelection"
 		},
 		{
+			"folder-name": "BookmarksDook",
+			"display-name": "Bookmarks@Dook",
+			"version": "1.0.0.0",
+			"id": "73ea4cb13a16bf8b99441eb436be13afe527c38f4dfe0156082b8c3d2d88bec4",
+			"repository": "https://github.com/Dook1/Bookmarks-Dook/releases/download/32/BookmarksDook.zip",
+			"description": "Bookmarks list",
+			"author": "Dook",
+			"homepage": "https://github.com/Dook1/Bookmarks-Dook/issues"
+		},
+		{
 			"folder-name": "BracketsCheck",
 			"display-name": "BracketsCheck",
 			"version": "1.2",
@@ -204,6 +214,16 @@
 			"homepage": ""
 		},
 		{
+			"folder-name": "dbgpPlugin",
+			"display-name": "DBGp",
+			"version": "0.0.13.27",
+			"id": "9ab506a6eaa765b152ff1b7886e2173a7537788a205ea932cf92c08b4e2093b0",
+			"repository": "https://sourceforge.net/projects/npp-plugins/files/DBGP%20Plugin/DBGP%20Plugin%20v0.13%20beta/DBGpPlugin_0_13b_dll.zip",
+			"description": "This is a php debugger (XDebug) which talks DBGP protocol. Use this plugin to transform your Notepad++ to a php IDE.",
+			"author": "Damjan Zobo Cvetko",
+			"homepage": "https://sourceforge.net/projects/npp-plugins/files/DBGP%20Plugin/"
+		},
+		{
 			"folder-name": "DoxyIt",
 			"display-name": "DoxyIt",
 			"version": "0.4.3",
@@ -216,9 +236,9 @@
 		{
 			"folder-name": "DSpellCheck",
 			"display-name": "DSpellCheck",
-			"version": "1.4.11",
-			"id": "8f59c329b9f6aa6ef20f378df51c9aba92b45054ffd2126c9c313087fe6be81b",
-			"repository": "https://github.com/Predelnik/DSpellCheck/releases/download/v1.4.11/DSpellCheck_x86.zip",
+			"version": "1.4.12",
+			"id": "e622bba938791da9325add2f931d52d1c1556b961ec4bee9dec180abcf7ce15f",
+			"repository": "https://github.com/Predelnik/DSpellCheck/releases/download/v1.4.12/DSpellCheck_x86.zip",
 			"description": "Spell-checking plugin, with following main features:\r\n-Underlining spelling mistakes\r\n-Iterating through all mistakes in document\r\n-Finding mistakes only in comments and strings (For files with standard programming language syntax e.g. C++)\r\n-Possible usage of multiple languages (dictionaries) simultaneously to do spell-checking.\r\n-Getting suggestions for words by either using default Notepad++ menu or separate context menu called by special button appearing under word.\r\n-Able to add words to user dictionary or ignore them for current session of Notepad++\r\n-Using either Hunspell library (included in plugin) or Aspell library (needs to be installed).\r\n-A lot of customizing available from Plugin settings (Ignoring/Allowing only specific files, Choosing delimiters for words, Maximum number of suggestions etc)\r\n-Support for downloading and removing Hunspell dictionaries through user friendly GUI interface\r\n-Ability to quickly change current language through the nice menu.",
 			"author": "Sergey Semushin",
 			"homepage": "https://github.com/Predelnik/DSpellCheck"
@@ -426,9 +446,9 @@
 		{
 			"folder-name": "JSMinNPP",
 			"display-name": "JSTool",
-			"version": "1.1903.0",
-			"id": "803458bf92d45d7c318c609f04427fcfeafeeaff2f317feb4e5ce891e0ecad7e",
-			"repository": "https://sourceforge.net/projects/jsminnpp/files/Uni/JSToolNPP.1.1903.0.uni.32.zip",
+			"version": "1.1904.0",
+			"id": "0c8c5f81cb4825ce510ae8f0040e70b33849ed3a07b70a2ad69909b2b21c84fd",
+			"repository": "https://sourceforge.net/projects/jsminnpp/files/Uni/JSToolNPP.1.1904.0.uni.32.zip",
 			"description": "A javascript plugin for Notepad++.\r\n * Douglas Crockford's JSMin algorithm to minimize javascript code.\r\n * My own algorithm to format javascript code.\r\n * A JSON data viewer. This JSON data viewer can handle >10MB JSON file easily.\r\n * Support 64bit Notepad++ (from version 1.20.0).\r\nReally helpful to javascript coder on Notepad++ and really easy to use it.\r\nMade in China.",
 			"author": "Sun Junwen",
 			"homepage": "https://github.com/sunjw/jstoolnpp"
@@ -646,9 +666,9 @@
 		{
 			"folder-name": "nppcrypt",
 			"display-name": "NppCrypt",
-			"version": "1.0.1.5",
-			"id": "e59a84a31a39414e43a5b6e770ab4debbad0174391bf40d3444abef9d62c7a03",
-			"repository": "https://github.com/jeanpaulrichter/nppcrypt/releases/download/1.0.1.5/nppcrypt_1.0.1.5_x86.zip",
+			"version": "1.0.1.6",
+			"id": "29a8804a88f96c8086a0b77f0181279524ce85d1ebaa4094d4a32453a3c39bf1",
+			"repository": "https://github.com/jeanpaulrichter/nppcrypt/releases/download/1.0.1.6/nppcrypt_1.0.1.6_x86.zip",
 			"description": "encryption/decryption with various block ciphers, hash-algorithms, random-characters, encoding with base-16/32/64",
 			"author": "Jean Paul Richter",
 			"homepage": "https://github.com/jeanpaulrichter/nppcrypt"
@@ -766,10 +786,10 @@
 		{
 			"folder-name": "NppMarkdownPanel",
 			"display-name": "Markdown Panel",
-			"version": "0.3.0",
-			"id": "dc496d34ae312b2a0b2e593101938b99fc94afe75ecbbb612c410a4e862f5434",
-			"repository": "https://github.com/mohzy83/NppMarkdownPanel/releases/download/0.3.0/NppMarkdownPanel-0.3.0.0-x86.zip",
-			"description": "Lightweight Notepad++ plugin to preview Markdown files with good default style",
+			"version": "0.4.0",
+			"id": "eb0225ffe735591dbc5cae800dc1c62dafc53101fa08b1674486a7c91c43d6cf",
+			"repository": "https://github.com/mohzy83/NppMarkdownPanel/releases/download/0.4.0/NppMarkdownPanel-0.4.0.0-x86.zip",
+			"description": "Lightweight Notepad++ plugin to preview Markdown files with a good default style.",
 			"author": "Mohzy83",
 			"homepage": "https://github.com/mohzy83/NppMarkdownPanel"
 		},
@@ -782,16 +802,6 @@
 			"description": "This plugin implements code completion for custom PHP classes in Notepad++. Keep an overview over your classes' attributes &amp; methods in a nice popup!\n\nA popup window appears after typing the \"-&gt;\" or \"::\" behind a class or an instantiated object variable which displays all attributes and methods of it's class. As soon as the popup appears you can type in the name of the method or attribute you are looking for and the plugin will select it in the list automatically. Hitting [return] or double clicking the entry will insert the name of the property to your script. Additionally, there is a list with all classes and their properties in a dockable window. Double clicking this entries opens their file &amp; jumps right to the declaration. The list offers a quick search function also.",
 			"author": "Stanislav Eckert",
 			"homepage": "https://github.com/StanDog/npp-phpautocompletion"
-		},
-		{
-			"folder-name": "PluginManager",
-			"display-name": "Plugin Manager",
-			"version": "1.4.12",
-			"id": "1675091ee23a0624fd9c200d9185eb90cc0dfe23d2c982781e5f60a5bad67b40",
-			"repository": "https://github.com/bruderstein/nppPluginManager/releases/download/v1.4.12/PluginManager_v1.4.12_UNI_PA.zip",
-			"description": "The Plugin Manager is this plugin, that allows installation, update and removal of Notepad++ plugins. It will notify you of updates to plugins that you have installed, and automatically install dependencies and required files into the correct places.",
-			"author": "Dave Brotherstone",
-			"homepage": "https://bruderste.in/npp/pm/"
 		},
 		{
 			"folder-name": "PoorMansTSqlFormatterNppPlugin",
@@ -1086,12 +1096,12 @@
 		{
 			"folder-name": "WakaTime",
 			"display-name": "WakaTime",
-			"version": "4.0.2",
-			"id": "c2f40c5fcd2e7b46d92631652a44c2c598915cb471ba62682b467e0ea1071af0",
-			"repository": "https://github.com/wakatime/notepadpp-wakatime/releases/download/4.0.2/notepadpp-wakatime-4.0.2.zip",
-			"description": "Metrics, insights, and time tracking automatically generated from your programming activity.",
+			"version": "4.1.0",
+			"id": "85230c140cb81e6ac334a0e55b44a280cf3616ce4d0ab2a55252a7c214761460",
+			"repository": "https://github.com/wakatime/notepadpp-wakatime/releases/download/4.1.0/WakaTime-4.1.0-x86.zip",
+			"description": "Notepad++ plugin for automatic time tracking and metrics generated from your programming activity.\r\nVisit https://wakatime.com to see your logged time.",
 			"author": "WakaTime",
-			"homepage": "https://wakatime.com/"
+			"homepage": "https://github.com/wakatime/notepadpp-wakatime"
 		},
 		{
 			"folder-name": "WindowManager",
