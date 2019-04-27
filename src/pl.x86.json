@@ -884,16 +884,6 @@
 			"homepage": "https://github.com/Hsilgos/nppsaveasadmin"
 		},
 		{
-			"folder-name": "ScrollPastEOFUni",
-			"display-name": "ScrollPastEOF",
-			"version": "1.0",
-			"id": "0c7547b2434500c790ace1daf716b0c701220a64bae4e2ea17e80870c9ba4536",
-			"repository": "https://downloads.sourceforge.net/project/npp-plugins/ScrollPastEOF/ScrollPastEOF%201.0U/ScrollPastEOF.1.0U.zip",
-			"description": "This plugin simply configures the Scintilla components on startup to allow scrolling up to one page down past the end of file. Currently (as of Notepad++ 5.6.2) there is no GUI setting to enable this feature. It may be added at a later time, but if you are using an older version, you may still want to use this plugin.",
-			"author": "Alexander Iljin &lt;AlexIljin@users.SourceForge.net&gt;",
-			"homepage": ""
-		},
-		{
 			"folder-name": "SecurePad",
 			"display-name": "SecurePad",
 			"version": "2.2",
