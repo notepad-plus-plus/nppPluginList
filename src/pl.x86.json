@@ -794,6 +794,16 @@
 			"homepage": "https://github.com/mohzy83/NppMarkdownPanel"
 		},
 		{
+			"folder-name": "NppTextViz",
+			"display-name": "NppTextViz",
+			"version": "0.1.0",
+			"id": "f7b7adde43775039ee967d78ef5ba7f9939eea07b25e21dfe318cbca721f2529",
+			"repository": "https://github.com/KubaDee/NppTextViz/releases/download/v0.1/NppTextViz_x86_v0.1.zip",
+			"description": "This plugin is meant to show or hide lines with or without clipboard text. Or simply select several lines and hide them. Plugin is based on TextFX plugin v0.25 by Chris Severance.",
+			"author": "Jakub Dvorak",
+			"homepage": "https://github.com/KubaDee/NppTextViz"
+		},
+		{
 			"folder-name": "ccc",
 			"display-name": "PHP Autocompletion",
 			"version": "1.4.1",
