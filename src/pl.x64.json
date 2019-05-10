@@ -1,6 +1,6 @@
 {
 	"name": "npp-pluginList",
-	"version": "1.0.8",
+	"version": "1.0.9",
 	"arch": "64",
 	"npp-plugins": [
 		{
@@ -244,16 +244,6 @@
 			"homepage": "https://github.com/sieukrem/jn-npp-plugin/wiki"
 		},
 		{
-			"folder-name": "LanguageHelp",
-			"display-name": "LanguageHelp",
-			"version": "1.7.2.0",
-			"id": "62406ae94471b97c35b2c9ef3a9d92ee000de8f2a5031f194acb0394a9af7942",
-			"repository": "https://sites.google.com/site/fstellari/nppplugins/LanguageHelp_dll_1v72_x64.zip",
-			"description": "LanguageHelp allows to load a language specific help file (CHM, HLP, PDF) and search for the keyword under the cursor.\nThe latest version allows also to show the help files as menu entries or in the context menu.",
-			"author": "Franco Stellari",
-			"homepage": "https://sites.google.com/site/fstellari/nppplugins"
-		},
-		{
 			"folder-name": "NPPJSONViewer",
 			"display-name": "JSON Viewer",
 			"version": "1.34",
@@ -274,6 +264,16 @@
 			"homepage": "https://github.com/sunjw/jstoolnpp"
 		},
 		{
+			"folder-name": "LanguageHelp",
+			"display-name": "LanguageHelp",
+			"version": "1.7.2.0",
+			"id": "62406ae94471b97c35b2c9ef3a9d92ee000de8f2a5031f194acb0394a9af7942",
+			"repository": "https://sites.google.com/site/fstellari/nppplugins/LanguageHelp_dll_1v72_x64.zip",
+			"description": "LanguageHelp allows to load a language specific help file (CHM, HLP, PDF) and search for the keyword under the cursor.\nThe latest version allows also to show the help files as menu entries or in the context menu.",
+			"author": "Franco Stellari",
+			"homepage": "https://sites.google.com/site/fstellari/nppplugins"
+		},
+		{
 			"folder-name": "Linter",
 			"display-name": "Linter",
 			"version": "0.1.0.0",
@@ -292,6 +292,16 @@
 			"description": "Adds Lua scripting capabilities. This provides control over all of Scintilla's features and options with a light-weight, fully-functional programming language.",
 			"author": "Justin Dailey",
 			"homepage": "https://github.com/dail8859/LuaScript"
+		},
+		{
+			"folder-name": "NppMarkdownPanel",
+			"display-name": "Markdown Panel",
+			"version": "0.4.0",
+			"id": "884643607e38a933cb5637a53e2c6ed7c4cb341dabaa440a8aec42ca9d73cf33",
+			"repository": "https://github.com/mohzy83/NppMarkdownPanel/releases/download/0.4.0/NppMarkdownPanel-0.4.0.0-x64.zip",
+			"description": "Lightweight Notepad++ plugin to preview Markdown files with a good default style.",
+			"author": "Mohzy83",
+			"homepage": "https://github.com/mohzy83/NppMarkdownPanel"
 		},
 		{
 			"folder-name": "MarkdownViewerPlusPlus",
@@ -524,16 +534,6 @@
 			"homepage": "https://github.com/viper3400/RegExTractor/wiki/de_userdocumentation"
 		},
 		{
-			"folder-name": "NppMarkdownPanel",
-			"display-name": "Markdown Panel",
-			"version": "0.4.0",
-			"id": "884643607e38a933cb5637a53e2c6ed7c4cb341dabaa440a8aec42ca9d73cf33",
-			"repository": "https://github.com/mohzy83/NppMarkdownPanel/releases/download/0.4.0/NppMarkdownPanel-0.4.0.0-x64.zip",
-			"description": "Lightweight Notepad++ plugin to preview Markdown files with a good default style.",
-			"author": "Mohzy83",
-			"homepage": "https://github.com/mohzy83/NppMarkdownPanel"
-		},
-		{
 			"folder-name": "NppTextViz",
 			"display-name": "NppTextViz",
 			"version": "0.1.0",
@@ -594,16 +594,6 @@
 			"homepage": "https://bitbucket.org/Kered13/python-indent-for-notepad"
 		},
 		{
-			"folder-name": "NppSaveAsAdmin",
-			"display-name": "Save as admin",
-			"version": "1.0.172",
-			"id": "016716c575a0b6f042862f6ffa329c68acb99c8f1bbfedc858a68eadf85788e2",
-			"repository": "https://github.com/Hsilgos/nppsaveasadmin/releases/download/1.0.172/NppSaveAsAdmin_1.0.172_x64.zip",
-			"description": "Allows to save file as administrator with UAC prompt.",
-			"author": "Yauheni Khnykin",
-			"homepage": "https://github.com/Hsilgos/nppsaveasadmin"
-		},
-		{
 			"folder-name": "RunMe",
 			"display-name": "RunMe",
 			"version": "1.4.0.0",
@@ -612,6 +602,16 @@
 			"description": "RunMe allows to execute the currently open file, based on its shell association. The plugin allows also to open an explorer or command shell at the file location. Options are available to same the current file (or all the files) before execution. The executed file can be run in foreground,background, or hidden mode. Context menu entries and tool bar icons are available.",
 			"author": "Franco Stellari",
 			"homepage": "https://sites.google.com/site/fstellari/nppplugins"
+		},
+		{
+			"folder-name": "NppSaveAsAdmin",
+			"display-name": "Save as admin",
+			"version": "1.0.172",
+			"id": "016716c575a0b6f042862f6ffa329c68acb99c8f1bbfedc858a68eadf85788e2",
+			"repository": "https://github.com/Hsilgos/nppsaveasadmin/releases/download/1.0.172/NppSaveAsAdmin_1.0.172_x64.zip",
+			"description": "Allows to save file as administrator with UAC prompt.",
+			"author": "Yauheni Khnykin",
+			"homepage": "https://github.com/Hsilgos/nppsaveasadmin"
 		},
 		{
 			"folder-name": "SecurePad",
@@ -714,16 +714,6 @@
 			"homepage": "https://sites.google.com/site/fstellari/nppplugins"
 		},
 		{
-			"folder-name": "TopMost",
-			"display-name": "TopMost",
-			"version": "1.4.0.0",
-			"id": "1c211bd5b14b50420b7238377dd001bda7d5d86941a9521ba6f7ba85599decca",
-			"repository": "https://sites.google.com/site/fstellari/nppplugins/TopMost_dll_1v40_x64.zip",
-			"description": "TopMost allows to set the main Notepad++ window as a topmost window so it can stay on top of other windows even when it is not active. This plugin sync with Notepad++ own stay on top functionality and allows to remember the setting between restarts as well as to show a toolbar button.",
-			"author": "Franco Stellari",
-			"homepage": "https://sites.google.com/site/fstellari/nppplugins"
-		},
-		{
 			"folder-name": "NppTaskList",
 			"display-name": "Task List",
 			"version": "2.1",
@@ -744,14 +734,14 @@
 			"homepage": "https://phdesign.com.au/npptoolbucket/"
 		},
 		{
-			"folder-name": "XBrackets",
-			"display-name": "XBrackets Lite",
-			"version": "1.3.0",
-			"id": "1142a2a487efc2aa7290cd9de53894449c162877a2819e5dcf99cc1a98bb5ab7",
-			"repository": "https://sourceforge.net/projects/npp-plugins/files/XBrackets%20Lite/XBrackets%20Plugin%20v1.3.0/XBrackets_v130_dll_x64.zip",
-			"description": "XBrackets Lite allows to autocomplete brackets ([{\"\"}]) i.e. it inserts corresponding right bracket when the left bracket is typed. The plugin uses \"smart\" autocompletion: * next character is analysed for ([{ brackets; * next &amp; previous characters are analysed for \" quote.",
-			"author": "Dovgan Vitaliy",
-			"homepage": ""
+			"folder-name": "TopMost",
+			"display-name": "TopMost",
+			"version": "1.4.0.0",
+			"id": "1c211bd5b14b50420b7238377dd001bda7d5d86941a9521ba6f7ba85599decca",
+			"repository": "https://sites.google.com/site/fstellari/nppplugins/TopMost_dll_1v40_x64.zip",
+			"description": "TopMost allows to set the main Notepad++ window as a topmost window so it can stay on top of other windows even when it is not active. This plugin sync with Notepad++ own stay on top functionality and allows to remember the setting between restarts as well as to show a toolbar button.",
+			"author": "Franco Stellari",
+			"homepage": "https://sites.google.com/site/fstellari/nppplugins"
 		},
 		{
 			"folder-name": "VisualStudioLineCopy",
@@ -762,6 +752,26 @@
 			"description": "Adds two commands to Notepad++ CopyAllowLine and CutAllowLine, which adds Visual Studio style copy/cutting to Notepad++.",
 			"author": "Mackenzie Zastrow (forked by Derek Brown)",
 			"homepage": "https://bitbucket.org/Kered13/notepad-visualstudiolinecopy"
+		},
+		{
+			"folder-name": "WakaTime",
+			"display-name": "WakaTime",
+			"version": "4.1.0",
+			"id": "9e57161a22f93452b167f98a6d8b7e1e422f4f236eb0d04afd5a4fc18efb75db",
+			"repository": "https://github.com/wakatime/notepadpp-wakatime/releases/download/4.1.0/WakaTime-4.1.0-x64.zip",
+			"description": "Notepad++ plugin for automatic time tracking and metrics generated from your programming activity.\r\nVisit https://wakatime.com to see your logged time.",
+			"author": "WakaTime",
+			"homepage": "https://github.com/wakatime/notepadpp-wakatime"
+		},
+		{
+			"folder-name": "XBrackets",
+			"display-name": "XBrackets Lite",
+			"version": "1.3.0",
+			"id": "1142a2a487efc2aa7290cd9de53894449c162877a2819e5dcf99cc1a98bb5ab7",
+			"repository": "https://sourceforge.net/projects/npp-plugins/files/XBrackets%20Lite/XBrackets%20Plugin%20v1.3.0/XBrackets_v130_dll_x64.zip",
+			"description": "XBrackets Lite allows to autocomplete brackets ([{\"\"}]) i.e. it inserts corresponding right bracket when the left bracket is typed. The plugin uses \"smart\" autocompletion: * next character is analysed for ([{ brackets; * next &amp; previous characters are analysed for \" quote.",
+			"author": "Dovgan Vitaliy",
+			"homepage": ""
 		},
 		{
 			"folder-name": "XMLTools",
@@ -782,16 +792,6 @@
 			"description": "Worried about zooming your document everytime you just want to scroll but accidentally still holding the [Ctrl] key? Then this plugin is what you want! It disables mouse zoom or keyboard zoom or both.",
 			"author": "Stanislav Eckert",
 			"homepage": "https://github.com/StanDog/npp-zoomdisabler"
-		},
-		{
-			"folder-name": "WakaTime",
-			"display-name": "WakaTime",
-			"version": "4.1.0",
-			"id": "9e57161a22f93452b167f98a6d8b7e1e422f4f236eb0d04afd5a4fc18efb75db",
-			"repository": "https://github.com/wakatime/notepadpp-wakatime/releases/download/4.1.0/WakaTime-4.1.0-x64.zip",
-			"description": "Notepad++ plugin for automatic time tracking and metrics generated from your programming activity.\r\nVisit https://wakatime.com to see your logged time.",
-			"author": "WakaTime",
-			"homepage": "https://github.com/wakatime/notepadpp-wakatime"
 		}
 	]
 }

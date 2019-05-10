@@ -1,6 +1,6 @@
 {
 	"name": "npp-pluginList",
-	"version": "1.0.8",
+	"version": "1.0.9",
 	"arch": "32",
 	"npp-plugins": [
 		{
@@ -204,6 +204,16 @@
 			"homepage": "https://sourceforge.net/projects/customlinenumbers"
 		},
 		{
+			"folder-name": "dbgpPlugin",
+			"display-name": "DBGp",
+			"version": "0.0.13.27",
+			"id": "9ab506a6eaa765b152ff1b7886e2173a7537788a205ea932cf92c08b4e2093b0",
+			"repository": "https://sourceforge.net/projects/npp-plugins/files/DBGP%20Plugin/DBGP%20Plugin%20v0.13%20beta/DBGpPlugin_0_13b_dll.zip",
+			"description": "This is a php debugger (XDebug) which talks DBGP protocol. Use this plugin to transform your Notepad++ to a php IDE.",
+			"author": "Damjan Zobo Cvetko",
+			"homepage": "https://sourceforge.net/projects/npp-plugins/files/DBGP%20Plugin/"
+		},
+		{
 			"folder-name": "docMonitor.unicode",
 			"display-name": "Document Monitor",
 			"version": "2.2.0.0",
@@ -222,16 +232,6 @@
 			"description": "Developer tool for selecting color codes in various formats. It is not a color sampling tool.",
 			"author": "Don Rowlett",
 			"homepage": ""
-		},
-		{
-			"folder-name": "dbgpPlugin",
-			"display-name": "DBGp",
-			"version": "0.0.13.27",
-			"id": "9ab506a6eaa765b152ff1b7886e2173a7537788a205ea932cf92c08b4e2093b0",
-			"repository": "https://sourceforge.net/projects/npp-plugins/files/DBGP%20Plugin/DBGP%20Plugin%20v0.13%20beta/DBGpPlugin_0_13b_dll.zip",
-			"description": "This is a php debugger (XDebug) which talks DBGP protocol. Use this plugin to transform your Notepad++ to a php IDE.",
-			"author": "Damjan Zobo Cvetko",
-			"homepage": "https://sourceforge.net/projects/npp-plugins/files/DBGP%20Plugin/"
 		},
 		{
 			"folder-name": "DoxyIt",
@@ -534,6 +534,16 @@
 			"homepage": "https://github.com/dail8859/LuaScript"
 		},
 		{
+			"folder-name": "NppMarkdownPanel",
+			"display-name": "Markdown Panel",
+			"version": "0.4.0",
+			"id": "eb0225ffe735591dbc5cae800dc1c62dafc53101fa08b1674486a7c91c43d6cf",
+			"repository": "https://github.com/mohzy83/NppMarkdownPanel/releases/download/0.4.0/NppMarkdownPanel-0.4.0.0-x86.zip",
+			"description": "Lightweight Notepad++ plugin to preview Markdown files with a good default style.",
+			"author": "Mohzy83",
+			"homepage": "https://github.com/mohzy83/NppMarkdownPanel"
+		},
+		{
 			"folder-name": "MarkdownViewerPlusPlus",
 			"display-name": "MarkdownViewer++",
 			"version": "0.8.2",
@@ -814,16 +824,6 @@
 			"homepage": "https://github.com/viper3400/RegExTractor/wiki/de_userdocumentation"
 		},
 		{
-			"folder-name": "NppMarkdownPanel",
-			"display-name": "Markdown Panel",
-			"version": "0.4.0",
-			"id": "eb0225ffe735591dbc5cae800dc1c62dafc53101fa08b1674486a7c91c43d6cf",
-			"repository": "https://github.com/mohzy83/NppMarkdownPanel/releases/download/0.4.0/NppMarkdownPanel-0.4.0.0-x86.zip",
-			"description": "Lightweight Notepad++ plugin to preview Markdown files with a good default style.",
-			"author": "Mohzy83",
-			"homepage": "https://github.com/mohzy83/NppMarkdownPanel"
-		},
-		{
 			"folder-name": "NppTextViz",
 			"display-name": "NppTextViz",
 			"version": "0.1.0",
@@ -1054,16 +1054,6 @@
 			"homepage": "https://github.com/dail8859/SurroundSelection"
 		},
 		{
-			"folder-name": "TakeNotes",
-			"display-name": "TakeNotes",
-			"version": "1.2.0.0",
-			"id": "57564d8718265a5f7aa0804cecfd74a743a5ea69e75f5d0a0bcbc99684075c52",
-			"repository": "https://sites.google.com/site/fstellari/nppplugins/TakeNotes_dll_1v20_x32.zip",
-			"description": "TakeNotes is designed to help people who like to use Notepad++ for jotting quick notes. Instead of using unnamed 'new ?' files, this plugins allows to quickly create new empty files in a folder of choice. The file names may be custom generated using a mask and may contain details such as the user name, date, and time of creation so that unique files may be generated. Additionally, the plugin allows to load exiting notes in the folder of choice, save existing files as a note, and open the last saved note quickly. Please refer to the Options dialog box for more details. It is strongly recommended to use this plugin in combination with AutoSave to make sure that you never loose a note.",
-			"author": "Franco Stellari",
-			"homepage": "https://sites.google.com/site/fstellari/nppplugins"
-		},
-		{
 			"folder-name": "TagLEET",
 			"display-name": "TagLEET",
 			"version": "1.3.1.1",
@@ -1082,6 +1072,16 @@
 			"description": "TagsView is a generic plugin which provides user interface for ctags parsed result. \nCurrently supported editors are Notepad++ and AkelPad. \nPowered by Win32++ (by David Nash) and by Exuberant Ctags (by Darren Hiebert). \nInspired by FunctionList plugin (by Jens Lorenz) for Notepad++ text editor (by Don HO).",
 			"author": "Dovgan Vitaliy",
 			"homepage": ""
+		},
+		{
+			"folder-name": "TakeNotes",
+			"display-name": "TakeNotes",
+			"version": "1.2.0.0",
+			"id": "57564d8718265a5f7aa0804cecfd74a743a5ea69e75f5d0a0bcbc99684075c52",
+			"repository": "https://sites.google.com/site/fstellari/nppplugins/TakeNotes_dll_1v20_x32.zip",
+			"description": "TakeNotes is designed to help people who like to use Notepad++ for jotting quick notes. Instead of using unnamed 'new ?' files, this plugins allows to quickly create new empty files in a folder of choice. The file names may be custom generated using a mask and may contain details such as the user name, date, and time of creation so that unique files may be generated. Additionally, the plugin allows to load exiting notes in the folder of choice, save existing files as a note, and open the last saved note quickly. Please refer to the Options dialog box for more details. It is strongly recommended to use this plugin in combination with AutoSave to make sure that you never loose a note.",
+			"author": "Franco Stellari",
+			"homepage": "https://sites.google.com/site/fstellari/nppplugins"
 		},
 		{
 			"folder-name": "NppTaskList",
