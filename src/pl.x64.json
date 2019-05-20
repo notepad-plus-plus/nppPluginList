@@ -34,6 +34,16 @@
 			"homepage": "https://sourceforge.net/projects/autocodepage"
 		},
 		{
+			"folder-name": "nppAutoDetectIndent",
+			"display-name": "Auto Detect Indention",
+			"version": "1.8",
+			"id": "bc623f272c3fccfeda98ac3c71ecf5955fc5ddcd4ef88220434c59f8612b4e39",
+			"repository": "https://github.com/Chocobo1/nppAutoDetectIndent/releases/download/1.8/x64.zip",
+			"description": "Detects indention (tab or spaces) and auto adjust Tab key on-the-fly.",
+			"author": "Mike Tzou (Chocobo1)",
+			"homepage": "https://github.com/Chocobo1/nppAutoDetectIndent"
+		},
+		{
 			"folder-name": "AutoEolFormat",
 			"display-name": "AutoEolFormat",
 			"version": "1.0.1",
