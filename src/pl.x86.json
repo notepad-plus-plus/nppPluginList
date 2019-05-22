@@ -934,6 +934,16 @@
 			"homepage": "https://sourceforge.net/projects/quickopenplugin/"
 		},
 		{
+			"folder-name": "Remove_dup_lines",
+			"display-name": "Remove duplicate lines",
+			"version": "1.0.0.0",
+			"id": "74eb6ef0b624b8d0c13561bf8353ed7a61f423b4b92e431cfb05416838c3126a",
+			"repository": "https://github.com/gurikbal/Remove_dup_lines/files/3205258/Remove_dup_lines.zip",
+			"description": "Remove duplicate lines without Remove Empty lines",
+			"author": "G. Singh",
+			"homepage": "https://github.com/gurikbal/Remove_dup_lines"
+		},		
+		{
 			"folder-name": "RunMe",
 			"display-name": "RunMe",
 			"version": "1.4.0.0",
