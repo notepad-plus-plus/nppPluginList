@@ -1026,9 +1026,9 @@
 		{
 			"folder-name": "NppSnippets",
 			"display-name": "Snippets",
-			"version": "1.4.0",
-			"id": "26751a8805f273603d1f1d3d90459083750723310a66671a9a061f317eeaa1b4",
-			"repository": "https://github.com/ffes/nppsnippets/releases/download/v1.4.0/NppSnippets-140-x32.zip",
+			"version": "1.5.0",
+			"id": "4c9951d0ffc37d9fe8ae580cbde12667a7f3b317ed817f23dca687d7ff15ea68",
+			"repository": "https://github.com/ffes/nppsnippets/releases/download/v1.5.0/NppSnippets-150-x32.zip",
 			"description": "Adds the possibility to add code snippets to the current document by selecting it from a simple list.",
 			"author": "Frank Fesevur",
 			"homepage": "https://www.fesevur.com/nppsnippets"
