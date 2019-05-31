@@ -524,6 +524,16 @@
 			"homepage": ""
 		},
 		{
+			"folder-name": "NppMenuSearch",
+			"display-name": "NppMenuSearch",
+			"version": "0.9.2",
+			"id": "f1c43ba65407fd4774525a28de845ea2f9805380f605d781a4143a54aa1a7dd9",
+			"repository": "https://github.com/cmeriaux/NppMenuSearch/releases/download/v0.9.2/NppMenuSearch_v0.9.2_X64.zip",
+			"description": "Adds a text field to the toolbar for searching menu items and preference dialog options.",
+			"author": "Peter Frentrup",
+			"homepage": "https://github.com/peter-frentrup/NppMenuSearch"
+		},
+		{
 			"folder-name": "NppQrCode64",
 			"display-name": "NppQrCode",
 			"version": "0.0.0.1",
