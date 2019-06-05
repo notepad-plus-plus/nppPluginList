@@ -936,7 +936,7 @@
 			"description": "This plugin is meant to show or hide lines with or without clipboard text. Or simply select several lines and hide them. To help you analysing larger files - logs for example. Plugin is based on TextFX plugin v0.25 by Chris Severance.",
 			"author": "Jakub Dvorak",
 			"homepage": "https://github.com/KubaDee/NppTextViz",
-			"release-date": "2019-05-28"
+			"release-date": "2019-06-05"
 		},
 		{
 			"folder-name": "OpenSelection",
