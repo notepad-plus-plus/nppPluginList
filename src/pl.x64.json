@@ -171,13 +171,13 @@
 		{
 			"folder-name": "CustomLineNumbers",
 			"display-name": "CustomLineNumbers",
-			"version": "1.1.6",
-			"id": "9c155c45ed910210d20e67b1940262d4322d8ee5438f9bbbc69a2543a7c0c010",
-			"repository": "https://sourceforge.net/projects/customlinenumbers/files/v1.1.6/plugin/x64/CustomLineNumbers_v1.1.6_x64_PA.zip",
+			"version": "1.1.7",
+			"id": "354ee2fa4735748e327e19a2d8baea644032ed4511a6a095ec15c1476078a1cc",
+			"repository": "https://sourceforge.net/projects/customlinenumbers/files/v1.1.7/plugin/x64/CustomLineNumbers_v1.1.7_x64.zip",
 			"description": "A plugin to display line numbers as hex numbers. You can also configure the starting line number.",
 			"author": "Andreas Heim",
 			"homepage": "https://sourceforge.net/projects/customlinenumbers",
-			"release-date": "2018-11-09"
+			"release-date": "2019-06-05"
 		},
 		{
 			"folder-name": "DoxyIt",

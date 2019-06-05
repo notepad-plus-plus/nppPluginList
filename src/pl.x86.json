@@ -226,13 +226,13 @@
 		{
 			"folder-name": "CustomLineNumbers",
 			"display-name": "CustomLineNumbers",
-			"version": "1.1.6",
-			"id": "5630a07a135dce0f9542547685d180490e1cf3e5486ce404948d34d63ce9efc3",
-			"repository": "https://sourceforge.net/projects/customlinenumbers/files/v1.1.6/plugin/x86/CustomLineNumbers_v1.1.6_UNI_PA.zip",
+			"version": "1.1.7",
+			"id": "3991b49b0661efa8c9ed2a8f7fc8714c6c1ec3cb5418cabc2f8b45abc94557f2",
+			"repository": "https://sourceforge.net/projects/customlinenumbers/files/v1.1.7/plugin/x86/CustomLineNumbers_v1.1.7_UNI.zip",
 			"description": "A plugin to display line numbers as hex numbers. You can also configure the starting line number.",
 			"author": "Andreas Heim",
 			"homepage": "https://sourceforge.net/projects/customlinenumbers",
-			"release-date": "2018-11-09"
+			"release-date": "2019-06-05"
 		},
 		{
 			"folder-name": "dbgpPlugin",
