@@ -28,13 +28,13 @@
 		{
 			"folder-name": "AutoCodepage",
 			"display-name": "AutoCodepage",
-			"version": "1.2.3",
-			"id": "b22d9aa03f93578a176dff3ec4a61f80f05aa5a19a00136bcbb964668dafaa13",
-			"repository": "https://sourceforge.net/projects/autocodepage/files/v1.2.3/plugin/x64/AutoCodepage_v1.2.3_x64_PA.zip",
+			"version": "1.2.4",
+			"id": "88744cda8c4a6be373af2fa23c86156adaf3dc000fde8834957f9352a6f34fec",
+			"repository": "https://sourceforge.net/projects/autocodepage/files/v1.2.4/plugin/x64/AutoCodepage_v1.2.4_x64.zip",
 			"description": "A plugin to automatically set a document's code page to your needs on loading or renaming a document, changing its language or activating its tab. Usefull especially when coding batch scripts.",
 			"author": "Andreas Heim",
 			"homepage": "https://sourceforge.net/projects/autocodepage",
-			"release-date": "2018-11-09"
+			"release-date": "2019-06-05"
 		},
 		{
 			"folder-name": "nppAutoDetectIndent",
@@ -172,7 +172,7 @@
 			"folder-name": "CustomLineNumbers",
 			"display-name": "CustomLineNumbers",
 			"version": "1.1.7",
-			"id": "354ee2fa4735748e327e19a2d8baea644032ed4511a6a095ec15c1476078a1cc",
+			"id": "4bb5077f79b947dffc7386d71baf2e2ca945a30c30a89b145c5a8ee6544a6e3e",
 			"repository": "https://sourceforge.net/projects/customlinenumbers/files/v1.1.7/plugin/x64/CustomLineNumbers_v1.1.7_x64.zip",
 			"description": "A plugin to display line numbers as hex numbers. You can also configure the starting line number.",
 			"author": "Andreas Heim",
