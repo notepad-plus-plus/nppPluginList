@@ -515,9 +515,9 @@
 		{
 			"folder-name": "NppTextViz",
 			"display-name": "NppTextViz",
-			"version": "0.3.2",
-			"id": "8a9a4ddd509547445b7ee6577a9b152a2db7c2559d2a096701680b9e89369bda",
-			"repository": "https://github.com/KubaDee/NppTextViz/releases/download/v0.3.2/NppTextViz_x64_v0.3.2.zip",
+			"version": "0.4.0",
+			"id": "2095f4f35abf2a7448980e594730488bd56c19ff7f706c97748b54ea8f5126e1",
+			"repository": "https://github.com/KubaDee/NppTextViz/releases/download/v0.4/NppTextViz_x64_v0.4.zip",
 			"description": "This plugin is meant to show or hide lines with or without clipboard text. Or simply select several lines and hide them.Plugin is based on TextFX plugin v0.25 by Chris Severance.",
 			"author": "Jakub Dvorak",
 			"homepage": "https://github.com/KubaDee/NppTextViz"
