@@ -61,13 +61,13 @@
 		{
 			"folder-name": "AutoEolFormat",
 			"display-name": "AutoEolFormat",
-			"version": "1.0.1",
-			"id": "2c1ad18ffda3fe17ecd0c8b788b75e813adfde3b4f4f7f1871e7253bd054a00e",
-			"repository": "https://sourceforge.net/projects/autoeolformat/files/v1.0.1/plugin/x86/AutoEolFormat_v1.0.1_UNI_PA.zip",
+			"version": "1.0.2",
+			"id": "fb11ea9b5af3385cc8e9a5b0ff0762261f48c80a592cd4421d4c32e42ec141b7",
+			"repository": "https://sourceforge.net/projects/autoeolformat/files/v1.0.2/plugin/x86/AutoEolFormat_v1.0.2_UNI.zip",
 			"description": "A plugin to automatically set a document's EOL (End of Line) format to your needs on loading, saving or renaming a document or activating its tab.",
 			"author": "Andreas Heim",
 			"homepage": "https://sourceforge.net/projects/autoeolformat",
-			"release-date": "2018-11-09"
+			"release-date": "2019-06-06"
 		},
 		{
 			"folder-name": "AutoSave",
