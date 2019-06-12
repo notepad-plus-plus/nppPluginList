@@ -611,13 +611,13 @@
 		{
 			"folder-name": "NppTextViz",
 			"display-name": "NppTextViz",
-			"version": "0.4.0",
-			"id": "2095f4f35abf2a7448980e594730488bd56c19ff7f706c97748b54ea8f5126e1",
-			"repository": "https://github.com/KubaDee/NppTextViz/releases/download/v0.4/NppTextViz_x64_v0.4.zip",
+			"version": "0.4.1",
+			"id": "4ff5e8e5b19422ba71afa7c83f3aa1cc3519de23f325af04e7c336e610b4a702",
+			"repository": "https://github.com/KubaDee/NppTextViz/releases/download/v0.4.1/NppTextViz_x64_v0.4.1.zip",
 			"description": "This plugin is meant to hide or show lines to help you analysing larger files - logs for example. You can hide all lines that contain text pattern. Or simply select several lines and hide them. Plugin is based on TextFX plugin v0.25 by Chris Severance.",
 			"author": "Jakub Dvorak",
 			"homepage": "https://github.com/KubaDee/NppTextViz",
-			"release-date": "2019-06-05"
+			"release-date": "2019-06-12"
 		},
 		{
 			"folder-name": "OpenSelection",
