@@ -545,13 +545,13 @@
 		{
 			"folder-name": "NppGTags",
 			"display-name": "NppGTags",
-			"version": "4.4.1",
-			"id": "4f094d8c3e50c60e513342a4abae0b3a78a2ff11241165a7cb984f6e81af5471",
-			"repository": "https://github.com/pnedev/nppgtags/releases/download/v4.4.1/NppGTags_v4.4.1_X64.zip",
+			"version": "4.4.2",
+			"id": "264ed4ae5efa9c66f61a6c62c0e99b28d8fabc0f00d03e1c417e76a430e61e33",
+			"repository": "https://github.com/pnedev/nppgtags/releases/download/v4.4.2/NppGTags_v4.4.2_X64.zip",
 			"description": "This plugin is a front-end to GNU Global source code tagging system (GTags). It provides code indexing and search/navigation tools for various languages.",
 			"author": "Pavel Nedev",
 			"homepage": "https://github.com/pnedev/nppgtags",
-			"release-date": "2018-10-29"
+			"release-date": "2019-06-13"
 		},
 		{
 			"folder-name": "NppJumpList",

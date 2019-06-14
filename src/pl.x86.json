@@ -853,13 +853,13 @@
 		{
 			"folder-name": "NppGTags",
 			"display-name": "NppGTags",
-			"version": "4.4.1",
-			"id": "d779dfac1a82cab4650236a7c7d52bb675f65092570649451091ae0f4c2cbef3",
-			"repository": "https://github.com/pnedev/nppgtags/releases/download/v4.4.1/NppGTags_v4.4.1_x86.zip",
+			"version": "4.4.2",
+			"id": "916958ce7cba2f215523798319ab7368467bd57d4e0eafcf4048de3c6c8bf4b5",
+			"repository": "https://github.com/pnedev/nppgtags/releases/download/v4.4.2/NppGTags_v4.4.2_x86.zip",
 			"description": "This plugin is a front-end to GNU Global source code tagging system (GTags). It provides code indexing and search/navigation tools for various languages.",
 			"author": "Pavel Nedev",
 			"homepage": "https://github.com/pnedev/nppgtags",
-			"release-date": "2018-10-29"
+			"release-date": "2019-06-13"
 		},
 		{
 			"folder-name": "NppHasher",
