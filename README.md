@@ -5,3 +5,10 @@ https://notepad-plus-plus.org/features/plugin-admin.html
 
 Please check here if you need any support:
 https://notepad-plus-plus.org/community/topic/16566/support-for-plugins-admin-npppluginlist
+
+Build Status
+------------
+
+[![Appveyor build status](https://ci.appveyor.com/api/projects/status/github/notepad-plus-plus/nppPluginList?branch=master&svg=true)](https://ci.appveyor.com/project/donho/nppPluginList)
+[![GitHub release](https://img.shields.io/github/release/notepad-plus-plus/nppPluginList.svg)](https://github.com/notepad-plus-plus/nppPluginList/releases)
+
