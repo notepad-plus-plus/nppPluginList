@@ -433,6 +433,61 @@
 			"release-date": "2016-09-16"
 		},
 		{
+			"folder-name": "nppplugin_svn",
+			"display-name": "Tortoise SVN",
+			"version": "3.0.1",
+			"id": "7EA4A0628EF155AC844FC513C43A0F5A7B06DE62C854087F170E8F9A3B05967B",
+			"repository": "https://github.com/incrediblejr/nppplugins/releases/download/v3.0.1/nppplugin_svn_x64.zip",
+			"description": "Main operations for SVN, with a concept of a root solution directory.  NOTE: The plugin uses Tortoise SVN internally so you have to have this installed. Available at http://tortoisesvn.tigris.org/",
+			"author": "IncredibleJunior",
+			"homepage": "http://www.incrediblejunior.com/npp_plugins/",
+			"release-date": "2019-06-23"
+		},
+		{
+			"folder-name": "nppplugin_solutionhub",
+			"display-name": "Solution Hub",
+			"version": "3.0.1",
+			"id": "F795E716299ED1CD4E2F3AE035542AB5F61C9DA3F67D1CA51A57ADA1573B9133",
+			"repository": "https://github.com/incrediblejr/nppplugins/releases/download/v3.0.1/nppplugin_solutionhub_x64.zip",
+			"description": "Base requirement for several plugins from incfred",
+			"author": "IncredibleJunior",
+			"homepage": "http://www.incrediblejunior.com/npp_plugins/",
+			"release-date": "2019-06-23"
+		},
+		{
+			"folder-name": "nppplugin_solutionhub_ui",
+			"display-name": "Solution Hub UI",
+			"version": "3.0.1",
+			"id": "6D04DA30238537B4B3CD1C0854C463A570182E28A42C2158C2148F4615979E89",
+			"repository": "https://github.com/incrediblejr/nppplugins/releases/download/v3.0.1/nppplugin_solutionhub_ui_x64.zip",
+			"description": "Basic UI to create and setup solutions used by the SolutionHub.",
+			"author": "IncredibleJunior",
+			"homepage": "http://www.incrediblejunior.com/npp_plugins/",
+			"release-date": "2019-06-23"
+		},
+		{
+			"folder-name": "nppplugin_solutiontools",
+			"display-name": "Solution Tools",
+			"version": "3.0.1",
+			"id": "CE8681308EC4918F1BAEA73BBC058A2627AF32482829964FB76078CDB95356E7",
+			"repository": "https://github.com/incrediblejr/nppplugins/releases/download/v3.0.1/nppplugin_solutiontools_x64.zip",
+			"description": "Configurable priority based fileswitching(most commonly used when switching between .h and .cpp). Configurable what extensions map to which targets and in what order.\n'goto file' implementation, Ex. stand on a line, press whatever shortcut(or left mouseclick on the line) you have bound to the GOTO command on a line like :\n#include \"somefile.h\"\nor\nrequire 'some_path/to_a_luafile'",
+			"author": "IncredibleJunior",
+			"homepage": "http://www.incrediblejunior.com/npp_plugins/",
+			"release-date": "2019-06-23"
+		},
+		{
+			"folder-name": "nppplugin_ofis2",
+			"display-name": "Open File In Solution",
+			"version": "3.0.1",
+			"id": "26EAD2ED387F77AD416DF8D40729D10619BF740B37DD1709A8728AEDEDCB8B38",
+			"repository": "https://github.com/incrediblejr/nppplugins/releases/download/v3.0.1/nppplugin_ofis2_x64.zip",
+			"description": "Lets you index specific folders and possible specific types of resources (xml-, cpp, py-files) for a fast indexing of files.",
+			"author": "IncredibleJunior",
+			"homepage": "http://www.incrediblejunior.com/npp_plugins/",
+			"release-date": "2019-06-23"
+		},
+		{
 			"folder-name": "NotepadStarterPlugin",
 			"display-name": "NotepadStarterPlugin",
 			"version": "2.3.2.0",
@@ -517,7 +572,7 @@
 			"repository": "https://github.com/chcg/NPP_ExportPlugin/releases/download/0.2.9.21/NppExport_0.2.9.21_x64.zip",
 			"description": "NppExport is a true WYSIWYG exporter. It allows you not only to save your source code as a html/rtf file, but also to copy your source code in the clipboard in RTF/HTML format, so you can paste it into your word processor (MS Word, Abiword, openoffice.org Writer) to get the same visual effect.",
 			"author": "",
-			"homepage": "https://github.com/chcg/NPP_ExportPlugin"
+			"homepage": "https://github.com/chcg/NPP_ExportPlugin",
 			"release-date": "2019-06-20"
 		},
 		{
