@@ -85,7 +85,7 @@
 			"display-name": "Bookmarks@Dook",
 			"version": "1.5.1.0",
 			"id": "dc614352da2d2f7f9138cf6ff6cd4c0137e588257edd8f34bd80e23cd031d90c",
-			"repository": "C:\Program Files\notepad++64\plugins\BookmarksDook\BookmarksDook 64 1.5.1.zip",
+			"repository": "https://github.com/Dook1/Bookmarks-Dook/releases/download/v1.5.1/BookmarksDook.64.1.5.1.zip",
 			"description": "Bookmarks list",
 			"author": "Dook",
 			"homepage": "https://github.com/Dook1/Bookmarks-Dook/issues",
