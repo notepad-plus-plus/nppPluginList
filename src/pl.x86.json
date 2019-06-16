@@ -664,6 +664,61 @@
 			"release-date": "2018-02-04"
 		},
 		{
+			"folder-name": "nppplugin_svn",
+			"display-name": "Tortoise SVN",
+			"version": "2.195",
+			"id": "b96efad7e8dfffe619de966d607e6301c28ee2f9b684166d20e55f17e435dce8",
+			"repository": "http://www.incrediblejunior.com/npp_plugins/downloads/tsvn_r195.zip",
+			"description": "Main operations for SVN, with a concept of a root solution directory.  NOTE: The plugin uses Tortoise SVN internally so you have to have this installed. Available at http://tortoisesvn.tigris.org/",
+			"author": "IncredibleJunior",
+			"homepage": "http://www.incrediblejunior.com/npp_plugins/",
+			"release-date": "2011-02-05"
+		},
+		{
+			"folder-name": "nppplugin_solutionhub",
+			"display-name": "Solution Hub",
+			"version": "2.186",
+			"id": "4077cc9cd2c821b20daa0f38ec7fdb4f129c970c20b09630892d7ec77e65779a",
+			"repository": "http://www.incrediblejunior.com/npp_plugins/downloads/r186/solutionhub.zip",
+			"description": "Base requirement for several plugins from incfred",
+			"author": "IncredibleJunior",
+			"homepage": "http://www.incrediblejunior.com/npp_plugins/",
+			"release-date": "2011-01-29"
+		},
+		{
+			"folder-name": "nppplugin_solutionhub_ui",
+			"display-name": "Solution Hub UI",
+			"version": "2.178",
+			"id": "9720f3309386f9320a95fb66704b10713b2db57df6b4a1b644bf166647e1ec4d",
+			"repository": "http://www.incrediblejunior.com/npp_plugins/downloads/r1/solutionhub_ui.zip",
+			"description": "Basic UI to create and setup solutions used by the SolutionHub.",
+			"author": "IncredibleJunior",
+			"homepage": "http://www.incrediblejunior.com/npp_plugins/",
+			"release-date": "2011-01-19"
+		},
+		{
+			"folder-name": "nppplugin_solutiontools",
+			"display-name": "Solution Tools",
+			"version": "2.193",
+			"id": "4a788fd3d8187d03ec420e63009d181112778abbc753a140946c0b7c04d16408",
+			"repository": "http://www.incrediblejunior.com/npp_plugins/downloads/solutiontools_r193.zip",
+			"description": "Configurable priority based fileswitching(most commonly used when switching between .h and .cpp). Configurable what extensions map to which targets and in what order.\n'goto file' implementation, Ex. stand on a line, press whatever shortcut(or left mouseclick on the line) you have bound to the GOTO command on a line like :\n#include \"somefile.h\"\nor\nrequire 'some_path/to_a_luafile'",
+			"author": "IncredibleJunior",
+			"homepage": "http://www.incrediblejunior.com/npp_plugins/",
+			"release-date": "2011-01-19"
+		},
+		{
+			"folder-name": "nppplugin_ofis2",
+			"display-name": "Open File In Solution",
+			"version": "2.194",
+			"id": "888538cc4f40c0d3a3fed03c5ef3faf150edb2c4273011f900bd44d9e320c75e",
+			"repository": "http://www.incrediblejunior.com/npp_plugins/downloads/ofis2_r194.zip",
+			"description": "Lets you index specific folders and possible specific types of resources (xml-, cpp, py-files) for a fast indexing of files.",
+			"author": "IncredibleJunior",
+			"homepage": "http://www.incrediblejunior.com/npp_plugins/",
+			"release-date": "2011-01-19"
+		},
+		{
 			"folder-name": "NativeLang",
 			"display-name": "NativeLang",
 			"version": "1.1.0.0",
