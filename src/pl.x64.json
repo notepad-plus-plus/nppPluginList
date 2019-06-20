@@ -512,13 +512,13 @@
 		{
 			"folder-name": "NppExport",
 			"display-name": "NppExport",
-			"version": "0.2.8.0",
-			"id": "b4e430021657895ccd8be982011e313203312f657a7bbbcbbce33a1938f3f7ef",
-			"repository": "https://github.com/chcg/NPP_ExportPlugin/releases/download/0.2.8.16/NppExport_0.2.8.16_x64.zip",
+			"version": "0.2.9.0",
+			"id": "642748ac233f07328d3412cff437bdc4e030cb39f2ba01b4a3dec2f957012dab",
+			"repository": "https://github.com/chcg/NPP_ExportPlugin/releases/download/0.2.9.21/NppExport_0.2.9.21_x64.zip",
 			"description": "NppExport is a true WYSIWYG exporter. It allows you not only to save your source code as a html/rtf file, but also to copy your source code in the clipboard in RTF/HTML format, so you can paste it into your word processor (MS Word, Abiword, openoffice.org Writer) to get the same visual effect.",
 			"author": "",
-			"homepage": "",
-			"release-date": "2008-09-06"
+			"homepage": "https://github.com/chcg/NPP_ExportPlugin"
+			"release-date": "2019-06-20"
 		},
 		{
 			"folder-name": "NppFavorites",
