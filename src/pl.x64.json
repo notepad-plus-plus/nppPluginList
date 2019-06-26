@@ -83,13 +83,13 @@
 		{
 			"folder-name": "BookmarksDook",
 			"display-name": "Bookmarks@Dook",
-			"version": "1.5.1.0",
-			"id": "dc614352da2d2f7f9138cf6ff6cd4c0137e588257edd8f34bd80e23cd031d90c",
-			"repository": "https://github.com/Dook1/Bookmarks-Dook/releases/download/v1.5.1/BookmarksDook.64.1.5.1.zip",
+			"version": "1.6.0.0",
+			"id": "7cab896d49fffe45082b465fc6d2b2b1f0238b65630da6f851106401023971c1",
+			"repository": "https://github.com/Dook1/Bookmarks-Dook/releases/download/1.6/BookmarksDook.64.1.6.zip",
 			"description": "Bookmarks list",
 			"author": "Dook",
 			"homepage": "https://github.com/Dook1/Bookmarks-Dook/issues",
-			"release-date": "2019-06-17"
+			"release-date": "2019-06-26"
 		},
 		{
 			"folder-name": "CodeAlignmentNpp",
