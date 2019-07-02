@@ -1238,13 +1238,13 @@
 		{
 			"folder-name": "SurroundSelection",
 			"display-name": "SurroundSelection",
-			"version": "1.2",
-			"id": "c664c7161b510e3a5662ebd45fb77c49a42413ac09e17a1fc91ade0e88c8bf82",
-			"repository": "https://github.com/dail8859/SurroundSelection/releases/download/v1.2/SurroundSelection_v1.2.zip",
+			"version": "1.3.1",
+			"id": "ba5cbd69a082fca57d12353c3eb6e04c97b0dfef79ef057bbc6aef3f94669adb",
+			"repository": "https://github.com/dail8859/SurroundSelection/releases/download/v1.3.1/SurroundSelection_v1.3.1.zip",
 			"description": "Automatically surround the selection in quotes/brackets/parenthesis/etc.",
 			"author": "Justin Dailey",
 			"homepage": "https://github.com/dail8859/SurroundSelection",
-			"release-date": "2019-02-07"
+			"release-date": "2019-06-30"
 		},
 		{
 			"folder-name": "TagLEET",
