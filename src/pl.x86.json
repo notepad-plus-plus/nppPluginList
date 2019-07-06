@@ -1117,13 +1117,13 @@
 		{
 			"folder-name": "NppSaveAsAdmin",
 			"display-name": "Save as admin",
-			"version": "1.0.176",
-			"id": "088920e8bf1c2e1d3d34938b91b5682ed10146d2184c075e66a4d8735f29c103",
-			"repository": "https://github.com/Hsilgos/nppsaveasadmin/releases/download/1.0.176/NppSaveAsAdmin_1.0.176_x86.zip",
+			"version": "1.0.195",
+			"id": "93b7e8f6afd15b378c06bf7b75bb1adb0539ab733ef5504afd30d890cb68112a",
+			"repository": "https://github.com/Hsilgos/nppsaveasadmin/releases/download/1.0.195/NppSaveAsAdmin_1.0.195_x86.zip",
 			"description": "Allows to save file as administrator with UAC prompt.",
 			"author": "Yauheni Khnykin",
 			"homepage": "https://github.com/Hsilgos/nppsaveasadmin",
-			"release-date": "2019-06-16"
+			"release-date": "2019-07-06"
 		},
 		{
 			"folder-name": "SecurePad",
