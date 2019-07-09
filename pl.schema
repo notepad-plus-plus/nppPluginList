@@ -29,8 +29,7 @@
 				"repository",
 				"description",
 				"author",
-				"homepage",
-				"release-date"
+				"homepage"
 			],
 			"properties": {
 				"folder-name": {
@@ -64,10 +63,6 @@
 						{"type": "string", "maxLength": 0},
 						{"format": "uri"}
 					]
-				},
-				"release-date": {
-					"type": "string",
-					"pattern": "^\\d\\d\\d\\d-\\d\\d-\\d\\d$"
 				}
 			}
 		}
