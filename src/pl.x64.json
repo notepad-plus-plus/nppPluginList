@@ -100,7 +100,7 @@
 			"description": "Code alignment helps you present your code beautifully, enhancing clarity and readability.\n\nAlign your code by any character. Fast logical shortcuts to perform common alignments such as equals and period.",
 			"author": "Chris McGrath",
 			"homepage": "https://github.com/cpmcgrath/codealignment",
-			"release-date": "2018-12-16"
+			"release-date": "2019-12-16"
 		},
 		{
 			"folder-name": "CodeStats",
