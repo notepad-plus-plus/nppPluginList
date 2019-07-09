@@ -315,7 +315,7 @@
 			"folder-name": "Explorer",
 			"display-name": "Explorer",
 			"version": "1.8.7.0",
-			"id": "c074872e1caf9e0a689853115ee7fdba86cb4eda0aba95dc4f8cddeb6e564005",
+			"id": "cdd23b769cfe8529cba27307244186e3b6f744d5de7453d047e0dd359e8753d3",
 			"repository": "https://github.com/oviradoi/npp-explorer-plugin/releases/download/v1.8.7/Explorer.zip",
 			"description": "Explorer plugin is a file browser. You can open whatever you want from it in Notepad++, just double click!",
 			"author": "Jens Lorenz",
