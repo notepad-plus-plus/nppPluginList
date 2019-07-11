@@ -206,9 +206,9 @@
 		{
 			"folder-name": "Explorer",
 			"display-name": "Explorer",
-			"version": "1.8.6.0",
-			"id": "294223faa29130117e5d685c78a9c84ee056f5c5fdcdee4a6ff310be458c5147",
-			"repository": "https://github.com/oviradoi/npp-explorer-plugin/releases/download/v1.8.6/Explorer_x64.zip",
+			"version": "1.8.7.0",
+			"id": "23741a75dfb9d54c3316c9d243ce9d440d64333224fa402177ef1e107d004341",
+			"repository": "https://github.com/oviradoi/npp-explorer-plugin/releases/download/v1.8.7/Explorer_x64.zip",
 			"description": "Explorer plugin is a file browser. You can open whatever you want from it in Notepad++, just double click!",
 			"author": "Jens Lorenz",
 			"homepage": "https://github.com/oviradoi/npp-explorer-plugin"
