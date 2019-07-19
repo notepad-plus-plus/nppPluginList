@@ -276,9 +276,9 @@
 		{
 			"folder-name": "LanguageHelp",
 			"display-name": "LanguageHelp",
-			"version": "1.7.2.0",
-			"id": "62406ae94471b97c35b2c9ef3a9d92ee000de8f2a5031f194acb0394a9af7942",
-			"repository": "https://sites.google.com/site/fstellari/nppplugins/LanguageHelp_dll_1v72_x64.zip",
+			"version": "1.7.3.0",
+			"id": "3aa7bcdff77252d3318688008909e9c586552fde6798aef6674e21e51a349771",
+			"repository": "https://sites.google.com/site/fstellari/nppplugins/LanguageHelp_dll_1v73_x64.zip",
 			"description": "LanguageHelp allows to load a language specific help file (CHM, HLP, PDF) and search for the keyword under the cursor.\nThe latest version allows also to show the help files as menu entries or in the context menu.",
 			"author": "Franco Stellari",
 			"homepage": "https://sites.google.com/site/fstellari/nppplugins"
