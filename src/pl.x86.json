@@ -1004,6 +1004,16 @@
 			"homepage": "https://github.com/gurikbal/Remove_dup_lines"
 		},
 		{
+			"folder-name": "qkNppReverseLines",
+			"display-name": "Reverse Lines",
+			"version": "1.0.0.0",
+			"id": "8d1f3b45dcb56e9f66b0f4fad66e6b3cd6f730f5116997d978e589e1e5dc73e0",
+			"repository": "https://github.com/querykuma/qkNppReverseLines/releases/download/v1.0.0.0/qkNppReverseLinesPlugin_v1.0.0.0_npp7.7_x86.zip",
+			"description": "A simple plugin to reverse lines in the selection or document. It works like the tac unix command.",
+			"author": "Query Kuma",
+			"homepage": "https://github.com/querykuma/qkNppReverseLines"
+		},
+		{
 			"folder-name": "RunMe",
 			"display-name": "RunMe",
 			"version": "1.4.0.0",
