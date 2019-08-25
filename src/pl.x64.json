@@ -664,6 +664,16 @@
 			"homepage": "https://bitbucket.org/Kered13/python-indent-for-notepad"
 		},
 		{
+			"folder-name": "QuickText",
+			"display-name": "QuickText",
+			"version": "0.1.0.1",
+			"id": "2e50411288e11fca091c00fa54d794a3e292903fa929f393fa98e4a876c3a479",
+			"repository": "https://github.com/vinsworldcom/nppQuickText/releases/download/0.1.0.1/QuickText-v0.1.0.1-x64.zip",
+			"description": "QuickText is a Notepad++ plugin for quick text substitution, including multi field inputs. It's similar to Tab Triggers in TextMate.",
+			"author": "Joao Moreno, Jing Teng",
+			"homepage": "https://github.com/vinsworldcom/nppQuickText"
+		},
+		{
 			"folder-name": "qkNppReverseLines",
 			"display-name": "Reverse Lines",
 			"version": "1.0.0.0",
