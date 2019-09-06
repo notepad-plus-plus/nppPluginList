@@ -514,6 +514,16 @@
 			"homepage": "http://www.scout-soft.com/linefilter"
 		},
 		{
+			"folder-name": "Linefilter3",
+			"display-name": "Linefilter3",
+			"version": "1.0.0.0",
+			"id": "c3d6c69ce840b4a2b3bb0cbdf4d12338f38b2bbd83fb61e1f01eeaedcd9b11ff",
+			"repository": "https://www.seelisoft.net/Linefilter3/Linefilter3_x86.zip",
+			"description": "A plugin for Notepad++ that allows you to filter for a given text and display the matching lines in a new NPP window.",
+			"author": "SeeliSoft",
+			"homepage": "https://www.seelisoft.net/Linefilter3/"
+		},
+		{
 			"folder-name": "Linter",
 			"display-name": "Linter",
 			"version": "0.1.0.0",
