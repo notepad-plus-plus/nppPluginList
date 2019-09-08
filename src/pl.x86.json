@@ -294,6 +294,16 @@
 			"homepage": "https://github.com/oviradoi/npp-explorer-plugin"
 		},
 		{
+			"folder-name": "ExtSettings",
+			"display-name": "ExtSettings",
+			"version": "1.0",
+			"id": "19eac2361ed3b99bb20aea91a96ee77af8841e5b0fdc97f21e5ccaa82b658ff3",
+			"repository": "https://sourceforge.net/projects/extsettings/files/v1.0.0/plugin/x86/ExtSettings_v1.0_UNI.zip",
+			"description": "A plugin to set various Scintilla settings which are not available via Notepad++ preferences dialog.",
+			"author": "Andreas Heim",
+			"homepage": "https://sourceforge.net/projects/extsettings"
+		},
+		{
 			"folder-name": "NPPFSIPlugin",
 			"display-name": "F# Interactive",
 			"version": "0.1.1",

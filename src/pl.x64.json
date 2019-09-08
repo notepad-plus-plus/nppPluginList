@@ -214,6 +214,16 @@
 			"homepage": "https://github.com/oviradoi/npp-explorer-plugin"
 		},
 		{
+			"folder-name": "ExtSettings",
+			"display-name": "ExtSettings",
+			"version": "1.0",
+			"id": "11f1c77933cab71799602b59463fabb4ae27affeb42e2e8c288da08cb10a394a",
+			"repository": "https://sourceforge.net/projects/extsettings/files/v1.0.0/plugin/x64/ExtSettings_v1.0_x64.zip",
+			"description": "A plugin to set various Scintilla settings which are not available via Notepad++ preferences dialog.",
+			"author": "Andreas Heim",
+			"homepage": "https://sourceforge.net/projects/extsettings"
+		},
+		{
 			"folder-name": "HTMLTag",
 			"display-name": "HTML Tag",
 			"version": "1.1.0.0",
