@@ -166,9 +166,9 @@
 		{
 			"folder-name": "DoxyIt",
 			"display-name": "DoxyIt",
-			"version": "0.4.3",
-			"id": "8b63b3905b595795f263ed81340cf42bfcb0a42e8dabac78872c1bd72cdf59e8",
-			"repository": "https://github.com/dail8859/DoxyIt/releases/download/v0.4.3/DoxyIt_64_PA.zip",
+			"version": "0.4.4",
+			"id": "1f3970b0fa2a87f76de0fee921e9c52ce931d552d9be73a4b820cd321457510c",
+			"repository": "https://github.com/dail8859/DoxyIt/releases/download/v0.4.4/DoxyIt_v0.4.4_x64.zip",
 			"description": "Support for creating Doxygen comments.",
 			"author": "Justin Dailey",
 			"homepage": "https://github.com/dail8859/DoxyIt"
