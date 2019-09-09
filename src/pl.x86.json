@@ -946,9 +946,9 @@
 		{
 			"folder-name": "PoorMansTSqlFormatterNppPlugin",
 			"display-name": "Poor Man's T-Sql Formatter",
-			"version": "1.6.10.1279",
-			"id": "c475b44f403504f5854dcc29ad9220924e893d6999c4670d93e4efed7130c748",
-			"repository": "https://github.com/TaoK/PoorMansTSqlFormatter/releases/download/1.6.10/SqlFormatterNppPlugin.1.6.10.b.zip",
+			"version": "1.6.13.31502",
+			"id": "a4a130b8163a323fcccdb1793c7a544c430e50fbeb87bf708cd196ddbce4682e",
+			"repository": "https://github.com/TaoK/PoorMansTSqlFormatter/releases/download/1.6.13/SqlFormatterNppPlugin.1.6.13.zip",
 			"description": "A simple SQL formatter performing full multi-batch T-SQL formatting (individual statements, stored procedures, any DML, any DDL) with numerous formatting options.",
 			"author": "Tao Klerks",
 			"homepage": "http://www.architectshack.com/PoorMansTSqlFormatter.ashx"
