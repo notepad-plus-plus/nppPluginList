@@ -196,9 +196,9 @@
 		{
 			"folder-name": "ElasticTabstops",
 			"display-name": "ElasticTabstops",
-			"version": "1.3",
-			"id": "c5c9642b0c1b0bb8e59b1922346c3c4f434b29594b2630818eb7b288771e007b",
-			"repository": "https://github.com/dail8859/ElasticTabstops/releases/download/v1.3/ElasticTabstops_64_PA.zip",
+			"version": "1.3.1",
+			"id": "657f343f135e9af2d9db8b94dee991ff0c3931151ed7faea3a40822c0bc295a6",
+			"repository": "https://github.com/dail8859/ElasticTabstops/releases/download/v1.3.1/ElasticTabstops_v1.3.1_x64.zip",
 			"description": "Support for Elastic Tabstops.",
 			"author": "Justin Dailey",
 			"homepage": "https://github.com/dail8859/ElasticTabstops"
