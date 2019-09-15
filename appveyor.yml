@@ -4,23 +4,21 @@ image: Visual Studio 2017
 
 environment:
   matrix:
-  - PlatformToolset: v140_xp
+  - PlatformToolset: v141_xp
     PLATFORM: amd64
     PYTHONTEST: x64
     PYTHON: "C:\\Python37"
 
-  - PlatformToolset: v140_xp
+  - PlatformToolset: v141_xp
     PLATFORM: Win32
     PYTHONTEST: Win32
     PYTHON: "C:\\Python37"
 
-  - PlatformToolset: v140_xp
+  - PlatformToolset: v141_xp
     PLATFORM: x64
     
-  - PlatformToolset: v140_xp
+  - PlatformToolset: v141_xp
     PLATFORM: Win32
-
-  #- PlatformToolset: v141_xp
 
 configuration:
     - Release
@@ -59,7 +57,7 @@ after_build:
                 Push-AppveyorArtifact "bin\nppPluginList.dll" -FileName nppPluginList.dll
             }
 
-            if ($($env:APPVEYOR_REPO_TAG) -eq "true" -and $env:CONFIGURATION -eq "Release" -and $env:PLATFORMTOOLSET -eq "v140_xp") {
+            if ($($env:APPVEYOR_REPO_TAG) -eq "true" -and $env:CONFIGURATION -eq "Release" -and $env:PLATFORMTOOLSET -eq "v141_xp") {
                 if($env:PLATFORM_INPUT -eq "x64"){
                     $ZipFileName = "nppPluginList_$($env:APPVEYOR_REPO_TAG_NAME)_x64.zip"
                     7z a $ZipFileName bin64\*.dll
@@ -70,20 +68,3 @@ after_build:
                 }
             }
         }
-
-# artifacts:
-  # - path: nppPluginList_*.zip
-    # name: releases
-
-# deploy:
-    # provider: GitHub
-    # auth_token:
-        # secure: !!TODO, see https://www.appveyor.com/docs/deployment/github/#provider-settings!!
-    # artifact: releases
-    # draft: false
-    # prerelease: false
-    # force_update: true
-    # on:
-        # appveyor_repo_tag: true
-        # PlatformToolset: v140_xp
-        # configuration: Release
