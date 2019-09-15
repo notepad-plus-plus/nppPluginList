@@ -296,9 +296,9 @@
 		{
 			"folder-name": "ExtSettings",
 			"display-name": "ExtSettings",
-			"version": "1.0",
-			"id": "19eac2361ed3b99bb20aea91a96ee77af8841e5b0fdc97f21e5ccaa82b658ff3",
-			"repository": "https://sourceforge.net/projects/extsettings/files/v1.0.0/plugin/x86/ExtSettings_v1.0_UNI.zip",
+			"version": "1.1",
+			"id": "3b5c3541a819d396c3ad2ddf4ac93e6a6e3cadf1f93a971a99cdeb58e6a4a1c2",
+			"repository": "https://sourceforge.net/projects/extsettings/files/v1.1.0/plugin/x86/ExtSettings_v1.1_UNI.zip",
 			"description": "A plugin to set various Scintilla settings which are not available via Notepad++ preferences dialog.",
 			"author": "Andreas Heim",
 			"homepage": "https://sourceforge.net/projects/extsettings"
