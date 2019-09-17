@@ -694,11 +694,11 @@
 			"homepage": "https://github.com/vinsworldcom/nppQuickText"
 		},
 		{
-			"folder-name": "Remove_dup_lines",
-			"display-name": "Remove duplicate lines",
-			"version": "1.0.8.0",
-			"id": "b6bce6a0a04c16938bee29e2c40353aea6790709dc0a061fad1ea9930a0b6ad7",
-			"repository": "https://github.com/gurikbal/Remove_dup_lines/releases/download/Remove_dup_lines/Remove_dup_lines_x64.zip",
+			"folder-name": "Remove_Duplicate_Lines",
+			"display-name": "Remove Duplicate Lines",
+			"version": "1.0.9.0",
+			"id": "cbc7cfd4d377cef2efeedc6877fd1af4f6f1db2a79c6206e890807e472047cb3",
+			"repository": "https://github.com/gurikbal/Remove_dup_lines/releases/download/1.0.9.0/Remove_Duplicate_Lines_x64.zip",
 			"description": "Remove duplicate lines without Remove Empty lines",
 			"author": "G. Singh",
 			"homepage": "https://github.com/gurikbal/Remove_dup_lines"
