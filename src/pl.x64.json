@@ -344,6 +344,16 @@
 			"homepage": "https://nea.github.io/MarkdownViewerPlusPlus/"
 		},
 		{
+			"folder-name": "Merge files in one",
+			"display-name": "Merge files in one",
+			"version": "1.1.0.0",
+			"id": "dfd4635817e9b14a58eb8c125ebdcf7cda3bfd6906358d3e1a2a6f684fb32dc9",
+			"repository": "https://github.com/gurikbal/Merge-files-in-one/releases/download/1.1.0.0/Merge_files_in_one_x64.zip",
+			"description": "Sometime Merge files in one plugin is helps to copy lines \n from another files and build a usefull format.",
+			"author": "G. Singh",
+			"homepage": "https://github.com/gurikbal/Merge-files-in-one"
+		},		
+		{
 			"folder-name": "MenuIcons",
 			"display-name": "MenuIcons",
 			"version": "1.2.2.0",
