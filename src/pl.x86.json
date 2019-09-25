@@ -344,14 +344,14 @@
 			"homepage": "https://sourceforge.net/projects/fingertext/"
 		},
 		{
-			"folder-name": "gedcomlexer",
+			"folder-name": "GedcomLexer",
 			"display-name": "GEDCOM Lexer",
-			"version": "0.3.3.100",
-			"id": "b2b148879b88cab3f967e7678a66d009481b91abf5a02aa29324ce2821ee2561",
-			"repository": "https://sourceforge.net/projects/gedcomlexer/files/GedcomLexer-0.3.3-r100/GedcomLexer-0.3.3-r100.zip",
-			"description": "View &amp; edit GEDCOM files with syntax highlighting of: level, xref id, tag, pointer, value and escape tokens. Customize coloration and font styles. Grammar errors are also highlighted. View GEDCOM files in outline mode by folding sections based on line level.",
+			"version": "0.4.0.140",
+			"id": "16c38bd8b57ac63508be9ee78f9d94d865a6df0dc17932d91381df840bd1ad94",
+			"repository": "https://sourceforge.net/projects/gedcomlexer/files/GedcomLexer-0.4.0-r140/GedcomLexer-0.4.0-r140-x86.zip",
+			"description": "View and edit GEDCOM files with syntax highlighting of: level, xref id, tag, pointer, value and escape tokens. Customize coloration and font styles. Grammar errors are also highlighted. View GEDCOM files in outline mode by folding sections based on line level.",
 			"author": "Stan Mitchell",
-			"homepage": "http://www.genapps.net"
+			"homepage": "https://sourceforge.net/projects/gedcomlexer/"
 		},
 		{
 			"folder-name": "GmodLua",
