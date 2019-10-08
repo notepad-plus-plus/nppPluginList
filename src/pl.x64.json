@@ -714,6 +714,26 @@
 			"homepage": "https://github.com/vinsworldcom/nppQuickText"
 		},
 		{
+			"folder-name": "rdmd-en-x64",
+			"display-name": "RDMD for Notepad++(English)",
+			"version": "0.1.0.1",
+			"id": "3ff43617a9e37817470f140c0bb53817efc4c12552a9ac79981dc141419fcc52",
+			"repository": "https://gitlab.com/dokutoku/rdmd-for-npp/uploads/60e27456b06ab0bf83df3334e0453bca/rdmd-en-x64.zip",
+			"description": "Plugin for running rdmd with Notepad++",
+			"author": "dokutoku",
+			"homepage": "https://gitlab.com/dokutoku/rdmd-for-npp"
+		},
+		{
+			"folder-name": "rdmd-ja-x64",
+			"display-name": "RDMD for Notepad++(Japanese)",
+			"version": "0.1.0.1",
+			"id": "430755942f33344caefa1933f1aeeb3c057a03b871d1e1ff353c75c3bb84adef",
+			"repository": "https://gitlab.com/dokutoku/rdmd-for-npp/uploads/a153103ca9b63b4265263e17d593f60b/rdmd-ja-x64.zip",
+			"description": "Plugin for running rdmd with Notepad++",
+			"author": "dokutoku",
+			"homepage": "https://gitlab.com/dokutoku/rdmd-for-npp"
+		},
+		{
 			"folder-name": "Remove_Duplicate_Lines",
 			"display-name": "Remove Duplicate Lines",
 			"version": "1.1.0.0",
