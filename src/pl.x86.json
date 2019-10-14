@@ -4,6 +4,16 @@
 	"arch": "32",
 	"npp-plugins": [
 		{
+			"folder-name": "BigFiles",
+			"display-name": "BigFiles - Open Very Large Files",
+			"version": "0.1.1.1",
+			"id": "781128DCC29C2E59D6F5103380FD30E011899B515B1D3CA99385734B6A10982D",
+			"repository": "https://github.com/superolmo/BigFiles/releases/download/0.1.1.1.x86/BigFiles.zip",
+			"description": "BigFiles\r\nPlugin for reading very large files. It does this by only showing a small buffer of the file and let the user move back anf forth in the page.\r\nThis is useful when you want to preview very large text files. Opening is done separately from Notepad++ and there is no option to save.\r\nhttps://github.com/superolmo/BigFiles",
+			"author": "Claudio Olmi",
+			"homepage": "https://github.com/superolmo/BigFiles"
+		},
+		{
 			"folder-name": "3P",
 			"display-name": "3P - Progress Programmers Pal",
 			"version": "1.8.4",
