@@ -4,16 +4,6 @@
 	"arch": "64",
 	"npp-plugins": [
 		{
-			"folder-name": "BigFiles",
-			"display-name": "BigFiles - Open Very Large Files",
-			"version": "0.1.1.1",
-			"id": "EC27C711E7190ED149C3AB9AF351C8EC94930C0AE5C864EC444A7CF80A0D5271",
-			"repository": "https://github.com/superolmo/BigFiles/releases/download/0.1.1.1.x64/BigFiles.zip",
-			"description": "BigFiles\r\nPlugin for reading very large files. It does this by only showing a small buffer of the file and let the user move back anf forth in the page.\r\nThis is useful when you want to preview very large text files. Opening is done separately from Notepad++ and there is no option to save.\r\nhttps://github.com/superolmo/BigFiles",
-			"author": "Claudio Olmi",
-			"homepage": "https://github.com/superolmo/BigFiles"
-		},
-		{
 			"folder-name": "3P",
 			"display-name": "3P - Progress Programmers Pal",
 			"version": "1.8.4",
@@ -82,6 +72,16 @@
 			"description": "Provides better cursor movements when using multiple selections.",
 			"author": "Justin Dailey",
 			"homepage": "https://github.com/dail8859/BetterMultiSelection"
+		},
+		{
+			"folder-name": "BigFiles",
+			"display-name": "BigFiles - Open Very Large Files",
+			"version": "0.1.1.1",
+			"id": "EC27C711E7190ED149C3AB9AF351C8EC94930C0AE5C864EC444A7CF80A0D5271",
+			"repository": "https://github.com/superolmo/BigFiles/releases/download/0.1.1.1.x64/BigFiles.zip",
+			"description": "BigFiles\r\nPlugin for reading very large files. It does this by only showing a small buffer of the file and let the user move back anf forth in the page.\r\nThis is useful when you want to preview very large text files. Opening is done separately from Notepad++ and there is no option to save.\r\nhttps://github.com/superolmo/BigFiles",
+			"author": "Claudio Olmi",
+			"homepage": "https://github.com/superolmo/BigFiles"
 		},
 		{
 			"folder-name": "BookmarksDook",
@@ -712,6 +712,16 @@
 			"description": "Python auto-indent plugin.",
 			"author": "Derek Brown",
 			"homepage": "https://bitbucket.org/Kered13/python-indent-for-notepad"
+		},
+		{
+			"folder-name": "PythonScript",
+			"display-name": "PythonScript",
+			"version": "1.5.1.0",
+			"id": "19667ca1d9e29c5f60d8136517ebc0c35e3e91275fdbadef0e13f24c424517e2",
+			"repository": "https://github.com/bruderstein/PythonScript/releases/download/v1.5.1/PythonScript_Full_1.5.1.0_PluginAdmin.zip",
+			"description": "Python Script plugin for Notepad++.",
+			"author": "Dave Brotherstone + Jocelyn Legault",
+			"homepage": "https://github.com/bruderstein/PythonScript"
 		},
 		{
 			"folder-name": "QuickText",
