@@ -718,7 +718,7 @@
 			"display-name": "PythonScript",
 			"version": "1.5.1.0",
 			"id": "19667ca1d9e29c5f60d8136517ebc0c35e3e91275fdbadef0e13f24c424517e2",
-			"repository": "https://github.com/bruderstein/PythonScript/releases/download/v1.5.1/PythonScript_Full_1.5.1.0_PluginAdmin.zip",
+			"repository": "https://github.com/bruderstein/PythonScript/releases/download/v1.5.1/PythonScript_Full_1.5.1.0_x64_PluginAdmin.zip",
 			"description": "Python Script plugin for Notepad++.",
 			"author": "Dave Brotherstone + Jocelyn Legault",
 			"homepage": "https://github.com/bruderstein/PythonScript"
