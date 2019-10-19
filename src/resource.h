@@ -35,7 +35,7 @@
 #endif
 
 #define VERSION_VALUE "1.12\0"
-#define VERSION_DIGITALVALUE 1, 1, 2, 0
+#define VERSION_DIGITALVALUE 1, 1, 3, 0
 
 #define TEXTFILE        256
 #define IDR_PLUGINLISTJSONFILE  101
