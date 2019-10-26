@@ -586,9 +586,9 @@
 		{
 			"folder-name": "NppFTP",
 			"display-name": "NppFTP",
-			"version": "0.30.1",
-			"id": "d4e3b440a1e3f50b82387c9ff0366f4b8f368b3c0cf881569000302305807d7f",
-			"repository": "https://github.com/ashkulz/NppFTP/releases/download/v0.30.1/NppFTP-x64.zip",
+			"version": "0.30.2",
+			"id": "bdf0725c3015d11a0247d1a01c2768c3c0e2d69494158caa149e0c143bab1eaf",
+			"repository": "https://github.com/ashkulz/NppFTP/releases/download/v0.30.2/NppFTP-x64.zip",
 			"description": "NppFTP: a plugin that allows FTP, FTPS, FTPES and SFTP communications. Very useful for web development.",
 			"author": "ashish_kulz",
 			"homepage": "https://ashkulz.github.io/NppFTP/"
