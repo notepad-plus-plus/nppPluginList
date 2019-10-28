@@ -926,9 +926,9 @@
 		{
 			"folder-name": "NppRegExTractorPlugin",
 			"display-name": "NppRegExTractor",
-			"version": "2.0.0",
-			"id": "9d005287cfab63f624bcb3efe0bd38e48f0c8e2e1a711ed94857099fbd79fd75",
-			"repository": "https://github.com/viper3400/NppRegExTractor/releases/download/2.0.0/NppRegExTractor_2.0.0_BUILD_2_x86.zip",
+			"version": "2.1.0",
+			"id": "dc228493da3eff8ad3449284f9c91b5a9a3a54401c965b97b2f4dae2a822f138",
+			"repository": "https://github.com/viper3400/NppRegExTractor/releases/download/2.1.0/NppRegExTractor_2.1.0_BUILD_6_x86.zip",
 			"description": "Search one or more regular expression in one ore more different files and get and xml search result.",
 			"author": "Jan Graefe",
 			"homepage": "https://github.com/viper3400/RegExTractor/wiki/de_userdocumentation"
