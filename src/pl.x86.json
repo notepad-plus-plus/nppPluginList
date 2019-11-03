@@ -596,10 +596,10 @@
 		{
 			"folder-name": "Merge files in one",
 			"display-name": "Merge files in one",
-			"version": "1.1.0.0",
-			"id": "464fd846dfcb8228e3eeef41d012d39b94f9c16acff7f34a132aa2a96953cb8c",
-			"repository": "https://github.com/gurikbal/Merge-files-in-one/releases/download/1.1.0.0/Merge_files_in_one_x86.zip",
-			"description": "Sometime Merge files in one plugin is helps to copy lines \n from another files and build a usefull format.",
+			"version": "1.2.0.0",
+			"id": "ea58934446fb94fca1c1d39db53a91f1ccb76ec17957782ebd8a90a134ee47f7",
+			"repository": "https://github.com/gurikbal/Merge-files-in-one/releases/download/1.2.0.0/Merge.files.in.one_x86.zip",
+			"description": "\r\nSometime Merge files in one plugin is helps to copy lines \r\nfrom another files and build a usefull format.",
 			"author": "G. Singh",
 			"homepage": "https://github.com/gurikbal/Merge-files-in-one"
 		},		
@@ -1074,12 +1074,12 @@
 			"homepage": "https://gitlab.com/dokutoku/rdmd-for-npp"
 		},
 		{
-			"folder-name": "Remove_Duplicate_Lines",
+			"folder-name": "Remove Duplicate Lines",
 			"display-name": "Remove Duplicate Lines",
-			"version": "1.1.0.0",
-			"id": "bebcb3de20df2a46b921ebd149631ad71caab5dd26b95ac1578b5804c306909e",
-			"repository": "https://github.com/gurikbal/Remove_dup_lines/releases/download/1.1.0.0/Remove_Duplicate_Lines_x86.zip",
-			"description": "Remove duplicate lines without Remove Empty lines",
+			"version": "1.2.0.0",
+			"id": "708e3deb3e993351f689a86d961e589a3eeeeeeb0ba0a4f218491e5a1b2cea86",
+			"repository": "https://github.com/gurikbal/Remove_dup_lines/releases/download/1.2.0.0/Remove_dup_lines_x86.zip",
+			"description": "\r\nRemove duplicate lines without Remove Empty lines",
 			"author": "G. Singh",
 			"homepage": "https://github.com/gurikbal/Remove_dup_lines"
 		},
