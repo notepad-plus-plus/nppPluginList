@@ -1,10 +1,7 @@
 import json
 import os
 import io
-import shutil
 import sys
-from pathlib import Path
-from pprint import pprint
 
 import requests
 import zipfile
@@ -36,6 +33,7 @@ def post_error(message):
     if api_url:
         requests.post(api_url + "api/build/messages", json=message)
     else:
+        from pprint import pprint
         pprint(message)
 
 def parse(filename):
@@ -53,17 +51,13 @@ def parse(filename):
         return
 
     for error in schema.iter_errors(pl):
-        pprint(error.absolute_path)
         post_error(error.message)
 
     foldernames = []
     displaynames = []
     repositories = []
 
-    path = Path(bitness_from_input)
-    if path.exists():
-        shutil.rmtree(path)
-    os.mkdir(bitness_from_input)
+    os.mkdir("./" + bitness_from_input)
     for plugin in pl["npp-plugins"]:
         print(plugin["display-name"])
 
