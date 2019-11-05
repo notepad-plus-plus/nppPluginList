@@ -664,6 +664,16 @@
 			"homepage": "https://github.com/KubaDee/NppTextViz"
 		},
 		{
+			"folder-name": "NppUISpy",
+			"display-name": "NppUISpy",
+			"version": "1.0.4",
+			"id": "a9b71baa8cd0ab25c68575a539f234a1b247ff47418845a61d50dfbb11e9eb79  ",
+			"repository": "https://github.com/dinkumoil/NppUISpy/releases/download/v1.0.4/NppUISpy_v1.0.4_x64.zip",
+			"description": "With this plugin for Notepad++ you can figure out the menu command IDs of menu items and toolbar buttons",
+			"author": "Andreas Heim",
+			"homepage": "https://github.com/dinkumoil/NppUISpy"
+		},
+		{
 			"folder-name": "OpenSelection",
 			"display-name": "OpenSelection",
 			"version": "1.1.2.0",
