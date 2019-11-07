@@ -264,6 +264,16 @@
 			"homepage": "https://sourceforge.net/projects/imgtag/"
 		},
 		{
+			"folder-name": "IndentByFold",
+			"display-name": "Indent By Fold",
+			"version": "0.7.2",
+			"id": "656b9ea93ef54fd0b28b6055fbdbd4f6444d52634c443735d0fc58d3351c85c8",
+			"repository": "https://github.com/ffes/indentbyfold/releases/download/v0.7.2/IndentByFold-072-x64.zip",
+			"description": "IndentByFold plugin for Notepad++ to Indent using Fold points\n\nNote: Disable Notepad++'s Auto Indent in Settings - Preferences - MISC - Untick Auto Indent.",
+			"author": "Ben Bluemel, Frank Fesevur",
+			"homepage": "https://github.com/ffes/indentbyfold/"
+		},
+		{
 			"folder-name": "JsMapParser.NppPlugin",
 			"display-name": "JavaScript Map Parser",
 			"version": "4.2",

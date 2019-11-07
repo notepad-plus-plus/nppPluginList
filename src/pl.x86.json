@@ -426,9 +426,9 @@
 		{
 			"folder-name": "IndentByFold",
 			"display-name": "Indent By Fold",
-			"version": "0.7.1",
-			"id": "587fbd3333122abe8ab8d46c3761a756e52cd50d2e2955b2dc3328618d6c116e",
-			"repository": "https://github.com/ffes/indentbyfold/releases/download/v0.7.1/IndentByFold-071.zip",
+			"version": "0.7.2",
+			"id": "431589499e7ec2fa3be0056bbbfd47b3331e9513319766a7cbbd65516879b79e",
+			"repository": "https://github.com/ffes/indentbyfold/releases/download/v0.7.2/IndentByFold-072-x32.zip",
 			"description": "IndentByFold plugin for Notepad++ to Indent using Fold points\n\nNote: Disable Notepad++'s Auto Indent in Settings - Preferences - MISC - Untick Auto Indent.",
 			"author": "Ben Bluemel, Frank Fesevur",
 			"homepage": "https://github.com/ffes/indentbyfold/"
