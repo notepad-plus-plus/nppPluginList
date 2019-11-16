@@ -67,7 +67,7 @@
 			"folder-name": "NppScripts",
 			"display-name": "Automation Scripts",
 			"version": "2.0.0.0",
-			"id": "b6524d6204c2c006fd4d78f15dc9fc080172d89313af076b509bf5b68bec764b",
+			"id": "30d7324fd390fa336dc9ec5a249d69c825b5e59c1784097a6fdc291f9a332187",
 			"repository": "https://github.com/oleg-shilo/scripts.npp/releases/download/v2.0.0.0/NppScripts.x86.zip",
 			"description": "Notepad++ plugin for C# based automation. The plugin allows implementing a simple macros-like automations as well as the full scale script based plugins by means of C# scripts. The solution is based on CS-Script C# script engine.",
 			"author": "Oleg Shilo",
