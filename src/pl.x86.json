@@ -64,6 +64,16 @@
 			"homepage": "https://sourceforge.net/projects/autoeolformat"
 		},
 		{
+			"folder-name": "NppScripts",
+			"display-name": "Automation Scripts",
+			"version": "2.0.0.0",
+			"id": "b6524d6204c2c006fd4d78f15dc9fc080172d89313af076b509bf5b68bec764b",
+			"repository": "https://github.com/oleg-shilo/scripts.npp/releases/download/v2.0.0.0/NppScripts.x86.zip",
+			"description": "Notepad++ plugin for C# based automation. The plugin allows implementing a simple macros-like automations as well as the full scale script based plugins by means of C# scripts. The solution is based on CS-Script C# script engine.",
+			"author": "Oleg Shilo",
+			"homepage": "https://github.com/oleg-shilo"
+		},
+		{
 			"folder-name": "AutoSave",
 			"display-name": "AutoSave",
 			"version": "1.6.0.0",
@@ -602,7 +612,7 @@
 			"description": "\r\nSometime Merge files in one plugin is helps to copy lines \r\nfrom another files and build a usefull format.",
 			"author": "G. Singh",
 			"homepage": "https://github.com/gurikbal/Merge-files-in-one"
-		},		
+		},
 		{
 			"folder-name": "MenuIcons",
 			"display-name": "MenuIcons",
