@@ -876,9 +876,9 @@
 		{
 			"folder-name": "SQLinFormNpp64",
 			"display-name": "SQLinForm",
-			"version": "5.3.25",
-			"id": "079a9a9698092c63c69a78bb62d0360818a4386c99f2015abb5490dd734a383c",
-			"repository": "https://www.sqlinform.com/npp/SQLinFormNpp64_5.3.25.zip",
+			"version": "5.3.35",
+			"id": "d2ab68ee6889bf3b8825e22c7335125bad77b4274d65da8f69581cffdce9831c",
+			"repository": "https://www.sqlinform.com/npp/SQLinFormNpp64_5.3.35.zip",
 			"description": "SQLinForm formats plain SQL, SQL embedded in Program Code, SQL snippets and SQL Statements with syntax errors.\r\n SQLinForm's Plugin for Notepad++ has a powerful code folding feature and formats your SQL as you Type. It supports all major DB like Oracle, DB2, SQL Server, Teradata, Netezza, MySQL, Sybase, MS Access, etc. SQLinForm incorporates its own multi-DB parser engine. No additional software is required.",
 			"author": "Guido Thelen",
 			"homepage": "https://www.sqlinform.com"
