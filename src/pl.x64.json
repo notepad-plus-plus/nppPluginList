@@ -617,7 +617,7 @@
 			"folder-name": "NppGist",
 			"display-name": "NppGist",
 			"version": "1.3.0.20",
-			"id": "af8a699ab4dbf9b91b72735677b54d7e6e97f3363d899cfe95e35620af2a4ff7",
+			"id": "d4feb5892da798d4572b24c920278ad1fe1d2a623c2a568a8d103faedda03869",
 			"repository": "https://github.com/KvanTTT/NppGist/releases/download/1.3.0/NppGist-x64-1.3.0.20.zip",
 			"description": "Allows to work with GitHub Gist (create, edit, remove, rename)",
 			"author": "Ivan Kochurkin (KvanTTT)",
