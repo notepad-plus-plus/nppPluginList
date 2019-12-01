@@ -874,6 +874,16 @@
 			"homepage": "https://ashkulz.github.io/NppFTP/"
 		},
 		{
+			"folder-name": "NppGist",
+			"display-name": "NppGist",
+			"version": "1.3.0.20",
+			"id": "278465e8ff75f09510c37885d648ef1c10312d25d941e026f811017ceaf205ed",
+			"repository": "https://github.com/KvanTTT/NppGist/releases/download/1.3.0/NppGist-x86-1.3.0.20.zip",
+			"description": "Allows to work with GitHub Gist (create, edit, remove, rename)",
+			"author": "Ivan Kochurkin (KvanTTT)",
+			"homepage": "https://github.com/KvanTTT/NppGist"
+		},
+		{
 			"folder-name": "NppGTags",
 			"display-name": "NppGTags",
 			"version": "4.4.3",
