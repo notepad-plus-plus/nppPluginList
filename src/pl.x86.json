@@ -1076,9 +1076,9 @@
 		{
 			"folder-name": "QuickText",
 			"display-name": "QuickText",
-			"version": "0.1.0.1",
-			"id": "2ee05fb9e37873c09fe2eee3e76c3fd08242dfa1353f4788e93bec906a9c1005",
-			"repository": "https://github.com/vinsworldcom/nppQuickText/releases/download/0.1.0.1/QuickText-v0.1.0.1-x86.zip",
+			"version": "0.1.1.1",
+			"id": "3268a3e4fd15b5970ff3ea42c7d7c135dd6405536ce3475c8db2b0bcbf25419f",
+			"repository": "https://github.com/vinsworldcom/nppQuickText/releases/download/0.1.1.1/QuickText-v0.1.1.1-x86.zip",
 			"description": "QuickText is a Notepad++ plugin for quick text substitution, including multi field inputs. It's similar to Tab Triggers in TextMate.",
 			"author": "Joao Moreno, Jing Teng",
 			"homepage": "https://github.com/vinsworldcom/nppQuickText"
