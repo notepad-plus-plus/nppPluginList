@@ -176,9 +176,9 @@
 		{
 			"folder-name": "Comment Wrap",
 			"display-name": "Comment Wrap",
-			"version": "1.0.0.1",
-			"id": "0db7bb610acf9fe2130be02c33c93b9bcb539a747241c55130d5b10b8999f344",
-			"repository": "https://bitbucket.org/Kered13/notepad-comment-wrap/downloads/Comment%20Wrap.zip",
+			"version": "1.0.0.2",
+			"id": "22a8804aa8edadc0b9605475aed3d8681388ac54077e12d0e67a56c158f640dc",
+			"repository": "https://bitbucket.org/Kered13/notepad-comment-wrap/downloads/Comment_Wrap_v1.0.0.2.zip",
 			"description": "Wraps comments as you type. Supports C-style, Python-style, and Lua-style comments.",
 			"author": "Derek Brown",
 			"homepage": "https://bitbucket.org/Kered13/notepad-comment-wrap"
@@ -1036,9 +1036,9 @@
 		{
 			"folder-name": "Python Indent",
 			"display-name": "Python Indent",
-			"version": "1.0.0.1",
-			"id": "1b26acb5a6d143b98e698e99d7fbde32492f3d5b936ab58d8ddcefd2af884374",
-			"repository": "https://bitbucket.org/Kered13/python-indent-for-notepad/downloads/Python%20Indent.zip",
+			"version": "1.0.0.2",
+			"id": "07dd51dd36f62ee22948aa690f8c17f47b583ec16515485acd8503beb02c0dd1",
+			"repository": "https://bitbucket.org/Kered13/python-indent-for-notepad/downloads/Python_Indent_v1.0.0.2.zip",
 			"description": "Python auto-indent plugin.",
 			"author": "Derek Brown",
 			"homepage": "https://bitbucket.org/Kered13/python-indent-for-notepad"
