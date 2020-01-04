@@ -206,9 +206,9 @@
 		{
 			"folder-name": "CsvQuery",
 			"display-name": "CsvQuery",
-			"version": "1.2.6",
-			"id": "dea1a93c2e862669272fc61f53a884e266aac06e6a456e83b46d4971e2ade3cc",
-			"repository": "https://github.com/jokedst/CsvQuery/releases/download/v1.2.6/CsvQuery-v1.2.6-x86.zip",
+			"version": "1.2.7",
+			"id": "9a31c56c198d50c3312648a795efd1cc799b54df956d37fa403dab36aa06eb0c",
+			"repository": "https://github.com/jokedst/CsvQuery/releases/download/v1.2.7/CsvQuery-v1.2.7-x86.zip",
 			"description": "Enables SQL queries against CSV files.",
 			"author": "jokedst",
 			"homepage": "https://github.com/jokedst/CsvQuery"
