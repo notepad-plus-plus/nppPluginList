@@ -654,56 +654,6 @@
 			"homepage": "https://sourceforge.net/projects/nppmusicplayer"
 		},
 		{
-			"folder-name": "nppplugin_svn",
-			"display-name": "Tortoise SVN",
-			"version": "3.0.1",
-			"id": "6924B5D1E620E848D289E14AB9712387A5C5D979F878EE25C219F5C1A1346759",
-			"repository": "https://github.com/incrediblejr/nppplugins/releases/download/v3.0.1/nppplugin_svn_x86.zip",
-			"description": "Main operations for SVN, with a concept of a root solution directory. Note: Uses Tortoise SVN internally so you have to have this installed. Available at http://tortoisesvn.tigris.org/",
-			"author": "IncredibleJunior",
-			"homepage": "http://www.incrediblejunior.com/npp_plugins/"
-		},
-		{
-			"folder-name": "nppplugin_solutionhub",
-			"display-name": "Solution Hub",
-			"version": "3.0.1",
-			"id": "F79A742BFDE5D7BE68EE0CEF927E83DE8FE89AAE599A9ADE06404279355B574F",
-			"repository": "https://github.com/incrediblejr/nppplugins/releases/download/v3.0.1/nppplugin_solutionhub_x86.zip",
-			"description": "Base requirement for several plugins from incfred.",
-			"author": "IncredibleJunior",
-			"homepage": "http://www.incrediblejunior.com/npp_plugins/"
-		},
-		{
-			"folder-name": "nppplugin_solutionhub_ui",
-			"display-name": "Solution Hub UI",
-			"version": "3.0.1",
-			"id": "890DA2546BAB49E5926F971DBD5B3B21D34CDB4D7A3A817C502261570E0F73C4",
-			"repository": "https://github.com/incrediblejr/nppplugins/releases/download/v3.0.1/nppplugin_solutionhub_ui_x86.zip",
-			"description": "Basic UI to create and setup solutions used by the SolutionHub.",
-			"author": "IncredibleJunior",
-			"homepage": "http://www.incrediblejunior.com/npp_plugins/"
-		},
-		{
-			"folder-name": "nppplugin_solutiontools",
-			"display-name": "Solution Tools",
-			"version": "3.0.1",
-			"id": "108CA6263C456A9832B07BB373F1EDAAA5ECB513277ED319873EF89E9B51CBE8",
-			"repository": "https://github.com/incrediblejr/nppplugins/releases/download/v3.0.1/nppplugin_solutiontools_x86.zip",
-			"description": "Configurable priority-based fileswitching (most commonly used when switching between .h and .cpp). Configurable what extensions map to which targets and in what order.\n'goto file' implementation, Ex. stand on a line, press whatever shortcut(or left mouseclick on the line) you have bound to the GOTO command on a line like :\r\n#include \"somefile.h\"\r\nor\r\nrequire 'some_path/to_a_luafile'",
-			"author": "IncredibleJunior",
-			"homepage": "http://www.incrediblejunior.com/npp_plugins/"
-		},
-		{
-			"folder-name": "nppplugin_ofis2",
-			"display-name": "Open File In Solution",
-			"version": "3.0.1",
-			"id": "9306E7EBAF36247C61F26C7F215518835A7BD96EAD37458A8F2BE295CDF08CDB",
-			"repository": "https://github.com/incrediblejr/nppplugins/releases/download/v3.0.1/nppplugin_ofis2_x86.zip",
-			"description": "Lets you index specific folders and possible specific types of resources (XML, CPP, PY files) for a fast indexing of files.",
-			"author": "IncredibleJunior",
-			"homepage": "http://www.incrediblejunior.com/npp_plugins/"
-		},
-		{
 			"folder-name": "NativeLang",
 			"display-name": "NativeLang",
 			"version": "1.1.0.0",
@@ -762,6 +712,56 @@
 			"description": "Template for making plugin development as easy and simple as possible. Four steps and it's done.",
 			"author": "Don HO",
 			"homepage": "https://notepad-plus-plus.org/contribute/plugin-howto.html"
+		},
+		{
+			"folder-name": "nppplugin_svn",
+			"display-name": "Tortoise SVN",
+			"version": "3.0.1",
+			"id": "6924B5D1E620E848D289E14AB9712387A5C5D979F878EE25C219F5C1A1346759",
+			"repository": "https://github.com/incrediblejr/nppplugins/releases/download/v3.0.1/nppplugin_svn_x86.zip",
+			"description": "Main operations for SVN, with a concept of a root solution directory. Note: Uses Tortoise SVN internally so you have to have this installed. Available at http://tortoisesvn.tigris.org/",
+			"author": "IncredibleJunior",
+			"homepage": "http://www.incrediblejunior.com/npp_plugins/"
+		},
+		{
+			"folder-name": "nppplugin_solutionhub",
+			"display-name": "Solution Hub",
+			"version": "3.0.1",
+			"id": "F79A742BFDE5D7BE68EE0CEF927E83DE8FE89AAE599A9ADE06404279355B574F",
+			"repository": "https://github.com/incrediblejr/nppplugins/releases/download/v3.0.1/nppplugin_solutionhub_x86.zip",
+			"description": "Base requirement for several plugins from incfred.",
+			"author": "IncredibleJunior",
+			"homepage": "http://www.incrediblejunior.com/npp_plugins/"
+		},
+		{
+			"folder-name": "nppplugin_solutionhub_ui",
+			"display-name": "Solution Hub UI",
+			"version": "3.0.1",
+			"id": "890DA2546BAB49E5926F971DBD5B3B21D34CDB4D7A3A817C502261570E0F73C4",
+			"repository": "https://github.com/incrediblejr/nppplugins/releases/download/v3.0.1/nppplugin_solutionhub_ui_x86.zip",
+			"description": "Basic UI to create and setup solutions used by the SolutionHub.",
+			"author": "IncredibleJunior",
+			"homepage": "http://www.incrediblejunior.com/npp_plugins/"
+		},
+		{
+			"folder-name": "nppplugin_solutiontools",
+			"display-name": "Solution Tools",
+			"version": "3.0.1",
+			"id": "108CA6263C456A9832B07BB373F1EDAAA5ECB513277ED319873EF89E9B51CBE8",
+			"repository": "https://github.com/incrediblejr/nppplugins/releases/download/v3.0.1/nppplugin_solutiontools_x86.zip",
+			"description": "Configurable priority-based fileswitching (most commonly used when switching between .h and .cpp). Configurable what extensions map to which targets and in what order.\n'goto file' implementation, Ex. stand on a line, press whatever shortcut(or left mouseclick on the line) you have bound to the GOTO command on a line like :\r\n#include \"somefile.h\"\r\nor\r\nrequire 'some_path/to_a_luafile'",
+			"author": "IncredibleJunior",
+			"homepage": "http://www.incrediblejunior.com/npp_plugins/"
+		},
+		{
+			"folder-name": "nppplugin_ofis2",
+			"display-name": "Open File In Solution",
+			"version": "3.0.1",
+			"id": "9306E7EBAF36247C61F26C7F215518835A7BD96EAD37458A8F2BE295CDF08CDB",
+			"repository": "https://github.com/incrediblejr/nppplugins/releases/download/v3.0.1/nppplugin_ofis2_x86.zip",
+			"description": "Lets you index specific folders and possible specific types of resources (XML, CPP, PY files) for a fast indexing of files.",
+			"author": "IncredibleJunior",
+			"homepage": "http://www.incrediblejunior.com/npp_plugins/"
 		},
 		{
 			"folder-name": "NotepadStarterPlugin",

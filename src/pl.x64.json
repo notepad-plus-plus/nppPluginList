@@ -644,16 +644,6 @@
 			"homepage": "https://sourceforge.net/projects/nppjumplist/"
 		},
 		{
-			"folder-name": "NppDocShare",
-			"display-name": "NppNetNote",
-			"version": "0.1.0.0",
-			"id": "5dd8fa2c26bbd988ce9971823a140f78149e8b7d5487a47ab47c3b2a964e2cdb",
-			"repository": "https://github.com/chcg/NppDocShare/releases/download/0.1.11/NppDocShare_0.1.11_x64.zip",
-			"description": "Allows the same document to be edited in real time on two different computers. Only needs a network connection between the two.",
-			"author": "Harrybharry",
-			"homepage": "https://sourceforge.net/projects/npp-plugins/files/NppDocShare/"
-		},
-		{
 			"folder-name": "NppMenuSearch",
 			"display-name": "NppMenuSearch",
 			"version": "0.9.3",
@@ -662,6 +652,16 @@
 			"description": "Adds a text field to the toolbar for searching menu items and preference dialog options.",
 			"author": "Peter Frentrup",
 			"homepage": "https://github.com/peter-frentrup/NppMenuSearch"
+		},
+		{
+			"folder-name": "NppDocShare",
+			"display-name": "NppNetNote",
+			"version": "0.1.0.0",
+			"id": "5dd8fa2c26bbd988ce9971823a140f78149e8b7d5487a47ab47c3b2a964e2cdb",
+			"repository": "https://github.com/chcg/NppDocShare/releases/download/0.1.11/NppDocShare_0.1.11_x64.zip",
+			"description": "Allows the same document to be edited in real time on two different computers. Only needs a network connection between the two.",
+			"author": "Harrybharry",
+			"homepage": "https://sourceforge.net/projects/npp-plugins/files/NppDocShare/"
 		},
 		{
 			"folder-name": "NppQrCode64",
