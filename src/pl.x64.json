@@ -254,6 +254,16 @@
 			"homepage": "https://sourceforge.net/projects/gedcomlexer/"
 		},
 		{
+			"folder-name": "GotoLineCol",
+			"display-name": "GotoLineCol",
+			"version": "1.0.0",
+			"id": "cd5e1fea60516daa9a7b2cb82f4f35f90e9e7b4339858c81f3c809f040aa5e4a",
+			"repository": "https://github.com/shriprem/Goto-Line-Col-NPP-Plugin/releases/download/v1.0.0/GotoLineCol_x64.zip",
+			"description": "A plugin for navigating to a specified line and column position in a file. It is handy for manually inspecting content in fixed-width format data files.",
+			"author": "shriprem",
+			"homepage": "https://github.com/shriprem/Goto-Line-Col-NPP-Plugin"
+		},
+		{
 			"folder-name": "HTMLTag",
 			"display-name": "HTML Tag",
 			"version": "1.1.0.0",
