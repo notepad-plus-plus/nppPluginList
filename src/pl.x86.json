@@ -96,9 +96,9 @@
 		{
 			"folder-name": "BetterMultiSelection",
 			"display-name": "BetterMultiSelection",
-			"version": "1.3",
-			"id": "ef3f4e8ffac54fd7e6c9abcd785df09482cba2d63ab68c6bc9bffa71e4053de5",
-			"repository": "https://github.com/dail8859/BetterMultiSelection/releases/download/v1.3/BetterMultiSelection_v1.3.zip",
+			"version": "1.4",
+			"id": "16553bc62ee7aa927da42fbe6a379f16f6e16f743bc812e7820a17f06260c5ee",
+			"repository": "https://github.com/dail8859/BetterMultiSelection/releases/download/v1.4/BetterMultiSelection_v1.4.zip",
 			"description": "Provides better cursor movements when using multiple selections.",
 			"author": "Justin Dailey",
 			"homepage": "https://github.com/dail8859/BetterMultiSelection"
