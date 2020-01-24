@@ -366,9 +366,9 @@
 		{
 			"folder-name": "LuaScript",
 			"display-name": "LuaScript",
-			"version": "0.8",
-			"id": "96d4eeafe46fa93434b7e4e70140691048c24cb5e40acba93aa1e10a57b19e7e",
-			"repository": "https://github.com/dail8859/LuaScript/releases/download/v0.8/LuaScript_v0.8_x64_PA.zip",
+			"version": "0.10",
+			"id": "74f2d878db246625d2e21a3d92637a02decfdeacfbb2aba89c21275be17f30dd",
+			"repository": "https://github.com/dail8859/LuaScript/releases/download/v0.10/LuaScript_v0.10_x64.zip",
 			"description": "Adds Lua scripting capabilities. This provides control over all of Scintilla's features and options with a light-weight, fully-functional programming language.",
 			"author": "Justin Dailey",
 			"homepage": "https://github.com/dail8859/LuaScript"
