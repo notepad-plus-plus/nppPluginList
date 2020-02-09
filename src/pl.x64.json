@@ -1006,10 +1006,10 @@
 		{
 			"folder-name": "XMLTools",
 			"display-name": "XML Tools",
-			"version": "2.4.11.0",
-			"id": "9c1de52b873b633646a6ea32df9209d652652361ba5c2b8cbb90f91438bca2bd",
-			"repository": "https://github.com/morbac/xmltools/releases/download/2.4.11.0/Xml.Tools.2.4.11.0.x64.Unicode.zip",
-			"description": "Small set of useful tools for editing XML. Plugin is libXML2-based. The features are:\r\n- XML syntax Check\r\n- XML Schema (XSD) + DTD Validation\r\n- XML tag autoclose\r\n- Pretty print\n- Linarize XML\r\n- Current XML Path\r\n- Conversion XML &amp;lt;-&amp;gt; Text\n- Comment / Uncomment\r\n- XPath expression evaluation",
+			"version": "3.0.0.2",
+			"id": "3ffd9d12d01d4de27e57a008319ddd54e43fb1b0f1323dbcfce435a99ec2781b",
+			"repository": "https://github.com/morbac/xmltools/releases/download/3.0.0/XMLTools-3.0.0-alpha-x64.zip",
+			"description": "Small set of useful tools for editing XML. Plugin is MSXML-based. The features are:\r\n- XML syntax Check\r\n- XML Schema (XSD) + DTD Validation\r\n- XML tag autoclose\r\n- Pretty print\n- Linarize XML\r\n- Current XML Path\r\n- Conversion XML &amp;lt;-&amp;gt; Text\n- Comment / Uncomment\r\n- XPath expression evaluation",
 			"author": "Nicolas Crittin",
 			"homepage": "https://github.com/morbac/xmltools"
 		},
