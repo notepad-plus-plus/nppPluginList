@@ -766,9 +766,9 @@
 		{
 			"folder-name": "PythonScript",
 			"display-name": "PythonScript",
-			"version": "1.5.2.0",
-			"id": "101610e8cffdb0498648b0d68246a77bc0923454e2d8f0c5192426dc710740d7",
-			"repository": "https://github.com/bruderstein/PythonScript/releases/download/v1.5.2/PythonScript_Full_1.5.2.0_x64_PluginAdmin.zip",
+			"version": "1.5.3.0",
+			"id": "48c1a05ff7d0178798a65cbcb90b810561d258cc5e1476725654219b1c326d20",
+			"repository": "https://github.com/bruderstein/PythonScript/releases/download/v1.5.3/PythonScript_Full_1.5.3.0_x64_PluginAdmin.zip",
 			"description": "Python Script plugin.",
 			"author": "Dave Brotherstone + Jocelyn Legault",
 			"homepage": "https://github.com/bruderstein/PythonScript"
