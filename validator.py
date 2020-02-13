@@ -2,6 +2,7 @@ import json
 import os
 import io
 import sys
+import shutil
 
 import requests
 import zipfile
@@ -12,6 +13,20 @@ from win32api import GetFileVersionInfo, LOWORD, HIWORD
 
 api_url = os.environ.get('APPVEYOR_API_URL')
 has_error = False
+
+# constants for creation of plugin list overview
+c_line_break = '\x0d'
+c_line_feed = '\x0a'
+c_sum_len = 100
+tmpl_vert = '&vert;'
+tmpl_br = '<br>'
+tmpl_new_line = '\n'
+tmpl_tr_b = '| '
+tmpl_td   = ' | '
+tmpl_tr_e = ' |'
+tmpl_tab_head = '''|Plugin name | Author | Homepage | Version and link | Description |
+|---|---|---|---|---|---|
+'''
 
 def get_version_number(filename):
     info = GetFileVersionInfo(filename, "\\")
@@ -36,6 +51,40 @@ def post_error(message):
         from pprint import pprint
         pprint(message)
 
+def first_two_lines(description):
+    if description.count(tmpl_br) >= 2:
+        i = description.find(tmpl_br)
+        i = description.find(tmpl_br, i + 1)
+        return description[:i]
+    else:
+        return description[:description.rfind(tmpl_br,c_sum_len)]
+
+def rest_of_text(description):
+    return description[len(first_two_lines(description)):]
+
+def gen_pl_table(filename):
+    pl = json.loads(open(filename).read())
+    arch = pl["arch"]
+    tab_text = "## Plugin List - %s bit%s" % (arch, tmpl_new_line)
+    tab_text += "version %s%s" % (pl["version"], tmpl_new_line)
+    tab_text += tmpl_tab_head
+
+    # Plugin Name = ij.display-name
+    # Author = ij.author
+    # Homepage = ij.homepage
+    # Version and link = "[" + ij.version + " - " + json_file.arch + " bit](" + ij.repository +")"
+    # Description = " <details> <summary> " + first_two_lines(ij.description) + " </summary> " rest_of_text(ij.description) +"</details>"
+    for plugin in pl["npp-plugins"]:
+        tab_line = tmpl_tr_b + plugin["display-name"] + tmpl_td + plugin["author"] + tmpl_td + plugin["homepage"] + tmpl_td
+        tab_line += "[%s - %s bit](%s)" % (plugin["version"], arch, plugin["repository"])
+        tab_line += tmpl_td
+        descr = plugin["description"]
+        descr = descr.replace(c_line_feed, tmpl_br).replace(c_line_break, '').replace("|", tmpl_vert)
+        tab_line += " <details> <summary> %s </summary> %s </details>" % (first_two_lines(descr), rest_of_text(descr))
+        tab_line += tmpl_tr_e + tmpl_new_line
+        tab_text += tab_line
+    return tab_text
+
 def parse(filename):
     try:
         schema = json.loads(open("pl.schema").read())
@@ -56,6 +105,9 @@ def parse(filename):
     foldernames = []
     displaynames = []
     repositories = []
+
+    if os.path.exists("./" + bitness_from_input):
+        shutil.rmtree("./" + bitness_from_input, True)
 
     os.mkdir("./" + bitness_from_input)
     for plugin in pl["npp-plugins"]:
@@ -142,13 +194,16 @@ def parse(filename):
            repositories.append(plugin["repository"])
 
 
-
 bitness_from_input = sys.argv[1]
 print('input: %s' % bitness_from_input)
 if bitness_from_input == 'x64':
     parse("src/pl.x64.json")
+    with open("plugin_list_x64.md", "w") as md_file:
+        md_file.write(gen_pl_table("src/pl.x64.json"))
 else:
     parse("src/pl.x86.json")
+    with open("plugin_list_x86.md", "w") as md_file:
+        md_file.write(gen_pl_table("src/pl.x86.json"))
 
 if has_error:
     sys.exit(-2)
