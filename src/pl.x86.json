@@ -26,10 +26,10 @@
 		{
 			"folder-name": "AnalysePlugin",
 			"display-name": "AnalysePlugin",
-			"version": "1.12.43.0",
-			"id": "c4e52fb26b9ee15542ccd4d7362a58a8f331b988a26fd3d58f1bdd6e303ae790",
-			"repository": "https://sourceforge.net/projects/analyseplugin/files/binaries/v01.12-R43/AnalysePlugin-v1.12-R43-x86.zip",
-			"description": "AnalysePlugin will help you to search for more than one search pattern at a time. Great for analysing log files..\r\nLast changes and How to use you will find in Help... in Plugins Menu.",
+			"version": "1.12.44.0",
+			"id": "35b5b858ab613db469013dc93e7fc10428d16626ba284f049495412977f88f33",
+			"repository": "https://sourceforge.net/projects/analyseplugin/files/binaries/v01.12-R44/AnalysePlugin-v1.12-R44-x86.zip",
+			"description": "AnalysePlugin will help you to search for more than one search pattern at a time. Great for analysing big log files...\r\nLast changes and how to use you will find in Help... in Plugins Menu.",
 			"author": "Mattes H.",
 			"homepage": "https://sourceforge.net/projects/analyseplugin"
 		},
