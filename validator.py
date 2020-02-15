@@ -25,7 +25,7 @@ tmpl_tr_b = '| '
 tmpl_td   = ' | '
 tmpl_tr_e = ' |'
 tmpl_tab_head = '''|Plugin name | Author | Homepage | Version and link | Description |
-|---|---|---|---|---|---|
+|---|---|---|---|---|
 '''
 
 def get_version_number(filename):
