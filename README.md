@@ -6,7 +6,7 @@ The list is in json format, but encapsulated in a binary (DLL), so it can be sig
 https://npp-user-manual.org/docs/plugins/#plugins-admin
 
 Please check here if you need any support:
-https://notepad-plus-plus.org/community/topic/16566/support-for-plugins-admin-npppluginlist
+https://community.notepad-plus-plus.org/topic/16566/support-for-plugins-admin-npppluginlist
 
 Build Status
 ------------
