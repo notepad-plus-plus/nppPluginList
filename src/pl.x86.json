@@ -134,6 +134,16 @@
 			"homepage": "https://github.com/niccord/BracketsCheck/"
 		},
 		{
+			"folder-name": "CADdyTools",
+			"display-name": "CADdyTools",
+			"version": "1.0.0.2",
+			"id": "01128ecf401b02b9766e885b664d4dbba8ec38ee1a4ae1d4c65c65a8cb4dee82",
+			"repository": "https://github.com/MarioRosi/CADdyTools/releases/download/1.0.0.2/CADdyTools_v1002_x86.zip",
+			"description": "Notepad++-Plugin for manipulate CADdy-formated coordinate- and measure-textfiles",
+			"author": "Mario Rosenbohm",
+			"homepage": "https://github.com/MarioRosi/CADdyTools"
+		},
+		{
 			"folder-name": "NppCCompletionPlugin",
 			"display-name": "CCompletion",
 			"version": "1.19",
