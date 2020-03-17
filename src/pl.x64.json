@@ -1,6 +1,6 @@
 {
 	"name": "npp-pluginList",
-	"version": "1.1.7",
+	"version": "1.1.8",
 	"arch": "64",
 	"npp-plugins": [
 		{
@@ -12,6 +12,16 @@
 			"description": "[Requires .NET framework v4.6.1]\r\nDesigned to help writing OpenEdge ABL (formerly known as Progress 4GL) code. It provides :\r\n- a powerful auto-completion\r\n- tool-tips on every words\r\n- a code explorer to quickly navigate through your code\r\n- a file explorer to easily access all your sources\r\n- the ability to run/compile and even PROLINT your source file with an in-line visualization of errors\r\n- more than 50 options to better suit your needs\r\n- and so much more!\r\nVisit https://jcaillon.github.io/3P/ for more details on the plugin",
 			"author": "Julien Caillon",
 			"homepage": "https://jcaillon.github.io/3P/"
+		},
+		{
+			"folder-name": "ActiveX",
+			"display-name": "ActiveX Plugin",
+			"version": "1.1.8.5",
+			"id": "a025f62be868bcf6519f14f76b707890bb533538e953f86a4e4846c328a49045",
+			"repository": "https://sourceforge.net/projects/nppactivexplugin/files/bin/ActiveX_x64_1_1_8_5.zip",
+			"description": "Allows you to control Notepad++ via ActiveX.\r\nYou can use ActiveX with many scripting languages (VBScript, JScript, PHP, ...) and other languages (C++, C+, VB.NET, Delphi, ...).\r\nSo you are not bound to a single language.",
+			"author": "Bananen-Joe",
+			"homepage": "https://sourceforge.net/projects/nppactivexplugin/"
 		},
 		{
 			"folder-name": "AnalysePlugin",
@@ -104,6 +114,16 @@
 			"homepage": "https://github.com/Dook1/Bookmarks-Dook/issues"
 		},
 		{
+			"folder-name": "CADdyTools",
+			"display-name": "CADdyTools",
+			"version": "1.0.0.2",
+			"id": "640beb8312453597a101c990ace27aa39f4bd8c7d3c9288f2a5ebee21bf66ff0",
+			"repository": "https://github.com/MarioRosi/CADdyTools/releases/download/1.0.0.2/CADdyTools_v1002_x64.zip",
+			"description": "Notepad++-Plugin for manipulate CADdy-formated coordinate- and measure-textfiles",
+			"author": "Mario Rosenbohm",
+			"homepage": "https://github.com/MarioRosi/CADdyTools"
+		},
+		{
 			"folder-name": "CodeAlignmentNpp",
 			"display-name": "Code Alignment",
 			"version": "14.1.107",
@@ -126,12 +146,12 @@
 		{
 			"folder-name": "Comment Wrap",
 			"display-name": "Comment Wrap",
-			"version": "1.0.0.2",
-			"id": "9a637ab6ba6304e2376de5345489421667a150feb04a12bb0da59b5e109f911d",
-			"repository": "https://bitbucket.org/Kered13/notepad-comment-wrap/downloads/Comment_Wrap_x64_v1.0.0.2.zip",
+			"version": "1.0.0.3",
+			"id": "c5fa8745755c2648a1e521dc9184791f9560d172d4c33dd1b04573b9900c58ee",
+			"repository": "https://sourceforge.net/projects/kered13-notepad-plugins/files/Comment%20Wrap%20x64%20v1.0.0.3.zip",
 			"description": "Wraps comments as you type. Supports C-style, Python-style, and Lua-style comments.",
 			"author": "Derek Brown",
-			"homepage": "https://bitbucket.org/Kered13/notepad-comment-wrap"
+			"homepage": "https://sourceforge.net/projects/kered13-notepad-plugins/"
 		},
 		{
 			"folder-name": "ComparePlugin",
@@ -758,10 +778,10 @@
 			"display-name": "Python Indent",
 			"version": "1.0.0.2",
 			"id": "e2b4c35f137f949f4278f2f1d2a0a666815a3441ccf102bde2adc829c44c7b20",
-			"repository": "https://bitbucket.org/Kered13/python-indent-for-notepad/downloads/Python_Indent_x64_v1.0.0.2.zip",
+			"repository": "https://sourceforge.net/projects/kered13-notepad-plugins/files/Python%20Indent%20x64%20v1.0.0.2.zip",
 			"description": "Python auto-indent plugin.",
 			"author": "Derek Brown",
-			"homepage": "https://bitbucket.org/Kered13/python-indent-for-notepad"
+			"homepage": "https://sourceforge.net/projects/kered13-notepad-plugins/"
 		},
 		{
 			"folder-name": "PythonScript",
@@ -978,10 +998,10 @@
 			"display-name": "Visual Studio Line Copy",
 			"version": "1.0.0.1",
 			"id": "215b517858412b642c28686673c5ddc71a7a3a78bfa1669482992ed761b667aa",
-			"repository": "https://bitbucket.org/Kered13/notepad-visualstudiolinecopy/downloads/VisualStudioLineCopy%20x64.zip",
-			"description": "Adds two commands: CopyAllowLine and CutAllowLine, which adds Visual Studio style copy/cutting.",
+			"repository": "https://sourceforge.net/projects/notepad-visualstudiolinecopy/files/VisualStudioLineCopy%20x64%20v1.0.0.1.zip",
+			"description": "Adds two commands to Notepad++ CopyAllowLine and CutAllowLine, which adds Visual Studio style copy/cutting to Notepad++.",
 			"author": "Mackenzie Zastrow (forked by Derek Brown)",
-			"homepage": "https://bitbucket.org/Kered13/notepad-visualstudiolinecopy"
+			"homepage": "https://sourceforge.net/projects/kered13-notepad-plugins/"
 		},
 		{
 			"folder-name": "WakaTime",
@@ -1006,9 +1026,9 @@
 		{
 			"folder-name": "XMLTools",
 			"display-name": "XML Tools",
-			"version": "3.0.1.0",
-			"id": "bf86748a6a34c6138a4342b2d2beccc8c0462a182d8072c2e18f4eab5cb3d53a",
-			"repository": "https://github.com/morbac/xmltools/releases/download/3.0.1.0/XMLTools-3.0.1.0-x64.zip",
+			"version": "3.0.3.4",
+			"id": "b63995ebffea4467590febb7cefde484be2ad1972362d3b8827ef1ba83de7d28",
+			"repository": "https://github.com/morbac/xmltools/releases/download/3.0.3.4/XMLTools-3.0.3.4-x64.zip",
 			"description": "Small set of useful tools for editing XML. Plugin is MSXML-based. The features are:\r\n- XML syntax Check\r\n- XML Schema (XSD) + DTD Validation\r\n- XML tag autoclose\r\n- Pretty print\n- Linarize XML\r\n- Current XML Path\r\n- Conversion XML &amp;lt;-&amp;gt; Text\n- Comment / Uncomment\r\n- XPath expression evaluation",
 			"author": "Nicolas Crittin",
 			"homepage": "https://github.com/morbac/xmltools"
