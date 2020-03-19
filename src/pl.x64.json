@@ -826,9 +826,9 @@
 		{
 			"folder-name": "Remove Duplicate Lines",
 			"display-name": "Remove Duplicate Lines",
-			"version": "1.2.0.0",
-			"id": "499a1ac2c6052c74c2d2e7bd886ff4586239d2ccbd7297721f478668e9693bf8",
-			"repository": "https://github.com/gurikbal/Remove_dup_lines/releases/download/1.2.0.0/Remove_dup_lines_x64.zip",
+			"version": "1.3.0.0",
+			"id": "110b6cb9d3032523e10dc948d97e4b087b1c63f8022522d9c1b6c9de32bc5555",
+			"repository": "https://github.com/gurikbal/Remove_dup_lines/releases/download/1.3.0.2/Remove_dup_lines_x64.zip",
 			"description": "Remove duplicate lines without removing empty lines.",
 			"author": "G. Singh",
 			"homepage": "https://github.com/gurikbal/Remove_dup_lines"
