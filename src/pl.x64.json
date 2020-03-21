@@ -116,9 +116,9 @@
 		{
 			"folder-name": "CADdyTools",
 			"display-name": "CADdyTools",
-			"version": "1.0.0.2",
-			"id": "640beb8312453597a101c990ace27aa39f4bd8c7d3c9288f2a5ebee21bf66ff0",
-			"repository": "https://github.com/MarioRosi/CADdyTools/releases/download/1.0.0.2/CADdyTools_v1002_x64.zip",
+			"version": "1.0.1.5",
+			"id": "b6b60ec05f86e7458d93e632c9f1c533034c28cb400d0445082e29fbf4967e73",
+			"repository": "https://github.com/MarioRosi/CADdyTools/releases/download/1.0.1.5/CADdyTools_v1015_x64.zip",
 			"description": "Notepad++-Plugin for manipulate CADdy-formated coordinate- and measure-textfiles",
 			"author": "Mario Rosenbohm",
 			"homepage": "https://github.com/MarioRosi/CADdyTools"
@@ -826,9 +826,9 @@
 		{
 			"folder-name": "Remove Duplicate Lines",
 			"display-name": "Remove Duplicate Lines",
-			"version": "1.3.0.0",
-			"id": "f90bf1803e703c0a10cfa9fb022e914628e2abd4c23e666e6b9a4e11bcf0464f",
-			"repository": "https://github.com/gurikbal/Remove_dup_lines/releases/download/1.3.0.2/Remove_dup_lines_x64.zip",
+			"version": "1.2.0.0",
+			"id": "499a1ac2c6052c74c2d2e7bd886ff4586239d2ccbd7297721f478668e9693bf8",
+			"repository": "https://github.com/gurikbal/Remove_dup_lines/releases/download/1.2.0.0/Remove_dup_lines_x64.zip",
 			"description": "Remove duplicate lines without removing empty lines.",
 			"author": "G. Singh",
 			"homepage": "https://github.com/gurikbal/Remove_dup_lines"
@@ -1026,9 +1026,9 @@
 		{
 			"folder-name": "XMLTools",
 			"display-name": "XML Tools",
-			"version": "3.0.4.0",
-			"id": "5e4d78eda328d1749383558d34ccef62743d89aee6aabd1c9c7cd3a669b06d26",
-			"repository": "https://github.com/morbac/xmltools/releases/download/3.0.4.0/XMLTools-3.0.4.0-x64.zip",
+			"version": "3.0.3.4",
+			"id": "b63995ebffea4467590febb7cefde484be2ad1972362d3b8827ef1ba83de7d28",
+			"repository": "https://github.com/morbac/xmltools/releases/download/3.0.3.4/XMLTools-3.0.3.4-x64.zip",
 			"description": "Small set of useful tools for editing XML. Plugin is MSXML-based. The features are:\r\n- XML syntax Check\r\n- XML Schema (XSD) + DTD Validation\r\n- XML tag autoclose\r\n- Pretty print\n- Linarize XML\r\n- Current XML Path\r\n- Conversion XML &amp;lt;-&amp;gt; Text\n- Comment / Uncomment\r\n- XPath expression evaluation",
 			"author": "Nicolas Crittin",
 			"homepage": "https://github.com/morbac/xmltools"
