@@ -116,9 +116,9 @@
 		{
 			"folder-name": "CADdyTools",
 			"display-name": "CADdyTools",
-			"version": "1.0.0.2",
-			"id": "640beb8312453597a101c990ace27aa39f4bd8c7d3c9288f2a5ebee21bf66ff0",
-			"repository": "https://github.com/MarioRosi/CADdyTools/releases/download/1.0.0.2/CADdyTools_v1002_x64.zip",
+			"version": "1.0.1.5",
+			"id": "b821212f74cc51d8fef471a7645ea3f63fb20b21a36a85af1f7d240542e742cd",
+			"repository": "https://github.com/MarioRosi/CADdyTools/releases/download/1.0.1.5/CADdyTools_v1015_x64.zip",
 			"description": "Notepad++-Plugin for manipulate CADdy-formated coordinate- and measure-textfiles",
 			"author": "Mario Rosenbohm",
 			"homepage": "https://github.com/MarioRosi/CADdyTools"
