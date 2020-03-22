@@ -24,3 +24,4 @@ _ReSharper*/
 *.opendb
 *.db
 bin64/
+*.md
