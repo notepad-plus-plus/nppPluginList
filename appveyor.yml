@@ -16,7 +16,7 @@ environment:
 
   - PlatformToolset: v141_xp
     PLATFORM: x64
-    
+
   - PlatformToolset: v141_xp
     PLATFORM: Win32
 
@@ -50,11 +50,25 @@ after_build:
         if(-not ($env:PYTHONTEST))
         {
             if ($env:PLATFORM_INPUT -eq "x64" -and $env:CONFIGURATION -eq "Release") {
-                Push-AppveyorArtifact "bin64\nppPluginList.dll" -FileName nppPluginList.dll
+                if($env:PYTHONTEST -eq "")
+                {
+                    Push-AppveyorArtifact "bin64\nppPluginList.dll" -FileName nppPluginList.dll
+                }
+                else
+                {
+                    Push-AppveyorArtifact "plugin_list_x64.md" -FileName plugin_list_x64.md
+                }
             }
 
             if ($env:PLATFORM_INPUT -eq "Win32" -and $env:CONFIGURATION -eq "Release") {
-                Push-AppveyorArtifact "bin\nppPluginList.dll" -FileName nppPluginList.dll
+                if($env:PYTHONTEST -eq "")
+                {
+                    Push-AppveyorArtifact "bin\nppPluginList.dll" -FileName nppPluginList.dll
+                }
+                else
+                {
+                    Push-AppveyorArtifact "plugin_list_x86.md" -FileName plugin_list_x86.md
+                }
             }
 
             if ($($env:APPVEYOR_REPO_TAG) -eq "true" -and $env:CONFIGURATION -eq "Release" -and $env:PLATFORMTOOLSET -eq "v141_xp") {
