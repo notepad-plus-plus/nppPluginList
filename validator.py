@@ -17,6 +17,7 @@ has_error = False
 # constants for creation of plugin list overview
 c_line_break = '\x0d'
 c_line_feed = '\x0a'
+c_space = ' '
 c_sum_len = 100
 tmpl_vert = '&vert;'
 tmpl_br = '<br>'
@@ -52,12 +53,15 @@ def post_error(message):
         pprint(message)
 
 def first_two_lines(description):
-    if description.count(tmpl_br) >= 2:
-        i = description.find(tmpl_br)
-        i = description.find(tmpl_br, i + 1)
+    if len(description) <= c_sum_len:
+        return ""
+    i = description.rfind(tmpl_br,0,c_sum_len)
+    if i != -1:
         return description[:i]
-    else:
-        return description[:description.rfind(tmpl_br,c_sum_len)]
+    i = description.rfind(c_space,0,c_sum_len)
+    if i != -1:
+        return description[:i]
+    return description[:c_sum_len]
 
 def rest_of_text(description):
     return description[len(first_two_lines(description)):]
@@ -80,7 +84,12 @@ def gen_pl_table(filename):
         tab_line += tmpl_td
         descr = plugin["description"]
         descr = descr.replace(c_line_feed, tmpl_br).replace(c_line_break, '').replace("|", tmpl_vert)
-        tab_line += " <details> <summary> %s </summary> %s </details>" % (first_two_lines(descr), rest_of_text(descr))
+        summary = first_two_lines(descr)
+        rest = rest_of_text(descr)
+        if summary:
+            tab_line += " <details> <summary> %s </summary> %s </details>" % (summary, rest)
+        else:
+            tab_line += rest
         tab_line += tmpl_tr_e + tmpl_new_line
         tab_text += tab_line
     return tab_text
@@ -192,9 +201,9 @@ def parse(filename):
                found = True
         if found == False:
            repositories.append(plugin["repository"])
-
-
-bitness_from_input = sys.argv[1]
+bitness_from_input = ""
+if len(sys.argv) > 1:
+    bitness_from_input = sys.argv[1]
 print('input: %s' % bitness_from_input)
 if bitness_from_input == 'x64':
     parse("src/pl.x64.json")
