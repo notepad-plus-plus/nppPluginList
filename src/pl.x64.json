@@ -636,9 +636,9 @@
 		{
 			"folder-name": "NppFTP",
 			"display-name": "NppFTP",
-			"version": "0.29.5",
-			"id": "d8357bd2c4f9be83ba27aa08eacc784c5b09a4f012a218f36de12be8a8da3c17",
-			"repository": "https://github.com/ashkulz/NppFTP/releases/download/v0.29.5/NppFTP-x64.zip",
+			"version": "0.29.6",
+			"id": "9dd34311c5e2a83e5e2a694666168d07b6b406de04dd5e3245eb6be7fcbf6fa3",
+			"repository": "https://github.com/ashkulz/NppFTP/releases/download/v0.29.6/NppFTP-x64.zip",
 			"description": "Allows FTP, FTPS, FTPES, and SFTP communications. Very useful for web development.",
 			"author": "ashish_kulz",
 			"homepage": "https://ashkulz.github.io/NppFTP/"
@@ -786,9 +786,9 @@
 		{
 			"folder-name": "PythonScript",
 			"display-name": "PythonScript",
-			"version": "1.5.3.0",
-			"id": "48c1a05ff7d0178798a65cbcb90b810561d258cc5e1476725654219b1c326d20",
-			"repository": "https://github.com/bruderstein/PythonScript/releases/download/v1.5.3/PythonScript_Full_1.5.3.0_x64_PluginAdmin.zip",
+			"version": "1.5.4.0",
+			"id": "9ae50d3835f98c6b4e3cd0c8a3797db6e03d64a4849db850d088529ed058cee5",
+			"repository": "https://github.com/bruderstein/PythonScript/releases/download/v1.5.4/PythonScript_Full_1.5.4.0_x64_PluginAdmin.zip",
 			"description": "Python Script plugin.",
 			"author": "Dave Brotherstone + Jocelyn Legault",
 			"homepage": "https://github.com/bruderstein/PythonScript"
