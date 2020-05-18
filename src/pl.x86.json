@@ -806,9 +806,9 @@
 		{
 			"folder-name": "NotepadStarterPlugin",
 			"display-name": "NotepadStarterPlugin",
-			"version": "2.3.2.0",
-			"id": "4022cb3db419a5f89ab0e94a11400d1b4ca763468b875c2bc3de7181a5ad8bf0",
-			"repository": "https://github.com/lygstate/NotepadStarter/releases/download/2.3.2.0/NotepadStarter_2.3.2.0_Win32.zip",
+			"version": "2.3.3.0",
+			"id": "b9947231ebd82e547866d805551f96a9002ad8e6ea4410a27a0754e6e4f64614",
+			"repository": "https://github.com/lygstate/NotepadStarter/releases/download/2.3.3.0/NotepadStarter_2.3.3.0_Win32.zip",
 			"description": "When it is installed as a Notepad++ plugin or running NotepadStarter.exe in the Notepad++ app directory, it will automatically replace the system default notepad.exe application with Notepad++ (without need to remove anything from the Windows system.). It's tested under Windows 7, but Windows XP should also work.",
 			"author": "Yonggang Luo",
 			"homepage": "https://github.com/lygstate/NotepadStarter/"
