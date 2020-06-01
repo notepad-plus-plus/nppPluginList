@@ -905,7 +905,7 @@
 		},
 		{
 			"folder-name": "SelectToClipboard",
-			"display-name": "SelectToClipboard",
+			"display-name": "Select to Clipboard",
 			"version": "1.0.1",
 			"id": "b2e8851eb9e77ec70b61a27078b312799f23f6a53a6bab06bd915eaa0cba7cbc",
 			"repository": "https://github.com/KubaDee/SelectToClipboard/releases/download/v1.0.1/SelectToClipboard_x64_v1.0.1.zip",
