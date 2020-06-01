@@ -996,9 +996,9 @@
 		{
 			"folder-name": "NppTextViz",
 			"display-name": "NppTextViz",
-			"version": "0.4.1",
-			"id": "420ef5efe7ae2fcd60d842748297795d66278b9e53c4def56abedbaa395593db",
-			"repository": "https://github.com/KubaDee/NppTextViz/releases/download/v0.4.1/NppTextViz_x86_v0.4.1.zip",
+			"version": "0.4.2",
+			"id": "8bfefc05f32c8e2ef4eb67b4550da3a7e3be9370eaf379bb899f11b6849867ff",
+			"repository": "https://github.com/KubaDee/NppTextViz/releases/download/v0.4.2/NppTextViz_x86_v0.4.2.zip",
 			"description": "Hide or show lines to help analyse larger files - logs for example. Can hide all lines that contain text pattern. Or simply select several lines and hide them. Based on TextFX plugin v0.25 by Chris Severance.",
 			"author": "Jakub Dvorak",
 			"homepage": "https://github.com/KubaDee/NppTextViz"
@@ -1212,6 +1212,16 @@
 			"description": "Select the text in quotes (aka a string) based on the Scintilla lexers in Notepad++. Just press Alt+' and select the entire string under the cursor. If no string is found, it selects the current word.",
 			"author": "Frank Fesevur",
 			"homepage": "https://www.fesevur.com/selectquotedtext"
+		},
+		{
+			"folder-name": "SelectToClipboard",
+			"display-name": "SelectToClipboard",
+			"version": "1.0.1",
+			"id": "98989afa6f49bc1e16ecb09c1832165ee7047aa47d388b856b0b42a70273a54a",
+			"repository": "https://github.com/KubaDee/SelectToClipboard/releases/download/v1.0.1/SelectToClipboard_x86_v1.0.1.zip",
+			"description": "Auto copy selected text to clipboard. You can automatically copy selected text like in PuTTY (or similar) terminal application.",
+			"author": "Jakub Dvorak",
+			"homepage": "https://github.com/KubaDee/SelectToClipboard"
 		},
 		{
 			"folder-name": "SessionMgr",
