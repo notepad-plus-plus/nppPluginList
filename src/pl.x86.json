@@ -1492,6 +1492,16 @@
 			"description": "Tired of zooming your document everytime you just want to scroll but accidentally still holding the [Ctrl] key? Then this is what you want! It disables mouse zoom, keyboard zoom, or both.",
 			"author": "Stanislav Eckert",
 			"homepage": "https://github.com/StanDog/npp-zoomdisabler"
+		},
+		{
+		  "folder-name": "RegexTrainer",
+		  "display-name": "Regex Trainer",
+		  "version": "1.0.0",
+		  "id": "2ae9b1115414da77379fafec2dc11277200dab6b73b55dc9636bb30a9d5f6503",
+		  "repository": "https://github.com/ahmoylaw/RegexTrainer-Descriptions/raw/master/Release/RegexTrainer.zip",
+		  "description": "Regex Trainer (based on net framework 4) that supports a complex regular expression.",
+		  "author": "Ahmoy Law",
+		  "homepage": "https://github.com/ahmoylaw/RegexTrainer-Descriptions"
 		}
 	]
 }
