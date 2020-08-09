@@ -816,9 +816,9 @@
 		{
 			"folder-name": "rdmd-en-x64",
 			"display-name": "RDMD for Notepad++ (English)",
-			"version": "0.1.0.1",
-			"id": "3ff43617a9e37817470f140c0bb53817efc4c12552a9ac79981dc141419fcc52",
-			"repository": "https://gitlab.com/dokutoku/rdmd-for-npp/uploads/60e27456b06ab0bf83df3334e0453bca/rdmd-en-x64.zip",
+			"version": "0.1.0.2",
+			"id": "1832f91c9e833591310c3cfb1c66183f3796301f88435ed2f540c9ae93fa5cf7",
+			"repository": "https://gitlab.com/dokutoku/rdmd-for-npp/uploads/d8a2c4156c0a9dea4726a247e692a8bd/rdmd-en-x64.zip",
 			"description": "Runs rdmd in Notepad++ (English).",
 			"author": "dokutoku",
 			"homepage": "https://gitlab.com/dokutoku/rdmd-for-npp"
@@ -826,9 +826,9 @@
 		{
 			"folder-name": "rdmd-ja-x64",
 			"display-name": "RDMD for Notepad++ (Japanese)",
-			"version": "0.1.0.1",
-			"id": "430755942f33344caefa1933f1aeeb3c057a03b871d1e1ff353c75c3bb84adef",
-			"repository": "https://gitlab.com/dokutoku/rdmd-for-npp/uploads/10d2ffd968f4fca296bc79f6e67fd864/rdmd-ja-x64.zip",
+			"version": "0.1.0.2",
+			"id": "59384c0f0b79a5342399e0eae2703608b3d15ab282530b3b91a76faf2108c253",
+			"repository": "https://gitlab.com/dokutoku/rdmd-for-npp/uploads/8a16e1c6384fb6f14e12bf58ce6741f7/rdmd-ja-x64.zip",
 			"description": "Runs rdmd in Notepad++ (Japanese).",
 			"author": "dokutoku",
 			"homepage": "https://gitlab.com/dokutoku/rdmd-for-npp"
