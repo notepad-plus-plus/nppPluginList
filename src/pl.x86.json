@@ -1492,6 +1492,17 @@
 			"description": "Tired of zooming your document everytime you just want to scroll but accidentally still holding the [Ctrl] key? Then this is what you want! It disables mouse zoom, keyboard zoom, or both.",
 			"author": "Stanislav Eckert",
 			"homepage": "https://github.com/StanDog/npp-zoomdisabler"
+		},
+		{
+			"folder-name": "MZC8051",
+			"display-name": "MZC8051",
+			"version": "0.0.1",
+			"id": "fd8b7aeb3e6bfb0467b3fb46b4a01beb660a6a54d6f9867191982c6c6fa8a8e9",
+			"repository": "https://github.com/Jiangshan00001/npp_MZC8051/blob/master/release_x86/MZC8051.zip",
+			"description": "a 8051 c compiler plugin within notepad++.",
+			"author": "Jiangshan00001",
+			"homepage": "https://github.com/Jiangshan00001/npp_MZC8051"
 		}
+		
 	]
 }
