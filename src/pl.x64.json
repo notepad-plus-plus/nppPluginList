@@ -1087,8 +1087,8 @@
 			"folder-name": "MZC8051",
 			"display-name": "MZC8051",
 			"version": "0.0.1",
-			"id": "8ca0712d1148f94de8d4fd4677aa0efd307827ba3e4e526238550fa233e5395c",
-			"repository": "https://github.com/Jiangshan00001/npp_MZC8051/blob/master/release_x64/MZC8051.zip",
+			"id": "70c0a56a16fe9334ba2c7468dda6cd64a09eab14fcbd3134b8bb6f29d96d1e70",
+			"repository": "https://github.com/Jiangshan00001/npp_MZC8051/raw/master/release_x64/MZC8051.zip",
 			"description": "a 8051 c compiler plugin within notepad++.",
 			"author": "Jiangshan00001",
 			"homepage": "https://github.com/Jiangshan00001/npp_MZC8051"
