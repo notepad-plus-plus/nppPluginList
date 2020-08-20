@@ -527,7 +527,7 @@
 			"folder-name": "NPPJSONViewer",
 			"display-name": "JSON Viewer",
 			"version": "1.40",
-			"id": "fd1632a676926374691af0e170c1cb379a45e01c0aa43c742e0391e1ec49300a",
+			"id": "15feafd549e6f6916af0be81089cd297245c43fff25dab3076d69b41fbc990e2",
 			"repository": "https://github.com/kapilratnani/JSON-Viewer/releases/download/v1.40/NPPJSONViewer_Win32.zip",
 			"description": "JSON viewer that displays the selected JSON string in a tree view.",
 			"author": "Kapil Ratnani",
