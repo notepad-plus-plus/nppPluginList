@@ -1,6 +1,6 @@
 {
 	"name": "npp-pluginList",
-	"version": "1.2.1",
+	"version": "1.2.2",
 	"arch": "64",
 	"npp-plugins": [
 		{
@@ -246,9 +246,9 @@
 		{
 			"folder-name": "Explorer",
 			"display-name": "Explorer",
-			"version": "1.9.1.0",
-			"id": "29150312ca1f7c0d34601150c1a6c4f7d205a2ef422168607df9218d01e3d24d",
-			"repository": "https://github.com/oviradoi/npp-explorer-plugin/releases/download/v1.9.1/Explorer_x64.zip",
+			"version": "1.9.2.0",
+			"id": "bbbb907ff066a9b44ac40c293677c505b5e3c7390725e3d36baa04b0d4226986",
+			"repository": "https://github.com/oviradoi/npp-explorer-plugin/releases/download/v1.9.2/Explorer_x64.zip",
 			"description": "File browser. You can open whatever you want from it in Notepad++, just double click!",
 			"author": "Jens Lorenz",
 			"homepage": "https://github.com/oviradoi/npp-explorer-plugin"
@@ -276,9 +276,9 @@
 		{
 			"folder-name": "GitSCM",
 			"display-name": "GitSCM",
-			"version": "1.4.2.1",
-			"id": "adc771d5153f9661c37ff5af32a6e1d20988e462c64fa64438746e048932894d",
-			"repository": "https://github.com/vinsworldcom/nppGitSCM/releases/download/1.4.2.1/GitSCM-v1.4.2.1-x64.zip",
+			"version": "1.4.3.1",
+			"id": "3346c98adbaf900c7763ab69c7310837b16ea9e4292e9534ced807f8e81ccca4",
+			"repository": "https://github.com/vinsworldcom/nppGitSCM/releases/download/1.4.3.1/GitSCM-v1.4.3.1-x64.zip",
 			"description": "N++ Gui for already installed Git SCM for Windows. Optionally TortoiseGit.",
 			"author": "Michael J. Vincent",
 			"homepage": "https://github.com/vinsworldcom/nppGitSCM"
@@ -356,9 +356,9 @@
 		{
 			"folder-name": "JSMinNPP",
 			"display-name": "JSTool",
-			"version": "1.2001.1",
-			"id": "be1ecb216f1e15fff18d19722f896f9e7dd1aab74c0293ae46d72fb9348c8ae5",
-			"repository": "https://sourceforge.net/projects/jsminnpp/files/Uni/JSToolNPP.1.2001.1.uni.64.zip",
+			"version": "1.2006.0",
+			"id": "5d1320ecb0f33df52d13f202d18e5822881451d0ea4c480792cdafc15cb93c33",
+			"repository": "https://sourceforge.net/projects/jsminnpp/files/Uni/JSToolNPP.1.2006.0.uni.64.zip",
 			"description": "Javascript plugin.\r\n * Douglas Crockford's JSMin algorithm to minimize javascript code.\r\n * My own algorithm to format javascript code.\r\n * A JSON data viewer. This JSON data viewer can handle >10MB JSON file easily.\r\n * Support 64bit Notepad++ (from version 1.20.0).\r\nReally helpful to javascript coder on Notepad++ and really easy to use it.\r\nMade in China.",
 			"author": "Sun Junwen",
 			"homepage": "https://github.com/sunjw/jstoolnpp"
@@ -816,9 +816,9 @@
 		{
 			"folder-name": "rdmd-en-x64",
 			"display-name": "RDMD for Notepad++ (English)",
-			"version": "0.1.0.1",
-			"id": "3ff43617a9e37817470f140c0bb53817efc4c12552a9ac79981dc141419fcc52",
-			"repository": "https://gitlab.com/dokutoku/rdmd-for-npp/uploads/60e27456b06ab0bf83df3334e0453bca/rdmd-en-x64.zip",
+			"version": "0.1.0.2",
+			"id": "1832f91c9e833591310c3cfb1c66183f3796301f88435ed2f540c9ae93fa5cf7",
+			"repository": "https://gitlab.com/dokutoku/rdmd-for-npp/uploads/d8a2c4156c0a9dea4726a247e692a8bd/rdmd-en-x64.zip",
 			"description": "Runs rdmd in Notepad++ (English).",
 			"author": "dokutoku",
 			"homepage": "https://gitlab.com/dokutoku/rdmd-for-npp"
@@ -826,12 +826,22 @@
 		{
 			"folder-name": "rdmd-ja-x64",
 			"display-name": "RDMD for Notepad++ (Japanese)",
-			"version": "0.1.0.1",
-			"id": "430755942f33344caefa1933f1aeeb3c057a03b871d1e1ff353c75c3bb84adef",
-			"repository": "https://gitlab.com/dokutoku/rdmd-for-npp/uploads/10d2ffd968f4fca296bc79f6e67fd864/rdmd-ja-x64.zip",
+			"version": "0.1.0.2",
+			"id": "59384c0f0b79a5342399e0eae2703608b3d15ab282530b3b91a76faf2108c253",
+			"repository": "https://gitlab.com/dokutoku/rdmd-for-npp/uploads/8a16e1c6384fb6f14e12bf58ce6741f7/rdmd-ja-x64.zip",
 			"description": "Runs rdmd in Notepad++ (Japanese).",
 			"author": "dokutoku",
 			"homepage": "https://gitlab.com/dokutoku/rdmd-for-npp"
+		},
+		{
+			"folder-name": "RegexTrainer",
+			"display-name": "Regex Trainer",
+			"version": "1.0.0",
+			"id": "9b1c3302e1bfc7dcd51d4df3915e4d9acbab7a94455b3ac5021da93394b4e91a",
+			"repository": "https://github.com/ahmoylaw/RegexTrainer-Descriptions/raw/master/Release-x64/RegexTrainer.zip",
+			"description": "Regex Trainer (based on net framework 4) that supports a complex regular expression.",
+			"author": "Ahmoy Law",
+			"homepage": "https://github.com/ahmoylaw/RegexTrainer-Descriptions"
 		},
 		{
 			"folder-name": "Remove Duplicate Lines",
@@ -1046,9 +1056,9 @@
 		{
 			"folder-name": "XMLTools",
 			"display-name": "XML Tools",
-			"version": "3.0.4.2",
-			"id": "3f8a1882aaf416d8b7a655379dad714b06ba1e3ce67048040c2861010952b171",
-			"repository": "https://github.com/morbac/xmltools/releases/download/3.0.4.2/XMLTools-3.0.4.2-x64.zip",
+			"version": "3.0.4.3",
+			"id": "b8a8e6113eaba5b2b393d415d851a1a72e49b4ac2b1971bcba14e5b4ff82d0f2",
+			"repository": "https://github.com/morbac/xmltools/releases/download/3.0.4.3/XMLTools-3.0.4.3-x64.zip",
 			"description": "Small set of useful tools for editing XML. Plugin is MSXML-based. The features are:\r\n- XML syntax Check\r\n- XML Schema (XSD) + DTD Validation\r\n- XML tag autoclose\r\n- Pretty print\n- Linarize XML\r\n- Current XML Path\r\n- Conversion XML &amp;lt;-&amp;gt; Text\n- Comment / Uncomment\r\n- XPath expression evaluation",
 			"author": "Nicolas Crittin",
 			"homepage": "https://github.com/morbac/xmltools"
@@ -1062,6 +1072,16 @@
 			"description": "Tired of zooming your document everytime you just want to scroll but accidentally still holding the [Ctrl] key? Then this is what you want! It disables mouse zoom, keyboard zoom, or both.",
 			"author": "Stanislav Eckert",
 			"homepage": "https://github.com/StanDog/npp-zoomdisabler"
+		},
+		{
+			"folder-name": "urlPlugin",
+			"display-name": "URL Encode/Decode Plugin",
+			"version": "1.1.0.0",
+			"id": "87ae8e9e7a60d05f4c47041cf8c7e631c7c3ce9fef7e33d991e8837f2bbe3943",
+			"repository": "https://github.com/SinghRajenM/nppURLPlugin/releases/download/1.1.0.0/urlPlugin_x64.zip",
+			"description": "Hopefully a decent URL Encoder and Decoder plug-in for Notepad++ which helps to make developer's life easier by providing facility to encode/decode the URL within Notepad++. \r\n\r\nHow it works:\r\n1. Configure setting from menu (Plugins->URL Plugin->URL Plugin Settings). It is not mandatory, but recommended.\r\n2. Select text/URL which you want to encode/decode.\r\n3. Perform your task via Plugins->URL Plugin->Encode/Decode URL.\r\n\r\n",
+			"author": "Rajendra Singh",
+			"homepage": "https://github.com/SinghRajenM/nppURLPlugin"
 		}, 
 		{
 			"folder-name": "MZC8051",
