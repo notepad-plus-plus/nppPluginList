@@ -344,11 +344,11 @@
 			"homepage": "https://github.com/sieukrem/jn-npp-plugin/wiki"
 		},
 		{
-			"folder-name": "NPPJSONViewer",
+			"folder-name": "NPPJSONViewer", 
 			"display-name": "JSON Viewer",
-			"version": "1.34",
-			"id": "725241aef0b2e56e4f2a10da5eb714b6581384e4ae5f26c4d6f35eab49c3a979",
-			"repository": "https://github.com/kapilratnani/JSON-Viewer/releases/download/1.34/NPPJSONViewer_x64.zip",
+			"version": "1.40",
+			"id": "8c1143e13f3d1429b9f625ddbed8fdfbeef86b4d01978e5328f27d9e7ac2662a",
+			"repository": "https://github.com/kapilratnani/JSON-Viewer/releases/download/v1.40/NPPJSONViewer_x64.zip",
 			"description": "JSON viewer that displays the selected JSON string in a tree view.",
 			"author": "Kapil Ratnani",
 			"homepage": "https://github.com/kapilratnani/JSON-Viewer"
