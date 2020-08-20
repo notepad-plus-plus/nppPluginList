@@ -156,9 +156,9 @@
 		{
 			"folder-name": "ComparePlugin",
 			"display-name": "Compare",
-			"version": "2.0.0",
-			"id": "c0f37cc70695cdd595432f7ec1c3b7e3e2fb509d96bd1da20e3ecea387c99f4f",
-			"repository": "https://github.com/pnedev/compare-plugin/releases/download/v2.0.0_npp7.7/ComparePlugin_v2.0.0_npp7.7_X64.zip",
+			"version": "2.0.1",
+			"id": "77dedf98ea2280528d726c0053db2001e90da7588e14ee01a98933f121bb15cb",
+			"repository": "https://github.com/pnedev/compare-plugin/releases/download/v2.0.1/ComparePlugin_v2.0.1_X64.zip",
 			"description": "Shows the differences between 2 files (side by side).",
 			"author": "Ty Landercasper, Jean-Sebastien Leroy, Pavel Nedev",
 			"homepage": "https://github.com/jsleroy/compare-plugin"
