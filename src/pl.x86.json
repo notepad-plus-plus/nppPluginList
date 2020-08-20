@@ -1522,6 +1522,16 @@
 			"description": "Hopefully a decent URL Encoder and Decoder plug-in for Notepad++ which helps to make developer's life easier by providing facility to encode/decode the URL within Notepad++. \r\n\r\nHow it works:\r\n1. Configure setting from menu (Plugins->URL Plugin->URL Plugin Settings). It is not mandatory, but recommended.\r\n2. Select text/URL which you want to encode/decode.\r\n3. Perform your task via Plugins->URL Plugin->Encode/Decode URL.\r\n\r\n",
 			"author": "Rajendra Singh",
 			"homepage": "https://github.com/SinghRajenM/nppURLPlugin"
+		},
+		{
+			"folder-name": "MZC8051",
+			"display-name": "MZC8051",
+			"version": "0.0.1",
+			"id": "fd8b7aeb3e6bfb0467b3fb46b4a01beb660a6a54d6f9867191982c6c6fa8a8e9",
+			"repository": "https://github.com/Jiangshan00001/npp_MZC8051/blob/master/release_x86/MZC8051.zip",
+			"description": "a 8051 c compiler plugin within notepad++.",
+			"author": "Jiangshan00001",
+			"homepage": "https://github.com/Jiangshan00001/npp_MZC8051"
 		}
 	]
 }
