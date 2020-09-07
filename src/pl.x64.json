@@ -656,9 +656,9 @@
 		{
 			"folder-name": "NppGist",
 			"display-name": "NppGist",
-			"version": "1.3.0.20",
+			"version": "1.4.0.27",
 			"id": "d4feb5892da798d4572b24c920278ad1fe1d2a623c2a568a8d103faedda03869",
-			"repository": "https://github.com/KvanTTT/NppGist/releases/download/1.3.0/NppGist-x64-1.3.0.20.zip",
+			"repository": "https://github.com/KvanTTT/NppGist/releases/download/1.4.0/NppGist-x64-1.4.0.27.zip",
 			"description": "Allows working with GitHub Gist (create, edit, remove, rename).",
 			"author": "Ivan Kochurkin (KvanTTT)",
 			"homepage": "https://github.com/KvanTTT/NppGist"
@@ -1082,7 +1082,7 @@
 			"description": "Hopefully a decent URL Encoder and Decoder plug-in for Notepad++ which helps to make developer's life easier by providing facility to encode/decode the URL within Notepad++. \r\n\r\nHow it works:\r\n1. Configure setting from menu (Plugins->URL Plugin->URL Plugin Settings). It is not mandatory, but recommended.\r\n2. Select text/URL which you want to encode/decode.\r\n3. Perform your task via Plugins->URL Plugin->Encode/Decode URL.\r\n\r\n",
 			"author": "Rajendra Singh",
 			"homepage": "https://github.com/SinghRajenM/nppURLPlugin"
-		}, 
+		},
 		{
 			"folder-name": "MZC8051",
 			"display-name": "MZC8051",
