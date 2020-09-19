@@ -109,7 +109,7 @@
 			"version": "0.1.1.1",
 			"id": "781128DCC29C2E59D6F5103380FD30E011899B515B1D3CA99385734B6A10982D",
 			"repository": "https://github.com/superolmo/BigFiles/releases/download/0.1.1.1.x86/BigFiles.zip",
-			"description": "Reads very large files. It does this by only showing a small buffer of the file and let the user move back anf forth in the page.\r\nThis is useful when you want to preview very large text files. Opening is done separately from Notepad++ and there is no option to save.\r\nhttps://github.com/superolmo/BigFiles",
+			"description": "Reads very large files. It does this by only showing a small buffer of the file and let the user move back and forth in the page.\r\nThis is useful when you want to preview very large text files. Opening is done separately from Notepad++ and there is no option to save.\r\nhttps://github.com/superolmo/BigFiles",
 			"author": "Claudio Olmi",
 			"homepage": "https://github.com/superolmo/BigFiles"
 		},
@@ -242,6 +242,16 @@
 			"description": "Displays line numbers as hex numbers. You can also configure the starting line number.",
 			"author": "Andreas Heim",
 			"homepage": "https://sourceforge.net/projects/customlinenumbers"
+		},
+		{
+			"folder-name": "datetime",
+			"display-name": "dateTime",
+			"version": "0.0.1",
+			"id": "71e6074ec11c49be103b0ed54ef4a303db95b3ac17ef313c5af048fcb89b9ba1",
+			"repository": "https://github.com/adler3d/test2013/releases/download/v0.0.1/datetime.dll",
+			"description": "Insert full and precise timestamp like 22:51:31.423 2020.09.19",
+			"author": "Adler3D",
+			"homepage": "https://github.com/adler3d/test2013/blob/master/datetime.cpp"
 		},
 		{
 			"folder-name": "dbgpPlugin",
