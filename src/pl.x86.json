@@ -446,12 +446,12 @@
 		{
 			"folder-name": "HexEditor",
 			"display-name": "HEX-Editor",
-			"version": "0.9.5.0",
-			"id": "2352b9a8ad459bb9ce4d231d990d89f22d338aa446226f5c36ffa32dad7c3826",
-			"repository": "https://downloads.sourceforge.net/project/npp-plugins/Hex%20Editor/Hex%20Editor%20Plugin%20v0.9.5/HexEditor_0_9_5_UNI_dll.zip",
+			"version": "0.9.7.0",
+			"id": "7eccb495fbf65c64b85d6f2dd6826b73f81373f414c743c779bc151d29dd6ea7",
+			"repository": "https://github.com/chcg/NPP_HexEdit/releases/download/0.9.7/HexEditor_0.9.7_x86.zip",
 			"description": "Hex editor. Some reported issues, however many bugs fixed in latest release.",
 			"author": "Jens Lorenz",
-			"homepage": "https://sourceforge.net/projects/npp-plugins/files/Hex%20Editor/"
+			"homepage": "https://github.com/chcg/NPP_HexEdit"
 		},
 		{
 			"folder-name": "HTMLTag_unicode",
