@@ -1416,9 +1416,9 @@
 		{
 			"folder-name": "WakaTime",
 			"display-name": "WakaTime",
-			"version": "4.1.0",
-			"id": "85230c140cb81e6ac334a0e55b44a280cf3616ce4d0ab2a55252a7c214761460",
-			"repository": "https://github.com/wakatime/notepadpp-wakatime/releases/download/4.1.0/WakaTime-4.1.0-x86.zip",
+			"version": "4.2.1",
+			"id": "c145a376d8d67c2a6c52b2aa933146e0f80cb58d14132b69239a35d3a418bae8",
+			"repository": "https://github.com/wakatime/notepadpp-wakatime/releases/download/4.2.1/WakaTime-4.2.1-x86.zip",
 			"description": "Automatic time tracking and metrics generated from your programming activity.\r\nVisit https://wakatime.com to see your logged time.",
 			"author": "WakaTime",
 			"homepage": "https://github.com/wakatime/notepadpp-wakatime"
