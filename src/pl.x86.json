@@ -544,16 +544,6 @@
 			"homepage": "https://github.com/sunjw/jstoolnpp"
 		},
 		{
-			"folder-name": "LanguageHelp",
-			"display-name": "LanguageHelp",
-			"version": "1.7.2.0",
-			"id": "422830f9b9978afbfb7951110a8a9e29ab4ca96f4364559b5ae227236348a6ab",
-			"repository": "https://github.com/chcg/fstellari_rescue/raw/master/LanguageHelp/LanguageHelp_dll_1v72_x32.zip",
-			"description": "Allows loading a language specific help file (CHM, HLP, PDF) and search for the keyword under the cursor.\r\nThe latest version allows showing the help files as menu entries or in the context menu.",
-			"author": "Franco Stellari",
-			"homepage": "https://web.archive.org/web/20200603050229/https://sites.google.com/site/fstellari/nppplugins"
-		},
-		{
 			"folder-name": "lexamples",
 			"display-name": "lexamples",
 			"version": "1.0.0.0",
@@ -1327,7 +1317,7 @@
 			"folder-name": "TagsView",
 			"display-name": "TagsView",
 			"version": "1.0.3",
-			"id": "4f515ca89bb5112255488523d97ee4ca2c2ddbae690abfcd1252a5bff1bf4961",
+			"id": "481561400b1ee1d87c72bf39283412fdc2912a8fc6ad72a5fd96ac71fa27fb67",
 			"repository": "https://downloads.sourceforge.net/project/tagsview/TagsView%20for%20Notepad%2B%2B/TagsView_Npp_03beta.zip",
 			"description": "Provides user interface for ctags parsed results.\r\nCurrently supported editors are Notepad++ and AkelPad.\r\nPowered by Win32++ (by David Nash) and by Exuberant Ctags (by Darren Hiebert).\r\nInspired by FunctionList plugin (by Jens Lorenz) for Notepad++ text editor (by Don Ho).",
 			"author": "Dovgan Vitaliy",
@@ -1337,7 +1327,7 @@
 			"folder-name": "TakeNotes",
 			"display-name": "TakeNotes",
 			"version": "1.2.0.0",
-			"id": "57564d8718265a5f7aa0804cecfd74a743a5ea69e75f5d0a0bcbc99684075c52",
+			"id": "4f515ca89bb5112255488523d97ee4ca2c2ddbae690abfcd1252a5bff1bf4961",
 			"repository": "https://github.com/chcg/fstellari_rescue/raw/master/TakeNotes/TakeNotes_dll_1v20_x32.zip",
 			"description": "Helps people who like to use Notepad++ for jotting quick notes. Instead of using unnamed 'new ?' files, this plugins allows to quickly create new empty files in a folder of choice. The file names may be custom generated using a mask and may contain details such as the user name, date, and time of creation so that unique files may be generated. Additionally, the plugin allows to load exiting notes in the folder of choice, save existing files as a note, and open the last saved note quickly. Please refer to the Options dialog box for more details. It is strongly recommended to use this plugin in combination with AutoSave to make sure that you never loose a note.",
 			"author": "Franco Stellari",
@@ -1426,9 +1416,9 @@
 		{
 			"folder-name": "WakaTime",
 			"display-name": "WakaTime",
-			"version": "4.2.0",
-			"id": "a1ab91b90c7addc36b26775e7496e5b6fc3417bf870999afa7e6f747ed3587c8",
-			"repository": "https://github.com/wakatime/notepadpp-wakatime/releases/download/4.2.0/WakaTime-4.2.0-x86.zip",
+			"version": "4.1.0",
+			"id": "85230c140cb81e6ac334a0e55b44a280cf3616ce4d0ab2a55252a7c214761460",
+			"repository": "https://github.com/wakatime/notepadpp-wakatime/releases/download/4.1.0/WakaTime-4.1.0-x86.zip",
 			"description": "Automatic time tracking and metrics generated from your programming activity.\r\nVisit https://wakatime.com to see your logged time.",
 			"author": "WakaTime",
 			"homepage": "https://github.com/wakatime/notepadpp-wakatime"
