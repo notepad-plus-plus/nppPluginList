@@ -77,11 +77,11 @@
 			"folder-name": "AutoSave",
 			"display-name": "AutoSave",
 			"version": "1.6.0.0",
-			"id": "b74e2dcc66ebf3f1e9573e9305a61cfa53e0ff86ace13724bf8335dc0f52aecd",
-			"repository": "https://github.com/chcg/fstellari_rescue/raw/master/AutoSave/AutoSave_dll_1v60_x64.zip",
-			"description": "Automatically save the currently open files based on a timer schedule and/or upon the application losing focus.\r\nThe plugin offers several options to save the current (or all the files), selecting only the named ones, accessible through an options dialog box.",
+			"id": "9c07957dc31ddd6d383759453a869d03c8cc091c65010058cec0490d3a6630b1",
+			"repository": "https://github.com/francostellari/NppPlugins/blob/main/AutoSave/AutoSave_dll_1v60_x64.zip",
+			"description": "AutoSave allows to automatically save the currently open files based on a timer schedule and/or upon the application losing focus.\r\nThe plugin offers several options to save the current (or all the files), selecting only the named ones, accessible through an options dialog box.",
 			"author": "Franco Stellari",
-			"homepage": "https://web.archive.org/web/20200603050229/https://sites.google.com/site/fstellari/nppplugins"
+			"homepage": "https://github.com/francostellari/NppPlugins"
 		},
 		{
 			"folder-name": "BetterMultiSelection",
