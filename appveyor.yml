@@ -7,12 +7,12 @@ environment:
   - PlatformToolset: v141_xp
     PLATFORM: x64
     PYTHONTEST: x64
-    PYTHON: "C:\\Python37"
+    PYTHON: "C:\\Python38"
 
   - PlatformToolset: v141_xp
     PLATFORM: Win32
     PYTHONTEST: Win32
-    PYTHON: "C:\\Python37"
+    PYTHON: "C:\\Python38"
 
   - PlatformToolset: v141_xp
     PLATFORM: x64
