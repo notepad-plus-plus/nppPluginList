@@ -438,7 +438,7 @@
 			"display-name": "GrepBugs",
 			"version": "1.0.0",
 			"id": "0971e9eee0032f9c5f408f3c2d8176b2efc929677442683e6c79b77d3b62cf86",
-			"repository": "https://grepbugs.com/plugin/notepad%2B%2B",
+			"repository": "https://github.com/foospidy/GrepBugsPluginNotepadPlusPlus/releases/download/v1.0/GrepBugsPluginNpp.zip",
 			"description": "Downloads the latest regular expressions from GrepBugs.com and grep for matches in all open files. Requires .NET 4+",
 			"author": "Peter Parker",
 			"homepage": "https://grepbugs.com/plugins"
