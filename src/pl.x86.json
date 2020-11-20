@@ -144,16 +144,6 @@
 			"homepage": "https://github.com/MarioRosi/CADdyTools"
 		},
 		{
-			"folder-name": "NppCCompletionPlugin",
-			"display-name": "CCompletion",
-			"version": "1.19",
-			"id": "f3bdf4b7cbe0cd76b4d9ae2880ccde369c16f20326f89f3d0e83cd8e58169247",
-			"repository": "http://freeweb.siol.net/rmihor/NppCCompletionPlugin.zip",
-			"description": "Code autocompletion plugin, with other useful features like listing functions / variables, quicky moving to their definition and easily returning to where you were before",
-			"author": "Bostjan Mihoric",
-			"homepage": ""
-		},
-		{
 			"folder-name": "CodeAlignmentNpp",
 			"display-name": "Code Alignment",
 			"version": "14.1.107",
@@ -876,9 +866,9 @@
 		{
 			"folder-name": "NppExec",
 			"display-name": "NppExec",
-			"version": "0.6",
-			"id": "ee79ef41545d5ec2dbb13418d8602aa5963359a691ed0174dd07194f2cb83783",
-			"repository": "https://sourceforge.net/projects/npp-plugins/files/NppExec/NppExec%20Plugin%20v0.6%20RC2/NppExec_06RC2_dll.zip",
+			"version": "0.6.1",
+			"id": "015b786f45f9a73f09e0b256acad13d0160ad3ae11376ff43e28dc46fc20f56b",
+			"repository": "https://github.com/d0vgan/nppexec/releases/download/v061/NppExec_061_dll.zip",
 			"description": "Execute commands or saved scripts without leaving Notepad++.",
 			"author": "Vitaliy Dovgan",
 			"homepage": "https://github.com/d0vgan/nppexec"
