@@ -796,9 +796,9 @@
 		{
 			"folder-name": "Python Indent",
 			"display-name": "Python Indent",
-			"version": "1.0.0.2",
-			"id": "e2b4c35f137f949f4278f2f1d2a0a666815a3441ccf102bde2adc829c44c7b20",
-			"repository": "https://sourceforge.net/projects/kered13-notepad-plugins/files/Python%20Indent%20x64%20v1.0.0.2.zip",
+			"version": "1.0.0.3",
+			"id": "bb6898020488fd462b4db92db8070d17a56b01cc8323f90c4e11cf9087cc6b6c",
+			"repository": "https://sourceforge.net/projects/kered13-notepad-plugins/files/Python%20Indent%20x64%20v1.0.0.3.zip",
 			"description": "Python auto-indent plugin.",
 			"author": "Derek Brown",
 			"homepage": "https://sourceforge.net/projects/kered13-notepad-plugins/"
