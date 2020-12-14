@@ -583,6 +583,15 @@
 			"author": "SeeliSoft",
 			"homepage": "https://www.seelisoft.net/Linefilter3/"
 		},
+			"folder-name": "linesort",
+			"display-name": "Linesort",
+			"version": "1.0.0.0",
+			"id": "bcc6d3f6a7bc5a1578b8007b4bd40ea5721dfae8875670fff8a5ff895f3c0013",
+			"repository": "http://www.scout-soft.com/linesort/linesort.zip",
+			"description": "Allows to sort lines.\r\n- Display search result in new Notepad++ window\r\n- Different sort options:\r\n-- sort selected text\r\n-- sort by leading numbers (numerically)\r\n-- sort by line length\r\n-- sort by characters from the right side of lines (x last characters)\r\n-- remove duplicates (unique lines in result)\r\n-- remove empty lines\r\n-- remove leading numbers",
+			"author": "Heinz",
+			"homepage": "http://www.scout-soft.com/linesort"
+		},
 		{
 			"folder-name": "Linter",
 			"display-name": "Linter",
@@ -1053,6 +1062,15 @@
 			"author": "Martijn Coppoolse",
 			"homepage": "https://fossil.2of4.net/npp_preview"
 		},
+			"folder-name": "print",
+			"display-name": "Print All",
+			"version": "1.0.0.0",
+			"id": "45229a9def21e2bb5ba6a3fbd8c1af5f3cd1855dfe90c322082d711e2a0b148b",
+			"repository": "http://www.scout-soft.com/print/print.zip",
+			"description": "Allows to print all currently opened texts.\r\n- automatically prints all texts that are currently open\r\n- uses "Print now".",
+			"author": "Heinz",
+			"homepage": "http://www.scout-soft.com/print"
+		},
 		{
 			"folder-name": "PyNPP",
 			"display-name": "PyNPP",
@@ -1292,6 +1310,15 @@
 			"description": "Correct your typos in your language. Before using, must install GNU Aspell and a dictionary for your language(s) in the Aspell directory. Aspell and dictionaries are available from http://aspell.net/win32",
 			"author": "Jens Lorenz",
 			"homepage": "https://sourceforge.net/projects/npp-plugins/files/Spell-Checker/"
+		},
+			"folder-name": "sql",
+			"display-name": "SQL",
+			"version": "1.0.0.0",
+			"id": "6fb01eb7485d150a9e17ae89efd99b78e610e4594b35b33cd7b4462eb34f2b46",
+			"repository": "http://www.scout-soft.com/sql/sql.zip",
+			"description": "Allows to search\filter a CSV formatted text in a Notepad++ window using standard SQL queries.\r\n- Supports standard SQL statements",
+			"author": "Heinz",
+			"homepage": "http://www.scout-soft.com/sql"
 		},
 		{
 			"folder-name": "SQLinFormNpp",
