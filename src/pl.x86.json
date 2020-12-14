@@ -1069,7 +1069,7 @@
 			"version": "1.0.0.0",
 			"id": "45229a9def21e2bb5ba6a3fbd8c1af5f3cd1855dfe90c322082d711e2a0b148b",
 			"repository": "http://www.scout-soft.com/print/print.zip",
-			"description": "Allows to print all currently opened texts.\r\n- automatically prints all texts that are currently open\r\n- uses "Print now".",
+			"description": "Allows to print all currently opened texts.\r\n- automatically prints all texts that are currently open\r\n- uses \"Print now\".",
 			"author": "Heinz",
 			"homepage": "http://www.scout-soft.com/print"
 		},
