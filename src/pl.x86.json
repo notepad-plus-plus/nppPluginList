@@ -88,10 +88,10 @@
 			"display-name": "Autosave2",
 			"version": "1.0.0.0",
 			"id": "86ae6ad30b9d34533b160ffe55e6fe57d3e820fb9fd06e169a2b454dbaebd3ee",
-			"repository": "https://www.scout-soft.com/autosave/autosave2.zip",
+			"repository": "http://www.scout-soft.com/autosave/autosave2.zip",
 			"description": "Allows you to automatically save your Notepad++ text with a timestamp.\r\n\r\nThis plugin does create new files (ie. copies) of the currently opened files.\r\nThe original files will not be saved automatically. (So basically, it is more a Autocopy rather than a Autosave)\r\n\r\nUsing a timer schedule and timestamps in the newly created filenames you will have a history of changed files like this:\r\n\r\nToDo.txt.2013-04-19 10.13.09\r\nToDo.txt.2013-04-19 10.14.09\r\nToDo.txt.2013-04-19 10.15.09",
 			"author": "Heinz",
-			"homepage": "https://www.scout-soft.com/autosave"
+			"homepage": "http://www.scout-soft.com/autosave"
 		},
 		{
 			"folder-name": "BetterMultiSelection",
@@ -168,10 +168,10 @@
 			"display-name": "Combine",
 			"version": "1.0.0.0",
 			"id": "064b74cc914b0f5438e0c1ee6f37cad02f8112f7dbe14c67ec24cde21ffe64a1",
-			"repository": "https://www.scout-soft.com/combine/combine.zip",
+			"repository": "http://www.scout-soft.com/combine/combine.zip",
 			"description": "Allows you to combine/merge all currently opened files into one file.",
 			"author": "Heinz",
-			"homepage": "https://www.scout-soft.com/combine"
+			"homepage": "http://www.scout-soft.com/combine"
 		},
 		{
 			"folder-name": "Comment Wrap",
@@ -568,10 +568,10 @@
 			"display-name": "Linefilter2",
 			"version": "1.1.0.0",
 			"id": "4b75c44ba024d8f18062c47bee35cdac7493d10daf70bbf3ccef153f19e585bb",
-			"repository": "https://www.scout-soft.com/linefilter/linefilter2.zip",
+			"repository": "http://www.scout-soft.com/linefilter/linefilter2.zip",
 			"description": "Allows filtering text for a search string.\r\n- Display search result in new Notepad++ window\r\n- Display line number of original text\r\n- Hits can be highlighted\r\n- Display lines before and after a hit\r\n- Perl compatible regular expressions.",
 			"author": "Heinz",
-			"homepage": "https://www.scout-soft.com/linefilter"
+			"homepage": "http://www.scout-soft.com/linefilter"
 		},
 		{
 			"folder-name": "Linefilter3",
