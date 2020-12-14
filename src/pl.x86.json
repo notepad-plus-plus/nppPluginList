@@ -583,6 +583,7 @@
 			"author": "SeeliSoft",
 			"homepage": "https://www.seelisoft.net/Linefilter3/"
 		},
+		{
 			"folder-name": "linesort",
 			"display-name": "Linesort",
 			"version": "1.0.0.0",
@@ -1062,6 +1063,7 @@
 			"author": "Martijn Coppoolse",
 			"homepage": "https://fossil.2of4.net/npp_preview"
 		},
+		{
 			"folder-name": "print",
 			"display-name": "Print All",
 			"version": "1.0.0.0",
@@ -1311,6 +1313,7 @@
 			"author": "Jens Lorenz",
 			"homepage": "https://sourceforge.net/projects/npp-plugins/files/Spell-Checker/"
 		},
+		{
 			"folder-name": "sql",
 			"display-name": "SQL",
 			"version": "1.0.0.0",
