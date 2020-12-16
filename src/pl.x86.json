@@ -534,6 +534,16 @@
 			"homepage": "https://github.com/sunjw/jstoolnpp"
 		},
 		{
+			"folder-name": "Kstudio.DocumentsManager",
+			"display-name": "Kstudio.DocumentsManager",
+			"version": "1.0.0.0",
+			"id": "b8f9f64923a053259203a9ac0da4d7feac6725be505062db5376f3837218f846",
+			"repository": "https://3d-kstudio.com/downloads/Kstudio.DocumentsManager.zip",
+			"description": "Documents manager with ability to filter opened documents.",
+			"author": "Alexander Kramer",
+			"homepage": "https://3d-kstudio.com/forum/trackscripts-news/documents-manager-notepad-plugin/"
+		},
+		{
 			"folder-name": "LanguageHelp",
 			"display-name": "LanguageHelp",
 			"version": "1.7.2.0",
