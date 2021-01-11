@@ -96,9 +96,9 @@
 		{
 			"folder-name": "BigFiles",
 			"display-name": "BigFiles - Open Very Large Files",
-			"version": "0.1.2.0",
-			"id": "B98A8BD2D5BAFF86C855F104B8B657F752BB8C61C3D15C16CB8C7A54DD57D1E4",
-			"repository": "https://github.com/superolmo/BigFiles/releases/download/v0.1.2.0.x64/BigFiles.zip",
+			"version": "0.1.3",
+			"id": "BADB0BC15E38FFACBF7112C8FA5F31EAF139D2DC30171CB53CF3B0530426012E",
+			"repository": "https://github.com/superolmo/BigFiles/releases/download/v0.1.3.x64/BigFiles.zip",
 			"description": "Reads very large files. It does this by only showing a small buffer of the file and let the user move back anf forth in the page.\r\nThis is useful when you want to preview very large text files. Opening is done separately from Notepad++ and there is no option to save.\r\nhttps://github.com/superolmo/BigFiles",
 			"author": "Claudio Olmi",
 			"homepage": "https://github.com/superolmo/BigFiles"
