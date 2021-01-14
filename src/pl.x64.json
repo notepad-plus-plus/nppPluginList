@@ -264,6 +264,16 @@
 			"homepage": "https://sourceforge.net/projects/extsettings"
 		},
 		{
+			"folder-name": "FWDataViz",
+			"display-name": "Fixed-width Data Visualizer",
+			"version": "1.0.0.0",
+			"id": "cf39a4f2c5354ea92ddbdf43174c32b70e77d521f963e1a14a5206e285945d22",
+			"repository": "https://github.com/shriprem/FWDataViz/releases/download/1.0.0.0/FWDataViz_x64.zip",
+			"description": "Fixed Width Data Visualizer plugin for Notepad++. Displays cursor position data. Jumps to specific fields. Builtin dialogs to configure file-type, record-type & fields; and themes & colors. Handles homogenous, mixed & multi-line records.",
+			"author": "Shridhar Kumar",
+			"homepage": "https://github.com/shriprem/FWDataViz"
+		},
+		{
 			"folder-name": "GedcomLexer",
 			"display-name": "GEDCOM Lexer",
 			"version": "0.4.0.140",
