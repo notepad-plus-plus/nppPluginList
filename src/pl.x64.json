@@ -1,6 +1,6 @@
 {
 	"name": "npp-pluginList",
-	"version": "1.2.7",
+	"version": "1.2.8",
 	"arch": "64",
 	"npp-plugins": [
 		{
@@ -96,9 +96,9 @@
 		{
 			"folder-name": "BigFiles",
 			"display-name": "BigFiles - Open Very Large Files",
-			"version": "0.1.2.0",
-			"id": "B98A8BD2D5BAFF86C855F104B8B657F752BB8C61C3D15C16CB8C7A54DD57D1E4",
-			"repository": "https://github.com/superolmo/BigFiles/releases/download/v0.1.2.0.x64/BigFiles.zip",
+			"version": "0.1.3",
+			"id": "BADB0BC15E38FFACBF7112C8FA5F31EAF139D2DC30171CB53CF3B0530426012E",
+			"repository": "https://github.com/superolmo/BigFiles/releases/download/v0.1.3.x64/BigFiles.zip",
 			"description": "Reads very large files. It does this by only showing a small buffer of the file and let the user move back anf forth in the page.\r\nThis is useful when you want to preview very large text files. Opening is done separately from Notepad++ and there is no option to save.\r\nhttps://github.com/superolmo/BigFiles",
 			"author": "Claudio Olmi",
 			"homepage": "https://github.com/superolmo/BigFiles"
@@ -264,6 +264,16 @@
 			"homepage": "https://sourceforge.net/projects/extsettings"
 		},
 		{
+			"folder-name": "FWDataViz",
+			"display-name": "Fixed-width Data Visualizer",
+			"version": "1.0.0.0",
+			"id": "cf39a4f2c5354ea92ddbdf43174c32b70e77d521f963e1a14a5206e285945d22",
+			"repository": "https://github.com/shriprem/FWDataViz/releases/download/1.0.0.0/FWDataViz_x64.zip",
+			"description": "Fixed Width Data Visualizer plugin for Notepad++. Displays cursor position data. Jumps to specific fields. Builtin dialogs to configure file-type, record-type & fields; and themes & colors. Handles homogenous, mixed & multi-line records.",
+			"author": "Shridhar Kumar",
+			"homepage": "https://github.com/shriprem/FWDataViz"
+		},
+		{
 			"folder-name": "GedcomLexer",
 			"display-name": "GEDCOM Lexer",
 			"version": "0.4.0.140",
@@ -276,9 +286,9 @@
 		{
 			"folder-name": "GitSCM",
 			"display-name": "GitSCM",
-			"version": "1.4.3.1",
-			"id": "3346c98adbaf900c7763ab69c7310837b16ea9e4292e9534ced807f8e81ccca4",
-			"repository": "https://github.com/vinsworldcom/nppGitSCM/releases/download/1.4.3.1/GitSCM-v1.4.3.1-x64.zip",
+			"version": "1.4.4.2",
+			"id": "43efd3431bbf2da2598fcccb226045ffcb67889952f49a1d4f7a089846afae50",
+			"repository": "https://github.com/vinsworldcom/nppGitSCM/releases/download/1.4.4.2/GitSCM-v1.4.4.2-x64.zip",
 			"description": "N++ Gui for already installed Git SCM for Windows. Optionally TortoiseGit.",
 			"author": "Michael J. Vincent",
 			"homepage": "https://github.com/vinsworldcom/nppGitSCM"
@@ -286,9 +296,9 @@
 		{
 			"folder-name": "GotoLineCol",
 			"display-name": "GotoLineCol",
-			"version": "1.1.0.0",
-			"id": "b1eae6aa7cd3943e58712a46f4fbd42dc646fe73089c333f449cfa756455b020",
-			"repository": "https://github.com/shriprem/Goto-Line-Col-NPP-Plugin/releases/download/1.1.0.0/GotoLineCol_x64.zip",
+			"version": "1.2.0.0",
+			"id": "d52e4d786397f1ca096a99be4c9cbbfc12001c432e939535c51f3413fc77abd2",
+			"repository": "https://github.com/shriprem/Goto-Line-Col-NPP-Plugin/releases/download/1.2.0.0/GotoLineCol_x64.zip",
 			"description": "A plugin to navigate to a specified line and (byte-based or character-based) column position. Will also display character byte code, UTF-8 byte sequence & Unicode code point at cursor position.",
 			"author": "Shridhar Kumar",
 			"homepage": "https://github.com/shriprem/Goto-Line-Col-NPP-Plugin"
@@ -626,9 +636,9 @@
 		{
 			"folder-name": "NppExec",
 			"display-name": "NppExec",
-			"version": "0.6",
-			"id": "0d3edf0ff801edc352430644fb5628e4c6315020973fd9cd2d4410b38f3dc7c4",
-			"repository": "https://sourceforge.net/projects/npp-plugins/files/NppExec/NppExec%20Plugin%20v0.6%20RC2/NppExec_06RC2_dll_x64.zip",
+			"version": "0.6.1",
+			"id": "319a97d689c8a6eeb37e9f3ba9dcd89a5a1e4fda5d4f35da1d67b31cb5a40d44",
+			"repository": "https://github.com/d0vgan/nppexec/releases/download/v061/NppExec_061_dll_x64.zip",
 			"description": "Execute commands or saved scripts without leaving Notepad++.",
 			"author": "Vitaliy Dovgan",
 			"homepage": "https://github.com/d0vgan/nppexec"
@@ -656,9 +666,9 @@
 		{
 			"folder-name": "NppFTP",
 			"display-name": "NppFTP",
-			"version": "0.29.6",
-			"id": "9dd34311c5e2a83e5e2a694666168d07b6b406de04dd5e3245eb6be7fcbf6fa3",
-			"repository": "https://github.com/ashkulz/NppFTP/releases/download/v0.29.6/NppFTP-x64.zip",
+			"version": "0.29.7",
+			"id": "5fadaf425ebaf2ec2b25c2564dff7b170d5afcb0d72739d0c4eec03aa0ff1ef6",
+			"repository": "https://github.com/ashkulz/NppFTP/releases/download/v0.29.7/NppFTP-x64.zip",
 			"description": "Allows FTP, FTPS, FTPES, and SFTP communications. Very useful for web development.",
 			"author": "ashish_kulz",
 			"homepage": "https://ashkulz.github.io/NppFTP/"
@@ -796,9 +806,9 @@
 		{
 			"folder-name": "Python Indent",
 			"display-name": "Python Indent",
-			"version": "1.0.0.2",
-			"id": "e2b4c35f137f949f4278f2f1d2a0a666815a3441ccf102bde2adc829c44c7b20",
-			"repository": "https://sourceforge.net/projects/kered13-notepad-plugins/files/Python%20Indent%20x64%20v1.0.0.2.zip",
+			"version": "1.0.0.3",
+			"id": "bb6898020488fd462b4db92db8070d17a56b01cc8323f90c4e11cf9087cc6b6c",
+			"repository": "https://sourceforge.net/projects/kered13-notepad-plugins/files/Python%20Indent%20x64%20v1.0.0.3.zip",
 			"description": "Python auto-indent plugin.",
 			"author": "Derek Brown",
 			"homepage": "https://sourceforge.net/projects/kered13-notepad-plugins/"
@@ -936,9 +946,9 @@
 		{
 			"folder-name": "SelectToClipboard",
 			"display-name": "Select to Clipboard",
-			"version": "1.0.1",
-			"id": "b2e8851eb9e77ec70b61a27078b312799f23f6a53a6bab06bd915eaa0cba7cbc",
-			"repository": "https://github.com/KubaDee/SelectToClipboard/releases/download/v1.0.1/SelectToClipboard_x64_v1.0.1.zip",
+			"version": "1.0.2",
+			"id": "1e90eee876b13f533100d8965f5b208e38da0c1c31a6597ab93b834f94c702ab",
+			"repository": "https://github.com/KubaDee/SelectToClipboard/releases/download/v1.0.2/SelectToClipboard_x64_v1.0.2.zip",
 			"description": "Auto copy selected text to clipboard. You can automatically copy selected text like in PuTTY (or similar) terminal application.",
 			"author": "Jakub Dvorak",
 			"homepage": "https://github.com/KubaDee/SelectToClipboard"
@@ -1076,9 +1086,9 @@
 		{
 			"folder-name": "XMLTools",
 			"display-name": "XML Tools",
-			"version": "3.1.0.1",
-			"id": "c97bb90e9e7eacbf4fa7dcf1f07388aa4b3586898845bc38cd05900affd11f55",
-			"repository": "https://github.com/morbac/xmltools/releases/download/3.1.0.1/XMLTools-3.1.0.1-x64.zip",
+			"version": "3.1.1.1",
+			"id": "a2a2c7cd85924c889c708e2ae6411d9d4c6e6638e80cb810ebbbca80393c73ae",
+			"repository": "https://github.com/morbac/xmltools/releases/download/3.1.1.1/XMLTools-3.1.1.1-x64.zip",
 			"description": "Small set of useful tools for editing XML. Plugin is MSXML-based. The features are:\r\n- XML syntax Check\r\n- XML Schema (XSD) + DTD Validation\r\n- XML tag autoclose\r\n- Pretty print\n- Linarize XML\r\n- Current XML Path\r\n- Conversion XML &amp;lt;-&amp;gt; Text\n- Comment / Uncomment\r\n- XPath expression evaluation",
 			"author": "Nicolas Crittin",
 			"homepage": "https://github.com/morbac/xmltools"
