@@ -244,6 +244,16 @@
 			"homepage": "https://github.com/dail8859/ElasticTabstops"
 		},
 		{
+			"folder-name": "ERPHelper",
+			"display-name": "ERP Helper",
+			"version": "1.0.0",
+			"id": "f0358f9dab45d09a4a87ee1b6f99a0d2b7d6281e49d2446c2e31a16932960281",
+			"repository": "https://github.com/swhitley/ERPHelper/releases/download/Latest/ERPHelper_x64.zip",
+			"description": "A set of utilities for developing ERP integrations, includes XSL transformation and Workday API SOAP calls.",
+			"author": "Whitley Media",
+			"homepage": "https://github.com/swhitley/erphelper"
+		},
+		{
 			"folder-name": "Explorer",
 			"display-name": "Explorer",
 			"version": "1.9.3.0",
