@@ -204,6 +204,9 @@ def parse(filename):
 bitness_from_input = ""
 if len(sys.argv) > 1:
     bitness_from_input = sys.argv[1]
+else:
+    print('please provide the bitness (x86 or x64) as the first argument')
+    sys.exit(-2)
 print('input: %s' % bitness_from_input)
 if bitness_from_input == 'x64':
     parse("src/pl.x64.json")
