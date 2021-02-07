@@ -7,7 +7,7 @@ import shutil
 import requests
 import zipfile
 from hashlib import sha256
-from jsonschema import Draft4Validator, FormatChecker
+from jsonschema import Draft7Validator, FormatChecker
 import win32api
 from win32api import GetFileVersionInfo, LOWORD, HIWORD
 
@@ -97,7 +97,7 @@ def gen_pl_table(filename):
 def parse(filename):
     try:
         schema = json.loads(open("pl.schema").read())
-        schema = Draft4Validator(schema, format_checker=FormatChecker())
+        schema = Draft7Validator(schema, format_checker=FormatChecker())
     except ValueError as e:
         post_error("pl.schema - " + str(e))
         return
@@ -149,7 +149,7 @@ def parse(filename):
         dll_name = f'{plugin["folder-name"]}.dll'.lower()
 
         # Notepad++ is not case sensitive, but extracting files from the zip is,
-        # so find the exactfile name to use
+        # so find the exact file name to use
         for file in zip.namelist():
             if dll_name == file.lower():
                 dll_name = file
