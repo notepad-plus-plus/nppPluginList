@@ -1157,7 +1157,7 @@
 			"folder-name": "QuickText",
 			"display-name": "QuickText",
 			"version": "0.2.1.1",
-			"id": "68976b44a3c5b356b681b209e53caadad154680831da15a71cf4061848bef668",
+			"id": "a1faffcd1a2bdef716855e479fa223a3ae779f623d346ade3a42aba0d7a8a03e",
 			"repository": "https://github.com/vinsworldcom/nppQuickText/releases/download/0.2.1.1/QuickText-v0.2.1.1-x86.zip",
 			"description": "Quick text substitution, including multi-field inputs. Similar to Tab Triggers in TextMate.",
 			"author": "Joao Moreno, Jing Teng",
