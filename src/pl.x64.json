@@ -256,9 +256,9 @@
 		{
 			"folder-name": "ERPHelper",
 			"display-name": "ERP Helper",
-			"version": "1.0.1",
-			"id": "9b75f3da4ca50cf500a11e552d478f4f92eda8851c6f7a36f58e37c544904db7",
-			"repository": "https://github.com/swhitley/ERPHelper/releases/download/v1.0.1/ERPHelper_x64.zip",
+			"version": "1.0.4",
+			"id": "fdad713c46270f7ea138d997792a639263c6e51ca8a3b1bf22e3eead50988df5",
+			"repository": "https://github.com/swhitley/ERPHelper/releases/download/v1.0.4/ERPHelper_x64.zip",
 			"description": "A set of utilities for developing ERP integrations, includes XSL transformation and Workday API SOAP calls.",
 			"author": "Whitley Media",
 			"homepage": "https://github.com/swhitley/erphelper"
