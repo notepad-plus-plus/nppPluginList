@@ -926,9 +926,9 @@
 		{
 			"folder-name": "NppSaveAsAdmin",
 			"display-name": "Save as admin",
-			"version": "1.0.195",
-			"id": "b47b0f66153ef45458d9bb75372f021733768b83e45933cc845724f85e84b20f",
-			"repository": "https://github.com/Hsilgos/nppsaveasadmin/releases/download/1.0.195/NppSaveAsAdmin_1.0.195_x64.zip",
+			"version": "1.0.211",
+			"id": "69915004273de2fdddbd97b43cf5fec07ced3842c88031416bdb55cd91089ab8",
+			"repository": "https://github.com/Hsilgos/nppsaveasadmin/releases/download/1.0.211/NppSaveAsAdmin_1.0.211_x64.zip",
 			"description": "Allows saving file as administrator with Windows UAC prompt.",
 			"author": "Yauheni Khnykin",
 			"homepage": "https://github.com/Hsilgos/nppsaveasadmin"
