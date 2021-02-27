@@ -326,9 +326,9 @@
 		{
 			"folder-name": "ERPHelper",
 			"display-name": "ERP Helper",
-			"version": "1.0.4",
-			"id": "9d22b172acf5e549e832b5c0a12de6b544e4f813e98e5649fca247a13fba10d9",
-			"repository": "https://github.com/swhitley/ERPHelper/releases/download/v1.0.4/ERPHelper_x86.zip",
+			"version": "1.0.5",
+			"id": "bd7b8a505f967354e6587a1f4278bdc8e0f687ad97e84783a463b00ac3fd1975",
+			"repository": "https://github.com/swhitley/ERPHelper/releases/download/v1.0.5/ERPHelper_x86.zip",
 			"description": "A set of utilities for developing ERP integrations, includes XSL transformation and Workday API SOAP calls.",
 			"author": "Whitley Media",
 			"homepage": "https://github.com/swhitley/erphelper"
@@ -1206,9 +1206,9 @@
 		{
 			"folder-name": "RestApiToText",
 			"display-name": "RestApiToText",
-			"version": "1.1",
-			"id": "ad424d570742af4c252c003ad763f9827e8d7bdf449880034c1136e3809a7097",
-			"repository": "https://github.com/eljefe7000/RestApiToText/raw/master/Release/v1.1/RestApiToText.zip",
+			"version": "1.2",
+			"id": "8d46671df62abc28997813ea1ac741503f31e1d7c49b7e08d93502964e68fa95",
+			"repository": "https://github.com/eljefe7000/RestApiToText/raw/master/Release/v1.2/RestApiToText.zip",
 			"description": "Make REST API calls using content from an editor tab, then see the results in a new tab.\r\nUseful when you want to test a REST API or store the results of a REST call, without the need for an external REST tool.",
 			"author": "Jeffrey Smith",
 			"homepage": "https://github.com/eljefe7000/RestApiToText"
@@ -1236,9 +1236,9 @@
 		{
 			"folder-name": "NppSaveAsAdmin",
 			"display-name": "Save as admin",
-			"version": "1.0.195",
-			"id": "93b7e8f6afd15b378c06bf7b75bb1adb0539ab733ef5504afd30d890cb68112a",
-			"repository": "https://github.com/Hsilgos/nppsaveasadmin/releases/download/1.0.195/NppSaveAsAdmin_1.0.195_x86.zip",
+			"version": "1.0.211",
+			"id": "42426489e84690acaef26d0c3bea6b58e4c772e7ac16b43a43e6b967033331de",
+			"repository": "https://github.com/Hsilgos/nppsaveasadmin/releases/download/1.0.211/NppSaveAsAdmin_1.0.211_x86.zip",
 			"description": "Allows saving file as administrator with Windows UAC prompt.",
 			"author": "Yauheni Khnykin",
 			"homepage": "https://github.com/Hsilgos/nppsaveasadmin"
