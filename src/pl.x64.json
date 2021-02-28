@@ -434,6 +434,16 @@
 			"homepage": "https://github.com/deadem/notepad-pp-linter"
 		},
 		{
+			"folder-name": "LocationNavigate",
+			"display-name": "Location Navigate",
+			"version": "0.4.7.8",
+			"id": "40df7fbc3a4f344a053af5a93e3d6b0d7de733912cb88fb145fe84bbd356f265",
+			"repository": "https://sourceforge.net/projects/locationnav/files/LocationNavigate_v0.4.7.8_x64.zip",
+			"description": "Navigate between your last edit/view points. Useful for code/text edit and view, especially for many and large text files\r\n1. Automatically record the cursor position and modified points\r\n2. You can jump to any position that your cursor has visited.\r\n3. Can use shortcuts (Ctrl+- for previous position and Ctrl+Shift+- for next position) to jump forward and back in code\r\n4. Can jump to any modified points (Ctrl+Alt+Z) back and forward (Ctrl+Alt+Y)\r\n5. History positions are automatically adjusted when text is modified.\r\n6. Can record positions data when application exit and it will be loaded in next run.\r\n7. Can navigate only in current file",
+			"author": "Austin Young",
+			"homepage": "https://sourceforge.net/projects/locationnav/"
+		},
+		{
 			"folder-name": "LuaScript",
 			"display-name": "LuaScript",
 			"version": "0.10",
@@ -512,6 +522,16 @@
 			"description": "Do you have more then 10 open tabs? Then this plugin is for you.\r\nNew and efficient way to quickly navigate between tabs (files). Allows you to search for a symbol or filename, filepath by matching against a keyword you type, and get a real-time preview while going through the search results with the Shift key.\r\nAnd YES, you can uncheck the Multi-line option, in the Preferences &gt; General &gt; Tab Bar zone because you don’t need the multi-lines tab feature anymore :)\r\nAuthor: Oleksii Maryshchenko\r\nEmail: young_developer@mail.ru",
 			"author": "Oleksii Maryshchenko",
 			"homepage": "https://github.com/young-developer/nppNavigateTo"
+		},
+		{
+			"folder-name": "NewFileBrowser",
+			"display-name": "NewFileBrowser",
+			"version": "0.1.4",
+			"id": "86fb4eb8480a872f940da1e1b2f401c731521383badaf14d5107ebfb5e8368a6",
+			"repository": "https://sourceforge.net/projects/locationnav/files/NewFileBrowser_v0.1.4_x64.zip",
+			"description": "Define 20 new file's initial text and have an inner web browser which can run current file.",
+			"author": "Austin Young",
+			"homepage": "https://sourceforge.net/projects/locationnav/"
 		},
 		{
 			"folder-name": "NppBplistPlugin",
