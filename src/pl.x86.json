@@ -1206,8 +1206,8 @@
 		{
 			"folder-name": "RestApiToText",
 			"display-name": "RestApiToText",
-			"version": "1.2.1",
-			"id": "bb06ae2273b85e67ebc31da4e2c785ef5af06fac784b1921c7aaff0d065364dc",
+			"version": "1.2.1.0",
+			"id": "6691d27a9c030007337bb3849dde58148be2aaf6165ac6019c7361b3f3dcadfe",
 			"repository": "https://github.com/eljefe7000/RestApiToText/raw/master/Release/v1.2.1/RestApiToText.zip",
 			"description": "Make REST API calls using content from an editor tab, then see the results in a new tab.\r\nUseful when you want to test a REST API or store the results of a REST call, without the need for an external REST tool.",
 			"author": "Jeffrey Smith",
