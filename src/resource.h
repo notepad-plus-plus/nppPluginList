@@ -1,4 +1,3 @@
-
 // This file is part of Notepad++ project
 // Copyright (C)2018 Don HO <don.h@free.fr>
 //
@@ -34,8 +33,8 @@
 #define PLJSON "pl.x86.json"
 #endif
 
-#define VERSION_VALUE "1.30\0"
+#define VERSION_VALUE "1.3.0\0"
 #define VERSION_DIGITALVALUE 1, 3, 0, 0
 
-#define TEXTFILE        256
+#define TEXTFILE                256
 #define IDR_PLUGINLISTJSONFILE  101
