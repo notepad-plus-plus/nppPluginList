@@ -1,7 +1,6 @@
-![](./nppPlugins.png)
+<img href="https://npp-user-manual.org/docs/plugins/" src="nppPlugins.png" align="left" />
 
-**Notepad++ Plugin List** is an official collection of [Notepad++](https://github.com/notepad-plus-plus/notepad-plus-plus) plugins.  It provides a list of plugins to the built-in Plugin Admin in Notepad++ for the installation/update/deletion of plugins as users desire.
-
+**Notepad++ Plugin List** is an official collection of [Notepad++](https://github.com/notepad-plus-plus/notepad-plus-plus) plugins.  It provides a list of plugins to the built-in Plugin Admin in Notepad++ for the installation/update/deletion of plugins as users desire. <br />
 The list is in JSON format, but encapsulated in a binary (DLL), so it can be signed by a certificate to avoid being hacked. Any Notepad++ plugin is welcome to be submitted here, but please test it locally before doing your PR.
 
 To review the current list of plugins and their features see the generated list of Plugins in either:
@@ -18,5 +17,10 @@ https://community.notepad-plus-plus.org/topic/16566/support-for-plugins-admin-np
 Build Status
 ------------
 
-[![Appveyor build status](https://ci.appveyor.com/api/projects/status/github/notepad-plus-plus/nppPluginList?branch=master&svg=true)](https://ci.appveyor.com/project/donho/nppPluginList)
-[![GitHub release](https://img.shields.io/github/release/notepad-plus-plus/nppPluginList.svg)](https://github.com/notepad-plus-plus/nppPluginList/releases)
+[![Appveyor build status][Appveyor-build-img]][Appveyor-build-url]
+[![GitHub release][Gitlab-img]][Gitlab-url]
+
+[Appveyor-build-img]: https://ci.appveyor.com/api/projects/status/github/notepad-plus-plus/nppPluginList?branch=master&svg=true
+[Appveyor-build-url]: https://ci.appveyor.com/project/donho/nppPluginList
+[Gitlab-img]: https://img.shields.io/github/release/notepad-plus-plus/nppPluginList.svg
+[Gitlab-url]: https://github.com/notepad-plus-plus/nppPluginList/releases
