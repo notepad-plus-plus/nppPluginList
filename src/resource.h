@@ -36,5 +36,5 @@
 #define VERSION_VALUE "1.3.0\0"
 #define VERSION_DIGITALVALUE 1, 3, 0, 0
 
-#define TEXTFILE				256
+#define TEXTFILE                256
 #define IDR_PLUGINLISTJSONFILE  101
