@@ -34,16 +34,6 @@
 			"homepage": "https://sourceforge.net/projects/analyseplugin"
 		},
 		{
-			"folder-name": "AutoCodepage",
-			"display-name": "AutoCodepage",
-			"version": "1.2.4",
-			"id": "88744cda8c4a6be373af2fa23c86156adaf3dc000fde8834957f9352a6f34fec",
-			"repository": "https://sourceforge.net/projects/autocodepage/files/v1.2.4/plugin/x64/AutoCodepage_v1.2.4_x64.zip",
-			"description": "Automatically sets a document's code page to your needs on loading or renaming a document, changing its language or activating its tab. Usefull especially when coding batch scripts.",
-			"author": "Andreas Heim",
-			"homepage": "https://sourceforge.net/projects/autocodepage"
-		},
-		{
 			"folder-name": "nppAutoDetectIndent",
 			"display-name": "Auto Detect Indention",
 			"version": "1.9",
@@ -52,6 +42,16 @@
 			"description": "Detects indention (tab or spaces) and auto adjust Tab key on-the-fly.",
 			"author": "Mike Tzou (Chocobo1)",
 			"homepage": "https://github.com/Chocobo1/nppAutoDetectIndent"
+		},
+		{
+			"folder-name": "AutoCodepage",
+			"display-name": "AutoCodepage",
+			"version": "1.2.4",
+			"id": "88744cda8c4a6be373af2fa23c86156adaf3dc000fde8834957f9352a6f34fec",
+			"repository": "https://sourceforge.net/projects/autocodepage/files/v1.2.4/plugin/x64/AutoCodepage_v1.2.4_x64.zip",
+			"description": "Automatically sets a document's code page to your needs on loading or renaming a document, changing its language or activating its tab. Usefull especially when coding batch scripts.",
+			"author": "Andreas Heim",
+			"homepage": "https://sourceforge.net/projects/autocodepage"
 		},
 		{
 			"folder-name": "AutoEolFormat",
@@ -339,7 +339,7 @@
 			"version": "1.1.0.0",
 			"id": "fd64f3f5a6a3da14dc2f592eb438ce316b207abae189d560680b46e965dd8f55",
 			"repository": "https://fossil.2of4.net/npp_htmltag/doc/v1.1.0/publish/HTMLTag_plugin_latest_64.zip",
-			"description": "Provides three core functions:\r\n- HTML and XML tag jumping, like the built-in brace matching (Ctrl+B / Shift+Ctrl+B), and selection\r\n  of tags and/or contents.\r\n- HTML entity encoding/decoding (example: é to &eacute;)\r\n- JS character encoding/decoding (example: é to \\u00E9)",
+			"description": "Provides three core functions:\r\n- HTML and XML tag jumping, like the built-in brace matching (Ctrl+B / Shift+Ctrl+B), and selection\r\n of tags and/or contents.\r\n- HTML entity encoding/decoding (example: é to &eacute;)\r\n- JS character encoding/decoding (example: é to \\u00E9)",
 			"author": "Martijn Coppoolse",
 			"homepage": "https://fossil.2of4.net/npp_htmltag/"
 		},
@@ -474,16 +474,6 @@
 			"homepage": "https://nea.github.io/MarkdownViewerPlusPlus/"
 		},
 		{
-			"folder-name": "Merge files in one",
-			"display-name": "Merge files in one",
-			"version": "1.2.0.0",
-			"id": "eab174d0f5926a64a75978c7efe2ff508c9bb7c13f7c97eb8bb410afa8604fed",
-			"repository": "https://github.com/gurikbal/Merge-files-in-one/releases/download/1.2.0.0/Merge.files.in.one_x64.zip",
-			"description": "Copy lines from multiple files into one.",
-			"author": "G. Singh",
-			"homepage": "https://github.com/gurikbal/Merge-files-in-one"
-		},
-		{
 			"folder-name": "MenuIcons",
 			"display-name": "MenuIcons",
 			"version": "1.2.2.0",
@@ -492,6 +482,16 @@
 			"description": "Allows adding icons to both main and context menu. Several options are available to load the icons from a folder. More than provide a full set of icons, it's design to enable people to create their own set of icon themes. Note: Does not work correctly in WinXP.",
 			"author": "Franco Stellari",
 			"homepage": "https://github.com/francostellari/NppPlugins"
+		},
+		{
+			"folder-name": "Merge files in one",
+			"display-name": "Merge files in one",
+			"version": "1.2.0.0",
+			"id": "eab174d0f5926a64a75978c7efe2ff508c9bb7c13f7c97eb8bb410afa8604fed",
+			"repository": "https://github.com/gurikbal/Merge-files-in-one/releases/download/1.2.0.0/Merge.files.in.one_x64.zip",
+			"description": "Copy lines from multiple files into one.",
+			"author": "G. Singh",
+			"homepage": "https://github.com/gurikbal/Merge-files-in-one"
 		},
 		{
 			"folder-name": "mimeTools",
@@ -512,6 +512,16 @@
 			"description": "Open and play music files.\r\nSupports: *.wav, *.mp3, *.aiff, *.wma",
 			"author": "Jon Galletero",
 			"homepage": "https://sourceforge.net/projects/nppmusicplayer"
+		},
+		{
+			"folder-name": "MZC8051",
+			"display-name": "MZC8051",
+			"version": "0.0.1",
+			"id": "70c0a56a16fe9334ba2c7468dda6cd64a09eab14fcbd3134b8bb6f29d96d1e70",
+			"repository": "https://github.com/Jiangshan00001/npp_MZC8051/releases/download/0.0.1/MZC8051_x64.zip",
+			"description": "a 8051 c compiler plugin within notepad++.",
+			"author": "Jiangshan00001",
+			"homepage": "https://github.com/Jiangshan00001/npp_MZC8051"
 		},
 		{
 			"folder-name": "NavigateTo",
@@ -562,56 +572,6 @@
 			"description": "Template for making plugin development as easy and simple as possible. Four steps and it's done.",
 			"author": "Don HO",
 			"homepage": "https://npp-user-manual.org/docs/plugins/"
-		},
-		{
-			"folder-name": "nppplugin_svn",
-			"display-name": "Tortoise SVN",
-			"version": "3.0.1",
-			"id": "7EA4A0628EF155AC844FC513C43A0F5A7B06DE62C854087F170E8F9A3B05967B",
-			"repository": "https://github.com/incrediblejr/nppplugins/releases/download/v3.0.1/nppplugin_svn_x64.zip",
-			"description": "Main operations for SVN, with a concept of a root solution directory. Note: Uses Tortoise SVN internally so you have to have this installed. Available at http://tortoisesvn.tigris.org/",
-			"author": "IncredibleJunior",
-			"homepage": "http://www.incrediblejunior.com/npp_plugins/"
-		},
-		{
-			"folder-name": "nppplugin_solutionhub",
-			"display-name": "Solution Hub",
-			"version": "3.0.1",
-			"id": "F795E716299ED1CD4E2F3AE035542AB5F61C9DA3F67D1CA51A57ADA1573B9133",
-			"repository": "https://github.com/incrediblejr/nppplugins/releases/download/v3.0.1/nppplugin_solutionhub_x64.zip",
-			"description": "Base requirement for several plugins from incfred.",
-			"author": "IncredibleJunior",
-			"homepage": "http://www.incrediblejunior.com/npp_plugins/"
-		},
-		{
-			"folder-name": "nppplugin_solutionhub_ui",
-			"display-name": "Solution Hub UI",
-			"version": "3.0.1",
-			"id": "6D04DA30238537B4B3CD1C0854C463A570182E28A42C2158C2148F4615979E89",
-			"repository": "https://github.com/incrediblejr/nppplugins/releases/download/v3.0.1/nppplugin_solutionhub_ui_x64.zip",
-			"description": "Basic UI to create and setup solutions used by the SolutionHub.",
-			"author": "IncredibleJunior",
-			"homepage": "http://www.incrediblejunior.com/npp_plugins/"
-		},
-		{
-			"folder-name": "nppplugin_solutiontools",
-			"display-name": "Solution Tools",
-			"version": "3.0.1",
-			"id": "CE8681308EC4918F1BAEA73BBC058A2627AF32482829964FB76078CDB95356E7",
-			"repository": "https://github.com/incrediblejr/nppplugins/releases/download/v3.0.1/nppplugin_solutiontools_x64.zip",
-			"description": "Configurable priority-based fileswitching (most commonly used when switching between .h and .cpp). Configurable what extensions map to which targets and in what order.\n'goto file' implementation, Ex. stand on a line, press whatever shortcut(or left mouseclick on the line) you have bound to the GOTO command on a line like :\r\n#include \"somefile.h\"\r\nor\r\nrequire 'some_path/to_a_luafile'",
-			"author": "IncredibleJunior",
-			"homepage": "http://www.incrediblejunior.com/npp_plugins/"
-		},
-		{
-			"folder-name": "nppplugin_ofis2",
-			"display-name": "Open File In Solution",
-			"version": "3.0.1",
-			"id": "26EAD2ED387F77AD416DF8D40729D10619BF740B37DD1709A8728AEDEDCB8B38",
-			"repository": "https://github.com/incrediblejr/nppplugins/releases/download/v3.0.1/nppplugin_ofis2_x64.zip",
-			"description": "Lets you index specific folders and possible specific types of resources (XML, CPP, PY files) for a fast indexing of files.",
-			"author": "IncredibleJunior",
-			"homepage": "http://www.incrediblejunior.com/npp_plugins/"
 		},
 		{
 			"folder-name": "NotepadStarterPlugin",
@@ -764,6 +724,16 @@
 			"homepage": "https://sourceforge.net/projects/npp-plugins/files/NppDocShare/"
 		},
 		{
+			"folder-name": "NppPluginOpenHost",
+			"display-name": "NppPluginOpenHost",
+			"version": "1.1.0.0",
+			"id": "dc7118858323bb1d1002533d879c2509fdf3d5319eeb38294d0ff61e16278e14",
+			"repository": "https://github.com/jejemorg/NppPluginOpenHost/blob/main/bin64/NppPluginOpenHost.zip",
+			"description": "Allow to open Host file on Windows",
+			"author": "jejemorg",
+			"homepage": "https://github.com/jejemorg/NppPluginOpenHost/"
+		},
+		{
 			"folder-name": "NppQrCode64",
 			"display-name": "NppQrCode",
 			"version": "0.0.0.1",
@@ -802,6 +772,16 @@
 			"description": "Determine the menu command ID's of Notepad++ menu items and toolbar buttons.",
 			"author": "Andreas Heim",
 			"homepage": "https://github.com/dinkumoil/NppUISpy"
+		},
+		{
+			"folder-name": "nppplugin_ofis2",
+			"display-name": "Open File In Solution",
+			"version": "3.0.1",
+			"id": "26EAD2ED387F77AD416DF8D40729D10619BF740B37DD1709A8728AEDEDCB8B38",
+			"repository": "https://github.com/incrediblejr/nppplugins/releases/download/v3.0.1/nppplugin_ofis2_x64.zip",
+			"description": "Lets you index specific folders and possible specific types of resources (XML, CPP, PY files) for a fast indexing of files.",
+			"author": "IncredibleJunior",
+			"homepage": "http://www.incrediblejunior.com/npp_plugins/"
 		},
 		{
 			"folder-name": "OpenSelection",
@@ -974,16 +954,6 @@
 			"homepage": "https://github.com/npp-plugins/selectnlaunch"
 		},
 		{
-			"folder-name": "SelectQuotedText",
-			"display-name": "SelectQuotedText",
-			"version": "1.0.0",
-			"id": "3e53432d770d39c8d9d004fdc69512764cb82f2468e6f4b9cb61ac51fb618b04",
-			"repository": "https://github.com/ffes/selectquotedtext/releases/download/v1.0.0/SelectQuotedText-100-x64.zip",
-			"description": "Select the text in quotes (aka a string) based on the Scintilla lexers in Notepad++. Just press Alt+' and select the entire string under the cursor. If no string is found, it selects the current word.",
-			"author": "Frank Fesevur",
-			"homepage": "https://www.fesevur.com/selectquotedtext"
-		},
-		{
 			"folder-name": "SelectToClipboard",
 			"display-name": "Select to Clipboard",
 			"version": "1.0.2",
@@ -992,6 +962,16 @@
 			"description": "Auto copy selected text to clipboard. You can automatically copy selected text like in PuTTY (or similar) terminal application.",
 			"author": "Jakub Dvorak",
 			"homepage": "https://github.com/KubaDee/SelectToClipboard"
+		},
+		{
+			"folder-name": "SelectQuotedText",
+			"display-name": "SelectQuotedText",
+			"version": "1.0.0",
+			"id": "3e53432d770d39c8d9d004fdc69512764cb82f2468e6f4b9cb61ac51fb618b04",
+			"repository": "https://github.com/ffes/selectquotedtext/releases/download/v1.0.0/SelectQuotedText-100-x64.zip",
+			"description": "Select the text in quotes (aka a string) based on the Scintilla lexers in Notepad++. Just press Alt+' and select the entire string under the cursor. If no string is found, it selects the current word.",
+			"author": "Frank Fesevur",
+			"homepage": "https://www.fesevur.com/selectquotedtext"
 		},
 		{
 			"folder-name": "SessionMgr",
@@ -1022,6 +1002,36 @@
 			"description": "Adds the possibility to add code snippets to the current document by selecting them from a simple list.",
 			"author": "Frank Fesevur",
 			"homepage": "https://www.fesevur.com/nppsnippets"
+		},
+		{
+			"folder-name": "nppplugin_solutionhub",
+			"display-name": "Solution Hub",
+			"version": "3.0.1",
+			"id": "F795E716299ED1CD4E2F3AE035542AB5F61C9DA3F67D1CA51A57ADA1573B9133",
+			"repository": "https://github.com/incrediblejr/nppplugins/releases/download/v3.0.1/nppplugin_solutionhub_x64.zip",
+			"description": "Base requirement for several plugins from incfred.",
+			"author": "IncredibleJunior",
+			"homepage": "http://www.incrediblejunior.com/npp_plugins/"
+		},
+		{
+			"folder-name": "nppplugin_solutionhub_ui",
+			"display-name": "Solution Hub UI",
+			"version": "3.0.1",
+			"id": "6D04DA30238537B4B3CD1C0854C463A570182E28A42C2158C2148F4615979E89",
+			"repository": "https://github.com/incrediblejr/nppplugins/releases/download/v3.0.1/nppplugin_solutionhub_ui_x64.zip",
+			"description": "Basic UI to create and setup solutions used by the SolutionHub.",
+			"author": "IncredibleJunior",
+			"homepage": "http://www.incrediblejunior.com/npp_plugins/"
+		},
+		{
+			"folder-name": "nppplugin_solutiontools",
+			"display-name": "Solution Tools",
+			"version": "3.0.1",
+			"id": "CE8681308EC4918F1BAEA73BBC058A2627AF32482829964FB76078CDB95356E7",
+			"repository": "https://github.com/incrediblejr/nppplugins/releases/download/v3.0.1/nppplugin_solutiontools_x64.zip",
+			"description": "Configurable priority-based fileswitching (most commonly used when switching between .h and .cpp). Configurable what extensions map to which targets and in what order.\n'goto file' implementation, Ex. stand on a line, press whatever shortcut(or left mouseclick on the line) you have bound to the GOTO command on a line like :\r\n#include \"somefile.h\"\r\nor\r\nrequire 'some_path/to_a_luafile'",
+			"author": "IncredibleJunior",
+			"homepage": "http://www.incrediblejunior.com/npp_plugins/"
 		},
 		{
 			"folder-name": "SQLinFormNpp64",
@@ -1094,6 +1104,26 @@
 			"homepage": "https://github.com/francostellari/NppPlugins"
 		},
 		{
+			"folder-name": "nppplugin_svn",
+			"display-name": "Tortoise SVN",
+			"version": "3.0.1",
+			"id": "7EA4A0628EF155AC844FC513C43A0F5A7B06DE62C854087F170E8F9A3B05967B",
+			"repository": "https://github.com/incrediblejr/nppplugins/releases/download/v3.0.1/nppplugin_svn_x64.zip",
+			"description": "Main operations for SVN, with a concept of a root solution directory. Note: Uses Tortoise SVN internally so you have to have this installed. Available at http://tortoisesvn.tigris.org/",
+			"author": "IncredibleJunior",
+			"homepage": "http://www.incrediblejunior.com/npp_plugins/"
+		},
+		{
+			"folder-name": "urlPlugin",
+			"display-name": "URL Encode/Decode Plugin",
+			"version": "1.1.0.0",
+			"id": "87ae8e9e7a60d05f4c47041cf8c7e631c7c3ce9fef7e33d991e8837f2bbe3943",
+			"repository": "https://github.com/SinghRajenM/nppURLPlugin/releases/download/1.1.0.0/urlPlugin_x64.zip",
+			"description": "Hopefully a decent URL Encoder and Decoder plug-in for Notepad++ which helps to make developer's life easier by providing facility to encode/decode the URL within Notepad++. \r\n\r\nHow it works:\r\n1. Configure setting from menu (Plugins->URL Plugin->URL Plugin Settings). It is not mandatory, but recommended.\r\n2. Select text/URL which you want to encode/decode.\r\n3. Perform your task via Plugins->URL Plugin->Encode/Decode URL.\r\n\r\n",
+			"author": "Rajendra Singh",
+			"homepage": "https://github.com/SinghRajenM/nppURLPlugin"
+		},
+		{
 			"folder-name": "VisualStudioLineCopy",
 			"display-name": "Visual Studio Line Copy",
 			"version": "1.0.0.1",
@@ -1142,36 +1172,6 @@
 			"description": "Tired of zooming your document everytime you just want to scroll but accidentally still holding the [Ctrl] key? Then this is what you want! It disables mouse zoom, keyboard zoom, or both.",
 			"author": "Stanislav Eckert",
 			"homepage": "https://github.com/StanDog/npp-zoomdisabler"
-		},
-		{
-			"folder-name": "urlPlugin",
-			"display-name": "URL Encode/Decode Plugin",
-			"version": "1.1.0.0",
-			"id": "87ae8e9e7a60d05f4c47041cf8c7e631c7c3ce9fef7e33d991e8837f2bbe3943",
-			"repository": "https://github.com/SinghRajenM/nppURLPlugin/releases/download/1.1.0.0/urlPlugin_x64.zip",
-			"description": "Hopefully a decent URL Encoder and Decoder plug-in for Notepad++ which helps to make developer's life easier by providing facility to encode/decode the URL within Notepad++. \r\n\r\nHow it works:\r\n1. Configure setting from menu (Plugins->URL Plugin->URL Plugin Settings). It is not mandatory, but recommended.\r\n2. Select text/URL which you want to encode/decode.\r\n3. Perform your task via Plugins->URL Plugin->Encode/Decode URL.\r\n\r\n",
-			"author": "Rajendra Singh",
-			"homepage": "https://github.com/SinghRajenM/nppURLPlugin"
-		},
-		{
-			"folder-name": "MZC8051",
-			"display-name": "MZC8051",
-			"version": "0.0.1",
-			"id": "70c0a56a16fe9334ba2c7468dda6cd64a09eab14fcbd3134b8bb6f29d96d1e70",
-			"repository": "https://github.com/Jiangshan00001/npp_MZC8051/releases/download/0.0.1/MZC8051_x64.zip",
-			"description": "a 8051 c compiler plugin within notepad++.",
-			"author": "Jiangshan00001",
-			"homepage": "https://github.com/Jiangshan00001/npp_MZC8051"
-		},
-		{
-			"folder-name": "NppPluginOpenHost",
-			"display-name": "NppPluginOpenHost",
-			"version": "1.1.0.0",
-			"id": "dc7118858323bb1d1002533d879c2509fdf3d5319eeb38294d0ff61e16278e14",
-			"repository": "https://github.com/jejemorg/NppPluginOpenHost/blob/main/bin64/NppPluginOpenHost.zip",
-			"description": "Allow to open Host file on Windows",
-			"author": "jejemorg",
-			"homepage": "https://github.com/jejemorg/NppPluginOpenHost/"
 		}
 	]
 }
