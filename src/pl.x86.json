@@ -1592,6 +1592,16 @@
 			"description": "a 8051 c compiler plugin within notepad++.",
 			"author": "Jiangshan00001",
 			"homepage": "https://github.com/Jiangshan00001/npp_MZC8051"
+		},
+		{
+			"folder-name": "NppPluginOpenHost",
+			"display-name": "NppPluginOpenHost",
+			"version": "1.1.0.0",
+			"id": "05cd63ae7b567a1fdda3687ba2acbf51a77798af59b23052fe4b503ed1810e8b",
+			"repository": "https://github.com/jejemorg/NppPluginOpenHost/blob/main/bin64/NppPluginOpenHost.zip",
+			"description": "Allow to open Host file on Windows",
+			"author": "jejemorg",
+			"homepage": "https://github.com/jejemorg/NppPluginOpenHost/"
 		}
 	]
 }
