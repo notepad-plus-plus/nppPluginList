@@ -24,6 +24,16 @@
 			"homepage": "https://sourceforge.net/projects/nppactivexplugin/"
 		},
 		{
+			"folder-name": "AddDateAndTime",
+			"display-name": "Add Date and Time",
+			"version": "1.0",
+			"id": "1BC06E381B9479116FA7203CAF7429A22DCADC432912EB1776DE1601992EF1D5",
+			"repository": "https://github.com/247arjun/writing/blob/main/npp-plugins/AddDateAndTime64.zip",
+			"description": "Add the current Date and Time to the open document in Notepad++",
+			"author": "Arjun G.",
+			"homepage": "https://github.com/247arjun/writing"
+		},
+		{
 			"folder-name": "AnalysePlugin",
 			"display-name": "AnalysePlugin",
 			"version": "1.12.47.0",
