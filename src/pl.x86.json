@@ -204,6 +204,16 @@
 			"homepage": "https://github.com/jsleroy/compare-plugin"
 		},
 		{
+			"folder-name": "CreateNewGuid",
+			"display-name": "Create New GUID",
+			"version": "1.0.0.0",
+			"id": "88A51E78D535142E6EEA3A3ED756C842475164DDC9B1D866E88505505DEF49B4",
+			"repository": "https://github.com/247arjun/writing/blob/main/npp-plugins/CreateNewGuid32.zip",
+			"description": "Create and insert a new GUID to the open document in Notepad++",
+			"author": "Arjun G.",
+			"homepage": "https://github.com/247arjun/writing"
+		},
+		{
 			"folder-name": "CSScriptNpp",
 			"display-name": "CS-Script - C# Intellisense",
 			"version": "1.7.24.0",
