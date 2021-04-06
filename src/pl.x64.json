@@ -794,6 +794,16 @@
 			"homepage": "https://github.com/francostellari/NppPlugins"
 		},
 		{
+			"folder-name": "NppPluginOpenHost",
+			"display-name": "NppPluginOpenHost",
+			"version": "1.1.0.0",
+			"id": "d1fc3584f66cbe28bb21c39e95374f7602a6d1d14ae5c5458eb2a59bc1ead36e",
+			"repository": "https://github.com/jejemorg/NppPluginOpenHost/releases/download/1.1/NppPluginOpenHost.zip",
+			"description": "Allow to open Host file on Windows",
+			"author": "jejemorg",
+			"homepage": "https://github.com/jejemorg/NppPluginOpenHost/"
+		},
+		{
 			"folder-name": "Papyrus",
 			"display-name": "Papyrus Script Lexer",
 			"version": "0.2.0.16",
