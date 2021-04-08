@@ -201,7 +201,7 @@
 			"repository": "https://github.com/pnedev/compare-plugin/releases/download/v2.0.1/ComparePlugin_v2.0.1_x86.zip",
 			"description": "Shows the differences between 2 files (side by side).",
 			"author": "Ty Landercasper, Jean-Sebastien Leroy, Pavel Nedev",
-			"homepage": "https://github.com/jsleroy/compare-plugin"
+			"homepage": "https://github.com/pnedev/compare-plugin"
 		},
 		{
 			"folder-name": "CSScriptNpp",
