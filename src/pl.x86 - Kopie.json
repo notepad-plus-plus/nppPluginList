@@ -1,6 +1,6 @@
 {
 	"name": "npp-pluginList",
-	"version": "1.3.0",
+	"version": "1.2.7",
 	"arch": "32",
 	"npp-plugins": [
 		{
@@ -34,16 +34,6 @@
 			"homepage": "https://sourceforge.net/projects/analyseplugin"
 		},
 		{
-			"folder-name": "nppAutoDetectIndent",
-			"display-name": "Auto Detect Indention",
-			"version": "1.9",
-			"id": "9a8b6395bd30dbceebcf3faeaf7034ce6af4c16071a8e67af96eb62c2a30b7a7",
-			"repository": "https://github.com/Chocobo1/nppAutoDetectIndent/releases/download/1.9/x86.zip",
-			"description": "Detects indention (tab or spaces) and auto adjust Tab key on-the-fly.",
-			"author": "Mike Tzou (Chocobo1)",
-			"homepage": "https://github.com/Chocobo1/nppAutoDetectIndent"
-		},
-		{
 			"folder-name": "AutoCodepage",
 			"display-name": "AutoCodepage",
 			"version": "1.2.4",
@@ -52,6 +42,16 @@
 			"description": "Automatically sets a document's code page to your needs on loading or renaming a document, changing its language or activating its tab. Usefull especially when coding batch scripts.",
 			"author": "Andreas Heim",
 			"homepage": "https://sourceforge.net/projects/autocodepage"
+		},
+		{
+			"folder-name": "nppAutoDetectIndent",
+			"display-name": "Auto Detect Indention",
+			"version": "1.9",
+			"id": "9a8b6395bd30dbceebcf3faeaf7034ce6af4c16071a8e67af96eb62c2a30b7a7",
+			"repository": "https://github.com/Chocobo1/nppAutoDetectIndent/releases/download/1.9/x86.zip",
+			"description": "Detects indention (tab or spaces) and auto adjust Tab key on-the-fly.",
+			"author": "Mike Tzou (Chocobo1)",
+			"homepage": "https://github.com/Chocobo1/nppAutoDetectIndent"
 		},
 		{
 			"folder-name": "AutoEolFormat",
@@ -88,10 +88,10 @@
 			"display-name": "Autosave2",
 			"version": "1.0.0.0",
 			"id": "86ae6ad30b9d34533b160ffe55e6fe57d3e820fb9fd06e169a2b454dbaebd3ee",
-			"repository": "http://www.scout-soft.com/autosave/autosave2.zip",
+			"repository": "https://www.scout-soft.com/autosave/autosave2.zip",
 			"description": "Allows you to automatically save your Notepad++ text with a timestamp.\r\n\r\nThis plugin does create new files (ie. copies) of the currently opened files.\r\nThe original files will not be saved automatically. (So basically, it is more a Autocopy rather than a Autosave)\r\n\r\nUsing a timer schedule and timestamps in the newly created filenames you will have a history of changed files like this:\r\n\r\nToDo.txt.2013-04-19 10.13.09\r\nToDo.txt.2013-04-19 10.14.09\r\nToDo.txt.2013-04-19 10.15.09",
 			"author": "Heinz",
-			"homepage": "http://www.scout-soft.com/autosave"
+			"homepage": "https://www.scout-soft.com/autosave"
 		},
 		{
 			"folder-name": "BetterMultiSelection",
@@ -106,9 +106,9 @@
 		{
 			"folder-name": "BigFiles",
 			"display-name": "BigFiles - Open Very Large Files",
-			"version": "0.1.3",
-			"id": "27E2761DA531C90BA855971F939DF34BFA211B18A863E3B5D907A48615D531D7",
-			"repository": "https://github.com/superolmo/BigFiles/releases/download/v0.1.3.x86/BigFiles.zip",
+			"version": "0.1.1.1",
+			"id": "781128DCC29C2E59D6F5103380FD30E011899B515B1D3CA99385734B6A10982D",
+			"repository": "https://github.com/superolmo/BigFiles/releases/download/0.1.1.1.x86/BigFiles.zip",
 			"description": "Reads very large files. It does this by only showing a small buffer of the file and let the user move back anf forth in the page.\r\nThis is useful when you want to preview very large text files. Opening is done separately from Notepad++ and there is no option to save.\r\nhttps://github.com/superolmo/BigFiles",
 			"author": "Claudio Olmi",
 			"homepage": "https://github.com/superolmo/BigFiles"
@@ -164,24 +164,14 @@
 			"homepage": "https://github.com/p0358/notepadpp-CodeStats"
 		},
 		{
-			"folder-name": "ColumnTools",
-			"display-name": "ColumnTools",
-			"version": "1.4.1.1",
-			"id": "438a673cd2fbeb2fff8a4fae9f744cf31c869988a31ce23b02f808255fd6c4d0",
-			"repository": "https://github.com/vinsworldcom/nppColumnTools/releases/download/1.4.1.1/ColumnTools-v1.4.1.1-x86.zip",
-			"description": "Notepad++ Highlight Current Column and Horizontal Ruler",
-			"author": "Vin's World",
-			"homepage": "https://github.com/vinsworldcom/nppColumnTools"
-		},
-		{
 			"folder-name": "combine",
 			"display-name": "Combine",
 			"version": "1.0.0.0",
 			"id": "064b74cc914b0f5438e0c1ee6f37cad02f8112f7dbe14c67ec24cde21ffe64a1",
-			"repository": "http://www.scout-soft.com/combine/combine.zip",
+			"repository": "https://www.scout-soft.com/combine/combine.zip",
 			"description": "Allows you to combine/merge all currently opened files into one file.",
 			"author": "Heinz",
-			"homepage": "http://www.scout-soft.com/combine"
+			"homepage": "https://www.scout-soft.com/combine"
 		},
 		{
 			"folder-name": "Comment Wrap",
@@ -201,7 +191,7 @@
 			"repository": "https://github.com/pnedev/compare-plugin/releases/download/v2.0.1/ComparePlugin_v2.0.1_x86.zip",
 			"description": "Shows the differences between 2 files (side by side).",
 			"author": "Ty Landercasper, Jean-Sebastien Leroy, Pavel Nedev",
-			"homepage": "https://github.com/pnedev/compare-plugin"
+			"homepage": "https://github.com/jsleroy/compare-plugin"
 		},
 		{
 			"folder-name": "CSScriptNpp",
@@ -244,16 +234,6 @@
 			"homepage": "https://sourceforge.net/projects/customlinenumbers"
 		},
 		{
-			"folder-name": "DarkTheme",
-			"display-name": "Dark Theme Mode",
-			"version": "1.0",
-			"id": "704eb5438934a11fb0b47396a2bbd1d4bc2e6365a6be6bee01606be386e4a1ec",
-			"repository": "https://github.com/MyTDT-Mysoft/DarkTheme-Npp-Plugin/releases/download/v1.0/DarkTheme.zip",
-			"description": "Invert colors of default white themes independent of style configuration",
-			"author": "MyTDT-Mysoft",
-			"homepage": "https://github.com/MyTDT-Mysoft/DarkTheme-Npp-Plugin"
-		},
-		{
 			"folder-name": "dbgpPlugin",
 			"display-name": "DBGp",
 			"version": "0.0.13.27",
@@ -282,6 +262,16 @@
 			"description": "Developer tool for selecting color codes in various formats. Not a color sampling tool.",
 			"author": "Don Rowlett",
 			"homepage": "https://sourceforge.net/projects/npp-plugins/files/ColorPicker/"
+		},
+		{
+			"folder-name": "DarkTheme",
+			"display-name": "Dark Theme Mode",
+			"version": "1.0",
+			"id": "704eb5438934a11fb0b47396a2bbd1d4bc2e6365a6be6bee01606be386e4a1ec",
+			"repository": "https://github.com/MyTDT-Mysoft/DarkTheme-Npp-Plugin/releases/download/v1.0/DarkTheme.zip",
+			"description": "Invert colors of default white themes independent of style configuration",
+			"author": "MyTDT-Mysoft",
+			"homepage": "https://github.com/MyTDT-Mysoft/DarkTheme-Npp-Plugin"
 		},
 		{
 			"folder-name": "DoxyIt",
@@ -324,21 +314,11 @@
 			"homepage": "https://github.com/dail8859/ElasticTabstops"
 		},
 		{
-			"folder-name": "ERPHelper",
-			"display-name": "ERP Helper",
-			"version": "1.0.6",
-			"id": "4b00cc8b3a92964c4c189fb62fd05739be3bbfc56c88818599f643a00145ffdb",
-			"repository": "https://github.com/swhitley/ERPHelper/releases/download/v1.0.6/ERPHelper_x86.zip",
-			"description": "A set of utilities for developing ERP integrations, includes XSL transformation and Workday API SOAP calls.",
-			"author": "Whitley Media",
-			"homepage": "https://github.com/swhitley/erphelper"
-		},
-		{
 			"folder-name": "Explorer",
 			"display-name": "Explorer",
-			"version": "1.9.4.0",
-			"id": "3d59fe5e1a3a6256f8d51dd4b9a4e5507f88f39c643e2790c000c5450ed1655d",
-			"repository": "https://github.com/oviradoi/npp-explorer-plugin/releases/download/v1.9.4/Explorer.zip",
+			"version": "1.9.3.0",
+			"id": "e8adce3767177612cec9b3d3a7d4e7eeb3c2ae1a3d467f9ef6cd1078570718fe",
+			"repository": "https://github.com/oviradoi/npp-explorer-plugin/releases/download/v1.9.3/Explorer.zip",
 			"description": "File browser. You can open whatever you want from it in Notepad++, just double click!",
 			"author": "Jens Lorenz",
 			"homepage": "https://github.com/oviradoi/npp-explorer-plugin"
@@ -394,16 +374,6 @@
 			"homepage": "https://sourceforge.net/projects/fingertext/"
 		},
 		{
-			"folder-name": "FWDataViz",
-			"display-name": "Fixed-width Data Visualizer",
-			"version": "1.0.2.0",
-			"id": "5fdef151203ea579306d727520eb84cbc7ce1dd91b9002b9a09ddda43eefcab5",
-			"repository": "https://github.com/shriprem/FWDataViz/releases/download/1.0.2.0/FWDataViz_x86.zip",
-			"description": "Fixed Width Data Visualizer adds Excel-like features for fixed-width data files in Notepad++. Displays cursor position data. Jump to specific fields. Builtin dialogs to configure file-type, record-type & fields; and themes & colors. Automatic File Type Detection. Handles homogenous, mixed & multi-line records.",
-			"author": "Shridhar Kumar",
-			"homepage": "https://github.com/shriprem/FWDataViz"
-		},
-		{
 			"folder-name": "GedcomLexer",
 			"display-name": "GEDCOM Lexer",
 			"version": "0.4.0.140",
@@ -446,9 +416,9 @@
 		{
 			"folder-name": "GotoLineCol",
 			"display-name": "GotoLineCol",
-			"version": "1.2.0.0",
-			"id": "bfd6b159f279edd8c222657205d1ab6a7acada486b3aeb351bb780e4de350997",
-			"repository": "https://github.com/shriprem/Goto-Line-Col-NPP-Plugin/releases/download/1.2.0.0/GotoLineCol_x86.zip",
+			"version": "1.1.0.0",
+			"id": "a7aa96a8d927398bac6a17e669d19c1ca5d6c6fb01c3be14b0ab5e69cabb6af2",
+			"repository": "https://github.com/shriprem/Goto-Line-Col-NPP-Plugin/releases/download/1.1.0.0/GotoLineCol_x86.zip",
 			"description": "A plugin to navigate to a specified line and (byte-based or character-based) column position. Will also display character byte code, UTF-8 byte sequence & Unicode code point at cursor position.",
 			"author": "Shridhar Kumar",
 			"homepage": "https://github.com/shriprem/Goto-Line-Col-NPP-Plugin"
@@ -479,7 +449,7 @@
 			"version": "1.1.0.0",
 			"id": "d956aebc3cde36fbe87d128ece490c1227deff4470478973ab1affdd80fa3d5a",
 			"repository": "https://fossil.2of4.net/npp_htmltag/doc/v1.1.0/publish/HTMLTag_plugin_latest_unicode.zip",
-			"description": "Provides three core functions:\r\n- HTML and XML tag jumping, like the built-in brace matching (Ctrl+B / Shift+Ctrl+B), and selection\r\n of tags and/or contents.\r\n- HTML entity encoding/decoding (example: é to &eacute;)\r\n- JS character encoding/decoding (example: é to \\u00E9)",
+			"description": "Provides three core functions:\r\n- HTML and XML tag jumping, like the built-in brace matching (Ctrl+B / Shift+Ctrl+B), and selection\r\n  of tags and/or contents.\r\n- HTML entity encoding/decoding (example: é to &eacute;)\r\n- JS character encoding/decoding (example: é to \\u00E9)",
 			"author": "Martijn Coppoolse",
 			"homepage": "https://fossil.2of4.net/npp_htmltag/"
 		},
@@ -598,10 +568,10 @@
 			"display-name": "Linefilter2",
 			"version": "1.1.0.0",
 			"id": "4b75c44ba024d8f18062c47bee35cdac7493d10daf70bbf3ccef153f19e585bb",
-			"repository": "http://www.scout-soft.com/linefilter/linefilter2.zip",
+			"repository": "https://www.scout-soft.com/linefilter/linefilter2.zip",
 			"description": "Allows filtering text for a search string.\r\n- Display search result in new Notepad++ window\r\n- Display line number of original text\r\n- Hits can be highlighted\r\n- Display lines before and after a hit\r\n- Perl compatible regular expressions.",
 			"author": "Heinz",
-			"homepage": "http://www.scout-soft.com/linefilter"
+			"homepage": "https://www.scout-soft.com/linefilter"
 		},
 		{
 			"folder-name": "Linefilter3",
@@ -613,15 +583,14 @@
 			"author": "SeeliSoft",
 			"homepage": "https://www.seelisoft.net/Linefilter3/"
 		},
-		{
 			"folder-name": "linesort",
 			"display-name": "Linesort",
 			"version": "1.0.0.0",
 			"id": "bcc6d3f6a7bc5a1578b8007b4bd40ea5721dfae8875670fff8a5ff895f3c0013",
-			"repository": "http://www.scout-soft.com/linesort/linesort.zip",
+			"repository": "https://www.scout-soft.com/linefilter/linefilter2.zip",
 			"description": "Allows to sort lines.\r\n- Display search result in new Notepad++ window\r\n- Different sort options:\r\n-- sort selected text\r\n-- sort by leading numbers (numerically)\r\n-- sort by line length\r\n-- sort by characters from the right side of lines (x last characters)\r\n-- remove duplicates (unique lines in result)\r\n-- remove empty lines\r\n-- remove leading numbers",
 			"author": "Heinz",
-			"homepage": "http://www.scout-soft.com/linesort"
+			"homepage": "https://www.scout-soft.com/linefilter"
 		},
 		{
 			"folder-name": "Linter",
@@ -674,16 +643,6 @@
 			"homepage": "https://nea.github.io/MarkdownViewerPlusPlus/"
 		},
 		{
-			"folder-name": "MenuIcons",
-			"display-name": "MenuIcons",
-			"version": "1.2.2.0",
-			"id": "f10878fba05032fe159c94c7e4144a26f0f2971bd884e4e49bf890d7d2743124",
-			"repository": "https://github.com/francostellari/NppPlugins/raw/main/MenuIcons/MenuIcons_dll_1v22_x32.zip",
-			"description": "Allows adding icons to both main and context menu. Several options are available to load the icons from a folder. More than provide a full set of icons, it's design to enable people to create their own set of icon themes. Note: Does not work correctly in WinXP.",
-			"author": "Franco Stellari",
-			"homepage": "https://github.com/francostellari/NppPlugins"
-		},
-		{
 			"folder-name": "Merge files in one",
 			"display-name": "Merge files in one",
 			"version": "1.2.0.0",
@@ -692,6 +651,16 @@
 			"description": "Copy lines from multiple files into one.",
 			"author": "G. Singh",
 			"homepage": "https://github.com/gurikbal/Merge-files-in-one"
+		},
+		{
+			"folder-name": "MenuIcons",
+			"display-name": "MenuIcons",
+			"version": "1.2.2.0",
+			"id": "f10878fba05032fe159c94c7e4144a26f0f2971bd884e4e49bf890d7d2743124",
+			"repository": "https://github.com/francostellari/NppPlugins/raw/main/MenuIcons/MenuIcons_dll_1v22_x32.zip",
+			"description": "Allows adding icons to both main and context menu. Several options are available to load the icons from a folder. More than provide a full set of icons, it's design to enable people to create their own set of icon themes. Note: Does not work correctly in WinXP.",
+			"author": "Franco Stellari",
+			"homepage": "https://github.com/francostellari/NppPlugins"
 		},
 		{
 			"folder-name": "mimeTools",
@@ -722,16 +691,6 @@
 			"description": "Open and play music files.\r\nSupports: *.wav, *.mp3, *.aiff, *.wma",
 			"author": "Jon Galletero",
 			"homepage": "https://sourceforge.net/projects/nppmusicplayer"
-		},
-		{
-			"folder-name": "MZC8051",
-			"display-name": "MZC8051",
-			"version": "0.0.1",
-			"id": "fd8b7aeb3e6bfb0467b3fb46b4a01beb660a6a54d6f9867191982c6c6fa8a8e9",
-			"repository": "https://github.com/Jiangshan00001/npp_MZC8051/releases/download/0.0.1/MZC8051_x86.zip",
-			"description": "a 8051 c compiler plugin within notepad++.",
-			"author": "Jiangshan00001",
-			"homepage": "https://github.com/Jiangshan00001/npp_MZC8051"
 		},
 		{
 			"folder-name": "NativeLang",
@@ -792,6 +751,56 @@
 			"description": "Template for making plugin development as easy and simple as possible. Four steps and it's done.",
 			"author": "Don HO",
 			"homepage": "https://npp-user-manual.org/docs/plugins/"
+		},
+		{
+			"folder-name": "nppplugin_svn",
+			"display-name": "Tortoise SVN",
+			"version": "3.0.1",
+			"id": "6924B5D1E620E848D289E14AB9712387A5C5D979F878EE25C219F5C1A1346759",
+			"repository": "https://github.com/incrediblejr/nppplugins/releases/download/v3.0.1/nppplugin_svn_x86.zip",
+			"description": "Main operations for SVN, with a concept of a root solution directory. Note: Uses Tortoise SVN internally so you have to have this installed. Available at http://tortoisesvn.tigris.org/",
+			"author": "IncredibleJunior",
+			"homepage": "http://www.incrediblejunior.com/npp_plugins/"
+		},
+		{
+			"folder-name": "nppplugin_solutionhub",
+			"display-name": "Solution Hub",
+			"version": "3.0.1",
+			"id": "F79A742BFDE5D7BE68EE0CEF927E83DE8FE89AAE599A9ADE06404279355B574F",
+			"repository": "https://github.com/incrediblejr/nppplugins/releases/download/v3.0.1/nppplugin_solutionhub_x86.zip",
+			"description": "Base requirement for several plugins from incfred.",
+			"author": "IncredibleJunior",
+			"homepage": "http://www.incrediblejunior.com/npp_plugins/"
+		},
+		{
+			"folder-name": "nppplugin_solutionhub_ui",
+			"display-name": "Solution Hub UI",
+			"version": "3.0.1",
+			"id": "890DA2546BAB49E5926F971DBD5B3B21D34CDB4D7A3A817C502261570E0F73C4",
+			"repository": "https://github.com/incrediblejr/nppplugins/releases/download/v3.0.1/nppplugin_solutionhub_ui_x86.zip",
+			"description": "Basic UI to create and setup solutions used by the SolutionHub.",
+			"author": "IncredibleJunior",
+			"homepage": "http://www.incrediblejunior.com/npp_plugins/"
+		},
+		{
+			"folder-name": "nppplugin_solutiontools",
+			"display-name": "Solution Tools",
+			"version": "3.0.1",
+			"id": "108CA6263C456A9832B07BB373F1EDAAA5ECB513277ED319873EF89E9B51CBE8",
+			"repository": "https://github.com/incrediblejr/nppplugins/releases/download/v3.0.1/nppplugin_solutiontools_x86.zip",
+			"description": "Configurable priority-based fileswitching (most commonly used when switching between .h and .cpp). Configurable what extensions map to which targets and in what order.\n'goto file' implementation, Ex. stand on a line, press whatever shortcut(or left mouseclick on the line) you have bound to the GOTO command on a line like :\r\n#include \"somefile.h\"\r\nor\r\nrequire 'some_path/to_a_luafile'",
+			"author": "IncredibleJunior",
+			"homepage": "http://www.incrediblejunior.com/npp_plugins/"
+		},
+		{
+			"folder-name": "nppplugin_ofis2",
+			"display-name": "Open File In Solution",
+			"version": "3.0.1",
+			"id": "9306E7EBAF36247C61F26C7F215518835A7BD96EAD37458A8F2BE295CDF08CDB",
+			"repository": "https://github.com/incrediblejr/nppplugins/releases/download/v3.0.1/nppplugin_ofis2_x86.zip",
+			"description": "Lets you index specific folders and possible specific types of resources (XML, CPP, PY files) for a fast indexing of files.",
+			"author": "IncredibleJunior",
+			"homepage": "http://www.incrediblejunior.com/npp_plugins/"
 		},
 		{
 			"folder-name": "NotepadStarterPlugin",
@@ -866,9 +875,9 @@
 		{
 			"folder-name": "NppExec",
 			"display-name": "NppExec",
-			"version": "0.6.2",
-			"id": "d37080083dfa87b869adaac63364e853a806681d9b3fd58118fab045dc38ea3e",
-			"repository": "https://github.com/d0vgan/nppexec/releases/download/v062/NppExec_062_dll.zip",
+			"version": "0.6.1",
+			"id": "015b786f45f9a73f09e0b256acad13d0160ad3ae11376ff43e28dc46fc20f56b",
+			"repository": "https://github.com/d0vgan/nppexec/releases/download/v061/NppExec_061_dll.zip",
 			"description": "Execute commands or saved scripts without leaving Notepad++.",
 			"author": "Vitaliy Dovgan",
 			"homepage": "https://github.com/d0vgan/nppexec"
@@ -964,16 +973,6 @@
 			"homepage": "https://sourceforge.net/projects/npp-plugins/files/NppDocShare/"
 		},
 		{
-			"folder-name": "NppPluginOpenHost",
-			"display-name": "NppPluginOpenHost",
-			"version": "1.1.0.0",
-			"id": "05cd63ae7b567a1fdda3687ba2acbf51a77798af59b23052fe4b503ed1810e8b",
-			"repository": "https://github.com/jejemorg/NppPluginOpenHost/raw/main/bin/NppPluginOpenHost.zip",
-			"description": "Allow to open Host file on Windows",
-			"author": "jejemorg",
-			"homepage": "https://github.com/jejemorg/NppPluginOpenHost/"
-		},
-		{
 			"folder-name": "NppQrCode32",
 			"display-name": "NppQrCode",
 			"version": "0.0.0.1",
@@ -1014,16 +1013,6 @@
 			"homepage": "https://github.com/dinkumoil/NppUISpy"
 		},
 		{
-			"folder-name": "nppplugin_ofis2",
-			"display-name": "Open File In Solution",
-			"version": "3.0.1",
-			"id": "9306E7EBAF36247C61F26C7F215518835A7BD96EAD37458A8F2BE295CDF08CDB",
-			"repository": "https://github.com/incrediblejr/nppplugins/releases/download/v3.0.1/nppplugin_ofis2_x86.zip",
-			"description": "Lets you index specific folders and possible specific types of resources (XML, CPP, PY files) for a fast indexing of files.",
-			"author": "IncredibleJunior",
-			"homepage": "http://www.incrediblejunior.com/npp_plugins/"
-		},
-		{
 			"folder-name": "OpenSelection",
 			"display-name": "OpenSelection",
 			"version": "1.1.2.0",
@@ -1042,16 +1031,6 @@
 			"description": "Implements code completion for custom PHP classes. Keeps an overview over your classes' attributes &amp; methods in a nice popup!\r\nA popup window appears after typing the \"-&gt;\" or \"::\" behind a class or an instantiated object variable which displays all attributes and methods of it's class. As soon as the popup appears you can type in the name of the method or attribute you are looking for and the plugin will select it in the list automatically. Hitting [return] or double clicking the entry will insert the name of the property to your script. Additionally, there is a list with all classes and their properties in a dockable window. Double-clicking this entry opens their file &amp; jumps right to the declaration. The list also offers a quick search function.",
 			"author": "Stanislav Eckert",
 			"homepage": "https://github.com/StanDog/npp-phpautocompletion"
-		},
-		{
-			"folder-name": "Papyrus",
-			"display-name": "Papyrus Script Lexer",
-			"version": "0.2.0.16",
-			"id": "0354a2cef66cdaaba7541775dd308b8a23c834110d7460e190a4a25d6ec084e9",
-			"repository": "https://github.com/blu3mania/npp-papyrus/releases/download/v0.2.0/PapyrusPlugin-v0.2.0-x86.zip",
-			"description": "View and edit Papyrus Script files used by Bethesda games with syntax highlighting, function and block folding, hyperlinks to referenced scripts, keywords matching, plus compilation support with anonymized output and error list view.",
-			"author": "blu3mania",
-			"homepage": "https://github.com/blu3mania/npp-papyrus"
 		},
 		{
 			"folder-name": "PoorMansTSqlFormatterNppPlugin",
@@ -1082,16 +1061,6 @@
 			"description": "Preview HTML files inside Notepad++ (or in a floating window) without having to save them first.",
 			"author": "Martijn Coppoolse",
 			"homepage": "https://fossil.2of4.net/npp_preview"
-		},
-		{
-			"folder-name": "print",
-			"display-name": "Print All",
-			"version": "1.0.0.0",
-			"id": "45229a9def21e2bb5ba6a3fbd8c1af5f3cd1855dfe90c322082d711e2a0b148b",
-			"repository": "http://www.scout-soft.com/print/print.zip",
-			"description": "Allows to print all currently opened texts.\r\n- automatically prints all texts that are currently open\r\n- uses \"Print now\".",
-			"author": "Heinz",
-			"homepage": "http://www.scout-soft.com/print"
 		},
 		{
 			"folder-name": "PyNPP",
@@ -1129,7 +1098,7 @@
 			"version": "2.0",
 			"id": "ce03eb04f13a29c60435fee23032b7414c22614cfe00f07e160d687dc1faed87",
 			"repository": "https://s3-ap-southeast-1.amazonaws.com/nppqcp/nppqcp-2.0.zip",
-			"description": "HEX/RGB/RGBA/HSL/HSLA color code highlighter.\r\n* Double-click activation of Color Picker\r\n* Allow assigning hotkeys for Color Picker and Screen Picker\r\n* Professional color palette\r\n* Quick HSLA color tuning\n* Screen color picker\r\n* Access Windows Color Chooser",
+			"description": "HEX/RGB/RGBA/HSL/HSLA color code highlighter.\r\n* Double-click activation of Color Picker\r\n* Allow assigning hotkeys for Color Picker and Screen Picker\r\n* Professional color palette\r\n* Quick HSLA color tuning\n* Screen color picker\r\n*  Access Windows Color Chooser",
 			"author": "NPlus",
 			"homepage": "https://github.com/nulled666/nppqcp/"
 		},
@@ -1146,9 +1115,9 @@
 		{
 			"folder-name": "QuickText",
 			"display-name": "QuickText",
-			"version": "0.2.1.1",
-			"id": "a1faffcd1a2bdef716855e479fa223a3ae779f623d346ade3a42aba0d7a8a03e",
-			"repository": "https://github.com/vinsworldcom/nppQuickText/releases/download/0.2.1.1/QuickText-v0.2.1.1-x86.zip",
+			"version": "0.1.4.1",
+			"id": "61dbd173fe00a755b0a53529f43d6826e4f7ee34d566b15f228dcd4817f652d2",
+			"repository": "https://github.com/vinsworldcom/nppQuickText/releases/download/0.1.4.1/QuickText-v0.1.4.1-x86.zip",
 			"description": "Quick text substitution, including multi-field inputs. Similar to Tab Triggers in TextMate.",
 			"author": "Joao Moreno, Jing Teng",
 			"homepage": "https://github.com/vinsworldcom/nppQuickText"
@@ -1196,9 +1165,9 @@
 		{
 			"folder-name": "RestApiToText",
 			"display-name": "RestApiToText",
-			"version": "1.3.0.0",
-			"id": "264a062832a533bcdd9f47c2e40ced9eb66dc9ca42a2450d9718457757d927f6",
-			"repository": "https://github.com/eljefe7000/RestApiToText/raw/master/Release/v1.3.0.0/RestApiToText.zip",
+			"version": "1.0",
+			"id": "53cc31e593c0b6c3d0fbf232dab66005686b37559cea5234acfafeb9ed6eb8b7",
+			"repository": "https://github.com/eljefe7000/RestApiToText/raw/master/Release/RestApiToText.zip",
 			"description": "Make REST API calls using content from an editor tab, then see the results in a new tab.\r\nUseful when you want to test a REST API or store the results of a REST call, without the need for an external REST tool.",
 			"author": "Jeffrey Smith",
 			"homepage": "https://github.com/eljefe7000/RestApiToText"
@@ -1226,9 +1195,9 @@
 		{
 			"folder-name": "NppSaveAsAdmin",
 			"display-name": "Save as admin",
-			"version": "1.0.211",
-			"id": "42426489e84690acaef26d0c3bea6b58e4c772e7ac16b43a43e6b967033331de",
-			"repository": "https://github.com/Hsilgos/nppsaveasadmin/releases/download/1.0.211/NppSaveAsAdmin_1.0.211_x86.zip",
+			"version": "1.0.195",
+			"id": "93b7e8f6afd15b378c06bf7b75bb1adb0539ab733ef5504afd30d890cb68112a",
+			"repository": "https://github.com/Hsilgos/nppsaveasadmin/releases/download/1.0.195/NppSaveAsAdmin_1.0.195_x86.zip",
 			"description": "Allows saving file as administrator with Windows UAC prompt.",
 			"author": "Yauheni Khnykin",
 			"homepage": "https://github.com/Hsilgos/nppsaveasadmin"
@@ -1254,16 +1223,6 @@
 			"homepage": "https://github.com/npp-plugins/selectnlaunch"
 		},
 		{
-			"folder-name": "SelectToClipboard",
-			"display-name": "Select to Clipboard",
-			"version": "1.0.2",
-			"id": "bbfe20a7ba625638901d0f455dd7b7e6dde1da61c7be3431d3d6e16eaf5fe9f5",
-			"repository": "https://github.com/KubaDee/SelectToClipboard/releases/download/v1.0.2/SelectToClipboard_x86_v1.0.2.zip",
-			"description": "Auto copy selected text to clipboard. You can automatically copy selected text like in PuTTY (or similar) terminal application.",
-			"author": "Jakub Dvorak",
-			"homepage": "https://github.com/KubaDee/SelectToClipboard"
-		},
-		{
 			"folder-name": "SelectQuotedText",
 			"display-name": "SelectQuotedText",
 			"version": "1.0.0",
@@ -1272,6 +1231,16 @@
 			"description": "Select the text in quotes (aka a string) based on the Scintilla lexers in Notepad++. Just press Alt+' and select the entire string under the cursor. If no string is found, it selects the current word.",
 			"author": "Frank Fesevur",
 			"homepage": "https://www.fesevur.com/selectquotedtext"
+		},
+		{
+			"folder-name": "SelectToClipboard",
+			"display-name": "Select to Clipboard",
+			"version": "1.0.2",
+			"id": "bbfe20a7ba625638901d0f455dd7b7e6dde1da61c7be3431d3d6e16eaf5fe9f5",
+			"repository": "https://github.com/KubaDee/SelectToClipboard/releases/download/v1.0.2/SelectToClipboard_x86_v1.0.2.zip",
+			"description": "Auto copy selected text to clipboard. You can automatically copy selected text like in PuTTY (or similar) terminal application.",
+			"author": "Jakub Dvorak",
+			"homepage": "https://github.com/KubaDee/SelectToClipboard"
 		},
 		{
 			"folder-name": "SessionMgr",
@@ -1314,36 +1283,6 @@
 			"homepage": "https://www.fesevur.com/nppsnippets"
 		},
 		{
-			"folder-name": "nppplugin_solutionhub",
-			"display-name": "Solution Hub",
-			"version": "3.0.1",
-			"id": "F79A742BFDE5D7BE68EE0CEF927E83DE8FE89AAE599A9ADE06404279355B574F",
-			"repository": "https://github.com/incrediblejr/nppplugins/releases/download/v3.0.1/nppplugin_solutionhub_x86.zip",
-			"description": "Base requirement for several plugins from incfred.",
-			"author": "IncredibleJunior",
-			"homepage": "http://www.incrediblejunior.com/npp_plugins/"
-		},
-		{
-			"folder-name": "nppplugin_solutionhub_ui",
-			"display-name": "Solution Hub UI",
-			"version": "3.0.1",
-			"id": "890DA2546BAB49E5926F971DBD5B3B21D34CDB4D7A3A817C502261570E0F73C4",
-			"repository": "https://github.com/incrediblejr/nppplugins/releases/download/v3.0.1/nppplugin_solutionhub_ui_x86.zip",
-			"description": "Basic UI to create and setup solutions used by the SolutionHub.",
-			"author": "IncredibleJunior",
-			"homepage": "http://www.incrediblejunior.com/npp_plugins/"
-		},
-		{
-			"folder-name": "nppplugin_solutiontools",
-			"display-name": "Solution Tools",
-			"version": "3.0.1",
-			"id": "108CA6263C456A9832B07BB373F1EDAAA5ECB513277ED319873EF89E9B51CBE8",
-			"repository": "https://github.com/incrediblejr/nppplugins/releases/download/v3.0.1/nppplugin_solutiontools_x86.zip",
-			"description": "Configurable priority-based fileswitching (most commonly used when switching between .h and .cpp). Configurable what extensions map to which targets and in what order.\n'goto file' implementation, Ex. stand on a line, press whatever shortcut(or left mouseclick on the line) you have bound to the GOTO command on a line like :\r\n#include \"somefile.h\"\r\nor\r\nrequire 'some_path/to_a_luafile'",
-			"author": "IncredibleJunior",
-			"homepage": "http://www.incrediblejunior.com/npp_plugins/"
-		},
-		{
 			"folder-name": "SourceCookifier",
 			"display-name": "Source Cookifier",
 			"version": "0.7.3",
@@ -1362,16 +1301,6 @@
 			"description": "Correct your typos in your language. Before using, must install GNU Aspell and a dictionary for your language(s) in the Aspell directory. Aspell and dictionaries are available from http://aspell.net/win32",
 			"author": "Jens Lorenz",
 			"homepage": "https://sourceforge.net/projects/npp-plugins/files/Spell-Checker/"
-		},
-		{
-			"folder-name": "sql",
-			"display-name": "SQL",
-			"version": "1.0.0.0",
-			"id": "6fb01eb7485d150a9e17ae89efd99b78e610e4594b35b33cd7b4462eb34f2b46",
-			"repository": "http://www.scout-soft.com/sql/sql.zip",
-			"description": "Allows to search\filter a CSV formatted text in a Notepad++ window using standard SQL queries.\r\n- Supports standard SQL statements",
-			"author": "Heinz",
-			"homepage": "http://www.scout-soft.com/sql"
 		},
 		{
 			"folder-name": "SQLinFormNpp",
@@ -1484,16 +1413,6 @@
 			"homepage": "https://github.com/francostellari/NppPlugins"
 		},
 		{
-			"folder-name": "nppplugin_svn",
-			"display-name": "Tortoise SVN",
-			"version": "3.0.1",
-			"id": "6924B5D1E620E848D289E14AB9712387A5C5D979F878EE25C219F5C1A1346759",
-			"repository": "https://github.com/incrediblejr/nppplugins/releases/download/v3.0.1/nppplugin_svn_x86.zip",
-			"description": "Main operations for SVN, with a concept of a root solution directory. Note: Uses Tortoise SVN internally so you have to have this installed. Available at http://tortoisesvn.tigris.org/",
-			"author": "IncredibleJunior",
-			"homepage": "http://www.incrediblejunior.com/npp_plugins/"
-		},
-		{
 			"folder-name": "Translate",
 			"display-name": "Translate",
 			"version": "3.1.1.0",
@@ -1502,16 +1421,6 @@
 			"description": "Provides quick translation of selected text to your language of choice. Just select the text and press Ctrl+Alt+Z. Supports multiple languages.\r\nSupports two translation engines:\r\n1) MyMemory (Free)\r\n2) BING (Free but requires registration to obtain Client ID and Secret).\r\nSee Engine Settings after installation.\r\nRequires .NET Framework 3.5.",
 			"author": "Shaleen Mishra",
 			"homepage": "https://sourceforge.net/projects/npptranslate/"
-		},
-		{
-			"folder-name": "urlPlugin",
-			"display-name": "URL Encode/Decode Plugin",
-			"version": "1.1.0.0",
-			"id": "b016bcf657884a43cd31ed7d022c51296db93ec303896a7c8ae83f2d510ea808",
-			"repository": "https://github.com/SinghRajenM/nppURLPlugin/releases/download/1.1.0.0/urlPlugin_x86.zip",
-			"description": "Hopefully a decent URL Encoder and Decoder plug-in for Notepad++ which helps to make developer's life easier by providing facility to encode/decode the URL within Notepad++. \r\n\r\nHow it works:\r\n1. Configure setting from menu (Plugins->URL Plugin->URL Plugin Settings). It is not mandatory, but recommended.\r\n2. Select text/URL which you want to encode/decode.\r\n3. Perform your task via Plugins->URL Plugin->Encode/Decode URL.\r\n\r\n",
-			"author": "Rajendra Singh",
-			"homepage": "https://github.com/SinghRajenM/nppURLPlugin"
 		},
 		{
 			"folder-name": "VisualStudioLineCopy",
@@ -1539,7 +1448,7 @@
 			"version": "2.1",
 			"id": "60622e73f01a1fdb5462c2ba416649c404c39db18100826301f4ad74b4e7da46",
 			"repository": "https://master.dl.sourceforge.net/project/npp-plugins/WebEdit/WebEdit%202.1/WebEdit.v2.1.zip",
-			"description": "WebEdit is another attempt to integrate a user-configurable code template collection into Notepad++. With WebEdit you have the following options:\r\n create a menu command for pasting some text, possibly surrounding the current selection, if any. Imagine selecting a word and putting \"&lt;p&gt;...&lt;/p&gt;\" around it with a single hotkey. You can create up to 30 such commands and assign keyboard shortcuts to them, or simply use the menu;\r\n the same 30 commands can also be represented by buttons on the main toolbar for quick access with the mouse;\r\n you can create a set of \"tags\" or abbreviations. Type one of them, then press Alt+Enter and it will be replaced with the corresponding block of text. If the replacement consists of multiple lines, all of them will be indented same as the first one. The caret will be placed in a predefined position within the new text. You can have the current clipboard contents (e.g. a function name) pasted on expansion.\r\nThe plugin configuration is stored in the WebEdit.ini file. Use \"WebEdit\\Edit Config\" command from the \"Plugins\" menu to open the file in Notepad++ for editing.\r\nAll keyboard shortcuts can be assigned/modified using the standard Shortcut Mapper. For more information see the WebEdit.txt help file.",
+			"description": "WebEdit is another attempt to integrate a user-configurable code template collection into Notepad++. With WebEdit you have the following options:\r\n    create a menu command for pasting some text, possibly surrounding the current selection, if any. Imagine selecting a word and putting \"&lt;p&gt;...&lt;/p&gt;\" around it with a single hotkey. You can create up to 30 such commands and assign keyboard shortcuts to them, or simply use the menu;\r\n    the same 30 commands can also be represented by buttons on the main toolbar for quick access with the mouse;\r\n    you can create a set of \"tags\" or abbreviations. Type one of them, then press Alt+Enter and it will be replaced with the corresponding block of text. If the replacement consists of multiple lines, all of them will be indented same as the first one. The caret will be placed in a predefined position within the new text. You can have the current clipboard contents (e.g. a function name) pasted on expansion.\r\nThe plugin configuration is stored in the WebEdit.ini file. Use \"WebEdit\\Edit Config\" command from the \"Plugins\" menu to open the file in Notepad++ for editing.\r\nAll keyboard shortcuts can be assigned/modified using the standard Shortcut Mapper. For more information see the WebEdit.txt help file.",
 			"author": "Alexander Iljin",
 			"homepage": ""
 		},
@@ -1576,9 +1485,9 @@
 		{
 			"folder-name": "XMLTools",
 			"display-name": "XML Tools",
-			"version": "3.1.1.3",
-			"id": "28349a1c5077d623798dbc2977aac1a19d6d101ee6cef0ae0532ca61a81246e6",
-			"repository": "https://github.com/morbac/xmltools/releases/download/3.1.1.3/XMLTools-3.1.1.3-x86.zip",
+			"version": "3.1.1.0",
+			"id": "264346ddbd4a9e22bc0ee45135e061d2b8c0cfa283857bf08486358798332341",
+			"repository": "https://github.com/morbac/xmltools/releases/download/3.1.1.0/XMLTools-3.1.1.0-x86.zip",
 			"description": "Small set of useful tools for editing XML. Plugin is MSXML-based. The features are:\r\n- XML syntax Check\r\n- XML Schema (XSD) + DTD Validation\r\n- XML tag autoclose\r\n- Pretty print\n- Linarize XML\r\n- Current XML Path\r\n- Conversion XML &amp;lt;-&amp;gt; Text\n- Comment / Uncomment\r\n- XPath expression evaluation",
 			"author": "Nicolas Crittin",
 			"homepage": "https://github.com/morbac/xmltools"
@@ -1599,7 +1508,7 @@
 			"version": "0.7.0.1",
 			"id": "a781ee5c76ebc543b412a41e024c2d96f9a6edcae591f27868e190a48bc7bba6",
 			"repository": "https://downloads.sourceforge.net/project/npppythonscript/ZenCoding-Python/ZenCoding-Python-0.7.0.1a.zip",
-			"description": "Implementation of the Zen Coding method by Sergey Chikuyonok. Expand HTML, CSS, XML, XSLT and XSD from abbreviations\ntr#head1.header&gt;td*2 becomes &lt;tr id=\"head1\" class=\"header\"&gt;\n &lt;td&gt;&lt;/td&gt;\n &lt;td&gt;&lt;/td&gt;\n&lt;/tr&gt;\nUses the Python Script plugin.",
+			"description": "Implementation of the Zen Coding method by Sergey Chikuyonok. Expand HTML, CSS, XML, XSLT and XSD from abbreviations\ntr#head1.header&gt;td*2 becomes &lt;tr id=\"head1\" class=\"header\"&gt;\n  &lt;td&gt;&lt;/td&gt;\n  &lt;td&gt;&lt;/td&gt;\n&lt;/tr&gt;\nUses the Python Script plugin.",
 			"author": "Dave Brotherstone",
 			"homepage": "https://github.com/bruderstein/ZenCoding-Python"
 		},
@@ -1612,6 +1521,26 @@
 			"description": "Tired of zooming your document everytime you just want to scroll but accidentally still holding the [Ctrl] key? Then this is what you want! It disables mouse zoom, keyboard zoom, or both.",
 			"author": "Stanislav Eckert",
 			"homepage": "https://github.com/StanDog/npp-zoomdisabler"
+		},
+		{
+			"folder-name": "urlPlugin",
+			"display-name": "URL Encode/Decode Plugin",
+			"version": "1.1.0.0",
+			"id": "b016bcf657884a43cd31ed7d022c51296db93ec303896a7c8ae83f2d510ea808",
+			"repository": "https://github.com/SinghRajenM/nppURLPlugin/releases/download/1.1.0.0/urlPlugin_x86.zip",
+			"description": "Hopefully a decent URL Encoder and Decoder plug-in for Notepad++ which helps to make developer's life easier by providing facility to encode/decode the URL within Notepad++. \r\n\r\nHow it works:\r\n1. Configure setting from menu (Plugins->URL Plugin->URL Plugin Settings). It is not mandatory, but recommended.\r\n2. Select text/URL which you want to encode/decode.\r\n3. Perform your task via Plugins->URL Plugin->Encode/Decode URL.\r\n\r\n",
+			"author": "Rajendra Singh",
+			"homepage": "https://github.com/SinghRajenM/nppURLPlugin"
+		},
+		{
+			"folder-name": "MZC8051",
+			"display-name": "MZC8051",
+			"version": "0.0.1",
+			"id": "fd8b7aeb3e6bfb0467b3fb46b4a01beb660a6a54d6f9867191982c6c6fa8a8e9",
+			"repository": "https://github.com/Jiangshan00001/npp_MZC8051/releases/download/0.0.1/MZC8051_x86.zip",
+			"description": "a 8051 c compiler plugin within notepad++.",
+			"author": "Jiangshan00001",
+			"homepage": "https://github.com/Jiangshan00001/npp_MZC8051"
 		}
 	]
 }
