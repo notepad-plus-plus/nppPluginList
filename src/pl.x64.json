@@ -544,16 +544,6 @@
 			"homepage": "https://sourceforge.net/projects/locationnav/"
 		},
 		{
-			"folder-name": "NewFileBrowser",
-			"display-name": "NewFileBrowser",
-			"version": "0.1.4",
-			"id": "86fb4eb8480a872f940da1e1b2f401c731521383badaf14d5107ebfb5e8368a6",
-			"repository": "https://sourceforge.net/projects/locationnav/files/NewFileBrowser_v0.1.4_x64.zip",
-			"description": "Define 20 new file's initial text and have an inner web browser which can run current file.",
-			"author": "Austin Young",
-			"homepage": "https://sourceforge.net/projects/locationnav/"
-		},
-		{
 			"folder-name": "NppBplistPlugin",
 			"display-name": "Notepad++ bplist plugin",
 			"version": "1.3.0.0",
