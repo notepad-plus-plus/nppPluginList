@@ -754,6 +754,16 @@
 			"homepage": "https://github.com/viper3400/RegExTractor/wiki/de_userdocumentation"
 		},
 		{
+			"folder-name": "NppTags",
+			"display-name": "NppTags",
+			"version": "0.9.1",
+			"id": "313cc5e1c50f2cc7786c08bda36122abf5e0fb95522ab55ba2058ca8ae71351e",
+			"repository": "https://github.com/ffes/npptags/releases/download/v0.9.1/NppTags-091-x64.zip",
+			"description": "NppTags is a Universal Ctags plug-in to browse through your sources easily and lets you jump to a selected function / variable / class / etc in your code by pressing just one key.",
+			"author": "Frank Fesevur",
+			"homepage": "https://www.fesevur.com/npptags"
+		},
+		{
 			"folder-name": "NppTextViz",
 			"display-name": "NppTextViz",
 			"version": "0.4.2",
