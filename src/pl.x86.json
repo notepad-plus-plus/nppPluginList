@@ -201,7 +201,7 @@
 			"repository": "https://github.com/pnedev/compare-plugin/releases/download/v2.0.1/ComparePlugin_v2.0.1_x86.zip",
 			"description": "Shows the differences between 2 files (side by side).",
 			"author": "Ty Landercasper, Jean-Sebastien Leroy, Pavel Nedev",
-			"homepage": "https://github.com/jsleroy/compare-plugin"
+			"homepage": "https://github.com/pnedev/compare-plugin"
 		},
 		{
 			"folder-name": "CSScriptNpp",
@@ -326,9 +326,9 @@
 		{
 			"folder-name": "ERPHelper",
 			"display-name": "ERP Helper",
-			"version": "1.0.5",
-			"id": "bd7b8a505f967354e6587a1f4278bdc8e0f687ad97e84783a463b00ac3fd1975",
-			"repository": "https://github.com/swhitley/ERPHelper/releases/download/v1.0.5/ERPHelper_x86.zip",
+			"version": "1.0.6",
+			"id": "4b00cc8b3a92964c4c189fb62fd05739be3bbfc56c88818599f643a00145ffdb",
+			"repository": "https://github.com/swhitley/ERPHelper/releases/download/v1.0.6/ERPHelper_x86.zip",
 			"description": "A set of utilities for developing ERP integrations, includes XSL transformation and Workday API SOAP calls.",
 			"author": "Whitley Media",
 			"homepage": "https://github.com/swhitley/erphelper"
@@ -396,10 +396,10 @@
 		{
 			"folder-name": "FWDataViz",
 			"display-name": "Fixed-width Data Visualizer",
-			"version": "1.0.0.0",
-			"id": "ab72c1a7398283cf99548677931c17c94d7b916db1bff5d8cc5f1351144cf498",
-			"repository": "https://github.com/shriprem/FWDataViz/releases/download/1.0.0.0/FWDataViz_x86.zip",
-			"description": "Fixed Width Data Visualizer plugin for Notepad++. Displays cursor position data. Jumps to specific fields. Builtin dialogs to configure file-type, record-type & fields; and themes & colors. Handles homogenous, mixed & multi-line records.",
+			"version": "1.0.2.0",
+			"id": "5fdef151203ea579306d727520eb84cbc7ce1dd91b9002b9a09ddda43eefcab5",
+			"repository": "https://github.com/shriprem/FWDataViz/releases/download/1.0.2.0/FWDataViz_x86.zip",
+			"description": "Fixed Width Data Visualizer adds Excel-like features for fixed-width data files in Notepad++. Displays cursor position data. Jump to specific fields. Builtin dialogs to configure file-type, record-type & fields; and themes & colors. Automatic File Type Detection. Handles homogenous, mixed & multi-line records.",
 			"author": "Shridhar Kumar",
 			"homepage": "https://github.com/shriprem/FWDataViz"
 		},
@@ -636,9 +636,9 @@
 		{
 			"folder-name": "LocationNavigate",
 			"display-name": "Location Navigate",
-			"version": "0.4.7.7",
-			"id": "d01ae1223c523772b0786ae4bc9a0100438d80056a64dc352f4c480ed0a4bf1f",
-			"repository": "https://sourceforge.net/projects/locationnav/files/LocationNavigate_v0.4.7.7.zip",
+			"version": "0.4.7.9",
+			"id": "bc191a775cfeaf36fcd6e4360362e9a41d95e38f2df8b32bea83c489188fe28f",
+			"repository": "https://sourceforge.net/projects/locationnav/files/LocationNavigate_v0.4.7.9_x86.zip",
 			"description": "Navigate between your last edit/view points. Useful for code/text edit and view, especially for many and large text files\r\n1. Automatically record the cursor position and modified points\r\n2. You can jump to any position that your cursor has visited.\r\n3. Can use shortcuts (Ctrl+- for previous position and Ctrl+Shift+- for next position) to jump forward and back in code\r\n4. Can jump to any modified points (Ctrl+Alt+Z) back and forward (Ctrl+Alt+Y)\r\n5. History positions are automatically adjusted when text is modified.\r\n6. Can record positions data when application exit and it will be loaded in next run.\r\n7. Can navigate only in current file",
 			"author": "Austin Young",
 			"homepage": "https://sourceforge.net/projects/locationnav/"
@@ -646,9 +646,9 @@
 		{
 			"folder-name": "LuaScript",
 			"display-name": "LuaScript",
-			"version": "0.10",
-			"id": "f6547dea121f96b9ac6a2f43381288434873c4a508a1208ec1fb752518a6c5fb",
-			"repository": "https://github.com/dail8859/LuaScript/releases/download/v0.10.1/LuaScript_v0.10.1.zip",
+			"version": "0.11",
+			"id": "ab523219ba00844cc88f92d0a3edce1148f404d3d2786df0a7256fc25760eec2",
+			"repository": "https://github.com/dail8859/LuaScript/releases/download/v0.11/LuaScript_v0.11.zip",
 			"description": "Adds Lua scripting capabilities. This provides control over all of Scintilla's features and options with a light-weight, fully-functional programming language.",
 			"author": "Justin Dailey",
 			"homepage": "https://github.com/dail8859/LuaScript"
@@ -1576,9 +1576,9 @@
 		{
 			"folder-name": "XMLTools",
 			"display-name": "XML Tools",
-			"version": "3.1.1.1",
-			"id": "cbbf9fa586e4d8c28be7eaf311ee220cea731dca1d4885c00e67ef40ff15b47b",
-			"repository": "https://github.com/morbac/xmltools/releases/download/3.1.1.1/XMLTools-3.1.1.1-x86.zip",
+			"version": "3.1.1.3",
+			"id": "28349a1c5077d623798dbc2977aac1a19d6d101ee6cef0ae0532ca61a81246e6",
+			"repository": "https://github.com/morbac/xmltools/releases/download/3.1.1.3/XMLTools-3.1.1.3-x86.zip",
 			"description": "Small set of useful tools for editing XML. Plugin is MSXML-based. The features are:\r\n- XML syntax Check\r\n- XML Schema (XSD) + DTD Validation\r\n- XML tag autoclose\r\n- Pretty print\n- Linarize XML\r\n- Current XML Path\r\n- Conversion XML &amp;lt;-&amp;gt; Text\n- Comment / Uncomment\r\n- XPath expression evaluation",
 			"author": "Nicolas Crittin",
 			"homepage": "https://github.com/morbac/xmltools"
