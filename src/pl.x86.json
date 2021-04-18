@@ -636,9 +636,9 @@
 		{
 			"folder-name": "LocationNavigate",
 			"display-name": "Location Navigate",
-			"version": "0.4.7.9",
-			"id": "bc191a775cfeaf36fcd6e4360362e9a41d95e38f2df8b32bea83c489188fe28f",
-			"repository": "https://sourceforge.net/projects/locationnav/files/LocationNavigate_v0.4.7.9_x86.zip",
+			"version": "0.4.8.0",
+			"id": "7a481557014f22b8d6f15fb442ebed8e248e26ab8baee89f1ebe3624a1bbc068",
+			"repository": "https://sourceforge.net/projects/locationnav/files/LocationNavigate_v0.4.8.0_x86.zip",
 			"description": "Navigate between your last edit/view points. Useful for code/text edit and view, especially for many and large text files\r\n1. Automatically record the cursor position and modified points\r\n2. You can jump to any position that your cursor has visited.\r\n3. Can use shortcuts (Ctrl+- for previous position and Ctrl+Shift+- for next position) to jump forward and back in code\r\n4. Can jump to any modified points (Ctrl+Alt+Z) back and forward (Ctrl+Alt+Y)\r\n5. History positions are automatically adjusted when text is modified.\r\n6. Can record positions data when application exit and it will be loaded in next run.\r\n7. Can navigate only in current file",
 			"author": "Austin Young",
 			"homepage": "https://sourceforge.net/projects/locationnav/"
