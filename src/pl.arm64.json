@@ -4,6 +4,16 @@
 	"arch": "arm64",
 	"npp-plugins": [
 		{
+			"folder-name": "nppConverter",
+			"display-name": "Npp Converter",
+			"version": "4.3.0",
+			"id": "e443604d85ab80b1b77a5607910c6f156c90fae89194f7a5ebf9525695c21268",
+			"repository": "https://github.com/npp-plugins/converter/releases/download/v4.3/nppConvert.v4.3.arm64.zip",
+			"description": "ASCII<->Hex converter.",
+			"author": "Don HO",
+			"homepage": "https://github.com/npp-plugins/converter/"
+		},
+		{
 			"folder-name": "NppExport",
 			"display-name": "NppExport",
 			"version": "0.3.0.0",
