@@ -1,0 +1,27 @@
+{
+	"name": "npp-pluginList",
+	"version": "1.0.2",
+	"arch": "arm64",
+	"npp-plugins": [
+		{
+			"folder-name": "nppConverter",
+			"display-name": "Npp Converter",
+			"version": "4.3.0",
+			"id": "e443604d85ab80b1b77a5607910c6f156c90fae89194f7a5ebf9525695c21268",
+			"repository": "https://github.com/npp-plugins/converter/releases/download/v4.3/nppConvert.v4.3.arm64.zip",
+			"description": "ASCII<->Hex converter.",
+			"author": "Don HO",
+			"homepage": "https://github.com/npp-plugins/converter/"
+		},
+		{
+			"folder-name": "NppExport",
+			"display-name": "NppExport",
+			"version": "0.3.0.0",
+			"id": "4234ebce2a882dd886135ce06e63f39a885835bb765d9f9a8a1128cafb4559a4",
+			"repository": "https://github.com/chcg/NPP_ExportPlugin/releases/download/0.3.0/NppExport_0.3.0_arm64.zip",
+			"description": "True WYSIWYG exporter. Allows you not only to save your source code as an HTML/RTF file, but also to copy your source code in the clipboard in RTF/HTML format, so you can paste it into your word processor (Openoffice.org Writer, LibreOffice Writer, Abiword, MS Word) to get the same visual effect.",
+			"author": "",
+			"homepage": "https://github.com/chcg/NPP_ExportPlugin"
+		}
+	]
+}

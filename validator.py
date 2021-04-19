@@ -205,13 +205,17 @@ bitness_from_input = ""
 if len(sys.argv) > 1:
     bitness_from_input = sys.argv[1]
 else:
-    print('please provide the bitness (x86 or x64) as the first argument')
+    print('please provide the bitness (x86 or x64 or arm64) as the first argument')
     sys.exit(-2)
 print('input: %s' % bitness_from_input)
 if bitness_from_input == 'x64':
     parse("src/pl.x64.json")
     with open("plugin_list_x64.md", "w") as md_file:
         md_file.write(gen_pl_table("src/pl.x64.json"))
+elif bitness_from_input == 'arm64':
+    parse("src/pl.arm64.json")
+    with open("plugin_list_arm64.md", "w") as md_file:
+        md_file.write(gen_pl_table("src/pl.arm64.json"))
 else:
     parse("src/pl.x86.json")
     with open("plugin_list_x86.md", "w") as md_file:
