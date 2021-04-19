@@ -636,9 +636,9 @@
 		{
 			"folder-name": "LocationNavigate",
 			"display-name": "Location Navigate",
-			"version": "0.4.7.9",
-			"id": "bc191a775cfeaf36fcd6e4360362e9a41d95e38f2df8b32bea83c489188fe28f",
-			"repository": "https://sourceforge.net/projects/locationnav/files/LocationNavigate_v0.4.7.9_x86.zip",
+			"version": "0.4.8.0",
+			"id": "7a481557014f22b8d6f15fb442ebed8e248e26ab8baee89f1ebe3624a1bbc068",
+			"repository": "https://sourceforge.net/projects/locationnav/files/LocationNavigate_v0.4.8.0_x86.zip",
 			"description": "Navigate between your last edit/view points. Useful for code/text edit and view, especially for many and large text files\r\n1. Automatically record the cursor position and modified points\r\n2. You can jump to any position that your cursor has visited.\r\n3. Can use shortcuts (Ctrl+- for previous position and Ctrl+Shift+- for next position) to jump forward and back in code\r\n4. Can jump to any modified points (Ctrl+Alt+Z) back and forward (Ctrl+Alt+Y)\r\n5. History positions are automatically adjusted when text is modified.\r\n6. Can record positions data when application exit and it will be loaded in next run.\r\n7. Can navigate only in current file",
 			"author": "Austin Young",
 			"homepage": "https://sourceforge.net/projects/locationnav/"
@@ -806,9 +806,9 @@
 		{
 			"folder-name": "nppConverter",
 			"display-name": "Npp Converter",
-			"version": "4.2.1",
-			"id": "b476cc31ae49747b1ab4847e9b13b498fdef9e26b9854688f19987a6093a9a17",
-			"repository": "https://github.com/npp-plugins/converter/releases/download/v4.2.1/nppConvert.v4.2.1.zip",
+			"version": "4.3.0",
+			"id": "4d70d5309e27694cb93422ebcb0896ede82c9a8449a080ff9481fdf9ccdb162c",
+			"repository": "https://github.com/npp-plugins/converter/releases/download/v4.3/nppConvert.v4.3.zip",
 			"description": "ASCII<->Hex converter.",
 			"author": "Don HO",
 			"homepage": "https://github.com/npp-plugins/converter/"
@@ -1056,9 +1056,9 @@
 		{
 			"folder-name": "Papyrus",
 			"display-name": "Papyrus Script Lexer",
-			"version": "0.2.0.16",
-			"id": "0354a2cef66cdaaba7541775dd308b8a23c834110d7460e190a4a25d6ec084e9",
-			"repository": "https://github.com/blu3mania/npp-papyrus/releases/download/v0.2.0/PapyrusPlugin-v0.2.0-x86.zip",
+			"version": "0.2.1.18",
+			"id": "4534b0080f90abf35aa901ae7df6f44ad2dbd4f597070c16ef41793212f02818",
+			"repository": "https://github.com/blu3mania/npp-papyrus/releases/download/v0.2.1/PapyrusPlugin-v0.2.1-x86.zip",
 			"description": "View and edit Papyrus Script files used by Bethesda games with syntax highlighting, function and block folding, hyperlinks to referenced scripts, keywords matching, plus compilation support with anonymized output and error list view.",
 			"author": "blu3mania",
 			"homepage": "https://github.com/blu3mania/npp-papyrus"
