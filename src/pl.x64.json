@@ -76,9 +76,9 @@
 		{
 			"folder-name": "AutoSave",
 			"display-name": "AutoSave",
-			"version": "1.6.0.0",
-			"id": "9c07957dc31ddd6d383759453a869d03c8cc091c65010058cec0490d3a6630b1",
-			"repository": "https://github.com/francostellari/NppPlugins/raw/main/AutoSave/AutoSave_dll_1v60_x64.zip",
+			"version": "1.6.1.0",
+			"id": "572d748449aaea0ce72f2dfa7b36172419386d827b1db1536fc6b57ae23dc104",
+			"repository": "https://github.com/francostellari/NppPlugins/raw/main/AutoSave/AutoSave_dll_1v61_x64.zip",
 			"description": "Automatically save the currently open files based on a timer schedule and/or upon the application losing focus.\r\nThe plugin offers several options to save the current (or all the files), selecting only the named ones, accessible through an options dialog box.",
 			"author": "Franco Stellari",
 			"homepage": "https://github.com/francostellari/NppPlugins"
@@ -406,9 +406,9 @@
 		{
 			"folder-name": "LanguageHelp",
 			"display-name": "LanguageHelp",
-			"version": "1.7.3.0",
-			"id": "3aa7bcdff77252d3318688008909e9c586552fde6798aef6674e21e51a349771",
-			"repository": "https://github.com/francostellari/NppPlugins/raw/main/LanguageHelp/LanguageHelp_dll_1v73_x64.zip",
+			"version": "1.7.4.0",
+			"id": "87197c75a95929a710982e5554bc256133a4a98b240e2aba5e7ce69038264115",
+			"repository": "https://github.com/francostellari/NppPlugins/raw/main/LanguageHelp/LanguageHelp_dll_1v74_x64.zip",
 			"description": "Allows loading a language specific help file (CHM, HLP, PDF) and search for the keyword under the cursor.\r\nThe latest version allows showing the help files as menu entries or in the context menu.",
 			"author": "Franco Stellari",
 			"homepage": "https://github.com/francostellari/NppPlugins"
@@ -476,9 +476,9 @@
 		{
 			"folder-name": "MenuIcons",
 			"display-name": "MenuIcons",
-			"version": "1.2.2.0",
-			"id": "faf422fc463ed14532bb674196ffacdf721b10e63c9a89703e1b5486525ca38a",
-			"repository": "https://github.com/francostellari/NppPlugins/raw/main/MenuIcons/MenuIcons_dll_1v22_x64.zip",
+			"version": "1.2.3.0",
+			"id": "2ebe8c66b2d261e05136911593a236620fff5aaaf25e45edb3558f6eeb0568c7",
+			"repository": "https://github.com/francostellari/NppPlugins/raw/main/MenuIcons/MenuIcons_dll_1v23_x64.zip",
 			"description": "Allows adding icons to both main and context menu. Several options are available to load the icons from a folder. More than provide a full set of icons, it's design to enable people to create their own set of icon themes. Note: Does not work correctly in WinXP.",
 			"author": "Franco Stellari",
 			"homepage": "https://github.com/francostellari/NppPlugins"
@@ -796,9 +796,9 @@
 		{
 			"folder-name": "OpenSelection",
 			"display-name": "OpenSelection",
-			"version": "1.1.2.0",
-			"id": "6d909290f322f1c5bb85d1dc1000108b8207a56c6b4485f3a3a93822d14b6c37",
-			"repository": "https://github.com/francostellari/NppPlugins/raw/main/OpenSelection/OpenSelection_dll_1v12_x64.zip",
+			"version": "1.1.3.0",
+			"id": "e9ba624a9e1e99cf05a46f33c5efae9426b1ad2c8e094c1803535c9e9b070dad",
+			"repository": "https://github.com/francostellari/NppPlugins/raw/main/OpenSelection/OpenSelection_dll_1v13_x64.zip",
 			"description": "Open files based on the selected text. A typical applications is 'include' files of may types of programs. Another applications is to open Matlab functions. Can be customized for different languages based on the open file extension. Multiple search folders may be specified along with multiple extensions.",
 			"author": "Franco Stellari",
 			"homepage": "https://github.com/francostellari/NppPlugins"
@@ -936,9 +936,9 @@
 		{
 			"folder-name": "RunMe",
 			"display-name": "RunMe",
-			"version": "1.4.0.0",
-			"id": "34552b5ee8eaf6f8484ef8fbf3a05b9fd3bcc2561ff72d9dea33da3fa1e44402",
-			"repository": "https://github.com/francostellari/NppPlugins/raw/main/RunMe/RunMe_dll_1v40_x64.zip",
+			"version": "1.4.1.0",
+			"id": "f49e2cd6796a5a1b49655aaa1ba5c3574fbfa0b33e51d9a585cbf0603be27e78",
+			"repository": "https://github.com/francostellari/NppPlugins/raw/main/RunMe/RunMe_dll_1v41_x64.zip",
 			"description": "Execute the currently open file, based on its shell association. Also allows opening an explorer or command shell at the file location. Options are available to save the current file (or all files) before execution. The executed file can be run in foreground, background, or hidden mode. Context menu entries and tool bar icons are available.",
 			"author": "Franco Stellari",
 			"homepage": "https://github.com/francostellari/NppPlugins"
@@ -1086,9 +1086,9 @@
 		{
 			"folder-name": "TakeNotes",
 			"display-name": "TakeNotes",
-			"version": "1.2.0.0",
-			"id": "0cbe78b69942749ee0560be81bf2ca3db00536085aa60f100d57f97ef0873372",
-			"repository": "https://github.com/francostellari/NppPlugins/raw/main/TakeNotes/TakeNotes_dll_1v20_x64.zip",
+			"version": "1.2.1.0",
+			"id": "7988bbde2882185883a14e5aea9645f1b09c52fb2859830326c5fdb0d73b8dd3",
+			"repository": "https://github.com/francostellari/NppPlugins/raw/main/TakeNotes/TakeNotes_dll_1v21_x64.zip",
 			"description": "Helps people who like to use Notepad++ for jotting quick notes. Instead of using unnamed 'new ?' files, this plugins allows to quickly create new empty files in a folder of choice. The file names may be custom generated using a mask and may contain details such as the user name, date, and time of creation so that unique files may be generated. Additionally, the plugin allows to load exiting notes in the folder of choice, save existing files as a note, and open the last saved note quickly. Please refer to the Options dialog box for more details. It is strongly recommended to use this plugin in combination with AutoSave to make sure that you never loose a note.",
 			"author": "Franco Stellari",
 			"homepage": "https://github.com/francostellari/NppPlugins"
