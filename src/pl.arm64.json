@@ -4,6 +4,16 @@
 	"arch": "arm64",
 	"npp-plugins": [
 		{
+			"folder-name": "mimeTools",
+			"display-name": "Mime tools",
+			"version": "2.6",
+			"id": "be0d8b71c454b09d6d384e0bba87d25932c1563a2eb4871b070617fbca8ecaa6",
+			"repository": "https://github.com/npp-plugins/mimetools/releases/download/v2.6/mimetools.v2.6.arm64.zip",
+			"description": "Implements several main functionalities defined in MIME (Multipurpose Internet Mail Extensions).",
+			"author": "Don HO",
+			"homepage": "https://github.com/npp-plugins/mimetools"
+		},
+		{
 			"folder-name": "nppConverter",
 			"display-name": "Npp Converter",
 			"version": "4.3.0",
@@ -24,14 +34,14 @@
 			"homepage": "https://github.com/chcg/NPP_ExportPlugin"
 		},
 		{
-			"folder-name": "mimeTools",
-			"display-name": "Mime tools",
-			"version": "2.6",
-			"id": "be0d8b71c454b09d6d384e0bba87d25932c1563a2eb4871b070617fbca8ecaa6",
-			"repository": "https://github.com/npp-plugins/mimetools/releases/download/v2.6/mimetools.v2.6.arm64.zip",
-			"description": "Implements several main functionalities defined in MIME (Multipurpose Internet Mail Extensions).",
-			"author": "Don HO",
-			"homepage": "https://github.com/npp-plugins/mimetools"
+			"folder-name": "NppTaskList",
+			"display-name": "Task List",
+			"version": "2.3",
+			"id": "0257e2709ee6aab7912a95686c28e62c3a0cf39d5f4be5e5574237a6c8d14003",
+			"repository": "https://github.com/Megabyteceer/npp-task-list/releases/download/v2.3.0/NppTaskList_v2.3.0_arm64.zip",
+			"description": "Automatically scans the open document and adds all \"TODO:*\" items to your task list, a window pane docked on the right. Double-clicking an item in the list will take you to that line in the code.",
+			"author": "blitowitz",
+			"homepage": "https://code.google.com/p/npp-task-list/"
 		}
 	]
 }

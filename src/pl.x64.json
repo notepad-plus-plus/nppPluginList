@@ -1096,9 +1096,9 @@
 		{
 			"folder-name": "NppTaskList",
 			"display-name": "Task List",
-			"version": "2.1",
-			"id": "b0d051818c3899152d0d0f71c72906437b14396963e076c0f31f2b8933c2bbce",
-			"repository": "https://github.com/Megabyteceer/npp-task-list/releases/download/v2.1.0/NppTaskList_v2.1.0_x64.zip",
+			"version": "2.3",
+			"id": "8288c238ded41b46287dc7ab815e857b7c3b61d180d8d705a9f8305562fd6108",
+			"repository": "https://github.com/Megabyteceer/npp-task-list/releases/download/v2.3.0/NppTaskList_v2.3.0_x64.zip",
 			"description": "Automatically scans the open document and adds all \"TODO:*\" items to your task list, a window pane docked on the right. Double-clicking an item in the list will take you to that line in the code.",
 			"author": "blitowitz",
 			"homepage": "https://code.google.com/p/npp-task-list/"
