@@ -24,6 +24,26 @@
 			"homepage": "https://github.com/npp-plugins/mimetools"
 		},
 		{
+			"folder-name": "NppPluginDemo",
+			"display-name": "Notepad++ Plugin Demo",
+			"version": "4.0",
+			"id": "508dca3a5736f0740c79a13a5720eaf86d8536b0fefe8b8603a4f5265de7377a",
+			"repository": "https://github.com/npp-plugins/plugindemo/releases/download/v4/pluginDemo.v4.bin.arm64.zip",
+			"description": "Notepad++ Plugin Demo is written from Notepad++ Plugin Template to demonstrate the usage of plugin API.",
+			"author": "Don HO",
+			"homepage": "https://npp-user-manual.org/docs/plugins/"
+		},
+		{
+			"folder-name": "NppPluginTemplate",
+			"display-name": "Notepad++ Plugin Template",
+			"version": "4.0",
+			"id": "ce3a65652ca85eea9140e42a5ce657c29ade1412372b9ddb2dded03604b55565 ",
+			"repository": "https://github.com/npp-plugins/plugintemplate/releases/download/v4/pluginTemplate.v4.bin.arm64.zip",
+			"description": "Template for making plugin development as easy and simple as possible. Four steps and it's done.",
+			"author": "Don HO",
+			"homepage": "https://npp-user-manual.org/docs/plugins/"
+		},
+		{
 			"folder-name": "nppConverter",
 			"display-name": "Npp Converter",
 			"version": "4.3.0",
