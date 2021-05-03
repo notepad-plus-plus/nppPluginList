@@ -76,9 +76,9 @@
 		{
 			"folder-name": "AutoSave",
 			"display-name": "AutoSave",
-			"version": "1.6.0.0",
-			"id": "9c07957dc31ddd6d383759453a869d03c8cc091c65010058cec0490d3a6630b1",
-			"repository": "https://github.com/francostellari/NppPlugins/raw/main/AutoSave/AutoSave_dll_1v60_x64.zip",
+			"version": "1.6.1.0",
+			"id": "572d748449aaea0ce72f2dfa7b36172419386d827b1db1536fc6b57ae23dc104",
+			"repository": "https://github.com/francostellari/NppPlugins/raw/main/AutoSave/AutoSave_dll_1v61_x64.zip",
 			"description": "Automatically save the currently open files based on a timer schedule and/or upon the application losing focus.\r\nThe plugin offers several options to save the current (or all the files), selecting only the named ones, accessible through an options dialog box.",
 			"author": "Franco Stellari",
 			"homepage": "https://github.com/francostellari/NppPlugins"
@@ -171,7 +171,7 @@
 			"repository": "https://github.com/pnedev/compare-plugin/releases/download/v2.0.1/ComparePlugin_v2.0.1_X64.zip",
 			"description": "Shows the differences between 2 files (side by side).",
 			"author": "Ty Landercasper, Jean-Sebastien Leroy, Pavel Nedev",
-			"homepage": "https://github.com/jsleroy/compare-plugin"
+			"homepage": "https://github.com/pnedev/compare-plugin"
 		},
 		{
 			"folder-name": "CSScriptNpp",
@@ -256,9 +256,9 @@
 		{
 			"folder-name": "ERPHelper",
 			"display-name": "ERP Helper",
-			"version": "1.0.5",
-			"id": "6142336d808598f91d0b5b298999bb9daa5eac44bf801c00515bbac31dc5162d",
-			"repository": "https://github.com/swhitley/ERPHelper/releases/download/v1.0.5/ERPHelper_x64.zip",
+			"version": "1.0.7",
+			"id": "10c987ce11e72a5782ff00caddeb476f7724f84e5d395aa0a3f2ad00011affca",
+			"repository": "https://github.com/swhitley/ERPHelper/releases/download/v1.0.7/ERPHelper_x64.zip",
 			"description": "A set of utilities for developing ERP integrations, includes XSL transformation and Workday API SOAP calls.",
 			"author": "Whitley Media",
 			"homepage": "https://github.com/swhitley/erphelper"
@@ -286,10 +286,10 @@
 		{
 			"folder-name": "FWDataViz",
 			"display-name": "Fixed-width Data Visualizer",
-			"version": "1.0.0.0",
-			"id": "cf39a4f2c5354ea92ddbdf43174c32b70e77d521f963e1a14a5206e285945d22",
-			"repository": "https://github.com/shriprem/FWDataViz/releases/download/1.0.0.0/FWDataViz_x64.zip",
-			"description": "Fixed Width Data Visualizer plugin for Notepad++. Displays cursor position data. Jumps to specific fields. Builtin dialogs to configure file-type, record-type & fields; and themes & colors. Handles homogenous, mixed & multi-line records.",
+			"version": "1.0.3.0",
+			"id": "e3af56541762341fa2da05cc8b9e38b64de770ab4564d2415880ba990be24ec1",
+			"repository": "https://github.com/shriprem/FWDataViz/releases/download/1.0.3.0/FWDataViz_x64.zip",
+			"description": "Fixed Width Data Visualizer adds Excel-like features for fixed-width data files in Notepad++. Displays cursor position data. Jump to specific fields. Builtin dialogs to configure file-type, record-type & fields; and themes & colors. Automatic File Type Detection. Handles homogenous, mixed & multi-line records.",
 			"author": "Shridhar Kumar",
 			"homepage": "https://github.com/shriprem/FWDataViz"
 		},
@@ -316,9 +316,9 @@
 		{
 			"folder-name": "GotoLineCol",
 			"display-name": "GotoLineCol",
-			"version": "1.2.0.0",
-			"id": "d52e4d786397f1ca096a99be4c9cbbfc12001c432e939535c51f3413fc77abd2",
-			"repository": "https://github.com/shriprem/Goto-Line-Col-NPP-Plugin/releases/download/1.2.0.0/GotoLineCol_x64.zip",
+			"version": "1.2.0.1",
+			"id": "2f6da6ff22122934fa47e3f2a6fa9cab42773509e4eef926030e351117476194",
+			"repository": "https://github.com/shriprem/Goto-Line-Col-NPP-Plugin/releases/download/1.2.0.1/GotoLineCol_x64.zip",
 			"description": "A plugin to navigate to a specified line and (byte-based or character-based) column position. Will also display character byte code, UTF-8 byte sequence & Unicode code point at cursor position.",
 			"author": "Shridhar Kumar",
 			"homepage": "https://github.com/shriprem/Goto-Line-Col-NPP-Plugin"
@@ -326,9 +326,9 @@
 		{
 			"folder-name": "HexEditor",
 			"display-name": "HEX-Editor",
-			"version": "0.9.8.0",
-			"id": "747c15bad8cc5d39ad5fe9848af290e699b2dfd9d0c61e3eaad974fc049afaf7",
-			"repository": "https://github.com/chcg/NPP_HexEdit/releases/download/0.9.8/HexEditor_0.9.8_x64.zip",
+			"version": "0.9.9.0",
+			"id": "820f15aa2789f63bf23d5d54a08bc654e225f0564b292dfa606b021b00589505",
+			"repository": "https://github.com/chcg/NPP_HexEdit/releases/download/0.9.9/HexEditor_0.9.9_x64.zip",
 			"description": "Hex editor. Some reported issues, however many bugs fixed in latest release.",
 			"author": "Jens Lorenz",
 			"homepage": "https://github.com/chcg/NPP_HexEdit"
@@ -406,9 +406,9 @@
 		{
 			"folder-name": "LanguageHelp",
 			"display-name": "LanguageHelp",
-			"version": "1.7.3.0",
-			"id": "3aa7bcdff77252d3318688008909e9c586552fde6798aef6674e21e51a349771",
-			"repository": "https://github.com/francostellari/NppPlugins/raw/main/LanguageHelp/LanguageHelp_dll_1v73_x64.zip",
+			"version": "1.7.4.0",
+			"id": "87197c75a95929a710982e5554bc256133a4a98b240e2aba5e7ce69038264115",
+			"repository": "https://github.com/francostellari/NppPlugins/raw/main/LanguageHelp/LanguageHelp_dll_1v74_x64.zip",
 			"description": "Allows loading a language specific help file (CHM, HLP, PDF) and search for the keyword under the cursor.\r\nThe latest version allows showing the help files as menu entries or in the context menu.",
 			"author": "Franco Stellari",
 			"homepage": "https://github.com/francostellari/NppPlugins"
@@ -436,9 +436,9 @@
 		{
 			"folder-name": "LocationNavigate",
 			"display-name": "Location Navigate",
-			"version": "0.4.7.8",
-			"id": "40df7fbc3a4f344a053af5a93e3d6b0d7de733912cb88fb145fe84bbd356f265",
-			"repository": "https://sourceforge.net/projects/locationnav/files/LocationNavigate_v0.4.7.8_x64.zip",
+			"version": "0.4.8.1",
+			"id": "b818c6d33ecbc6e240baec449d0cfe9af242b130833a657f64aedfaa41a4d413",
+			"repository": "https://sourceforge.net/projects/locationnav/files/LocationNavigate_v0.4.8.1_x64.zip",
 			"description": "Navigate between your last edit/view points. Useful for code/text edit and view, especially for many and large text files\r\n1. Automatically record the cursor position and modified points\r\n2. You can jump to any position that your cursor has visited.\r\n3. Can use shortcuts (Ctrl+- for previous position and Ctrl+Shift+- for next position) to jump forward and back in code\r\n4. Can jump to any modified points (Ctrl+Alt+Z) back and forward (Ctrl+Alt+Y)\r\n5. History positions are automatically adjusted when text is modified.\r\n6. Can record positions data when application exit and it will be loaded in next run.\r\n7. Can navigate only in current file",
 			"author": "Austin Young",
 			"homepage": "https://sourceforge.net/projects/locationnav/"
@@ -446,9 +446,9 @@
 		{
 			"folder-name": "LuaScript",
 			"display-name": "LuaScript",
-			"version": "0.10",
-			"id": "11d4a5147cc7fd146d9302934446b7fb40c3e32e779ed40b1fb8b8de2b670b19",
-			"repository": "https://github.com/dail8859/LuaScript/releases/download/v0.10.1/LuaScript_v0.10.1_x64.zip",
+			"version": "0.11",
+			"id": "5f6805134c6a542d946e6688e9a10b9ad4b917ec7db0acb96f6a1212e1e57951",
+			"repository": "https://github.com/dail8859/LuaScript/releases/download/v0.11/LuaScript_v0.11_x64.zip",
 			"description": "Adds Lua scripting capabilities. This provides control over all of Scintilla's features and options with a light-weight, fully-functional programming language.",
 			"author": "Justin Dailey",
 			"homepage": "https://github.com/dail8859/LuaScript"
@@ -476,9 +476,9 @@
 		{
 			"folder-name": "MenuIcons",
 			"display-name": "MenuIcons",
-			"version": "1.2.2.0",
-			"id": "faf422fc463ed14532bb674196ffacdf721b10e63c9a89703e1b5486525ca38a",
-			"repository": "https://github.com/francostellari/NppPlugins/raw/main/MenuIcons/MenuIcons_dll_1v22_x64.zip",
+			"version": "1.2.3.0",
+			"id": "2ebe8c66b2d261e05136911593a236620fff5aaaf25e45edb3558f6eeb0568c7",
+			"repository": "https://github.com/francostellari/NppPlugins/raw/main/MenuIcons/MenuIcons_dll_1v23_x64.zip",
 			"description": "Allows adding icons to both main and context menu. Several options are available to load the icons from a folder. More than provide a full set of icons, it's design to enable people to create their own set of icon themes. Note: Does not work correctly in WinXP.",
 			"author": "Franco Stellari",
 			"homepage": "https://github.com/francostellari/NppPlugins"
@@ -496,9 +496,9 @@
 		{
 			"folder-name": "mimeTools",
 			"display-name": "Mime tools",
-			"version": "2.5",
-			"id": "cd4b7764cf0f603421e6204e30440595d14e71a50b6a419b5a56a62d09e7d167",
-			"repository": "https://github.com/npp-plugins/mimetools/releases/download/v2.5/mimetools.v2.5.x64.zip",
+			"version": "2.6",
+			"id": "4135ea174f741f053f759b194dc8e506fd96c2ef3d1d7a43971446fe53223897",
+			"repository": "https://github.com/npp-plugins/mimetools/releases/download/v2.6/mimetools.v2.6.x64.zip",
 			"description": "Implements several main functionalities defined in MIME (Multipurpose Internet Mail Extensions).",
 			"author": "Don HO",
 			"homepage": "https://github.com/npp-plugins/mimetools"
@@ -536,9 +536,9 @@
 		{
 			"folder-name": "NewFileBrowser",
 			"display-name": "NewFileBrowser",
-			"version": "0.1.4",
-			"id": "86fb4eb8480a872f940da1e1b2f401c731521383badaf14d5107ebfb5e8368a6",
-			"repository": "https://sourceforge.net/projects/locationnav/files/NewFileBrowser_v0.1.4_x64.zip",
+			"version": "0.1.5",
+			"id": "4b900825a588625cf51f6d4cc9b572c9399b1d7fa34d6f668c96aa5e4181eb62",
+			"repository": "https://sourceforge.net/projects/locationnav/files/NewFileBrowser_v0.1.5_x64.zip",
 			"description": "Define 20 new file's initial text and have an inner web browser which can run current file.",
 			"author": "Austin Young",
 			"homepage": "https://sourceforge.net/projects/locationnav/"
@@ -556,9 +556,9 @@
 		{
 			"folder-name": "NppPluginDemo",
 			"display-name": "Notepad++ Plugin Demo",
-			"version": "3.1",
-			"id": "855a6c23a5672c691a512314c0a8b01674e2d26d91b0466f011392495f13cb28",
-			"repository": "https://github.com/npp-plugins/plugindemo/releases/download/3.1/pluginDemo.v3.1.bin.x64.zip",
+			"version": "4.0",
+			"id": "d57faf7fec839887067eecc171e180906bf8d5c0ba69031f1dc866a43c646d95",
+			"repository": "https://github.com/npp-plugins/plugindemo/releases/download/v4/pluginDemo.v4.bin.x64.zip",
 			"description": "Notepad++ Plugin Demo is written from Notepad++ Plugin Template to demonstrate the usage of plugin API.",
 			"author": "Don HO",
 			"homepage": "https://npp-user-manual.org/docs/plugins/"
@@ -566,9 +566,9 @@
 		{
 			"folder-name": "NppPluginTemplate",
 			"display-name": "Notepad++ Plugin Template",
-			"version": "3.1",
-			"id": "3b61450758939fdf273d491f148dcf3e8311e0f7af4c1c225a8a2bbd87a69886",
-			"repository": "https://github.com/npp-plugins/plugintemplate/releases/download/v3.1/pluginTemplate.v3.1.bin.x64.zip",
+			"version": "4.0",
+			"id": "1f8d265ecc403670f9729ecb7f3451402ca96cedeb87f11e7d3e47e3bf5110ee",
+			"repository": "https://github.com/npp-plugins/plugintemplate/releases/download/v4/pluginTemplate.v4.bin.x64.zip",
 			"description": "Template for making plugin development as easy and simple as possible. Four steps and it's done.",
 			"author": "Don HO",
 			"homepage": "https://npp-user-manual.org/docs/plugins/"
@@ -586,9 +586,9 @@
 		{
 			"folder-name": "nppConverter",
 			"display-name": "Npp Converter",
-			"version": "4.2.1",
-			"id": "ff5863e5d41818bf6f6d8bf0630a7051dcc28e2ba8ccb0a38612f6dd561ae020",
-			"repository": "https://github.com/npp-plugins/converter/releases/download/v4.2.1/nppConvert.v4.2.1.x64.zip",
+			"version": "4.3.0",
+			"id": "9ed76fc418398cdbedcc4829026851f6792e81f6fcf2aec66096fefd0b020d19",
+			"repository": "https://github.com/npp-plugins/converter/releases/download/v4.3/nppConvert.v4.3.x64.zip",
 			"description": "ASCII<->Hex converter.",
 			"author": "Don HO",
 			"homepage": "https://github.com/npp-plugins/converter/"
@@ -727,8 +727,8 @@
 			"folder-name": "NppPluginOpenHost",
 			"display-name": "NppPluginOpenHost",
 			"version": "1.1.0.0",
-			"id": "dc7118858323bb1d1002533d879c2509fdf3d5319eeb38294d0ff61e16278e14",
-			"repository": "https://github.com/jejemorg/NppPluginOpenHost/raw/main/bin64/NppPluginOpenHost.zip",
+			"id": "d1fc3584f66cbe28bb21c39e95374f7602a6d1d14ae5c5458eb2a59bc1ead36e",
+			"repository": "https://github.com/jejemorg/NppPluginOpenHost/releases/download/1.1/NppPluginOpenHost.zip",
 			"description": "Allow to open Host file on Windows",
 			"author": "jejemorg",
 			"homepage": "https://github.com/jejemorg/NppPluginOpenHost/"
@@ -752,6 +752,16 @@
 			"description": "Search one or more regular expression in one or more different files and get XML search results.",
 			"author": "Jan Graefe",
 			"homepage": "https://github.com/viper3400/RegExTractor/wiki/de_userdocumentation"
+		},
+		{
+			"folder-name": "NppTags",
+			"display-name": "NppTags",
+			"version": "0.9.1",
+			"id": "313cc5e1c50f2cc7786c08bda36122abf5e0fb95522ab55ba2058ca8ae71351e",
+			"repository": "https://github.com/ffes/npptags/releases/download/v0.9.1/NppTags-091-x64.zip",
+			"description": "NppTags is a Universal Ctags plug-in to browse through your sources easily and lets you jump to a selected function / variable / class / etc in your code by pressing just one key.",
+			"author": "Frank Fesevur",
+			"homepage": "https://www.fesevur.com/npptags"
 		},
 		{
 			"folder-name": "NppTextViz",
@@ -786,12 +796,22 @@
 		{
 			"folder-name": "OpenSelection",
 			"display-name": "OpenSelection",
-			"version": "1.1.2.0",
-			"id": "6d909290f322f1c5bb85d1dc1000108b8207a56c6b4485f3a3a93822d14b6c37",
-			"repository": "https://github.com/francostellari/NppPlugins/raw/main/OpenSelection/OpenSelection_dll_1v12_x64.zip",
+			"version": "1.1.3.0",
+			"id": "e9ba624a9e1e99cf05a46f33c5efae9426b1ad2c8e094c1803535c9e9b070dad",
+			"repository": "https://github.com/francostellari/NppPlugins/raw/main/OpenSelection/OpenSelection_dll_1v13_x64.zip",
 			"description": "Open files based on the selected text. A typical applications is 'include' files of may types of programs. Another applications is to open Matlab functions. Can be customized for different languages based on the open file extension. Multiple search folders may be specified along with multiple extensions.",
 			"author": "Franco Stellari",
 			"homepage": "https://github.com/francostellari/NppPlugins"
+		},
+		{
+			"folder-name": "Papyrus",
+			"display-name": "Papyrus Script Lexer",
+			"version": "0.2.1.18",
+			"id": "5c836008601b2c6a614864960a1f3c6d91e313b3240ff23c6cf7b1dbf3bdeb83",
+			"repository": "https://github.com/blu3mania/npp-papyrus/releases/download/v0.2.1/PapyrusPlugin-v0.2.1-x64.zip",
+			"description": "View and edit Papyrus Script files used by Bethesda games with syntax highlighting, function and block folding, hyperlinks to referenced scripts, keywords matching, plus compilation support with anonymized output and error list view.",
+			"author": "blu3mania",
+			"homepage": "https://github.com/blu3mania/npp-papyrus"
 		},
 		{
 			"folder-name": "PoorMansTSqlFormatterNppPlugin",
@@ -916,9 +936,9 @@
 		{
 			"folder-name": "RunMe",
 			"display-name": "RunMe",
-			"version": "1.4.0.0",
-			"id": "34552b5ee8eaf6f8484ef8fbf3a05b9fd3bcc2561ff72d9dea33da3fa1e44402",
-			"repository": "https://github.com/francostellari/NppPlugins/raw/main/RunMe/RunMe_dll_1v40_x64.zip",
+			"version": "1.4.1.0",
+			"id": "f49e2cd6796a5a1b49655aaa1ba5c3574fbfa0b33e51d9a585cbf0603be27e78",
+			"repository": "https://github.com/francostellari/NppPlugins/raw/main/RunMe/RunMe_dll_1v41_x64.zip",
 			"description": "Execute the currently open file, based on its shell association. Also allows opening an explorer or command shell at the file location. Options are available to save the current file (or all files) before execution. The executed file can be run in foreground, background, or hidden mode. Context menu entries and tool bar icons are available.",
 			"author": "Franco Stellari",
 			"homepage": "https://github.com/francostellari/NppPlugins"
@@ -1066,9 +1086,9 @@
 		{
 			"folder-name": "TakeNotes",
 			"display-name": "TakeNotes",
-			"version": "1.2.0.0",
-			"id": "0cbe78b69942749ee0560be81bf2ca3db00536085aa60f100d57f97ef0873372",
-			"repository": "https://github.com/francostellari/NppPlugins/raw/main/TakeNotes/TakeNotes_dll_1v20_x64.zip",
+			"version": "1.2.1.0",
+			"id": "7988bbde2882185883a14e5aea9645f1b09c52fb2859830326c5fdb0d73b8dd3",
+			"repository": "https://github.com/francostellari/NppPlugins/raw/main/TakeNotes/TakeNotes_dll_1v21_x64.zip",
 			"description": "Helps people who like to use Notepad++ for jotting quick notes. Instead of using unnamed 'new ?' files, this plugins allows to quickly create new empty files in a folder of choice. The file names may be custom generated using a mask and may contain details such as the user name, date, and time of creation so that unique files may be generated. Additionally, the plugin allows to load exiting notes in the folder of choice, save existing files as a note, and open the last saved note quickly. Please refer to the Options dialog box for more details. It is strongly recommended to use this plugin in combination with AutoSave to make sure that you never loose a note.",
 			"author": "Franco Stellari",
 			"homepage": "https://github.com/francostellari/NppPlugins"
@@ -1076,9 +1096,9 @@
 		{
 			"folder-name": "NppTaskList",
 			"display-name": "Task List",
-			"version": "2.1",
-			"id": "b0d051818c3899152d0d0f71c72906437b14396963e076c0f31f2b8933c2bbce",
-			"repository": "https://github.com/Megabyteceer/npp-task-list/releases/download/v2.1.0/NppTaskList_v2.1.0_x64.zip",
+			"version": "2.3",
+			"id": "8288c238ded41b46287dc7ab815e857b7c3b61d180d8d705a9f8305562fd6108",
+			"repository": "https://github.com/Megabyteceer/npp-task-list/releases/download/v2.3.0/NppTaskList_v2.3.0_x64.zip",
 			"description": "Automatically scans the open document and adds all \"TODO:*\" items to your task list, a window pane docked on the right. Double-clicking an item in the list will take you to that line in the code.",
 			"author": "blitowitz",
 			"homepage": "https://code.google.com/p/npp-task-list/"
@@ -1156,9 +1176,9 @@
 		{
 			"folder-name": "XMLTools",
 			"display-name": "XML Tools",
-			"version": "3.1.1.1",
-			"id": "a2a2c7cd85924c889c708e2ae6411d9d4c6e6638e80cb810ebbbca80393c73ae",
-			"repository": "https://github.com/morbac/xmltools/releases/download/3.1.1.1/XMLTools-3.1.1.1-x64.zip",
+			"version": "3.1.1.3",
+			"id": "c6097b3da0c0358d6b9714bab75f2c6cb1671eb8bbb537363cb52174b6a0d602",
+			"repository": "https://github.com/morbac/xmltools/releases/download/3.1.1.3/XMLTools-3.1.1.3-x64.zip",
 			"description": "Small set of useful tools for editing XML. Plugin is MSXML-based. The features are:\r\n- XML syntax Check\r\n- XML Schema (XSD) + DTD Validation\r\n- XML tag autoclose\r\n- Pretty print\n- Linarize XML\r\n- Current XML Path\r\n- Conversion XML &amp;lt;-&amp;gt; Text\n- Comment / Uncomment\r\n- XPath expression evaluation",
 			"author": "Nicolas Crittin",
 			"homepage": "https://github.com/morbac/xmltools"

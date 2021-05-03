@@ -1,0 +1,77 @@
+{
+	"name": "npp-pluginList",
+	"version": "1.0.2",
+	"arch": "arm64",
+	"npp-plugins": [
+		{
+			"folder-name": "HexEditor",
+			"display-name": "HEX-Editor",
+			"version": "0.9.9.0",
+			"id": "9e864880de62a563003e8b4849c06a04df7a98e58986e7771bfcfaf5c4767f26",
+			"repository": "https://github.com/chcg/NPP_HexEdit/releases/download/0.9.9/HexEditor_0.9.9_arm64.zip",
+			"description": "Hex editor. Some reported issues, however many bugs fixed in latest release.",
+			"author": "Jens Lorenz",
+			"homepage": "https://github.com/chcg/NPP_HexEdit"
+		},
+		{
+			"folder-name": "mimeTools",
+			"display-name": "Mime tools",
+			"version": "2.6",
+			"id": "be0d8b71c454b09d6d384e0bba87d25932c1563a2eb4871b070617fbca8ecaa6",
+			"repository": "https://github.com/npp-plugins/mimetools/releases/download/v2.6/mimetools.v2.6.arm64.zip",
+			"description": "Implements several main functionalities defined in MIME (Multipurpose Internet Mail Extensions).",
+			"author": "Don HO",
+			"homepage": "https://github.com/npp-plugins/mimetools"
+		},
+		{
+			"folder-name": "NppPluginDemo",
+			"display-name": "Notepad++ Plugin Demo",
+			"version": "4.0",
+			"id": "508dca3a5736f0740c79a13a5720eaf86d8536b0fefe8b8603a4f5265de7377a",
+			"repository": "https://github.com/npp-plugins/plugindemo/releases/download/v4/pluginDemo.v4.bin.arm64.zip",
+			"description": "Notepad++ Plugin Demo is written from Notepad++ Plugin Template to demonstrate the usage of plugin API.",
+			"author": "Don HO",
+			"homepage": "https://npp-user-manual.org/docs/plugins/"
+		},
+		{
+			"folder-name": "NppPluginTemplate",
+			"display-name": "Notepad++ Plugin Template",
+			"version": "4.0",
+			"id": "ce3a65652ca85eea9140e42a5ce657c29ade1412372b9ddb2dded03604b55565",
+			"repository": "https://github.com/npp-plugins/plugintemplate/releases/download/v4/pluginTemplate.v4.bin.arm64.zip",
+			"description": "Template for making plugin development as easy and simple as possible. Four steps and it's done.",
+			"author": "Don HO",
+			"homepage": "https://npp-user-manual.org/docs/plugins/"
+		},
+		{
+			"folder-name": "nppConverter",
+			"display-name": "Npp Converter",
+			"version": "4.3.0",
+			"id": "e443604d85ab80b1b77a5607910c6f156c90fae89194f7a5ebf9525695c21268",
+			"repository": "https://github.com/npp-plugins/converter/releases/download/v4.3/nppConvert.v4.3.arm64.zip",
+			"description": "ASCII<->Hex converter.",
+			"author": "Don HO",
+			"homepage": "https://github.com/npp-plugins/converter/"
+		},
+		{
+			"folder-name": "NppExport",
+			"display-name": "NppExport",
+			"version": "0.3.0.0",
+			"id": "4234ebce2a882dd886135ce06e63f39a885835bb765d9f9a8a1128cafb4559a4",
+			"repository": "https://github.com/chcg/NPP_ExportPlugin/releases/download/0.3.0/NppExport_0.3.0_arm64.zip",
+			"description": "True WYSIWYG exporter. Allows you not only to save your source code as an HTML/RTF file, but also to copy your source code in the clipboard in RTF/HTML format, so you can paste it into your word processor (Openoffice.org Writer, LibreOffice Writer, Abiword, MS Word) to get the same visual effect.",
+			"author": "",
+			"homepage": "https://github.com/chcg/NPP_ExportPlugin"
+		},
+		{
+			"folder-name": "NppTaskList",
+			"display-name": "Task List",
+			"version": "2.3",
+			"id": "0257e2709ee6aab7912a95686c28e62c3a0cf39d5f4be5e5574237a6c8d14003",
+			"repository": "https://github.com/Megabyteceer/npp-task-list/releases/download/v2.3.0/NppTaskList_v2.3.0_arm64.zip",
+			"description": "Automatically scans the open document and adds all \"TODO:*\" items to your task list, a window pane docked on the right. Double-clicking an item in the list will take you to that line in the code.",
+			"author": "blitowitz",
+			"homepage": "https://code.google.com/p/npp-task-list/"
+		}
+	]
+}

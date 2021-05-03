@@ -4,20 +4,28 @@ image: Visual Studio 2017
 
 environment:
   matrix:
-  - PlatformToolset: v141_xp
+  - PlatformToolset: v141
+    PLATFORM: ARM64
+    PYTHONTEST: arm64
+    PYTHON: "C:\\Python38"
+
+  - PlatformToolset: v141
     PLATFORM: x64
     PYTHONTEST: x64
     PYTHON: "C:\\Python38"
 
-  - PlatformToolset: v141_xp
+  - PlatformToolset: v141
     PLATFORM: Win32
     PYTHONTEST: Win32
     PYTHON: "C:\\Python38"
 
-  - PlatformToolset: v141_xp
+  - PlatformToolset: v141
+    PLATFORM: ARM64
+
+  - PlatformToolset: v141
     PLATFORM: x64
 
-  - PlatformToolset: v141_xp
+  - PlatformToolset: v141
     PLATFORM: Win32
 
 configuration:
@@ -34,8 +42,12 @@ install:
     - if "%platform%"=="Win32" set archi=x86
     - if "%platform%"=="Win32" set platform_input=Win32
 
-    - if "%PlatformToolset%"=="v141_xp" call "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Auxiliary\Build\vcvarsall.bat" %archi%
-    - if "%PlatformToolset%"=="v140_xp" call "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\vcvarsall.bat" %archi%
+    - if "%platform%"=="ARM64" set archi=amd64_arm64
+    - if "%platform%"=="ARM64" set platform_input=ARM64
+
+
+    - if "%PlatformToolset%"=="v141" call "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Auxiliary\Build\vcvarsall.bat" %archi%
+
 
 build_script:
     - cd "%APPVEYOR_BUILD_FOLDER%"
@@ -53,11 +65,15 @@ after_build:
                 Push-AppveyorArtifact "bin64\nppPluginList.dll" -FileName nppPluginList.dll
             }
 
+            if ($env:PLATFORM_INPUT -eq "ARM64" -and $env:CONFIGURATION -eq "Release") {
+                Push-AppveyorArtifact "binarm64\nppPluginList.dll" -FileName nppPluginList.dll
+            }
+
             if ($env:PLATFORM_INPUT -eq "Win32" -and $env:CONFIGURATION -eq "Release") {
                 Push-AppveyorArtifact "bin\nppPluginList.dll" -FileName nppPluginList.dll
             }
 
-            if ($($env:APPVEYOR_REPO_TAG) -eq "true" -and $env:CONFIGURATION -eq "Release" -and $env:PLATFORMTOOLSET -eq "v141_xp") {
+            if ($($env:APPVEYOR_REPO_TAG) -eq "true" -and $env:CONFIGURATION -eq "Release" -and $env:PLATFORMTOOLSET -eq "v141") {
                 if($env:PLATFORM_INPUT -eq "x64"){
                     $ZipFileName = "nppPluginList_$($env:APPVEYOR_REPO_TAG_NAME)_x64.zip"
                     7z a $ZipFileName bin64\*.dll
@@ -65,6 +81,10 @@ after_build:
                 if($env:PLATFORM_INPUT -eq "Win32"){
                     $ZipFileName = "nppPluginList_$($env:APPVEYOR_REPO_TAG_NAME)_x86.zip"
                     7z a $ZipFileName bin\*.dll
+                }
+                if($env:PLATFORM_INPUT -eq "ARM64"){
+                    $ZipFileName = "nppPluginList_$($env:APPVEYOR_REPO_TAG_NAME)_arm64.zip"
+                    7z a $ZipFileName binarm64\*.dll
                 }
             }
         }
@@ -76,5 +96,9 @@ after_build:
 
             if ($env:PLATFORM_INPUT -eq "Win32") {
                 Push-AppveyorArtifact "plugin_list_x86.md" -FileName plugin_list_x86.md
+            }
+
+            if ($env:PLATFORM_INPUT -eq "ARM64") {
+                Push-AppveyorArtifact "plugin_list_arm64.md" -FileName plugin_list_arm64.md
             }
         }
