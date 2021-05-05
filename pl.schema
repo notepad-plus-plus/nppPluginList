@@ -46,7 +46,7 @@
 				},
 				"id": {
 					"type": "string",
-					"pattern": "^(?i)^[A-Z0-9]{64}$"
+					"pattern": "^(?i)^[0-9A-F]{64}$"
 				},
 				"repository": {
 					"format": "uri"
