@@ -1054,6 +1054,16 @@
 			"homepage": "http://www.incrediblejunior.com/npp_plugins/"
 		},
 		{
+			"folder-name": "SpeechPlugin",
+			"display-name": "SpeechPlugin",
+			"version": "0.3.0.0",
+			"id": "4b34dbba48397b13c34d9029c5ef0558f82f20323fd4a1c08b53cfc5ca17e86e",
+			"repository": "https://github.com/chcg/SpeechPlugin/releases/download/v0.3.0/SpeechPlugin_v0.3.0_x64.zip",
+			"description": "No kidding, Notepad++ speaks now. With SpeechPlugin, you can make Notepad++ dictate your text or source code. Of course, speakers are necessary.",
+			"author": "Jim Xochellis",
+			"homepage": "https://github.com/chcg/SpeechPlugin"
+		},
+		{
 			"folder-name": "SQLinFormNpp64",
 			"display-name": "SQLinForm",
 			"version": "5.3.35",

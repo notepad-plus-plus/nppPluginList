@@ -1364,6 +1364,16 @@
 			"homepage": "https://sourceforge.net/projects/sourcecookifier/"
 		},
 		{
+			"folder-name": "SpeechPlugin",
+			"display-name": "SpeechPlugin",
+			"version": "0.3.0.0",
+			"id": "a306e20e72eff26f2a4da9f5042e841933cbef939201dbb94f2fadb942c9873f",
+			"repository": "https://github.com/chcg/SpeechPlugin/releases/download/v0.3.0/SpeechPlugin_v0.3.0_Win32.zip",
+			"description": "No kidding, Notepad++ speaks now. With SpeechPlugin, you can make Notepad++ dictate your text or source code. Of course, speakers are necessary.",
+			"author": "Jim Xochellis",
+			"homepage": "https://github.com/chcg/SpeechPlugin"
+		},
+		{
 			"folder-name": "SpellChecker",
 			"display-name": "Spell-Checker",
 			"version": "1.3.3.0",
