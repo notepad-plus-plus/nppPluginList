@@ -116,9 +116,9 @@
 		{
 			"folder-name": "BookmarksDook",
 			"display-name": "Bookmarks@Dook",
-			"version": "2.1.0.0",
-			"id": "92678e583a890e111a93afd2fefa5222cc8613ceaf55e75ab7d2168c239e9904",
-			"repository": "https://github.com/Dook1/Bookmarks-Dook/releases/download/2.1.32b/BookmarksDook.32.2.1.zip",
+			"version": "2.3.3.0",
+			"id": "ccc215e90322c25b2eede9a730fd36450e9b14eb4d67bd80e4608e3cad301bcb",
+			"repository": "https://github.com/Dook1/Bookmarks-Dook/releases/download/23332b/BookmarksDook.32.2.3.3.zip",
 			"description": "Bookmarks panel",
 			"author": "Dook",
 			"homepage": "https://github.com/Dook1/Bookmarks-Dook/issues"
