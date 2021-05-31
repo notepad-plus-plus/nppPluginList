@@ -38,6 +38,7 @@
   <ItemGroup>
     <None Include="..\src\pl.x64.json" />
     <None Include="..\src\pl.x86.json" />
+    <None Include="..\src\pl.arm64.json" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{EF020C4C-DD73-4844-B792-A39FDA815D83}</ProjectGuid>
@@ -190,7 +191,7 @@
     <ResourceCompile>
       <UndefinePreprocessorDefinitions>
       </UndefinePreprocessorDefinitions>
-      <PreprocessorDefinitions>_WIN64;_UNICODE;UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_WIN64;_M_ARM64;_UNICODE;UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -269,7 +270,7 @@
     <ResourceCompile>
       <UndefinePreprocessorDefinitions>
       </UndefinePreprocessorDefinitions>
-      <PreprocessorDefinitions>_WIN64;_UNICODE;UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_WIN64;_M_ARM64;_UNICODE;UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ResourceCompile>
   </ItemDefinitionGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

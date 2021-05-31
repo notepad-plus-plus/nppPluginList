@@ -39,5 +39,8 @@
     <None Include="..\src\pl.x86.json">
       <Filter>Plugin List JSON</Filter>
     </None>
+    <None Include="..\src\pl.arm64.json">
+      <Filter>Plugin List JSON</Filter>
+    </None>
   </ItemGroup>
 </Project>

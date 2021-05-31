@@ -29,7 +29,13 @@
 #pragma once
 
 #ifdef _WIN64
-#define PLJSON "pl.x64.json"
+
+#ifdef _M_ARM64
+    #define PLJSON "pl.arm64.json"
+#else
+    #define PLJSON "pl.x64.json"
+#endif
+
 #else
 #define PLJSON "pl.x86.json"
 #endif
