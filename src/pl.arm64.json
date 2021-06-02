@@ -26,9 +26,9 @@
 		{
 			"folder-name": "NppPluginDemo",
 			"display-name": "Notepad++ Plugin Demo",
-			"version": "4.0",
-			"id": "508dca3a5736f0740c79a13a5720eaf86d8536b0fefe8b8603a4f5265de7377a",
-			"repository": "https://github.com/npp-plugins/plugindemo/releases/download/v4/pluginDemo.v4.bin.arm64.zip",
+			"version": "4.1",
+			"id": "439bed83a39e1dbd69f8a960645854cb533bca3dc0dc95fddc4b890d06821fe0",
+			"repository": "https://github.com/npp-plugins/plugindemo/releases/download/v4.1/pluginDemo.v4.1.bin.arm64.zip",
 			"description": "Notepad++ Plugin Demo is written from Notepad++ Plugin Template to demonstrate the usage of plugin API.",
 			"author": "Don HO",
 			"homepage": "https://npp-user-manual.org/docs/plugins/"
@@ -36,9 +36,9 @@
 		{
 			"folder-name": "NppPluginTemplate",
 			"display-name": "Notepad++ Plugin Template",
-			"version": "4.0",
-			"id": "ce3a65652ca85eea9140e42a5ce657c29ade1412372b9ddb2dded03604b55565",
-			"repository": "https://github.com/npp-plugins/plugintemplate/releases/download/v4/pluginTemplate.v4.bin.arm64.zip",
+			"version": "4.1",
+			"id": "bd4e5b059e03065ac6482070bad104a777592122ad5c0b6ecff70a73158e9813",
+			"repository": "https://github.com/npp-plugins/plugintemplate/releases/download/v4.1/pluginTemplate.v4.1.bin.arm64.zip",
 			"description": "Template for making plugin development as easy and simple as possible. Four steps and it's done.",
 			"author": "Don HO",
 			"homepage": "https://npp-user-manual.org/docs/plugins/"
@@ -82,6 +82,16 @@
 			"description": "Automatically scans the open document and adds all \"TODO:*\" items to your task list, a window pane docked on the right. Double-clicking an item in the list will take you to that line in the code.",
 			"author": "blitowitz",
 			"homepage": "https://code.google.com/p/npp-task-list/"
+		},
+		{
+			"folder-name": "pork2sausage",
+			"display-name": "Pork to Sausage",
+			"version": "2.2",
+			"id": "179d2ce71652d253a795ebe7fcb0ad8e88cce79b6c1ae80ce345bdf32af6a2e2",
+			"repository": "https://github.com/npp-plugins/pork2sausage/releases/download/v2.2/pork2sausage.2.2.bin.arm64.zip",
+			"description": "Pass any selected text to any command line program as input and take the output (the result of program) to replace the selected text.",
+			"author": "Don HO",
+			"homepage": "https://github.com/npp-plugins/pork2sausage"
 		}
 	]
 }

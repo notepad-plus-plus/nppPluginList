@@ -776,9 +776,9 @@
 		{
 			"folder-name": "NppPluginDemo",
 			"display-name": "Notepad++ Plugin Demo",
-			"version": "4.0",
-			"id": "06432be02454e8eb91a3a605b9b21b6cf8a3accc7bdb08860e7881d77cfadb9a",
-			"repository": "https://github.com/npp-plugins/plugindemo/releases/download/v4/pluginDemo.v4.bin.zip",
+			"version": "4.1",
+			"id": "c3edb6926ac15a00873538781d6fa3d3e6580453130b0360d8354663c4b5db6c",
+			"repository": "https://github.com/npp-plugins/plugindemo/releases/download/v4.1/pluginDemo.v4.1.bin.zip",
 			"description": "Notepad++ Plugin Demo is written from Notepad++ Plugin Template to demonstrate the usage of plugin API.",
 			"author": "Don HO",
 			"homepage": "https://npp-user-manual.org/docs/plugins/"
@@ -786,9 +786,9 @@
 		{
 			"folder-name": "NppPluginTemplate",
 			"display-name": "Notepad++ Plugin Template",
-			"version": "4.0",
-			"id": "b53496f52bab887df301800fe0da1587a457a5b5a819c530685865663e535826",
-			"repository": "https://github.com/npp-plugins/plugintemplate/releases/download/v4/pluginTemplate.v4.bin.zip",
+			"version": "4.1",
+			"id": "94394d743b53825a3d37eeb46cdd47f0ea4eab69330e68d59b6043f6276fd250",
+			"repository": "https://github.com/npp-plugins/plugintemplate/releases/download/v4.1/pluginTemplate.v4.1.bin.zip",
 			"description": "Template for making plugin development as easy and simple as possible. Four steps and it's done.",
 			"author": "Don HO",
 			"homepage": "https://npp-user-manual.org/docs/plugins/"
@@ -1076,9 +1076,9 @@
 		{
 			"folder-name": "pork2sausage",
 			"display-name": "Pork to Sausage",
-			"version": "2.1",
-			"id": "0744ee41277831e353337c6c651f46dc34c663da70f47df1590cf18c9eeaccd6",
-			"repository": "https://github.com/npp-plugins/pork2sausage/releases/download/v2.1/pork2sausage.2.1.bin.zip",
+			"version": "2.2",
+			"id": "21ee354564268b75f766d114e8bc12baea9e1a5941a55d3994aa5daa0fb56dcd",
+			"repository": "https://github.com/npp-plugins/pork2sausage/releases/download/v2.2/pork2sausage.2.2.bin.zip",
 			"description": "Pass any selected text to any command line program as input and take the output (the result of program) to replace the selected text.",
 			"author": "Don HO",
 			"homepage": "https://github.com/npp-plugins/pork2sausage"
