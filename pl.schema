@@ -12,7 +12,7 @@
 			"type": "string",
 			"pattern": "^\\d+(\\.\\d+){,3}$"
 		},
-		"arch": { "enum": ["32", "64"] },
+		"arch": { "enum": ["32", "64", "arm64"] },
 		"npp-plugins": {
 			"type": "array",
 			"items": { "$ref": "#/definitions/plugin" }
@@ -46,7 +46,7 @@
 				},
 				"id": {
 					"type": "string",
-					"pattern": "^(?i)^[A-Z0-9]{64}$"
+					"pattern": "^(?i)^[0-9A-F]{64}$"
 				},
 				"repository": {
 					"format": "uri"

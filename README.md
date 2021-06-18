@@ -8,6 +8,7 @@ To review the current list of plugins and their features see the generated list 
 
 * [32-Bit Plugin List](doc/plugin_list_x86.md)
 * [64-Bit Plugin List](doc/plugin_list_x64.md)
+* [64-Bit ARM Plugin List](doc/plugin_list_arm64.md)
 
 Here is all the information you need to perform local tests:  
 https://npp-user-manual.org/docs/plugins/#plugins-admin

@@ -29,13 +29,19 @@
 #pragma once
 
 #ifdef _WIN64
-#define PLJSON "pl.x64.json"
+
+#ifdef _M_ARM64
+    #define PLJSON "pl.arm64.json"
+#else
+    #define PLJSON "pl.x64.json"
+#endif
+
 #else
 #define PLJSON "pl.x86.json"
 #endif
 
-#define VERSION_VALUE "1.30\0"
-#define VERSION_DIGITALVALUE 1, 3, 0, 0
+#define VERSION_VALUE "1.32\0"
+#define VERSION_DIGITALVALUE 1, 3, 2, 0
 
 #define TEXTFILE        256
 #define IDR_PLUGINLISTJSONFILE  101
