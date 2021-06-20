@@ -226,9 +226,9 @@
 		{
 			"folder-name": "DSpellCheck",
 			"display-name": "DSpellCheck",
-			"version": "1.4.20",
-			"id": "45e521c9b2a5b95935afbc06e64cac694a493cab1eb2e2f2233cc6291bb38d73",
-			"repository": "https://github.com/Predelnik/DSpellCheck/releases/download/v1.4.20/DSpellCheck_x64.zip",
+			"version": "1.4.21",
+			"id": "cb09bb83452c44a1ce93d16f64f8d9742285fbc92b480123b968db8560d2339a",
+			"repository": "https://github.com/Predelnik/DSpellCheck/releases/download/v1.4.21/DSpellCheck_x64.zip",
 			"description": "Spell-checking with these main features:\r\n-Underlining spelling mistakes\r\n-Iterating through all mistakes in document\r\n-Finding mistakes only in comments and strings (For files with standard programming language syntax e.g. C++)\r\n-Possible usage of multiple languages (dictionaries) simultaneously to do spell-checking.\r\n-Getting suggestions for words by either using default Notepad++ menu or separate context menu called by special button appearing under word.\r\n-Able to add words to user dictionary or ignore them for current session of Notepad++\r\n-Using either Hunspell library (included in plugin) or Aspell library (needs to be installed).\r\n-A lot of customizing available from Plugin settings (Ignoring/Allowing only specific files, Choosing delimiters for words, Maximum number of suggestions etc)\r\n-Support for downloading and removing Hunspell dictionaries through user friendly GUI interface\r\n-Ability to quickly change current language through the nice menu.",
 			"author": "Sergey Semushin",
 			"homepage": "https://github.com/Predelnik/DSpellCheck"
