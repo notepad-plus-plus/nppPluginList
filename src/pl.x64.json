@@ -817,7 +817,7 @@
 			"folder-name": "PlanetCNCNpp64",
 			"display-name": "Expression calculator",
 			"version": "1.0",
-			"id": "0ed1fedc357c855975687f5404325ef3e87df86d624328262474666f84caae55",
+			"id": "15deac69a0c7becb09115d76adf461d30045ffaac1c0be4261b85da28dfa110b",
 			"repository": "https://github.com/PlanetCNC/PlanetCNCNpp/releases/download/release/PlanetCNCNpp64.zip",
 			"description": "Expression calculator plugin for Notepad++",
 			"author": "PlanetCNC",
