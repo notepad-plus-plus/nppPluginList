@@ -1064,6 +1064,16 @@
 			"homepage": "https://github.com/blu3mania/npp-papyrus"
 		},
 		{
+			"folder-name": "PlanetCNCNpp32",
+			"display-name": "Expression calculator",
+			"version": "3001.21.617.1",
+			"id": "118281acd05bfafa52010fe24a1a73f4b9909c738a39b67146ae8b05c2f0e64b",
+			"repository": "https://github.com/PlanetCNC/PlanetCNCNpp/releases/download/release/PlanetCNCNpp32.zip",
+			"description": "Expression calculator plugin for Notepad++",
+			"author": "PlanetCNC",
+			"homepage": "https://planet-cnc.com"
+		},
+		{
 			"folder-name": "PoorMansTSqlFormatterNppPlugin",
 			"display-name": "Poor Man's T-Sql Formatter",
 			"version": "1.6.13.31502",
