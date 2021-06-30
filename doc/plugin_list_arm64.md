@@ -1,5 +1,5 @@
 ## Plugin List - arm64 bit
-version 1.3.2
+version 1.3.3
 |Plugin name | Author | Homepage | Version and link | Description |
 |---|---|---|---|---|
 | HEX-Editor | Jens Lorenz | https://github.com/chcg/NPP_HexEdit | [0.9.9.0 - arm64 bit](https://github.com/chcg/NPP_HexEdit/releases/download/0.9.9/HexEditor_0.9.9_arm64.zip) | Hex editor. Some reported issues, however many bugs fixed in latest release. |
