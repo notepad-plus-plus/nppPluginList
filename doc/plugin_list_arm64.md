@@ -1,5 +1,5 @@
 ## Plugin List - arm64 bit
-version 1.3.3
+version 1.3.4
 |Plugin name | Author | Homepage | Version and link | Description |
 |---|---|---|---|---|
 | Fixed-width Data Visualizer | Shridhar Kumar | https://github.com/shriprem/FWDataViz | [1.0.3.1 - arm64 bit](https://github.com/shriprem/FWDataViz/releases/download/1.0.3.1/FWDataViz_arm64.zip) |  <details> <summary> Fixed Width Data Visualizer adds Excel-like features for fixed-width data files in Notepad++. </summary>  Displays cursor position data. Jump to specific fields. Builtin dialogs to configure file-type, record-type & fields; and themes & colors. Automatic File Type Detection. Handles homogenous, mixed & multi-line records. </details> |
