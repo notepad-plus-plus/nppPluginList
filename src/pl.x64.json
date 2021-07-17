@@ -16,9 +16,9 @@
 		{
 			"folder-name": "ActiveX",
 			"display-name": "ActiveX Plugin",
-			"version": "1.1.8.5",
-			"id": "a025f62be868bcf6519f14f76b707890bb533538e953f86a4e4846c328a49045",
-			"repository": "https://sourceforge.net/projects/nppactivexplugin/files/bin/ActiveX_x64_1_1_8_5.zip",
+			"version": "1.1.8.7",
+			"id": "225110f20d750272c1300aa7c30e3b642702cffea2eadd9ee1a5e68fa3511c10",
+			"repository": "https://sourceforge.net/projects/nppactivexplugin/files/bin/ActiveX_x64_1_1_8_7.zip",
 			"description": "Allows you to control Notepad++ via ActiveX.\r\nYou can use ActiveX with many scripting languages (VBScript, JScript, PHP, ...) and other languages (C++, C+, VB.NET, Delphi, ...).\r\nSo you are not bound to a single language.",
 			"author": "Bananen-Joe",
 			"homepage": "https://sourceforge.net/projects/nppactivexplugin/"
