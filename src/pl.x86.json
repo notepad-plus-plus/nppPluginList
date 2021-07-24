@@ -566,9 +566,9 @@
 		{
 			"folder-name": "LanguageHelp",
 			"display-name": "LanguageHelp",
-			"version": "1.7.4.0",
-			"id": "a048e384d69fd6a948a034b9d4614c3c4f188d985eb412c2b261099b2e400b5a",
-			"repository": "https://github.com/francostellari/NppPlugins/raw/main/LanguageHelp/LanguageHelp_dll_1v74_x32.zip",
+			"version": "1.7.5.0",
+			"id": "be410c694abeef2469d34c98c16ec39387650275907cb4966cd5503618f20afd",
+			"repository": "https://github.com/francostellari/NppPlugins/raw/main/LanguageHelp/LanguageHelp_dll_1v75_x32.zip",
 			"description": "Allows loading a language specific help file (CHM, HLP, PDF) and search for the keyword under the cursor.\r\nThe latest version allows showing the help files as menu entries or in the context menu.",
 			"author": "Franco Stellari",
 			"homepage": "https://github.com/francostellari/NppPlugins"
