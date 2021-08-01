@@ -226,9 +226,9 @@
 		{
 			"folder-name": "_CustomizeToolbar",
 			"display-name": "Customize Toolbar",
-			"version": "5.0",
-			"id": "683dc8cbceea8be4e3c2f2ac7bece2bc798a9bba39f2ed487ac89f08a32227b7",
-			"repository": "https://sourceforge.net/projects/npp-customize/files/Customize%20Toolbar%20v5.0/CustomizeToolbar_5_0_Win32_UNI.zip",
+			"version": "5.1",
+			"id": "f56d9f539a45d77c62b6c46106dc8b6c221864c0fa84a75b4fe8e0ebe752eb65",
+			"repository": "https://sourceforge.net/projects/npp-customize/files/Customize%20Toolbar%20v5.1/CustomizeToolbar_5_1_Win32_UNI.zip",
 			"description": "Allows the toolbar to be fully customised by the user, and includes twenty-six additional buttons for frequently used menu commands. All buttons on the toolbar can be customized, whether Notepad++ buttons, additional buttons, or other plugin buttons.\r\n\r\nCustom buttons for Notepad++ menu commands or other plugin menu commands can be created using a configuration file. It is possible to replace the icons of existing Notepad++ buttons or other plugin buttons.\r\n",
 			"author": "dw-dev@gmx.com",
 			"homepage": "https://sourceforge.net/projects/npp-customize"
