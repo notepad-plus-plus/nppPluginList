@@ -1399,7 +1399,7 @@
 			"version": "1.0.0.0",
 			"id": "6fb01eb7485d150a9e17ae89efd99b78e610e4594b35b33cd7b4462eb34f2b46",
 			"repository": "http://www.scout-soft.com/sql/sql.zip",
-			"description": "Allows to search\filter a CSV formatted text in a Notepad++ window using standard SQL queries.\r\n- Supports standard SQL statements",
+			"description": "Allows to search\\filter CSV formatted text in a Notepad++ window using standard SQL queries.\r\n- Supports standard SQL statements",
 			"author": "Heinz",
 			"homepage": "http://www.scout-soft.com/sql"
 		},
