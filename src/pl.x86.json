@@ -396,10 +396,10 @@
 		{
 			"folder-name": "FWDataViz",
 			"display-name": "Fixed-width Data Visualizer",
-			"version": "1.4.2.1",
-			"id": "c9b82b17801649ed87e2eebc98f5cf98fa2cc249d8164972ec845b0dfb4722f1",
-			"repository": "https://github.com/shriprem/FWDataViz/releases/download/v1.4.2.1/FWDataViz_x86.zip",
-			"description": "Fixed Width Data Visualizer adds Excel-like features for fixed-width data files in Notepad++. Displays cursor position data. Jump to specific fields. Data Extraction. Builtin dialogs to configure file-type, record-type & fields; and themes & colors. Automatic File Type Detection. Handles homogenous, mixed & multi-line records.",
+			"version": "v2.0.0.0",
+			"id": "aca8d51f8fb72d2c38ff6b359439e2246e79e6c5daa338e20f5b945aab7f47e9",
+			"repository": "https://github.com/shriprem/FWDataViz/releases/download/v2.0.0.0/FWDataViz_x86.zip",
+			"description": "Fixed Width Data Visualizer adds Excel-like features for fixed-width data files in Notepad++. Displays cursor position data. Jump to specific fields. Data Extraction. Builtin dialogs to configure file-type, record-type & fields; and themes & colors. Automatic File Type Detection. Handles homogenous, mixed & multi-line records. Darkmode enabled.",
 			"author": "Shridhar Kumar",
 			"homepage": "https://github.com/shriprem/FWDataViz"
 		},
@@ -446,10 +446,10 @@
 		{
 			"folder-name": "GotoLineCol",
 			"display-name": "GotoLineCol",
-			"version": "1.2.0.2",
-			"id": "9d2143383a7e56c08b05cedfdee46e2596ebdc2fc4de5b78f16f44ed3f3d4617",
-			"repository": "https://github.com/shriprem/Goto-Line-Col-NPP-Plugin/releases/download/1.2.0.2/GotoLineCol_x86.zip",
-			"description": "A plugin to navigate to a specified line and (byte-based or character-based) column position. Will also display character byte code, UTF-8 byte sequence & Unicode code point at cursor position.",
+			"version": "v2.0.0.0",
+			"id": "e04f2aa6bf2fd22048d10c74022aa3e648f1ff4cc891193300bb77e806f1baa5",
+			"repository": "https://github.com/shriprem/Goto-Line-Col-NPP-Plugin/releases/download/v2.0.0.0/GotoLineCol_x86.zip",
+			"description": "A plugin to navigate to a specified line and (byte-based or character-based) column position. Will also display character byte code, UTF-8 byte sequence & Unicode code point at cursor position. Darkmode enabled.",
 			"author": "Shridhar Kumar",
 			"homepage": "https://github.com/shriprem/Goto-Line-Col-NPP-Plugin"
 		},
