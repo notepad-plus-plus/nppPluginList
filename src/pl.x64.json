@@ -716,9 +716,9 @@
 		{
 			"folder-name": "NppMenuSearch",
 			"display-name": "NppMenuSearch",
-			"version": "0.9.3",
-			"id": "593736205bfe861e31e8435d179d9701599970a70db4ac5bde02dedc4c5ad9e8",
-			"repository": "https://sourceforge.net/projects/nppmenusearch/files/v0.9.3/NppMenuSearch_v0.9.3_x64.zip",
+			"version": "0.9.5",
+			"id": "7AA9C21BE13BB5E50117AF0930B21E34DA83F3152BFE4A518941FC387A1F194B",
+			"repository": "https://sourceforge.net/projects/nppmenusearch/files/v0.9.5/NppMenuSearch_v0.9.5_x64.zip",
 			"description": "Adds a text field to the toolbar for searching menu items and preference dialog options.",
 			"author": "Peter Frentrup",
 			"homepage": "https://github.com/peter-frentrup/NppMenuSearch"
