@@ -26,9 +26,9 @@
 		{
 			"folder-name": "HexEditor",
 			"display-name": "HEX-Editor",
-			"version": "0.9.9.0",
-			"id": "9e864880de62a563003e8b4849c06a04df7a98e58986e7771bfcfaf5c4767f26",
-			"repository": "https://github.com/chcg/NPP_HexEdit/releases/download/0.9.9/HexEditor_0.9.9_arm64.zip",
+			"version": "0.9.10.0",
+			"id": "fc6c6d173fd0e31c4767a124208f9dcfe602d6f612d4620618dc79754d0d3cb4",
+			"repository": "https://github.com/chcg/NPP_HexEdit/releases/download/0.9.10/HexEditor_0.9.10_arm64.zip",
 			"description": "Hex editor. Some reported issues, however many bugs fixed in latest release.",
 			"author": "Jens Lorenz",
 			"homepage": "https://github.com/chcg/NPP_HexEdit"
