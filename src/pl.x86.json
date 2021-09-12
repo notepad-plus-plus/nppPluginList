@@ -6,9 +6,9 @@
 		{
 			"folder-name": "3P",
 			"display-name": "3P - Progress Programmers Pal",
-			"version": "1.8.6",
-			"id": "cb3499305fe835975a6b3917e481b0c8f38aacd4eeee9c0782ee44ed8cd08a28",
-			"repository": "https://github.com/jcaillon/3P/releases/download/v1.8.6/3P.zip",
+			"version": "1.8.7",
+			"id": "9c566a9083ef66a0ce93a3ce5f55977faea559b5b0993e37a1461b87f4aeb6f0",
+			"repository": "https://github.com/jcaillon/3P/releases/download/v1.8.7/3P.zip",
 			"description": "[Requires .NET framework v4.6.1]\r\nDesigned to help writing OpenEdge ABL (formerly known as Progress 4GL) code. It provides :\r\n- a powerful auto-completion\r\n- tool-tips on every words\r\n- a code explorer to quickly navigate through your code\r\n- a file explorer to easily access all your sources\r\n- the ability to run/compile and even PROLINT your source file with an in-line visualization of errors\r\n- more than 50 options to better suit your needs\r\n- and so much more!\r\nVisit https://jcaillon.github.io/3P/ for more details on the plugin",
 			"author": "Julien Caillon",
 			"homepage": "https://jcaillon.github.io/3P/"
