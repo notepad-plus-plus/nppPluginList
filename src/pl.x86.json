@@ -937,8 +937,8 @@
 			"folder-name": "NppJumpList",
 			"display-name": "NppJumpList",
 			"version": "1.2.2",
-			"id": "d0cfeda1a5a452a5904400f2dcafd8f861aede30a8afd806123e53b40dad2cc3",
-			"repository": "https://downloads.sourceforge.net/project/nppjumplist/1.2.2/NppJumpList.1.2.2.bin.zip",
+			"id": "24d7bba7c9596963cb30f9c4bd40165086f9795912a87a52354d94627275d20d",
+			"repository": "https://github.com/chcg/JumpList/releases/download/1.2.2.10/NppJumpList_1.2.2.10_Win32.zip",
 			"description": "Adds Windows 7 jump list support.",
 			"author": "ahvgeezer",
 			"homepage": "https://sourceforge.net/projects/nppjumplist/"
@@ -957,8 +957,8 @@
 			"folder-name": "NppDocShare",
 			"display-name": "NppNetNote",
 			"version": "0.1.0.0",
-			"id": "b403831ad9e3578ecc8f2d4ffca1f5074b5c867e37791a8f17fce6098506e49d",
-			"repository": "https://downloads.sourceforge.net/sourceforge/npp-plugins/NppDocShare_0_1_dll.zip",
+			"id": "5bdecb089e11fe96671a1b2ddfd7f4626eeed8ae44fc232f5717f729e1891aaf",
+			"repository": "https://github.com/chcg/NppDocShare/releases/download/0.1.13/NppDocShare_0.1.13_Win32.zip",
 			"description": "Allows the same document to be edited in real time on two different computers. Only needs a network connection between the two.",
 			"author": "Harrybharry",
 			"homepage": "https://sourceforge.net/projects/npp-plugins/files/NppDocShare/"

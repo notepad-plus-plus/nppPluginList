@@ -84,14 +84,24 @@
 			"homepage": "https://github.com/chcg/NPP_ExportPlugin"
 		},
 		{
-			"folder-name": "SpeechPlugin",
-			"display-name": "SpeechPlugin",
-			"version": "0.3.1.0",
-			"id": "4334aab8ced7661dc1c909a1346b148a48174789b01f090cbcf37bb5f5847ff5",
-			"repository": "https://github.com/chcg/SpeechPlugin/releases/download/v0.3.1/SpeechPlugin_v0.3.1_ARM64.zip",
-			"description": "No kidding, Notepad++ speaks now. With SpeechPlugin, you can make Notepad++ dictate your text or source code. Of course, speakers are necessary.",
-			"author": "Jim Xochellis",
-			"homepage": "https://github.com/chcg/SpeechPlugin"
+			"folder-name": "NppJumpList",
+			"display-name": "NppJumpList",
+			"version": "1.2.2",
+			"id": "4ea59a8cc279092d30c847af1e75bde8a5b16a456449ed82c262bb9f4436235e",
+			"repository": "https://github.com/chcg/JumpList/releases/download/1.2.2.10/NppJumpList_1.2.2.10_arm64.zip",
+			"description": "Adds Windows 7 jump list support.",
+			"author": "ahvgeezer",
+			"homepage": "https://sourceforge.net/projects/nppjumplist/"
+		},
+		{
+			"folder-name": "NppDocShare",
+			"display-name": "NppNetNote",
+			"version": "0.1.0.0",
+			"id": "a0e6219399201d60b8f5c3ca702aa8de7b236b4c53a80366b1573527225e0928",
+			"repository": "https://github.com/chcg/NppDocShare/releases/download/0.1.13/NppDocShare_0.1.13_arm64.zip",
+			"description": "Allows the same document to be edited in real time on two different computers. Only needs a network connection between the two.",
+			"author": "Harrybharry",
+			"homepage": "https://sourceforge.net/projects/npp-plugins/files/NppDocShare/"
 		},
 		{
 			"folder-name": "NppTaskList",
@@ -112,6 +122,16 @@
 			"description": "Pass any selected text to any command line program as input and take the output (the result of program) to replace the selected text.",
 			"author": "Don HO",
 			"homepage": "https://github.com/npp-plugins/pork2sausage"
+		},
+		{
+			"folder-name": "SpeechPlugin",
+			"display-name": "SpeechPlugin",
+			"version": "0.3.1.0",
+			"id": "4334aab8ced7661dc1c909a1346b148a48174789b01f090cbcf37bb5f5847ff5",
+			"repository": "https://github.com/chcg/SpeechPlugin/releases/download/v0.3.1/SpeechPlugin_v0.3.1_ARM64.zip",
+			"description": "No kidding, Notepad++ speaks now. With SpeechPlugin, you can make Notepad++ dictate your text or source code. Of course, speakers are necessary.",
+			"author": "Jim Xochellis",
+			"homepage": "https://github.com/chcg/SpeechPlugin"
 		}
 	]
 }
