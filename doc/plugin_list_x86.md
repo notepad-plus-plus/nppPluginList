@@ -1,5 +1,5 @@
 ## Plugin List - 32 bit
-version 1.3.6
+version 1.3.7
 |Plugin name | Author | Homepage | Version and link | Description |
 |---|---|---|---|---|
 | 3P - Progress Programmers Pal | Julien Caillon | https://jcaillon.github.io/3P/ | [1.8.6 - 32 bit](https://github.com/jcaillon/3P/releases/download/v1.8.6/3P.zip) |  <details> <summary> [Requires .NET framework v4.6.1] </summary> <br>Designed to help writing OpenEdge ABL (formerly known as Progress 4GL) code. It provides :<br>- a powerful auto-completion<br>- tool-tips on every words<br>- a code explorer to quickly navigate through your code<br>- a file explorer to easily access all your sources<br>- the ability to run/compile and even PROLINT your source file with an in-line visualization of errors<br>- more than 50 options to better suit your needs<br>- and so much more!<br>Visit https://jcaillon.github.io/3P/ for more details on the plugin </details> |
