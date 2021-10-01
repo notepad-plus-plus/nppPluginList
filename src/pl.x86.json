@@ -1066,12 +1066,12 @@
 		{
 			"folder-name": "PlanetCNCNpp32",
 			"display-name": "Expression calculator",
-			"version": "3001.21.617.1",
-			"id": "118281acd05bfafa52010fe24a1a73f4b9909c738a39b67146ae8b05c2f0e64b",
+			"version": "3001.21.1001.1",
+			"id": "46414712744b32d0af3c7f9d767a41ed5b138367ade4ecd8010429d87a0bd04c",
 			"repository": "https://github.com/PlanetCNC/PlanetCNCNpp/releases/download/release/PlanetCNCNpp32.zip",
 			"description": "Expression calculator plugin for Notepad++",
 			"author": "PlanetCNC",
-			"homepage": "https://planet-cnc.com"
+			"homepage": "https://planet-cnc.com/notepad-plugin/"
 		},
 		{
 			"folder-name": "PoorMansTSqlFormatterNppPlugin",
