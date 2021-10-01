@@ -218,7 +218,7 @@
 			"display-name": "CSV Lint",
 			"version": "0.4",
 			"id": "c072ca1330493dfcc877a6957bc33f101b3d481738b49e4f40bf35fdfa6d8d6d",
-			"repository": "https://github.com/BdR76/CSVLint/tree/master/CSVLintNppPlugin/bin/download/v0.4/CSVLint-v0.4-x86.zip",
+			"repository": "https://github.com/BdR76/CSVLint/raw/master/CSVLintNppPlugin/bin/download/v0.4/CSVLint-v0.4-x86.zip",
 			"description": "CSV Lint plug-in for Notepad++ for metadata discovery, scan data types, automatically detect columns and validate csv dataset and tabular textfiles, change datetime format, decimal separator, tool for data cleaning and working with messy data files.",
 			"author": "Bas de Reuver",
 			"homepage": "https://github.com/BdR76/CSVLint/"
