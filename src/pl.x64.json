@@ -1,14 +1,14 @@
 {
 	"name": "npp-pluginList",
-	"version": "1.3.2",
+	"version": "1.3.7",
 	"arch": "64",
 	"npp-plugins": [
 		{
 			"folder-name": "3P",
 			"display-name": "3P - Progress Programmers Pal",
-			"version": "1.8.6",
-			"id": "b618d9cce5d6724b5088d3d8c3085367d2fc84d61738df172e45c21ef59168c5",
-			"repository": "https://github.com/jcaillon/3P/releases/download/v1.8.6/3P_x64.zip",
+			"version": "1.8.7",
+			"id": "6e371999f7c920f45e7164255b5d03b1a59eb6761da5ba472bfeae5e93b897ec",
+			"repository": "https://github.com/jcaillon/3P/releases/download/v1.8.7/3P_x64.zip",
 			"description": "[Requires .NET framework v4.6.1]\r\nDesigned to help writing OpenEdge ABL (formerly known as Progress 4GL) code. It provides :\r\n- a powerful auto-completion\r\n- tool-tips on every words\r\n- a code explorer to quickly navigate through your code\r\n- a file explorer to easily access all your sources\r\n- the ability to run/compile and even PROLINT your source file with an in-line visualization of errors\r\n- more than 50 options to better suit your needs\r\n- and so much more!\r\nVisit https://jcaillon.github.io/3P/ for more details on the plugin",
 			"author": "Julien Caillon",
 			"homepage": "https://jcaillon.github.io/3P/"
@@ -16,9 +16,9 @@
 		{
 			"folder-name": "ActiveX",
 			"display-name": "ActiveX Plugin",
-			"version": "1.1.8.5",
-			"id": "a025f62be868bcf6519f14f76b707890bb533538e953f86a4e4846c328a49045",
-			"repository": "https://sourceforge.net/projects/nppactivexplugin/files/bin/ActiveX_x64_1_1_8_5.zip",
+			"version": "1.1.8.7",
+			"id": "225110f20d750272c1300aa7c30e3b642702cffea2eadd9ee1a5e68fa3511c10",
+			"repository": "https://sourceforge.net/projects/nppactivexplugin/files/bin/ActiveX_x64_1_1_8_7.zip",
 			"description": "Allows you to control Notepad++ via ActiveX.\r\nYou can use ActiveX with many scripting languages (VBScript, JScript, PHP, ...) and other languages (C++, C+, VB.NET, Delphi, ...).\r\nSo you are not bound to a single language.",
 			"author": "Bananen-Joe",
 			"homepage": "https://sourceforge.net/projects/nppactivexplugin/"
@@ -36,9 +36,9 @@
 		{
 			"folder-name": "nppAutoDetectIndent",
 			"display-name": "Auto Detect Indention",
-			"version": "1.9",
-			"id": "0c058c7ffc98a2e0f87a5a64a7b1d96dbf2d75375398ca1c1cae78afc8855fe4",
-			"repository": "https://github.com/Chocobo1/nppAutoDetectIndent/releases/download/1.9/x64.zip",
+			"version": "2.0",
+			"id": "f3aeefc7140e64f0539c76fe69f92fbd8e7367c3a68ba719ac0d7015204b9e5e",
+			"repository": "https://github.com/Chocobo1/nppAutoDetectIndent/releases/download/2.0/x64.zip",
 			"description": "Detects indention (tab or spaces) and auto adjust Tab key on-the-fly.",
 			"author": "Mike Tzou (Chocobo1)",
 			"homepage": "https://github.com/Chocobo1/nppAutoDetectIndent"
@@ -114,6 +114,16 @@
 			"homepage": "https://github.com/Dook1/Bookmarks-Dook/issues"
 		},
 		{
+			"folder-name": "BracketsCheck",
+			"display-name": "BracketsCheck",
+			"version": "1.2.2",
+			"id": "a56363d21f392e0e67b4110555e1d2a0477e55ac8368abccc5c0f9f2d11f5ba9",
+			"repository": "https://github.com/niccord/BracketsCheck/releases/download/v1.2.2/BracketsCheck_1-2-2_x64.zip",
+			"description": "Helps to check if brackets in your file are balanced.\r\nYou can check all text in a file or only the part you selected.",
+			"author": "niccord",
+			"homepage": "https://github.com/niccord/BracketsCheck/"
+		},
+		{
 			"folder-name": "CADdyTools",
 			"display-name": "CADdyTools",
 			"version": "1.1.3.7",
@@ -176,9 +186,9 @@
 		{
 			"folder-name": "CSScriptNpp",
 			"display-name": "CS-Script - C# Intellisense",
-			"version": "1.7.24.0",
-			"id": "3E7EC48833FF82058EC803E2201BCD08436E1EC29DE545AE1B27C3D8617A8902",
-			"repository": "https://github.com/oleg-shilo/cs-script.npp/releases/download/v1.7.24/CSScriptNpp.1.7.24.0.x64.zip",
+			"version": "1.7.26.0",
+			"id": "2344df76413e0a64d87025a4ece8dd79f0890ee85af4338b760f682b5d3f5884",
+			"repository": "https://github.com/oleg-shilo/cs-script.npp/releases/download/v1.7.26/CSScriptNpp.1.7.26.0.x64.zip",
 			"description": "CS-Script integration. Implements a real C# Intellisense solution based on CS-Script and Roslyn. Allows loading, executing modifying and debugging C# scripts in a way very similar to the Visual Studio C# projects support. This includes referencing assemblies and other scripts, code formatting, adding missing namespaces and intercepting Debug and Console output.",
 			"author": "Oleg Shilo",
 			"homepage": "https://github.com/oleg-shilo/cs-script.npp"
@@ -186,9 +196,9 @@
 		{
 			"folder-name": "CsvQuery",
 			"display-name": "CsvQuery",
-			"version": "1.2.7",
-			"id": "84369240c914d17dd0b2cacff5bd433099150a70e729451385788113ac51a60d",
-			"repository": "https://github.com/jokedst/CsvQuery/releases/download/v1.2.7/CsvQuery-v1.2.7-x64.zip",
+			"version": "1.2.8",
+			"id": "8ed39f3795fcffef09bbfa09b4ed36c6abe1f4200268ed98a7d3f07cb33f81cd",
+			"repository": "https://github.com/jokedst/CsvQuery/releases/download/v1.2.8/CsvQuery-v1.2.8-x64.zip",
 			"description": "Enables SQL queries against CSV files.",
 			"author": "jokedst",
 			"homepage": "https://github.com/jokedst/CsvQuery"
@@ -196,10 +206,10 @@
 		{
 			"folder-name": "_CustomizeToolbar",
 			"display-name": "Customize Toolbar",
-			"version": "4.2",
-			"id": "0423f22f31c760664a78d0472e4316a9fd8858986baeb7cf5301f222afe50127",
-			"repository": "https://sourceforge.net/projects/npp-customize/files/Customize%20Toolbar%20v4.2/CustomizeToolbar_4_2_x64_UNI.zip",
-			"description": "Allows the toolbar to be fully customised by the user, and includes twenty-nine additional buttons for frequently used menu commands. All buttons on the toolbar can be customized, whether Notepad++ built-in buttons, the additional buttons, or buttons belonging to other plugins.\r\n\r\nCustom buttons for Notepad++ or plugin menu commands can be defined using a configuration file. It is possible to replace the icons of existing Notepad++ buttons.\r\n",
+			"version": "5.3",
+			"id": "cb415b51d78ff7d505d5966865bbba67216a00955462db0187448b06efedd50a",
+			"repository": "https://sourceforge.net/projects/npp-customize/files/Customize%20Toolbar%20v5.3/CustomizeToolbar_5_3_x64_UNI.zip",
+			"description": "Allows the toolbar to be fully customised by the user, and includes twenty-six additional buttons for frequently used menu commands. All buttons on the toolbar can be customized, whether Notepad++ buttons, additional buttons, or other plugin buttons.\r\n\r\nCustom buttons for Notepad++ menu commands or other plugin menu commands can be created using a configuration file. It is possible to replace the icons of existing Notepad++ buttons or other plugin buttons.\r\n",
 			"author": "dw-dev@gmx.com",
 			"homepage": "https://sourceforge.net/projects/npp-customize"
 		},
@@ -256,9 +266,9 @@
 		{
 			"folder-name": "ERPHelper",
 			"display-name": "ERP Helper",
-			"version": "1.0.7",
-			"id": "10c987ce11e72a5782ff00caddeb476f7724f84e5d395aa0a3f2ad00011affca",
-			"repository": "https://github.com/swhitley/ERPHelper/releases/download/v1.0.7/ERPHelper_x64.zip",
+			"version": "1.1.2",
+			"id": "c02c3c15d6eac9bd863c555a228f5b89a4606d9c63730826c13305233ec4f443",
+			"repository": "https://github.com/swhitley/ERPHelper/releases/download/v1.1.2/ERPHelper_x64.zip",
 			"description": "A set of utilities for developing ERP integrations, includes XSL transformation and Workday API SOAP calls.",
 			"author": "Whitley Media",
 			"homepage": "https://github.com/swhitley/erphelper"
@@ -286,10 +296,10 @@
 		{
 			"folder-name": "FWDataViz",
 			"display-name": "Fixed-width Data Visualizer",
-			"version": "1.0.3.1",
-			"id": "4a11c9ef0636b97b198c2fa7c1d72fe7a510175604484a0ce05692e19dd35e61",
-			"repository": "https://github.com/shriprem/FWDataViz/releases/download/1.0.3.1/FWDataViz_x64.zip",
-			"description": "Fixed Width Data Visualizer adds Excel-like features for fixed-width data files in Notepad++. Displays cursor position data. Jump to specific fields. Builtin dialogs to configure file-type, record-type & fields; and themes & colors. Automatic File Type Detection. Handles homogenous, mixed & multi-line records.",
+			"version": "2.1.2.1",
+			"id": "3085db6994e7bfd6fa063dcb1a29561e4e1c230f7df9a9cfc0d5eb42d9d4b2dd",
+			"repository": "https://github.com/shriprem/FWDataViz/releases/download/v2.1.2.1/FWDataViz_x64.zip",
+			"description": "Fixed Width Data Visualizer adds Excel-like features for fixed-width data files in Notepad++. Displays cursor position data. Jump to specific fields. Data Extraction. Builtin dialogs to configure file-type, record-type & fields; and themes & colors. Automatic File Type Detection. Handles homogenous, mixed & multi-line records. Darkmode enabled.",
 			"author": "Shridhar Kumar",
 			"homepage": "https://github.com/shriprem/FWDataViz"
 		},
@@ -316,19 +326,19 @@
 		{
 			"folder-name": "GotoLineCol",
 			"display-name": "GotoLineCol",
-			"version": "1.2.0.2",
-			"id": "f9192e7c555e1b7372b993a8784d9c7b8085a854c0cf141693fb67443f9e0f30",
-			"repository": "https://github.com/shriprem/Goto-Line-Col-NPP-Plugin/releases/download/1.2.0.2/GotoLineCol_x64.zip",
-			"description": "A plugin to navigate to a specified line and (byte-based or character-based) column position. Will also display character byte code, UTF-8 byte sequence & Unicode code point at cursor position.",
+			"version": "2.0.0.0",
+			"id": "6f5a2650aa80bbfa59a1e8b15834067695a3860023b7f8fcdc10eea5ea700edc",
+			"repository": "https://github.com/shriprem/Goto-Line-Col-NPP-Plugin/releases/download/v2.0.0.0/GotoLineCol_x64.zip",
+			"description": "A plugin to navigate to a specified line and (byte-based or character-based) column position. Will also display character byte code, UTF-8 byte sequence & Unicode code point at cursor position. Darkmode enabled.",
 			"author": "Shridhar Kumar",
 			"homepage": "https://github.com/shriprem/Goto-Line-Col-NPP-Plugin"
 		},
 		{
 			"folder-name": "HexEditor",
 			"display-name": "HEX-Editor",
-			"version": "0.9.9.0",
-			"id": "820f15aa2789f63bf23d5d54a08bc654e225f0564b292dfa606b021b00589505",
-			"repository": "https://github.com/chcg/NPP_HexEdit/releases/download/0.9.9/HexEditor_0.9.9_x64.zip",
+			"version": "0.9.10.0",
+			"id": "bd24c9f263f461f92beb5b114cfb07ba1ab695e24e20c88354715858bbf0052d",
+			"repository": "https://github.com/chcg/NPP_HexEdit/releases/download/0.9.10/HexEditor_0.9.10_x64.zip",
 			"description": "Hex editor. Some reported issues, however many bugs fixed in latest release.",
 			"author": "Jens Lorenz",
 			"homepage": "https://github.com/chcg/NPP_HexEdit"
@@ -396,9 +406,9 @@
 		{
 			"folder-name": "JSMinNPP",
 			"display-name": "JSTool",
-			"version": "1.2006.0",
-			"id": "5d1320ecb0f33df52d13f202d18e5822881451d0ea4c480792cdafc15cb93c33",
-			"repository": "https://sourceforge.net/projects/jsminnpp/files/Uni/JSToolNPP.1.2006.0.uni.64.zip",
+			"version": "1.2107.2",
+			"id": "04185ca5296964a84d441106d0955e11028e97fb33a98ce2152a7a306dc26f3a",
+			"repository": "https://sourceforge.net/projects/jsminnpp/files/Uni/JSToolNPP.1.2107.2.uni.64.zip",
 			"description": "Javascript plugin.\r\n * Douglas Crockford's JSMin algorithm to minimize javascript code.\r\n * My own algorithm to format javascript code.\r\n * A JSON data viewer. This JSON data viewer can handle >10MB JSON file easily.\r\n * Support 64bit Notepad++ (from version 1.20.0).\r\nReally helpful to javascript coder on Notepad++ and really easy to use it.\r\nMade in China.",
 			"author": "Sun Junwen",
 			"homepage": "https://github.com/sunjw/jstoolnpp"
@@ -406,9 +416,9 @@
 		{
 			"folder-name": "LanguageHelp",
 			"display-name": "LanguageHelp",
-			"version": "1.7.4.0",
-			"id": "87197c75a95929a710982e5554bc256133a4a98b240e2aba5e7ce69038264115",
-			"repository": "https://github.com/francostellari/NppPlugins/raw/main/LanguageHelp/LanguageHelp_dll_1v74_x64.zip",
+			"version": "1.7.5.0",
+			"id": "ba4aeafc0d35010a0fc8a65f800da95cfb60d94d211a86e27aec28f8ee299284",
+			"repository": "https://github.com/francostellari/NppPlugins/raw/main/LanguageHelp/LanguageHelp_dll_1v75_x64.zip",
 			"description": "Allows loading a language specific help file (CHM, HLP, PDF) and search for the keyword under the cursor.\r\nThe latest version allows showing the help files as menu entries or in the context menu.",
 			"author": "Franco Stellari",
 			"homepage": "https://github.com/francostellari/NppPlugins"
@@ -476,9 +486,9 @@
 		{
 			"folder-name": "MenuIcons",
 			"display-name": "MenuIcons",
-			"version": "1.2.3.0",
-			"id": "2ebe8c66b2d261e05136911593a236620fff5aaaf25e45edb3558f6eeb0568c7",
-			"repository": "https://github.com/francostellari/NppPlugins/raw/main/MenuIcons/MenuIcons_dll_1v23_x64.zip",
+			"version": "1.2.5",
+			"id": "6f2b909cf2468a1a16b443d004cad107e56a67a7e56dcb6f39792bbbfaacfbdc",
+			"repository": "https://github.com/francostellari/NppPlugins/raw/main/MenuIcons/MenuIcons_dll_1v25_x64.zip",
 			"description": "Allows adding icons to both main and context menu. Several options are available to load the icons from a folder. More than provide a full set of icons, it's design to enable people to create their own set of icon themes. Note: Does not work correctly in WinXP.",
 			"author": "Franco Stellari",
 			"homepage": "https://github.com/francostellari/NppPlugins"
@@ -636,9 +646,9 @@
 		{
 			"folder-name": "NppExec",
 			"display-name": "NppExec",
-			"version": "0.6.2",
-			"id": "bf0868b2af797c08c73cca163a434ddff15f8e5c23c2289c7708fdff8fe92ed3",
-			"repository": "https://github.com/d0vgan/nppexec/releases/download/v062/NppExec_062_dll_x64.zip",
+			"version": "0.7.1",
+			"id": "e8b1f4a7218b83d2b61d81396774f203a131bf36e3f6ccb2b6c096e06ad7f2ae",
+			"repository": "https://github.com/d0vgan/nppexec/releases/download/v071/NppExec_071_dll_x64.zip",
 			"description": "Execute commands or saved scripts without leaving Notepad++.",
 			"author": "Vitaliy Dovgan",
 			"homepage": "https://github.com/d0vgan/nppexec"
@@ -697,8 +707,8 @@
 			"folder-name": "NppJumpList",
 			"display-name": "NppJumpList",
 			"version": "1.2.2",
-			"id": "1cc5178e36328bcac87b174064a4472bf5fdf1e3c3c58d454068d827c9e99857",
-			"repository": "https://github.com/chcg/JumpList/releases/download/1.2.2.7/NppJumpList_1.2.2.7_x64.zip",
+			"id": "e3fe5b5de456fae8e66b42c8d1a1848a02db0a009a2978cb6c39afecee39b596",
+			"repository": "https://github.com/chcg/JumpList/releases/download/1.2.2.10/NppJumpList_1.2.2.10_x64.zip",
 			"description": "Adds Windows 7 jump list support.",
 			"author": "ahvgeezer",
 			"homepage": "https://sourceforge.net/projects/nppjumplist/"
@@ -706,9 +716,9 @@
 		{
 			"folder-name": "NppMenuSearch",
 			"display-name": "NppMenuSearch",
-			"version": "0.9.3",
-			"id": "593736205bfe861e31e8435d179d9701599970a70db4ac5bde02dedc4c5ad9e8",
-			"repository": "https://sourceforge.net/projects/nppmenusearch/files/v0.9.3/NppMenuSearch_v0.9.3_x64.zip",
+			"version": "0.9.6",
+			"id": "7CA7BD5BB9D9FB6CB2CB54804F4BC7CC7C3E319D09ECBA761058C99E3ACC7870",
+			"repository": "https://sourceforge.net/projects/nppmenusearch/files/v0.9.6/NppMenuSearch_v0.9.6_x64.zip",
 			"description": "Adds a text field to the toolbar for searching menu items and preference dialog options.",
 			"author": "Peter Frentrup",
 			"homepage": "https://github.com/peter-frentrup/NppMenuSearch"
@@ -717,8 +727,8 @@
 			"folder-name": "NppDocShare",
 			"display-name": "NppNetNote",
 			"version": "0.1.0.0",
-			"id": "5dd8fa2c26bbd988ce9971823a140f78149e8b7d5487a47ab47c3b2a964e2cdb",
-			"repository": "https://github.com/chcg/NppDocShare/releases/download/0.1.11/NppDocShare_0.1.11_x64.zip",
+			"id": "01e16cdf85f5c5b10c0952f7997d9b963ea61fcdcdc02c082047e1885c976e59",
+			"repository": "https://github.com/chcg/NppDocShare/releases/download/0.1.13/NppDocShare_0.1.13_x64.zip",
 			"description": "Allows the same document to be edited in real time on two different computers. Only needs a network connection between the two.",
 			"author": "Harrybharry",
 			"homepage": "https://sourceforge.net/projects/npp-plugins/files/NppDocShare/"
@@ -806,9 +816,9 @@
 		{
 			"folder-name": "Papyrus",
 			"display-name": "Papyrus Script Lexer",
-			"version": "0.2.1.18",
-			"id": "5c836008601b2c6a614864960a1f3c6d91e313b3240ff23c6cf7b1dbf3bdeb83",
-			"repository": "https://github.com/blu3mania/npp-papyrus/releases/download/v0.2.1/PapyrusPlugin-v0.2.1-x64.zip",
+			"version": "0.2.3.23",
+			"id": "8148df05d60da130d49386c7ee4b8fa3638d91762471d0b7b61bb45a2090c1ac",
+			"repository": "https://github.com/blu3mania/npp-papyrus/releases/download/v0.2.3/PapyrusPlugin-v0.2.3-x64.zip",
 			"description": "View and edit Papyrus Script files used by Bethesda games with syntax highlighting, function and block folding, hyperlinks to referenced scripts, keywords matching, plus compilation support with anonymized output and error list view.",
 			"author": "blu3mania",
 			"homepage": "https://github.com/blu3mania/npp-papyrus"
@@ -1106,9 +1116,9 @@
 		{
 			"folder-name": "TakeNotes",
 			"display-name": "TakeNotes",
-			"version": "1.2.2.0",
-			"id": "402f28cf0432493789e6e959086eaa8ef724e76212f22c7d02a4c77ef7fc71de",
-			"repository": "https://github.com/francostellari/NppPlugins/raw/main/TakeNotes/TakeNotes_dll_1v22_x64.zip",
+			"version": "1.2.3.0",
+			"id": "156a89992bbad0df03f3dd460cb9153cf6b5722eec0ea726879bab366d72d0cb",
+			"repository": "https://github.com/francostellari/NppPlugins/raw/main/TakeNotes/TakeNotes_dll_1v23_x64.zip",
 			"description": "Helps people who like to use Notepad++ for jotting quick notes. Instead of using unnamed 'new ?' files, this plugins allows to quickly create new empty files in a folder of choice. The file names may be custom generated using a mask and may contain details such as the user name, date, and time of creation so that unique files may be generated. Additionally, the plugin allows to load exiting notes in the folder of choice, save existing files as a note, and open the last saved note quickly. Please refer to the Options dialog box for more details. It is strongly recommended to use this plugin in combination with AutoSave to make sure that you never loose a note.",
 			"author": "Franco Stellari",
 			"homepage": "https://github.com/francostellari/NppPlugins"
@@ -1196,9 +1206,9 @@
 		{
 			"folder-name": "XMLTools",
 			"display-name": "XML Tools",
-			"version": "3.1.1.4",
-			"id": "81cb8c6bac00d682cefa89e267be2cd93d216fd82bb7c6fdb5d1e536139edf03",
-			"repository": "https://github.com/morbac/xmltools/releases/download/3.1.1.4/XMLTools-3.1.1.4-x64.zip",
+			"version": "3.1.1.7",
+			"id": "66a94f2731fbc1170d7a5f874f986f2d6611d1550dd55a2ea8a01ebd4456c3de",
+			"repository": "https://github.com/morbac/xmltools/releases/download/3.1.1.7/XMLTools-3.1.1.7-x64.zip",
 			"description": "Small set of useful tools for editing XML. Plugin is MSXML-based. The features are:\r\n- XML syntax Check\r\n- XML Schema (XSD) + DTD Validation\r\n- XML tag autoclose\r\n- Pretty print\n- Linarize XML\r\n- Current XML Path\r\n- Conversion XML &amp;lt;-&amp;gt; Text\n- Comment / Uncomment\r\n- XPath expression evaluation",
 			"author": "Nicolas Crittin",
 			"homepage": "https://github.com/morbac/xmltools"
