@@ -194,6 +194,16 @@
 			"homepage": "https://github.com/oleg-shilo/cs-script.npp"
 		},
 		{
+			"folder-name": "CSVLint",
+			"display-name": "CSV Lint",
+			"version": "0.4",
+			"id": "8faec1c0ca119ecf16511ae936260f0d0212750262435465ce87e3a456807935",
+			"repository": "https://github.com/BdR76/CSVLint/raw/master/CSVLintNppPlugin/bin/download/v0.4/CSVLint-v0.4-x64.zip",
+			"description": "CSV Lint plug-in for Notepad++ for metadata discovery, scan data types, automatically detect columns and validate csv dataset and tabular textfiles, change datetime format, decimal separator, tool for data cleaning and working with messy data files.",
+			"author": "Bas de Reuver",
+			"homepage": "https://github.com/BdR76/CSVLint/"
+		},
+		{
 			"folder-name": "CsvQuery",
 			"display-name": "CsvQuery",
 			"version": "1.2.8",
@@ -1206,9 +1216,9 @@
 		{
 			"folder-name": "XMLTools",
 			"display-name": "XML Tools",
-			"version": "3.1.1.7",
-			"id": "66a94f2731fbc1170d7a5f874f986f2d6611d1550dd55a2ea8a01ebd4456c3de",
-			"repository": "https://github.com/morbac/xmltools/releases/download/3.1.1.7/XMLTools-3.1.1.7-x64.zip",
+			"version": "3.1.1.8",
+			"id": "547b69a8fe3d421341b0097134eed96f75031b84b152eaaeffa5dc6cd717aaf6",
+			"repository": "https://github.com/morbac/xmltools/releases/download/3.1.1.8/XMLTools-3.1.1.8-x64.zip",
 			"description": "Small set of useful tools for editing XML. Plugin is MSXML-based. The features are:\r\n- XML syntax Check\r\n- XML Schema (XSD) + DTD Validation\r\n- XML tag autoclose\r\n- Pretty print\n- Linarize XML\r\n- Current XML Path\r\n- Conversion XML &amp;lt;-&amp;gt; Text\n- Comment / Uncomment\r\n- XPath expression evaluation",
 			"author": "Nicolas Crittin",
 			"homepage": "https://github.com/morbac/xmltools"
