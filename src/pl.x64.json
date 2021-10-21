@@ -1,6 +1,6 @@
 {
 	"name": "npp-pluginList",
-	"version": "1.3.7",
+	"version": "1.3.9",
 	"arch": "64",
 	"npp-plugins": [
 		{
@@ -196,10 +196,10 @@
 		{
 			"folder-name": "CSVLint",
 			"display-name": "CSV Lint",
-			"version": "0.4",
-			"id": "8faec1c0ca119ecf16511ae936260f0d0212750262435465ce87e3a456807935",
-			"repository": "https://github.com/BdR76/CSVLint/raw/master/CSVLintNppPlugin/bin/download/v0.4/CSVLint-v0.4-x64.zip",
-			"description": "CSV Lint plug-in for Notepad++ for metadata discovery, scan data types, automatically detect columns and validate csv dataset and tabular textfiles, change datetime format, decimal separator, tool for data cleaning and working with messy data files.",
+			"version": "0.4.1",
+			"id": "7af890ba9cc364fa94a068c97e4fa257ad57f3ec69228ac3fab322385e69fbbc",
+			"repository": "https://github.com/BdR76/CSVLint/releases/download/0.4.1/CSVLint-x64.zip",
+			"description": "Adds syntax highlighting for csv data, automatic column and datatype detecting, validate csv datasets, change datetime format, decimal separator, count unique values and more. A utility for data cleaning and working with messy data files.",
 			"author": "Bas de Reuver",
 			"homepage": "https://github.com/BdR76/CSVLint/"
 		},
@@ -336,10 +336,10 @@
 		{
 			"folder-name": "GotoLineCol",
 			"display-name": "GotoLineCol",
-			"version": "2.0.0.0",
-			"id": "6f5a2650aa80bbfa59a1e8b15834067695a3860023b7f8fcdc10eea5ea700edc",
-			"repository": "https://github.com/shriprem/Goto-Line-Col-NPP-Plugin/releases/download/v2.0.0.0/GotoLineCol_x64.zip",
-			"description": "A plugin to navigate to a specified line and (byte-based or character-based) column position. Will also display character byte code, UTF-8 byte sequence & Unicode code point at cursor position. Darkmode enabled.",
+			"version": "2.1.1.0",
+			"id": "76efb011d977a36ac950df13c5a8e33c651f431898679e1f03b1497cdf5e089d",
+			"repository": "https://github.com/shriprem/Goto-Line-Col-NPP-Plugin/releases/download/v2.1.1.0/GotoLineCol_x64.zip",
+			"description": "A plugin to navigate to a specified line and (byte-based or character-based) column position. Will also display character byte code, UTF-8 byte sequence & Unicode code point at cursor position. Darkmode enabled. Command line options.",
 			"author": "Shridhar Kumar",
 			"homepage": "https://github.com/shriprem/Goto-Line-Col-NPP-Plugin"
 		},
@@ -686,9 +686,9 @@
 		{
 			"folder-name": "NppFTP",
 			"display-name": "NppFTP",
-			"version": "0.29.7",
-			"id": "5fadaf425ebaf2ec2b25c2564dff7b170d5afcb0d72739d0c4eec03aa0ff1ef6",
-			"repository": "https://github.com/ashkulz/NppFTP/releases/download/v0.29.7/NppFTP-x64.zip",
+			"version": "0.29.8",
+			"id": "4fbaad0237e3504f6f212b934ecb6d5c95ab10ed207edc2d87e916009ed10a63",
+			"repository": "https://github.com/ashkulz/NppFTP/releases/download/v0.29.8/NppFTP-x64.zip",
 			"description": "Allows FTP, FTPS, FTPES, and SFTP communications. Very useful for web development.",
 			"author": "ashish_kulz",
 			"homepage": "https://ashkulz.github.io/NppFTP/"
@@ -1216,9 +1216,9 @@
 		{
 			"folder-name": "XMLTools",
 			"display-name": "XML Tools",
-			"version": "3.1.1.8",
-			"id": "547b69a8fe3d421341b0097134eed96f75031b84b152eaaeffa5dc6cd717aaf6",
-			"repository": "https://github.com/morbac/xmltools/releases/download/3.1.1.8/XMLTools-3.1.1.8-x64.zip",
+			"version": "3.1.1.9",
+			"id": "0341d961c0c334a6570ff9d522ce1697ebf8b009a6f4102193f9c639e3caaa62",
+			"repository": "https://github.com/morbac/xmltools/releases/download/3.1.1.9/XMLTools-3.1.1.9-x64.zip",
 			"description": "Small set of useful tools for editing XML. Plugin is MSXML-based. The features are:\r\n- XML syntax Check\r\n- XML Schema (XSD) + DTD Validation\r\n- XML tag autoclose\r\n- Pretty print\n- Linarize XML\r\n- Current XML Path\r\n- Conversion XML &amp;lt;-&amp;gt; Text\n- Comment / Uncomment\r\n- XPath expression evaluation",
 			"author": "Nicolas Crittin",
 			"homepage": "https://github.com/morbac/xmltools"
