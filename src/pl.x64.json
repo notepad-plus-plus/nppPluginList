@@ -1026,9 +1026,9 @@
 		{
 			"folder-name": "SessionMgr",
 			"display-name": "Session Manager",
-			"version": "1.4.3",
-			"id": "1baa3ec3938c80c38964db8bbd2934b203215b8c4dc7d45dc0088837147f4943",
-			"repository": "https://github.com/chcg/npp-session-manager/releases/download/v1.4.3/SessionMgr_v1.4.3_x64.zip",
+			"version": "1.4.4",
+			"id": "478f7057863dd998b26c37083d785106a65853063d820b365ec18a02e755da9d",
+			"repository": "https://github.com/chcg/npp-session-manager/releases/download/v1.4.4/SessionMgr_v1.4.4_x64.zip",
 			"description": "Session manager. IMPORTANT: If you are upgrading from a version older than 1.2 then, immediately after the upgrade, open the Settings dialog and reconfigure your settings.",
 			"author": "Mike Foster",
 			"homepage": "https://mfoster.com/npp/SessionMgr.html"

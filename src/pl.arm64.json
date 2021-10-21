@@ -124,6 +124,16 @@
 			"homepage": "https://github.com/npp-plugins/pork2sausage"
 		},
 		{
+			"folder-name": "SessionMgr",
+			"display-name": "Session Manager",
+			"version": "1.4.4",
+			"id": "a75b73108ca90fc9968d1d89cca02566b6e943b177bbe86a98f338e1e8243404",
+			"repository": "https://github.com/chcg/npp-session-manager/releases/download/v1.4.4/SessionMgr_v1.4.4_arm64.zip",
+			"description": "Session manager. IMPORTANT: If you are upgrading from a version older than 1.2 then, immediately after the upgrade, open the Settings dialog and reconfigure your settings.",
+			"author": "Mike Foster",
+			"homepage": "https://mfoster.com/npp/SessionMgr.html"
+		},
+		{
 			"folder-name": "SpeechPlugin",
 			"display-name": "SpeechPlugin",
 			"version": "0.3.1.0",
