@@ -1184,6 +1184,16 @@
 			"homepage": "https://github.com/vinsworldcom/nppQuickText"
 		},
 		{
+			"folder-name": "RandomValuesNppPlugin",
+			"display-name": "Random Values",
+			"version": "0.2",
+			"id": "5fa3487edb4a111e8d6e3cc7150cfee1d44f94b2a53950d36a70769cd483035e",
+			"repository": "https://github.com/BdR76/RandomValuesNPP/releases/download/0.2/RandomValuesNppPlugin_32bit.zip",
+			"description": "Random values generator for passwords or test data. Custom configurable string, integer, decimal, datetime, guid values based on range or mask. Single values for quick access or a list of multiple values at once in csv, xml, json, sql formats.",
+			"author": "Bas de Reuver",
+			"homepage": "https://github.com/BdR76/RandomValuesNPP/"
+		},
+		{
 			"folder-name": "rdmd-en-x86",
 			"display-name": "RDMD for Notepad++ (English)",
 			"version": "0.1.0.2",
