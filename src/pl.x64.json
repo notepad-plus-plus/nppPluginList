@@ -196,10 +196,10 @@
 		{
 			"folder-name": "CSVLint",
 			"display-name": "CSV Lint",
-			"version": "0.4.1",
-			"id": "7af890ba9cc364fa94a068c97e4fa257ad57f3ec69228ac3fab322385e69fbbc",
-			"repository": "https://github.com/BdR76/CSVLint/releases/download/0.4.1/CSVLint-x64.zip",
-			"description": "Adds syntax highlighting for csv data, automatic column and datatype detecting, validate csv datasets, change datetime format, decimal separator, count unique values and more. A utility for data cleaning and working with messy data files.",
+			"version": "0.4.2",
+			"id": "2e45d0baec40fd32454ea46afd380adb018860a46bb60c6e67cf47541bb02618",
+			"repository": "https://github.com/BdR76/CSVLint/releases/download/0.4.2/CSVLint-x64.zip",
+			"description": "Adds syntax highlighting for csv data, automatic column and datatype detecting, validate delimiter-separated or fixed width datasets, change datetime format, decimal separator, count unique values, csv to SQL etc. A utility for quality control, data cleaning and working with messy data files.",
 			"author": "Bas de Reuver",
 			"homepage": "https://github.com/BdR76/CSVLint/"
 		},
