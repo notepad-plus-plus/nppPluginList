@@ -1662,6 +1662,16 @@
 			"description": "Tired of zooming your document everytime you just want to scroll but accidentally still holding the [Ctrl] key? Then this is what you want! It disables mouse zoom, keyboard zoom, or both.",
 			"author": "Stanislav Eckert",
 			"homepage": "https://github.com/StanDog/npp-zoomdisabler"
+		},
+		{
+			"folder-name": "nppRandomStringGenerator",
+			"display-name": "npp Random String Generator",
+			"version": "1.0.0",
+			"id": "714bb3fad65688c858630068d8f2adf04403132660c4e084490858d0db296143",
+			"repository": "https://github.com/cmbsolutions/nppRandomStringGenerator/releases/download/v1.0.0/nppRandomStringGenerator.1.0.0.x86.zip",
+			"description": "Generates random strings with configurable output.",
+			"author": "Maurice CMBSolutions",
+			"homepage": "https://github.com/cmbsolutions/nppRandomStringGenerator"
 		}
 	]
 }
