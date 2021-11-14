@@ -906,9 +906,9 @@
 		{
 			"folder-name": "RandomValuesNppPlugin",
 			"display-name": "Random Values",
-			"version": "0.2",
-			"id": "7d1423d4f670acfc57f8ac12410a532385feede2fe35d3ac42d66e206c20cdb6",
-			"repository": "https://github.com/BdR76/RandomValuesNPP/releases/download/0.2/RandomValuesNppPlugin-64bit.zip",
+			"version": "0.2.1",
+			"id": "b404204c47e5eccf621701c529499bf989b8a8adfb69a6d2cdfbcb5ff60ab3be",
+			"repository": "https://github.com/BdR76/RandomValuesNPP/releases/download/0.2.1/RandomValuesNppPlugin_x64.zip",
 			"description": "Random values generator for passwords or test data. Custom configurable string, integer, decimal, datetime, guid values based on range or mask. Single values for quick access or a list of multiple values at once in csv, xml, json, sql formats.",
 			"author": "Bas de Reuver",
 			"homepage": "https://github.com/BdR76/RandomValuesNPP/"
