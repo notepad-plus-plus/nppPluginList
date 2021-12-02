@@ -1,6 +1,6 @@
 {
 	"name": "npp-pluginList",
-	"version": "1.3.9",
+	"version": "1.4",
 	"arch": "64",
 	"npp-plugins": [
 		{
@@ -196,10 +196,10 @@
 		{
 			"folder-name": "CSVLint",
 			"display-name": "CSV Lint",
-			"version": "0.4.1",
-			"id": "7af890ba9cc364fa94a068c97e4fa257ad57f3ec69228ac3fab322385e69fbbc",
-			"repository": "https://github.com/BdR76/CSVLint/releases/download/0.4.1/CSVLint-x64.zip",
-			"description": "Adds syntax highlighting for csv data, automatic column and datatype detecting, validate csv datasets, change datetime format, decimal separator, count unique values and more. A utility for data cleaning and working with messy data files.",
+			"version": "0.4.3",
+			"id": "9663202324c74f57f234594e1ab7ffe2003a966afe11dfcd48f430da44818c14",
+			"repository": "https://github.com/BdR76/CSVLint/releases/download/0.4.3/CSVLint_x64.zip",
+			"description": "Adds syntax highlighting for csv data, automatic column and datatype detecting, validate delimiter-separated or fixed width datasets, change datetime format, decimal separator, count unique values, csv to SQL etc. A utility for quality control, data cleaning and working with messy data files.",
 			"author": "Bas de Reuver",
 			"homepage": "https://github.com/BdR76/CSVLint/"
 		},
@@ -306,10 +306,10 @@
 		{
 			"folder-name": "FWDataViz",
 			"display-name": "Fixed-width Data Visualizer",
-			"version": "2.2.0.0",
-			"id": "12b6ec45c49a49a3782cd53fa253889c99ded03367aae2b5cae395e0755b0e4b",
-			"repository": "https://github.com/shriprem/FWDataViz/releases/download/v2.2.0.0/FWDataViz_x64.zip",
-			"description": "Fixed Width Data Visualizer adds Excel-like features for fixed-width data files in Notepad++. Displays cursor position data. Jump to specific fields. Data Extraction. Builtin dialogs to configure file-type, record-type & fields; and themes & colors. Automatic File Type Detection. Handles homogenous, mixed & multi-line records. Multi-byte character data support. Darkmode enabled.",
+			"version": "2.3.0.0",
+			"id": "9f5d338fe9e8e0a03a1052dc2fb77331a2a2c8fe7e724b4538ba0f6a778ff6dc",
+			"repository": "https://github.com/shriprem/FWDataViz/releases/download/v2.3.0.0/FWDataViz_x64.zip",
+			"description": "Fixed Width Data Visualizer adds Excel-like features for fixed-width data files in Notepad++. Displays cursor position data. Hop & Jump to specific fields. Field Copy & Field Paste. Data Extraction. Builtin dialogs to configure file-type, record-type & fields; and themes & colors. Automatic File Type Detection. Handles homogenous, mixed & multi-line records. Full Multi-byte character support. Darkmode enabled.",
 			"author": "Shridhar Kumar",
 			"homepage": "https://github.com/shriprem/FWDataViz"
 		},
@@ -836,8 +836,8 @@
 		{
 			"folder-name": "PlanetCNCNpp64",
 			"display-name": "Expression calculator",
-			"version": "3001.21.1020.1",
-			"id": "3269419d999986db9a3978e3cd5868b4eaead2781a58de3a6564f89dc91ff4c4",
+			"version": "3001.21.1123.1",
+			"id": "e01f848c190a9d11e89af3289d9be45b28ae81cf3bfa435c3b2111290870e824",
 			"repository": "https://github.com/PlanetCNC/PlanetCNCNpp/releases/download/release/PlanetCNCNpp64.zip",
 			"description": "Expression calculator plugin for Notepad++",
 			"author": "PlanetCNC",
@@ -906,9 +906,9 @@
 		{
 			"folder-name": "RandomValuesNppPlugin",
 			"display-name": "Random Values",
-			"version": "0.2",
-			"id": "7d1423d4f670acfc57f8ac12410a532385feede2fe35d3ac42d66e206c20cdb6",
-			"repository": "https://github.com/BdR76/RandomValuesNPP/releases/download/0.2/RandomValuesNppPlugin-64bit.zip",
+			"version": "0.2.1",
+			"id": "b404204c47e5eccf621701c529499bf989b8a8adfb69a6d2cdfbcb5ff60ab3be",
+			"repository": "https://github.com/BdR76/RandomValuesNPP/releases/download/0.2.1/RandomValuesNppPlugin_x64.zip",
 			"description": "Random values generator for passwords or test data. Custom configurable string, integer, decimal, datetime, guid values based on range or mask. Single values for quick access or a list of multiple values at once in csv, xml, json, sql formats.",
 			"author": "Bas de Reuver",
 			"homepage": "https://github.com/BdR76/RandomValuesNPP/"
@@ -1056,9 +1056,9 @@
 		{
 			"folder-name": "NppSnippets",
 			"display-name": "Snippets",
-			"version": "1.6.0",
-			"id": "e8a43312e92e84c7b90494f09b9db6cc36df1a9889b772ffae487fec3e6f87d0",
-			"repository": "https://github.com/ffes/nppsnippets/releases/download/v1.6.0/NppSnippets-160-x64.zip",
+			"version": "1.7.0",
+			"id": "22e6b99160cfee9dde06dc130e54b21400565236b43d6a4f664a30e6cc4fcd18",
+			"repository": "https://github.com/ffes/nppsnippets/releases/download/v1.7.0/NppSnippets-170-x64.zip",
 			"description": "Adds the possibility to add code snippets to the current document by selecting them from a simple list.",
 			"author": "Frank Fesevur",
 			"homepage": "https://www.fesevur.com/nppsnippets"
@@ -1206,9 +1206,9 @@
 		{
 			"folder-name": "WakaTime",
 			"display-name": "WakaTime",
-			"version": "4.2.1",
-			"id": "9d679e1ce7ab480c60a122a0de1f7b2ee4bac81f095eba2f3b87bb6be106f0c1",
-			"repository": "https://github.com/wakatime/notepadpp-wakatime/releases/download/4.2.1/WakaTime-4.2.1-x64.zip",
+			"version": "4.2.3",
+			"id": "c11f8f7c507e7453289fd14511db274a9d5c1099515083d9d08ec0b81b8840b0",
+			"repository": "https://github.com/wakatime/notepadpp-wakatime/releases/download/4.2.3/WakaTime-4.2.3-x64.zip",
 			"description": "Automatic time tracking and metrics generated from your programming activity.\r\nVisit https://wakatime.com to see your logged time.",
 			"author": "WakaTime",
 			"homepage": "https://github.com/wakatime/notepadpp-wakatime"
