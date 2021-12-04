@@ -406,9 +406,9 @@
 		{
 			"folder-name": "FWDataViz",
 			"display-name": "Fixed-width Data Visualizer",
-			"version": "2.3.0.0",
-			"id": "578f22f4bf0bfef1df4029a88e9da35192ef3d68dfa786c1a63e9aebc90c0a3a",
-			"repository": "https://github.com/shriprem/FWDataViz/releases/download/v2.3.0.0/FWDataViz_x86.zip",
+			"version": "2.4.0.0",
+			"id": "aafb1988294cfadb875d03bfffca3d9788b1874d15a8355f70ef998903822356",
+			"repository": "https://github.com/shriprem/FWDataViz/releases/download/v2.4.0.0/FWDataViz_x86.zip",
 			"description": "Fixed Width Data Visualizer adds Excel-like features for fixed-width data files in Notepad++. Displays cursor position data. Hop & Jump to specific fields. Field Copy & Field Paste. Data Extraction. Builtin dialogs to configure file-type, record-type & fields; and themes & colors. Automatic File Type Detection. Handles homogenous, mixed & multi-line records. Full Multi-byte character support. Darkmode enabled.",
 			"author": "Shridhar Kumar",
 			"homepage": "https://github.com/shriprem/FWDataViz"
@@ -456,9 +456,9 @@
 		{
 			"folder-name": "GotoLineCol",
 			"display-name": "GotoLineCol",
-			"version": "2.1.1.0",
-			"id": "33bb1a70b617517e34d785b5d2d3ed307f452d06dde82368de908dbc67d5ac7f",
-			"repository": "https://github.com/shriprem/Goto-Line-Col-NPP-Plugin/releases/download/v2.1.1.0/GotoLineCol_x86.zip",
+			"version": "2.2.0.0",
+			"id": "cdbe1596e5e0fe1f47ea0a1a5659c332fa055dbfc7282e03bb7857035b0ab83c",
+			"repository": "https://github.com/shriprem/Goto-Line-Col-NPP-Plugin/releases/download/v2.2.0.0/GotoLineCol_x86.zip",
 			"description": "A plugin to navigate to a specified line and (byte-based or character-based) column position. Will also display character byte code, UTF-8 byte sequence & Unicode code point at cursor position. Darkmode enabled. Command line options.",
 			"author": "Shridhar Kumar",
 			"homepage": "https://github.com/shriprem/Goto-Line-Col-NPP-Plugin"
