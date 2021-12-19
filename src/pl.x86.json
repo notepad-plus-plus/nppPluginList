@@ -524,6 +524,16 @@
 			"homepage": "https://itimetrack.com"
 		},
 		{
+			"folder-name": "JSFunctionViewer",
+			"display-name": "JSFunctionViewer",
+			"version": "1.0.0",
+			"id": "0074de7689fc88a84baf3dc0faf9bf904bb63f05f44542bdcddff66ae30109ec",
+			"repository": "https://github.com/davidsover/nppJSFunctionViewer/releases/download/v1.0.0/JSFunctionViewer_x86.zip",
+			"description": "Provides an easier way to view and/or navigate to functions from function calls. Also works with external files if the src attribute is the last attribute of the <script> tag. Select the name of a function to view it.",
+			"author": "Sover David",
+			"homepage": "https://github.com/davidsover/nppJSFunctionViewer"
+		},
+		{
 			"folder-name": "JsMapParser.NppPlugin",
 			"display-name": "JavaScript Map Parser",
 			"version": "4.2",
