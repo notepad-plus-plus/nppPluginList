@@ -387,7 +387,7 @@
 			"folder-name": "JSFunctionViewer",
 			"display-name": "JSFunctionViewer",
 			"version": "1.0.0",
-			"id": "130c8c8ac360a9c1cbb2873c355ef66cc46d0a5a37a39b06ec8a0373551b6e11",
+			"id": "f523db365e75ae7f589bd241cc7d70fdcd9102803934e3b210c1a3614d1bd637",
 			"repository": "https://github.com/davidsover/nppJSFunctionViewer/releases/download/v1.0.0/JSFunctionViewer_x64.zip",
 			"description": "Provides an easier way to view and/or navigate to functions from function calls. Also works with external files if the src attribute is the last attribute of the <script> tag. Select the name of a function to view it.",
 			"author": "Sover David",
