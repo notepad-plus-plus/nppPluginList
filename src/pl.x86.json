@@ -1682,6 +1682,16 @@
 			"description": "Generates random strings with configurable output.",
 			"author": "Maurice CMBSolutions",
 			"homepage": "https://github.com/cmbsolutions/nppRandomStringGenerator"
+		},
+		{
+			"folder-name": "NppJavaPlugin",
+			"display-name": "Java Plugin",
+			"version": "0.4.0",
+			"id": "8ceae37ad7aab7a663c93076e9b50c9e6e64320f987de52726ea6b160b9ee61c",
+			"repository": "https://github.com/dominikcebula/npp-java-plugin/releases/download/v0.4.0/NppJavaPlugin_v0.4.0_x86.zip",
+			"description": "Allows Java Code Compilation and Execution directly from Notepad++.",
+			"author": "Dominik Cebula",
+			"homepage": "https://github.com/dominikcebula/npp-java-plugin"
 		}
 	]
 }
