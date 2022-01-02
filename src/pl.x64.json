@@ -1256,8 +1256,8 @@
 		{
 			"folder-name": "nppRandomStringGenerator",
 			"display-name": "npp Random String Generator",
-			"version": "1.2.0",
-			"id": "6b353544b2b0d72ebab5c71bfeba76e7cc30b81466d041e66d5baf75e90c8add",
+			"version": "1.3.0",
+			"id": "25beca6625b4e12244a6b81a1c3d8fbee9abdc827cf48a90ff8aea4fdeff6fd9",
 			"repository": "https://github.com/cmbsolutions/nppRandomStringGenerator/releases/download/v1.2.0/nppRandomStringGenerator.1.2.0.x64.zip",
 			"description": "Generates random strings with configurable output.",
 			"author": "Maurice CMBSolutions",
