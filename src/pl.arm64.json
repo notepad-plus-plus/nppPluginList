@@ -1,14 +1,14 @@
 {
 	"name": "npp-pluginList",
-	"version": "1.4",
+	"version": "1.4.2",
 	"arch": "arm64",
 	"npp-plugins": [
 		{
 			"folder-name": "FWDataViz",
 			"display-name": "Fixed-width Data Visualizer",
-			"version": "2.3.0.0",
-			"id": "b20d6f5133fbbbd9c17b855cf3faaba56f9303fa5efc54255c45cfd0dd89c640",
-			"repository": "https://github.com/shriprem/FWDataViz/releases/download/v2.3.0.0/FWDataViz_arm64.zip",
+			"version": "2.4.0.1",
+			"id": "0e4f0ecd805abb6aef6cc9f8e90119fd0513945233ee3e48d2d57aece04a3466",
+			"repository": "https://github.com/shriprem/FWDataViz/releases/download/v2.4.0.1/FWDataViz_arm64.zip",
 			"description": "Fixed Width Data Visualizer adds Excel-like features for fixed-width data files in Notepad++. Displays cursor position data. Hop & Jump to specific fields. Field Copy & Field Paste. Data Extraction. Builtin dialogs to configure file-type, record-type & fields; and themes & colors. Automatic File Type Detection. Handles homogenous, mixed & multi-line records. Full Multi-byte character support. Darkmode enabled.",
 			"author": "Shridhar Kumar",
 			"homepage": "https://github.com/shriprem/FWDataViz"
@@ -16,9 +16,9 @@
 		{
 			"folder-name": "GotoLineCol",
 			"display-name": "GotoLineCol",
-			"version": "2.1.1.0",
-			"id": "561c64ab2d48057d30f517b80c12465aa96bd1ffab1022096961d015eb54f920",
-			"repository": "https://github.com/shriprem/Goto-Line-Col-NPP-Plugin/releases/download/v2.1.1.0/GotoLineCol_arm64.zip",
+			"version": "2.2.0.1",
+			"id": "36522b28b4208b70624d1798ec7f637796c63f81de98f9621b61266ca5546137",
+			"repository": "https://github.com/shriprem/Goto-Line-Col-NPP-Plugin/releases/download/v2.2.0.1/GotoLineCol_arm64.zip",
 			"description": "A plugin to navigate to a specified line and (byte-based or character-based) column position. Will also display character byte code, UTF-8 byte sequence & Unicode code point at cursor position. Darkmode enabled. Command line options.",
 			"author": "Shridhar Kumar",
 			"homepage": "https://github.com/shriprem/Goto-Line-Col-NPP-Plugin"

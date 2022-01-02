@@ -1,6 +1,6 @@
 {
 	"name": "npp-pluginList",
-	"version": "1.4",
+	"version": "1.4.2",
 	"arch": "64",
 	"npp-plugins": [
 		{
@@ -196,9 +196,9 @@
 		{
 			"folder-name": "CSVLint",
 			"display-name": "CSV Lint",
-			"version": "0.4.3",
-			"id": "9663202324c74f57f234594e1ab7ffe2003a966afe11dfcd48f430da44818c14",
-			"repository": "https://github.com/BdR76/CSVLint/releases/download/0.4.3/CSVLint_x64.zip",
+			"version": "0.4.4",
+			"id": "0ae99ed19b07e5b063e2774a3234648edfd60ac76f59e943f42c5ce05e32a3c7",
+			"repository": "https://github.com/BdR76/CSVLint/releases/download/0.4.4/CSVLint_x64.zip",
 			"description": "Adds syntax highlighting for csv data, automatic column and datatype detecting, validate delimiter-separated or fixed width datasets, change datetime format, decimal separator, count unique values, csv to SQL etc. A utility for quality control, data cleaning and working with messy data files.",
 			"author": "Bas de Reuver",
 			"homepage": "https://github.com/BdR76/CSVLint/"
@@ -246,9 +246,9 @@
 		{
 			"folder-name": "DSpellCheck",
 			"display-name": "DSpellCheck",
-			"version": "1.4.21",
-			"id": "cb09bb83452c44a1ce93d16f64f8d9742285fbc92b480123b968db8560d2339a",
-			"repository": "https://github.com/Predelnik/DSpellCheck/releases/download/v1.4.21/DSpellCheck_x64.zip",
+			"version": "1.4.22",
+			"id": "f366f10523e777c302c7934df7876cb6d19964f73f1bbee464dd76b073534e98",
+			"repository": "https://github.com/Predelnik/DSpellCheck/releases/download/v1.4.22/DSpellCheck_x64.zip",
 			"description": "Spell-checking with these main features:\r\n-Underlining spelling mistakes\r\n-Iterating through all mistakes in document\r\n-Finding mistakes only in comments and strings (For files with standard programming language syntax e.g. C++)\r\n-Possible usage of multiple languages (dictionaries) simultaneously to do spell-checking.\r\n-Getting suggestions for words by either using default Notepad++ menu or separate context menu called by special button appearing under word.\r\n-Able to add words to user dictionary or ignore them for current session of Notepad++\r\n-Using either Hunspell library (included in plugin) or Aspell library (needs to be installed).\r\n-A lot of customizing available from Plugin settings (Ignoring/Allowing only specific files, Choosing delimiters for words, Maximum number of suggestions etc)\r\n-Support for downloading and removing Hunspell dictionaries through user friendly GUI interface\r\n-Ability to quickly change current language through the nice menu.",
 			"author": "Sergey Semushin",
 			"homepage": "https://github.com/Predelnik/DSpellCheck"
@@ -306,9 +306,9 @@
 		{
 			"folder-name": "FWDataViz",
 			"display-name": "Fixed-width Data Visualizer",
-			"version": "2.3.0.0",
-			"id": "9f5d338fe9e8e0a03a1052dc2fb77331a2a2c8fe7e724b4538ba0f6a778ff6dc",
-			"repository": "https://github.com/shriprem/FWDataViz/releases/download/v2.3.0.0/FWDataViz_x64.zip",
+			"version": "2.4.0.1",
+			"id": "f3f0033605f1e06b0fbe912e8a04eae22d16c9b04a7905cf4678ba91baa524d7",
+			"repository": "https://github.com/shriprem/FWDataViz/releases/download/v2.4.0.1/FWDataViz_x64.zip",
 			"description": "Fixed Width Data Visualizer adds Excel-like features for fixed-width data files in Notepad++. Displays cursor position data. Hop & Jump to specific fields. Field Copy & Field Paste. Data Extraction. Builtin dialogs to configure file-type, record-type & fields; and themes & colors. Automatic File Type Detection. Handles homogenous, mixed & multi-line records. Full Multi-byte character support. Darkmode enabled.",
 			"author": "Shridhar Kumar",
 			"homepage": "https://github.com/shriprem/FWDataViz"
@@ -336,9 +336,9 @@
 		{
 			"folder-name": "GotoLineCol",
 			"display-name": "GotoLineCol",
-			"version": "2.1.1.0",
-			"id": "76efb011d977a36ac950df13c5a8e33c651f431898679e1f03b1497cdf5e089d",
-			"repository": "https://github.com/shriprem/Goto-Line-Col-NPP-Plugin/releases/download/v2.1.1.0/GotoLineCol_x64.zip",
+			"version": "2.2.0.1",
+			"id": "055e4e99a4f8ef51f88e5bafbe495ac68b976466bda06c042dec612558f90531",
+			"repository": "https://github.com/shriprem/Goto-Line-Col-NPP-Plugin/releases/download/v2.2.0.1/GotoLineCol_x64.zip",
 			"description": "A plugin to navigate to a specified line and (byte-based or character-based) column position. Will also display character byte code, UTF-8 byte sequence & Unicode code point at cursor position. Darkmode enabled. Command line options.",
 			"author": "Shridhar Kumar",
 			"homepage": "https://github.com/shriprem/Goto-Line-Col-NPP-Plugin"
@@ -382,6 +382,16 @@
 			"description": "Indent using Fold points\r\nNote: Disable Notepad++'s Auto Indent in Settings - Preferences - MISC - Untick Auto Indent.",
 			"author": "Ben Bluemel, Frank Fesevur",
 			"homepage": "https://github.com/ffes/indentbyfold/"
+		},
+		{
+			"folder-name": "JSFunctionViewer",
+			"display-name": "JSFunctionViewer",
+			"version": "1.1.0",
+			"id": "26b30ff8596a1ae8e277d65213bcb0f51e40acb49f26d956b6ba49e7046db219",
+			"repository": "https://github.com/davidsover/nppJSFunctionViewer/releases/download/v1.1.0/JSFunctionViewer_x64.zip",
+			"description": "Provides an easier way to view and/or navigate to functions from function calls. Also works with external files if the src attribute is the last attribute of the <script> tag. Select the name of a function to view it. Recommended: In the Find/Replace window (Ctrl+F), tick the 'Match case' and untick the 'Match whole word only' check box.",
+			"author": "Sover David",
+			"homepage": "https://github.com/davidsover/nppJSFunctionViewer"
 		},
 		{
 			"folder-name": "JsMapParser.NppPlugin",
@@ -1252,6 +1262,16 @@
 			"description": "Generates random strings with configurable output.",
 			"author": "Maurice CMBSolutions",
 			"homepage": "https://github.com/cmbsolutions/nppRandomStringGenerator"
+		},
+		{
+			"folder-name": "NppJavaPlugin",
+			"display-name": "Java Plugin",
+			"version": "0.4.0",
+			"id": "e2ac3bfd6fac22d6a977a82f725e3cc0949f59daa41153aba54c5bef3c87816e",
+			"repository": "https://github.com/dominikcebula/npp-java-plugin/releases/download/v0.4.0/NppJavaPlugin_v0.4.0_x64.zip",
+			"description": "Allows Java Code Compilation and Execution directly from Notepad++.",
+			"author": "Dominik Cebula",
+			"homepage": "https://github.com/dominikcebula/npp-java-plugin"
 		}
 	]
 }
