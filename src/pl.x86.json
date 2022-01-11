@@ -166,9 +166,9 @@
 		{
 			"folder-name": "ColumnTools",
 			"display-name": "ColumnTools",
-			"version": "1.4.1.1",
-			"id": "438a673cd2fbeb2fff8a4fae9f744cf31c869988a31ce23b02f808255fd6c4d0",
-			"repository": "https://github.com/vinsworldcom/nppColumnTools/releases/download/1.4.1.1/ColumnTools-v1.4.1.1-x86.zip",
+			"version": "1.4.2.1",
+			"id": "ee83cacd89c08d40b9247026c170954690cdf85c5b457ade493dac21f3c254e6",
+			"repository": "https://github.com/vinsworldcom/nppColumnTools/releases/download/1.4.2.1/ColumnTools-v1.4.2.1-x86.zip",
 			"description": "Notepad++ Highlight Current Column and Horizontal Ruler",
 			"author": "Vin's World",
 			"homepage": "https://github.com/vinsworldcom/nppColumnTools"
@@ -1186,9 +1186,9 @@
 		{
 			"folder-name": "QuickText",
 			"display-name": "QuickText",
-			"version": "0.2.1.1",
-			"id": "a1faffcd1a2bdef716855e479fa223a3ae779f623d346ade3a42aba0d7a8a03e",
-			"repository": "https://github.com/vinsworldcom/nppQuickText/releases/download/0.2.1.1/QuickText-v0.2.1.1-x86.zip",
+			"version": "0.2.3.1",
+			"id": "3f89eb51839c2b3c63ddfc7d0fec8e1730a28527e1f3c9b39043b96b2c5f774c",
+			"repository": "https://github.com/vinsworldcom/nppQuickText/releases/download/0.2.3.1/QuickText-v0.2.3.1-x86.zip",
 			"description": "Quick text substitution, including multi-field inputs. Similar to Tab Triggers in TextMate.",
 			"author": "Joao Moreno, Jing Teng",
 			"homepage": "https://github.com/vinsworldcom/nppQuickText"
