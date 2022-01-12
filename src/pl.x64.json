@@ -821,7 +821,7 @@
 			"repository": "https://github.com/incrediblejr/nppplugins/releases/download/v3.0.1/nppplugin_ofis2_x64.zip",
 			"description": "Lets you index specific folders and possible specific types of resources (XML, CPP, PY files) for a fast indexing of files.",
 			"author": "IncredibleJunior",
-			"homepage": "http://www.incrediblejunior.com/npp_plugins/"
+			"homepage": "https://www.incrediblejunior.com/npp_plugins/"
 		},
 		{
 			"folder-name": "OpenSelection",
@@ -1081,7 +1081,7 @@
 			"repository": "https://github.com/incrediblejr/nppplugins/releases/download/v3.0.1/nppplugin_solutionhub_x64.zip",
 			"description": "Base requirement for several plugins from incfred.",
 			"author": "IncredibleJunior",
-			"homepage": "http://www.incrediblejunior.com/npp_plugins/"
+			"homepage": "https://www.incrediblejunior.com/npp_plugins/"
 		},
 		{
 			"folder-name": "nppplugin_solutionhub_ui",
@@ -1091,7 +1091,7 @@
 			"repository": "https://github.com/incrediblejr/nppplugins/releases/download/v3.0.1/nppplugin_solutionhub_ui_x64.zip",
 			"description": "Basic UI to create and setup solutions used by the SolutionHub.",
 			"author": "IncredibleJunior",
-			"homepage": "http://www.incrediblejunior.com/npp_plugins/"
+			"homepage": "https://www.incrediblejunior.com/npp_plugins/"
 		},
 		{
 			"folder-name": "nppplugin_solutiontools",
@@ -1101,7 +1101,7 @@
 			"repository": "https://github.com/incrediblejr/nppplugins/releases/download/v3.0.1/nppplugin_solutiontools_x64.zip",
 			"description": "Configurable priority-based fileswitching (most commonly used when switching between .h and .cpp). Configurable what extensions map to which targets and in what order.\n'goto file' implementation, Ex. stand on a line, press whatever shortcut(or left mouseclick on the line) you have bound to the GOTO command on a line like :\r\n#include \"somefile.h\"\r\nor\r\nrequire 'some_path/to_a_luafile'",
 			"author": "IncredibleJunior",
-			"homepage": "http://www.incrediblejunior.com/npp_plugins/"
+			"homepage": "https://www.incrediblejunior.com/npp_plugins/"
 		},
 		{
 			"folder-name": "SpeechPlugin",
@@ -1191,7 +1191,7 @@
 			"repository": "https://github.com/incrediblejr/nppplugins/releases/download/v3.0.1/nppplugin_svn_x64.zip",
 			"description": "Main operations for SVN, with a concept of a root solution directory. Note: Uses Tortoise SVN internally so you have to have this installed. Available at http://tortoisesvn.tigris.org/",
 			"author": "IncredibleJunior",
-			"homepage": "http://www.incrediblejunior.com/npp_plugins/"
+			"homepage": "https://www.incrediblejunior.com/npp_plugins/"
 		},
 		{
 			"folder-name": "urlPlugin",
