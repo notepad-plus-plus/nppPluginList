@@ -1,0 +1,63 @@
+name: CI_build
+
+on: [push, pull_request]
+
+jobs:
+  build:
+
+    runs-on: windows-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        build_configuration: [Release]
+        build_platform: [x64, Win32, arm64]
+
+    steps:
+    - name: Checkout repo
+      uses: actions/checkout@v3
+
+    - name: Install python modules
+      working-directory: .
+      run: pip3 install -r requirements.txt
+
+    - name: check used package versions
+      working-directory: .
+      run: pip3 freeze
+
+    - name: Validate json
+      working-directory: .
+      run: python validator.py ${{ matrix.build_platform }}
+
+    - name: Add msbuild to PATH
+      uses: microsoft/setup-msbuild@v1
+
+    - name: MSBuild of plugin dll
+      working-directory: vcxproj
+      run: msbuild nppPluginList.vcxproj /m /p:configuration="${{ matrix.build_configuration }}" /p:platform="${{ matrix.build_platform }}" /p:PlatformToolset="v143"
+
+    - name: Archive artifacts for x64
+      if: matrix.build_platform == 'x64' && matrix.build_configuration == 'Release'
+      uses: actions/upload-artifact@v3
+      with:
+          name: plugin_dll_and_list_x64
+          path: |
+                bin64\nppPluginList.dll
+                plugin_list_x64.md
+
+    - name: Archive artifacts for Win32
+      if: matrix.build_platform == 'Win32' && matrix.build_configuration == 'Release'
+      uses: actions/upload-artifact@v3
+      with:
+          name: plugin_dll_and_list_x86
+          path: |
+                bin\nppPluginList.dll
+                plugin_list_x86.md
+
+    - name: Archive artifacts for ARM64
+      if: matrix.build_platform == 'ARM64' && matrix.build_configuration == 'Release'
+      uses: actions/upload-artifact@v3
+      with:
+          name: plugin_dll_and_list_arm64
+          path: |
+                binarm64\nppPluginList.dll
+                plugin_list_arm64.md
