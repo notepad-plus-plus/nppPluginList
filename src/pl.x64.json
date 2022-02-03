@@ -596,9 +596,9 @@
 		{
 			"folder-name": "NppPluginTemplate",
 			"display-name": "Notepad++ Plugin Template",
-			"version": "4.1",
-			"id": "949e23eb1fdd15def26cbd804ac5b66267cefb2afb040a106c2fc09d05b2ebe3",
-			"repository": "https://github.com/npp-plugins/plugintemplate/releases/download/v4.1/pluginTemplate.v4.1.bin.x64.zip",
+			"version": "4.2",
+			"id": "08b0a0faf7e044115f494b15d8151dab667a6cebad15993ba3314dcf9d168e3c",
+			"repository": "https://github.com/npp-plugins/plugintemplate/releases/download/v4.2/pluginTemplate.v4.2.bin.x64.zip",
 			"description": "Template for making plugin development as easy and simple as possible. Four steps and it's done.",
 			"author": "Don HO",
 			"homepage": "https://npp-user-manual.org/docs/plugins/"
