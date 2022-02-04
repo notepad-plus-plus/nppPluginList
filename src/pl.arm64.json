@@ -142,6 +142,16 @@
 			"description": "No kidding, Notepad++ speaks now. With SpeechPlugin, you can make Notepad++ dictate your text or source code. Of course, speakers are necessary.",
 			"author": "Jim Xochellis",
 			"homepage": "https://github.com/chcg/SpeechPlugin"
+		},
+		{
+			"folder-name": "nppAutoDetectIndent",
+			"display-name": "Auto Detect Indention",
+			"version": "2.2",
+			"id": "3b269c84c3964896e1ab4de8fd14bfa07b562ba736c349c6f4c5c2dfcabd8119",
+			"repository": "https://github.com/Chocobo1/nppAutoDetectIndent/releases/download/2.2/arm64.zip",
+			"description": "Detects indention (tab or spaces) and auto adjust Tab key on-the-fly.",
+			"author": "Mike Tzou (Chocobo1)",
+			"homepage": "https://github.com/Chocobo1/nppAutoDetectIndent"
 		}
 	]
 }
