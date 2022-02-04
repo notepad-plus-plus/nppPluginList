@@ -156,9 +156,9 @@
 		{
 			"folder-name": "ColumnTools",
 			"display-name": "ColumnTools",
-			"version": "1.4.2.1",
-			"id": "6d324ebb1c6f1f600cca8b9ed01a8e8b94660d026ac596a786d8e39af87e4def",
-			"repository": "https://github.com/vinsworldcom/nppColumnTools/releases/download/1.4.2.1/ColumnTools-v1.4.2.1-x64.zip",
+			"version": "1.4.3.1",
+			"id": "7bbd331520117a62eaa1966069b0fff783139219fe92d9233c05c5bdb659384c",
+			"repository": "https://github.com/vinsworldcom/nppColumnTools/releases/download/1.4.3.1/ColumnTools-v1.4.3.1-x64.zip",
 			"description": "Notepad++ Highlight Current Column and Horizontal Ruler",
 			"author": "Vin's World",
 			"homepage": "https://github.com/vinsworldcom/nppColumnTools"
@@ -326,9 +326,9 @@
 		{
 			"folder-name": "GitSCM",
 			"display-name": "GitSCM",
-			"version": "1.4.5.1",
-			"id": "10b89d46acbdbfbf722d209fc5a3d2390abb0e036f9b3f9926fb729a0e720b20",
-			"repository": "https://github.com/vinsworldcom/nppGitSCM/releases/download/1.4.5.1/GitSCM-v1.4.5.1-x64.zip",
+			"version": "1.4.6.1",
+			"id": "df18da78814d1c980d5cfe507cb21ba228d50e3749f842b56b8450b121e32de8",
+			"repository": "https://github.com/vinsworldcom/nppGitSCM/releases/download/1.4.6.1/GitSCM-v1.4.6.1-x64.zip",
 			"description": "N++ Gui for already installed Git SCM for Windows. Optionally TortoiseGit.",
 			"author": "Michael J. Vincent",
 			"homepage": "https://github.com/vinsworldcom/nppGitSCM"
@@ -906,9 +906,9 @@
 		{
 			"folder-name": "QuickText",
 			"display-name": "QuickText",
-			"version": "0.2.3.1",
-			"id": "ee15c46e7577630a6d27f0ff21c0247391cedcf389bd3c0e5f6a393e66c5ddc5",
-			"repository": "https://github.com/vinsworldcom/nppQuickText/releases/download/0.2.3.1/QuickText-v0.2.3.1-x64.zip",
+			"version": "0.2.4.1",
+			"id": "6b3d35de2822ce47d3a7cc7a4c26885f253ac26ef09a58e5b820ff3eb0a6dc99",
+			"repository": "https://github.com/vinsworldcom/nppQuickText/releases/download/0.2.4.1/QuickText-v0.2.4.1-x64.zip",
 			"description": "Quick text substitution, including multi-field inputs. Similar to Tab Triggers in TextMate.",
 			"author": "Joao Moreno, Jing Teng",
 			"homepage": "https://github.com/vinsworldcom/nppQuickText"
