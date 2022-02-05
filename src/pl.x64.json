@@ -1106,9 +1106,9 @@
 		{
 			"folder-name": "SpeechPlugin",
 			"display-name": "SpeechPlugin",
-			"version": "0.3.1.0",
-			"id": "59faa78da6f4809532cc528fac10285ba9a0744a665a0fd990b9c1ed89d293c2",
-			"repository": "https://github.com/chcg/SpeechPlugin/releases/download/v0.3.1/SpeechPlugin_v0.3.1_x64.zip",
+			"version": "0.4.0.0",
+			"id": "a11f8efa52b7b28a33c3af108e7f58bc859061cc013639a72c18062255d27fda",
+			"repository": "https://github.com/chcg/SpeechPlugin/releases/download/v0.4.0/SpeechPlugin_v0.4.0_x64.zip",
 			"description": "No kidding, Notepad++ speaks now. With SpeechPlugin, you can make Notepad++ dictate your text or source code. Of course, speakers are necessary.",
 			"author": "Jim Xochellis",
 			"homepage": "https://github.com/chcg/SpeechPlugin"
