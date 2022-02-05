@@ -356,12 +356,12 @@
 		{
 			"folder-name": "HTMLTag",
 			"display-name": "HTML Tag",
-			"version": "1.1.0.0",
-			"id": "fd64f3f5a6a3da14dc2f592eb438ce316b207abae189d560680b46e965dd8f55",
-			"repository": "https://fossil.2of4.net/npp_htmltag/doc/v1.1.0/publish/HTMLTag_plugin_latest_64.zip",
+			"version": "1.2.0.0",
+			"id": "d2a657f2f2632f0645b0854d8a1b7e81ef94e9da62224be8979e9b547db32829",
+			"repository": "https://bitbucket.org/rdipardo/htmltag/downloads/HTMLTag_v120_x64.zip",
 			"description": "Provides three core functions:\r\n- HTML and XML tag jumping, like the built-in brace matching (Ctrl+B / Shift+Ctrl+B), and selection\r\n of tags and/or contents.\r\n- HTML entity encoding/decoding (example: é to &eacute;)\r\n- JS character encoding/decoding (example: é to \\u00E9)",
 			"author": "Martijn Coppoolse",
-			"homepage": "https://fossil.2of4.net/npp_htmltag/"
+			"homepage": "https://bitbucket.org/rdipardo/htmltag/"
 		},
 		{
 			"folder-name": "ImgTag",
