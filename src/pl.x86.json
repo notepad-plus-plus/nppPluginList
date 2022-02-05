@@ -1,6 +1,6 @@
 {
 	"name": "npp-pluginList",
-	"version": "1.4.2",
+	"version": "1.4.5",
 	"arch": "32",
 	"npp-plugins": [
 		{
@@ -36,9 +36,9 @@
 		{
 			"folder-name": "nppAutoDetectIndent",
 			"display-name": "Auto Detect Indention",
-			"version": "2.0",
-			"id": "c0264f8375e3d9a66705f41f6919528300a64470a7cc53b699a29d35bf3a98d2",
-			"repository": "https://github.com/Chocobo1/nppAutoDetectIndent/releases/download/2.0/x86.zip",
+			"version": "2.2",
+			"id": "81dd96e2d1d81f7544ad0db5757cc53b10e726172ae88117c07b6b2d593a8c41",
+			"repository": "https://github.com/Chocobo1/nppAutoDetectIndent/releases/download/2.2/x86.zip",
 			"description": "Detects indention (tab or spaces) and auto adjust Tab key on-the-fly.",
 			"author": "Mike Tzou (Chocobo1)",
 			"homepage": "https://github.com/Chocobo1/nppAutoDetectIndent"
@@ -166,9 +166,9 @@
 		{
 			"folder-name": "ColumnTools",
 			"display-name": "ColumnTools",
-			"version": "1.4.1.1",
-			"id": "438a673cd2fbeb2fff8a4fae9f744cf31c869988a31ce23b02f808255fd6c4d0",
-			"repository": "https://github.com/vinsworldcom/nppColumnTools/releases/download/1.4.1.1/ColumnTools-v1.4.1.1-x86.zip",
+			"version": "1.4.3.1",
+			"id": "8de3b1c8f9b90d3737f116c2752a8fdba39150ae4a422f0d6fd30b467593be34",
+			"repository": "https://github.com/vinsworldcom/nppColumnTools/releases/download/1.4.3.1/ColumnTools-v1.4.3.1-x86.zip",
 			"description": "Notepad++ Highlight Current Column and Horizontal Ruler",
 			"author": "Vin's World",
 			"homepage": "https://github.com/vinsworldcom/nppColumnTools"
@@ -196,9 +196,9 @@
 		{
 			"folder-name": "ComparePlugin",
 			"display-name": "Compare",
-			"version": "2.0.1",
-			"id": "07972c1c7e3012a46ac6ef133a6500ca851bddc9c83471df2f118519a0241ed5",
-			"repository": "https://github.com/pnedev/compare-plugin/releases/download/v2.0.1/ComparePlugin_v2.0.1_x86.zip",
+			"version": "2.0.2",
+			"id": "ea2f4cd6627c1b902f700a43b03b38f725e67136c8ce00ac3620ecc03417332a",
+			"repository": "https://github.com/pnedev/compare-plugin/releases/download/v2.0.2/ComparePlugin_v2.0.2_x86.zip",
 			"description": "Shows the differences between 2 files (side by side).",
 			"author": "Ty Landercasper, Jean-Sebastien Leroy, Pavel Nedev",
 			"homepage": "https://github.com/pnedev/compare-plugin"
@@ -306,9 +306,9 @@
 		{
 			"folder-name": "DSpellCheck",
 			"display-name": "DSpellCheck",
-			"version": "1.4.22",
-			"id": "7525980fe484efd510f629bba7a44bee3680b5dfcd8f32e70536036b9e340853",
-			"repository": "https://github.com/Predelnik/DSpellCheck/releases/download/v1.4.22/DSpellCheck_x86.zip",
+			"version": "1.4.23",
+			"id": "51ac857be07efaa9881c1e30b3189f2df75f03f1ce436e2b6a9069aa382cacf7",
+			"repository": "https://github.com/Predelnik/DSpellCheck/releases/download/v1.4.23/DSpellCheck_x86.zip",
 			"description": "Spell-checking with these main features:\r\n-Underlining spelling mistakes\r\n-Iterating through all mistakes in document\r\n-Finding mistakes only in comments and strings (For files with standard programming language syntax e.g. C++)\r\n-Possible usage of multiple languages (dictionaries) simultaneously to do spell-checking.\r\n-Getting suggestions for words by either using default Notepad++ menu or separate context menu called by special button appearing under word.\r\n-Able to add words to user dictionary or ignore them for current session of Notepad++\r\n-Using either Hunspell library (included in plugin) or Aspell library (needs to be installed).\r\n-A lot of customizing available from Plugin settings (Ignoring/Allowing only specific files, Choosing delimiters for words, Maximum number of suggestions etc)\r\n-Support for downloading and removing Hunspell dictionaries through user friendly GUI interface\r\n-Ability to quickly change current language through the nice menu.",
 			"author": "Sergey Semushin",
 			"homepage": "https://github.com/Predelnik/DSpellCheck"
@@ -406,9 +406,9 @@
 		{
 			"folder-name": "FWDataViz",
 			"display-name": "Fixed-width Data Visualizer",
-			"version": "2.4.0.1",
-			"id": "35241813a547517601840d0415bd03642d4c3d95d71cc51f46de488df47cc693",
-			"repository": "https://github.com/shriprem/FWDataViz/releases/download/v2.4.0.1/FWDataViz_x86.zip",
+			"version": "2.4.0.2",
+			"id": "0976caac53269ee204ff09bef2ba36703f8220844e933b1ddde1a1b91db000d7",
+			"repository": "https://github.com/shriprem/FWDataViz/releases/download/v2.4.0.2/FWDataViz_x86.zip",
 			"description": "Fixed Width Data Visualizer adds Excel-like features for fixed-width data files in Notepad++. Displays cursor position data. Hop & Jump to specific fields. Field Copy & Field Paste. Data Extraction. Builtin dialogs to configure file-type, record-type & fields; and themes & colors. Automatic File Type Detection. Handles homogenous, mixed & multi-line records. Full Multi-byte character support. Darkmode enabled.",
 			"author": "Shridhar Kumar",
 			"homepage": "https://github.com/shriprem/FWDataViz"
@@ -426,9 +426,9 @@
 		{
 			"folder-name": "GitSCM",
 			"display-name": "GitSCM",
-			"version": "1.4.4.2",
-			"id": "e14196aba29585fdc2bf22b589ba6389f529ffa795d86a397a2509039c85c8fa",
-			"repository": "https://github.com/vinsworldcom/nppGitSCM/releases/download/1.4.4.2/GitSCM-v1.4.4.2-x86.zip",
+			"version": "1.4.6.1",
+			"id": "cd0e4d59260e760b092b877d42e3f8c56ad901b7d6d4a175e279e8b9bba06ba3",
+			"repository": "https://github.com/vinsworldcom/nppGitSCM/releases/download/1.4.6.1/GitSCM-v1.4.6.1-x86.zip",
 			"description": "N++ Gui for already installed Git SCM for Windows. Optionally TortoiseGit.",
 			"author": "Michael J. Vincent",
 			"homepage": "https://github.com/vinsworldcom/nppGitSCM"
@@ -456,9 +456,9 @@
 		{
 			"folder-name": "GotoLineCol",
 			"display-name": "GotoLineCol",
-			"version": "2.2.0.1",
-			"id": "2ff813f4889a172cfae851a193ba7d20e91dd652b47f66dc7cdbcb3573b96a95",
-			"repository": "https://github.com/shriprem/Goto-Line-Col-NPP-Plugin/releases/download/v2.2.0.1/GotoLineCol_x86.zip",
+			"version": "2.2.0.2",
+			"id": "53ce50ec4e4547e8fbda7e7ebddacfcd86beb775661d07a345c688e5d8a7328f",
+			"repository": "https://github.com/shriprem/Goto-Line-Col-NPP-Plugin/releases/download/v2.2.0.2/GotoLineCol_x86.zip",
 			"description": "A plugin to navigate to a specified line and (byte-based or character-based) column position. Will also display character byte code, UTF-8 byte sequence & Unicode code point at cursor position. Darkmode enabled. Command line options.",
 			"author": "Shridhar Kumar",
 			"homepage": "https://github.com/shriprem/Goto-Line-Col-NPP-Plugin"
@@ -476,9 +476,9 @@
 		{
 			"folder-name": "HexEditor",
 			"display-name": "HEX-Editor",
-			"version": "0.9.10.0",
-			"id": "196fdb20092451b7eeaa84700e8abea8118c4632821bbb0a407b1ae0a2ac5005",
-			"repository": "https://github.com/chcg/NPP_HexEdit/releases/download/0.9.10/HexEditor_0.9.10_Win32.zip",
+			"version": "0.9.12.0",
+			"id": "266be61339df9d7a781ca6f5853ac03db1e35c3c6c1c8bcb2349c619f981c781",
+			"repository": "https://github.com/chcg/NPP_HexEdit/releases/download/0.9.12/HexEditor_0.9.12_Win32.zip",
 			"description": "Hex editor. Some reported issues, however many bugs fixed in latest release.",
 			"author": "Jens Lorenz",
 			"homepage": "https://github.com/chcg/NPP_HexEdit"
@@ -716,9 +716,9 @@
 		{
 			"folder-name": "mimeTools",
 			"display-name": "Mime tools",
-			"version": "2.6",
-			"id": "6ad8d200b3f03a4b27df8a7e34c023b89a01ade971945b17ae4b61cdbc3d2abf",
-			"repository": "https://github.com/npp-plugins/mimetools/releases/download/v2.6/mimetools.v2.6.zip",
+			"version": "2.7",
+			"id": "b65fbfaa15b443131eb69188069cacbff04eca66e0cb84130631303a1d3895f8",
+			"repository": "https://github.com/npp-plugins/mimetools/releases/download/v2.7/mimetools.v2.7.zip",
 			"description": "Implements several main functionalities defined in MIME (Multipurpose Internet Mail Extensions).",
 			"author": "Don HO",
 			"homepage": "https://github.com/npp-plugins/mimetools"
@@ -796,9 +796,9 @@
 		{
 			"folder-name": "NppPluginDemo",
 			"display-name": "Notepad++ Plugin Demo",
-			"version": "4.1",
-			"id": "c3edb6926ac15a00873538781d6fa3d3e6580453130b0360d8354663c4b5db6c",
-			"repository": "https://github.com/npp-plugins/plugindemo/releases/download/v4.1/pluginDemo.v4.1.bin.zip",
+			"version": "4.2",
+			"id": "4629177bc26f775b16efc6aad848dabba2b34e0445fdd1e718bb98a6a2976ee7",
+			"repository": "https://github.com/npp-plugins/plugindemo/releases/download/v4.2/pluginDemo.v4.2.bin.zip",
 			"description": "Notepad++ Plugin Demo is written from Notepad++ Plugin Template to demonstrate the usage of plugin API.",
 			"author": "Don HO",
 			"homepage": "https://npp-user-manual.org/docs/plugins/"
@@ -806,9 +806,9 @@
 		{
 			"folder-name": "NppPluginTemplate",
 			"display-name": "Notepad++ Plugin Template",
-			"version": "4.1",
-			"id": "94394d743b53825a3d37eeb46cdd47f0ea4eab69330e68d59b6043f6276fd250",
-			"repository": "https://github.com/npp-plugins/plugintemplate/releases/download/v4.1/pluginTemplate.v4.1.bin.zip",
+			"version": "4.2",
+			"id": "b9ec58d958d417a69504ae25b92397f874773855e693899784651fc9422e4ac1",
+			"repository": "https://github.com/npp-plugins/plugintemplate/releases/download/v4.2/pluginTemplate.v4.2.bin.zip",
 			"description": "Template for making plugin development as easy and simple as possible. Four steps and it's done.",
 			"author": "Don HO",
 			"homepage": "https://npp-user-manual.org/docs/plugins/"
@@ -826,9 +826,9 @@
 		{
 			"folder-name": "nppConverter",
 			"display-name": "Npp Converter",
-			"version": "4.3.0",
-			"id": "4d70d5309e27694cb93422ebcb0896ede82c9a8449a080ff9481fdf9ccdb162c",
-			"repository": "https://github.com/npp-plugins/converter/releases/download/v4.3/nppConvert.v4.3.zip",
+			"version": "4.4.0",
+			"id": "243f4f55385ed928a7c859e9fc372341f1466139d065424b631aa9ee89c5e4c4",
+			"repository": "https://github.com/npp-plugins/converter/releases/download/v4.4/nppConvert.v4.4.zip",
 			"description": "ASCII<->Hex converter.",
 			"author": "Don HO",
 			"homepage": "https://github.com/npp-plugins/converter/"
@@ -896,9 +896,9 @@
 		{
 			"folder-name": "NppExport",
 			"display-name": "NppExport",
-			"version": "0.3.0.0",
-			"id": "4104e425382f5970600773f13f775f2c644a550c90f97a27b8f683fe9c1cba4d",
-			"repository": "https://github.com/chcg/NPP_ExportPlugin/releases/download/0.3.0/NppExport_0.3.0_Win32.zip",
+			"version": "0.4.0.0",
+			"id": "149b1211cdc1df25725be002cfbfeb29c69107fa4fa25bc1594972c74b65bde0",
+			"repository": "https://github.com/chcg/NPP_ExportPlugin/releases/download/0.4.0/NppExport_0.4.0_Win32.zip",
 			"description": "True WYSIWYG exporter. Allows you not only to save your source code as an HTML/RTF file, but also to copy your source code in the clipboard in RTF/HTML format, so you can paste it into your word processor (Openoffice.org Writer, LibreOffice Writer, Abiword, MS Word) to get the same visual effect.",
 			"author": "",
 			"homepage": "https://github.com/chcg/NPP_ExportPlugin"
@@ -936,9 +936,9 @@
 		{
 			"folder-name": "NppGTags",
 			"display-name": "NppGTags",
-			"version": "4.4.3",
-			"id": "97ffe4ff1f957970985792d876ccde9a5f5d50fc86a6e51f56a5f0eba2975641",
-			"repository": "https://github.com/pnedev/nppgtags/releases/download/v4.4.3/NppGTags_v4.4.3_x86.zip",
+			"version": "4.5.0",
+			"id": "5ee40e46cb8649b85bebf69682e6e65580d1a8a16420b0529626db4ea33f0ee2",
+			"repository": "https://github.com/pnedev/nppgtags/releases/download/v4.5.0/NppGTags_v4.5.0_x86.zip",
 			"description": "Front-end to GNU Global source code tagging system (GTags). Provides code indexing and search/navigation tools for various languages.",
 			"author": "Pavel Nedev",
 			"homepage": "https://github.com/pnedev/nppgtags"
@@ -1051,7 +1051,7 @@
 			"repository": "https://github.com/incrediblejr/nppplugins/releases/download/v3.0.1/nppplugin_ofis2_x86.zip",
 			"description": "Lets you index specific folders and possible specific types of resources (XML, CPP, PY files) for a fast indexing of files.",
 			"author": "IncredibleJunior",
-			"homepage": "http://www.incrediblejunior.com/npp_plugins/"
+			"homepage": "https://www.incrediblejunior.com/npp_plugins/"
 		},
 		{
 			"folder-name": "OpenSelection",
@@ -1186,9 +1186,9 @@
 		{
 			"folder-name": "QuickText",
 			"display-name": "QuickText",
-			"version": "0.2.1.1",
-			"id": "a1faffcd1a2bdef716855e479fa223a3ae779f623d346ade3a42aba0d7a8a03e",
-			"repository": "https://github.com/vinsworldcom/nppQuickText/releases/download/0.2.1.1/QuickText-v0.2.1.1-x86.zip",
+			"version": "0.2.4.1",
+			"id": "72295f93a122d4dbcaa14f937aee171079448c6ee7900cf346629bc7064ba30e",
+			"repository": "https://github.com/vinsworldcom/nppQuickText/releases/download/0.2.4.1/QuickText-v0.2.4.1-x86.zip",
 			"description": "Quick text substitution, including multi-field inputs. Similar to Tab Triggers in TextMate.",
 			"author": "Joao Moreno, Jing Teng",
 			"homepage": "https://github.com/vinsworldcom/nppQuickText"
@@ -1371,7 +1371,7 @@
 			"repository": "https://github.com/incrediblejr/nppplugins/releases/download/v3.0.1/nppplugin_solutionhub_x86.zip",
 			"description": "Base requirement for several plugins from incfred.",
 			"author": "IncredibleJunior",
-			"homepage": "http://www.incrediblejunior.com/npp_plugins/"
+			"homepage": "https://www.incrediblejunior.com/npp_plugins/"
 		},
 		{
 			"folder-name": "nppplugin_solutionhub_ui",
@@ -1381,7 +1381,7 @@
 			"repository": "https://github.com/incrediblejr/nppplugins/releases/download/v3.0.1/nppplugin_solutionhub_ui_x86.zip",
 			"description": "Basic UI to create and setup solutions used by the SolutionHub.",
 			"author": "IncredibleJunior",
-			"homepage": "http://www.incrediblejunior.com/npp_plugins/"
+			"homepage": "https://www.incrediblejunior.com/npp_plugins/"
 		},
 		{
 			"folder-name": "nppplugin_solutiontools",
@@ -1391,7 +1391,7 @@
 			"repository": "https://github.com/incrediblejr/nppplugins/releases/download/v3.0.1/nppplugin_solutiontools_x86.zip",
 			"description": "Configurable priority-based fileswitching (most commonly used when switching between .h and .cpp). Configurable what extensions map to which targets and in what order.\n'goto file' implementation, Ex. stand on a line, press whatever shortcut(or left mouseclick on the line) you have bound to the GOTO command on a line like :\r\n#include \"somefile.h\"\r\nor\r\nrequire 'some_path/to_a_luafile'",
 			"author": "IncredibleJunior",
-			"homepage": "http://www.incrediblejunior.com/npp_plugins/"
+			"homepage": "https://www.incrediblejunior.com/npp_plugins/"
 		},
 		{
 			"folder-name": "SourceCookifier",
@@ -1551,7 +1551,7 @@
 			"repository": "https://github.com/incrediblejr/nppplugins/releases/download/v3.0.1/nppplugin_svn_x86.zip",
 			"description": "Main operations for SVN, with a concept of a root solution directory. Note: Uses Tortoise SVN internally so you have to have this installed. Available at http://tortoisesvn.tigris.org/",
 			"author": "IncredibleJunior",
-			"homepage": "http://www.incrediblejunior.com/npp_plugins/"
+			"homepage": "https://www.incrediblejunior.com/npp_plugins/"
 		},
 		{
 			"folder-name": "Translate",
@@ -1601,7 +1601,7 @@
 			"repository": "https://master.dl.sourceforge.net/project/npp-plugins/WebEdit/WebEdit%202.1/WebEdit.v2.1.zip",
 			"description": "WebEdit is another attempt to integrate a user-configurable code template collection into Notepad++. With WebEdit you have the following options:\r\n create a menu command for pasting some text, possibly surrounding the current selection, if any. Imagine selecting a word and putting \"&lt;p&gt;...&lt;/p&gt;\" around it with a single hotkey. You can create up to 30 such commands and assign keyboard shortcuts to them, or simply use the menu;\r\n the same 30 commands can also be represented by buttons on the main toolbar for quick access with the mouse;\r\n you can create a set of \"tags\" or abbreviations. Type one of them, then press Alt+Enter and it will be replaced with the corresponding block of text. If the replacement consists of multiple lines, all of them will be indented same as the first one. The caret will be placed in a predefined position within the new text. You can have the current clipboard contents (e.g. a function name) pasted on expansion.\r\nThe plugin configuration is stored in the WebEdit.ini file. Use \"WebEdit\\Edit Config\" command from the \"Plugins\" menu to open the file in Notepad++ for editing.\r\nAll keyboard shortcuts can be assigned/modified using the standard Shortcut Mapper. For more information see the WebEdit.txt help file.",
 			"author": "Alexander Iljin",
-			"homepage": ""
+			"homepage": "https://sourceforge.net/projects/npp-plugins/files/WebEdit/WebEdit%202.1/"
 		},
 		{
 			"folder-name": "WindowManager",

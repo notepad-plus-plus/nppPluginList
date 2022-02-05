@@ -34,7 +34,7 @@ configuration:
 
 install:
     - SET PATH=%PYTHON%;%PATH%
-    - if not "%PYTHONTEST%"=="" python -m pip install requests jsonschema rfc3987 pywin32
+    - if not "%PYTHONTEST%"=="" python -m pip install -r requirements.txt
 
     - if "%platform%"=="x64" set archi=amd64
     - if "%platform%"=="x64" set platform_input=x64

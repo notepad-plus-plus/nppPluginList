@@ -1,14 +1,14 @@
 {
 	"name": "npp-pluginList",
-	"version": "1.4.2",
+	"version": "1.4.5",
 	"arch": "arm64",
 	"npp-plugins": [
 		{
 			"folder-name": "FWDataViz",
 			"display-name": "Fixed-width Data Visualizer",
-			"version": "2.4.0.1",
-			"id": "0e4f0ecd805abb6aef6cc9f8e90119fd0513945233ee3e48d2d57aece04a3466",
-			"repository": "https://github.com/shriprem/FWDataViz/releases/download/v2.4.0.1/FWDataViz_arm64.zip",
+			"version": "2.4.0.2",
+			"id": "fd8d387bfe1df4b3ce9ebdf5c5d931c89e38874719157de0c474e385fea01829",
+			"repository": "https://github.com/shriprem/FWDataViz/releases/download/v2.4.0.2/FWDataViz_arm64.zip",
 			"description": "Fixed Width Data Visualizer adds Excel-like features for fixed-width data files in Notepad++. Displays cursor position data. Hop & Jump to specific fields. Field Copy & Field Paste. Data Extraction. Builtin dialogs to configure file-type, record-type & fields; and themes & colors. Automatic File Type Detection. Handles homogenous, mixed & multi-line records. Full Multi-byte character support. Darkmode enabled.",
 			"author": "Shridhar Kumar",
 			"homepage": "https://github.com/shriprem/FWDataViz"
@@ -16,9 +16,9 @@
 		{
 			"folder-name": "GotoLineCol",
 			"display-name": "GotoLineCol",
-			"version": "2.2.0.1",
-			"id": "36522b28b4208b70624d1798ec7f637796c63f81de98f9621b61266ca5546137",
-			"repository": "https://github.com/shriprem/Goto-Line-Col-NPP-Plugin/releases/download/v2.2.0.1/GotoLineCol_arm64.zip",
+			"version": "2.2.0.2",
+			"id": "6b2e6a925ea8024d1ebd488e15946a020bd12d3364e4bbf1c53ba5fe1277ced0",
+			"repository": "https://github.com/shriprem/Goto-Line-Col-NPP-Plugin/releases/download/v2.2.0.2/GotoLineCol_arm64.zip",
 			"description": "A plugin to navigate to a specified line and (byte-based or character-based) column position. Will also display character byte code, UTF-8 byte sequence & Unicode code point at cursor position. Darkmode enabled. Command line options.",
 			"author": "Shridhar Kumar",
 			"homepage": "https://github.com/shriprem/Goto-Line-Col-NPP-Plugin"
@@ -26,9 +26,9 @@
 		{
 			"folder-name": "HexEditor",
 			"display-name": "HEX-Editor",
-			"version": "0.9.10.0",
-			"id": "fc6c6d173fd0e31c4767a124208f9dcfe602d6f612d4620618dc79754d0d3cb4",
-			"repository": "https://github.com/chcg/NPP_HexEdit/releases/download/0.9.10/HexEditor_0.9.10_arm64.zip",
+			"version": "0.9.12.0",
+			"id": "cb26108b28588190b531f8e37f8d1acb73d589a55db727519daf9dcf1665ff58",
+			"repository": "https://github.com/chcg/NPP_HexEdit/releases/download/0.9.12/HexEditor_0.9.12_arm64.zip",
 			"description": "Hex editor. Some reported issues, however many bugs fixed in latest release.",
 			"author": "Jens Lorenz",
 			"homepage": "https://github.com/chcg/NPP_HexEdit"
@@ -36,9 +36,9 @@
 		{
 			"folder-name": "mimeTools",
 			"display-name": "Mime tools",
-			"version": "2.6",
-			"id": "be0d8b71c454b09d6d384e0bba87d25932c1563a2eb4871b070617fbca8ecaa6",
-			"repository": "https://github.com/npp-plugins/mimetools/releases/download/v2.6/mimetools.v2.6.arm64.zip",
+			"version": "2.7",
+			"id": "22f8f1eadcc8342cc266bb83be08cfa1dd4e9ad8a7c0fd6b96ad9e589c0c7183",
+			"repository": "https://github.com/npp-plugins/mimetools/releases/download/v2.7/mimetools.v2.7.arm64.zip",
 			"description": "Implements several main functionalities defined in MIME (Multipurpose Internet Mail Extensions).",
 			"author": "Don HO",
 			"homepage": "https://github.com/npp-plugins/mimetools"
@@ -46,9 +46,9 @@
 		{
 			"folder-name": "NppPluginDemo",
 			"display-name": "Notepad++ Plugin Demo",
-			"version": "4.1",
-			"id": "439bed83a39e1dbd69f8a960645854cb533bca3dc0dc95fddc4b890d06821fe0",
-			"repository": "https://github.com/npp-plugins/plugindemo/releases/download/v4.1/pluginDemo.v4.1.bin.arm64.zip",
+			"version": "4.2",
+			"id": "8937a30cd98ad14cc902f341b00f1b9f868aa433dd8b6c024752691432782975",
+			"repository": "https://github.com/npp-plugins/plugindemo/releases/download/v4.2/pluginDemo.v4.2.bin.arm64.zip",
 			"description": "Notepad++ Plugin Demo is written from Notepad++ Plugin Template to demonstrate the usage of plugin API.",
 			"author": "Don HO",
 			"homepage": "https://npp-user-manual.org/docs/plugins/"
@@ -56,9 +56,9 @@
 		{
 			"folder-name": "NppPluginTemplate",
 			"display-name": "Notepad++ Plugin Template",
-			"version": "4.1",
-			"id": "bd4e5b059e03065ac6482070bad104a777592122ad5c0b6ecff70a73158e9813",
-			"repository": "https://github.com/npp-plugins/plugintemplate/releases/download/v4.1/pluginTemplate.v4.1.bin.arm64.zip",
+			"version": "4.2",
+			"id": "7e871c74f6f6a21a208e9eb977b91f246267302cb761a6d2c2015d80e9ed2b3e",
+			"repository": "https://github.com/npp-plugins/plugintemplate/releases/download/v4.2/pluginTemplate.v4.2.bin.arm64.zip",
 			"description": "Template for making plugin development as easy and simple as possible. Four steps and it's done.",
 			"author": "Don HO",
 			"homepage": "https://npp-user-manual.org/docs/plugins/"
@@ -66,9 +66,9 @@
 		{
 			"folder-name": "nppConverter",
 			"display-name": "Npp Converter",
-			"version": "4.3.0",
-			"id": "e443604d85ab80b1b77a5607910c6f156c90fae89194f7a5ebf9525695c21268",
-			"repository": "https://github.com/npp-plugins/converter/releases/download/v4.3/nppConvert.v4.3.arm64.zip",
+			"version": "4.4.0",
+			"id": "e334dc494c0c79f2c6514d2239bc42997a1e6a4783846a9007999ffad2e3fc95",
+			"repository": "https://github.com/npp-plugins/converter/releases/download/v4.4/nppConvert.v4.4.arm64.zip",
 			"description": "ASCII<->Hex converter.",
 			"author": "Don HO",
 			"homepage": "https://github.com/npp-plugins/converter/"
@@ -76,9 +76,9 @@
 		{
 			"folder-name": "NppExport",
 			"display-name": "NppExport",
-			"version": "0.3.0.0",
-			"id": "4234ebce2a882dd886135ce06e63f39a885835bb765d9f9a8a1128cafb4559a4",
-			"repository": "https://github.com/chcg/NPP_ExportPlugin/releases/download/0.3.0/NppExport_0.3.0_arm64.zip",
+			"version": "0.4.0.0",
+			"id": "b23dee2b6b91f8be192ac28ee58c6c2780ecc8ec3a31841ab090ce7f87cdf628",
+			"repository": "https://github.com/chcg/NPP_ExportPlugin/releases/download/0.4.0/NppExport_0.4.0_arm64.zip",
 			"description": "True WYSIWYG exporter. Allows you not only to save your source code as an HTML/RTF file, but also to copy your source code in the clipboard in RTF/HTML format, so you can paste it into your word processor (Openoffice.org Writer, LibreOffice Writer, Abiword, MS Word) to get the same visual effect.",
 			"author": "",
 			"homepage": "https://github.com/chcg/NPP_ExportPlugin"
@@ -142,6 +142,16 @@
 			"description": "No kidding, Notepad++ speaks now. With SpeechPlugin, you can make Notepad++ dictate your text or source code. Of course, speakers are necessary.",
 			"author": "Jim Xochellis",
 			"homepage": "https://github.com/chcg/SpeechPlugin"
+		},
+		{
+			"folder-name": "nppAutoDetectIndent",
+			"display-name": "Auto Detect Indention",
+			"version": "2.2",
+			"id": "3b269c84c3964896e1ab4de8fd14bfa07b562ba736c349c6f4c5c2dfcabd8119",
+			"repository": "https://github.com/Chocobo1/nppAutoDetectIndent/releases/download/2.2/arm64.zip",
+			"description": "Detects indention (tab or spaces) and auto adjust Tab key on-the-fly.",
+			"author": "Mike Tzou (Chocobo1)",
+			"homepage": "https://github.com/Chocobo1/nppAutoDetectIndent"
 		}
 	]
 }
