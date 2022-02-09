@@ -36,9 +36,9 @@
 		{
 			"folder-name": "nppAutoDetectIndent",
 			"display-name": "Auto Detect Indention",
-			"version": "2.2",
-			"id": "81dd96e2d1d81f7544ad0db5757cc53b10e726172ae88117c07b6b2d593a8c41",
-			"repository": "https://github.com/Chocobo1/nppAutoDetectIndent/releases/download/2.2/x86.zip",
+			"version": "2.3",
+			"id": "d14d6142d4fee5741c3360069871338867adb81b66a61ee2915e477e9b3f8494",
+			"repository": "https://github.com/Chocobo1/nppAutoDetectIndent/releases/download/2.3/x86.zip",
 			"description": "Detects indention (tab or spaces) and auto adjust Tab key on-the-fly.",
 			"author": "Mike Tzou (Chocobo1)",
 			"homepage": "https://github.com/Chocobo1/nppAutoDetectIndent"
