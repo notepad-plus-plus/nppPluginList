@@ -1632,6 +1632,16 @@
 			"description": "Allows Java Code Compilation and Execution directly from Notepad++.",
 			"author": "Dominik Cebula",
 			"homepage": "https://github.com/dominikcebula/npp-java-plugin"
+		},
+		{
+			"folder-name": "DiscordRPC",
+			"display-name": "Discord Rich Presence",
+			"version": "1.1.72",
+			"id": "7c13926e1663034ad2a06995c5835c458d482f9dbbffb8dc63a24889f1e2fd3e",
+			"repository": "https://github.com/Zukaritasu/notepadpp_rpc/releases/download/v1.1/DiscordRPC.zip",
+			"description": "Show in Discord the file that is currently being edited in Notepad++.",
+			"author": "Zukaritasu",
+			"homepage": "https://github.com/Zukaritasu/notepadpp_rpc"
 		}
 	]
 }
