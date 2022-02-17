@@ -1236,9 +1236,9 @@
 		{
 			"folder-name": "SecurePad",
 			"display-name": "SecurePad",
-			"version": "2.2",
-			"id": "362bbdbed4f13d42941a499f4284a58188ab6d25ab73738a79105beb386980e5",
-			"repository": "https://github.com/DominicTobias/SecurePad/releases/download/v2.2/SecurePad_v2.2_x86.zip",
+			"version": "2.3",
+			"id": "d5a6de44c48ada45fc09affab6c7ecaada97439f6da3e287e47a096eed179a0a",
+			"repository": "https://github.com/DominicTobias/SecurePad/releases/download/v2.3/SecurePad_v2.3_Win32.zip",
 			"description": "Encrypt/decrypt whole documents or selected text with your own key. Useful for storing sensitive information like logins that you don't want lying around in a plaintext file.",
 			"author": "Dominic Tobias",
 			"homepage": "https://github.com/DominicTobias/SecurePad"

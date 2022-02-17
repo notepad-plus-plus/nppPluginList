@@ -124,6 +124,16 @@
 			"homepage": "https://github.com/npp-plugins/pork2sausage"
 		},
 		{
+			"folder-name": "SecurePad",
+			"display-name": "SecurePad",
+			"version": "2.3",
+			"id": "b605de23f0ccf2f3319d353b4a122785ae30a8eeb8d6d28b5d685cbd824be600",
+			"repository": "https://github.com/DominicTobias/SecurePad/releases/download/v2.3/SecurePad_v2.3_arm64.zip",
+			"description": "Encrypt/decrypt whole documents or selected text with your own key. Useful for storing sensitive information like logins that you don't want lying around in a plaintext file.",
+			"author": "Dominic Tobias",
+			"homepage": "https://github.com/DominicTobias/SecurePad"
+		},
+		{
 			"folder-name": "SessionMgr",
 			"display-name": "Session Manager",
 			"version": "1.4.4",
