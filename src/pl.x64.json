@@ -1136,9 +1136,9 @@
 		{
 			"folder-name": "TagLEET",
 			"display-name": "TagLEET",
-			"version": "1.3.1.0",
-			"id": "7b9676eec886e513645f43a7ec9551e3105a42194ca87049643a4633f3920c3a",
-			"repository": "https://sourceforge.net/projects/tagleet/files/v1.3.1/TagLEET_1.3.1.0.x64.zip",
+			"version": "1.3.2.0",
+			"id": "b7031e55f591ff9a567b85a3860faa1a12317526e8c65905a9a5d275863eed1c",
+			"repository": "https://sourceforge.net/projects/tagleet/files/v1.3.2/TagLEET_1.3.2.0.x64.zip",
 			"description": "Ctags browser. Look up the definition of variables and functions in source code. Can also find include files if ctags file was generated correctly. Ultra fast with low memory usage. Allow working with a single ctags file for very large projects.",
 			"author": "Gur Stavi",
 			"homepage": "https://sourceforge.net/projects/tagleet/"
