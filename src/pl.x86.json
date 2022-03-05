@@ -254,6 +254,16 @@
 			"homepage": "https://sourceforge.net/projects/npp-plugins/files/DBGP%20Plugin/"
 		},
 		{
+			"folder-name": "DiscordRPC",
+			"display-name": "Discord Rich Presence",
+			"version": "1.2.98.1",
+			"id": "46c84baa689958a9907b155a5b8734c87ab73bcb79d5463b2ec105c985c63994",
+			"repository": "https://github.com/Zukaritasu/notepadpp_rpc/releases/download/v1.2/DiscordRPC_v1.2_x86.zip",
+			"description": "Shows in discord the file that is currently being edited in Nopetad++.",
+			"author": "Zukaritasu",
+			"homepage": "https://github.com/Zukaritasu/notepadpp_rpc"
+		},
+		{
 			"folder-name": "docMonitor.unicode",
 			"display-name": "Document Monitor",
 			"version": "2.2.0.0",
@@ -332,6 +342,16 @@
 			"description": "File browser. You can open whatever you want from it in Notepad++, just double click!",
 			"author": "Jens Lorenz",
 			"homepage": "https://github.com/oviradoi/npp-explorer-plugin"
+		},
+		{
+			"folder-name": "PlanetCNCNpp32",
+			"display-name": "Expression calculator",
+			"version": "3001.21.1123.1",
+			"id": "67213223df17b234be75b8ada4f7bdbd3c05db2e2d00390b7effc4bb814bc94d",
+			"repository": "https://github.com/PlanetCNC/PlanetCNCNpp/releases/download/release/PlanetCNCNpp32.zip",
+			"description": "Expression calculator plugin for Notepad++",
+			"author": "PlanetCNC",
+			"homepage": "https://planet-cnc.com/notepad-plugin/"
 		},
 		{
 			"folder-name": "ExtSettings",
@@ -504,14 +524,14 @@
 			"homepage": "https://itimetrack.com"
 		},
 		{
-			"folder-name": "JSFunctionViewer",
-			"display-name": "JSFunctionViewer",
-			"version": "1.1.0",
-			"id": "78ed11e72bd10d4decd19ff976637c921318151fefb4b8ef243a34b51a02cde5",
-			"repository": "https://github.com/davidsover/nppJSFunctionViewer/releases/download/v1.1.0/JSFunctionViewer_x86.zip",
-			"description": "Provides an easier way to view and/or navigate to functions from function calls. Also works with external files if the src attribute is the last attribute of the <script> tag. Select the name of a function to view it. Recommended: In the Find/Replace window (Ctrl+F), tick the 'Match case' and untick the 'Match whole word only' check box.",
-			"author": "Sover David",
-			"homepage": "https://github.com/davidsover/nppJSFunctionViewer"
+			"folder-name": "NppJavaPlugin",
+			"display-name": "Java Plugin",
+			"version": "0.4.0",
+			"id": "8ceae37ad7aab7a663c93076e9b50c9e6e64320f987de52726ea6b160b9ee61c",
+			"repository": "https://github.com/dominikcebula/npp-java-plugin/releases/download/v0.4.0/NppJavaPlugin_v0.4.0_x86.zip",
+			"description": "Allows Java Code Compilation and Execution directly from Notepad++.",
+			"author": "Dominik Cebula",
+			"homepage": "https://github.com/dominikcebula/npp-java-plugin"
 		},
 		{
 			"folder-name": "JsMapParser.NppPlugin",
@@ -532,6 +552,16 @@
 			"description": "Allows you to extend Notepad++ by using JavaScript.\r\n- You can create new menu elements which execute JavaScript\r\n- You can use manu ActiveX components available on your PC\r\n- You can add shortcuts executing JavaScript\r\n- You can create HTML-based dialogs and docking windows\r\n- You can write JavaScript wrappers around Win32 API\r\n - Since version 2.0.116 you can debug your automating scripts\r\n - Selection highlighting and navigation bar\r\n - Integrated Zen Coding v0.7\r\n - You can catch context menu request and create your own",
 			"author": "Eugen Kremer",
 			"homepage": "https://github.com/sieukrem/jn-npp-plugin/wiki"
+		},
+		{
+			"folder-name": "JSFunctionViewer",
+			"display-name": "JSFunctionViewer",
+			"version": "1.1.0",
+			"id": "78ed11e72bd10d4decd19ff976637c921318151fefb4b8ef243a34b51a02cde5",
+			"repository": "https://github.com/davidsover/nppJSFunctionViewer/releases/download/v1.1.0/JSFunctionViewer_x86.zip",
+			"description": "Provides an easier way to view and/or navigate to functions from function calls. Also works with external files if the src attribute is the last attribute of the <script> tag. Select the name of a function to view it. Recommended: In the Find/Replace window (Ctrl+F), tick the 'Match case' and untick the 'Match whole word only' check box.",
+			"author": "Sover David",
+			"homepage": "https://github.com/davidsover/nppJSFunctionViewer"
 		},
 		{
 			"folder-name": "JSLintNpp",
@@ -794,6 +824,16 @@
 			"homepage": "https://github.com/npp-plugins/converter/"
 		},
 		{
+			"folder-name": "nppRandomStringGenerator",
+			"display-name": "npp Random String Generator",
+			"version": "1.4.0",
+			"id": "f694f7e76c3883dd94e64bd81fe3f396665a2968b81db6cbe3f33cc0fe6f65ec",
+			"repository": "https://github.com/cmbsolutions/nppRandomStringGenerator/releases/download/v1.4.0/nppRandomStringGenerator.1.4.0.x86.zip",
+			"description": "Generates random strings with configurable output.",
+			"author": "Maurice CMBSolutions",
+			"homepage": "https://github.com/cmbsolutions/nppRandomStringGenerator"
+		},
+		{
 			"folder-name": "NppXmlTreeviewPlugin",
 			"display-name": "Npp Xml Treeview",
 			"version": "2.0.0",
@@ -1024,16 +1064,6 @@
 			"homepage": "https://github.com/francostellari/NppPlugins"
 		},
 		{
-			"folder-name": "ccc",
-			"display-name": "PHP Autocompletion",
-			"version": "1.4.1",
-			"id": "86d29d7a7998eec33cff35af54071ecf767c014048755cfbc0e54c1fda9d73d8",
-			"repository": "https://github.com/StanDog/npp-phpautocompletion/raw/master/RELEASES/ccc_1.4.1.zip",
-			"description": "Implements code completion for custom PHP classes. Keeps an overview over your classes' attributes &amp; methods in a nice popup!\r\nA popup window appears after typing the \"-&gt;\" or \"::\" behind a class or an instantiated object variable which displays all attributes and methods of it's class. As soon as the popup appears you can type in the name of the method or attribute you are looking for and the plugin will select it in the list automatically. Hitting [return] or double clicking the entry will insert the name of the property to your script. Additionally, there is a list with all classes and their properties in a dockable window. Double-clicking this entry opens their file &amp; jumps right to the declaration. The list also offers a quick search function.",
-			"author": "Stanislav Eckert",
-			"homepage": "https://github.com/StanDog/npp-phpautocompletion"
-		},
-		{
 			"folder-name": "Papyrus",
 			"display-name": "Papyrus Script Lexer",
 			"version": "0.3.0.24",
@@ -1044,14 +1074,14 @@
 			"homepage": "https://github.com/blu3mania/npp-papyrus"
 		},
 		{
-			"folder-name": "PlanetCNCNpp32",
-			"display-name": "Expression calculator",
-			"version": "3001.21.1123.1",
-			"id": "67213223df17b234be75b8ada4f7bdbd3c05db2e2d00390b7effc4bb814bc94d",
-			"repository": "https://github.com/PlanetCNC/PlanetCNCNpp/releases/download/release/PlanetCNCNpp32.zip",
-			"description": "Expression calculator plugin for Notepad++",
-			"author": "PlanetCNC",
-			"homepage": "https://planet-cnc.com/notepad-plugin/"
+			"folder-name": "ccc",
+			"display-name": "PHP Autocompletion",
+			"version": "1.4.1",
+			"id": "86d29d7a7998eec33cff35af54071ecf767c014048755cfbc0e54c1fda9d73d8",
+			"repository": "https://github.com/StanDog/npp-phpautocompletion/raw/master/RELEASES/ccc_1.4.1.zip",
+			"description": "Implements code completion for custom PHP classes. Keeps an overview over your classes' attributes &amp; methods in a nice popup!\r\nA popup window appears after typing the \"-&gt;\" or \"::\" behind a class or an instantiated object variable which displays all attributes and methods of it's class. As soon as the popup appears you can type in the name of the method or attribute you are looking for and the plugin will select it in the list automatically. Hitting [return] or double clicking the entry will insert the name of the property to your script. Additionally, there is a list with all classes and their properties in a dockable window. Double-clicking this entry opens their file &amp; jumps right to the declaration. The list also offers a quick search function.",
+			"author": "Stanislav Eckert",
+			"homepage": "https://github.com/StanDog/npp-phpautocompletion"
 		},
 		{
 			"folder-name": "PoorMansTSqlFormatterNppPlugin",
@@ -1612,36 +1642,6 @@
 			"description": "Tired of zooming your document everytime you just want to scroll but accidentally still holding the [Ctrl] key? Then this is what you want! It disables mouse zoom, keyboard zoom, or both.",
 			"author": "Stanislav Eckert",
 			"homepage": "https://github.com/StanDog/npp-zoomdisabler"
-		},
-		{
-			"folder-name": "nppRandomStringGenerator",
-			"display-name": "npp Random String Generator",
-			"version": "1.4.0",
-			"id": "f694f7e76c3883dd94e64bd81fe3f396665a2968b81db6cbe3f33cc0fe6f65ec",
-			"repository": "https://github.com/cmbsolutions/nppRandomStringGenerator/releases/download/v1.4.0/nppRandomStringGenerator.1.4.0.x86.zip",
-			"description": "Generates random strings with configurable output.",
-			"author": "Maurice CMBSolutions",
-			"homepage": "https://github.com/cmbsolutions/nppRandomStringGenerator"
-		},
-		{
-			"folder-name": "NppJavaPlugin",
-			"display-name": "Java Plugin",
-			"version": "0.4.0",
-			"id": "8ceae37ad7aab7a663c93076e9b50c9e6e64320f987de52726ea6b160b9ee61c",
-			"repository": "https://github.com/dominikcebula/npp-java-plugin/releases/download/v0.4.0/NppJavaPlugin_v0.4.0_x86.zip",
-			"description": "Allows Java Code Compilation and Execution directly from Notepad++.",
-			"author": "Dominik Cebula",
-			"homepage": "https://github.com/dominikcebula/npp-java-plugin"
-		},
-		{
-			"folder-name": "DiscordRPC",
-			"display-name": "Discord Rich Presence",
-			"version": "1.2.98.1",
-			"id": "46c84baa689958a9907b155a5b8734c87ab73bcb79d5463b2ec105c985c63994",
-			"repository": "https://github.com/Zukaritasu/notepadpp_rpc/releases/download/v1.2/DiscordRPC_v1.2_x86.zip",
-			"description": "Shows in discord the file that is currently being edited in Nopetad++.",
-			"author": "Zukaritasu",
-			"homepage": "https://github.com/Zukaritasu/notepadpp_rpc"
 		}
 	]
 }

@@ -4,6 +4,16 @@
 	"arch": "arm64",
 	"npp-plugins": [
 		{
+			"folder-name": "nppAutoDetectIndent",
+			"display-name": "Auto Detect Indention",
+			"version": "2.3",
+			"id": "dd4fd0bf10b5743c15cb7d012aed1bb0f482a1351376c3337d5c299e43a574db",
+			"repository": "https://github.com/Chocobo1/nppAutoDetectIndent/releases/download/2.3/arm64.zip",
+			"description": "Detects indention (tab or spaces) and auto adjust Tab key on-the-fly.",
+			"author": "Mike Tzou (Chocobo1)",
+			"homepage": "https://github.com/Chocobo1/nppAutoDetectIndent"
+		},
+		{
 			"folder-name": "FWDataViz",
 			"display-name": "Fixed-width Data Visualizer",
 			"version": "2.4.0.2",
@@ -104,16 +114,6 @@
 			"homepage": "https://sourceforge.net/projects/npp-plugins/files/NppDocShare/"
 		},
 		{
-			"folder-name": "NppTaskList",
-			"display-name": "Task List",
-			"version": "2.4",
-			"id": "cae7724fcaab15a67a06d5106837b7c43a67e48e52308ac854e82c4cd0ca51d7",
-			"repository": "https://github.com/Megabyteceer/npp-task-list/releases/download/v2.4.0/NppTaskList_v2.4.0_arm64.zip",
-			"description": "Automatically scans the open document and adds all \"TODO:*\" items to your task list, a window pane docked on the right. Double-clicking an item in the list will take you to that line in the code.",
-			"author": "blitowitz",
-			"homepage": "https://code.google.com/p/npp-task-list/"
-		},
-		{
 			"folder-name": "pork2sausage",
 			"display-name": "Pork to Sausage",
 			"version": "2.2",
@@ -154,14 +154,14 @@
 			"homepage": "https://github.com/chcg/SpeechPlugin"
 		},
 		{
-			"folder-name": "nppAutoDetectIndent",
-			"display-name": "Auto Detect Indention",
-			"version": "2.3",
-			"id": "dd4fd0bf10b5743c15cb7d012aed1bb0f482a1351376c3337d5c299e43a574db",
-			"repository": "https://github.com/Chocobo1/nppAutoDetectIndent/releases/download/2.3/arm64.zip",
-			"description": "Detects indention (tab or spaces) and auto adjust Tab key on-the-fly.",
-			"author": "Mike Tzou (Chocobo1)",
-			"homepage": "https://github.com/Chocobo1/nppAutoDetectIndent"
+			"folder-name": "NppTaskList",
+			"display-name": "Task List",
+			"version": "2.4",
+			"id": "cae7724fcaab15a67a06d5106837b7c43a67e48e52308ac854e82c4cd0ca51d7",
+			"repository": "https://github.com/Megabyteceer/npp-task-list/releases/download/v2.4.0/NppTaskList_v2.4.0_arm64.zip",
+			"description": "Automatically scans the open document and adds all \"TODO:*\" items to your task list, a window pane docked on the right. Double-clicking an item in the list will take you to that line in the code.",
+			"author": "blitowitz",
+			"homepage": "https://code.google.com/p/npp-task-list/"
 		}
 	]
 }

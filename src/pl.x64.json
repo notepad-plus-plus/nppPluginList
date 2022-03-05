@@ -234,6 +234,16 @@
 			"homepage": "https://sourceforge.net/projects/customlinenumbers"
 		},
 		{
+			"folder-name": "DiscordRPC",
+			"display-name": "Discord Rich Presence",
+			"version": "1.2.98.1",
+			"id": "c0d095c926e62bc07f29a18fcd43b60df6734c9875df1eb5377ae16ab030b37b",
+			"repository": "https://github.com/Zukaritasu/notepadpp_rpc/releases/download/v1.2/DiscordRPC_v1.2_x86_64.zip",
+			"description": "Shows in discord the file that is currently being edited in Nopetad++.",
+			"author": "Zukaritasu",
+			"homepage": "https://github.com/Zukaritasu/notepadpp_rpc"
+		},
+		{
 			"folder-name": "DoxyIt",
 			"display-name": "DoxyIt",
 			"version": "0.4.4",
@@ -292,6 +302,16 @@
 			"description": "File browser. You can open whatever you want from it in Notepad++, just double click!",
 			"author": "Jens Lorenz",
 			"homepage": "https://github.com/oviradoi/npp-explorer-plugin"
+		},
+		{
+			"folder-name": "PlanetCNCNpp64",
+			"display-name": "Expression calculator",
+			"version": "3001.21.1123.1",
+			"id": "e01f848c190a9d11e89af3289d9be45b28ae81cf3bfa435c3b2111290870e824",
+			"repository": "https://github.com/PlanetCNC/PlanetCNCNpp/releases/download/release/PlanetCNCNpp64.zip",
+			"description": "Expression calculator plugin for Notepad++",
+			"author": "PlanetCNC",
+			"homepage": "https://planet-cnc.com/notepad-plugin/"
 		},
 		{
 			"folder-name": "ExtSettings",
@@ -384,14 +404,14 @@
 			"homepage": "https://github.com/ffes/indentbyfold/"
 		},
 		{
-			"folder-name": "JSFunctionViewer",
-			"display-name": "JSFunctionViewer",
-			"version": "1.1.0",
-			"id": "26b30ff8596a1ae8e277d65213bcb0f51e40acb49f26d956b6ba49e7046db219",
-			"repository": "https://github.com/davidsover/nppJSFunctionViewer/releases/download/v1.1.0/JSFunctionViewer_x64.zip",
-			"description": "Provides an easier way to view and/or navigate to functions from function calls. Also works with external files if the src attribute is the last attribute of the <script> tag. Select the name of a function to view it. Recommended: In the Find/Replace window (Ctrl+F), tick the 'Match case' and untick the 'Match whole word only' check box.",
-			"author": "Sover David",
-			"homepage": "https://github.com/davidsover/nppJSFunctionViewer"
+			"folder-name": "NppJavaPlugin",
+			"display-name": "Java Plugin",
+			"version": "0.4.0",
+			"id": "e2ac3bfd6fac22d6a977a82f725e3cc0949f59daa41153aba54c5bef3c87816e",
+			"repository": "https://github.com/dominikcebula/npp-java-plugin/releases/download/v0.4.0/NppJavaPlugin_v0.4.0_x64.zip",
+			"description": "Allows Java Code Compilation and Execution directly from Notepad++.",
+			"author": "Dominik Cebula",
+			"homepage": "https://github.com/dominikcebula/npp-java-plugin"
 		},
 		{
 			"folder-name": "JsMapParser.NppPlugin",
@@ -412,6 +432,16 @@
 			"description": "Allows you to extend Notepad++ by using JavaScript.\r\n- You can create new menu elements which execute JavaScript\r\n- You can use manu ActiveX components available on your PC\r\n- You can add shortcuts executing JavaScript\r\n- You can create HTML-based dialogs and docking windows\r\n- You can write JavaScript wrappers around Win32 API\r\n - Since version 2.0.116 you can debug your automating scripts\r\n - Selection highlighting and navigation bar\r\n - Integrated Zen Coding v0.7\r\n - You can catch context menu request and create your own",
 			"author": "Eugen Kremer",
 			"homepage": "https://github.com/sieukrem/jn-npp-plugin/wiki"
+		},
+		{
+			"folder-name": "JSFunctionViewer",
+			"display-name": "JSFunctionViewer",
+			"version": "1.1.0",
+			"id": "26b30ff8596a1ae8e277d65213bcb0f51e40acb49f26d956b6ba49e7046db219",
+			"repository": "https://github.com/davidsover/nppJSFunctionViewer/releases/download/v1.1.0/JSFunctionViewer_x64.zip",
+			"description": "Provides an easier way to view and/or navigate to functions from function calls. Also works with external files if the src attribute is the last attribute of the <script> tag. Select the name of a function to view it. Recommended: In the Find/Replace window (Ctrl+F), tick the 'Match case' and untick the 'Match whole word only' check box.",
+			"author": "Sover David",
+			"homepage": "https://github.com/davidsover/nppJSFunctionViewer"
 		},
 		{
 			"folder-name": "NPPJSONViewer",
@@ -622,6 +652,16 @@
 			"description": "ASCII<->Hex converter.",
 			"author": "Don HO",
 			"homepage": "https://github.com/npp-plugins/converter/"
+		},
+		{
+			"folder-name": "nppRandomStringGenerator",
+			"display-name": "npp Random String Generator",
+			"version": "1.4.0",
+			"id": "5ee26c055ee57c7a4ec584a006dbfb190f57ab9328fa562136c8c5e9b174c9f6",
+			"repository": "https://github.com/cmbsolutions/nppRandomStringGenerator/releases/download/v1.4.0/nppRandomStringGenerator.1.4.0.x64.zip",
+			"description": "Generates random strings with configurable output.",
+			"author": "Maurice CMBSolutions",
+			"homepage": "https://github.com/cmbsolutions/nppRandomStringGenerator"
 		},
 		{
 			"folder-name": "NppXmlTreeviewPlugin",
@@ -842,16 +882,6 @@
 			"description": "View and edit Papyrus Script files used by Bethesda games with syntax highlighting, function and block folding, hyperlinks to referenced scripts, keywords matching, plus compilation support with anonymized output and error list view.",
 			"author": "blu3mania",
 			"homepage": "https://github.com/blu3mania/npp-papyrus"
-		},
-		{
-			"folder-name": "PlanetCNCNpp64",
-			"display-name": "Expression calculator",
-			"version": "3001.21.1123.1",
-			"id": "e01f848c190a9d11e89af3289d9be45b28ae81cf3bfa435c3b2111290870e824",
-			"repository": "https://github.com/PlanetCNC/PlanetCNCNpp/releases/download/release/PlanetCNCNpp64.zip",
-			"description": "Expression calculator plugin for Notepad++",
-			"author": "PlanetCNC",
-			"homepage": "https://planet-cnc.com/notepad-plugin/"
 		},
 		{
 			"folder-name": "PoorMansTSqlFormatterNppPlugin",
@@ -1252,36 +1282,6 @@
 			"description": "Tired of zooming your document everytime you just want to scroll but accidentally still holding the [Ctrl] key? Then this is what you want! It disables mouse zoom, keyboard zoom, or both.",
 			"author": "Stanislav Eckert",
 			"homepage": "https://github.com/StanDog/npp-zoomdisabler"
-		},
-		{
-			"folder-name": "nppRandomStringGenerator",
-			"display-name": "npp Random String Generator",
-			"version": "1.4.0",
-			"id": "5ee26c055ee57c7a4ec584a006dbfb190f57ab9328fa562136c8c5e9b174c9f6",
-			"repository": "https://github.com/cmbsolutions/nppRandomStringGenerator/releases/download/v1.4.0/nppRandomStringGenerator.1.4.0.x64.zip",
-			"description": "Generates random strings with configurable output.",
-			"author": "Maurice CMBSolutions",
-			"homepage": "https://github.com/cmbsolutions/nppRandomStringGenerator"
-		},
-		{
-			"folder-name": "NppJavaPlugin",
-			"display-name": "Java Plugin",
-			"version": "0.4.0",
-			"id": "e2ac3bfd6fac22d6a977a82f725e3cc0949f59daa41153aba54c5bef3c87816e",
-			"repository": "https://github.com/dominikcebula/npp-java-plugin/releases/download/v0.4.0/NppJavaPlugin_v0.4.0_x64.zip",
-			"description": "Allows Java Code Compilation and Execution directly from Notepad++.",
-			"author": "Dominik Cebula",
-			"homepage": "https://github.com/dominikcebula/npp-java-plugin"
-		},
-		{
-			"folder-name": "DiscordRPC",
-			"display-name": "Discord Rich Presence",
-			"version": "1.2.98.1",
-			"id": "c0d095c926e62bc07f29a18fcd43b60df6734c9875df1eb5377ae16ab030b37b",
-			"repository": "https://github.com/Zukaritasu/notepadpp_rpc/releases/download/v1.2/DiscordRPC_v1.2_x86_64.zip",
-			"description": "Shows in discord the file that is currently being edited in Nopetad++.",
-			"author": "Zukaritasu",
-			"homepage": "https://github.com/Zukaritasu/notepadpp_rpc"
 		}
 	]
 }
