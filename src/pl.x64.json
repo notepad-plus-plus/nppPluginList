@@ -1226,12 +1226,12 @@
 		{
 			"folder-name": "XBrackets",
 			"display-name": "XBrackets Lite",
-			"version": "1.3.0",
-			"id": "1142a2a487efc2aa7290cd9de53894449c162877a2819e5dcf99cc1a98bb5ab7",
-			"repository": "https://sourceforge.net/projects/npp-plugins/files/XBrackets%20Lite/XBrackets%20Plugin%20v1.3.0/XBrackets_v130_dll_x64.zip",
+			"version": "1.3.1",
+			"id": "2ff24582d336cbeda3ab39a61a299306d791f5a7983e80095b87310106e2a8fc",
+			"repository": "https://github.com/d0vgan/npp-XBracketsLite/releases/download/v131/XBrackets_v131_dll_x64.zip",
 			"description": "Allows autocompletion of brackets ([{\"\"}])\r\nInserts corresponding right bracket when the left bracket is typed. Uses \"smart\" autocompletion: * next character is analysed for ([{ brackets; * next &amp; previous characters are analysed for \" quote.",
-			"author": "Dovgan Vitaliy",
-			"homepage": "https://sourceforge.net/projects/npp-plugins/files/XBrackets%20Lite/"
+			"author": "Vitaliy Dovgan",
+			"homepage": "https://github.com/d0vgan/npp-XBracketsLite"
 		},
 		{
 			"folder-name": "XMLTools",
