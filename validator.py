@@ -120,7 +120,27 @@ def parse(filename):
 
     os.mkdir("./" + bitness_from_input)
     for plugin in pl["npp-plugins"]:
-        print(plugin["display-name"])
+        print(plugin["display-name"], end='')
+
+        if 'npp-compatible-versions' not in plugin:
+            print()
+        else:
+            import re
+            req_npp_version = plugin['npp-compatible-versions']
+            min_re = r'^\[.*\d+,'
+            max_re = r'^\[,\d+'
+            min_version = re.match(min_re, req_npp_version)
+            max_version = re.match(max_re, req_npp_version)
+            try:
+                if min_version is not None:
+                    req_npp_version = re.sub(min_re, f'{min_version.group(0)[:-1]} - ', req_npp_version)
+                if max_version is not None:
+                    req_npp_version = re.sub(max_re, f'<= {max_version.group(0)[2:]}', req_npp_version)
+            except:
+                pass
+
+            req_npp_version = re.sub(r'\s{2,}', ' ', re.sub(r'\[', '', re.sub(r'\]', '', req_npp_version)))
+            print(f' *** REQUIRES Npp {req_npp_version.strip()} ***')
 
         try:
             response = requests.get(plugin["repository"])
