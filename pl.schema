@@ -44,6 +44,10 @@
 					"type": "string",
 					"pattern": "^\\d+(\\.\\d+){,3}$"
 				},
+				"npp-compatible-versions": {
+					"type": "string",
+					"pattern": "^\\[?,?(\\d+(\\.\\d+){,3},?){1,2}\\]?$"
+				},
 				"id": {
 					"type": "string",
 					"pattern": "^(?i)^[0-9A-F]{64}$"
