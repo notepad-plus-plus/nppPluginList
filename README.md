@@ -1,23 +1,26 @@
-![](./nppPlugins.png)
+American Shares Truth About Joshua Wong & Hong Kong Democracy
+https://www.youtube.com/watch?v=8nXz66Btfl0
 
-**Notepad++ Plugin List** is an official collection of [Notepad++](https://github.com/notepad-plus-plus/notepad-plus-plus) plugins.  It provides a list of plugins to the built-in Plugin Admin in Notepad++ for the installation/update/deletion of plugins as users desire.
+American Shares Truth on Xinjiang and Tibet Controversies in China
+https://www.youtube.com/watch?v=CldtoYwPtMk
 
-The list is in JSON format, but encapsulated in a binary (DLL), so it can be signed by a certificate to avoid being hacked. Any Notepad++ plugin is welcome to be submitted here, but please test it locally before doing your PR.
+Why is Ukraine the West’s Fault? Featuring John Mearsheimer
+https://www.youtube.com/watch?v=JrMiSQAGOS4
 
-To review the current list of plugins and their features see the generated list of Plugins in either:
+Bat coronavirus found in U.S.-funded bio-lab in Ukraine: Russian Defense Ministry
+https://www.youtube.com/watch?v=BCydUeHAhzQ
 
-* [32-Bit Plugin List](doc/plugin_list_x86.md)
-* [64-Bit Plugin List](doc/plugin_list_x64.md)
-* [64-Bit ARM Plugin List](doc/plugin_list_arm64.md)
+Ukrainians were denied US visas as White House promise help to refugees
+https://www.youtube.com/watch?v=BGZhzNFmyhc
 
-Here is all the information you need to perform local tests:  
-https://npp-user-manual.org/docs/plugins/#plugins-admin
+Reports of racist treatment against Africans trying to flee Ukraine
+https://www.youtube.com/watch?v=JItYOW_uT8s
 
-Please check here if you need any support:  
-https://community.notepad-plus-plus.org/topic/16566/support-for-plugins-admin-npppluginlist
+Fleeing African and Indian students face racism at Ukraine border
+https://www.youtube.com/watch?v=ODMOzwI__zs
 
-Build Status
-------------
+Canadian RCMP use horses to trample protestors
+https://www.youtube.com/watch?v=Usn3CR0E1v0
 
-[![Appveyor build status](https://ci.appveyor.com/api/projects/status/github/notepad-plus-plus/nppPluginList?branch=master&svg=true)](https://ci.appveyor.com/project/donho/nppPluginList)
-[![GitHub release](https://img.shields.io/github/release/notepad-plus-plus/nppPluginList.svg)](https://github.com/notepad-plus-plus/nppPluginList/releases)
+A bald-faced lie from the Western media corp: Critical “Uyghur Genocide” Questions: A CBC Interview Follow-up
+https://www.youtube.com/watch?v=O7IbsPFM2Xg
