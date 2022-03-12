@@ -202,10 +202,10 @@
 		{
 			"folder-name": "CSVLint",
 			"display-name": "CSV Lint",
-			"version": "0.4.4",
-			"id": "0ae99ed19b07e5b063e2774a3234648edfd60ac76f59e943f42c5ce05e32a3c7",
-			"repository": "https://github.com/BdR76/CSVLint/releases/download/0.4.4/CSVLint_x64.zip",
-			"description": "Adds syntax highlighting for csv data, automatic column and datatype detecting, validate delimiter-separated or fixed width datasets, change datetime format, decimal separator, count unique values, csv to SQL etc. A utility for quality control, data cleaning and working with messy data files.",
+			"version": "0.4.5",
+			"id": "c0a8825414269fe1b94c707eb44630b28d968d4587a1ff6d15955535a0187e5b",
+			"repository": "https://github.com/BdR76/CSVLint/releases/download/0.4.5/CSVLint_x64.zip",
+			"description": "Syntax highlighting and quality control for csv and fixed width data, detect column and datatypes, convert datetime/decimal format, sql, xml",
 			"author": "Bas de Reuver",
 			"homepage": "https://github.com/BdR76/CSVLint/"
 		},
@@ -978,7 +978,7 @@
 			"version": "0.2.1",
 			"id": "b404204c47e5eccf621701c529499bf989b8a8adfb69a6d2cdfbcb5ff60ab3be",
 			"repository": "https://github.com/BdR76/RandomValuesNPP/releases/download/0.2.1/RandomValuesNppPlugin_x64.zip",
-			"description": "Random values generator for passwords or test data. Custom configurable string, integer, decimal, datetime, guid values based on range or mask. Single values for quick access or a list of multiple values at once in csv, xml, json, sql formats.",
+			"description": "Random values generator for passwords or test data. Generate single value string, int, decimal, datetime, guid or csv, xml, json, sql.",
 			"author": "Bas de Reuver",
 			"homepage": "https://github.com/BdR76/RandomValuesNPP/"
 		},
