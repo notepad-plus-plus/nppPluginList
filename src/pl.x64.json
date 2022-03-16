@@ -771,9 +771,9 @@
 		{
 			"folder-name": "NppGist",
 			"display-name": "NppGist",
-			"version": "1.5.0.31",
-			"id": "d97a858de8b1341e28807e1dd7c9218219802cf42e0ad80c29cb680e2cc878aa",
-			"repository": "https://github.com/KvanTTT/NppGist/releases/download/1.5.0/NppGist-x64-1.5.0.31.zip",
+			"version": "1.5.1.35",
+			"id": "017327c0ec9115707f2db8698ce3193e3d315c4f301e2320a28391d52f6684a5",
+			"repository": "https://github.com/KvanTTT/NppGist/releases/download/1.5.1/NppGist-x64-1.5.1.35.zip",
 			"description": "Allows working with GitHub Gist (create, edit, remove, rename).",
 			"author": "Ivan Kochurkin (KvanTTT)",
 			"homepage": "https://github.com/KvanTTT/NppGist"
