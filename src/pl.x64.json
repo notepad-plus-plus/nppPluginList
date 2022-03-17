@@ -360,9 +360,9 @@
 		{
 			"folder-name": "GitSCM",
 			"display-name": "GitSCM",
-			"version": "1.4.6.1",
-			"id": "df18da78814d1c980d5cfe507cb21ba228d50e3749f842b56b8450b121e32de8",
-			"repository": "https://github.com/vinsworldcom/nppGitSCM/releases/download/1.4.6.1/GitSCM-v1.4.6.1-x64.zip",
+			"version": "1.4.7.1",
+			"id": "56c437a61edf660d088c8629886342dde9b6e592141d407c57929db1ac7ce538",
+			"repository": "https://github.com/vinsworldcom/nppGitSCM/releases/download/1.4.7.1/GitSCM-v1.4.7.1-x64.zip",
 			"description": "N++ Gui for already installed Git SCM for Windows. Optionally TortoiseGit.",
 			"author": "Michael J. Vincent",
 			"homepage": "https://github.com/vinsworldcom/nppGitSCM"
