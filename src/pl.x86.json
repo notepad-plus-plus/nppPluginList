@@ -1536,9 +1536,9 @@
 		{
 			"folder-name": "urlPlugin",
 			"display-name": "URL Encode/Decode Plugin",
-			"version": "1.1.0.0",
-			"id": "b016bcf657884a43cd31ed7d022c51296db93ec303896a7c8ae83f2d510ea808",
-			"repository": "https://github.com/SinghRajenM/nppURLPlugin/releases/download/1.1.0.0/urlPlugin_x86.zip",
+			"version": "1.2.0.0",
+			"id": "6ab0ed27036f40eccc529ce6aa4373b2ddf71a39a4133d1243cb1e158f9b3dd8",
+			"repository": "https://github.com/SinghRajenM/nppURLPlugin/releases/download/1.2.0.0/urlPlugin_x86.zip",
 			"description": "Hopefully a decent URL Encoder and Decoder plug-in for Notepad++ which helps to make developer's life easier by providing facility to encode/decode the URL within Notepad++. \r\n\r\nHow it works:\r\n1. Configure setting from menu (Plugins->URL Plugin->URL Plugin Settings). It is not mandatory, but recommended.\r\n2. Select text/URL which you want to encode/decode.\r\n3. Perform your task via Plugins->URL Plugin->Encode/Decode URL.\r\n\r\n",
 			"author": "Rajendra Singh",
 			"homepage": "https://github.com/SinghRajenM/nppURLPlugin"
