@@ -166,9 +166,9 @@
 		{
 			"folder-name": "Comment Wrap",
 			"display-name": "Comment Wrap",
-			"version": "1.0.0.3",
-			"id": "1ab851e7f468e18cdceb225eb0d1c630e35ce071c042f4c5c1f6fbc495c94c27",
-			"repository": "https://sourceforge.net/projects/kered13-notepad-plugins/files/Comment%20Wrap%20Win32%20v1.0.0.3.zip",
+			"version": "1.0.0.5",
+			"id": "8b557136493cc8339d8c16b03be561141d81af3c1ab4feb0f7fade4e2d17e555",
+			"repository": "https://sourceforge.net/projects/kered13-notepad-plugins/files/Comment%20Wrap%20Win32%20v1.0.0.5.zip",
 			"description": "Wraps comments as you type. Supports C-style, Python-style, and Lua-style comments.",
 			"author": "Derek Brown",
 			"homepage": "https://sourceforge.net/projects/kered13-notepad-plugins/"
@@ -1126,9 +1126,9 @@
 		{
 			"folder-name": "Python Indent",
 			"display-name": "Python Indent",
-			"version": "1.0.0.3",
-			"id": "cf731dd33e7a0077d3bca5f32371d50718375f8cd4f491c12bebd49ca6970862",
-			"repository": "https://sourceforge.net/projects/kered13-notepad-plugins/files/Python%20Indent%20Win32%20v1.0.0.3.zip",
+			"version": "1.0.0.4",
+			"id": "ceef38255c06cc20acb7b4a3fedcc8e88f0cc83700fd7fe89ba8cb5a258cca0d",
+			"repository": "https://sourceforge.net/projects/kered13-notepad-plugins/files/Python%20Indent%20Win32%20v1.0.0.4.zip",
 			"description": "Python auto-indent plugin.",
 			"author": "Derek Brown",
 			"homepage": "https://sourceforge.net/projects/kered13-notepad-plugins/"
@@ -1546,12 +1546,12 @@
 		{
 			"folder-name": "VisualStudioLineCopy",
 			"display-name": "Visual Studio Line Copy",
-			"version": "1.0.0.1",
-			"id": "65bb55f0b3e209ef9262fdb26a28606ecc6a3f8fb1878b827d190d9da7859287",
-			"repository": "https://sourceforge.net/projects/notepad-visualstudiolinecopy/files/VisualStudioLineCopy%20Win32%20v1.0.0.1.zip",
+			"version": "1.0.0.2",
+			"id": "f50568de4a488f37667b93b6b6a14a95165a3bd5636e8f4bcbcab586d95df95e",
+			"repository": "https://sourceforge.net/projects/notepad-visualstudiolinecopy/files/VisualStudioLineCopy%20Win32%20v1.0.0.2.zip",
 			"description": "Adds two commands to Notepad++ CopyAllowLine and CutAllowLine, which adds Visual Studio style copy/cutting to Notepad++.",
 			"author": "Mackenzie Zastrow (forked by Derek Brown)",
-			"homepage": "https://sourceforge.net/projects/kered13-notepad-plugins/"
+			"homepage": "https://sourceforge.net/projects/notepad-visualstudiolinecopy/"
 		},
 		{
 			"folder-name": "WakaTime",
