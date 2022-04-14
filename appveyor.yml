@@ -1,31 +1,31 @@
-version: 1.4.1.{build}
-image: Visual Studio 2017
+version: 1.4.9.{build}
+image: Visual Studio 2019
 
 
 environment:
   matrix:
-  - PlatformToolset: v141
+  - PlatformToolset: v142
     PLATFORM: ARM64
     PYTHONTEST: arm64
     PYTHON: "C:\\Python38"
 
-  - PlatformToolset: v141
+  - PlatformToolset: v142
     PLATFORM: x64
     PYTHONTEST: x64
     PYTHON: "C:\\Python38"
 
-  - PlatformToolset: v141
+  - PlatformToolset: v142
     PLATFORM: Win32
     PYTHONTEST: Win32
     PYTHON: "C:\\Python38"
 
-  - PlatformToolset: v141
+  - PlatformToolset: v142
     PLATFORM: ARM64
 
-  - PlatformToolset: v141
+  - PlatformToolset: v142
     PLATFORM: x64
 
-  - PlatformToolset: v141
+  - PlatformToolset: v142
     PLATFORM: Win32
 
 configuration:
@@ -46,7 +46,7 @@ install:
     - if "%platform%"=="ARM64" set platform_input=ARM64
 
 
-    - if "%PlatformToolset%"=="v141" call "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Auxiliary\Build\vcvarsall.bat" %archi%
+    - if "%PlatformToolset%"=="v142" call "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\Build\vcvarsall.bat" %archi%
 
 
 build_script:
@@ -73,7 +73,7 @@ after_build:
                 Push-AppveyorArtifact "bin\nppPluginList.dll" -FileName nppPluginList.dll
             }
 
-            if ($($env:APPVEYOR_REPO_TAG) -eq "true" -and $env:CONFIGURATION -eq "Release" -and $env:PLATFORMTOOLSET -eq "v141") {
+            if ($($env:APPVEYOR_REPO_TAG) -eq "true" -and $env:CONFIGURATION -eq "Release" -and $env:PLATFORMTOOLSET -eq "v142") {
                 if($env:PLATFORM_INPUT -eq "x64"){
                     $ZipFileName = "nppPluginList_$($env:APPVEYOR_REPO_TAG_NAME)_x64.zip"
                     7z a $ZipFileName bin64\*.dll
