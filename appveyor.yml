@@ -7,17 +7,17 @@ environment:
   - PlatformToolset: v142
     PLATFORM: ARM64
     PYTHONTEST: arm64
-    PYTHON: "C:\\Python38"
+    PYTHON: "C:\\Python310-x64"
 
   - PlatformToolset: v142
     PLATFORM: x64
     PYTHONTEST: x64
-    PYTHON: "C:\\Python38"
+    PYTHON: "C:\\Python310-x64"
 
   - PlatformToolset: v142
     PLATFORM: Win32
     PYTHONTEST: Win32
-    PYTHON: "C:\\Python38"
+    PYTHON: "C:\\Python310-x64"
 
   - PlatformToolset: v142
     PLATFORM: ARM64
@@ -33,7 +33,7 @@ configuration:
     #- Debug
 
 install:
-    - SET PATH=%PYTHON%;%PATH%
+    - SET PATH=%PYTHON%;%PYTHON%\Scripts;%PATH%
     - if not "%PYTHONTEST%"=="" python -m pip install -r requirements.txt
 
     - if "%platform%"=="x64" set archi=amd64

@@ -1,5 +1,5 @@
 ## Plugin List - arm64 bit
-version 1.4.8
+version 1.4.9
 |Plugin name | Author | Homepage | Version and link | Description |
 |---|---|---|---|---|
 | Auto Detect Indention | Mike Tzou (Chocobo1) | https://github.com/Chocobo1/nppAutoDetectIndent | [2.3 - arm64 bit](https://github.com/Chocobo1/nppAutoDetectIndent/releases/download/2.3/arm64.zip) | Detects indention (tab or spaces) and auto adjust Tab key on-the-fly. |
@@ -18,3 +18,4 @@ version 1.4.8
 | Session Manager | Mike Foster | https://mfoster.com/npp/SessionMgr.html | [1.4.4 - arm64 bit](https://github.com/chcg/npp-session-manager/releases/download/v1.4.4/SessionMgr_v1.4.4_arm64.zip) |  <details> <summary> Session manager. IMPORTANT: If you are upgrading from a version older than 1.2 then, immediately </summary>  after the upgrade, open the Settings dialog and reconfigure your settings. </details> |
 | SpeechPlugin | Jim Xochellis | https://github.com/chcg/SpeechPlugin | [0.4.0.0 - arm64 bit](https://github.com/chcg/SpeechPlugin/releases/download/v0.4.0/SpeechPlugin_v0.4.0_ARM64.zip) |  <details> <summary> No kidding, Notepad++ speaks now. With SpeechPlugin, you can make Notepad++ dictate your text or </summary>  source code. Of course, speakers are necessary. </details> |
 | Task List | blitowitz | https://code.google.com/p/npp-task-list/ | [2.4 - arm64 bit](https://github.com/Megabyteceer/npp-task-list/releases/download/v2.4.0/NppTaskList_v2.4.0_arm64.zip) |  <details> <summary> Automatically scans the open document and adds all "TODO:*" items to your task list, a window pane </summary>  docked on the right. Double-clicking an item in the list will take you to that line in the code. </details> |
+| URL Encode/Decode Plugin | Rajendra Singh | https://github.com/SinghRajenM/nppURLPlugin | [1.2.0.0 - arm64 bit](https://github.com/SinghRajenM/nppURLPlugin/releases/download/1.2.0.0/urlPlugin_arm64.zip) |  <details> <summary> Hopefully a decent URL Encoder and Decoder plug-in for Notepad++ which helps to make developer's </summary>  life easier by providing facility to encode/decode the URL within Notepad++. <br><br>How it works:<br>1. Configure setting from menu (Plugins->URL Plugin->URL Plugin Settings). It is not mandatory, but recommended.<br>2. Select text/URL which you want to encode/decode.<br>3. Perform your task via Plugins->URL Plugin->Encode/Decode URL.<br><br> </details> |
