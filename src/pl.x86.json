@@ -486,9 +486,9 @@
 		{
 			"folder-name": "HTMLTag_unicode",
 			"display-name": "HTML Tag",
-			"version": "1.2.2.0",
-			"id": "300e05fb4bdf512f2332104a015998c36e8591288c4d5476af7e34c41b37baef",
-			"repository": "https://bitbucket.org/rdipardo/htmltag/downloads/HTMLTag_v122.zip",
+			"version": "1.2.3.0",
+			"id": "6fbf651dad02b1150bb7ea8547b8aa7e66bac6592256f6b67e73c7df194bfe7f",
+			"repository": "https://bitbucket.org/rdipardo/htmltag/downloads/HTMLTag_v123.zip",
 			"description": "Provides three core functions:\r\n- HTML and XML tag jumping, like the built-in brace matching (Ctrl+B / Shift+Ctrl+B), and selection\r\n of tags and/or contents.\r\n- HTML entity encoding/decoding (example: é to &eacute;)\r\n- JS character encoding/decoding (example: é to \\u00E9)",
 			"author": "Martijn Coppoolse",
 			"homepage": "https://bitbucket.org/rdipardo/htmltag/"
