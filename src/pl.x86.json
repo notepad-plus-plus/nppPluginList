@@ -1,6 +1,6 @@
 {
 	"name": "npp-pluginList",
-	"version": "1.4.7",
+	"version": "1.4.9",
 	"arch": "32",
 	"npp-plugins": [
 		{
@@ -166,9 +166,9 @@
 		{
 			"folder-name": "Comment Wrap",
 			"display-name": "Comment Wrap",
-			"version": "1.0.0.3",
-			"id": "1ab851e7f468e18cdceb225eb0d1c630e35ce071c042f4c5c1f6fbc495c94c27",
-			"repository": "https://sourceforge.net/projects/kered13-notepad-plugins/files/Comment%20Wrap%20Win32%20v1.0.0.3.zip",
+			"version": "1.0.0.5",
+			"id": "8b557136493cc8339d8c16b03be561141d81af3c1ab4feb0f7fade4e2d17e555",
+			"repository": "https://sourceforge.net/projects/kered13-notepad-plugins/files/Comment%20Wrap%20Win32%20v1.0.0.5.zip",
 			"description": "Wraps comments as you type. Supports C-style, Python-style, and Lua-style comments.",
 			"author": "Derek Brown",
 			"homepage": "https://sourceforge.net/projects/kered13-notepad-plugins/"
@@ -196,10 +196,10 @@
 		{
 			"folder-name": "CSVLint",
 			"display-name": "CSV Lint",
-			"version": "0.4.4",
-			"id": "5b182d4a44750a9792ec00bbb20be4fb95ac85b0fb7452427999bbaff187d332",
-			"repository": "https://github.com/BdR76/CSVLint/releases/download/0.4.4/CSVLint_x86.zip",
-			"description": "Adds syntax highlighting for csv data, automatic column and datatype detecting, validate delimiter-separated or fixed width datasets, change datetime format, decimal separator, count unique values, csv to SQL etc. A utility for quality control, data cleaning and working with messy data files.",
+			"version": "0.4.5",
+			"id": "92536ea7ab88659382daf0e6b1741dad5d0c7b9bbb26f68a3266c01148254d4d",
+			"repository": "https://github.com/BdR76/CSVLint/releases/download/0.4.5/CSVLint_x86.zip",
+			"description": "Syntax highlighting and quality control for csv and fixed width data, detect column and datatypes, convert datetime/decimal format, sql, xml.",
 			"author": "Bas de Reuver",
 			"homepage": "https://github.com/BdR76/CSVLint/"
 		},
@@ -256,9 +256,9 @@
 		{
 			"folder-name": "DiscordRPC",
 			"display-name": "Discord Rich Presence",
-			"version": "1.2.98.1",
-			"id": "46c84baa689958a9907b155a5b8734c87ab73bcb79d5463b2ec105c985c63994",
-			"repository": "https://github.com/Zukaritasu/notepadpp_rpc/releases/download/v1.2/DiscordRPC_v1.2_x86.zip",
+			"version": "1.3.213.1",
+			"id": "fdb443f36ffd3e2a528bad1cbd43b6e4d12d7b055479eb9ce76e8c37792d4568",
+			"repository": "https://github.com/Zukaritasu/notepadpp_rpc/releases/download/v1.3/DiscordRPC_v1.3_x86.zip",
 			"description": "Shows in discord the file that is currently being edited in Nopetad++.",
 			"author": "Zukaritasu",
 			"homepage": "https://github.com/Zukaritasu/notepadpp_rpc"
@@ -426,9 +426,9 @@
 		{
 			"folder-name": "GitSCM",
 			"display-name": "GitSCM",
-			"version": "1.4.6.1",
-			"id": "cd0e4d59260e760b092b877d42e3f8c56ad901b7d6d4a175e279e8b9bba06ba3",
-			"repository": "https://github.com/vinsworldcom/nppGitSCM/releases/download/1.4.6.1/GitSCM-v1.4.6.1-x86.zip",
+			"version": "1.4.7.1",
+			"id": "1754f9b7291a64bfd817ec521463971f093aa0fbf454217429ef7022f83ef570",
+			"repository": "https://github.com/vinsworldcom/nppGitSCM/releases/download/1.4.7.1/GitSCM-v1.4.7.1-x86.zip",
 			"description": "N++ Gui for already installed Git SCM for Windows. Optionally TortoiseGit.",
 			"author": "Michael J. Vincent",
 			"homepage": "https://github.com/vinsworldcom/nppGitSCM"
@@ -486,9 +486,9 @@
 		{
 			"folder-name": "HTMLTag_unicode",
 			"display-name": "HTML Tag",
-			"version": "1.2.1.0",
-			"id": "983eba3040b682e23a28bf9958048f9d96b293400ac9e48c02cfcb14900910cb",
-			"repository": "https://bitbucket.org/rdipardo/htmltag/downloads/HTMLTag_v121.zip",
+			"version": "1.2.3.0",
+			"id": "6fbf651dad02b1150bb7ea8547b8aa7e66bac6592256f6b67e73c7df194bfe7f",
+			"repository": "https://bitbucket.org/rdipardo/htmltag/downloads/HTMLTag_v123.zip",
 			"description": "Provides three core functions:\r\n- HTML and XML tag jumping, like the built-in brace matching (Ctrl+B / Shift+Ctrl+B), and selection\r\n of tags and/or contents.\r\n- HTML entity encoding/decoding (example: é to &eacute;)\r\n- JS character encoding/decoding (example: é to \\u00E9)",
 			"author": "Martijn Coppoolse",
 			"homepage": "https://bitbucket.org/rdipardo/htmltag/"
@@ -926,9 +926,9 @@
 		{
 			"folder-name": "NppGist",
 			"display-name": "NppGist",
-			"version": "1.5.0.31",
-			"id": "ffe58d75c34a214a351e88dcf8fdbdaf1eb9f5cff109c4db5722cf34d2e987b6",
-			"repository": "https://github.com/KvanTTT/NppGist/releases/download/1.5.0/NppGist-x86-1.5.0.31.zip",
+			"version": "1.5.1.35",
+			"id": "bb37f65ea6f218d46b06c977aa26a385246f5c7313c76d194568286ce93951d6",
+			"repository": "https://github.com/KvanTTT/NppGist/releases/download/1.5.1/NppGist-x86-1.5.1.35.zip",
 			"description": "Allows working with GitHub Gist (create, edit, remove, rename).",
 			"author": "Ivan Kochurkin (KvanTTT)",
 			"homepage": "https://github.com/KvanTTT/NppGist"
@@ -1066,9 +1066,9 @@
 		{
 			"folder-name": "Papyrus",
 			"display-name": "Papyrus Script Lexer",
-			"version": "0.3.0.24",
-			"id": "8f82500d6d4686c119cac769a46d090944e44a7428a1d5073d581a65701f61aa",
-			"repository": "https://github.com/blu3mania/npp-papyrus/releases/download/v0.3.0/PapyrusPlugin-v0.3.0-x86.zip",
+			"version": "0.4.0.27",
+			"id": "619f7ac822d5fecee375d05e282728da906c2e7f9f74c1bacfd11beee431dca1",
+			"repository": "https://github.com/blu3mania/npp-papyrus/releases/download/v0.4.0/PapyrusPlugin-v0.4.0-x86.zip",
 			"description": "View and edit Papyrus Script files used by Bethesda games with syntax highlighting, function and block folding, hyperlinks to referenced scripts, keywords matching, plus compilation support with anonymized output and error list view.",
 			"author": "blu3mania",
 			"homepage": "https://github.com/blu3mania/npp-papyrus"
@@ -1126,9 +1126,9 @@
 		{
 			"folder-name": "Python Indent",
 			"display-name": "Python Indent",
-			"version": "1.0.0.3",
-			"id": "cf731dd33e7a0077d3bca5f32371d50718375f8cd4f491c12bebd49ca6970862",
-			"repository": "https://sourceforge.net/projects/kered13-notepad-plugins/files/Python%20Indent%20Win32%20v1.0.0.3.zip",
+			"version": "1.0.0.4",
+			"id": "ceef38255c06cc20acb7b4a3fedcc8e88f0cc83700fd7fe89ba8cb5a258cca0d",
+			"repository": "https://sourceforge.net/projects/kered13-notepad-plugins/files/Python%20Indent%20Win32%20v1.0.0.4.zip",
 			"description": "Python auto-indent plugin.",
 			"author": "Derek Brown",
 			"homepage": "https://sourceforge.net/projects/kered13-notepad-plugins/"
@@ -1179,7 +1179,7 @@
 			"version": "0.2.1",
 			"id": "65f4fd342da9541801af1fb2a55c223d7708c5a0906d153606ef3c6b28ba0f64",
 			"repository": "https://github.com/BdR76/RandomValuesNPP/releases/download/0.2.1/RandomValuesNppPlugin_x86.zip",
-			"description": "Random values generator for passwords or test data. Custom configurable string, integer, decimal, datetime, guid values based on range or mask. Single values for quick access or a list of multiple values at once in csv, xml, json, sql formats.",
+			"description": "Random values generator for passwords or test data. Generate single value string, int, decimal, datetime, guid or csv, xml, json, sql.",
 			"author": "Bas de Reuver",
 			"homepage": "https://github.com/BdR76/RandomValuesNPP/"
 		},
@@ -1536,9 +1536,9 @@
 		{
 			"folder-name": "urlPlugin",
 			"display-name": "URL Encode/Decode Plugin",
-			"version": "1.1.0.0",
-			"id": "b016bcf657884a43cd31ed7d022c51296db93ec303896a7c8ae83f2d510ea808",
-			"repository": "https://github.com/SinghRajenM/nppURLPlugin/releases/download/1.1.0.0/urlPlugin_x86.zip",
+			"version": "1.2.0.0",
+			"id": "6ab0ed27036f40eccc529ce6aa4373b2ddf71a39a4133d1243cb1e158f9b3dd8",
+			"repository": "https://github.com/SinghRajenM/nppURLPlugin/releases/download/1.2.0.0/urlPlugin_x86.zip",
 			"description": "Hopefully a decent URL Encoder and Decoder plug-in for Notepad++ which helps to make developer's life easier by providing facility to encode/decode the URL within Notepad++. \r\n\r\nHow it works:\r\n1. Configure setting from menu (Plugins->URL Plugin->URL Plugin Settings). It is not mandatory, but recommended.\r\n2. Select text/URL which you want to encode/decode.\r\n3. Perform your task via Plugins->URL Plugin->Encode/Decode URL.\r\n\r\n",
 			"author": "Rajendra Singh",
 			"homepage": "https://github.com/SinghRajenM/nppURLPlugin"
@@ -1546,12 +1546,12 @@
 		{
 			"folder-name": "VisualStudioLineCopy",
 			"display-name": "Visual Studio Line Copy",
-			"version": "1.0.0.1",
-			"id": "65bb55f0b3e209ef9262fdb26a28606ecc6a3f8fb1878b827d190d9da7859287",
-			"repository": "https://sourceforge.net/projects/notepad-visualstudiolinecopy/files/VisualStudioLineCopy%20Win32%20v1.0.0.1.zip",
+			"version": "1.0.0.2",
+			"id": "f50568de4a488f37667b93b6b6a14a95165a3bd5636e8f4bcbcab586d95df95e",
+			"repository": "https://sourceforge.net/projects/notepad-visualstudiolinecopy/files/VisualStudioLineCopy%20Win32%20v1.0.0.2.zip",
 			"description": "Adds two commands to Notepad++ CopyAllowLine and CutAllowLine, which adds Visual Studio style copy/cutting to Notepad++.",
 			"author": "Mackenzie Zastrow (forked by Derek Brown)",
-			"homepage": "https://sourceforge.net/projects/kered13-notepad-plugins/"
+			"homepage": "https://sourceforge.net/projects/notepad-visualstudiolinecopy/"
 		},
 		{
 			"folder-name": "WakaTime",
@@ -1606,9 +1606,9 @@
 		{
 			"folder-name": "XMLTools",
 			"display-name": "XML Tools",
-			"version": "3.1.1.12",
-			"id": "d573fe666815c28fb0e394a0809b400765008cbc3c2172aca1ae516026a8aa6f",
-			"repository": "https://github.com/morbac/xmltools/releases/download/3.1.1.12/XMLTools-3.1.1.12-x86.zip",
+			"version": "3.1.1.13",
+			"id": "9521d91be847a9c9fcfc6cb6ea5455fd7dfe840f4f12a8fd95e5137116dbd6c3",
+			"repository": "https://github.com/morbac/xmltools/releases/download/3.1.1.13/XMLTools-3.1.1.13-x86.zip",
 			"description": "Small set of useful tools for editing XML. Plugin is MSXML-based. The features are:\r\n- XML syntax Check\r\n- XML Schema (XSD) + DTD Validation\r\n- XML tag autoclose\r\n- Pretty print\n- Linarize XML\r\n- Current XML Path\r\n- Conversion XML &amp;lt;-&amp;gt; Text\n- Comment / Uncomment\r\n- XPath expression evaluation",
 			"author": "Nicolas Crittin",
 			"homepage": "https://github.com/morbac/xmltools"
