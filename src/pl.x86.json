@@ -186,9 +186,9 @@
 		{
 			"folder-name": "CSScriptNpp",
 			"display-name": "CS-Script - C# Intellisense",
-			"version": "1.7.29.0",
-			"id": "431b0634c6bcc1a02cb8facd2d7bcfde9b677309ef08fc35851146947e77549c",
-			"repository": "https://github.com/oleg-shilo/cs-script.npp/releases/download/v1.7.29.0/CSScriptNpp.1.7.29.0.x86.zip",
+			"version": "2.0.0.0",
+			"id": "94483a70709e79c8dd16a8fd5b26bf780398ee0f54f948cb5945e1f2346de246",
+			"repository": "https://github.com/oleg-shilo/cs-script.npp/releases/download/v2.0.0.0/CSScriptNpp.2.0.0.0.x86.zip",
 			"description": "CS-Script integration. Implements a real C# Intellisense solution based on CS-Script and Roslyn. Allows loading, executing modifying and debugging C# scripts in a way very similar to the Visual Studio C# projects support. This includes referencing assemblies and other scripts, code formatting, adding missing namespaces and intercepting Debug and Console output.",
 			"author": "Oleg Shilo",
 			"homepage": "https://github.com/oleg-shilo/cs-script.npp"
