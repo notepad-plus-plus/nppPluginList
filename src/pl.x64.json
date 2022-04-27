@@ -890,6 +890,17 @@
 			"homepage": "https://www.incrediblejunior.com/npp_plugins/"
 		},
 		{
+			"folder-name": "NWScript-Npp",
+			"display-name": "NWScript Tools",
+			"version": "1.0.2.1930",
+			"npp-compatible-versions": "[8.3,]",
+			"id": "9ee48a8b82662f5a1405717b6ef3b79568fc92f0224c04764623c9324c2de97d",
+			"repository": "https://github.com/Leonard-The-Wise/NWScript-Npp/releases/download/v1.0.2/nwscript-npp.v1.0.2-x64.zip",
+			"description": "View, edit and compile Bioware's NWScript files with this plugin. Use customized color-syntax for your personalized tokens and also for engine-defined ones. Can disassemble compiled scripts and build makefile dependencies. Also has a feature to process files in configurable batches.",
+			"author": "Leonard-The-Wise",
+			"homepage": "https://github.com/Leonard-The-Wise/NWScript-Npp"
+		},
+		{
 			"folder-name": "OpenSelection",
 			"display-name": "OpenSelection",
 			"version": "1.1.3.0",
