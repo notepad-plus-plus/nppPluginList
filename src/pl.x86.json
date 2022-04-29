@@ -156,9 +156,9 @@
 		{
 			"folder-name": "ColumnTools",
 			"display-name": "ColumnTools",
-			"version": "1.4.3.1",
-			"id": "8de3b1c8f9b90d3737f116c2752a8fdba39150ae4a422f0d6fd30b467593be34",
-			"repository": "https://github.com/vinsworldcom/nppColumnTools/releases/download/1.4.3.1/ColumnTools-v1.4.3.1-x86.zip",
+			"version": "1.4.4.1",
+			"id": "0c356bc202147f8de806fa4fd676a122eb799d8d68f8c9ecfe978c6c5d91c8ab",
+			"repository": "https://github.com/vinsworldcom/nppColumnTools/releases/download/1.4.4.1/ColumnTools-v1.4.4.1-Win32.zip",
 			"description": "Notepad++ Highlight Current Column and Horizontal Ruler",
 			"author": "Vin's World",
 			"homepage": "https://github.com/vinsworldcom/nppColumnTools"
