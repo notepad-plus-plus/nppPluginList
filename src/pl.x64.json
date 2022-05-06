@@ -47,6 +47,18 @@
 			"homepage": "https://github.com/Chocobo1/nppAutoDetectIndent"
 		},
 		{
+			"folder-name": "nppColumnSum",
+			"display-name": "Column Sum",
+			"version": "1.0",
+			"npp-compatible-versions": "[8.3,]",
+			"old-versions-compatibility": "[,2.0][,8.2.1]",
+			"id": "N/A",
+			"repository": "https://github.com/lukegarrett/PythonScript_col_sum/archive/refs/heads/main.zip",
+			"description": "Highlight text in column mode and sum.",
+			"author": "Luke Garret",
+			"homepage": "https://github.com/lukegarrett/PythonScript_col_sum"
+		},
+		{
 			"folder-name": "AutoCodepage",
 			"display-name": "AutoCodepage",
 			"version": "1.2.4",
