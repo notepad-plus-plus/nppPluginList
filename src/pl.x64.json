@@ -892,10 +892,10 @@
 		{
 			"folder-name": "NWScript-Npp",
 			"display-name": "NWScript Tools",
-			"version": "1.0.2.1930",
+			"version": "1.0.3.1950",
 			"npp-compatible-versions": "[8.3,]",
-			"id": "9ee48a8b82662f5a1405717b6ef3b79568fc92f0224c04764623c9324c2de97d",
-			"repository": "https://github.com/Leonard-The-Wise/NWScript-Npp/releases/download/v1.0.2/nwscript-npp.v1.0.2-x64.zip",
+			"id": "3e909c0f844fc31ea54b719e289639733be29128d9a7ccf88433008ff4d0dd36",
+			"repository": "https://github.com/Leonard-The-Wise/NWScript-Npp/releases/download/v1.0.3/nwscript-npp.v1.0.3-x64.zip",
 			"description": "View, edit and compile Bioware's NWScript files with this plugin. Use customized color-syntax for your personalized tokens and also for engine-defined ones. Can disassemble compiled scripts and build makefile dependencies. Also has a feature to process files in configurable batches.",
 			"author": "Leonard-The-Wise",
 			"homepage": "https://github.com/Leonard-The-Wise/NWScript-Npp"
