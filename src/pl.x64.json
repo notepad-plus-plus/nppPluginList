@@ -159,9 +159,9 @@
 		{
 			"folder-name": "ColumnTools",
 			"display-name": "ColumnTools",
-			"version": "1.4.3.1",
-			"id": "7bbd331520117a62eaa1966069b0fff783139219fe92d9233c05c5bdb659384c",
-			"repository": "https://github.com/vinsworldcom/nppColumnTools/releases/download/1.4.3.1/ColumnTools-v1.4.3.1-x64.zip",
+			"version": "1.4.4.1",
+			"id": "e5e5c16b42045b5936fcfe509ecace145a713a341479ce1c1e09e05985b13b42",
+			"repository": "https://github.com/vinsworldcom/nppColumnTools/releases/download/1.4.4.1/ColumnTools-v1.4.4.1-x64.zip",
 			"description": "Notepad++ Highlight Current Column and Horizontal Ruler",
 			"author": "Vin's World",
 			"homepage": "https://github.com/vinsworldcom/nppColumnTools"
@@ -205,9 +205,9 @@
 		{
 			"folder-name": "CSVLint",
 			"display-name": "CSV Lint",
-			"version": "0.4.5",
-			"id": "c0a8825414269fe1b94c707eb44630b28d968d4587a1ff6d15955535a0187e5b",
-			"repository": "https://github.com/BdR76/CSVLint/releases/download/0.4.5/CSVLint_x64.zip",
+			"version": "0.4.5.1",
+			"id": "872a775cd8753ff31f3239a24888c9bd3012c43b279dd6b91501cf4622f53dc3",
+			"repository": "https://github.com/BdR76/CSVLint/releases/download/0.4.5.1/CSVLint_x64.zip",
 			"description": "Syntax highlighting and quality control for csv and fixed width data, detect column and datatypes, convert datetime/decimal format, sql, xml",
 			"author": "Bas de Reuver",
 			"homepage": "https://github.com/BdR76/CSVLint/"
@@ -215,10 +215,10 @@
 		{
 			"folder-name": "CsvQuery",
 			"display-name": "CsvQuery",
-			"version": "1.2.8",
-			"npp-compatible-versions": "[,8.2.1]",
-			"id": "8ed39f3795fcffef09bbfa09b4ed36c6abe1f4200268ed98a7d3f07cb33f81cd",
-			"repository": "https://github.com/jokedst/CsvQuery/releases/download/v1.2.8/CsvQuery-v1.2.8-x64.zip",
+			"version": "1.2.9",
+			"npp-compatible-versions": "[8.3,]",
+			"id": "3babdffa1e5a9973e2e98aa84598d869463520e646dc32fd112c583082636218",
+			"repository": "https://github.com/jokedst/CsvQuery/releases/download/v1.2.9/CsvQuery-v1.2.9-x64.zip",
 			"description": "Enables SQL queries against CSV files.",
 			"author": "jokedst",
 			"homepage": "https://github.com/jokedst/CsvQuery"
@@ -339,11 +339,11 @@
 		{
 			"folder-name": "FWDataViz",
 			"display-name": "Fixed-width Data Visualizer",
-			"version": "2.4.0.2",
+			"version": "2.5.0.0",
 			"npp-compatible-versions": "[8.3,]",
 			"old-versions-compatibility": "[,2.4.0.1][8,8.2.1]",
-			"id": "e0a1711964e473023d3dd8942bdad6815d738435ac01babc2028787a6733fbe0",
-			"repository": "https://github.com/shriprem/FWDataViz/releases/download/v2.4.0.2/FWDataViz_x64.zip",
+			"id": "7f153985d5dd80495b5d6d72fe5960a4c17edff07dab7e53122fc805c4a09364",
+			"repository": "https://github.com/shriprem/FWDataViz/releases/download/v2.5.0.0/FWDataViz_x64.zip",
 			"description": "Fixed Width Data Visualizer adds Excel-like features for fixed-width data files in Notepad++. Displays cursor position data. Hop & Jump to specific fields. Field Copy & Field Paste. Data Extraction. Builtin dialogs to configure file-type, record-type & fields; and themes & colors. Automatic File Type Detection. Handles homogenous, mixed & multi-line records. Full Multi-byte character support. Darkmode enabled.",
 			"author": "Shridhar Kumar",
 			"homepage": "https://github.com/shriprem/FWDataViz"
@@ -371,11 +371,11 @@
 		{
 			"folder-name": "GotoLineCol",
 			"display-name": "GotoLineCol",
-			"version": "2.2.0.2",
+			"version": "2.3.0.0",
 			"npp-compatible-versions": "[8.3,]",
 			"old-versions-compatibility": "[,2.2.0.1][,8.2.1]",
-			"id": "46d0aa056a98128bb966e56c3ee1a13c897c7e3f72a2aa2abc9b0d8576336f25",
-			"repository": "https://github.com/shriprem/Goto-Line-Col-NPP-Plugin/releases/download/v2.2.0.2/GotoLineCol_x64.zip",
+			"id": "1c57c4b9e3cbad8940508c6b27532800c56e8be86cb7168d0099d5a2bdd17488",
+			"repository": "https://github.com/shriprem/Goto-Line-Col-NPP-Plugin/releases/download/v2.3.0.0/GotoLineCol_x64.zip",
 			"description": "A plugin to navigate to a specified line and (byte-based or character-based) column position. Will also display character byte code, UTF-8 byte sequence & Unicode code point at cursor position. Darkmode enabled. Command line options.",
 			"author": "Shridhar Kumar",
 			"homepage": "https://github.com/shriprem/Goto-Line-Col-NPP-Plugin"
@@ -892,10 +892,10 @@
 		{
 			"folder-name": "NWScript-Npp",
 			"display-name": "NWScript Tools",
-			"version": "1.0.2.1930",
+			"version": "1.0.3.1950",
 			"npp-compatible-versions": "[8.3,]",
-			"id": "9ee48a8b82662f5a1405717b6ef3b79568fc92f0224c04764623c9324c2de97d",
-			"repository": "https://github.com/Leonard-The-Wise/NWScript-Npp/releases/download/v1.0.2/nwscript-npp.v1.0.2-x64.zip",
+			"id": "3e909c0f844fc31ea54b719e289639733be29128d9a7ccf88433008ff4d0dd36",
+			"repository": "https://github.com/Leonard-The-Wise/NWScript-Npp/releases/download/v1.0.3/nwscript-npp.v1.0.3-x64.zip",
 			"description": "View, edit and compile Bioware's NWScript files with this plugin. Use customized color-syntax for your personalized tokens and also for engine-defined ones. Can disassemble compiled scripts and build makefile dependencies. Also has a feature to process files in configurable batches.",
 			"author": "Leonard-The-Wise",
 			"homepage": "https://github.com/Leonard-The-Wise/NWScript-Npp"
