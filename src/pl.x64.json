@@ -297,6 +297,17 @@
 			"homepage": "https://github.com/dail8859/ElasticTabstops"
 		},
 		{
+			"folder-name": "EnhanceAnyLexer",
+			"display-name": "EnhanceAnyLexer",
+			"version": "0.3.0",
+			"npp-compatible-versions": "[8.4.1,]",
+			"id": "fc999e1558b8afa7cfc6221ab366794fd26681ba7487ef7e2e509a5f65e56819",
+			"repository": "https://github.com/Ekopalypse/EnhanceAnyLexer/releases/download/v.0.3.0/EnhanceAnyLexer_x64_PluginAdmin.zip",
+			"description": "Adds more styling, colors only, options to any Lexer",
+			"author": "Ekopalypse",
+			"homepage": "https://github.com/Ekopalypse/EnhanceAnyLexer"
+		},
+		{
 			"folder-name": "ERPHelper",
 			"display-name": "ERP Helper",
 			"version": "1.1.2",
