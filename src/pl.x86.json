@@ -1106,15 +1106,15 @@
 			"homepage": "https://github.com/StanDog/npp-phpautocompletion"
 		},
 		{
-		    "folder-name": "PlantUmlViewer",
-		    "display-name": "PlantUML Viewer",
-		    "version": "1.0.0.1",
-		    "npp-compatible-versions": "[8.3,]",
-		    "id": "45cd49f0fcb240c97863427437329707e2769401438abf5498003da1b1214ae7",
-		    "repository": "https://github.com/Fruchtzwerg94/PlantUmlViewer/releases/download/1.0.0.1/PlantUmlViewer_v1.0.0.1_x84.zip",
-		    "description": "A Notepad++ plugin to generate view and export PlantUML diagrams.",
-		    "author": "Philipp Schmidt",
-		    "homepage": "https://github.com/Fruchtzwerg94/PlantUmlViewer"
+			"folder-name": "PlantUmlViewer",
+			"display-name": "PlantUML Viewer",
+			"version": "1.0.1.2",
+			"npp-compatible-versions": "[8.3,]",
+			"id": "fb3cb150b2d254226a87655c20a6e0451020597d3280340bc6ac803b40e24aee",
+			"repository": "https://github.com/Fruchtzwerg94/PlantUmlViewer/releases/download/1.0.1.2/PlantUmlViewer_v1.0.1.2_x86.zip",
+			"description": "A Notepad++ plugin to generate view and export PlantUML diagrams.",
+			"author": "Philipp Schmidt",
+			"homepage": "https://github.com/Fruchtzwerg94/PlantUmlViewer"
 		},
 		{
 			"folder-name": "PoorMansTSqlFormatterNppPlugin",
