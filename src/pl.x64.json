@@ -589,9 +589,10 @@
 		{
 			"folder-name": "mimeTools",
 			"display-name": "Mime tools",
-			"version": "2.7",
-			"id": "69ca87696e4dc4a4723442c955127df4a376ab082d38cdbbf5718611015d52ce",
-			"repository": "https://github.com/npp-plugins/mimetools/releases/download/v2.7/mimetools.v2.7.x64.zip",
+			"version": "2.8",
+			"npp-compatible-versions": "[8.4,]",
+			"id": "ed5133f8a0552e974135ada78a0260581be979f916ddbcd45697d2a1a1b8f280",
+			"repository": "https://github.com/npp-plugins/mimetools/releases/download/v2.8/mimetools.v2.8.x64.zip",
 			"description": "Implements several main functionalities defined in MIME (Multipurpose Internet Mail Extensions).",
 			"author": "Don HO",
 			"homepage": "https://github.com/npp-plugins/mimetools"
