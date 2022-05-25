@@ -935,6 +935,17 @@
 			"homepage": "https://github.com/blu3mania/npp-papyrus"
 		},
 		{
+			"folder-name": "PlantUmlViewer",
+			"display-name": "PlantUML Viewer",
+			"version": "1.0.2.3",
+			"npp-compatible-versions": "[8.3,]",
+			"id": "46b18c0d670315aa12b5645e452beba293dc39afbb886ccf944d8cc0446f3420",
+			"repository": "https://github.com/Fruchtzwerg94/PlantUmlViewer/releases/download/1.0.2.3/PlantUmlViewer_v1.0.2.3_x64.zip",
+			"description": "A Notepad++ plugin to generate view and export PlantUML diagrams.",
+			"author": "Philipp Schmidt",
+			"homepage": "https://github.com/Fruchtzwerg94/PlantUmlViewer"
+		},
+		{
 			"folder-name": "PoorMansTSqlFormatterNppPlugin",
 			"display-name": "Poor Man's T-Sql Formatter",
 			"version": "1.6.13.31508",
