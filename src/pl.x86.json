@@ -1,6 +1,6 @@
 {
 	"name": "npp-pluginList",
-	"version": "1.4.8",
+	"version": "1.5",
 	"arch": "32",
 	"npp-plugins": [
 		{
@@ -86,9 +86,9 @@
 		{
 			"folder-name": "BetterMultiSelection",
 			"display-name": "BetterMultiSelection",
-			"version": "1.4",
-			"id": "16553bc62ee7aa927da42fbe6a379f16f6e16f743bc812e7820a17f06260c5ee",
-			"repository": "https://github.com/dail8859/BetterMultiSelection/releases/download/v1.4/BetterMultiSelection_v1.4.zip",
+			"version": "1.5",
+			"id": "cfd2b102fce7fbe734439c179e10b63cf883552560db9e8634093b6bc7b33594",
+			"repository": "https://github.com/dail8859/BetterMultiSelection/releases/download/v1.5/BetterMultiSelection_v1.5.zip",
 			"description": "Provides better cursor movements when using multiple selections.",
 			"author": "Justin Dailey",
 			"homepage": "https://github.com/dail8859/BetterMultiSelection"
@@ -156,9 +156,9 @@
 		{
 			"folder-name": "ColumnTools",
 			"display-name": "ColumnTools",
-			"version": "1.4.3.1",
-			"id": "8de3b1c8f9b90d3737f116c2752a8fdba39150ae4a422f0d6fd30b467593be34",
-			"repository": "https://github.com/vinsworldcom/nppColumnTools/releases/download/1.4.3.1/ColumnTools-v1.4.3.1-x86.zip",
+			"version": "1.4.4.1",
+			"id": "0c356bc202147f8de806fa4fd676a122eb799d8d68f8c9ecfe978c6c5d91c8ab",
+			"repository": "https://github.com/vinsworldcom/nppColumnTools/releases/download/1.4.4.1/ColumnTools-v1.4.4.1-Win32.zip",
 			"description": "Notepad++ Highlight Current Column and Horizontal Ruler",
 			"author": "Vin's World",
 			"homepage": "https://github.com/vinsworldcom/nppColumnTools"
@@ -166,9 +166,9 @@
 		{
 			"folder-name": "Comment Wrap",
 			"display-name": "Comment Wrap",
-			"version": "1.0.0.3",
-			"id": "1ab851e7f468e18cdceb225eb0d1c630e35ce071c042f4c5c1f6fbc495c94c27",
-			"repository": "https://sourceforge.net/projects/kered13-notepad-plugins/files/Comment%20Wrap%20Win32%20v1.0.0.3.zip",
+			"version": "1.0.0.5",
+			"id": "8b557136493cc8339d8c16b03be561141d81af3c1ab4feb0f7fade4e2d17e555",
+			"repository": "https://sourceforge.net/projects/kered13-notepad-plugins/files/Comment%20Wrap%20Win32%20v1.0.0.5.zip",
 			"description": "Wraps comments as you type. Supports C-style, Python-style, and Lua-style comments.",
 			"author": "Derek Brown",
 			"homepage": "https://sourceforge.net/projects/kered13-notepad-plugins/"
@@ -186,9 +186,9 @@
 		{
 			"folder-name": "CSScriptNpp",
 			"display-name": "CS-Script - C# Intellisense",
-			"version": "1.7.29.0",
-			"id": "431b0634c6bcc1a02cb8facd2d7bcfde9b677309ef08fc35851146947e77549c",
-			"repository": "https://github.com/oleg-shilo/cs-script.npp/releases/download/v1.7.29.0/CSScriptNpp.1.7.29.0.x86.zip",
+			"version": "2.0.2.0",
+			"id":"57a98787f2b61666ae371f514a4825adfa308a24767b329d13374c4208ec3530",
+			"repository": "https://github.com/oleg-shilo/cs-script.npp/releases/download/v2.0.2.0/CSScriptNpp.2.0.2.0.x86.zip",
 			"description": "CS-Script integration. Implements a real C# Intellisense solution based on CS-Script and Roslyn. Allows loading, executing modifying and debugging C# scripts in a way very similar to the Visual Studio C# projects support. This includes referencing assemblies and other scripts, code formatting, adding missing namespaces and intercepting Debug and Console output.",
 			"author": "Oleg Shilo",
 			"homepage": "https://github.com/oleg-shilo/cs-script.npp"
@@ -196,9 +196,9 @@
 		{
 			"folder-name": "CSVLint",
 			"display-name": "CSV Lint",
-			"version": "0.4.5",
-			"id": "92536ea7ab88659382daf0e6b1741dad5d0c7b9bbb26f68a3266c01148254d4d",
-			"repository": "https://github.com/BdR76/CSVLint/releases/download/0.4.5/CSVLint_x86.zip",
+			"version": "0.4.5.1",
+			"id": "dae93971e85818edd6d1f02f37d58eb735529558cde9c8ffcd862d2ddde2a63f",
+			"repository": "https://github.com/BdR76/CSVLint/releases/download/0.4.5.1/CSVLint_x86.zip",
 			"description": "Syntax highlighting and quality control for csv and fixed width data, detect column and datatypes, convert datetime/decimal format, sql, xml.",
 			"author": "Bas de Reuver",
 			"homepage": "https://github.com/BdR76/CSVLint/"
@@ -206,9 +206,9 @@
 		{
 			"folder-name": "CsvQuery",
 			"display-name": "CsvQuery",
-			"version": "1.2.8",
-			"id": "8cd4a15a6de291aa1de5f61d59bc890f838a76ff9a06763ca2debb05da94b05f",
-			"repository": "https://github.com/jokedst/CsvQuery/releases/download/v1.2.8/CsvQuery-v1.2.8-x86.zip",
+			"version": "1.2.9",
+			"id": "0defb9c0bb3c2d6628a248b10f7cc0844a363ecee19ad224bf09d1797d4f906e",
+			"repository": "https://github.com/jokedst/CsvQuery/releases/download/v1.2.9/CsvQuery-v1.2.9-x86.zip",
 			"description": "Enables SQL queries against CSV files.",
 			"author": "jokedst",
 			"homepage": "https://github.com/jokedst/CsvQuery"
@@ -296,9 +296,9 @@
 		{
 			"folder-name": "DSpellCheck",
 			"display-name": "DSpellCheck",
-			"version": "1.4.23",
-			"id": "51ac857be07efaa9881c1e30b3189f2df75f03f1ce436e2b6a9069aa382cacf7",
-			"repository": "https://github.com/Predelnik/DSpellCheck/releases/download/v1.4.23/DSpellCheck_x86.zip",
+			"version": "1.4.24",
+			"id": "d037d6995b9df66bff0d1b32d40b9331cc985b01029f788619a57ae4a9e58c96",
+			"repository": "https://github.com/Predelnik/DSpellCheck/releases/download/v1.4.24/DSpellCheck_x86.zip",
 			"description": "Spell-checking with these main features:\r\n-Underlining spelling mistakes\r\n-Iterating through all mistakes in document\r\n-Finding mistakes only in comments and strings (For files with standard programming language syntax e.g. C++)\r\n-Possible usage of multiple languages (dictionaries) simultaneously to do spell-checking.\r\n-Getting suggestions for words by either using default Notepad++ menu or separate context menu called by special button appearing under word.\r\n-Able to add words to user dictionary or ignore them for current session of Notepad++\r\n-Using either Hunspell library (included in plugin) or Aspell library (needs to be installed).\r\n-A lot of customizing available from Plugin settings (Ignoring/Allowing only specific files, Choosing delimiters for words, Maximum number of suggestions etc)\r\n-Support for downloading and removing Hunspell dictionaries through user friendly GUI interface\r\n-Ability to quickly change current language through the nice menu.",
 			"author": "Sergey Semushin",
 			"homepage": "https://github.com/Predelnik/DSpellCheck"
@@ -322,6 +322,17 @@
 			"description": "Support for Elastic Tabstops.",
 			"author": "Justin Dailey",
 			"homepage": "https://github.com/dail8859/ElasticTabstops"
+		},
+		{
+			"folder-name": "EnhanceAnyLexer",
+			"display-name": "EnhanceAnyLexer",
+			"version": "0.3.0",
+			"npp-compatible-versions": "[8.4.1,]",
+			"id": "c2deb78ee46452608808f3d8af00c1bec2e6ca787be89e1c0cd17e551aa1d069",
+			"repository": "https://github.com/Ekopalypse/EnhanceAnyLexer/releases/download/v.0.3.0/EnhanceAnyLexer_x86_PluginAdmin.zip",
+			"description": "Adds more styling, colors only, options to any Lexer",
+			"author": "Ekopalypse",
+			"homepage": "https://github.com/Ekopalypse/EnhanceAnyLexer"
 		},
 		{
 			"folder-name": "ERPHelper",
@@ -406,9 +417,9 @@
 		{
 			"folder-name": "FWDataViz",
 			"display-name": "Fixed-width Data Visualizer",
-			"version": "2.4.0.2",
-			"id": "0976caac53269ee204ff09bef2ba36703f8220844e933b1ddde1a1b91db000d7",
-			"repository": "https://github.com/shriprem/FWDataViz/releases/download/v2.4.0.2/FWDataViz_x86.zip",
+			"version": "2.5.0.0",
+			"id": "bf58d832ce9ef538eafa495d2fe60eeb4b604073d5f7e660ee57acb85e572062",
+			"repository": "https://github.com/shriprem/FWDataViz/releases/download/v2.5.0.0/FWDataViz_x86.zip",
 			"description": "Fixed Width Data Visualizer adds Excel-like features for fixed-width data files in Notepad++. Displays cursor position data. Hop & Jump to specific fields. Field Copy & Field Paste. Data Extraction. Builtin dialogs to configure file-type, record-type & fields; and themes & colors. Automatic File Type Detection. Handles homogenous, mixed & multi-line records. Full Multi-byte character support. Darkmode enabled.",
 			"author": "Shridhar Kumar",
 			"homepage": "https://github.com/shriprem/FWDataViz"
@@ -456,9 +467,9 @@
 		{
 			"folder-name": "GotoLineCol",
 			"display-name": "GotoLineCol",
-			"version": "2.2.0.2",
-			"id": "53ce50ec4e4547e8fbda7e7ebddacfcd86beb775661d07a345c688e5d8a7328f",
-			"repository": "https://github.com/shriprem/Goto-Line-Col-NPP-Plugin/releases/download/v2.2.0.2/GotoLineCol_x86.zip",
+			"version": "2.3.0.0",
+			"id": "eb0e6d76d711f3a8c47467a9a69cd409914fc5e0327181385ab5c8a34b16d564",
+			"repository": "https://github.com/shriprem/Goto-Line-Col-NPP-Plugin/releases/download/v2.3.0.0/GotoLineCol_x86.zip",
 			"description": "A plugin to navigate to a specified line and (byte-based or character-based) column position. Will also display character byte code, UTF-8 byte sequence & Unicode code point at cursor position. Darkmode enabled. Command line options.",
 			"author": "Shridhar Kumar",
 			"homepage": "https://github.com/shriprem/Goto-Line-Col-NPP-Plugin"
@@ -486,9 +497,9 @@
 		{
 			"folder-name": "HTMLTag_unicode",
 			"display-name": "HTML Tag",
-			"version": "1.2.1.0",
-			"id": "983eba3040b682e23a28bf9958048f9d96b293400ac9e48c02cfcb14900910cb",
-			"repository": "https://bitbucket.org/rdipardo/htmltag/downloads/HTMLTag_v121.zip",
+			"version": "1.2.3.0",
+			"id": "6fbf651dad02b1150bb7ea8547b8aa7e66bac6592256f6b67e73c7df194bfe7f",
+			"repository": "https://bitbucket.org/rdipardo/htmltag/downloads/HTMLTag_v123.zip",
 			"description": "Provides three core functions:\r\n- HTML and XML tag jumping, like the built-in brace matching (Ctrl+B / Shift+Ctrl+B), and selection\r\n of tags and/or contents.\r\n- HTML entity encoding/decoding (example: é to &eacute;)\r\n- JS character encoding/decoding (example: é to \\u00E9)",
 			"author": "Martijn Coppoolse",
 			"homepage": "https://bitbucket.org/rdipardo/htmltag/"
@@ -586,9 +597,9 @@
 		{
 			"folder-name": "JSMinNPP",
 			"display-name": "JSTool",
-			"version": "1.2202.0",
-			"id": "277ac426289f471c976c4673c832a7e37cd43aa8aff3c41be101df0b5a20b7c0",
-			"repository": "https://sourceforge.net/projects/jsminnpp/files/Uni/JSToolNPP.1.2202.0.uni.32.zip",
+			"version": "1.2205.0",
+			"id": "a5e6c812f0d53159e0099acede148cb2f2fa71dcd9567b2d73cb4acde31c28f7",
+			"repository": "https://sourceforge.net/projects/jsminnpp/files/Uni/JSToolNPP.1.2205.0.uni.32.zip",
 			"description": "Javascript plugin.\r\n * Douglas Crockford's JSMin algorithm to minimize javascript code.\r\n * My own algorithm to format javascript code.\r\n * A JSON data viewer. This JSON data viewer can handle >10MB JSON file easily.\r\n * Support 64bit Notepad++ (from version 1.20.0).\r\nReally helpful to javascript coder on Notepad++ and really easy to use it.\r\nMade in China.",
 			"author": "Sun Junwen",
 			"homepage": "https://github.com/sunjw/jstoolnpp"
@@ -666,9 +677,9 @@
 		{
 			"folder-name": "NppMarkdownPanel",
 			"display-name": "Markdown Panel",
-			"version": "0.5.0",
-			"id": "3c8ea98428555e1b66309f9cb6041805adf82606539c983e07a354c79cfa4585",
-			"repository": "https://github.com/mohzy83/NppMarkdownPanel/releases/download/0.5.0/NppMarkdownPanel-0.5.0.0-x86.zip",
+			"version": "0.6.1",
+			"id": "1706c6c82d72fd70ba2a24b52de7b919a8000e56668fd1e5d71d71d44d6f9ea3",
+			"repository": "https://github.com/mohzy83/NppMarkdownPanel/releases/download/0.6.1/NppMarkdownPanel-0.6.1.0-x86.zip",
 			"description": "Lightweight plugin to preview Markdown files with a good default style.",
 			"author": "Mohzy83",
 			"homepage": "https://github.com/mohzy83/NppMarkdownPanel"
@@ -706,9 +717,10 @@
 		{
 			"folder-name": "mimeTools",
 			"display-name": "Mime tools",
-			"version": "2.7",
-			"id": "b65fbfaa15b443131eb69188069cacbff04eca66e0cb84130631303a1d3895f8",
-			"repository": "https://github.com/npp-plugins/mimetools/releases/download/v2.7/mimetools.v2.7.zip",
+			"version": "2.8",
+			"npp-compatible-versions": "[8.4,]",
+			"id": "551e46d64e953fd9d9e7d4ab7e01a69fd4deadd13238ac6a093bcb877726ed07",
+			"repository": "https://github.com/npp-plugins/mimetools/releases/download/v2.8/mimetools.v2.8.zip",
 			"description": "Implements several main functionalities defined in MIME (Multipurpose Internet Mail Extensions).",
 			"author": "Don HO",
 			"homepage": "https://github.com/npp-plugins/mimetools"
@@ -756,10 +768,10 @@
 		{
 			"folder-name": "NavigateTo",
 			"display-name": "NavigateTo",
-			"version": "1.12.3",
-			"id": "a51577492c0f134032c7470e00d8015fae28cacf6f82c4b4c32535022e9e6227",
-			"repository": "https://github.com/young-developer/nppNavigateTo/releases/download/1.12.4/NavigateTo_x32.zip",
-			"description": "Do you have more then 10 open tabs? Then this plugin is for you.\r\nNew and efficient way to quickly navigate between tabs (files). Allows you to search for a symbol or filename, filepath by matching against a keyword you type, and get a real-time preview while going through the search results with the Shift key.\r\nAnd YES, you can uncheck the Multi-line option, in the Preferences &gt; General &gt; Tab Bar zone because you don’t need the multi-lines tab feature anymore :)\r\nAuthor: Oleksii Maryshchenko\r\nEmail: young_developer@mail.ru",
+			"version": "1.12.7.0",
+			"id": "55f4278aa448508a04416e3a6cf853c0caa094bf0245707020b21ce25cd1024b",
+			"repository": "https://github.com/young-developer/nppNavigateTo/releases/download/v.1.12.7/NavigateTo_v.1.12.7_v142_x86.zip",
+			"description": "Do you have more then 10 open tabs? Then this plugin is for you.\r\nNew and efficient way to quickly navigate between tabs (files). Allows you to search for a symbol or filename, filepath by matching against a keyword you type, and get a real-time preview while going through the search results with the Shift key.\r\nAnd YES, you can uncheck the Multi-line option, in the Preferences &gt; General &gt; Tab Bar zone because you don’t need the multi-lines tab feature anymore :)\r\nAuthor: Oleksii Maryshchenko\r\nEmail: oleksii.maryshchenko@gmail.com",
 			"author": "Oleksii Maryshchenko",
 			"homepage": "https://github.com/young-developer/nppNavigateTo"
 		},
@@ -916,9 +928,9 @@
 		{
 			"folder-name": "NppFTP",
 			"display-name": "NppFTP",
-			"version": "0.29.8",
-			"id": "7ec43dea40155b685fe51915132bcdd5302869e0bcb0a4b9da4dda5ff6e28c86",
-			"repository": "https://github.com/ashkulz/NppFTP/releases/download/v0.29.8/NppFTP-x86.zip",
+			"version": "0.29.9",
+			"id": "82c72f1bbd9fe1e08d2cd3bf7f1da934aedd1a79bf4afd645e7230eb1a86a08e",
+			"repository": "https://github.com/ashkulz/NppFTP/releases/download/v0.29.9/NppFTP-x86.zip",
 			"description": "Allows FTP, FTPS, FTPES, and SFTP communications. Very useful for web development.",
 			"author": "ashish_kulz",
 			"homepage": "https://ashkulz.github.io/NppFTP/"
@@ -1054,6 +1066,17 @@
 			"homepage": "https://www.incrediblejunior.com/npp_plugins/"
 		},
 		{
+			"folder-name": "NWScript-Npp",
+			"display-name": "NWScript Tools",
+			"version": "1.0.3.1950",
+			"npp-compatible-versions": "[8.3,]",
+			"id": "2b4cfd6993f9b71d6be09216f75ad9ef4e7b86e067ab2559c3bfad1d4c2b3d77",
+			"repository": "https://github.com/Leonard-The-Wise/NWScript-Npp/releases/download/v1.0.3/nwscript-npp.v1.0.3-x86.zip",
+			"description": "View, edit and compile Bioware's NWScript files with this plugin. Use customized color-syntax for your personalized tokens and also for engine-defined ones. Can disassemble compiled scripts and build makefile dependencies. Also has a feature to process files in configurable batches.",
+			"author": "Leonard-The-Wise",
+			"homepage": "https://github.com/Leonard-The-Wise/NWScript-Npp"
+		},
+		{
 			"folder-name": "OpenSelection",
 			"display-name": "OpenSelection",
 			"version": "1.1.3.0",
@@ -1066,9 +1089,9 @@
 		{
 			"folder-name": "Papyrus",
 			"display-name": "Papyrus Script Lexer",
-			"version": "0.3.0.24",
-			"id": "8f82500d6d4686c119cac769a46d090944e44a7428a1d5073d581a65701f61aa",
-			"repository": "https://github.com/blu3mania/npp-papyrus/releases/download/v0.3.0/PapyrusPlugin-v0.3.0-x86.zip",
+			"version": "0.4.0.27",
+			"id": "619f7ac822d5fecee375d05e282728da906c2e7f9f74c1bacfd11beee431dca1",
+			"repository": "https://github.com/blu3mania/npp-papyrus/releases/download/v0.4.0/PapyrusPlugin-v0.4.0-x86.zip",
 			"description": "View and edit Papyrus Script files used by Bethesda games with syntax highlighting, function and block folding, hyperlinks to referenced scripts, keywords matching, plus compilation support with anonymized output and error list view.",
 			"author": "blu3mania",
 			"homepage": "https://github.com/blu3mania/npp-papyrus"
@@ -1082,6 +1105,17 @@
 			"description": "Implements code completion for custom PHP classes. Keeps an overview over your classes' attributes &amp; methods in a nice popup!\r\nA popup window appears after typing the \"-&gt;\" or \"::\" behind a class or an instantiated object variable which displays all attributes and methods of it's class. As soon as the popup appears you can type in the name of the method or attribute you are looking for and the plugin will select it in the list automatically. Hitting [return] or double clicking the entry will insert the name of the property to your script. Additionally, there is a list with all classes and their properties in a dockable window. Double-clicking this entry opens their file &amp; jumps right to the declaration. The list also offers a quick search function.",
 			"author": "Stanislav Eckert",
 			"homepage": "https://github.com/StanDog/npp-phpautocompletion"
+		},
+		{
+			"folder-name": "PlantUmlViewer",
+			"display-name": "PlantUML Viewer",
+			"version": "1.1.1.5",
+			"npp-compatible-versions": "[8.3,]",
+			"id": "16c69bffcdcdf7cba61352ee7b2802d88aa177d277b278d869e6b576ecbde42b",
+			"repository": "https://github.com/Fruchtzwerg94/PlantUmlViewer/releases/download/1.1.1.5/PlantUmlViewer_v1.1.1.5_x86.zip",
+			"description": "A Notepad++ plugin to generate view and export PlantUML diagrams.",
+			"author": "Philipp Schmidt",
+			"homepage": "https://github.com/Fruchtzwerg94/PlantUmlViewer"
 		},
 		{
 			"folder-name": "PoorMansTSqlFormatterNppPlugin",
@@ -1126,9 +1160,9 @@
 		{
 			"folder-name": "Python Indent",
 			"display-name": "Python Indent",
-			"version": "1.0.0.3",
-			"id": "cf731dd33e7a0077d3bca5f32371d50718375f8cd4f491c12bebd49ca6970862",
-			"repository": "https://sourceforge.net/projects/kered13-notepad-plugins/files/Python%20Indent%20Win32%20v1.0.0.3.zip",
+			"version": "1.0.0.4",
+			"id": "ceef38255c06cc20acb7b4a3fedcc8e88f0cc83700fd7fe89ba8cb5a258cca0d",
+			"repository": "https://sourceforge.net/projects/kered13-notepad-plugins/files/Python%20Indent%20Win32%20v1.0.0.4.zip",
 			"description": "Python auto-indent plugin.",
 			"author": "Derek Brown",
 			"homepage": "https://sourceforge.net/projects/kered13-notepad-plugins/"
@@ -1536,9 +1570,9 @@
 		{
 			"folder-name": "urlPlugin",
 			"display-name": "URL Encode/Decode Plugin",
-			"version": "1.1.0.0",
-			"id": "b016bcf657884a43cd31ed7d022c51296db93ec303896a7c8ae83f2d510ea808",
-			"repository": "https://github.com/SinghRajenM/nppURLPlugin/releases/download/1.1.0.0/urlPlugin_x86.zip",
+			"version": "1.2.0.0",
+			"id": "6ab0ed27036f40eccc529ce6aa4373b2ddf71a39a4133d1243cb1e158f9b3dd8",
+			"repository": "https://github.com/SinghRajenM/nppURLPlugin/releases/download/1.2.0.0/urlPlugin_x86.zip",
 			"description": "Hopefully a decent URL Encoder and Decoder plug-in for Notepad++ which helps to make developer's life easier by providing facility to encode/decode the URL within Notepad++. \r\n\r\nHow it works:\r\n1. Configure setting from menu (Plugins->URL Plugin->URL Plugin Settings). It is not mandatory, but recommended.\r\n2. Select text/URL which you want to encode/decode.\r\n3. Perform your task via Plugins->URL Plugin->Encode/Decode URL.\r\n\r\n",
 			"author": "Rajendra Singh",
 			"homepage": "https://github.com/SinghRajenM/nppURLPlugin"
@@ -1546,12 +1580,12 @@
 		{
 			"folder-name": "VisualStudioLineCopy",
 			"display-name": "Visual Studio Line Copy",
-			"version": "1.0.0.1",
-			"id": "65bb55f0b3e209ef9262fdb26a28606ecc6a3f8fb1878b827d190d9da7859287",
-			"repository": "https://sourceforge.net/projects/notepad-visualstudiolinecopy/files/VisualStudioLineCopy%20Win32%20v1.0.0.1.zip",
+			"version": "1.0.0.2",
+			"id": "f50568de4a488f37667b93b6b6a14a95165a3bd5636e8f4bcbcab586d95df95e",
+			"repository": "https://sourceforge.net/projects/notepad-visualstudiolinecopy/files/VisualStudioLineCopy%20Win32%20v1.0.0.2.zip",
 			"description": "Adds two commands to Notepad++ CopyAllowLine and CutAllowLine, which adds Visual Studio style copy/cutting to Notepad++.",
 			"author": "Mackenzie Zastrow (forked by Derek Brown)",
-			"homepage": "https://sourceforge.net/projects/kered13-notepad-plugins/"
+			"homepage": "https://sourceforge.net/projects/notepad-visualstudiolinecopy/"
 		},
 		{
 			"folder-name": "WakaTime",
@@ -1606,9 +1640,9 @@
 		{
 			"folder-name": "XMLTools",
 			"display-name": "XML Tools",
-			"version": "3.1.1.12",
-			"id": "d573fe666815c28fb0e394a0809b400765008cbc3c2172aca1ae516026a8aa6f",
-			"repository": "https://github.com/morbac/xmltools/releases/download/3.1.1.12/XMLTools-3.1.1.12-x86.zip",
+			"version": "3.1.1.13",
+			"id": "9521d91be847a9c9fcfc6cb6ea5455fd7dfe840f4f12a8fd95e5137116dbd6c3",
+			"repository": "https://github.com/morbac/xmltools/releases/download/3.1.1.13/XMLTools-3.1.1.13-x86.zip",
 			"description": "Small set of useful tools for editing XML. Plugin is MSXML-based. The features are:\r\n- XML syntax Check\r\n- XML Schema (XSD) + DTD Validation\r\n- XML tag autoclose\r\n- Pretty print\n- Linarize XML\r\n- Current XML Path\r\n- Conversion XML &amp;lt;-&amp;gt; Text\n- Comment / Uncomment\r\n- XPath expression evaluation",
 			"author": "Nicolas Crittin",
 			"homepage": "https://github.com/morbac/xmltools"

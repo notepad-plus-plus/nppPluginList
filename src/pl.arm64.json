@@ -1,6 +1,6 @@
 {
 	"name": "npp-pluginList",
-	"version": "1.4.8",
+	"version": "1.5",
 	"arch": "arm64",
 	"npp-plugins": [
 		{
@@ -16,9 +16,9 @@
 		{
 			"folder-name": "FWDataViz",
 			"display-name": "Fixed-width Data Visualizer",
-			"version": "2.4.0.2",
-			"id": "fd8d387bfe1df4b3ce9ebdf5c5d931c89e38874719157de0c474e385fea01829",
-			"repository": "https://github.com/shriprem/FWDataViz/releases/download/v2.4.0.2/FWDataViz_arm64.zip",
+			"version": "2.5.0.0",
+			"id": "f884ce1c7dee100064959716cf77696c8017ab83a350bbd19af462e2537f6e18",
+			"repository": "https://github.com/shriprem/FWDataViz/releases/download/v2.5.0.0/FWDataViz_arm64.zip",
 			"description": "Fixed Width Data Visualizer adds Excel-like features for fixed-width data files in Notepad++. Displays cursor position data. Hop & Jump to specific fields. Field Copy & Field Paste. Data Extraction. Builtin dialogs to configure file-type, record-type & fields; and themes & colors. Automatic File Type Detection. Handles homogenous, mixed & multi-line records. Full Multi-byte character support. Darkmode enabled.",
 			"author": "Shridhar Kumar",
 			"homepage": "https://github.com/shriprem/FWDataViz"
@@ -26,9 +26,9 @@
 		{
 			"folder-name": "GotoLineCol",
 			"display-name": "GotoLineCol",
-			"version": "2.2.0.2",
-			"id": "6b2e6a925ea8024d1ebd488e15946a020bd12d3364e4bbf1c53ba5fe1277ced0",
-			"repository": "https://github.com/shriprem/Goto-Line-Col-NPP-Plugin/releases/download/v2.2.0.2/GotoLineCol_arm64.zip",
+			"version": "2.3.0.0",
+			"id": "dd66635ccb8c8f7b7a2dc39d26c4435a909c5cd3fce5103850f57595c0ee3196",
+			"repository": "https://github.com/shriprem/Goto-Line-Col-NPP-Plugin/releases/download/v2.3.0.0/GotoLineCol_arm64.zip",
 			"description": "A plugin to navigate to a specified line and (byte-based or character-based) column position. Will also display character byte code, UTF-8 byte sequence & Unicode code point at cursor position. Darkmode enabled. Command line options.",
 			"author": "Shridhar Kumar",
 			"homepage": "https://github.com/shriprem/Goto-Line-Col-NPP-Plugin"
@@ -46,9 +46,10 @@
 		{
 			"folder-name": "mimeTools",
 			"display-name": "Mime tools",
-			"version": "2.7",
-			"id": "22f8f1eadcc8342cc266bb83be08cfa1dd4e9ad8a7c0fd6b96ad9e589c0c7183",
-			"repository": "https://github.com/npp-plugins/mimetools/releases/download/v2.7/mimetools.v2.7.arm64.zip",
+			"version": "2.8",
+			"npp-compatible-versions": "[8.4,]",
+			"id": "32d87bda3d8e64fa9e83b415313e7643aa259b792d1ec9687a8647327523dcb1",
+			"repository": "https://github.com/npp-plugins/mimetools/releases/download/v2.8/mimetools.v2.8.arm64.zip",
 			"description": "Implements several main functionalities defined in MIME (Multipurpose Internet Mail Extensions).",
 			"author": "Don HO",
 			"homepage": "https://github.com/npp-plugins/mimetools"
@@ -162,6 +163,16 @@
 			"description": "Automatically scans the open document and adds all \"TODO:*\" items to your task list, a window pane docked on the right. Double-clicking an item in the list will take you to that line in the code.",
 			"author": "blitowitz",
 			"homepage": "https://code.google.com/p/npp-task-list/"
+		},
+		{
+			"folder-name": "urlPlugin",
+			"display-name": "URL Encode/Decode Plugin",
+			"version": "1.2.0.0",
+			"id": "2359ca7264b6670217c5b427a166c9e0f0260a777ae0956b550c88734aa424f6",
+			"repository": "https://github.com/SinghRajenM/nppURLPlugin/releases/download/1.2.0.0/urlPlugin_arm64.zip",
+			"description": "Hopefully a decent URL Encoder and Decoder plug-in for Notepad++ which helps to make developer's life easier by providing facility to encode/decode the URL within Notepad++. \r\n\r\nHow it works:\r\n1. Configure setting from menu (Plugins->URL Plugin->URL Plugin Settings). It is not mandatory, but recommended.\r\n2. Select text/URL which you want to encode/decode.\r\n3. Perform your task via Plugins->URL Plugin->Encode/Decode URL.\r\n\r\n",
+			"author": "Rajendra Singh",
+			"homepage": "https://github.com/SinghRajenM/nppURLPlugin"
 		}
 	]
 }
