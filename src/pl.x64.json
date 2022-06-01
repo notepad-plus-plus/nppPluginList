@@ -249,7 +249,7 @@
 			"version": "1.3.213.1",
 			"id": "c1aa5528e1dd600cbfffe605272f8de157d9a0ec590a2ad3cd97a3fea9e5e8b3",
 			"repository": "https://github.com/Zukaritasu/notepadpp_rpc/releases/download/v1.3/DiscordRPC_v1.3_x86_64.zip",
-			"description": "Shows in discord the file that is currently being edited in Nopetad++.",
+			"description": "Shows in discord the file that is currently being edited in Notepad++.",
 			"author": "Zukaritasu",
 			"homepage": "https://github.com/Zukaritasu/notepadpp_rpc"
 		},
