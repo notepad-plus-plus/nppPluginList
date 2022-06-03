@@ -199,7 +199,7 @@
 			"version": "0.4.5.2",
 			"id": "a9f2ff97845e329bff99238c51c1f02c5f846b6e51d481f09ba36063e066dfc6",
 			"repository": "https://github.com/BdR76/CSVLint/releases/download/0.4.5.2/CSVLint_x86.zip",
-			"description": "Syntax highlighting and quality control for csv and fixed width data, detect column and datatypes, convert datetime/decimal format, sql, xml.",
+			"description": "Syntax highlighting and quality control for csv and fixed width data, detect column and datatypes, convert datetime/decimal format, sql, xml",
 			"author": "Bas de Reuver",
 			"homepage": "https://github.com/BdR76/CSVLint/"
 		},
