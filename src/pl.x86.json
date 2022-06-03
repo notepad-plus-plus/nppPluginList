@@ -26,9 +26,9 @@
 		{
 			"folder-name": "AnalysePlugin",
 			"display-name": "AnalysePlugin",
-			"version": "1.12.47.0",
-			"id": "c69cad59f94529b6a41e258bb08aa280b9a0ac61b9d2d98f8e399d4a97062d74",
-			"repository": "https://sourceforge.net/projects/analyseplugin/files/binaries/v01.12-R47/AnalysePlugin-v1.12-R47-x86.zip",
+			"version": "1.13.49.0",
+			"id": "bfcc0994824c80703f491b2ce8907f1bd54936e27795442cd0c6634f782ed61c",
+			"repository": "https://sourceforge.net/projects/analyseplugin/files/binaries/v01.13-R49/AnalysePlugin-v01.13-R49-x86.zip",
 			"description": "AnalysePlugin will help you to search for more than one search pattern at a time. Great for analysing big log files...\r\nLast changes and how to use you will find in Help... in Plugins Menu.",
 			"author": "Mattes H.",
 			"homepage": "https://sourceforge.net/projects/analyseplugin"
