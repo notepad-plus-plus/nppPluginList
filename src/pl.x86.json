@@ -948,9 +948,11 @@
 		{
 			"folder-name": "NppGTags",
 			"display-name": "NppGTags",
-			"version": "4.5.0",
-			"id": "5ee40e46cb8649b85bebf69682e6e65580d1a8a16420b0529626db4ea33f0ee2",
-			"repository": "https://github.com/pnedev/nppgtags/releases/download/v4.5.0/NppGTags_v4.5.0_x86.zip",
+			"version": "5.0.0",
+			"npp-compatible-versions": "[8.4.1,]",
+			"old-versions-compatibility": "[,4.5.0][,8.3.3]",
+			"id": "4e1823b08af486017d7b4a38ed8f0904300ee163014b36effc8a7603e4719094",
+			"repository": "https://github.com/pnedev/nppgtags/releases/download/v5.0.0/NppGTags_v5.0.0_x86.zip",
 			"description": "Front-end to GNU Global source code tagging system (GTags). Provides code indexing and search/navigation tools for various languages.",
 			"author": "Pavel Nedev",
 			"homepage": "https://github.com/pnedev/nppgtags"
