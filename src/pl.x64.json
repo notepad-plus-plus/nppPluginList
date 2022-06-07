@@ -205,9 +205,9 @@
 		{
 			"folder-name": "CSVLint",
 			"display-name": "CSV Lint",
-			"version": "0.4.5.1",
-			"id": "872a775cd8753ff31f3239a24888c9bd3012c43b279dd6b91501cf4622f53dc3",
-			"repository": "https://github.com/BdR76/CSVLint/releases/download/0.4.5.1/CSVLint_x64.zip",
+			"version": "0.4.5.2",
+			"id": "a43cd969720b52d6306bd7d670dc1201653d6b2fa1d89d8cfc83ec38c3c39216",
+			"repository": "https://github.com/BdR76/CSVLint/releases/download/0.4.5.2/CSVLint_x64.zip",
 			"description": "Syntax highlighting and quality control for csv and fixed width data, detect column and datatypes, convert datetime/decimal format, sql, xml",
 			"author": "Bas de Reuver",
 			"homepage": "https://github.com/BdR76/CSVLint/"
@@ -249,7 +249,7 @@
 			"version": "1.3.213.1",
 			"id": "c1aa5528e1dd600cbfffe605272f8de157d9a0ec590a2ad3cd97a3fea9e5e8b3",
 			"repository": "https://github.com/Zukaritasu/notepadpp_rpc/releases/download/v1.3/DiscordRPC_v1.3_x86_64.zip",
-			"description": "Shows in discord the file that is currently being edited in Nopetad++.",
+			"description": "Shows in discord the file that is currently being edited in Notepad++.",
 			"author": "Zukaritasu",
 			"homepage": "https://github.com/Zukaritasu/notepadpp_rpc"
 		},
@@ -350,11 +350,11 @@
 		{
 			"folder-name": "FWDataViz",
 			"display-name": "Fixed-width Data Visualizer",
-			"version": "2.5.0.0",
-			"npp-compatible-versions": "[8.3,]",
+			"version": "2.5.1.0",
+			"npp-compatible-versions": "[8.4.1,]",
 			"old-versions-compatibility": "[,2.4.0.1][8,8.2.1]",
-			"id": "7f153985d5dd80495b5d6d72fe5960a4c17edff07dab7e53122fc805c4a09364",
-			"repository": "https://github.com/shriprem/FWDataViz/releases/download/v2.5.0.0/FWDataViz_x64.zip",
+			"id": "4735eac2f5ea2209a3e97b2c0c90bbcb865ed0b5bc264ee2f43b0002ce4675f8",
+			"repository": "https://github.com/shriprem/FWDataViz/releases/download/v2.5.1.0/FWDataViz_x64.zip",
 			"description": "Fixed Width Data Visualizer adds Excel-like features for fixed-width data files in Notepad++. Displays cursor position data. Hop & Jump to specific fields. Field Copy & Field Paste. Data Extraction. Builtin dialogs to configure file-type, record-type & fields; and themes & colors. Automatic File Type Detection. Handles homogenous, mixed & multi-line records. Full Multi-byte character support. Darkmode enabled.",
 			"author": "Shridhar Kumar",
 			"homepage": "https://github.com/shriprem/FWDataViz"
@@ -382,11 +382,11 @@
 		{
 			"folder-name": "GotoLineCol",
 			"display-name": "GotoLineCol",
-			"version": "2.3.0.0",
-			"npp-compatible-versions": "[8.3,]",
+			"version": "2.4.0.0",
+			"npp-compatible-versions": "[8.4.2,]",
 			"old-versions-compatibility": "[,2.2.0.1][,8.2.1]",
-			"id": "1c57c4b9e3cbad8940508c6b27532800c56e8be86cb7168d0099d5a2bdd17488",
-			"repository": "https://github.com/shriprem/Goto-Line-Col-NPP-Plugin/releases/download/v2.3.0.0/GotoLineCol_x64.zip",
+			"id": "983b94f8e4f3031148338d2eb6510cacf28fe519f9af948efc243095ffd2dda2",
+			"repository": "https://github.com/shriprem/Goto-Line-Col-NPP-Plugin/releases/download/v2.4.0.0/GotoLineCol_x64.zip",
 			"description": "A plugin to navigate to a specified line and (byte-based or character-based) column position. Will also display character byte code, UTF-8 byte sequence & Unicode code point at cursor position. Darkmode enabled. Command line options.",
 			"author": "Shridhar Kumar",
 			"homepage": "https://github.com/shriprem/Goto-Line-Col-NPP-Plugin"
@@ -549,9 +549,9 @@
 		{
 			"folder-name": "NppMarkdownPanel",
 			"display-name": "Markdown Panel",
-			"version": "0.6.1",
-			"id": "bfc46666ffdc0bc7311d6b9962ab809a667862239038172b03dcddc860e74c0c",
-			"repository": "https://github.com/mohzy83/NppMarkdownPanel/releases/download/0.6.1/NppMarkdownPanel-0.6.1.0-x64.zip",
+			"version": "0.6.2",
+			"id": "e5205e2a3975b0ff219eeca9aa5949143742772c69521ad6458f8c9d140e9426",
+			"repository": "https://github.com/mohzy83/NppMarkdownPanel/releases/download/0.6.2/NppMarkdownPanel-0.6.2.0-x64.zip",
 			"description": "Lightweight plugin to preview Markdown files with a good default style.",
 			"author": "Mohzy83",
 			"homepage": "https://github.com/mohzy83/NppMarkdownPanel"
@@ -794,9 +794,11 @@
 		{
 			"folder-name": "NppGTags",
 			"display-name": "NppGTags",
-			"version": "4.5.0",
-			"id": "316c188fa5537c6385185e3cdcd2f6c38b9db17a611651587769283ec3e1a9c2",
-			"repository": "https://github.com/pnedev/nppgtags/releases/download/v4.5.0/NppGTags_v4.5.0_x64.zip",
+			"version": "5.0.0",
+			"npp-compatible-versions": "[8.4.1,]",
+			"old-versions-compatibility": "[,4.5.0][,8.3.3]",
+			"id": "84024d143a6ae36e8f0be3f25389657b68f17c76af4e87a503662760f27bd062",
+			"repository": "https://github.com/pnedev/nppgtags/releases/download/v5.0.0/NppGTags_v5.0.0_x64.zip",
 			"description": "Front-end to GNU Global source code tagging system (GTags). Provides code indexing and search/navigation tools for various languages.",
 			"author": "Pavel Nedev",
 			"homepage": "https://github.com/pnedev/nppgtags"
