@@ -1,6 +1,6 @@
 {
 	"name": "npp-pluginList",
-	"version": "1.4.9",
+	"version": "1.5",
 	"arch": "32",
 	"npp-plugins": [
 		{
@@ -26,9 +26,9 @@
 		{
 			"folder-name": "AnalysePlugin",
 			"display-name": "AnalysePlugin",
-			"version": "1.12.47.0",
-			"id": "c69cad59f94529b6a41e258bb08aa280b9a0ac61b9d2d98f8e399d4a97062d74",
-			"repository": "https://sourceforge.net/projects/analyseplugin/files/binaries/v01.12-R47/AnalysePlugin-v1.12-R47-x86.zip",
+			"version": "1.13.49.0",
+			"id": "a5ffe695a7ffc49983ef55a4d5705c522acb12ab7491476639b292ed411b1162",
+			"repository": "https://sourceforge.net/projects/analyseplugin/files/binaries/v01.13-R49/AnalysePlugin-v01.13-R49-x86.zip",
 			"description": "AnalysePlugin will help you to search for more than one search pattern at a time. Great for analysing big log files...\r\nLast changes and how to use you will find in Help... in Plugins Menu.",
 			"author": "Mattes H.",
 			"homepage": "https://sourceforge.net/projects/analyseplugin"
@@ -196,10 +196,10 @@
 		{
 			"folder-name": "CSVLint",
 			"display-name": "CSV Lint",
-			"version": "0.4.5.1",
-			"id": "dae93971e85818edd6d1f02f37d58eb735529558cde9c8ffcd862d2ddde2a63f",
-			"repository": "https://github.com/BdR76/CSVLint/releases/download/0.4.5.1/CSVLint_x86.zip",
-			"description": "Syntax highlighting and quality control for csv and fixed width data, detect column and datatypes, convert datetime/decimal format, sql, xml.",
+			"version": "0.4.5.2",
+			"id": "a9f2ff97845e329bff99238c51c1f02c5f846b6e51d481f09ba36063e066dfc6",
+			"repository": "https://github.com/BdR76/CSVLint/releases/download/0.4.5.2/CSVLint_x86.zip",
+			"description": "Syntax highlighting and quality control for csv and fixed width data, detect column and datatypes, convert datetime/decimal format, sql, xml",
 			"author": "Bas de Reuver",
 			"homepage": "https://github.com/BdR76/CSVLint/"
 		},
@@ -259,7 +259,7 @@
 			"version": "1.3.213.1",
 			"id": "fdb443f36ffd3e2a528bad1cbd43b6e4d12d7b055479eb9ce76e8c37792d4568",
 			"repository": "https://github.com/Zukaritasu/notepadpp_rpc/releases/download/v1.3/DiscordRPC_v1.3_x86.zip",
-			"description": "Shows in discord the file that is currently being edited in Nopetad++.",
+			"description": "Shows in discord the file that is currently being edited in Notepad++.",
 			"author": "Zukaritasu",
 			"homepage": "https://github.com/Zukaritasu/notepadpp_rpc"
 		},
@@ -417,9 +417,9 @@
 		{
 			"folder-name": "FWDataViz",
 			"display-name": "Fixed-width Data Visualizer",
-			"version": "2.5.0.0",
-			"id": "bf58d832ce9ef538eafa495d2fe60eeb4b604073d5f7e660ee57acb85e572062",
-			"repository": "https://github.com/shriprem/FWDataViz/releases/download/v2.5.0.0/FWDataViz_x86.zip",
+			"version": "2.5.1.0",
+			"id": "c1806e444cb3be36bdd57c17623f873227e8d0f4cec6ed2917c176e2c36d14ac",
+			"repository": "https://github.com/shriprem/FWDataViz/releases/download/v2.5.1.0/FWDataViz_x86.zip",
 			"description": "Fixed Width Data Visualizer adds Excel-like features for fixed-width data files in Notepad++. Displays cursor position data. Hop & Jump to specific fields. Field Copy & Field Paste. Data Extraction. Builtin dialogs to configure file-type, record-type & fields; and themes & colors. Automatic File Type Detection. Handles homogenous, mixed & multi-line records. Full Multi-byte character support. Darkmode enabled.",
 			"author": "Shridhar Kumar",
 			"homepage": "https://github.com/shriprem/FWDataViz"
@@ -467,9 +467,9 @@
 		{
 			"folder-name": "GotoLineCol",
 			"display-name": "GotoLineCol",
-			"version": "2.3.0.0",
-			"id": "eb0e6d76d711f3a8c47467a9a69cd409914fc5e0327181385ab5c8a34b16d564",
-			"repository": "https://github.com/shriprem/Goto-Line-Col-NPP-Plugin/releases/download/v2.3.0.0/GotoLineCol_x86.zip",
+			"version": "2.4.0.0",
+			"id": "50d34b8b023eefb23aee625989c0b9dc1e407ec9105b036050c685fc6f40f0f3",
+			"repository": "https://github.com/shriprem/Goto-Line-Col-NPP-Plugin/releases/download/v2.4.0.0/GotoLineCol_x86.zip",
 			"description": "A plugin to navigate to a specified line and (byte-based or character-based) column position. Will also display character byte code, UTF-8 byte sequence & Unicode code point at cursor position. Darkmode enabled. Command line options.",
 			"author": "Shridhar Kumar",
 			"homepage": "https://github.com/shriprem/Goto-Line-Col-NPP-Plugin"
@@ -677,9 +677,9 @@
 		{
 			"folder-name": "NppMarkdownPanel",
 			"display-name": "Markdown Panel",
-			"version": "0.6.1",
-			"id": "1706c6c82d72fd70ba2a24b52de7b919a8000e56668fd1e5d71d71d44d6f9ea3",
-			"repository": "https://github.com/mohzy83/NppMarkdownPanel/releases/download/0.6.1/NppMarkdownPanel-0.6.1.0-x86.zip",
+			"version": "0.6.2",
+			"id": "3611e7533ff5b41d8f0d528ddc60d2771a6d9e1d4b1028aab181dd1f1cded7e0",
+			"repository": "https://github.com/mohzy83/NppMarkdownPanel/releases/download/0.6.2/NppMarkdownPanel-0.6.2.0-x86.zip",
 			"description": "Lightweight plugin to preview Markdown files with a good default style.",
 			"author": "Mohzy83",
 			"homepage": "https://github.com/mohzy83/NppMarkdownPanel"
@@ -948,9 +948,11 @@
 		{
 			"folder-name": "NppGTags",
 			"display-name": "NppGTags",
-			"version": "4.5.0",
-			"id": "5ee40e46cb8649b85bebf69682e6e65580d1a8a16420b0529626db4ea33f0ee2",
-			"repository": "https://github.com/pnedev/nppgtags/releases/download/v4.5.0/NppGTags_v4.5.0_x86.zip",
+			"version": "5.0.0",
+			"npp-compatible-versions": "[8.4.1,]",
+			"old-versions-compatibility": "[,4.5.0][,8.3.3]",
+			"id": "4e1823b08af486017d7b4a38ed8f0904300ee163014b36effc8a7603e4719094",
+			"repository": "https://github.com/pnedev/nppgtags/releases/download/v5.0.0/NppGTags_v5.0.0_x86.zip",
 			"description": "Front-end to GNU Global source code tagging system (GTags). Provides code indexing and search/navigation tools for various languages.",
 			"author": "Pavel Nedev",
 			"homepage": "https://github.com/pnedev/nppgtags"
