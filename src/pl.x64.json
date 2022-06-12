@@ -351,11 +351,11 @@
 		{
 			"folder-name": "FWDataViz",
 			"display-name": "Fixed-width Data Visualizer",
-			"version": "2.5.1.0",
+			"version": "2.5.3.0",
 			"npp-compatible-versions": "[8.4.1,]",
 			"old-versions-compatibility": "[,2.4.0.1][8,8.2.1]",
-			"id": "4735eac2f5ea2209a3e97b2c0c90bbcb865ed0b5bc264ee2f43b0002ce4675f8",
-			"repository": "https://github.com/shriprem/FWDataViz/releases/download/v2.5.1.0/FWDataViz_x64.zip",
+			"id": "14c6b389ff6529795c61b2174d62fd3ab512eafe00ed1673d691a16dee2dfbf0",
+			"repository": "https://github.com/shriprem/FWDataViz/releases/download/v2.5.3.0/FWDataViz_x64.zip",
 			"description": "Fixed Width Data Visualizer adds Excel-like features for fixed-width data files in Notepad++. Displays cursor position data. Hop & Jump to specific fields. Field Copy & Field Paste. Data Extraction. Builtin dialogs to configure file-type, record-type & fields; and themes & colors. Automatic File Type Detection. Handles homogenous, mixed & multi-line records. Full Multi-byte character support. Darkmode enabled.",
 			"author": "Shridhar Kumar",
 			"homepage": "https://github.com/shriprem/FWDataViz"
@@ -383,11 +383,11 @@
 		{
 			"folder-name": "GotoLineCol",
 			"display-name": "GotoLineCol",
-			"version": "2.4.0.0",
+			"version": "2.4.2.0",
 			"npp-compatible-versions": "[8.4.2,]",
 			"old-versions-compatibility": "[,2.2.0.1][,8.2.1]",
-			"id": "983b94f8e4f3031148338d2eb6510cacf28fe519f9af948efc243095ffd2dda2",
-			"repository": "https://github.com/shriprem/Goto-Line-Col-NPP-Plugin/releases/download/v2.4.0.0/GotoLineCol_x64.zip",
+			"id": "afaa08a53ec8482875454cb1270ab4faf870e2fcefbed9c4e628ae0058920a12",
+			"repository": "https://github.com/shriprem/Goto-Line-Col-NPP-Plugin/releases/download/v2.4.2.0/GotoLineCol_x64.zip",
 			"description": "A plugin to navigate to a specified line and (byte-based or character-based) column position. Will also display character byte code, UTF-8 byte sequence & Unicode code point at cursor position. Darkmode enabled. Command line options.",
 			"author": "Shridhar Kumar",
 			"homepage": "https://github.com/shriprem/Goto-Line-Col-NPP-Plugin"
