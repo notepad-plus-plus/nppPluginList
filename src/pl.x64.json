@@ -207,6 +207,8 @@
 			"folder-name": "CSVLint",
 			"display-name": "CSV Lint",
 			"version": "0.4.5.2",
+			"npp-compatible-versions": "[8.4,]",
+			"old-versions-compatibility": "[,0.4.5.1][,8.3.3]",
 			"id": "a43cd969720b52d6306bd7d670dc1201653d6b2fa1d89d8cfc83ec38c3c39216",
 			"repository": "https://github.com/BdR76/CSVLint/releases/download/0.4.5.2/CSVLint_x64.zip",
 			"description": "Syntax highlighting and quality control for csv and fixed width data, detect column and datatypes, convert datetime/decimal format, sql, xml",
