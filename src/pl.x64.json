@@ -1131,9 +1131,11 @@
 		{
 			"folder-name": "SelectToClipboard",
 			"display-name": "Select to Clipboard",
-			"version": "1.0.2",
-			"id": "1e90eee876b13f533100d8965f5b208e38da0c1c31a6597ab93b834f94c702ab",
-			"repository": "https://github.com/KubaDee/SelectToClipboard/releases/download/v1.0.2/SelectToClipboard_x64_v1.0.2.zip",
+			"version": "1.0.3",
+			"npp-compatible-versions": "[8.3,]",
+			"old-versions-compatibility": "[,1.0.2][,8.2.1]",
+			"id": "b5dfc0dbfea79cb609d7f6a522e824a1b3ea9ecc471c215eaf28a846906e93c5",
+			"repository": "https://github.com/KubaDee/SelectToClipboard/releases/download/v1.0.3/SelectToClipboard_x64_v1.0.3.zip",
 			"description": "Auto copy selected text to clipboard. You can automatically copy selected text like in PuTTY (or similar) terminal application.",
 			"author": "Jakub Dvorak",
 			"homepage": "https://github.com/KubaDee/SelectToClipboard"
