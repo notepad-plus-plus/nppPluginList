@@ -1505,6 +1505,7 @@
 			"folder-name": "NppTextFX",
 			"display-name": "TextFX Characters",
 			"version": "0.2.6",
+			"npp-compatible-versions": "[,8.3.3]",
 			"id": "f882c2046f72a2ef207d33ae17b035f22b8f4479e56ca7b075347f15a1c1a280",
 			"repository": "https://downloads.sourceforge.net/project/npp-plugins/TextFX/TextFX%20v0.26/TextFX.v0.26.unicode.bin.zip",
 			"description": "Numerous functions to transform selected text. Features: * Interactive Brace Matching * Quote handling * Character case alternation * Text rewrap * Column Lineup * Fill Text Down * Insert counter text down * Text to code conversion * Numeric Conversion * URI &amp; HTML encoding * HTML to text conversion * Submit text to W3C * Text sorting * Ascii Chart * Leading whitespace repair * Autoclose HTML &amp; braces",
