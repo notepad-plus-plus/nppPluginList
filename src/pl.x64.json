@@ -365,9 +365,10 @@
 		{
 			"folder-name": "GedcomLexer",
 			"display-name": "GEDCOM Lexer",
-			"version": "0.4.0.140",
-			"id": "d1c492beccc3531efebd3c98a4e3159380283b6b84e55812979861a3d791c6ab",
-			"repository": "https://sourceforge.net/projects/gedcomlexer/files/GedcomLexer-0.4.0-r140/GedcomLexer-0.4.0-r140-x64.zip",
+			"version": "0.5.0.170",
+			"npp-compatible-versions": "[7.7,]",
+			"id": "65ac992a35a4237c8e563fd9b456fe77196a550ed91a5ef301094355515300fe",
+			"repository": "https://sourceforge.net/projects/gedcomlexer/files/GedcomLexer-0.5.0-r170/GedcomLexer-0.5.0-r170-x64.zip",
 			"description": "View and edit GEDCOM files with syntax highlighting of: level, xref id, tag, pointer, value and escape tokens. Customize coloration and font styles. Grammar errors are also highlighted. View GEDCOM files in outline mode by folding sections based on line level.",
 			"author": "Stan Mitchell",
 			"homepage": "https://sourceforge.net/projects/gedcomlexer/"
