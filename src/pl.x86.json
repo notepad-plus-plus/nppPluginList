@@ -266,16 +266,6 @@
 			"homepage": "https://github.com/Zukaritasu/notepadpp_rpc"
 		},
 		{
-			"folder-name": "docMonitor.unicode",
-			"display-name": "Document Monitor",
-			"version": "2.2.0.0",
-			"id": "19bef201852ef6c725d2f28029b9a1ccab831d882a7084baada384934be06e1e",
-			"repository": "https://downloads.sourceforge.net/project/npp-plugins/DocMonitor/DocMonitor%20v2.2/DocMonitor.v2.2.dll.zip",
-			"description": "Updates opened documents every 3 seconds.",
-			"author": "Don Ho",
-			"homepage": "https://sourceforge.net/projects/npp-plugins/files/DocMonitor/"
-		},
-		{
 			"folder-name": "ColorPicker",
 			"display-name": "Don Rowlett Color Picker",
 			"version": "2.3",
