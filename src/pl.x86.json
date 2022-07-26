@@ -196,11 +196,11 @@
 		{
 			"folder-name": "CSVLint",
 			"display-name": "CSV Lint",
-			"version": "0.4.5.2",
+			"version": "0.4.5.3",
 			"npp-compatible-versions": "[8.4,]",
 			"old-versions-compatibility": "[,0.4.5.1][,8.3.3]",
-			"id": "a9f2ff97845e329bff99238c51c1f02c5f846b6e51d481f09ba36063e066dfc6",
-			"repository": "https://github.com/BdR76/CSVLint/releases/download/0.4.5.2/CSVLint_x86.zip",
+			"id": "eaa9b79951d5108453c52acde3dfedbfa541417b2400785e5989a9f382be4550",
+			"repository": "https://github.com/BdR76/CSVLint/releases/download/0.4.5.3/CSVLint_x86.zip",
 			"description": "Syntax highlighting and quality control for csv and fixed width data, detect column and datatypes, convert datetime/decimal format, sql, xml",
 			"author": "Bas de Reuver",
 			"homepage": "https://github.com/BdR76/CSVLint/"
@@ -264,16 +264,6 @@
 			"description": "Shows in discord the file that is currently being edited in Notepad++.",
 			"author": "Zukaritasu",
 			"homepage": "https://github.com/Zukaritasu/notepadpp_rpc"
-		},
-		{
-			"folder-name": "docMonitor.unicode",
-			"display-name": "Document Monitor",
-			"version": "2.2.0.0",
-			"id": "19bef201852ef6c725d2f28029b9a1ccab831d882a7084baada384934be06e1e",
-			"repository": "https://downloads.sourceforge.net/project/npp-plugins/DocMonitor/DocMonitor%20v2.2/DocMonitor.v2.2.dll.zip",
-			"description": "Updates opened documents every 3 seconds.",
-			"author": "Don Ho",
-			"homepage": "https://sourceforge.net/projects/npp-plugins/files/DocMonitor/"
 		},
 		{
 			"folder-name": "ColorPicker",
