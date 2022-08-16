@@ -1,6 +1,6 @@
 {
 	"name": "npp-pluginList",
-	"version": "1.5",
+	"version": "1.5.1",
 	"arch": "32",
 	"npp-plugins": [
 		{
@@ -196,11 +196,11 @@
 		{
 			"folder-name": "CSVLint",
 			"display-name": "CSV Lint",
-			"version": "0.4.5.2",
+			"version": "0.4.5.3",
 			"npp-compatible-versions": "[8.4,]",
 			"old-versions-compatibility": "[,0.4.5.1][,8.3.3]",
-			"id": "a9f2ff97845e329bff99238c51c1f02c5f846b6e51d481f09ba36063e066dfc6",
-			"repository": "https://github.com/BdR76/CSVLint/releases/download/0.4.5.2/CSVLint_x86.zip",
+			"id": "eaa9b79951d5108453c52acde3dfedbfa541417b2400785e5989a9f382be4550",
+			"repository": "https://github.com/BdR76/CSVLint/releases/download/0.4.5.3/CSVLint_x86.zip",
 			"description": "Syntax highlighting and quality control for csv and fixed width data, detect column and datatypes, convert datetime/decimal format, sql, xml",
 			"author": "Bas de Reuver",
 			"homepage": "https://github.com/BdR76/CSVLint/"
@@ -258,22 +258,12 @@
 		{
 			"folder-name": "DiscordRPC",
 			"display-name": "Discord Rich Presence",
-			"version": "1.3.213.1",
-			"id": "fdb443f36ffd3e2a528bad1cbd43b6e4d12d7b055479eb9ce76e8c37792d4568",
-			"repository": "https://github.com/Zukaritasu/notepadpp_rpc/releases/download/v1.3/DiscordRPC_v1.3_x86.zip",
+			"version": "1.4.262.1",
+			"id": "b1522d3f2eca45508d13013dc0462c4f3c697bac49ffa75a903e1f7fd98f7c1d",
+			"repository": "https://github.com/Zukaritasu/notepadpp_rpc/releases/download/v1.4/DiscordRPC_v1.4_x86.zip",
 			"description": "Shows in discord the file that is currently being edited in Notepad++.",
 			"author": "Zukaritasu",
 			"homepage": "https://github.com/Zukaritasu/notepadpp_rpc"
-		},
-		{
-			"folder-name": "docMonitor.unicode",
-			"display-name": "Document Monitor",
-			"version": "2.2.0.0",
-			"id": "19bef201852ef6c725d2f28029b9a1ccab831d882a7084baada384934be06e1e",
-			"repository": "https://downloads.sourceforge.net/project/npp-plugins/DocMonitor/DocMonitor%20v2.2/DocMonitor.v2.2.dll.zip",
-			"description": "Updates opened documents every 3 seconds.",
-			"author": "Don Ho",
-			"homepage": "https://sourceforge.net/projects/npp-plugins/files/DocMonitor/"
 		},
 		{
 			"folder-name": "ColorPicker",
@@ -328,10 +318,10 @@
 		{
 			"folder-name": "EnhanceAnyLexer",
 			"display-name": "EnhanceAnyLexer",
-			"version": "0.3.0",
+			"version": "0.4.0",
 			"npp-compatible-versions": "[8.4.1,]",
-			"id": "c2deb78ee46452608808f3d8af00c1bec2e6ca787be89e1c0cd17e551aa1d069",
-			"repository": "https://github.com/Ekopalypse/EnhanceAnyLexer/releases/download/v.0.3.0/EnhanceAnyLexer_x86_PluginAdmin.zip",
+			"id": "9404f5a12dd96731d0e4113b843574e7a967c554de3eca41ccbcdf69243387d5",
+			"repository": "https://github.com/Ekopalypse/EnhanceAnyLexer/releases/download/v.0.4.0/EnhanceAnyLexer_x86_PluginAdmin.zip",
 			"description": "Adds more styling, colors only, options to any Lexer",
 			"author": "Ekopalypse",
 			"homepage": "https://github.com/Ekopalypse/EnhanceAnyLexer"
@@ -419,19 +409,21 @@
 		{
 			"folder-name": "FWDataViz",
 			"display-name": "Fixed-width Data Visualizer",
-			"version": "2.5.3.0",
-			"id": "512a631e537a8417ef19bc8c31a0cbf60d9d29ccdfb0abcbfc3b9c468b52920a",
-			"repository": "https://github.com/shriprem/FWDataViz/releases/download/v2.5.3.0/FWDataViz_x86.zip",
-			"description": "Fixed Width Data Visualizer adds Excel-like features for fixed-width data files in Notepad++. Displays cursor position data. Hop & Jump to specific fields. Field Copy & Field Paste. Data Extraction. Builtin dialogs to configure file-type, record-type & fields; and themes & colors. Automatic File Type Detection. Handles homogenous, mixed & multi-line records. Full Multi-byte character support. Darkmode enabled.",
+			"version": "2.6.1.0",
+			"id": "9f87480d23d343fb1feac837558a348340c083c983894fbf9fc4f5de3fcb4dc5",
+			"repository": "https://github.com/shriprem/FWDataViz/releases/download/v2.6.1.0/FWDataViz_x86.zip",
+			"description": "Fixed Width Data Visualizer adds Excel-like features for fixed-width data files in Notepad++. Displays cursor position data. Foldable Record Blocks; Hop & Jump to specific fields. Field Copy & Field Paste. Data Extraction. Builtin dialogs to configure file-type, record-type & fields; and themes & colors. Automatic File Type Detection. Handles homogenous, mixed & multi-line records. Full Multi-byte character support. Darkmode enabled.",
 			"author": "Shridhar Kumar",
 			"homepage": "https://github.com/shriprem/FWDataViz"
 		},
 		{
 			"folder-name": "GedcomLexer",
 			"display-name": "GEDCOM Lexer",
-			"version": "0.4.0.140",
-			"id": "16c38bd8b57ac63508be9ee78f9d94d865a6df0dc17932d91381df840bd1ad94",
-			"repository": "https://sourceforge.net/projects/gedcomlexer/files/GedcomLexer-0.4.0-r140/GedcomLexer-0.4.0-r140-x86.zip",
+			"version": "0.5.0.170",
+			"npp-compatible-versions": "[7.7,]",
+			"old-versions-compatibility": "[,0.4.0][,8.3.3]",
+			"id": "9c2050429afbe1121151e426ea3fa4ed5b062a02bf95346ab7f9c6dd4af3126e",
+			"repository": "https://sourceforge.net/projects/gedcomlexer/files/GedcomLexer-0.5.0-r170/GedcomLexer-0.5.0-r170-x86.zip",
 			"description": "View and edit GEDCOM files with syntax highlighting of: level, xref id, tag, pointer, value and escape tokens. Customize coloration and font styles. Grammar errors are also highlighted. View GEDCOM files in outline mode by folding sections based on line level.",
 			"author": "Stan Mitchell",
 			"homepage": "https://sourceforge.net/projects/gedcomlexer/"
@@ -499,9 +491,9 @@
 		{
 			"folder-name": "HTMLTag_unicode",
 			"display-name": "HTML Tag",
-			"version": "1.2.3.0",
-			"id": "6fbf651dad02b1150bb7ea8547b8aa7e66bac6592256f6b67e73c7df194bfe7f",
-			"repository": "https://bitbucket.org/rdipardo/htmltag/downloads/HTMLTag_v123.zip",
+			"version": "1.3.4.0",
+			"id": "1a65ba6469c8a75606f5dbcb167db28e98681857989b1249b47771411ebc0aaa",
+			"repository": "https://bitbucket.org/rdipardo/htmltag/downloads/HTMLTag_v134.zip",
 			"description": "Provides three core functions:\r\n- HTML and XML tag jumping, like the built-in brace matching (Ctrl+B / Shift+Ctrl+B), and selection\r\n of tags and/or contents.\r\n- HTML entity encoding/decoding (example: é to &eacute;)\r\n- JS character encoding/decoding (example: é to \\u00E9)",
 			"author": "Martijn Coppoolse",
 			"homepage": "https://bitbucket.org/rdipardo/htmltag/"
@@ -559,9 +551,9 @@
 		{
 			"folder-name": "jN",
 			"display-name": "jN Notepad++ Plugin",
-			"version": "2.2.185.6",
-			"id": "cf593106dd466e6cee508fe3a7070064511de73e5149ec2ad922b380f9eca809",
-			"repository": "https://github.com/sieukrem/jn-npp-plugin/releases/download/2.2.185.6/jN_2.2.185.6_x86.zip",
+			"version": "2.2.185.7",
+			"id": "bcb0e94b1c8ccfde677f15dea2e78044389eca2456c6f2b9f2848a216af5fe3c",
+			"repository": "https://github.com/sieukrem/jn-npp-plugin/releases/download/2.2.185.7/jN_2.2.185.7_x86.zip",
 			"description": "Allows you to extend Notepad++ by using JavaScript.\r\n- You can create new menu elements which execute JavaScript\r\n- You can use manu ActiveX components available on your PC\r\n- You can add shortcuts executing JavaScript\r\n- You can create HTML-based dialogs and docking windows\r\n- You can write JavaScript wrappers around Win32 API\r\n - Since version 2.0.116 you can debug your automating scripts\r\n - Selection highlighting and navigation bar\r\n - Integrated Zen Coding v0.7\r\n - You can catch context menu request and create your own",
 			"author": "Eugen Kremer",
 			"homepage": "https://github.com/sieukrem/jn-npp-plugin/wiki"
@@ -900,9 +892,9 @@
 		{
 			"folder-name": "NppExec",
 			"display-name": "NppExec",
-			"version": "0.8.0",
-			"id": "917ec6a8ebac86938c09413956078163f89b08783da6717d5541e457d2b8116e",
-			"repository": "https://github.com/d0vgan/nppexec/releases/download/v08/NppExec_08_dll.zip",
+			"version": "0.8.2",
+			"id": "bcf7936a92a50d1ee3da2f4f8e809622531d8ea34f229c269e8ad3147f13cfa5",
+			"repository": "https://github.com/d0vgan/nppexec/releases/download/v082/NppExec_082_dll.zip",
 			"description": "Execute commands or saved scripts without leaving Notepad++.",
 			"author": "Vitaliy Dovgan",
 			"homepage": "https://github.com/d0vgan/nppexec"
@@ -1505,6 +1497,7 @@
 			"folder-name": "NppTextFX",
 			"display-name": "TextFX Characters",
 			"version": "0.2.6",
+			"npp-compatible-versions": "[,8.3.3]",
 			"id": "f882c2046f72a2ef207d33ae17b035f22b8f4479e56ca7b075347f15a1c1a280",
 			"repository": "https://downloads.sourceforge.net/project/npp-plugins/TextFX/TextFX%20v0.26/TextFX.v0.26.unicode.bin.zip",
 			"description": "Numerous functions to transform selected text. Features: * Interactive Brace Matching * Quote handling * Character case alternation * Text rewrap * Column Lineup * Fill Text Down * Insert counter text down * Text to code conversion * Numeric Conversion * URI &amp; HTML encoding * HTML to text conversion * Submit text to W3C * Text sorting * Ascii Chart * Leading whitespace repair * Autoclose HTML &amp; braces",
