@@ -579,6 +579,17 @@
 			"homepage": "https://sourceforge.net/projects/jslintnpp/"
 		},
 		{
+			"folder-name": "JsonTools",
+			"display-name": "JSON Tools",
+			"version": "3.0.0.0",
+			"id": "9b5d8e3a680a777c415f5030eb1b8efa1834be6b84701cf7de1ee38eb4b618ed",
+			"repository": "https://github.com/molsonkiko/JsonToolsNppPlugin/releases/download/v3.0.0.0/Release_x86.zip",
+			"description": "Query/editing tool for JSON including linting, reformatting, a tree viewer with file navigation, a JMESpath-like query language, and much more",
+			"author": "Mark Johnston Olson",
+			"homepage": "https://github.com/molsonkiko/JsonToolsNppPlugin",
+			"npp-compatible-versions": "[8.4.1,]"
+		},
+		{
 			"folder-name": "NPPJSONViewer",
 			"display-name": "JSON Viewer",
 			"version": "1.40",
