@@ -192,6 +192,17 @@
 			"homepage": "https://github.com/pnedev/compare-plugin"
 		},
 		{
+			"folder-name": "ComparePlus",
+			"display-name": "ComparePlus",
+			"version": "1.0.0",
+			"npp-compatible-versions": "[8.4.2,]",
+			"id": "f133865b04cd1eeba2222dc2dcfd1427b482d4da1175618ab499ee99faf82bbc",
+			"repository": "https://github.com/pnedev/comparePlus/releases/download/cp_1.0.0/ComparePlus_1.0.0_x64.zip",
+			"description": "Advanced compare tool based on the well-known Compare-plugin by Ty Landercasper and Jean-Sebastien Leroy.",
+			"author": "Pavel Nedev",
+			"homepage": "https://github.com/pnedev/compare-plugin"
+		},
+		{
 			"folder-name": "CSScriptNpp",
 			"display-name": "CS-Script - C# Intellisense",
 			"version": "2.0.2.0",
