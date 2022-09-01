@@ -14,6 +14,17 @@
 			"homepage": "https://github.com/Chocobo1/nppAutoDetectIndent"
 		},
 		{
+			"folder-name": "ComparePlus",
+			"display-name": "ComparePlus",
+			"version": "1.0.0",
+			"npp-compatible-versions": "[8.4.2,]",
+			"id": "8833f1d9550edcda96a2153a12bc9057f9a316e9cc51dd4efa7151797269a0b7",
+			"repository": "https://github.com/pnedev/comparePlus/releases/download/cp_1.0.0/ComparePlus_1.0.0_arm64.zip",
+			"description": "Advanced compare tool based on the well-known Compare-plugin by Ty Landercasper and Jean-Sebastien Leroy.",
+			"author": "Pavel Nedev",
+			"homepage": "https://github.com/pnedev/compare-plugin"
+		},
+		{
 			"folder-name": "FWDataViz",
 			"display-name": "Fixed-width Data Visualizer",
 			"version": "2.6.1.0",
