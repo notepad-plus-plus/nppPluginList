@@ -1,6 +1,6 @@
 {
 	"name": "npp-pluginList",
-	"version": "1.5.1",
+	"version": "1.5.3",
 	"arch": "64",
 	"npp-plugins": [
 		{
@@ -192,6 +192,17 @@
 			"homepage": "https://github.com/pnedev/compare-plugin"
 		},
 		{
+			"folder-name": "ComparePlus",
+			"display-name": "ComparePlus",
+			"version": "1.0.0",
+			"npp-compatible-versions": "[8.4.2,]",
+			"id": "f133865b04cd1eeba2222dc2dcfd1427b482d4da1175618ab499ee99faf82bbc",
+			"repository": "https://github.com/pnedev/comparePlus/releases/download/cp_1.0.0/ComparePlus_1.0.0_x64.zip",
+			"description": "Advanced compare tool based on the well-known Compare-plugin by Ty Landercasper and Jean-Sebastien Leroy.",
+			"author": "Pavel Nedev",
+			"homepage": "https://github.com/pnedev/compare-plugin"
+		},
+		{
 			"folder-name": "CSScriptNpp",
 			"display-name": "CS-Script - C# Intellisense",
 			"version": "2.0.2.0",
@@ -302,10 +313,10 @@
 		{
 			"folder-name": "EnhanceAnyLexer",
 			"display-name": "EnhanceAnyLexer",
-			"version": "0.4.0",
+			"version": "1.1.3",
 			"npp-compatible-versions": "[8.4.1,]",
-			"id": "2bc2bb225bcd5a774d1e1a99fd0932a41bded40d721346a8556c398b3f758f90",
-			"repository": "https://github.com/Ekopalypse/EnhanceAnyLexer/releases/download/v.0.4.0/EnhanceAnyLexer_x64_PluginAdmin.zip",
+			"id": "535af2090715af1503933401037d27a8a196e9cfd8a3c5d31f547fd0a4a41e5e",
+			"repository": "https://github.com/Ekopalypse/EnhanceAnyLexer/releases/download/v1.1.3/EnhanceAnyLexer_x64_PluginAdmin.zip",
 			"description": "Adds more styling, colors only, options to any Lexer",
 			"author": "Ekopalypse",
 			"homepage": "https://github.com/Ekopalypse/EnhanceAnyLexer"
@@ -463,11 +474,11 @@
 		{
 			"folder-name": "jN",
 			"display-name": "jN Notepad++ Plugin",
-			"version": "2.2.185.7",
+			"version": "2.2.185.8",
 			"npp-compatible-versions": "[8.4,]",
 			"old-versions-compatibility": "[,2.2.185.7][,8.3.3]",
-			"id": "ea840576098d168a57bd608c889d8d8a1e26e4d5547f97c3618ff03ebe6e7d83",
-			"repository": "https://github.com/sieukrem/jn-npp-plugin/releases/download/2.2.185.7/jN_2.2.185.7_x64.zip",
+			"id": "673f2736fa5ba77afca7ef12fb30408f2d3a048be63b4f2cbc7c8c94ea59fbdc",
+			"repository": "https://github.com/sieukrem/jn-npp-plugin/releases/download/2.2.185.8/jN_2.2.185.8_x64.zip",
 			"description": "Allows you to extend Notepad++ by using JavaScript.\r\n- You can create new menu elements which execute JavaScript\r\n- You can use manu ActiveX components available on your PC\r\n- You can add shortcuts executing JavaScript\r\n- You can create HTML-based dialogs and docking windows\r\n- You can write JavaScript wrappers around Win32 API\r\n - Since version 2.0.116 you can debug your automating scripts\r\n - Selection highlighting and navigation bar\r\n - Integrated Zen Coding v0.7\r\n - You can catch context menu request and create your own",
 			"author": "Eugen Kremer",
 			"homepage": "https://github.com/sieukrem/jn-npp-plugin/wiki"
