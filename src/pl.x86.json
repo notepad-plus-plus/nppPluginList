@@ -510,6 +510,17 @@
 			"homepage": "https://bitbucket.org/rdipardo/htmltag/"
 		},
 		{
+			"folder-name": "HugeFiles",
+			"display-name": "HugeFiles",
+			"version": "0.1.1.0",
+			"id": "c888874c3c4f610dd826fce279a156cf38a6e12167ae5da19d694ef4f25ef116",
+			"repository": "https://github.com/molsonkiko/HugeFiles/releases/download/v0.1.1.0/Release_x86.zip",
+			"description": "Reads very large files one chunk at a time. The user can customize whether to try to end chunks on delimiters (e.g. line ends), the chunk size. There is also a GUI form for navigation, and the user can choose to see a preview of each chunk in the GUI. Inspired by superolmo's BigFiles.",
+			"author": "Mark Johnston Olson",
+			"homepage": "https://github.com/molsonkiko/HugeFiles/",
+			"npp-compatible-versions": "[6.2.3,]"
+		},
+		{
 			"folder-name": "ImgTag",
 			"display-name": "ImgTag",
 			"version": "2.0.1",
