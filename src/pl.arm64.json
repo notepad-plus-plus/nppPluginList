@@ -22,7 +22,7 @@
 			"repository": "https://github.com/pnedev/comparePlus/releases/download/cp_1.0.0/ComparePlus_1.0.0_arm64.zip",
 			"description": "Advanced compare tool based on the well-known Compare-plugin by Ty Landercasper and Jean-Sebastien Leroy.",
 			"author": "Pavel Nedev",
-			"homepage": "https://github.com/pnedev/compare-plugin"
+			"homepage": "https://github.com/pnedev/comparePlus"
 		},
 		{
 			"folder-name": "FWDataViz",
