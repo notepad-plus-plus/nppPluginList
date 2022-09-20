@@ -22,7 +22,7 @@
 			"repository": "https://github.com/pnedev/comparePlus/releases/download/cp_1.0.0/ComparePlus_1.0.0_arm64.zip",
 			"description": "Advanced compare tool based on the well-known Compare-plugin by Ty Landercasper and Jean-Sebastien Leroy.",
 			"author": "Pavel Nedev",
-			"homepage": "https://github.com/pnedev/compare-plugin"
+			"homepage": "https://github.com/pnedev/comparePlus"
 		},
 		{
 			"folder-name": "FWDataViz",
@@ -194,6 +194,16 @@
 			"description": "Hopefully a decent URL Encoder and Decoder plug-in for Notepad++ which helps to make developer's life easier by providing facility to encode/decode the URL within Notepad++. \r\n\r\nHow it works:\r\n1. Configure setting from menu (Plugins->URL Plugin->URL Plugin Settings). It is not mandatory, but recommended.\r\n2. Select text/URL which you want to encode/decode.\r\n3. Perform your task via Plugins->URL Plugin->Encode/Decode URL.\r\n\r\n",
 			"author": "Rajendra Singh",
 			"homepage": "https://github.com/SinghRajenM/nppURLPlugin"
+		},
+		{
+			"folder-name": "NPPJSONViewer",
+			"display-name": "JSON Viewer",
+			"version": "1.41",
+			"id": "bc35b2060215d8661d9da4827f5abcb4ede3efd3d188508ae974a9392c9f1730",
+			"repository": "https://github.com/kapilratnani/JSON-Viewer/releases/download/v1.41/NPPJSONViewer_ARM64.zip",
+			"description": "JSON viewer that displays the selected JSON string in a tree view.",
+			"author": "Kapil Ratnani",
+			"homepage": "https://github.com/kapilratnani/JSON-Viewer"
 		}
 	]
 }

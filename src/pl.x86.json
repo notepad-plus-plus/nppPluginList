@@ -192,7 +192,7 @@
 			"repository": "https://github.com/pnedev/comparePlus/releases/download/cp_1.0.0/ComparePlus_1.0.0_x86.zip",
 			"description": "Advanced compare tool based on the well-known Compare-plugin by Ty Landercasper and Jean-Sebastien Leroy.",
 			"author": "Pavel Nedev",
-			"homepage": "https://github.com/pnedev/compare-plugin"
+			"homepage": "https://github.com/pnedev/comparePlus"
 		},
 		{
 			"folder-name": "CSScriptNpp",
@@ -614,9 +614,9 @@
 		{
 			"folder-name": "NPPJSONViewer",
 			"display-name": "JSON Viewer",
-			"version": "1.40",
-			"id": "15feafd549e6f6916af0be81089cd297245c43fff25dab3076d69b41fbc990e2",
-			"repository": "https://github.com/kapilratnani/JSON-Viewer/releases/download/v1.40/NPPJSONViewer_Win32.zip",
+			"version": "1.41",
+			"id": "d7da0e00102ca11d30114727ef623e38baa14f05321be694fe83e71a44f766a5",
+			"repository": "https://github.com/kapilratnani/JSON-Viewer/releases/download/v1.41/NPPJSONViewer_Win32.zip",
 			"description": "JSON viewer that displays the selected JSON string in a tree view.",
 			"author": "Kapil Ratnani",
 			"homepage": "https://github.com/kapilratnani/JSON-Viewer"
@@ -866,6 +866,8 @@
 			"folder-name": "nppRandomStringGenerator",
 			"display-name": "npp Random String Generator",
 			"version": "1.4.0",
+			"npp-compatible-versions": "[8.3,]",
+			"old-versions-compatibility": "[,1.3][,8.2.1]",
 			"id": "f694f7e76c3883dd94e64bd81fe3f396665a2968b81db6cbe3f33cc0fe6f65ec",
 			"repository": "https://github.com/cmbsolutions/nppRandomStringGenerator/releases/download/v1.4.0/nppRandomStringGenerator.1.4.0.x86.zip",
 			"description": "Generates random strings with configurable output.",
