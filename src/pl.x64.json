@@ -432,6 +432,17 @@
 			"homepage": "https://bitbucket.org/rdipardo/htmltag/"
 		},
 		{
+			"folder-name": "HugeFiles",
+			"display-name": "HugeFiles",
+			"version": "0.1.1.0",
+			"id": "028373550ce7ee9ee94e5be4424e64bc46717dc111a22ae8be2937055e47b9a3",
+			"repository": "https://github.com/molsonkiko/HugeFiles/releases/download/v0.1.1.0/Release_x64.zip",
+			"description": "Reads very large files one chunk at a time. The user can customize whether to try to end chunks on delimiters (e.g. line ends), the chunk size. There is also a GUI form for navigation, and the user can choose to see a preview of each chunk in the GUI. Inspired by superolmo's BigFiles.",
+			"author": "Mark Johnston Olson",
+			"homepage": "https://github.com/molsonkiko/HugeFiles/",
+			"npp-compatible-versions": "[7.3.3,]"
+		},
+		{
 			"folder-name": "ImgTag",
 			"display-name": "ImgTag",
 			"version": "2.0.1",
@@ -496,9 +507,9 @@
 		{
 			"folder-name": "JsonTools",
 			"display-name": "JSON Tools",
-			"version": "3.0.0.0",
-			"id": "fb07eefac652ac72af98f226dac5174a3542815c64df66fbbeb35e7c9c2ea3da",
-			"repository": "https://github.com/molsonkiko/JsonToolsNppPlugin/releases/download/v3.0.0.0/Release_x64.zip",
+			"version": "3.2.0",
+			"id": "884704a9dc046616831a8df6013114100472e4a7b7a4bb62e40309b286b33a0d",
+			"repository": "https://github.com/molsonkiko/JsonToolsNppPlugin/releases/download/v3.2.0/Release_x64.zip",
 			"description": "Query/editing tool for JSON including linting, reformatting, a tree viewer with file navigation, a JMESpath-like query language, and much more",
 			"author": "Mark Johnston Olson",
 			"homepage": "https://github.com/molsonkiko/JsonToolsNppPlugin",
