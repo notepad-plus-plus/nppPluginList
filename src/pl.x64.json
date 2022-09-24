@@ -518,12 +518,13 @@
 		{
 			"folder-name": "NPPJSONViewer",
 			"display-name": "JSON Viewer",
-			"version": "1.41",
-			"id": "f9e3f6e1d93e088f7477cd6bc3cb9767b803acc4171533155435fbc02ae8926a",
-			"repository": "https://github.com/kapilratnani/JSON-Viewer/releases/download/v1.41/NPPJSONViewer_x64.zip",
+			"version": "2.0.1.0",
+			"id": "58a891be73ff1d8ea9cd99e7ee6c0f919596d1c1fe6e79f0e8f66288bbf38b28",
+			"repository": "https://github.com/kapilratnani/JSON-Viewer/releases/download/v2.0.1.0/NPPJSONViewer_x64.zip",
 			"description": "JSON viewer that displays the selected JSON string in a tree view.",
-			"author": "Kapil Ratnani",
-			"homepage": "https://github.com/kapilratnani/JSON-Viewer"
+			"author": "Kapil Ratnani, Rajendra Singh",
+			"homepage": "https://github.com/kapilratnani/JSON-Viewer",
+			"npp-compatible-versions": "[8.4.5,]"
 		},
 		{
 			"folder-name": "JSMinNPP",
