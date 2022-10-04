@@ -126,6 +126,16 @@
 			"homepage": "https://sourceforge.net/projects/npp-plugins/files/NppDocShare/"
 		},
 		{
+			"folder-name": "NppSnippets",
+			"display-name": "Snippets",
+			"version": "1.7.1",
+			"id": "ebde9523fc8aa7fc48b1be4ae776c8baaa6c2f7d9a431f5dd81ce23a58717e8b",
+			"repository": "https://github.com/ffes/nppsnippets/releases/download/v1.7.1/NppSnippets-171-arm64.zip",
+			"description": "Adds the possibility to add code snippets to the current document by selecting them from a simple list.",
+			"author": "Frank Fesevur",
+			"homepage": "https://www.fesevur.com/nppsnippets"
+		},
+		{
 			"folder-name": "pork2sausage",
 			"display-name": "Pork to Sausage",
 			"version": "2.2",
