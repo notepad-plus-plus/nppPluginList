@@ -1,6 +1,6 @@
 {
 	"name": "npp-pluginList",
-	"version": "1.5.1",
+	"version": "1.5.4",
 	"arch": "64",
 	"npp-plugins": [
 		{
@@ -192,6 +192,17 @@
 			"homepage": "https://github.com/pnedev/compare-plugin"
 		},
 		{
+			"folder-name": "ComparePlus",
+			"display-name": "ComparePlus",
+			"version": "1.0.0",
+			"npp-compatible-versions": "[8.4.2,]",
+			"id": "f133865b04cd1eeba2222dc2dcfd1427b482d4da1175618ab499ee99faf82bbc",
+			"repository": "https://github.com/pnedev/comparePlus/releases/download/cp_1.0.0/ComparePlus_1.0.0_x64.zip",
+			"description": "Advanced compare tool based on the well-known Compare-plugin by Ty Landercasper and Jean-Sebastien Leroy.",
+			"author": "Pavel Nedev",
+			"homepage": "https://github.com/pnedev/comparePlus"
+		},
+		{
 			"folder-name": "CSScriptNpp",
 			"display-name": "CS-Script - C# Intellisense",
 			"version": "2.0.2.0",
@@ -206,11 +217,11 @@
 		{
 			"folder-name": "CSVLint",
 			"display-name": "CSV Lint",
-			"version": "0.4.5.3",
+			"version": "0.4.6",
 			"npp-compatible-versions": "[8.4,]",
 			"old-versions-compatibility": "[,0.4.5.1][,8.3.3]",
-			"id": "361ffb151f6daba4eaa19f651403823d0e81c4a0770fa7fed0cd164004f1f67c",
-			"repository": "https://github.com/BdR76/CSVLint/releases/download/0.4.5.3/CSVLint_x64.zip",
+			"id": "d229ff9181b022e0f4976f25b0ff467b649c5c0c10b6caeef85cd59e39d420ba",
+			"repository": "https://github.com/BdR76/CSVLint/releases/download/0.4.6/CSVLint_x64.zip",
 			"description": "Syntax highlighting and quality control for csv and fixed width data, detect column and datatypes, convert datetime/decimal format, sql, xml",
 			"author": "Bas de Reuver",
 			"homepage": "https://github.com/BdR76/CSVLint/"
@@ -302,10 +313,10 @@
 		{
 			"folder-name": "EnhanceAnyLexer",
 			"display-name": "EnhanceAnyLexer",
-			"version": "0.4.0",
+			"version": "1.1.3",
 			"npp-compatible-versions": "[8.4.1,]",
-			"id": "2bc2bb225bcd5a774d1e1a99fd0932a41bded40d721346a8556c398b3f758f90",
-			"repository": "https://github.com/Ekopalypse/EnhanceAnyLexer/releases/download/v.0.4.0/EnhanceAnyLexer_x64_PluginAdmin.zip",
+			"id": "535af2090715af1503933401037d27a8a196e9cfd8a3c5d31f547fd0a4a41e5e",
+			"repository": "https://github.com/Ekopalypse/EnhanceAnyLexer/releases/download/v1.1.3/EnhanceAnyLexer_x64_PluginAdmin.zip",
 			"description": "Adds more styling, colors only, options to any Lexer",
 			"author": "Ekopalypse",
 			"homepage": "https://github.com/Ekopalypse/EnhanceAnyLexer"
@@ -377,9 +388,9 @@
 		{
 			"folder-name": "GitSCM",
 			"display-name": "GitSCM",
-			"version": "1.4.7.1",
-			"id": "56c437a61edf660d088c8629886342dde9b6e592141d407c57929db1ac7ce538",
-			"repository": "https://github.com/vinsworldcom/nppGitSCM/releases/download/1.4.7.1/GitSCM-v1.4.7.1-x64.zip",
+			"version": "1.4.8.1",
+			"id": "98c0f83e4d32b77e7915f8e5f7bd1d2e8a1901341fde517d34b08deb1c9c1e4d",
+			"repository": "https://github.com/vinsworldcom/nppGitSCM/releases/download/1.4.8.1/GitSCM-v1.4.8.1-x64.zip",
 			"description": "N++ Gui for already installed Git SCM for Windows. Optionally TortoiseGit.",
 			"author": "Michael J. Vincent",
 			"homepage": "https://github.com/vinsworldcom/nppGitSCM"
@@ -411,14 +422,25 @@
 		{
 			"folder-name": "HTMLTag",
 			"display-name": "HTML Tag",
-			"version": "1.3.4.0",
+			"version": "1.3.5.0",
 			"npp-compatible-versions": "[8.3,]",
 			"old-versions-compatibility": "[,1.1][,8.2.1]",
-			"id": "bbf21f2e11e280dde9f5e54d185b5d8ef149918668e723fc5cb242053dccbb82",
-			"repository": "https://bitbucket.org/rdipardo/htmltag/downloads/HTMLTag_v134_x64.zip",
+			"id": "51fe702b041e0907419db5183d6d65e708261b5bb73d71e50cc66a37e39dd461",
+			"repository": "https://bitbucket.org/rdipardo/htmltag/downloads/HTMLTag_v135_x64.zip",
 			"description": "Provides three core functions:\r\n- HTML and XML tag jumping, like the built-in brace matching (Ctrl+B / Shift+Ctrl+B), and selection\r\n of tags and/or contents.\r\n- HTML entity encoding/decoding (example: é to &eacute;)\r\n- JS character encoding/decoding (example: é to \\u00E9)",
 			"author": "Martijn Coppoolse",
 			"homepage": "https://bitbucket.org/rdipardo/htmltag/"
+		},
+		{
+			"folder-name": "HugeFiles",
+			"display-name": "HugeFiles",
+			"version": "0.1.1.0",
+			"id": "028373550ce7ee9ee94e5be4424e64bc46717dc111a22ae8be2937055e47b9a3",
+			"repository": "https://github.com/molsonkiko/HugeFiles/releases/download/v0.1.1.0/Release_x64.zip",
+			"description": "Reads very large files one chunk at a time. The user can customize whether to try to end chunks on delimiters (e.g. line ends), the chunk size. There is also a GUI form for navigation, and the user can choose to see a preview of each chunk in the GUI. Inspired by superolmo's BigFiles.",
+			"author": "Mark Johnston Olson",
+			"homepage": "https://github.com/molsonkiko/HugeFiles/",
+			"npp-compatible-versions": "[7.3.3,]"
 		},
 		{
 			"folder-name": "ImgTag",
@@ -463,11 +485,11 @@
 		{
 			"folder-name": "jN",
 			"display-name": "jN Notepad++ Plugin",
-			"version": "2.2.185.7",
+			"version": "2.2.185.8",
 			"npp-compatible-versions": "[8.4,]",
 			"old-versions-compatibility": "[,2.2.185.7][,8.3.3]",
-			"id": "ea840576098d168a57bd608c889d8d8a1e26e4d5547f97c3618ff03ebe6e7d83",
-			"repository": "https://github.com/sieukrem/jn-npp-plugin/releases/download/2.2.185.7/jN_2.2.185.7_x64.zip",
+			"id": "673f2736fa5ba77afca7ef12fb30408f2d3a048be63b4f2cbc7c8c94ea59fbdc",
+			"repository": "https://github.com/sieukrem/jn-npp-plugin/releases/download/2.2.185.8/jN_2.2.185.8_x64.zip",
 			"description": "Allows you to extend Notepad++ by using JavaScript.\r\n- You can create new menu elements which execute JavaScript\r\n- You can use manu ActiveX components available on your PC\r\n- You can add shortcuts executing JavaScript\r\n- You can create HTML-based dialogs and docking windows\r\n- You can write JavaScript wrappers around Win32 API\r\n - Since version 2.0.116 you can debug your automating scripts\r\n - Selection highlighting and navigation bar\r\n - Integrated Zen Coding v0.7\r\n - You can catch context menu request and create your own",
 			"author": "Eugen Kremer",
 			"homepage": "https://github.com/sieukrem/jn-npp-plugin/wiki"
@@ -483,14 +505,26 @@
 			"homepage": "https://github.com/davidsover/nppJSFunctionViewer"
 		},
 		{
+			"folder-name": "JsonTools",
+			"display-name": "JSON Tools",
+			"version": "3.6.0",
+			"id": "c26f18fe13cf23940c1b54620e0a8d00f993e7e1111238ec169dfa15a45b54e5",
+			"repository": "https://github.com/molsonkiko/JsonToolsNppPlugin/releases/download/v3.6.0/Release_x64.zip",
+			"description": "Query/editing tool for JSON including linting, reformatting, a tree viewer with file navigation, a JMESpath-like query language, and much more",
+			"author": "Mark Johnston Olson",
+			"homepage": "https://github.com/molsonkiko/JsonToolsNppPlugin",
+			"npp-compatible-versions": "[8.4.1,]"
+		},
+		{
 			"folder-name": "NPPJSONViewer",
 			"display-name": "JSON Viewer",
-			"version": "1.40",
-			"id": "0a6fd91c6457d64bf0bb2bdba91277c513a344db1b8d5f58e9f85312d358816d",
-			"repository": "https://github.com/kapilratnani/JSON-Viewer/releases/download/v1.40/NPPJSONViewer_x64.zip",
+			"version": "2.0.2.0",
+			"id": "614538ee6375f7187b7468776bc271d262517fb131a4791dc1a664b493cdf47c",
+			"repository": "https://github.com/kapilratnani/JSON-Viewer/releases/download/v2.0.2.0/NPPJSONViewer_x64.zip",
 			"description": "JSON viewer that displays the selected JSON string in a tree view.",
-			"author": "Kapil Ratnani",
-			"homepage": "https://github.com/kapilratnani/JSON-Viewer"
+			"author": "Kapil Ratnani, Rajendra Singh",
+			"homepage": "https://github.com/kapilratnani/JSON-Viewer",
+			"npp-compatible-versions": "[8.4.5,]"
 		},
 		{
 			"folder-name": "JSMinNPP",
@@ -700,6 +734,8 @@
 			"folder-name": "nppRandomStringGenerator",
 			"display-name": "npp Random String Generator",
 			"version": "1.4.0",
+			"npp-compatible-versions": "[8.3,]",
+			"old-versions-compatibility": "[,1.3][,8.2.1]",
 			"id": "5ee26c055ee57c7a4ec584a006dbfb190f57ab9328fa562136c8c5e9b174c9f6",
 			"repository": "https://github.com/cmbsolutions/nppRandomStringGenerator/releases/download/v1.4.0/nppRandomStringGenerator.1.4.0.x64.zip",
 			"description": "Generates random strings with configurable output.",
@@ -781,9 +817,9 @@
 		{
 			"folder-name": "NppFTP",
 			"display-name": "NppFTP",
-			"version": "0.29.9",
-			"id": "a069ea064b08a24d30561981f22f50c5ebd1730843ad8c4276eb810e047d69c8",
-			"repository": "https://github.com/ashkulz/NppFTP/releases/download/v0.29.9/NppFTP-x64.zip",
+			"version": "0.29.10",
+			"id": "f023570a03e1f0758264f91dc341b49bc499b32e0b2de0998c114667098ef5c8",
+			"repository": "https://github.com/ashkulz/NppFTP/releases/download/v0.29.10/NppFTP-x64.zip",
 			"description": "Allows FTP, FTPS, FTPES, and SFTP communications. Very useful for web development.",
 			"author": "ashish_kulz",
 			"homepage": "https://ashkulz.github.io/NppFTP/"
@@ -1011,11 +1047,11 @@
 		{
 			"folder-name": "QuickText",
 			"display-name": "QuickText",
-			"version": "0.2.4.1",
+			"version": "0.2.5.1",
 			"npp-compatible-versions": "[8.3,]",
 			"old-versions-compatibility": "[,0.2.3.1][,8.2.1]",
-			"id": "6b3d35de2822ce47d3a7cc7a4c26885f253ac26ef09a58e5b820ff3eb0a6dc99",
-			"repository": "https://github.com/vinsworldcom/nppQuickText/releases/download/0.2.4.1/QuickText-v0.2.4.1-x64.zip",
+			"id": "3a67c72b8327b8052b30123be15cb0a7cace62e275d4676544c7a5022823237d",
+			"repository": "https://github.com/vinsworldcom/nppQuickText/releases/download/0.2.5.1/QuickText-v0.2.5.1-x64.zip",
 			"description": "Quick text substitution, including multi-field inputs. Similar to Tab Triggers in TextMate.",
 			"author": "Joao Moreno, Jing Teng",
 			"homepage": "https://github.com/vinsworldcom/nppQuickText"
@@ -1177,9 +1213,9 @@
 		{
 			"folder-name": "NppSnippets",
 			"display-name": "Snippets",
-			"version": "1.7.0",
-			"id": "22e6b99160cfee9dde06dc130e54b21400565236b43d6a4f664a30e6cc4fcd18",
-			"repository": "https://github.com/ffes/nppsnippets/releases/download/v1.7.0/NppSnippets-170-x64.zip",
+			"version": "1.7.1",
+			"id": "cf62992cf0ef06b1df233af4240fb2152067098c0393a98c4bc8c3630757fc10",
+			"repository": "https://github.com/ffes/nppsnippets/releases/download/v1.7.1/NppSnippets-171-x64.zip",
 			"description": "Adds the possibility to add code snippets to the current document by selecting them from a simple list.",
 			"author": "Frank Fesevur",
 			"homepage": "https://www.fesevur.com/nppsnippets"

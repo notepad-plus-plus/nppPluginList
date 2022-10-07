@@ -1,6 +1,6 @@
 {
 	"name": "npp-pluginList",
-	"version": "1.5.1",
+	"version": "1.5.4",
 	"arch": "arm64",
 	"npp-plugins": [
 		{
@@ -12,6 +12,17 @@
 			"description": "Detects indention (tab or spaces) and auto adjust Tab key on-the-fly.",
 			"author": "Mike Tzou (Chocobo1)",
 			"homepage": "https://github.com/Chocobo1/nppAutoDetectIndent"
+		},
+		{
+			"folder-name": "ComparePlus",
+			"display-name": "ComparePlus",
+			"version": "1.0.0",
+			"npp-compatible-versions": "[8.4.2,]",
+			"id": "8833f1d9550edcda96a2153a12bc9057f9a316e9cc51dd4efa7151797269a0b7",
+			"repository": "https://github.com/pnedev/comparePlus/releases/download/cp_1.0.0/ComparePlus_1.0.0_arm64.zip",
+			"description": "Advanced compare tool based on the well-known Compare-plugin by Ty Landercasper and Jean-Sebastien Leroy.",
+			"author": "Pavel Nedev",
+			"homepage": "https://github.com/pnedev/comparePlus"
 		},
 		{
 			"folder-name": "FWDataViz",
@@ -115,6 +126,16 @@
 			"homepage": "https://sourceforge.net/projects/npp-plugins/files/NppDocShare/"
 		},
 		{
+			"folder-name": "NppSnippets",
+			"display-name": "Snippets",
+			"version": "1.7.1",
+			"id": "ebde9523fc8aa7fc48b1be4ae776c8baaa6c2f7d9a431f5dd81ce23a58717e8b",
+			"repository": "https://github.com/ffes/nppsnippets/releases/download/v1.7.1/NppSnippets-171-arm64.zip",
+			"description": "Adds the possibility to add code snippets to the current document by selecting them from a simple list.",
+			"author": "Frank Fesevur",
+			"homepage": "https://www.fesevur.com/nppsnippets"
+		},
+		{
 			"folder-name": "pork2sausage",
 			"display-name": "Pork to Sausage",
 			"version": "2.2",
@@ -183,6 +204,17 @@
 			"description": "Hopefully a decent URL Encoder and Decoder plug-in for Notepad++ which helps to make developer's life easier by providing facility to encode/decode the URL within Notepad++. \r\n\r\nHow it works:\r\n1. Configure setting from menu (Plugins->URL Plugin->URL Plugin Settings). It is not mandatory, but recommended.\r\n2. Select text/URL which you want to encode/decode.\r\n3. Perform your task via Plugins->URL Plugin->Encode/Decode URL.\r\n\r\n",
 			"author": "Rajendra Singh",
 			"homepage": "https://github.com/SinghRajenM/nppURLPlugin"
+		},
+		{
+			"folder-name": "NPPJSONViewer",
+			"display-name": "JSON Viewer",
+			"version": "2.0.2.0",
+			"id": "24c1c337499d9b03fe9efc44ed71588c55547579960fce025c8657cc2c068510",
+			"repository": "https://github.com/kapilratnani/JSON-Viewer/releases/download/v2.0.2.0/NPPJSONViewer_ARM64.zip",
+			"description": "JSON viewer that displays the selected JSON string in a tree view.",
+			"author": "Kapil Ratnani, Rajendra Singh",
+			"homepage": "https://github.com/kapilratnani/JSON-Viewer",
+			"npp-compatible-versions": "[8.4.5,]"
 		}
 	]
 }
