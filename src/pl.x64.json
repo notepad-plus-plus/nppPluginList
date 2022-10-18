@@ -611,9 +611,9 @@
 			"folder-name": "MenuIcons",
 			"display-name": "MenuIcons",
 			"version": "1.2.5",
-			"id": "6f2b909cf2468a1a16b443d004cad107e56a67a7e56dcb6f39792bbbfaacfbdc",
-			"repository": "https://github.com/francostellari/NppPlugins/raw/main/MenuIcons/MenuIcons_dll_1v25_x64.zip",
-			"description": "Allows adding icons to both main and context menu. Several options are available to load the icons from a folder. More than provide a full set of icons, it's design to enable people to create their own set of icon themes. Note: Does not work correctly in WinXP.",
+			"id": "f894da2b29ae48476cd6add4550ad4b284bcb6f01a54479866218a5e6f7e7310",
+			"repository": "https://github.com/francostellari/NppPlugins/raw/main/MenuIcons/MenuIcons_dll_2v00_x64.zip",
+			"description": "Adds icons to the main menu, tab menu, context menu, and the tabs themselves.",
 			"author": "Franco Stellari",
 			"homepage": "https://github.com/francostellari/NppPlugins"
 		},
