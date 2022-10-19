@@ -1328,9 +1328,9 @@
 		{
 			"folder-name": "TopMost",
 			"display-name": "TopMost",
-			"version": "1.4.0.0",
-			"id": "1c211bd5b14b50420b7238377dd001bda7d5d86941a9521ba6f7ba85599decca",
-			"repository": "https://github.com/francostellari/NppPlugins/raw/main/TopMost/TopMost_dll_1v40_x64.zip",
+			"version": "1.4.1.0",
+			"id": "6fab7cc42fce5a7e66e301b502d7e4ed492312c88c168fa9c2a53a7f9e22b083",
+			"repository": "https://github.com/francostellari/NppPlugins/raw/main/TopMost/TopMost_dll_1v41_x64.zip",
 			"description": "Allows setting the main Notepad++ window as a topmost window so it can stay on top of other windows even when it is not active. Syncs with Notepad++'s own stay on top functionality and allows to remember the setting between restarts as well as to show a toolbar button.",
 			"author": "Franco Stellari",
 			"homepage": "https://github.com/francostellari/NppPlugins"
