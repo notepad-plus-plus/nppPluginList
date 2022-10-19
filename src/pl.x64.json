@@ -1129,9 +1129,9 @@
 		{
 			"folder-name": "RunMe",
 			"display-name": "RunMe",
-			"version": "1.4.1.0",
-			"id": "f49e2cd6796a5a1b49655aaa1ba5c3574fbfa0b33e51d9a585cbf0603be27e78",
-			"repository": "https://github.com/francostellari/NppPlugins/raw/main/RunMe/RunMe_dll_1v41_x64.zip",
+			"version": "1.6.0.0",
+			"id": "1e7549e5f1a9cdb96ebf7d90271c1f5ff94081154139f056154a02679dc1157c",
+			"repository": "https://github.com/francostellari/NppPlugins/raw/main/RunMe/RunMe_dll_1v60_x64.zip",
 			"description": "Execute the currently open file, based on its shell association. Also allows opening an explorer or command shell at the file location. Options are available to save the current file (or all files) before execution. The executed file can be run in foreground, background, or hidden mode. Context menu entries and tool bar icons are available.",
 			"author": "Franco Stellari",
 			"homepage": "https://github.com/francostellari/NppPlugins"
@@ -1328,9 +1328,9 @@
 		{
 			"folder-name": "TopMost",
 			"display-name": "TopMost",
-			"version": "1.4.0.0",
-			"id": "1c211bd5b14b50420b7238377dd001bda7d5d86941a9521ba6f7ba85599decca",
-			"repository": "https://github.com/francostellari/NppPlugins/raw/main/TopMost/TopMost_dll_1v40_x64.zip",
+			"version": "1.4.1.0",
+			"id": "6fab7cc42fce5a7e66e301b502d7e4ed492312c88c168fa9c2a53a7f9e22b083",
+			"repository": "https://github.com/francostellari/NppPlugins/raw/main/TopMost/TopMost_dll_1v41_x64.zip",
 			"description": "Allows setting the main Notepad++ window as a topmost window so it can stay on top of other windows even when it is not active. Syncs with Notepad++'s own stay on top functionality and allows to remember the setting between restarts as well as to show a toolbar button.",
 			"author": "Franco Stellari",
 			"homepage": "https://github.com/francostellari/NppPlugins"
