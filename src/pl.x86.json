@@ -146,9 +146,9 @@
 		{
 			"folder-name": "CodeStats",
 			"display-name": "Code::Stats",
-			"version": "1.0.1",
-			"id": "e82def2cb807eddba5591281bc2f980bb6f99c50497380738ad5a9131d1a8246",
-			"repository": "https://github.com/p0358/notepadpp-CodeStats/releases/download/v1.0.1/notepadpp-CodeStats_x86.zip",
+			"version": "1.1.0",
+			"id": "f9029b117a2945b932704cd31751126cb7897e97897afa16056b830f92921f59",
+			"repository": "https://github.com/p0358/notepadpp-CodeStats/releases/download/v1.1.0/notepadpp-CodeStats_x86.zip",
 			"description": "Write code, level up, show off! A free stats tracking service for programmers. Enables XP tracking in Notepad++.",
 			"author": "p0358",
 			"homepage": "https://github.com/p0358/notepadpp-CodeStats"
