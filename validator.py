@@ -210,42 +210,41 @@ def parse(filename):
         #countercheck python vs. gup download
         gupdir = 'gup'
         pathgup = Path(os.path.join(currentdir,gupdir))
-        print(currentdir)
-        print(pathgup)
+        #print(currentdir)
+        #print(pathgup)
         if pathgup.exists():
             shutil.rmtree(pathgup)
         os.mkdir(gupdir)
 
-        print(os.path.exists(gupdir))
+        #print(os.path.exists(gupdir))
         os.chdir("updater")
-        gupdir2 = 'C:\\projects\\npppluginlist\\gup\\'
 
-        subprocess.run(['./GUP.exe', '-unzipTo', 'C:\\unused', pathgup , f'{plugin["folder-name"]} {plugin["repository"]} {plugin["id"]}'], capture_output=True, text=True).stdout
+        subprocess.run(['./GUP.exe', '-unzipTo', 'C:\\tmp', pathgup , f'{plugin["folder-name"]} {plugin["repository"]} {plugin["id"]}'], capture_output=True, text=True).stdout
 
         os.chdir(pathgup)
-        for path in Path(pathgup).iterdir():
-            print(path)
+        #for path in Path(pathgup).iterdir():
+        #    print(path)
 
         zipdir = 'zip'
-        pathzip = Path(os.path.join(currentdir,zipdir))
+        pathzip = Path(os.path.join(pathgup,zipdir))
         if pathzip.exists():
             shutil.rmtree(pathzip)
         os.mkdir(zipdir)
 
         zip.extractall(zipdir)
 
-        print(os.path.exists(zipdir))
+        #print(os.path.exists(zipdir))
 
-        for path in Path(zipdir).iterdir():
-            print(path)
+        #for path in Path(zipdir).iterdir():
+        #    print(path)
 
-        print(pathzip)
+        #print(pathzip)
         pathgupAndFolder = os.path.join(pathgup, plugin["folder-name"])
-        print(pathgupAndFolder)
+        #print(pathgupAndFolder)
 
         dcmp = dircmp(pathzip, pathgupAndFolder)
         #dcmp.report_full_closure()
-        print_diff_files(dcmp)
+        #print_diff_files(dcmp)
 
         os.chdir("..")
 
