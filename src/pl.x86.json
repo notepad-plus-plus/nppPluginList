@@ -149,7 +149,7 @@
 			"version": "1.1.0",
 			"id": "f9029b117a2945b932704cd31751126cb7897e97897afa16056b830f92921f59",
 			"repository": "https://github.com/p0358/notepadpp-CodeStats/releases/download/v1.1.0/notepadpp-CodeStats_x86.zip",
-			"description": "Write code, level up, show off! A free stats tracking service for programmers. Enables XP tracking in Notepad++.",
+			"description": "Write code, level up, show off! A free stats tracking service for programmers. Enables XP tracking in Notepad++.\r\nRequires a codestats.net account for its functionality.\r\n\r\nAnonymous usage statistics:\r\nOn the next Notepad++ launches, after API token has been provided, this plugin is making HTTPS request to analytics server containing plugin version and unique randomly generated ID. This is because the author would like to see the amount of people using this. The usage statistic collection is not related to the Code::Stats service itself. If you really do not want to be included, you can opt-out in plugin settings.\r\n",
 			"author": "p0358",
 			"homepage": "https://github.com/p0358/notepadpp-CodeStats"
 		},
