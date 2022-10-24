@@ -7,7 +7,7 @@ import shutil
 import requests
 import zipfile
 from hashlib import sha256
-from jsonschema import Draft7Validator, FormatChecker
+from jsonschema import Draft202012Validator, FormatChecker
 import win32api
 from win32api import GetFileVersionInfo, LOWORD, HIWORD
 
@@ -97,7 +97,7 @@ def gen_pl_table(filename):
 def parse(filename):
     try:
         schema = json.loads(open("pl.schema").read())
-        schema = Draft7Validator(schema, format_checker=FormatChecker())
+        schema = Draft202012Validator(schema, format_checker=FormatChecker())
     except ValueError as e:
         post_error("pl.schema - " + str(e))
         return
