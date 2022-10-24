@@ -55,13 +55,6 @@ def post_error(message):
         from pprint import pprint
         pprint(message)
 
-def print_diff_files(dcmp):
-    for name in dcmp.diff_files:
-        print ("diff_file %s found in %s and %s" % (name, dcmp.left, dcmp.right) )
-    for sub_dcmp in dcmp.subdirs.values():
-        print_diff_files(sub_dcmp)
-
-
 def first_two_lines(description):
     if len(description) <= c_sum_len:
         return ""
@@ -103,6 +96,69 @@ def gen_pl_table(filename):
         tab_line += tmpl_tr_e + tmpl_new_line
         tab_text += tab_line
     return tab_text
+
+def gup_download_check(currentdir, plugin, zip):
+
+    gupdir = 'gup'
+    pathgup = Path(os.path.join(currentdir,gupdir))
+
+    if pathgup.exists():
+        shutil.rmtree(pathgup)
+    os.mkdir(gupdir)
+
+    os.chdir("updater")
+
+    subprocess.run(['./GUP.exe', '-unzipTo', 'C:\\tmp', pathgup , f'{plugin["folder-name"]} {plugin["repository"]} {plugin["id"]}'], capture_output=True, text=True).stdout
+
+    os.chdir(pathgup)
+
+    zipdir = 'zip'
+    pathzip = Path(os.path.join(pathgup,zipdir))
+    if pathzip.exists():
+        shutil.rmtree(pathzip)
+    os.mkdir(zipdir)
+
+    zip.extractall(zipdir)
+
+
+    pathgupAndFolder = os.path.join(pathgup, plugin["folder-name"])
+
+    if Path(pathgupAndFolder).exists():
+        dcmp = dircmp(pathzip, pathgupAndFolder)
+        if len(dcmp.diff_files):
+            dcmp.report_full_closure()
+            post_error(f'{plugin["display-name"]}: Difference between download and unzipping via python and gup detected, need to be checked')
+    else:
+        post_error(f'{plugin["display-name"]}: it seems gup download failed, need to be checked')
+
+    os.chdir("..")
+
+def unique_json_keys_check(plugin, displaynames, foldernames, repositories):
+
+    found = False
+    for name in displaynames :
+       if plugin["display-name"] == name :
+           post_error(f'{plugin["display-name"]}: non unique display-name entry')
+           found = True
+    if found == False:
+           displaynames.append(plugin["display-name"])
+
+    found = False
+    for folder in foldernames :
+       if plugin["folder-name"] == folder :
+           post_error(f'{plugin["folder-name"]}: non unique folder-name entry')
+           found = True
+    if found == False:
+       foldernames.append(plugin["folder-name"])
+
+    found = False
+    for repo in repositories :
+       if plugin["repository"] == repo :
+           post_error(f'{plugin["repository"]}: non unique repository entry')
+           found = True
+    if found == False:
+       repositories.append(plugin["repository"])
+
 
 def parse(filename):
     try:
@@ -206,73 +262,12 @@ def parse(filename):
             post_error(f'{plugin["display-name"]}: Unexpected DLL version. DLL is {dll_version} but expected {version}')
             continue
 
-        currentdir =  os.getcwd()
         #countercheck python vs. gup download
-        gupdir = 'gup'
-        pathgup = Path(os.path.join(currentdir,gupdir))
-        #print(currentdir)
-        #print(pathgup)
-        if pathgup.exists():
-            shutil.rmtree(pathgup)
-        os.mkdir(gupdir)
-
-        #print(os.path.exists(gupdir))
-        os.chdir("updater")
-
-        subprocess.run(['./GUP.exe', '-unzipTo', 'C:\\tmp', pathgup , f'{plugin["folder-name"]} {plugin["repository"]} {plugin["id"]}'], capture_output=True, text=True).stdout
-
-        os.chdir(pathgup)
-        #for path in Path(pathgup).iterdir():
-        #    print(path)
-
-        zipdir = 'zip'
-        pathzip = Path(os.path.join(pathgup,zipdir))
-        if pathzip.exists():
-            shutil.rmtree(pathzip)
-        os.mkdir(zipdir)
-
-        zip.extractall(zipdir)
-
-        #print(os.path.exists(zipdir))
-
-        #for path in Path(zipdir).iterdir():
-        #    print(path)
-
-        #print(pathzip)
-        pathgupAndFolder = os.path.join(pathgup, plugin["folder-name"])
-        #print(pathgupAndFolder)
-
-        dcmp = dircmp(pathzip, pathgupAndFolder)
-        #dcmp.report_full_closure()
-        #print_diff_files(dcmp)
-
-        os.chdir("..")
-
+        gup_download_check(os.getcwd(), plugin, zip)
 
         #check uniqueness of json folder-name, display-name and repository
-        found = False
-        for name in displaynames :
-           if plugin["display-name"] == name :
-               post_error(f'{plugin["display-name"]}: non unique display-name entry')
-               found = True
-        if found == False:
-               displaynames.append(plugin["display-name"])
+        unique_json_keys_check(plugin, displaynames, foldernames, repositories)
 
-        found = False
-        for folder in foldernames :
-           if plugin["folder-name"] == folder :
-               post_error(f'{plugin["folder-name"]}: non unique folder-name entry')
-               found = True
-        if found == False:
-           foldernames.append(plugin["folder-name"])
-
-        found = False
-        for repo in repositories :
-           if plugin["repository"] == repo :
-               post_error(f'{plugin["repository"]}: non unique repository entry')
-               found = True
-        if found == False:
-           repositories.append(plugin["repository"])
 bitness_from_input = ""
 if len(sys.argv) > 1:
     bitness_from_input = sys.argv[1]
