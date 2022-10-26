@@ -685,9 +685,9 @@
 		{
 			"folder-name": "LuaScript",
 			"display-name": "LuaScript",
-			"version": "0.11",
-			"id": "ab523219ba00844cc88f92d0a3edce1148f404d3d2786df0a7256fc25760eec2",
-			"repository": "https://github.com/dail8859/LuaScript/releases/download/v0.11/LuaScript_v0.11.zip",
+			"version": "0.12",
+			"id": "98991632f20d4fb5aa74cbb8ff5a604719485adfcd93405ad7a10ba61b0b20e8",
+			"repository": "https://github.com/dail8859/LuaScript/releases/download/v0.12/LuaScript_v0.12.zip",
 			"description": "Adds Lua scripting capabilities. This provides control over all of Scintilla's features and options with a light-weight, fully-functional programming language.",
 			"author": "Justin Dailey",
 			"homepage": "https://github.com/dail8859/LuaScript"
@@ -1282,9 +1282,9 @@
 		{
 			"folder-name": "RestApiToText",
 			"display-name": "RestApiToText",
-			"version": "1.3.1.1",
-			"id": "e89909c0433c32be66369d1cc9913bb862d13f63fd138aaf06d844d0dd450667",
-			"repository": "https://github.com/eljefe7000/RestApiToText/raw/master/Release/v1.3.1.1/RestApiToText.zip",
+			"version": "1.4.0.0",
+			"id": "3b21071d83e564ce6b4086d130ddef6cd7603d1012ba9087cd32251189040c1d",
+			"repository": "https://github.com/eljefe7000/RestApiToText/raw/master/Release/v1.4.0.0/RestApiToText.zip",
 			"description": "Make REST API calls using content from an editor tab, then see the results in a new tab.\r\nUseful when you want to test a REST API or store the results of a REST call, without the need for an external REST tool.",
 			"author": "Jeffrey Smith",
 			"homepage": "https://github.com/eljefe7000/RestApiToText"
