@@ -6,27 +6,15 @@ environment:
   matrix:
   - PlatformToolset: v143
     PLATFORM: ARM64
-    PYTHONTEST: arm64
     PYTHON: "C:\\Python310-x64"
 
   - PlatformToolset: v143
     PLATFORM: x64
-    PYTHONTEST: x64
     PYTHON: "C:\\Python310-x64"
 
   - PlatformToolset: v143
     PLATFORM: Win32
-    PYTHONTEST: Win32
     PYTHON: "C:\\Python310-x64"
-
-  - PlatformToolset: v143
-    PLATFORM: ARM64
-
-  - PlatformToolset: v143
-    PLATFORM: x64
-
-  - PlatformToolset: v143
-    PLATFORM: Win32
 
 configuration:
     - Release
@@ -34,7 +22,7 @@ configuration:
 
 install:
     - SET PATH=%PYTHON%;%PYTHON%\Scripts;%PATH%
-    - if not "%PYTHONTEST%"=="" python -m pip install -r requirements.txt
+    - python -m pip install -r requirements.txt
 
     - if "%platform%"=="x64" set archi=amd64
     - if "%platform%"=="x64" set platform_input=x64
@@ -51,56 +39,24 @@ install:
 
 build_script:
     - cd "%APPVEYOR_BUILD_FOLDER%"
-    - if not "%PYTHONTEST%"=="" call python validator.py %PYTHONTEST%
+    - call python validator.py %platform_input%
     - cd "%APPVEYOR_BUILD_FOLDER%"/vcxproj
-    - if "%PYTHONTEST%"=="" msbuild nppPluginList.vcxproj /p:configuration="%configuration%" /p:platform="%platform_input%" /p:PlatformToolset="%PlatformToolset%"
+    - msbuild nppPluginList.vcxproj /p:configuration="%configuration%" /p:platform="%platform_input%" /p:PlatformToolset="%PlatformToolset%"
 
 after_build:
     - cd "%APPVEYOR_BUILD_FOLDER%"
     - ps: >-
-
-        if(-not ($env:PYTHONTEST))
-        {
-            if ($env:PLATFORM_INPUT -eq "x64" -and $env:CONFIGURATION -eq "Release") {
-                Push-AppveyorArtifact "bin64\nppPluginList.dll" -FileName nppPluginList.dll
-            }
-
-            if ($env:PLATFORM_INPUT -eq "ARM64" -and $env:CONFIGURATION -eq "Release") {
-                Push-AppveyorArtifact "binarm64\nppPluginList.dll" -FileName nppPluginList.dll
-            }
-
-            if ($env:PLATFORM_INPUT -eq "Win32" -and $env:CONFIGURATION -eq "Release") {
-                Push-AppveyorArtifact "bin\nppPluginList.dll" -FileName nppPluginList.dll
-            }
-
-            if ($($env:APPVEYOR_REPO_TAG) -eq "true" -and $env:CONFIGURATION -eq "Release" -and $env:PLATFORMTOOLSET -eq "v143") {
-                if($env:PLATFORM_INPUT -eq "x64"){
-                    $ZipFileName = "nppPluginList_$($env:APPVEYOR_REPO_TAG_NAME)_x64.zip"
-                    7z a $ZipFileName bin64\*.dll
-                }
-                if($env:PLATFORM_INPUT -eq "Win32"){
-                    $ZipFileName = "nppPluginList_$($env:APPVEYOR_REPO_TAG_NAME)_x86.zip"
-                    7z a $ZipFileName bin\*.dll
-                }
-                if($env:PLATFORM_INPUT -eq "ARM64"){
-                    $ZipFileName = "nppPluginList_$($env:APPVEYOR_REPO_TAG_NAME)_arm64.zip"
-                    7z a $ZipFileName binarm64\*.dll
-            }
+        if ($env:PLATFORM_INPUT -eq "x64" -and $env:CONFIGURATION -eq "Release") {
+            Push-AppveyorArtifact "bin64\nppPluginList.dll" -FileName nppPluginList.dll
+            Push-AppveyorArtifact "plugin_list_x64.md" -FileName plugin_list_x64.md
         }
-        }
-        else
-        {
-            if ($env:PLATFORM_INPUT -eq "x64") {
-                Push-AppveyorArtifact "plugin_list_x64.md" -FileName plugin_list_x64.md
-                Push-AppveyorArtifact "c:\tmp\winup.log" -FileName winup.log
-            }
 
-            if ($env:PLATFORM_INPUT -eq "Win32") {
-                Push-AppveyorArtifact "plugin_list_x86.md" -FileName plugin_list_x86.md
-                Push-AppveyorArtifact "c:\tmp\winup.log" -FileName winup.log
-            }
-
-            if ($env:PLATFORM_INPUT -eq "ARM64") {
-                Push-AppveyorArtifact "plugin_list_arm64.md" -FileName plugin_list_arm64.md
+        if ($env:PLATFORM_INPUT -eq "ARM64" -and $env:CONFIGURATION -eq "Release") {
+            Push-AppveyorArtifact "binarm64\nppPluginList.dll" -FileName nppPluginList.dll
+            Push-AppveyorArtifact "plugin_list_arm64.md" -FileName plugin_list_arm64.md
         }
+
+        if ($env:PLATFORM_INPUT -eq "Win32" -and $env:CONFIGURATION -eq "Release") {
+            Push-AppveyorArtifact "bin\nppPluginList.dll" -FileName nppPluginList.dll
+            Push-AppveyorArtifact "plugin_list_x86.md" -FileName plugin_list_x86.md
         }
