@@ -57,10 +57,11 @@
 		{
 			"folder-name": "mimeTools",
 			"display-name": "Mime tools",
-			"version": "2.8",
-			"npp-compatible-versions": "[8.4,]",
-			"id": "32d87bda3d8e64fa9e83b415313e7643aa259b792d1ec9687a8647327523dcb1",
-			"repository": "https://github.com/npp-plugins/mimetools/releases/download/v2.8/mimetools.v2.8.arm64.zip",
+			"version": "2.9",
+			"npp-compatible-versions": "[8.4.7,]",
+			"old-versions-compatibility": "[,2.8][,8.4.6]",
+			"id": "189b3a2f9ef886cf9cd926aae325c6ac3ffd48c9e94c3726e08000687dc60d32",
+			"repository": "https://github.com/npp-plugins/mimetools/releases/download/v2.9/mimetools.v2.9.arm64.zip",
 			"description": "Implements several main functionalities defined in MIME (Multipurpose Internet Mail Extensions).",
 			"author": "Don HO",
 			"homepage": "https://github.com/npp-plugins/mimetools"
@@ -92,9 +93,11 @@
 		{
 			"folder-name": "nppConverter",
 			"display-name": "Npp Converter",
-			"version": "4.4.0",
-			"id": "e334dc494c0c79f2c6514d2239bc42997a1e6a4783846a9007999ffad2e3fc95",
-			"repository": "https://github.com/npp-plugins/converter/releases/download/v4.4/nppConvert.v4.4.arm64.zip",
+			"version": "4.5",
+			"npp-compatible-versions": "[8.4.7,]",
+			"old-versions-compatibility": "[,4.4][,8.4.6]",
+			"id": "9d858897af4539e87c3827796054501457be8f7b1135aece64140ecd6d74e6f7",
+			"repository": "https://github.com/npp-plugins/converter/releases/download/v4.5/nppConvert.v4.5.arm64.zip",
 			"description": "ASCII<->Hex converter.",
 			"author": "Don HO",
 			"homepage": "https://github.com/npp-plugins/converter/"
@@ -142,9 +145,11 @@
 		{
 			"folder-name": "pork2sausage",
 			"display-name": "Pork to Sausage",
-			"version": "2.2",
-			"id": "179d2ce71652d253a795ebe7fcb0ad8e88cce79b6c1ae80ce345bdf32af6a2e2",
-			"repository": "https://github.com/npp-plugins/pork2sausage/releases/download/v2.2/pork2sausage.2.2.bin.arm64.zip",
+			"version": "2.3",
+			"npp-compatible-versions": "[8.4.7,]",
+			"old-versions-compatibility": "[,2.2][,8.4.6]",
+			"id": "765b642b2bc7e89afbbd8adb61b103801cd3a5b210170caa4407c2bfea75379e",
+			"repository": "https://github.com/npp-plugins/pork2sausage/releases/download/v2.3/pork2sausage.2.3.bin.arm64.zip",
 			"description": "Pass any selected text to any command line program as input and take the output (the result of program) to replace the selected text.",
 			"author": "Don HO",
 			"homepage": "https://github.com/npp-plugins/pork2sausage"
