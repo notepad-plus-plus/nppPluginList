@@ -68,9 +68,11 @@
 		{
 			"folder-name": "NppPluginDemo",
 			"display-name": "Notepad++ Plugin Demo",
-			"version": "4.2",
-			"id": "8937a30cd98ad14cc902f341b00f1b9f868aa433dd8b6c024752691432782975",
-			"repository": "https://github.com/npp-plugins/plugindemo/releases/download/v4.2/pluginDemo.v4.2.bin.arm64.zip",
+			"version": "4.3",
+			"npp-compatible-versions": "[8.4.7,]",
+			"old-versions-compatibility": "[,4.2][,8.4.6]",
+			"id": "58c6b023f41d4fc967640939490132389c3b825baf19d415800a48978b6fd1b0",
+			"repository": "https://github.com/npp-plugins/plugindemo/releases/download/v4.3/pluginDemo.v4.3.bin.arm64.zip",
 			"description": "Notepad++ Plugin Demo is written from Notepad++ Plugin Template to demonstrate the usage of plugin API.",
 			"author": "Don HO",
 			"homepage": "https://npp-user-manual.org/docs/plugins/"
@@ -78,9 +80,11 @@
 		{
 			"folder-name": "NppPluginTemplate",
 			"display-name": "Notepad++ Plugin Template",
-			"version": "4.2",
-			"id": "7e871c74f6f6a21a208e9eb977b91f246267302cb761a6d2c2015d80e9ed2b3e",
-			"repository": "https://github.com/npp-plugins/plugintemplate/releases/download/v4.2/pluginTemplate.v4.2.bin.arm64.zip",
+			"version": "4.3",
+			"npp-compatible-versions": "[8.4.7,]",
+			"old-versions-compatibility": "[,4.2][,8.4.6]",
+			"id": "820e17d7134f10d41d878ccb7cb64a17e1081e427ae151e742e6e4646eba58df",
+			"repository": "https://github.com/npp-plugins/plugintemplate/releases/download/v4.3/pluginTemplate.v4.3.bin.arm64.zip",
 			"description": "Template for making plugin development as easy and simple as possible. Four steps and it's done.",
 			"author": "Don HO",
 			"homepage": "https://npp-user-manual.org/docs/plugins/"
