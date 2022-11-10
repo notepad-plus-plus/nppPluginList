@@ -1084,9 +1084,11 @@
 		{
 			"folder-name": "NppUISpy",
 			"display-name": "NppUISpy",
-			"version": "1.0.4",
-			"id": "b59b33efe7a4bcc399a9b3eecc0307cbc62696c26a4ff2124a75150b20eed347",
-			"repository": "https://github.com/dinkumoil/NppUISpy/releases/download/v1.0.4/NppUISpy_v1.0.4_UNI.zip",
+			"version": "1.1",
+			"npp-compatible-versions": "[7.0,]",
+			"old-versions-compatibility": "[,1.0.4][7.0,]",
+			"id": "7a50dfa2c8682c8d4d45b04ec468fabbc5b83e099c376999d152511a4b0c5fb9",
+			"repository": "https://github.com/dinkumoil/NppUISpy/releases/download/v1.1/NppUISpy_v1.1_UNI.zip",
 			"description": "Determine the menu command ID's of Notepad++ menu items and toolbar buttons.",
 			"author": "Andreas Heim",
 			"homepage": "https://github.com/dinkumoil/NppUISpy"
