@@ -244,9 +244,11 @@
 		{
 			"folder-name": "CustomLineNumbers",
 			"display-name": "CustomLineNumbers",
-			"version": "1.1.7",
-			"id": "ee28a3e73f4211c46595fb3921130120441e84ab505fa6ef5cd58de0a3ccea9a",
-			"repository": "https://sourceforge.net/projects/customlinenumbers/files/v1.1.7/plugin/x86/CustomLineNumbers_v1.1.7_UNI.zip",
+			"version": "1.1.8",
+			"npp-compatible-versions": "[7.0,]",
+			"old-versions-compatibility": "[,1.1.7][7.0,]",
+			"id": "9bc7bfb2357ab20aa913aaf70cc36f3d749f0e5b78b1fb3596415b9ecc9e5b38",
+			"repository": "https://sourceforge.net/projects/customlinenumbers/files/v1.1.8/plugin/x86/CustomLineNumbers_v1.1.8_UNI.zip",
 			"description": "Displays line numbers as hex numbers. You can also configure the starting line number.",
 			"author": "Andreas Heim",
 			"homepage": "https://sourceforge.net/projects/customlinenumbers"
