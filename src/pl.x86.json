@@ -1127,9 +1127,9 @@
 		{
 			"folder-name": "Papyrus",
 			"display-name": "Papyrus Script Lexer",
-			"version": "0.4.0.27",
-			"id": "619f7ac822d5fecee375d05e282728da906c2e7f9f74c1bacfd11beee431dca1",
-			"repository": "https://github.com/blu3mania/npp-papyrus/releases/download/v0.4.0/PapyrusPlugin-v0.4.0-x86.zip",
+			"version": "0.5.0.28",
+			"id": "b6a7d2648da89745bfa2206b03a02286a72005a498018793e86945d61e84d5da",
+			"repository": "https://github.com/blu3mania/npp-papyrus/releases/download/v0.5.0/PapyrusPlugin-v0.5.0-x86.zip",
 			"description": "View and edit Papyrus Script files used by Bethesda games with syntax highlighting, function and block folding, hyperlinks to referenced scripts, keywords matching, plus compilation support with anonymized output and error list view.",
 			"author": "blu3mania",
 			"homepage": "https://github.com/blu3mania/npp-papyrus"
