@@ -369,6 +369,16 @@
 			"homepage": "https://sourceforge.net/projects/extsettings"
 		},
 		{
+			"folder-name": "FileFinder",
+			"display-name": "FileFinder",
+			"version": "0.2",
+			"id": "66fd778dd2b3c4847b7aada9600daf5229560cc4fd5789890020c48dd1b27e57",
+			"repository": "https://bitbucket.org/uph0/filefinder/downloads/FileFinder.v0.2.0.x64.bin.zip",
+			"description": "Quickly and comfortably find files by name, both in folders and in N++'s file history.",
+			"author": "UFO-Pu55y",
+			"homepage": "https://bitbucket.org/uph0/filefinder"
+		},
+		{
 			"folder-name": "FWDataViz",
 			"display-name": "Fixed-width Data Visualizer",
 			"version": "2.6.1.0",
