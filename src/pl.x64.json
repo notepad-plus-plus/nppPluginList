@@ -1,14 +1,14 @@
 {
 	"name": "npp-pluginList",
-	"version": "1.5.4",
+	"version": "1.5.6",
 	"arch": "64",
 	"npp-plugins": [
 		{
 			"folder-name": "3P",
 			"display-name": "3P - Progress Programmers Pal",
-			"version": "1.8.7",
-			"id": "6e371999f7c920f45e7164255b5d03b1a59eb6761da5ba472bfeae5e93b897ec",
-			"repository": "https://github.com/jcaillon/3P/releases/download/v1.8.7/3P_x64.zip",
+			"version": "1.8.8",
+			"id": "505d2fbd6fb97a4660e65d3498e12f2ef21b4d6c30c91016a6300b4c0e818973",
+			"repository": "https://github.com/jcaillon/3P/releases/download/v1.8.8/3P_x64.zip",
 			"description": "[Requires .NET framework v4.6.1]\r\nDesigned to help writing OpenEdge ABL (formerly known as Progress 4GL) code. It provides :\r\n- a powerful auto-completion\r\n- tool-tips on every words\r\n- a code explorer to quickly navigate through your code\r\n- a file explorer to easily access all your sources\r\n- the ability to run/compile and even PROLINT your source file with an in-line visualization of errors\r\n- more than 50 options to better suit your needs\r\n- and so much more!\r\nVisit https://jcaillon.github.io/3P/ for more details on the plugin",
 			"author": "Julien Caillon",
 			"homepage": "https://jcaillon.github.io/3P/"
@@ -50,9 +50,11 @@
 		{
 			"folder-name": "AutoCodepage",
 			"display-name": "AutoCodepage",
-			"version": "1.2.4",
-			"id": "88744cda8c4a6be373af2fa23c86156adaf3dc000fde8834957f9352a6f34fec",
-			"repository": "https://sourceforge.net/projects/autocodepage/files/v1.2.4/plugin/x64/AutoCodepage_v1.2.4_x64.zip",
+			"version": "1.2.5",
+			"npp-compatible-versions": "[7.7,]",
+			"old-versions-compatibility": "[,1.2.4][7.7,]",
+			"id": "e4352f74ab1b8d83973f17b8e58dddac98c40399af9fc0f8281833333a195055",
+			"repository": "https://sourceforge.net/projects/autocodepage/files/v1.2.5/plugin/x64/AutoCodepage_v1.2.5_x64.zip",
 			"description": "Automatically sets a document's code page to your needs on loading or renaming a document, changing its language or activating its tab. Usefull especially when coding batch scripts.",
 			"author": "Andreas Heim",
 			"homepage": "https://sourceforge.net/projects/autocodepage"
@@ -60,9 +62,11 @@
 		{
 			"folder-name": "AutoEolFormat",
 			"display-name": "AutoEolFormat",
-			"version": "1.0.2",
-			"id": "9488d63c983050d65af7911d3a3f19dbba6d3fc5a14ad1660ecfbadf31343a85",
-			"repository": "https://sourceforge.net/projects/autoeolformat/files/v1.0.2/plugin/x64/AutoEolFormat_v1.0.2_x64.zip",
+			"version": "1.0.3",
+			"npp-compatible-versions": "[7.7,]",
+			"old-versions-compatibility": "[,1.0.2][7.7,]",
+			"id": "275f1f7f780c9d15a16c1e0d8ff17f7ee0e80022275ab15222f1172cdf1de4e4",
+			"repository": "https://sourceforge.net/projects/autoeolformat/files/v1.0.3/plugin/x64/AutoEolFormat_v1.0.3_x64.zip",
 			"description": "A plugin to automatically set a document's EOL (End Of Line) format to your needs on loading, saving or renaming a document or activating its tab.",
 			"author": "Andreas Heim",
 			"homepage": "https://sourceforge.net/projects/autoeolformat"
@@ -150,19 +154,19 @@
 		{
 			"folder-name": "CodeStats",
 			"display-name": "Code::Stats",
-			"version": "1.0.1",
-			"id": "b4a8d6c3987b1999a7147283428e9a624a190ce7903893a02f07e496ffe2b16f",
-			"repository": "https://github.com/p0358/notepadpp-CodeStats/releases/download/v1.0.1/notepadpp-CodeStats_x64.zip",
-			"description": "Write code, level up, show off! A free stats tracking service for programmers. Enables XP tracking in Notepad++.",
+			"version": "1.1.1",
+			"id": "d572893b9ddbfd06a15cccee07283059284fd86c148eda7b9bd94285d8a6b837",
+			"repository": "https://github.com/p0358/notepadpp-CodeStats/releases/download/v1.1.1/notepadpp-CodeStats_x64.zip",
+			"description": "Write code, level up, show off! A free stats tracking service for programmers. Enables XP tracking in Notepad++.\r\nRequires a codestats.net account for its functionality.\r\n\r\nAnonymous usage statistics:\r\nOn the next Notepad++ launches, after API token has been provided, this plugin is making HTTPS request to analytics server containing plugin version and unique randomly generated ID. This is because the author would like to see the amount of people using this. The usage statistic collection is not related to the Code::Stats service itself. If you really do not want to be included, you can opt-out in plugin settings.\r\n",
 			"author": "p0358",
 			"homepage": "https://github.com/p0358/notepadpp-CodeStats"
 		},
 		{
 			"folder-name": "ColumnTools",
 			"display-name": "ColumnTools",
-			"version": "1.4.4.1",
-			"id": "e5e5c16b42045b5936fcfe509ecace145a713a341479ce1c1e09e05985b13b42",
-			"repository": "https://github.com/vinsworldcom/nppColumnTools/releases/download/1.4.4.1/ColumnTools-v1.4.4.1-x64.zip",
+			"version": "1.4.5.1",
+			"id": "de96034be8cd8dadecb77bd5a608467cfbdb0bdc2ba4238af7f0996dc687b65a",
+			"repository": "https://github.com/vinsworldcom/nppColumnTools/releases/download/1.4.5.1/ColumnTools-v1.4.5.1-x64.zip",
 			"description": "Notepad++ Highlight Current Column and Horizontal Ruler",
 			"author": "Vin's World",
 			"homepage": "https://github.com/vinsworldcom/nppColumnTools"
@@ -194,10 +198,11 @@
 		{
 			"folder-name": "ComparePlus",
 			"display-name": "ComparePlus",
-			"version": "1.0.0",
-			"npp-compatible-versions": "[8.4.2,]",
-			"id": "f133865b04cd1eeba2222dc2dcfd1427b482d4da1175618ab499ee99faf82bbc",
-			"repository": "https://github.com/pnedev/comparePlus/releases/download/cp_1.0.0/ComparePlus_1.0.0_x64.zip",
+			"version": "1.1.0",
+			"npp-compatible-versions": "[8.4.7,]",
+			"old-versions-compatibility": "[,1.0.0][8.4.2,8.4.6]",
+			"id": "c2d7e2e040be25470c8e04ae8ca89ef9500013cdad1c596a7b737247d0b99da2",
+			"repository": "https://github.com/pnedev/comparePlus/releases/download/cp_1.1.0/ComparePlus_cp_1.1.0_x64.zip",
 			"description": "Advanced compare tool based on the well-known Compare-plugin by Ty Landercasper and Jean-Sebastien Leroy.",
 			"author": "Pavel Nedev",
 			"homepage": "https://github.com/pnedev/comparePlus"
@@ -217,11 +222,11 @@
 		{
 			"folder-name": "CSVLint",
 			"display-name": "CSV Lint",
-			"version": "0.4.6.1",
+			"version": "0.4.6.2",
 			"npp-compatible-versions": "[8.4,]",
 			"old-versions-compatibility": "[,0.4.5.1][,8.3.3]",
-			"id": "8f7d8918956d160e2a8739b5819fb2eaf5c6b7fe427fc50d97f83c2b2581b530",
-			"repository": "https://github.com/BdR76/CSVLint/releases/download/0.4.6.1/CSVLint_x64.zip",
+			"id": "611fd5f2834c7cb97ceab433b3507290c1e29780ee26daa075656617e2bc9368",
+			"repository": "https://github.com/BdR76/CSVLint/releases/download/0.4.6.2/CSVLint_x64.zip",
 			"description": "Syntax highlighting and quality control for csv and fixed width data, detect column and datatypes, convert datetime/decimal format, sql, xml",
 			"author": "Bas de Reuver",
 			"homepage": "https://github.com/BdR76/CSVLint/"
@@ -250,9 +255,11 @@
 		{
 			"folder-name": "CustomLineNumbers",
 			"display-name": "CustomLineNumbers",
-			"version": "1.1.7",
-			"id": "4bb5077f79b947dffc7386d71baf2e2ca945a30c30a89b145c5a8ee6544a6e3e",
-			"repository": "https://sourceforge.net/projects/customlinenumbers/files/v1.1.7/plugin/x64/CustomLineNumbers_v1.1.7_x64.zip",
+			"version": "1.1.8",
+			"npp-compatible-versions": "[7.7,]",
+			"old-versions-compatibility": "[,1.1.7][7.7,]",
+			"id": "6466533e445cbc06e551cb98b27715e432cc705d6988a37d0a935e5954263b20",
+			"repository": "https://sourceforge.net/projects/customlinenumbers/files/v1.1.8/plugin/x64/CustomLineNumbers_v1.1.8_x64.zip",
 			"description": "Displays line numbers as hex numbers. You can also configure the starting line number.",
 			"author": "Andreas Heim",
 			"homepage": "https://sourceforge.net/projects/customlinenumbers"
@@ -260,9 +267,9 @@
 		{
 			"folder-name": "DiscordRPC",
 			"display-name": "Discord Rich Presence",
-			"version": "1.4.262.1",
-			"id": "8edc43dc5cc75a8eb9fe3a09f4b886c7f3d385ac5a5860ff5911049fca1208b4",
-			"repository": "https://github.com/Zukaritasu/notepadpp_rpc/releases/download/v1.4/DiscordRPC_v1.4_x86_64.zip",
+			"version": "1.5.389.1",
+			"id": "03f3d7765efb352991f64d1571de6b203fc029d378a6ca1f5b42424de5818b4f",
+			"repository": "https://github.com/Zukaritasu/notepadpp_rpc/releases/download/v1.5/DiscordRPC_v1.5_x86_64.zip",
 			"description": "Shows in discord the file that is currently being edited in Notepad++.",
 			"author": "Zukaritasu",
 			"homepage": "https://github.com/Zukaritasu/notepadpp_rpc"
@@ -360,6 +367,16 @@
 			"description": "Set various Scintilla settings which are not available via Notepad++ preferences dialog.",
 			"author": "Andreas Heim",
 			"homepage": "https://sourceforge.net/projects/extsettings"
+		},
+		{
+			"folder-name": "FileFinder",
+			"display-name": "FileFinder",
+			"version": "0.2",
+			"id": "66fd778dd2b3c4847b7aada9600daf5229560cc4fd5789890020c48dd1b27e57",
+			"repository": "https://bitbucket.org/uph0/filefinder/downloads/FileFinder.v0.2.0.x64.bin.zip",
+			"description": "Quickly and comfortably find files by name, both in folders and in N++'s file history.",
+			"author": "UFO-Pu55y",
+			"homepage": "https://bitbucket.org/uph0/filefinder"
 		},
 		{
 			"folder-name": "FWDataViz",
@@ -507,9 +524,9 @@
 		{
 			"folder-name": "JsonTools",
 			"display-name": "JSON Tools",
-			"version": "3.6.0",
-			"id": "c26f18fe13cf23940c1b54620e0a8d00f993e7e1111238ec169dfa15a45b54e5",
-			"repository": "https://github.com/molsonkiko/JsonToolsNppPlugin/releases/download/v3.6.0/Release_x64.zip",
+			"version": "4.4.0.0",
+			"id": "82a4aa4333efce934af80f025286c1d257cc3127ac30909a646f5ed7003b8978",
+			"repository": "https://github.com/molsonkiko/JsonToolsNppPlugin/releases/download/v4.4/Release_x64.zip",
 			"description": "Query/editing tool for JSON including linting, reformatting, a tree viewer with file navigation, a JMESpath-like query language, and much more",
 			"author": "Mark Johnston Olson",
 			"homepage": "https://github.com/molsonkiko/JsonToolsNppPlugin",
@@ -579,10 +596,11 @@
 		{
 			"folder-name": "LuaScript",
 			"display-name": "LuaScript",
-			"version": "0.11",
-			"npp-compatible-versions": "[,8.2.1]",
-			"id": "5f6805134c6a542d946e6688e9a10b9ad4b917ec7db0acb96f6a1212e1e57951",
-			"repository": "https://github.com/dail8859/LuaScript/releases/download/v0.11/LuaScript_v0.11_x64.zip",
+			"version": "0.12",
+			"npp-compatible-versions": "[8.3,]",
+			"old-versions-compatibility": "[,0.11][,8.2.1]",
+			"id": "f44a7b543165171baee3952661744319dddc7da0bea299d583b0219aa297d51f",
+			"repository": "https://github.com/dail8859/LuaScript/releases/download/v0.12/LuaScript_v0.12_x64.zip",
 			"description": "Adds Lua scripting capabilities. This provides control over all of Scintilla's features and options with a light-weight, fully-functional programming language.",
 			"author": "Justin Dailey",
 			"homepage": "https://github.com/dail8859/LuaScript"
@@ -610,10 +628,10 @@
 		{
 			"folder-name": "MenuIcons",
 			"display-name": "MenuIcons",
-			"version": "1.2.5",
-			"id": "6f2b909cf2468a1a16b443d004cad107e56a67a7e56dcb6f39792bbbfaacfbdc",
-			"repository": "https://github.com/francostellari/NppPlugins/raw/main/MenuIcons/MenuIcons_dll_1v25_x64.zip",
-			"description": "Allows adding icons to both main and context menu. Several options are available to load the icons from a folder. More than provide a full set of icons, it's design to enable people to create their own set of icon themes. Note: Does not work correctly in WinXP.",
+			"version": "2.0.0",
+			"id": "f894da2b29ae48476cd6add4550ad4b284bcb6f01a54479866218a5e6f7e7310",
+			"repository": "https://github.com/francostellari/NppPlugins/raw/main/MenuIcons/MenuIcons_dll_2v00_x64.zip",
+			"description": "Adds icons to the main menu, tab menu, context menu, and the tabs themselves.",
 			"author": "Franco Stellari",
 			"homepage": "https://github.com/francostellari/NppPlugins"
 		},
@@ -630,10 +648,11 @@
 		{
 			"folder-name": "mimeTools",
 			"display-name": "Mime tools",
-			"version": "2.8",
-			"npp-compatible-versions": "[8.4,]",
-			"id": "ed5133f8a0552e974135ada78a0260581be979f916ddbcd45697d2a1a1b8f280",
-			"repository": "https://github.com/npp-plugins/mimetools/releases/download/v2.8/mimetools.v2.8.x64.zip",
+			"version": "2.9",
+			"npp-compatible-versions": "[8.4.7,]",
+			"old-versions-compatibility": "[,2.8][,8.4.6]",
+			"id": "4ecf874d148507034273cd9b495a36964765d55554f80cf7cc5a6af5a6a18fb9",
+			"repository": "https://github.com/npp-plugins/mimetools/releases/download/v2.9/mimetools.v2.9.x64.zip",
 			"description": "Implements several main functionalities defined in MIME (Multipurpose Internet Mail Extensions).",
 			"author": "Don HO",
 			"homepage": "https://github.com/npp-plugins/mimetools"
@@ -691,9 +710,11 @@
 		{
 			"folder-name": "NppPluginDemo",
 			"display-name": "Notepad++ Plugin Demo",
-			"version": "4.2",
-			"id": "afa33fe958a907c2b80c0e8ae26deaea533455a2a2826f30a9b46fba0ba59941",
-			"repository": "https://github.com/npp-plugins/plugindemo/releases/download/v4.2/pluginDemo.v4.2.bin.x64.zip",
+			"version": "4.3",
+			"npp-compatible-versions": "[8.4.7,]",
+			"old-versions-compatibility": "[,4.2][,8.4.6]",
+			"id": "0e6e70d48b9f8cacf7816dbc6faff856064973458e7c9473d15ee834ebf20321",
+			"repository": "https://github.com/npp-plugins/plugindemo/releases/download/v4.3/pluginDemo.v4.3.bin.x64.zip",
 			"description": "Notepad++ Plugin Demo is written from Notepad++ Plugin Template to demonstrate the usage of plugin API.",
 			"author": "Don HO",
 			"homepage": "https://npp-user-manual.org/docs/plugins/"
@@ -701,9 +722,11 @@
 		{
 			"folder-name": "NppPluginTemplate",
 			"display-name": "Notepad++ Plugin Template",
-			"version": "4.2",
-			"id": "08b0a0faf7e044115f494b15d8151dab667a6cebad15993ba3314dcf9d168e3c",
-			"repository": "https://github.com/npp-plugins/plugintemplate/releases/download/v4.2/pluginTemplate.v4.2.bin.x64.zip",
+			"version": "4.3",
+			"npp-compatible-versions": "[8.4.7,]",
+			"old-versions-compatibility": "[,4.2][,8.4.6]",
+			"id": "27639a123e7f74baea139c2264d2897ad0807b40f9ebfcbcff205da68288d5e5",
+			"repository": "https://github.com/npp-plugins/plugintemplate/releases/download/v4.3/pluginTemplate.v4.3.bin.x64.zip",
 			"description": "Template for making plugin development as easy and simple as possible. Four steps and it's done.",
 			"author": "Don HO",
 			"homepage": "https://npp-user-manual.org/docs/plugins/"
@@ -721,11 +744,11 @@
 		{
 			"folder-name": "nppConverter",
 			"display-name": "Npp Converter",
-			"version": "4.4.0",
-			"npp-compatible-versions": "[8.3,]",
-			"old-versions-compatibility": "[,4.3][,8.2.1]",
-			"id": "e7eafbac35d91572aa93c5fd6a8a957669b50d0160aa2e35e9e632e2ac6ab63d",
-			"repository": "https://github.com/npp-plugins/converter/releases/download/v4.4/nppConvert.v4.4.x64.zip",
+			"version": "4.5",
+			"npp-compatible-versions": "[8.4.7,]",
+			"old-versions-compatibility": "[,4.4][,8.4.6]",
+			"id": "86624d8c4e80b9372646f03fc5e7fff34079e2826ca71d14cc43bd8bce24a468",
+			"repository": "https://github.com/npp-plugins/converter/releases/download/v4.5/nppConvert.v4.5.x64.zip",
 			"description": "ASCII<->Hex converter.",
 			"author": "Don HO",
 			"homepage": "https://github.com/npp-plugins/converter/"
@@ -817,9 +840,9 @@
 		{
 			"folder-name": "NppFTP",
 			"display-name": "NppFTP",
-			"version": "0.29.10",
-			"id": "f023570a03e1f0758264f91dc341b49bc499b32e0b2de0998c114667098ef5c8",
-			"repository": "https://github.com/ashkulz/NppFTP/releases/download/v0.29.10/NppFTP-x64.zip",
+			"version": "0.29.12",
+			"id": "4b995c4437d2ae64fdd924a43a8486a806fe3918870bbfc8ed9ecd4c1c82ef1a",
+			"repository": "https://github.com/ashkulz/NppFTP/releases/download/v0.29.12/NppFTP-x64.zip",
 			"description": "Allows FTP, FTPS, FTPES, and SFTP communications. Very useful for web development.",
 			"author": "ashish_kulz",
 			"homepage": "https://ashkulz.github.io/NppFTP/"
@@ -837,14 +860,24 @@
 		{
 			"folder-name": "NppGTags",
 			"display-name": "NppGTags",
-			"version": "5.0.0",
-			"npp-compatible-versions": "[8.4.1,]",
-			"old-versions-compatibility": "[,4.5.0][,8.3.3]",
-			"id": "84024d143a6ae36e8f0be3f25389657b68f17c76af4e87a503662760f27bd062",
-			"repository": "https://github.com/pnedev/nppgtags/releases/download/v5.0.0/NppGTags_v5.0.0_x64.zip",
+			"version": "5.1.1",
+			"npp-compatible-versions": "[8.4.7,]",
+			"old-versions-compatibility": "[,5.0.0][8.4.2,8.4.6]",
+			"id": "39e8021c3227f1dfb884608827246fd399429b36a4b436fb55f467b261460dcb",
+			"repository": "https://github.com/pnedev/nppgtags/releases/download/v5.1.1/NppGTags_v5.1.1_x64.zip",
 			"description": "Front-end to GNU Global source code tagging system (GTags). Provides code indexing and search/navigation tools for various languages.",
 			"author": "Pavel Nedev",
 			"homepage": "https://github.com/pnedev/nppgtags"
+		},
+		{
+			"folder-name": "Npp-Highlighter",
+			"display-name": "Npp Highlighter",
+			"version": "1.0.0",
+			"id": "7b1a293edb095be9e505aca2af3d2775c4b8b9a31659989a93a4b154a498e792",
+			"repository": "https://github.com/michaelxzhang/Npp-Highlighter/releases/download/v1.0.0/Npp-Highlighter_x64.zip",
+			"description": "Npp-Highlighter draw indicator on scroll bar when:\r\n- line contents changed\r\n- double clicked and smart highlighted words\r\n- text highlighted by Style token",
+			"author": "Michael Zhang",
+			"homepage": "https://github.com/michaelxzhang/Npp-Highlighter"
 		},
 		{
 			"folder-name": "NppJumpList",
@@ -929,9 +962,11 @@
 		{
 			"folder-name": "NppUISpy",
 			"display-name": "NppUISpy",
-			"version": "1.0.4",
-			"id": "a9b71baa8cd0ab25c68575a539f234a1b247ff47418845a61d50dfbb11e9eb79",
-			"repository": "https://github.com/dinkumoil/NppUISpy/releases/download/v1.0.4/NppUISpy_v1.0.4_x64.zip",
+			"version": "1.1",
+			"npp-compatible-versions": "[7.7,]",
+			"old-versions-compatibility": "[,1.0.4][7.7,]",
+			"id": "007ca9ff504d00e1ab378158fe296ac949ca9dda099e217e0802383a88fdba0a",
+			"repository": "https://github.com/dinkumoil/NppUISpy/releases/download/v1.1/NppUISpy_v1.1_x64.zip",
 			"description": "Determine the menu command ID's of Notepad++ menu items and toolbar buttons.",
 			"author": "Andreas Heim",
 			"homepage": "https://github.com/dinkumoil/NppUISpy"
@@ -970,11 +1005,11 @@
 		{
 			"folder-name": "Papyrus",
 			"display-name": "Papyrus Script Lexer",
-			"version": "0.4.0.27",
+			"version": "0.5.0.28",
 			"npp-compatible-versions": "[8.3,]",
 			"old-versions-compatibility": "[,0.2.3.23][,8.2.1]",
-			"id": "296a2b0eca67e39fb361f600a25a44b51005dd7ad47c7df505fd2949b6f7ece0",
-			"repository": "https://github.com/blu3mania/npp-papyrus/releases/download/v0.4.0/PapyrusPlugin-v0.4.0-x64.zip",
+			"id": "88aad3e5492ba290499e90ea596645a70a1b7834b7140436e084ad784a309707",
+			"repository": "https://github.com/blu3mania/npp-papyrus/releases/download/v0.5.0/PapyrusPlugin-v0.5.0-x64.zip",
 			"description": "View and edit Papyrus Script files used by Bethesda games with syntax highlighting, function and block folding, hyperlinks to referenced scripts, keywords matching, plus compilation support with anonymized output and error list view.",
 			"author": "blu3mania",
 			"homepage": "https://github.com/blu3mania/npp-papyrus"
@@ -1003,9 +1038,11 @@
 		{
 			"folder-name": "pork2sausage",
 			"display-name": "Pork to Sausage",
-			"version": "2.2",
-			"id": "bd312fea448dd8310f89f2afb5e94a74a0d5029b988f4cc84a397bd22bf4de08",
-			"repository": "https://github.com/npp-plugins/pork2sausage/releases/download/v2.2/pork2sausage.2.2.bin.x64.zip",
+			"version": "2.3",
+			"npp-compatible-versions": "[8.4.7,]",
+			"old-versions-compatibility": "[,2.2][,8.4.6]",
+			"id": "cb3b33683971412229023bdd53edff9a6b30d0c0ec6ba3d0bb91d3a22a99cb75",
+			"repository": "https://github.com/npp-plugins/pork2sausage/releases/download/v2.3/pork2sausage.2.3.bin.x64.zip",
 			"description": "Pass any selected text to any command line program as input and take the output (the result of program) to replace the selected text.",
 			"author": "Don HO",
 			"homepage": "https://github.com/npp-plugins/pork2sausage"
@@ -1109,9 +1146,9 @@
 		{
 			"folder-name": "RestApiToText",
 			"display-name": "RestApiToText",
-			"version": "1.4.0.1",
-			"id": "5fa019fe3052d701210bcd9d7436bcae8501d50a11dc19c7553a2b246750dfcb",
-			"repository": "https://github.com/eljefe7000/RestApiToText/raw/master/x64/Release/v1.4.0.1/RestApiToText.zip",
+			"version": "1.4.0.0",
+			"id": "c8a937ddaa6bb0d8762c565bc0433d7d95acbfaeb992e67e2bd4caff473b0e82",
+			"repository": "https://github.com/eljefe7000/RestApiToText/raw/master/x64/Release/v1.4.0.0/RestApiToText.zip",
 			"description": "Make REST API calls using content from an editor tab, then see the results in a new tab.\r\nUseful when you want to test a REST API or store the results of a REST call, without the need for an external REST tool.",
 			"author": "Jeffrey Smith",
 			"homepage": "https://github.com/eljefe7000/RestApiToText"
@@ -1129,9 +1166,9 @@
 		{
 			"folder-name": "RunMe",
 			"display-name": "RunMe",
-			"version": "1.4.1.0",
-			"id": "f49e2cd6796a5a1b49655aaa1ba5c3574fbfa0b33e51d9a585cbf0603be27e78",
-			"repository": "https://github.com/francostellari/NppPlugins/raw/main/RunMe/RunMe_dll_1v41_x64.zip",
+			"version": "1.6.0.0",
+			"id": "1e7549e5f1a9cdb96ebf7d90271c1f5ff94081154139f056154a02679dc1157c",
+			"repository": "https://github.com/francostellari/NppPlugins/raw/main/RunMe/RunMe_dll_1v60_x64.zip",
 			"description": "Execute the currently open file, based on its shell association. Also allows opening an explorer or command shell at the file location. Options are available to save the current file (or all files) before execution. The executed file can be run in foreground, background, or hidden mode. Context menu entries and tool bar icons are available.",
 			"author": "Franco Stellari",
 			"homepage": "https://github.com/francostellari/NppPlugins"
@@ -1328,9 +1365,9 @@
 		{
 			"folder-name": "TopMost",
 			"display-name": "TopMost",
-			"version": "1.4.0.0",
-			"id": "1c211bd5b14b50420b7238377dd001bda7d5d86941a9521ba6f7ba85599decca",
-			"repository": "https://github.com/francostellari/NppPlugins/raw/main/TopMost/TopMost_dll_1v40_x64.zip",
+			"version": "1.4.1.0",
+			"id": "6fab7cc42fce5a7e66e301b502d7e4ed492312c88c168fa9c2a53a7f9e22b083",
+			"repository": "https://github.com/francostellari/NppPlugins/raw/main/TopMost/TopMost_dll_1v41_x64.zip",
 			"description": "Allows setting the main Notepad++ window as a topmost window so it can stay on top of other windows even when it is not active. Syncs with Notepad++'s own stay on top functionality and allows to remember the setting between restarts as well as to show a toolbar button.",
 			"author": "Franco Stellari",
 			"homepage": "https://github.com/francostellari/NppPlugins"
