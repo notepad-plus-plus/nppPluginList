@@ -6,15 +6,15 @@ environment:
   matrix:
   - PlatformToolset: v143
     PLATFORM: ARM64
-    PYTHON: "C:\\Python310-x64"
+    PYTHON: "C:\\Python311-x64"
 
   - PlatformToolset: v143
     PLATFORM: x64
-    PYTHON: "C:\\Python310-x64"
+    PYTHON: "C:\\Python311-x64"
 
   - PlatformToolset: v143
     PLATFORM: Win32
-    PYTHON: "C:\\Python310-x64"
+    PYTHON: "C:\\Python311-x64"
 
 configuration:
     - Release
