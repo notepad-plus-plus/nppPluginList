@@ -417,9 +417,9 @@
 		{
 			"folder-name": "FWDataViz",
 			"display-name": "Fixed-width Data Visualizer",
-			"version": "2.6.1.0",
-			"id": "9f87480d23d343fb1feac837558a348340c083c983894fbf9fc4f5de3fcb4dc5",
-			"repository": "https://github.com/shriprem/FWDataViz/releases/download/v2.6.1.0/FWDataViz_x86.zip",
+			"version": "2.6.2.0",
+			"id": "59572e93c7300dc9416efd97d6b465eff86d7fc5949fe45e5abd44cda71b4291",
+			"repository": "https://github.com/shriprem/FWDataViz/releases/download/v2.6.2.0/FWDataViz_x86.zip",
 			"description": "Fixed Width Data Visualizer adds Excel-like features for fixed-width data files in Notepad++. Displays cursor position data. Foldable Record Blocks; Hop & Jump to specific fields. Field Copy & Field Paste. Data Extraction. Builtin dialogs to configure file-type, record-type & fields; and themes & colors. Automatic File Type Detection. Handles homogenous, mixed & multi-line records. Full Multi-byte character support. Darkmode enabled.",
 			"author": "Shridhar Kumar",
 			"homepage": "https://github.com/shriprem/FWDataViz"
