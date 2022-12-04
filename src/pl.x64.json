@@ -309,13 +309,14 @@
 		{
 			"folder-name": "ElasticTabstops",
 			"display-name": "ElasticTabstops",
-			"version": "1.3.1",
-			"npp-compatible-versions": "[,8.2.1]",
-			"id": "657f343f135e9af2d9db8b94dee991ff0c3931151ed7faea3a40822c0bc295a6",
-			"repository": "https://github.com/dail8859/ElasticTabstops/releases/download/v1.3.1/ElasticTabstops_v1.3.1_x64.zip",
+			"version": "1.5.0",
+			"npp-compatible-versions": "[8.4.4,]",
+			"old-versions-compatibility": "[,1.3][,8.2.1]",
+			"id": "48f94a2691d0926ab0c6ac10e23d4a4cdc79b7fa468ed6b0b172fa8de79166fd",
+			"repository": "https://github.com/mariusv-github/ElasticTabstops/releases/download/v1.5.0/ElasticTabstops_x64_1.5.0.zip",
 			"description": "Support for Elastic Tabstops.",
-			"author": "Justin Dailey",
-			"homepage": "https://github.com/dail8859/ElasticTabstops"
+			"author": "Marius Vasiliu, Justin Dailey",
+			"homepage": "https://github.com/mariusv-github/ElasticTabstops"
 		},
 		{
 			"folder-name": "EnhanceAnyLexer",
