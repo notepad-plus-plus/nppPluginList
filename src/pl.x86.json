@@ -160,9 +160,9 @@
 		{
 			"folder-name": "ColumnTools",
 			"display-name": "ColumnTools",
-			"version": "1.4.4.1",
-			"id": "0c356bc202147f8de806fa4fd676a122eb799d8d68f8c9ecfe978c6c5d91c8ab",
-			"repository": "https://github.com/vinsworldcom/nppColumnTools/releases/download/1.4.4.1/ColumnTools-v1.4.4.1-Win32.zip",
+			"version": "1.4.5.1",
+			"id": "082c1871ff351a9c9ed4f07d771d76a705bef700a70f1b621a4332b5ebdedf25",
+			"repository": "https://github.com/vinsworldcom/nppColumnTools/releases/download/1.4.5.1/ColumnTools-v1.4.5.1-Win32.zip",
 			"description": "Notepad++ Highlight Current Column and Horizontal Ruler",
 			"author": "Vin's World",
 			"homepage": "https://github.com/vinsworldcom/nppColumnTools"
@@ -367,9 +367,9 @@
 		{
 			"folder-name": "ExtSettings",
 			"display-name": "ExtSettings",
-			"version": "1.2.1",
-			"id": "5a6d2de1d6d8327c144a3e7a48a3eab79747bfdd662941fe6bf82cf0d1d6a969",
-			"repository": "https://sourceforge.net/projects/extsettings/files/v1.2.1/plugin/x86/ExtSettings_v1.2.1_UNI.zip",
+			"version": "1.2.2",
+			"id": "64f257ccb15eb4d8098341b6f62e70746f5631c2dab6d6009794f2d5141e8cfe",
+			"repository": "https://sourceforge.net/projects/extsettings/files/v1.2.2/plugin/x86/ExtSettings_v1.2.2_UNI.zip",
 			"description": "Set various Scintilla settings which are not available via Notepad++ preferences dialog.",
 			"author": "Andreas Heim",
 			"homepage": "https://sourceforge.net/projects/extsettings"
@@ -417,9 +417,9 @@
 		{
 			"folder-name": "FWDataViz",
 			"display-name": "Fixed-width Data Visualizer",
-			"version": "2.6.1.0",
-			"id": "9f87480d23d343fb1feac837558a348340c083c983894fbf9fc4f5de3fcb4dc5",
-			"repository": "https://github.com/shriprem/FWDataViz/releases/download/v2.6.1.0/FWDataViz_x86.zip",
+			"version": "2.6.2.0",
+			"id": "59572e93c7300dc9416efd97d6b465eff86d7fc5949fe45e5abd44cda71b4291",
+			"repository": "https://github.com/shriprem/FWDataViz/releases/download/v2.6.2.0/FWDataViz_x86.zip",
 			"description": "Fixed Width Data Visualizer adds Excel-like features for fixed-width data files in Notepad++. Displays cursor position data. Foldable Record Blocks; Hop & Jump to specific fields. Field Copy & Field Paste. Data Extraction. Builtin dialogs to configure file-type, record-type & fields; and themes & colors. Automatic File Type Detection. Handles homogenous, mixed & multi-line records. Full Multi-byte character support. Darkmode enabled.",
 			"author": "Shridhar Kumar",
 			"homepage": "https://github.com/shriprem/FWDataViz"
@@ -439,9 +439,9 @@
 		{
 			"folder-name": "GitSCM",
 			"display-name": "GitSCM",
-			"version": "1.4.8.1",
-			"id": "6b7c10ee643f93687c403895f39d33d92eb54e11f92fc031c165cc1a2b30ab86",
-			"repository": "https://github.com/vinsworldcom/nppGitSCM/releases/download/1.4.8.1/GitSCM-v1.4.8.1-Win32.zip",
+			"version": "1.4.8.2",
+			"id": "6ee0d4572692882c1680c3638a1cb728b52a674578144840aa2996edd22b4a17",
+			"repository": "https://github.com/vinsworldcom/nppGitSCM/releases/download/1.4.8.2/GitSCM-v1.4.8.2-Win32.zip",
 			"description": "N++ Gui for already installed Git SCM for Windows. Optionally TortoiseGit.",
 			"author": "Michael J. Vincent",
 			"homepage": "https://github.com/vinsworldcom/nppGitSCM"
@@ -600,9 +600,9 @@
 		{
 			"folder-name": "JsonTools",
 			"display-name": "JSON Tools",
-			"version": "4.0.0.1",
-			"id": "e34dc2d14c93d7e0533440862371054a4d951bd57dab679697b8502805eb1f69",
-			"repository": "https://github.com/molsonkiko/JsonToolsNppPlugin/releases/download/v4.0.0/Release_x86.zip",
+			"version": "4.4.0.0",
+			"id": "c637175f585762e8ed1fe469f3bf577bb8f9d35eded69d538f15f1ea459dad72",
+			"repository": "https://github.com/molsonkiko/JsonToolsNppPlugin/releases/download/v4.4/Release_x86.zip",
 			"description": "Query/editing tool for JSON including linting, reformatting, a tree viewer with file navigation, a JMESpath-like query language, and much more",
 			"author": "Mark Johnston Olson",
 			"homepage": "https://github.com/molsonkiko/JsonToolsNppPlugin",
@@ -1137,9 +1137,9 @@
 		{
 			"folder-name": "Papyrus",
 			"display-name": "Papyrus Script Lexer",
-			"version": "0.5.0.28",
-			"id": "b6a7d2648da89745bfa2206b03a02286a72005a498018793e86945d61e84d5da",
-			"repository": "https://github.com/blu3mania/npp-papyrus/releases/download/v0.5.0/PapyrusPlugin-v0.5.0-x86.zip",
+			"version": "0.5.1.30",
+			"id": "0624e64d620f31ce73fa69c570f14f36c63efc6c85d3a0cc2f0d9a811c5e3750",
+			"repository": "https://github.com/blu3mania/npp-papyrus/releases/download/v0.5.1/PapyrusPlugin-v0.5.1-x86.zip",
 			"description": "View and edit Papyrus Script files used by Bethesda games with syntax highlighting, function and block folding, hyperlinks to referenced scripts, keywords matching, plus compilation support with anonymized output and error list view.",
 			"author": "blu3mania",
 			"homepage": "https://github.com/blu3mania/npp-papyrus"
@@ -1310,9 +1310,9 @@
 		{
 			"folder-name": "RestApiToText",
 			"display-name": "RestApiToText",
-			"version": "1.4.0.0",
-			"id": "3b21071d83e564ce6b4086d130ddef6cd7603d1012ba9087cd32251189040c1d",
-			"repository": "https://github.com/eljefe7000/RestApiToText/raw/master/Release/v1.4.0.0/RestApiToText.zip",
+			"version": "1.4.0.1",
+			"id": "2e39f4f8254e3015d56bec7156f13807dca28af7e4148569accda63957bb1256",
+			"repository": "https://github.com/eljefe7000/RestApiToText/raw/master/Release/v1.4.0.1/RestApiToText.zip",
 			"description": "Make REST API calls using content from an editor tab, then see the results in a new tab.\r\nUseful when you want to test a REST API or store the results of a REST call, without the need for an external REST tool.",
 			"author": "Jeffrey Smith",
 			"homepage": "https://github.com/eljefe7000/RestApiToText"
