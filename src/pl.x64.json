@@ -1288,6 +1288,16 @@
 			"homepage": "https://www.incrediblejunior.com/npp_plugins/"
 		},
 		{
+			"folder-name": "SourceCookifier",
+			"display-name": "Source Cookifier",
+			"version": "0.10.0",
+			"id": "c05b50c4a4a346681a170d18eda8dbddc2c295ae3b3a248ac0f5859c84c0c273",
+			"repository": "https://bitbucket.org/uph0/sourcecookifier/downloads/SourceCookifier.v0.10.0.x64.bin.zip",
+			"description": "Use Exuberant Ctags to parse either only the currently activated source file or multiple files. The results are shown and can be browsed in a treeview inside of a dockable window. (Requires .NET)",
+			"author": "UFO-Pu55y",
+			"homepage": "https://bitbucket.org/uph0/sourcecookifier/"
+		},
+		{
 			"folder-name": "SpeechPlugin",
 			"display-name": "SpeechPlugin",
 			"version": "0.4.0.0",

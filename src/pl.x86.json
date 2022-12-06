@@ -1463,7 +1463,7 @@
 			"version": "0.7.3",
 			"id": "ccc0e93ddb580511b5c2b4a3363713ef0cd96187515e972362bf5b6b235430de",
 			"repository": "https://downloads.sourceforge.net/project/sourcecookifier/0.7.3/SourceCookifier.v0.7.3.bin.zip",
-			"description": "Use Exuberant Ctags to parse either only the currently activated source file or multiple files. The results are shown and can be browsed in a treeview inside of a dockable window. (Requires .NET 2.0)",
+			"description": "Use Exuberant Ctags to parse either only the currently activated source file or multiple files. The results are shown and can be browsed in a treeview inside of a dockable window. (Requires .NET 2.0) NOTE: The 32 bit version has been discontinued.",
 			"author": "UFO-Pu55y",
 			"homepage": "https://sourceforge.net/projects/sourcecookifier/"
 		},
