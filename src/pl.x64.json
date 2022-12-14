@@ -309,13 +309,14 @@
 		{
 			"folder-name": "ElasticTabstops",
 			"display-name": "ElasticTabstops",
-			"version": "1.3.1",
-			"npp-compatible-versions": "[,8.2.1]",
-			"id": "657f343f135e9af2d9db8b94dee991ff0c3931151ed7faea3a40822c0bc295a6",
-			"repository": "https://github.com/dail8859/ElasticTabstops/releases/download/v1.3.1/ElasticTabstops_v1.3.1_x64.zip",
+			"version": "1.5.0",
+			"npp-compatible-versions": "[8.4.4,]",
+			"old-versions-compatibility": "[,1.3][,8.2.1]",
+			"id": "48f94a2691d0926ab0c6ac10e23d4a4cdc79b7fa468ed6b0b172fa8de79166fd",
+			"repository": "https://github.com/mariusv-github/ElasticTabstops/releases/download/v1.5.0/ElasticTabstops_x64_1.5.0.zip",
 			"description": "Support for Elastic Tabstops.",
-			"author": "Justin Dailey",
-			"homepage": "https://github.com/dail8859/ElasticTabstops"
+			"author": "Marius Vasiliu, Justin Dailey",
+			"homepage": "https://github.com/mariusv-github/ElasticTabstops"
 		},
 		{
 			"folder-name": "EnhanceAnyLexer",
@@ -535,9 +536,9 @@
 		{
 			"folder-name": "NPPJSONViewer",
 			"display-name": "JSON Viewer",
-			"version": "2.0.3.0",
-			"id": "84109fc758c20c0314305fa1fb975ebe3b535e4273a9e79f9924a87645ea622a",
-			"repository": "https://github.com/kapilratnani/JSON-Viewer/releases/download/v2.0.3.0/NPPJSONViewer_x64.zip",
+			"version": "2.0.4.0",
+			"id": "d0810a29771eae43923c843e037027324476bf74f59eb6aaa976c58e3eabf18a",
+			"repository": "https://github.com/kapilratnani/JSON-Viewer/releases/download/v2.0.4.0/NPPJSONViewer_x64.zip",
 			"description": "JSON viewer that displays the selected JSON string in a tree view.",
 			"author": "Kapil Ratnani, Rajendra Singh",
 			"homepage": "https://github.com/kapilratnani/JSON-Viewer",
@@ -608,10 +609,10 @@
 		{
 			"folder-name": "NppMarkdownPanel",
 			"display-name": "Markdown Panel",
-			"version": "0.6.2",
-			"id": "e5205e2a3975b0ff219eeca9aa5949143742772c69521ad6458f8c9d140e9426",
-			"repository": "https://github.com/mohzy83/NppMarkdownPanel/releases/download/0.6.2/NppMarkdownPanel-0.6.2.0-x64.zip",
-			"description": "Lightweight plugin to preview Markdown files with a good default style.",
+			"version": "0.7.0",
+			"id": "711e1c1a01594c0c90628c286cdcdfe71af5f4b765316234845ed5d5eb903e89",
+			"repository": "https://github.com/mohzy83/NppMarkdownPanel/releases/download/0.7.0/NppMarkdownPanel-0.7.0.0-x64.zip",
+			"description": "Lightweight plugin to display rendered Markdown files.",
 			"author": "Mohzy83",
 			"homepage": "https://github.com/mohzy83/NppMarkdownPanel"
 		},
@@ -680,9 +681,9 @@
 		{
 			"folder-name": "NavigateTo",
 			"display-name": "NavigateTo",
-			"version": "1.12.7.0",
-			"id": "5498da772d1464d63874f3eb2387875ac3885f543528f844eebb048bfecedbc9",
-			"repository": "https://github.com/young-developer/nppNavigateTo/releases/download/v.1.12.7/NavigateTo_v.1.12.7_v142_x64.zip",
+			"version": "2.4.1.0",
+			"id": "c0c7cf0ecd596895c9e8496d3c8a7c4103feaeaacd0dc8ef40e819a398320048",
+			"repository": "https://github.com/young-developer/nppNavigateTo/releases/download/v.2.4.1/NavigateTo_v.2.4.1_v142_x64.zip",
 			"description": "Do you have more then 10 open tabs? Then this plugin is for you.\r\nNew and efficient way to quickly navigate between tabs (files). Allows you to search for a symbol or filename, filepath by matching against a keyword you type, and get a real-time preview while going through the search results with the Shift key.\r\nAnd YES, you can uncheck the Multi-line option, in the Preferences &gt; General &gt; Tab Bar zone because you don’t need the multi-lines tab feature anymore :)\r\nAuthor: Oleksii Maryshchenko\r\nEmail: oleksii.maryshchenko@gmail.com",
 			"author": "Oleksii Maryshchenko",
 			"homepage": "https://github.com/young-developer/nppNavigateTo"
@@ -1417,9 +1418,9 @@
 		{
 			"folder-name": "WakaTime",
 			"display-name": "WakaTime",
-			"version": "4.2.3",
-			"id": "c11f8f7c507e7453289fd14511db274a9d5c1099515083d9d08ec0b81b8840b0",
-			"repository": "https://github.com/wakatime/notepadpp-wakatime/releases/download/4.2.3/WakaTime-4.2.3-x64.zip",
+			"version": "5.0.1",
+			"id": "1be83200e1819250cfdb2b8462504bc75b7aafe8727956ae999d460b78184ba2",
+			"repository": "https://github.com/wakatime/notepadpp-wakatime/releases/download/5.0.1/WakaTime-5.0.1-x64.zip",
 			"description": "Automatic time tracking and metrics generated from your programming activity.\r\nVisit https://wakatime.com to see your logged time.",
 			"author": "WakaTime",
 			"homepage": "https://github.com/wakatime/notepadpp-wakatime"
