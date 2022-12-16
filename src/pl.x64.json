@@ -873,9 +873,9 @@
 		{
 			"folder-name": "Npp-Highlighter",
 			"display-name": "Npp Highlighter",
-			"version": "1.0.0",
-			"id": "7b1a293edb095be9e505aca2af3d2775c4b8b9a31659989a93a4b154a498e792",
-			"repository": "https://github.com/michaelxzhang/Npp-Highlighter/releases/download/v1.0.0/Npp-Highlighter_x64.zip",
+			"version": "1.0.0.1",
+			"id": "b968b70727a6ed03ad814dabe26865f0c01463552c529a139f12c74f2c791780",
+			"repository": "https://github.com/michaelxzhang/Npp-Highlighter/releases/download/v1.0.0.1/Npp-Highlighter_x64.zip",
 			"description": "Npp-Highlighter draw indicator on scroll bar when:\r\n- line contents changed\r\n- double clicked and smart highlighted words\r\n- text highlighted by Style token",
 			"author": "Michael Zhang",
 			"homepage": "https://github.com/michaelxzhang/Npp-Highlighter"
