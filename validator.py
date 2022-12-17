@@ -14,6 +14,10 @@ from win32api import GetFileVersionInfo, LOWORD, HIWORD
 api_url = os.environ.get('APPVEYOR_API_URL')
 has_error = False
 
+skipCertCheck = [
+    "SQLinForm"
+]
+
 # constants for creation of plugin list overview
 c_line_break = '\x0d'
 c_line_feed = '\x0a'
@@ -143,7 +147,11 @@ def parse(filename):
             print(f' *** REQUIRES Npp {req_npp_version.strip()} ***')
 
         try:
-            response = requests.get(plugin["repository"])
+            if (plugin["display-name"] in skipCertCheck):
+                    response = requests.get(plugin["repository"], verify=False)
+            else:  
+                    response = requests.get(plugin["repository"])
+            
         except requests.exceptions.RequestException as e:
             post_error(str(e))
             continue
