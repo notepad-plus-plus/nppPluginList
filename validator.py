@@ -18,6 +18,7 @@ skipCertCheck = [
     "SQLinForm"
 ]
 
+
 # constants for creation of plugin list overview
 c_line_break = '\x0d'
 c_line_feed = '\x0a'
