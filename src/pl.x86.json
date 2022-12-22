@@ -1492,6 +1492,16 @@
 			"homepage": "https://sourceforge.net/projects/npp-plugins/files/Spell-Checker/"
 		},
 		{
+			"folder-name": "SQLinFormNpp",
+			"display-name": "SQLinForm",
+			"version": "5.3.35",
+			"id": "0c5d009c5904628c25728975c55b61f62d4d47575a9e062669412ec700cc0f75",
+			"repository": "https://www.sqlinform.com/npp/SQLinFormNpp_5.3.35.zip",
+			"description": "Formats plain SQL, SQL embedded in program code, SQL snippets, and SQL statements with syntax errors.\r\nHas a powerful code folding feature and formats your SQL as you Type. Supports all major DB like Oracle, DB2, SQL Server, Teradata, Netezza, MySQL, Sybase, MS Access, etc. Incorporates its own multi-DB parser engine. No additional software required.",
+			"author": "Guido Thelen",
+			"homepage": "https://www.sqlinform.com"
+		},
+		{
 			"folder-name": "SurroundSelection",
 			"display-name": "SurroundSelection",
 			"version": "1.4.1",
