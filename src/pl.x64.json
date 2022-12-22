@@ -265,6 +265,17 @@
 			"homepage": "https://sourceforge.net/projects/customlinenumbers"
 		},
 		{
+			"folder-name": "dbgpPlugin",
+			"display-name": "DBGp",
+			"version": "0.14.0.0",
+			"npp-compatible-versions": "[8.3,]",
+			"id": "307c15a76464b285eca50d0546255dcadd1b42bbf57931581c3d339665f7e20b",
+			"repository": "https://bitbucket.org/rdipardo/dbgp/downloads/dbgpPlugin_v0.14_x64.zip",
+			"description": "PHP debugger (XDebug) which talks with the DBGP protocol. Transforms Notepad++ into a PHP IDE.",
+			"author": "Damjan Zobo Cvetko",
+			"homepage": "https://bitbucket.org/rdipardo/dbgp"
+		},
+		{
 			"folder-name": "DiscordRPC",
 			"display-name": "Discord Rich Presence",
 			"version": "1.5.389.1",
