@@ -536,10 +536,10 @@
 		{
 			"folder-name": "JsonTools",
 			"display-name": "JSON Tools",
-			"version": "4.4.0.0",
-			"id": "82a4aa4333efce934af80f025286c1d257cc3127ac30909a646f5ed7003b8978",
-			"repository": "https://github.com/molsonkiko/JsonToolsNppPlugin/releases/download/v4.4/Release_x64.zip",
-			"description": "Query/editing tool for JSON including linting, reformatting, a tree viewer with file navigation, a JMESpath-like query language, and much more",
+			"version": "4.8.1.0",
+			"id": "00c50c970a00dbeaa1e38777a0b8eb12cc3a6f611795bd2adce614960d4e22fc",
+			"repository": "https://github.com/molsonkiko/JsonToolsNppPlugin/releases/download/v4.8.1/Release_x64.zip",
+			"description": "Query/editing tool for JSON including linting, reformatting, a tree viewer with file navigation, JSON schema validation and generation, and much more",
 			"author": "Mark Johnston Olson",
 			"homepage": "https://github.com/molsonkiko/JsonToolsNppPlugin",
 			"npp-compatible-versions": "[8.4.1,]"
