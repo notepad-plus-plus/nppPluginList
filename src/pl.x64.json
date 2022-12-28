@@ -640,7 +640,7 @@
 		{
 			"folder-name": "MenuIcons",
 			"display-name": "MenuIcons",
-			"version": "2.0.0",
+			"version": "2.0.1",
 			"id": "4c99e71607c10a17277738320808abc8c157bac978b7634268fb62cd9035ce31",
 			"repository": "https://github.com/francostellari/NppPlugins/raw/main/MenuIcons/MenuIcons_dll_2v01_x64.zip",
 			"description": "Adds icons to the main menu, tab menu, context menu, and the tabs themselves.",
@@ -1178,7 +1178,7 @@
 		{
 			"folder-name": "RunMe",
 			"display-name": "RunMe",
-			"version": "1.6.0.0",
+			"version": "1.6.1.0",
 			"id": "4f2e7cb08409b6645d49e207ad0896190993d56f1c7aabc209abc09bd9b5a86c",
 			"repository": "https://github.com/francostellari/NppPlugins/raw/main/RunMe/RunMe_dll_1v61_x64.zip",
 			"description": "Execute the currently open file, based on its shell association. Also allows opening an explorer or command shell at the file location. Options are available to save the current file (or all files) before execution. The executed file can be run in foreground, background, or hidden mode. Context menu entries and tool bar icons are available.",
@@ -1355,7 +1355,7 @@
 		{
 			"folder-name": "TakeNotes",
 			"display-name": "TakeNotes",
-			"version": "1.2.3.0",
+			"version": "1.2.4.0",
 			"id": "ff1295fdbea598e8237d8ce7730d733e2e7c83cf3e222b618c8b5e7ec1232a79",
 			"repository": "https://github.com/francostellari/NppPlugins/raw/main/TakeNotes/TakeNotes_dll_1v24_x64.zip",
 			"description": "Helps people who like to use Notepad++ for jotting quick notes. Instead of using unnamed 'new ?' files, this plugins allows to quickly create new empty files in a folder of choice. The file names may be custom generated using a mask and may contain details such as the user name, date, and time of creation so that unique files may be generated. Additionally, the plugin allows to load exiting notes in the folder of choice, save existing files as a note, and open the last saved note quickly. Please refer to the Options dialog box for more details. It is strongly recommended to use this plugin in combination with AutoSave to make sure that you never loose a note.",
@@ -1387,7 +1387,7 @@
 		{
 			"folder-name": "TopMost",
 			"display-name": "TopMost",
-			"version": "1.4.1.0",
+			"version": "1.4.2.0",
 			"id": "a9ce9dbddbae7da481b5d0bfd736bc518903b3f5ff2511a8f5947f8fd2a65fc5",
 			"repository": "https://github.com/francostellari/NppPlugins/raw/main/TopMost/TopMost_dll_1v42_x64.zip",
 			"description": "Allows setting the main Notepad++ window as a topmost window so it can stay on top of other windows even when it is not active. Syncs with Notepad++'s own stay on top functionality and allows to remember the setting between restarts as well as to show a toolbar button.",
