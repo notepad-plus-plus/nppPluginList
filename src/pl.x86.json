@@ -254,6 +254,16 @@
 			"homepage": "https://sourceforge.net/projects/customlinenumbers"
 		},
 		{
+			"folder-name": "DarkTheme",
+			"display-name": "Dark Theme Mode",
+			"version": "1.0",
+			"id": "704eb5438934a11fb0b47396a2bbd1d4bc2e6365a6be6bee01606be386e4a1ec",
+			"repository": "https://github.com/MyTDT-Mysoft/DarkTheme-Npp-Plugin/releases/download/v1.0/DarkTheme.zip",
+			"description": "Invert colors of default white themes independent of style configuration",
+			"author": "MyTDT-Mysoft",
+			"homepage": "https://github.com/MyTDT-Mysoft/DarkTheme-Npp-Plugin"
+		},
+		{
 			"folder-name": "dbgpPlugin",
 			"display-name": "DBGp",
 			"version": "0.14.0.0",
