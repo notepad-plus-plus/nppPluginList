@@ -385,7 +385,7 @@
 			"npp-compatible-versions": "[7.0,]",
 			"old-versions-compatibility": "[,1.2.2][7.0,]",
 			"id": "c4fc445e89660824efcbb0856b5a21178b6abb14652ab67a2b2f7135a5b482d2",
-			"repository": "https://sourceforge.net/projects/extsettings/files/v1.3/plugin/x86/ExtSettings_v1.3_UNI.zip",
+			"repository": "https://sourceforge.net/projects/extsettings/files/v1.3.0/plugin/x86/ExtSettings_v1.3_UNI.zip",
 			"description": "Set various Scintilla settings which are not available via Notepad++ preferences dialog.",
 			"author": "Andreas Heim",
 			"homepage": "https://sourceforge.net/projects/extsettings"
