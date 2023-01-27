@@ -1,5 +1,5 @@
 ## Plugin List - arm64 bit
-version 1.5.7
+version 1.5.8
 |Plugin name | Author | Homepage | Version and link | Description |
 |---|---|---|---|---|
 | Auto Detect Indention | Mike Tzou (Chocobo1) | https://github.com/Chocobo1/nppAutoDetectIndent | [2.3 - arm64 bit](https://github.com/Chocobo1/nppAutoDetectIndent/releases/download/2.3/arm64.zip) | Detects indention (tab or spaces) and auto adjust Tab key on-the-fly. |
