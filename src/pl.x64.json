@@ -124,9 +124,9 @@
 		{
 			"folder-name": "BracketsCheck",
 			"display-name": "BracketsCheck",
-			"version": "1.2.2",
-			"id": "a56363d21f392e0e67b4110555e1d2a0477e55ac8368abccc5c0f9f2d11f5ba9",
-			"repository": "https://github.com/niccord/BracketsCheck/releases/download/v1.2.2/BracketsCheck_1-2-2_x64.zip",
+			"version": "1.2.3",
+			"id": "f9d53b1825723b566a024ddaef2a99673d22d55bbffb4ed77d25d8008d2059cc",
+			"repository": "https://github.com/niccord/BracketsCheck/releases/download/v1.2.3/BracketsCheck_1-2-3_x64.zip",
 			"description": "Helps to check if brackets in your file are balanced.\r\nYou can check all text in a file or only the part you selected.",
 			"author": "niccord",
 			"homepage": "https://github.com/niccord/BracketsCheck/"
