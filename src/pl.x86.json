@@ -80,9 +80,9 @@
 		{
 			"folder-name": "AutoSave",
 			"display-name": "AutoSave",
-			"version": "1.6.1.0",
+			"version": "2.0",
 			"id": "505e4c5ae157db658eb6da2dd7e89d87856cc211ec7f9655926803d205bf471f",
-			"repository": "https://github.com/francostellari/NppPlugins/raw/main/AutoSave/AutoSave_dll_1v61_x32.zip",
+			"repository": "https://github.com/francostellari/NppPlugins/raw/main/AutoSave/AutoSave_dll_2v00_x32.zip",
 			"description": "Automatically save the currently open files based on a timer schedule and/or upon the application losing focus.\r\nThe plugin offers several options to save the current (or all the files), selecting only the named ones, accessible through an options dialog box.",
 			"author": "Franco Stellari",
 			"homepage": "https://github.com/francostellari/NppPlugins"
