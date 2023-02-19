@@ -145,7 +145,7 @@ def parse(filename):
         try:
             response = requests.get(plugin["repository"])
         except requests.exceptions.RequestException as e:
-            post_error(str(e))
+            post_error(f'{plugin["display-name"]}: {str(e)}')
             continue
 
         if response.status_code != 200:
