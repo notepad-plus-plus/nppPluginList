@@ -465,10 +465,10 @@
 		{
 			"folder-name": "HugeFiles",
 			"display-name": "HugeFiles",
-			"version": "0.1.1.0",
-			"id": "028373550ce7ee9ee94e5be4424e64bc46717dc111a22ae8be2937055e47b9a3",
-			"repository": "https://github.com/molsonkiko/HugeFiles/releases/download/v0.1.1.0/Release_x64.zip",
-			"description": "Reads very large files one chunk at a time. The user can customize whether to try to end chunks on delimiters (e.g. line ends), the chunk size. There is also a GUI form for navigation, and the user can choose to see a preview of each chunk in the GUI. Inspired by superolmo's BigFiles.",
+			"version": "0.4.0",
+			"id": "9aaf74eaf01768998212b05cbdcbb21e96808399ea0e7603dbe62fd46a3f8308",
+			"repository": "https://github.com/molsonkiko/HugeFiles/releases/download/v0.4.0/Release_x64.zip",
+			"description": "Reads very large files one chunk at a time, ensuring that each chunk breaks at the end of a line.\r\nCan also break JSON files into syntactically valid JSON chunks.\r\nCan find/replace text in big files without huge memory consumption.\r\nInspired by superolmo's BigFiles.",
 			"author": "Mark Johnston Olson",
 			"homepage": "https://github.com/molsonkiko/HugeFiles/",
 			"npp-compatible-versions": "[7.3.3,]"
@@ -538,9 +538,9 @@
 		{
 			"folder-name": "JsonTools",
 			"display-name": "JSON Tools",
-			"version": "4.8.1.0",
-			"id": "00c50c970a00dbeaa1e38777a0b8eb12cc3a6f611795bd2adce614960d4e22fc",
-			"repository": "https://github.com/molsonkiko/JsonToolsNppPlugin/releases/download/v4.8.1/Release_x64.zip",
+			"version": "4.10.0",
+			"id": "7654359ca474279f248f5dd04265604c615acd19587aedfae2e24c6b6de7b1e8",
+			"repository": "https://github.com/molsonkiko/JsonToolsNppPlugin/releases/download/v4.10.0/Release_x64.zip",
 			"description": "Query/editing tool for JSON including linting, reformatting, a tree viewer with file navigation, JSON schema validation and generation, and much more",
 			"author": "Mark Johnston Olson",
 			"homepage": "https://github.com/molsonkiko/JsonToolsNppPlugin",
