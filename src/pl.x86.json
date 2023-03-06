@@ -1,6 +1,6 @@
 {
 	"name": "npp-pluginList",
-	"version": "1.5.9",
+	"version": "1.6.0",
 	"arch": "32",
 	"npp-plugins": [
 		{
@@ -1754,6 +1754,16 @@
 			"description": "Tired of zooming your document everytime you just want to scroll but accidentally still holding the [Ctrl] key? Then this is what you want! It disables mouse zoom, keyboard zoom, or both.",
 			"author": "Stanislav Eckert",
 			"homepage": "https://github.com/StanDog/npp-zoomdisabler"
-		}
+		},
+		{
+			"folder-name": "NppTextFX",
+			"display-name": "NppTextFX",
+			"version": "1.3.0",
+			"id": "",
+			"repository": "https://github.com/rainman74/NPPTextFX2/releases/download/1.3/NppTextFX2.1.3.x86.zip",
+			"description": "TextFX2 is a Notepad++ plugin which performs a variety of common conversions on selected text.",
+			"author": "Karlheinz Graf",
+			"homepage": "https://github.com/rainman74/NPPTextFX2"
+		}		
 	]
 }
