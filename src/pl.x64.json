@@ -724,10 +724,10 @@
 		{
 			"folder-name": "NppOpenAI",
 			"display-name": "NppOpenAI",
-			"version": "0.1.0.0",
+			"version": "0.1.5.0",
 			"npp-compatible-versions": "[8.4.8,]",
-			"id": "24a700682855620fed884cdcb88f0354efecc0144f6f68c933a227e5183c4430",
-			"repository": "https://github.com/Krazal/nppopenai/raw/main/NppOpenAI_x64.zip",
+			"id": "2b7f649ccecdd7d18ac530f713370ea99e9aac61bccf9852c5d8e6b1a6629b20",
+			"repository": "https://github.com/Krazal/nppopenai/releases/download/v0.1.5/NppOpenAI_x64.zip",
 			"description": "OpenAI (aka. ChatGPT) plugin for Notepad++. Simply select your text, press Ctrl + Shift + O, and you'll see the AI generated response in seconds. Some examples: 'Please create a Fibonacci function in PHP'; 'Mi az árvíztűrő tükörfúrógép?' (Hungarian Unicode test) etc. This plugin requires an active internet connection and an OpenAI registration / API key (handles it confidential).",
 			"author": "Richárd Stockinger",
 			"homepage": "https://github.com/Krazal/nppopenai"
