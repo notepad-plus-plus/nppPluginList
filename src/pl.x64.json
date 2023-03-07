@@ -1482,10 +1482,10 @@
 			"homepage": "https://github.com/StanDog/npp-zoomdisabler"
 		},
 		{
-			"folder-name": "NppTextFX",
+			"folder-name": "NppTextFX64",
 			"display-name": "NppTextFX2",
 			"version": "1.3.0",
-			"id": "054ba566984088947fe24f4f899023b34f31bbd2e627ab867a604378f32c5a2d",
+			"id": "2af721014a2f54a7bf2e5141e997c2cad58e93df5b1f74366a44faf2407cb3a3",
 			"repository": "https://github.com/rainman74/NPPTextFX2/releases/download/1.3/NppTextFX2.1.3.x64.zip",
 			"description": "TextFX2 is a Notepad++ plugin which performs a variety of common conversions on selected text.",
 			"author": "Karlheinz Graf",
