@@ -361,9 +361,9 @@
 		{
 			"folder-name": "Explorer",
 			"display-name": "Explorer",
-			"version": "1.9.8.0",
-			"id": "5ad7c047d37e06a0029b6d98ca9c6283b0f42fbd8e05067f91e9692687a4fe84",
-			"repository": "https://github.com/oviradoi/npp-explorer-plugin/releases/download/v1.9.8/Explorer.zip",
+			"version": "1.9.9.0",
+			"id": "e6dbee3154b72fd2f19079d0454184c23b43e170f4b6ad6141145f2a7619342c",
+			"repository": "https://github.com/oviradoi/npp-explorer-plugin/releases/download/v1.9.9/Explorer.zip",
 			"description": "File browser. You can open files from your local drives in Notepad++, just double click!",
 			"author": "Jens Lorenz",
 			"homepage": "https://github.com/oviradoi/npp-explorer-plugin"
