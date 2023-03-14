@@ -1,6 +1,6 @@
 {
 	"name": "npp-pluginList",
-	"version": "1.5.8",
+	"version": "1.5.9",
 	"arch": "64",
 	"npp-plugins": [
 		{
@@ -298,11 +298,11 @@
 		{
 			"folder-name": "DSpellCheck",
 			"display-name": "DSpellCheck",
-			"version": "1.4.24",
+			"version": "1.5.0",
 			"npp-compatible-versions": "[8.3,]",
 			"old-versions-compatibility": "[,1.4.22][,8.2.1]",
-			"id": "254a66ce701008a568375c3dfd0e4d9cb3cbf18269e7a80ea96db692e8f0733d",
-			"repository": "https://github.com/Predelnik/DSpellCheck/releases/download/v1.4.24/DSpellCheck_x64.zip",
+			"id": "e906fdd4758732d56e54c9e7ce56be7d9356f818fb6f1710f47fbdca6cbb9a26",
+			"repository": "https://github.com/Predelnik/DSpellCheck/releases/download/v1.5.0/DSpellCheck_x64.zip",
 			"description": "Spell-checking with these main features:\r\n-Underlining spelling mistakes\r\n-Iterating through all mistakes in document\r\n-Finding mistakes only in comments and strings (For files with standard programming language syntax e.g. C++)\r\n-Possible usage of multiple languages (dictionaries) simultaneously to do spell-checking.\r\n-Getting suggestions for words by either using default Notepad++ menu or separate context menu called by special button appearing under word.\r\n-Able to add words to user dictionary or ignore them for current session of Notepad++\r\n-Using either Hunspell library (included in plugin) or Aspell library (needs to be installed).\r\n-A lot of customizing available from Plugin settings (Ignoring/Allowing only specific files, Choosing delimiters for words, Maximum number of suggestions etc)\r\n-Support for downloading and removing Hunspell dictionaries through user friendly GUI interface\r\n-Ability to quickly change current language through the nice menu.",
 			"author": "Sergey Semushin",
 			"homepage": "https://github.com/Predelnik/DSpellCheck"
@@ -353,9 +353,9 @@
 		{
 			"folder-name": "Explorer",
 			"display-name": "Explorer",
-			"version": "1.9.7.0",
-			"id": "9ab4ae2dd6944821a2a8d82765173da3ea2bbd800740c618c9f867a6237edf43",
-			"repository": "https://github.com/oviradoi/npp-explorer-plugin/releases/download/v1.9.7/Explorer_x64.zip",
+			"version": "1.9.8.0",
+			"id": "c3df0007d62cdba3982bf16c4806d085b4c047ccc4997c365ddf02f3fe8c0630",
+			"repository": "https://github.com/oviradoi/npp-explorer-plugin/releases/download/v1.9.8/Explorer_x64.zip",
 			"description": "File browser. You can open files from your local drives in Notepad++, just double click!",
 			"author": "Jens Lorenz",
 			"homepage": "https://github.com/oviradoi/npp-explorer-plugin"
@@ -722,6 +722,17 @@
 			"homepage": "https://github.com/azerg/NppBplistPlugin"
 		},
 		{
+			"folder-name": "NppOpenAI",
+			"display-name": "NppOpenAI",
+			"version": "0.1.5.0",
+			"npp-compatible-versions": "[8.4.8,]",
+			"id": "2b7f649ccecdd7d18ac530f713370ea99e9aac61bccf9852c5d8e6b1a6629b20",
+			"repository": "https://github.com/Krazal/nppopenai/releases/download/v0.1.5/NppOpenAI_x64.zip",
+			"description": "OpenAI (aka. ChatGPT) plugin for Notepad++. Simply select your text, press Ctrl + Shift + O, and you'll see the AI generated response in seconds. Some examples: 'Please create a Fibonacci function in PHP'; 'Mi az árvíztűrő tükörfúrógép?' (Hungarian Unicode test) etc. This plugin requires an active internet connection and an OpenAI registration / API key (handles it confidential).",
+			"author": "Richárd Stockinger",
+			"homepage": "https://github.com/Krazal/nppopenai"
+		},
+		{
 			"folder-name": "NppPluginDemo",
 			"display-name": "Notepad++ Plugin Demo",
 			"version": "4.3",
@@ -1019,11 +1030,11 @@
 		{
 			"folder-name": "Papyrus",
 			"display-name": "Papyrus Script Lexer",
-			"version": "0.5.1.30",
+			"version": "1.0.0.31",
 			"npp-compatible-versions": "[8.3,]",
 			"old-versions-compatibility": "[,0.2.3.23][,8.2.1]",
-			"id": "e7cffb2aba82fc7418b587d577eeac96bb602105409a803f0618161992db6635",
-			"repository": "https://github.com/blu3mania/npp-papyrus/releases/download/v0.5.1/PapyrusPlugin-v0.5.1-x64.zip",
+			"id": "8a81bd6b8bf03754fb1b2965c4b35c93ee232f27f73f754fb7f3d7053caa20b2",
+			"repository": "https://github.com/blu3mania/npp-papyrus/releases/download/v1.0.0/PapyrusPlugin-v1.0.0-x64.zip",
 			"description": "View and edit Papyrus Script files used by Bethesda games with syntax highlighting, function and block folding, hyperlinks to referenced scripts, keywords matching, plus compilation support with anonymized output and error list view.",
 			"author": "blu3mania",
 			"homepage": "https://github.com/blu3mania/npp-papyrus"
@@ -1326,9 +1337,9 @@
 		{
 			"folder-name": "SQLinFormNpp64",
 			"display-name": "SQLinForm",
-			"version": "5.3.35",
-			"id": "d2ab68ee6889bf3b8825e22c7335125bad77b4274d65da8f69581cffdce9831c",
-			"repository": "https://www.sqlinform.com/npp/SQLinFormNpp64_5.3.35.zip",
+			"version": "6.23.2.7",
+			"id": "40ab2e114fd9999c5739e4690cb7e0ccf5e78335eabe9bbefd8c72135283e6bf",
+			"repository": "https://www.sqlinform.com/npp/SQLinFormNpp64_6.23.02.zip",
 			"description": "Formats plain SQL, SQL embedded in program code, SQL snippets, and SQL statements with syntax errors.\r\nHas a powerful code folding feature and formats your SQL as you Type. Supports all major DB like Oracle, DB2, SQL Server, Teradata, Netezza, MySQL, Sybase, MS Access, etc. Incorporates its own multi-DB parser engine. No additional software required.",
 			"author": "Guido Thelen",
 			"homepage": "https://www.sqlinform.com"
@@ -1469,6 +1480,16 @@
 			"description": "Tired of zooming your document everytime you just want to scroll but accidentally still holding the [Ctrl] key? Then this is what you want! It disables mouse zoom, keyboard zoom, or both.",
 			"author": "Stanislav Eckert",
 			"homepage": "https://github.com/StanDog/npp-zoomdisabler"
-		}
+		},
+		{
+			"folder-name": "NppTextFX",
+			"display-name": "NppTextFX2",
+			"version": "1.4.1",
+			"id": "caf6a2f3e9c54a205e744713a30b5a49baff761b1eed02906ad37a843804c9d0",
+			"repository": "https://github.com/rainman74/NPPTextFX2/releases/download/1.4.1/NppTextFX2.1.4.1.x64.zip",
+			"description": "TextFX2 is a Notepad++ plugin which performs a variety of common conversions on selected text.",
+			"author": "Karlheinz Graf",
+			"homepage": "https://github.com/rainman74/NPPTextFX2"
+		}		
 	]
 }
