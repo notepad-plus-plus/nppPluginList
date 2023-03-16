@@ -525,10 +525,10 @@
 		{
 			"folder-name": "HugeFiles",
 			"display-name": "HugeFiles",
-			"version": "0.4.0",
-			"id": "506165a45a1f29ae9ed7900d77fed1abcd0d4d7ad7b311556e61ca678c3accb6",
-			"repository": "https://github.com/molsonkiko/HugeFiles/releases/download/v0.4.0/Release_x86.zip",
-			"description": "Reads very large files one chunk at a time, ensuring that each chunk breaks at the end of a line.\r\nCan also break JSON files into syntactically valid JSON chunks.\r\nCan find/replace text in big files without huge memory consumption.\r\nInspired by superolmo's BigFiles.",
+			"version": "0.4.1",
+			"id": "a3b62bf3f2e1670e7f84cc87d685f9cc7aca75cf63590fd9fd6e6b028dd307a9",
+			"repository": "https://github.com/molsonkiko/HugeFiles/releases/download/v0.4.1/Release_x86.zip",
+			"description": "Reads very large files one chunk at a time, ensuring that each chunk breaks at the end of a line.\r\nCan also break JSON files into syntactically valid JSON chunks.\r\nCan find/replace text in big files without huge memory consumption.\r\nFind/replace form for editing the big file without reading it all into memory.",
 			"author": "Mark Johnston Olson",
 			"homepage": "https://github.com/molsonkiko/HugeFiles/",
 			"npp-compatible-versions": "[6.2.3,]"
@@ -616,13 +616,14 @@
 		{
 			"folder-name": "JsonTools",
 			"display-name": "JSON Tools",
-			"version": "4.10.0",
-			"id": "72ab0374493d2ee0dd33b90b8b16241188c4820c081dd53359622bd1d5e64aa8",
-			"repository": "https://github.com/molsonkiko/JsonToolsNppPlugin/releases/download/v4.10.0/Release_x86.zip",
+			"version": "4.11.0",
+			"id": "b07785b1334368ebc045dbdbda4f0bce8b9d9d7e2187391b329bfdaf29300640",
+			"repository": "https://github.com/molsonkiko/JsonToolsNppPlugin/releases/download/v4.11.0/Release_x86.zip",
 			"description": "Query/editing tool for JSON including linting, reformatting, a tree viewer with file navigation, JSON schema validation and generation, and much more",
 			"author": "Mark Johnston Olson",
 			"homepage": "https://github.com/molsonkiko/JsonToolsNppPlugin",
-			"npp-compatible-versions": "[8.4.1,]"
+			"npp-compatible-versions": "[7.3.3,]",
+			"old-versions-compatibility": "[,4.10.0][8.4.1,]"
 		},
 		{
 			"folder-name": "NPPJSONViewer",
