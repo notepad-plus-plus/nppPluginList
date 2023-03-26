@@ -25,7 +25,7 @@ tmpl_new_line = '\n'
 tmpl_tr_b = '| '
 tmpl_td   = ' | '
 tmpl_tr_e = ' |'
-tmpl_tab_head = '''|Plugin name | Author | Homepage | Version and link | Description |
+tmpl_tab_head = '''| Plugin name | Author | Homepage | Version and link | Description |
 |---|---|---|---|---|
 '''
 
@@ -69,8 +69,8 @@ def rest_of_text(description):
 def gen_pl_table(filename):
     pl = json.loads(open(filename).read())
     arch = pl["arch"]
-    tab_text = "## Plugin List - %s bit%s" % (arch, tmpl_new_line)
-    tab_text += "version %s%s" % (pl["version"], tmpl_new_line)
+    tab_text = "## Plugin List - %s bit%s" % (arch, tmpl_new_line * 2)
+    tab_text += "version %s%s" % (pl["version"], tmpl_new_line * 2)
     tab_text += tmpl_tab_head
 
     # Plugin Name = ij.display-name
