@@ -1,6 +1,8 @@
 ## Plugin List - arm64 bit
+
 version 1.6.0
-|Plugin name | Author | Homepage | Version and link | Description |
+
+| Plugin name | Author | Homepage | Version and link | Description |
 |---|---|---|---|---|
 | Auto Detect Indention | Mike Tzou (Chocobo1) | https://github.com/Chocobo1/nppAutoDetectIndent | [2.3 - arm64 bit](https://github.com/Chocobo1/nppAutoDetectIndent/releases/download/2.3/arm64.zip) | Detects indention (tab or spaces) and auto adjust Tab key on-the-fly. |
 | ComparePlus | Pavel Nedev | https://github.com/pnedev/comparePlus | [1.1.0 - arm64 bit](https://github.com/pnedev/comparePlus/releases/download/cp_1.1.0/ComparePlus_cp_1.1.0_ARM64.zip) |  <details> <summary> Advanced compare tool based on the well-known Compare-plugin by Ty Landercasper and Jean-Sebastien </summary>  Leroy. </details> |
