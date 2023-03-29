@@ -58,11 +58,11 @@
 		{
 			"folder-name": "AutoEolFormat",
 			"display-name": "AutoEolFormat",
-			"version": "1.0.3",
+			"version": "1.0.4",
 			"npp-compatible-versions": "[7.0,]",
 			"old-versions-compatibility": "[,1.0.2][7.0,]",
-			"id": "a0fa4b721348102f12319a6766598870d06cb4552d2163450953f90dfac09682",
-			"repository": "https://sourceforge.net/projects/autoeolformat/files/v1.0.3/plugin/x86/AutoEolFormat_v1.0.3_UNI.zip",
+			"id": "5a546da5db6f74e1c0a3897db74c215c047f49333094077685fc36f7fc56ca9e",
+			"repository": "https://sourceforge.net/projects/autoeolformat/files/v1.0.4/plugin/x86/AutoEolFormat_v1.0.4_UNI.zip",
 			"description": "A plugin to automatically set a document's EOL (End Of Line) format to your needs on loading, saving or renaming a document or activating its tab.",
 			"author": "Andreas Heim",
 			"homepage": "https://sourceforge.net/projects/autoeolformat"
@@ -1754,6 +1754,6 @@
 			"description": "TextFX2 is a Notepad++ plugin which performs a variety of common conversions on selected text.",
 			"author": "Karlheinz Graf",
 			"homepage": "https://github.com/rainman74/NPPTextFX2"
-		}		
+		}
 	]
 }
