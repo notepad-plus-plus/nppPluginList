@@ -46,11 +46,11 @@
 		{
 			"folder-name": "AutoCodepage",
 			"display-name": "AutoCodepage",
-			"version": "1.2.5",
+			"version": "1.2.6",
 			"npp-compatible-versions": "[7.0,]",
 			"old-versions-compatibility": "[,1.2.4][7.5.1,]",
-			"id": "372bcb040440d27e1f85b9e957e6fce6e8337c72e4f929918556e921e66e209f",
-			"repository": "https://sourceforge.net/projects/autocodepage/files/v1.2.5/plugin/x86/AutoCodepage_v1.2.5_UNI.zip",
+			"id": "78f0c074e8d1903459a5acbbcd26614e08169ef4050a5a583d72e85c71a1f906",
+			"repository": "https://sourceforge.net/projects/autocodepage/files/v1.2.6/plugin/x86/AutoCodepage_v1.2.6_UNI.zip",
 			"description": "Automatically sets a document's code page to your needs on loading or renaming a document, changing its language or activating its tab. Usefull especially when coding batch scripts.",
 			"author": "Andreas Heim",
 			"homepage": "https://sourceforge.net/projects/autocodepage"
