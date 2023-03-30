@@ -1408,9 +1408,9 @@
 		{
 			"folder-name": "SelectQuotedText",
 			"display-name": "SelectQuotedText",
-			"version": "1.0.0",
-			"id": "798b6624432a62adbfd9ef514d3ce8e0a423c22d2fe1b030eca2b1fdf7ae6533",
-			"repository": "https://github.com/ffes/selectquotedtext/releases/download/v1.0.0/SelectQuotedText-100-x32.zip",
+			"version": "1.1.0",
+			"id": "50068e86ab8f85d2c5361fedfb53bde767c2a8cb680eed734b1d25b0cb06c49f",
+			"repository": "https://github.com/ffes/selectquotedtext/releases/download/v1.1.0/SelectQuotedText-110-x32.zip",
 			"description": "Select the text in quotes (aka a string) based on the Scintilla lexers in Notepad++. Just press Alt+' and select the entire string under the cursor. If no string is found, it selects the current word.",
 			"author": "Frank Fesevur",
 			"homepage": "https://www.fesevur.com/selectquotedtext"
