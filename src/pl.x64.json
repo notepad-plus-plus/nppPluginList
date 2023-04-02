@@ -516,11 +516,11 @@
 		{
 			"folder-name": "jN",
 			"display-name": "jN Notepad++ Plugin",
-			"version": "2.2.185.8",
+			"version": "2.2.185.9",
 			"npp-compatible-versions": "[8.4,]",
 			"old-versions-compatibility": "[,2.2.185.7][,8.3.3]",
-			"id": "673f2736fa5ba77afca7ef12fb30408f2d3a048be63b4f2cbc7c8c94ea59fbdc",
-			"repository": "https://github.com/sieukrem/jn-npp-plugin/releases/download/2.2.185.8/jN_2.2.185.8_x64.zip",
+			"id": "4dad997496602a724b79e1e825ed0008e4315959ce85c6466a01ea93e1738bce",
+			"repository": "https://github.com/sieukrem/jn-npp-plugin/releases/download/2.2.185.9/jN_2.2.185.9_x64.zip",
 			"description": "Allows you to extend Notepad++ by using JavaScript.\r\n- You can create new menu elements which execute JavaScript\r\n- You can use manu ActiveX components available on your PC\r\n- You can add shortcuts executing JavaScript\r\n- You can create HTML-based dialogs and docking windows\r\n- You can write JavaScript wrappers around Win32 API\r\n - Since version 2.0.116 you can debug your automating scripts\r\n - Selection highlighting and navigation bar\r\n - Integrated Zen Coding v0.7\r\n - You can catch context menu request and create your own",
 			"author": "Eugen Kremer",
 			"homepage": "https://github.com/sieukrem/jn-npp-plugin/wiki"
