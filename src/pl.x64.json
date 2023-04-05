@@ -458,7 +458,7 @@
 			"old-versions-compatibility": "[,1.1][,8.2.1]",
 			"id": "64765f79d048ee96f95c4bbfa4c9199e00b1bbf3804a105e5dd08b655e732d1b",
 			"repository": "https://bitbucket.org/rdipardo/htmltag/downloads/HTMLTag_v136_x64.zip",
-			"description": "Provides three core functions:\r\n- HTML and XML tag jumping, like the built-in brace matching (Ctrl+B / Shift+Ctrl+B), and selection\r\n of tags and/or contents.\r\n- HTML entity encoding/decoding (example: é to &eacute;)\r\n- JS character encoding/decoding (example: é to \\u00E9)",
+			"description": "Provides three core functions:\r\n- HTML and XML tag jumping, like the built-in brace matching and selection\r\n of tags and/or contents.\r\n- HTML entity encoding/decoding (example: é to &eacute;)\r\n- JS character encoding/decoding (example: é to \\u00E9)",
 			"author": "Martijn Coppoolse",
 			"homepage": "https://bitbucket.org/rdipardo/htmltag/"
 		},
