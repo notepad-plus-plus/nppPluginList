@@ -393,12 +393,13 @@
 		{
 			"folder-name": "NPPFSIPlugin",
 			"display-name": "F# Interactive",
-			"version": "0.1.1",
-			"id": "894c89d401c668f76aabe20bf37cadcec26418bfc57fe275687615e8af759810",
-			"repository": "https://github.com/downloads/ppv/NPPFSIPlugin/NPPFSIPlugin.zip",
-			"description": "Hosts F# Interactive inside Notepad++. Note: F# should be installed separately.",
+			"version": "0.2.1.1",
+			"npp-compatible-versions": "[7.7,]",
+			"id": "f0401e31da90b7baa504ba841d6ff21f1f28cbad139480cb00adc30a49567a92",
+			"repository": "https://github.com/rdipardo/nppFSIPlugin/releases/download/v0.2.1.1/NPPFSIPlugin_v0.2.1.1_win32.zip",
+			"description": "F# source code lexer and IPC client for F# Interactive.\r\nNote: the .NET SDK must be installed separately.",
 			"author": "Prapin Peethambaran",
-			"homepage": "https://github.com/ppv/NPPFSIPlugin"
+			"homepage": "https://github.com/rdipardo/nppFSIPlugin"
 		},
 		{
 			"folder-name": "FallingBricks",
