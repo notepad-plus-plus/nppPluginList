@@ -1502,6 +1502,17 @@
 			"description": "TextFX2 is a Notepad++ plugin which performs a variety of common conversions on selected text.",
 			"author": "Karlheinz Graf",
 			"homepage": "https://github.com/rainman74/NPPTextFX2"
+		},
+		{
+			"folder-name": "FoldingLineHider",
+			"display-name": "Folding Line Hider",
+			"version": "1.0",
+			"npp-compatible-versions": "[7.0,]",
+			"id": "a1d7276085f554d5ae3e9a6c1fd6321208299fa8041e0c8d1c85f766ab5ba50a",
+			"repository": "https://github.com/leonardchai/FoldingLineHider/releases/download/v1.0/FoldingLineHider1.0.x64.zip",
+			"description": "This Notepad++ plugin can hide the unsightly folding line, and for convenience, you can fold and unfold the current level using the Alt + Left/Right keys.",
+			"author": "leonardchai@gmail.com",
+			"homepage": "https://github.com/leonardchai/FoldingLineHider"
 		}
 	]
 }
