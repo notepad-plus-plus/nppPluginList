@@ -1,6 +1,6 @@
 ## Plugin List - arm64 bit
 
-version 1.6.1
+version 1.6.2
 
 | Plugin name | Author | Homepage | Version and link | Description |
 |---|---|---|---|---|
@@ -24,4 +24,4 @@ version 1.6.1
 | SpeechPlugin | Jim Xochellis | https://github.com/chcg/SpeechPlugin | [0.4.0.0 - arm64 bit](https://github.com/chcg/SpeechPlugin/releases/download/v0.4.0/SpeechPlugin_v0.4.0_ARM64.zip) |  <details> <summary> No kidding, Notepad++ speaks now. With SpeechPlugin, you can make Notepad++ dictate your text or </summary>  source code. Of course, speakers are necessary. </details> |
 | Task List | blitowitz | https://code.google.com/p/npp-task-list/ | [2.5 - arm64 bit](https://github.com/Megabyteceer/npp-task-list/releases/download/v2.5.0/NppTaskList_v2.5.0_arm64.zip) |  <details> <summary> Automatically scans the open document and adds all "TODO:*" items to your task list, a window pane </summary>  docked on the right. Double-clicking an item in the list will take you to that line in the code. </details> |
 | URL Encode/Decode Plugin | Rajendra Singh | https://github.com/SinghRajenM/nppURLPlugin | [1.2.0.0 - arm64 bit](https://github.com/SinghRajenM/nppURLPlugin/releases/download/1.2.0.0/urlPlugin_arm64.zip) |  <details> <summary> Hopefully a decent URL Encoder and Decoder plug-in for Notepad++ which helps to make developer's </summary>  life easier by providing facility to encode/decode the URL within Notepad++. <br><br>How it works:<br>1. Configure setting from menu (Plugins->URL Plugin->URL Plugin Settings). It is not mandatory, but recommended.<br>2. Select text/URL which you want to encode/decode.<br>3. Perform your task via Plugins->URL Plugin->Encode/Decode URL.<br><br> </details> |
-| JSON Viewer | Kapil Ratnani, Rajendra Singh | https://github.com/kapilratnani/JSON-Viewer | [2.0.4.0 - arm64 bit](https://github.com/kapilratnani/JSON-Viewer/releases/download/v2.0.4.0/NPPJSONViewer_ARM64.zip) | JSON viewer that displays the selected JSON string in a tree view. |
+| JSON Viewer | Kapil Ratnani, Rajendra Singh | https://github.com/kapilratnani/JSON-Viewer | [2.0.5.0 - arm64 bit](https://github.com/kapilratnani/JSON-Viewer/releases/download/v2.0.5.0/NPPJSONViewer_ARM64.zip) | JSON viewer that displays the selected JSON string in a tree view. |
