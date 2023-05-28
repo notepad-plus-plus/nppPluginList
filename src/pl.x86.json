@@ -961,9 +961,9 @@
 		{
 			"folder-name": "NppExec",
 			"display-name": "NppExec",
-			"version": "0.8.2",
-			"id": "bcf7936a92a50d1ee3da2f4f8e809622531d8ea34f229c269e8ad3147f13cfa5",
-			"repository": "https://github.com/d0vgan/nppexec/releases/download/v082/NppExec_082_dll.zip",
+			"version": "0.8.4",
+			"id": "f6906bce916570ae70bc042c06e5cee0f94bcb026392d51eddfc1c26ff1f8d14",
+			"repository": "https://github.com/d0vgan/nppexec/releases/download/v084/NppExec_084_dll.zip",
 			"description": "Execute commands or saved scripts without leaving Notepad++.",
 			"author": "Vitaliy Dovgan",
 			"homepage": "https://github.com/d0vgan/nppexec"
