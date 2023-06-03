@@ -654,9 +654,9 @@
 		{
 			"folder-name": "MenuIcons",
 			"display-name": "MenuIcons",
-			"version": "2.0.2",
-			"id": "98c1d5fcb2b872320323d25cd3a6529ebeab378f7657a3dd14c75e7912828804",
-			"repository": "https://github.com/francostellari/NppPlugins/raw/main/MenuIcons/MenuIcons_dll_2v02_x64.zip",
+			"version": "2.0.3",
+			"id": "3eac481249afd98e1dae60324deae4111874db4322f549d4b8bc7829cf4a872a",
+			"repository": "https://github.com/francostellari/NppPlugins/raw/main/MenuIcons/MenuIcons_dll_2v03_x64.zip",
 			"description": "Adds icons to the main menu, tab menu, context menu, and the tabs themselves.",
 			"author": "Franco Stellari",
 			"homepage": "https://github.com/francostellari/NppPlugins"
@@ -1380,9 +1380,9 @@
 		{
 			"folder-name": "TakeNotes",
 			"display-name": "TakeNotes",
-			"version": "1.2.5.0",
-			"id": "3d154ddfcab8c2f36bd04ee3ff55966c82d9e44f0bf7ad0b52a92dfb99b567c1",
-			"repository": "https://github.com/francostellari/NppPlugins/raw/main/TakeNotes/TakeNotes_dll_1v25_x64.zip",
+			"version": "1.2.6.0",
+			"id": "91792e8a4e6c37ed53348af12f7d018ebfbea5b8f70afbe082bbfc477cee5d62",
+			"repository": "https://github.com/francostellari/NppPlugins/raw/main/TakeNotes/TakeNotes_dll_1v26_x64.zip",
 			"description": "Helps people who like to use Notepad++ for jotting quick notes. Instead of using unnamed 'new ?' files, this plugins allows to quickly create new empty files in a folder of choice. The file names may be custom generated using a mask and may contain details such as the user name, date, and time of creation so that unique files may be generated. Additionally, the plugin allows to load exiting notes in the folder of choice, save existing files as a note, and open the last saved note quickly. Please refer to the Options dialog box for more details. It is strongly recommended to use this plugin in combination with AutoSave to make sure that you never loose a note.",
 			"author": "Franco Stellari",
 			"homepage": "https://github.com/francostellari/NppPlugins"
