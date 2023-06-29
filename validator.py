@@ -15,25 +15,27 @@ api_url = os.environ.get('APPVEYOR_API_URL')
 has_error = False
 
 # constants for creation of plugin list overview
-c_line_break = '\x0d'
-c_line_feed = '\x0a'
-c_space = ' '
-c_sum_len = 100
-tmpl_vert = '&vert;'
-tmpl_br = '<br>'
-tmpl_new_line = '\n'
-tmpl_tr_b = '| '
-tmpl_td   = ' | '
-tmpl_tr_e = ' |'
-tmpl_tab_head = '''| Plugin name | Author | Homepage | Version and link | Description |
+C_LINE_BREAK = '\x0d'
+C_LINE_FEED = '\x0a'
+C_SPACE = ' '
+C_SUM_LEN = 100
+TMPL_VERT = '&vert;'
+TMPL_BR = '<br>'
+TMPL_NEW_LINE = '\n'
+TMPL_TR_B = '| '
+TMPL_TD = ' | '
+TMPL_TR_E = ' |'
+TMPL_TAB_HEAD = '''| Plugin name | Author | Homepage | Version and link | Description |
 |---|---|---|---|---|
 '''
+
 
 def get_version_number(filename):
     info = GetFileVersionInfo(filename, "\\")
     ms = info['FileVersionMS']
     ls = info['FileVersionLS']
     return '.'.join(map(str, [HIWORD(ms), LOWORD(ms), HIWORD(ls), LOWORD(ls)]))
+
 
 def post_error(message):
     global has_error
@@ -52,26 +54,29 @@ def post_error(message):
         from pprint import pprint
         pprint(message)
 
+
 def first_two_lines(description):
-    if len(description) <= c_sum_len:
+    if len(description) <= C_SUM_LEN:
         return ""
-    i = description.rfind(tmpl_br,0,c_sum_len)
+    i = description.rfind(TMPL_BR, 0, C_SUM_LEN)
     if i != -1:
         return description[:i]
-    i = description.rfind(c_space,0,c_sum_len)
+    i = description.rfind(C_SPACE, 0, C_SUM_LEN)
     if i != -1:
         return description[:i]
-    return description[:c_sum_len]
+    return description[:C_SUM_LEN]
+
 
 def rest_of_text(description):
     return description[len(first_two_lines(description)):]
 
+
 def gen_pl_table(filename):
     pl = json.loads(open(filename).read())
     arch = pl["arch"]
-    tab_text = "## Plugin List - %s bit%s" % (arch, tmpl_new_line * 2)
-    tab_text += "version %s%s" % (pl["version"], tmpl_new_line * 2)
-    tab_text += tmpl_tab_head
+    tab_text = "## Plugin List - %s bit%s" % (arch, TMPL_NEW_LINE * 2)
+    tab_text += "version %s%s" % (pl["version"], TMPL_NEW_LINE * 2)
+    tab_text += TMPL_TAB_HEAD
 
     # Plugin Name = ij.display-name
     # Author = ij.author
@@ -79,20 +84,21 @@ def gen_pl_table(filename):
     # Version and link = "[" + ij.version + " - " + json_file.arch + " bit](" + ij.repository +")"
     # Description = " <details> <summary> " + first_two_lines(ij.description) + " </summary> " rest_of_text(ij.description) +"</details>"
     for plugin in pl["npp-plugins"]:
-        tab_line = tmpl_tr_b + plugin["display-name"] + tmpl_td + plugin["author"] + tmpl_td + plugin["homepage"] + tmpl_td
+        tab_line = TMPL_TR_B + plugin["display-name"] + TMPL_TD + plugin["author"] + TMPL_TD + plugin["homepage"] + TMPL_TD
         tab_line += "[%s - %s bit](%s)" % (plugin["version"], arch, plugin["repository"])
-        tab_line += tmpl_td
+        tab_line += TMPL_TD
         descr = plugin["description"]
-        descr = descr.replace(c_line_feed, tmpl_br).replace(c_line_break, '').replace("|", tmpl_vert)
+        descr = descr.replace(C_LINE_FEED, TMPL_BR).replace(C_LINE_BREAK, '').replace("|", TMPL_VERT)
         summary = first_two_lines(descr)
         rest = rest_of_text(descr)
         if summary:
             tab_line += " <details> <summary> %s </summary> %s </details>" % (summary, rest)
         else:
             tab_line += rest
-        tab_line += tmpl_tr_e + tmpl_new_line
+        tab_line += TMPL_TR_E + TMPL_NEW_LINE
         tab_text += tab_line
     return tab_text
+
 
 def parse(filename):
     try:
@@ -196,31 +202,31 @@ def parse(filename):
             post_error(f'{plugin["display-name"]}: Unexpected DLL version. DLL is {dll_version} but expected {version}')
             continue
 
-
-        #check uniqueness of json folder-name, display-name and repository
+        # check uniqueness of json folder-name, display-name and repository
         found = False
-        for name in displaynames :
-           if plugin["display-name"] == name :
-               post_error(f'{plugin["display-name"]}: non unique display-name entry')
-               found = True
-        if found == False:
-               displaynames.append(plugin["display-name"])
-
-        found = False
-        for folder in foldernames :
-           if plugin["folder-name"] == folder :
-               post_error(f'{plugin["folder-name"]}: non unique folder-name entry')
-               found = True
-        if found == False:
-           foldernames.append(plugin["folder-name"])
+        for name in displaynames:
+            if plugin["display-name"] == name:
+                post_error(f'{plugin["display-name"]}: non unique display-name entry')
+                found = True
+        if not found:
+            displaynames.append(plugin["display-name"])
 
         found = False
-        for repo in repositories :
-           if plugin["repository"] == repo :
-               post_error(f'{plugin["repository"]}: non unique repository entry')
-               found = True
+        for folder in foldernames:
+            if plugin["folder-name"] == folder:
+                post_error(f'{plugin["folder-name"]}: non unique folder-name entry')
+                found = True
         if found == False:
-           repositories.append(plugin["repository"])
+            foldernames.append(plugin["folder-name"])
+
+        found = False
+        for repo in repositories:
+            if plugin["repository"] == repo:
+                post_error(f'{plugin["repository"]}: non unique repository entry')
+                found = True
+        if found == False:
+            repositories.append(plugin["repository"])
+
 
 bitness_from_input = ""
 if len(sys.argv) > 1:
