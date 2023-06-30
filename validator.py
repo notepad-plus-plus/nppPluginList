@@ -1,14 +1,13 @@
+import io
 import json
 import os
-import io
-import sys
 import shutil
-
-import requests
+import sys
 import zipfile
 from hashlib import sha256
+
+import requests
 from jsonschema import Draft202012Validator, FormatChecker
-import win32api
 from win32api import GetFileVersionInfo, LOWORD, HIWORD
 
 api_url = os.environ.get('APPVEYOR_API_URL')
