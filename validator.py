@@ -120,10 +120,10 @@ def parse(filename):
     displaynames = []
     repositories = []
 
-    if os.path.exists("./" + bitness_from_input):
-        shutil.rmtree("./" + bitness_from_input, True)
+    if os.path.exists("./" + provided_architecture):
+        shutil.rmtree("./" + provided_architecture, True)
 
-    os.mkdir("./" + bitness_from_input)
+    os.mkdir("./" + provided_architecture)
     for plugin in pl["npp-plugins"]:
         print(plugin["display-name"], end='')
 
@@ -183,7 +183,7 @@ def parse(filename):
             post_error(f'{plugin["display-name"]}: Zip file does not contain {plugin["folder-name"]}.dll.')
             continue
 
-        with zip.open(dll_name) as dll_file, open("./" + bitness_from_input + "/" + dll_name, 'wb') as f:
+        with zip.open(dll_name) as dll_file, open("./" + provided_architecture + "/" + dll_name, 'wb') as f:
             f.write(dll_file.read())
 
         version = plugin["version"]
@@ -192,7 +192,7 @@ def parse(filename):
         version = version + (3 - version.count('.')) * ".0"
 
         try:
-            dll_version = get_version_number("./" + bitness_from_input + "/" + dll_name)
+            dll_version = get_version_number("./" + provided_architecture + "/" + dll_name)
         except win32api.error:
             post_error(f'{plugin["display-name"]}: Does not contain any version information.')
             continue
@@ -228,25 +228,25 @@ def parse(filename):
             repositories.append(plugin["repository"])
 
 
-bitness_from_input = ""
+ARCHITECTURE_FILENAMES_MAPPING = {
+    'x86': ("src/pl.x86.json", "plugin_list_x86.md"),
+    'x64': ("src/pl.x64.json", "plugin_list_x64.md"),
+    'arm64': ("src/pl.arm64.json", "plugin_list_arm64.md")
+}
+ARCHITECTURE_OPTIONS = ", ".join(ARCHITECTURE_FILENAMES_MAPPING.keys())
+ARCHITECTURE_OPTIONS = f"{ARCHITECTURE_OPTIONS.rpartition(',')[0]}, or{ARCHITECTURE_OPTIONS.rpartition(',')[-1]}"
 if len(sys.argv) > 1:
-    bitness_from_input = sys.argv[1]
+    provided_architecture = sys.argv[1].lower()
 else:
-    print('Please provide the target architecture (x86, x64, or arm64) as the first argument.')
-    sys.exit(-2)
-print('Input: %s' % bitness_from_input)
-if bitness_from_input.lower() == 'x64':
-    parse("src/pl.x64.json")
-    with open("plugin_list_x64.md", "w") as md_file:
-        md_file.write(gen_pl_table("src/pl.x64.json"))
-elif bitness_from_input.lower() == 'arm64':
-    parse("src/pl.arm64.json")
-    with open("plugin_list_arm64.md", "w") as md_file:
-        md_file.write(gen_pl_table("src/pl.arm64.json"))
-else:
-    parse("src/pl.x86.json")
-    with open("plugin_list_x86.md", "w") as md_file:
-        md_file.write(gen_pl_table("src/pl.x86.json"))
+    provided_architecture = input(f'Please provide the target architecture ({ARCHITECTURE_OPTIONS}): ').lower()
+while provided_architecture not in ARCHITECTURE_FILENAMES_MAPPING:
+    provided_architecture = input(f'Invalid architecture value. Please provide '
+                                  f'{ARCHITECTURE_OPTIONS} as the target architecture: ').lower()
+print(f'Provided architecture: {provided_architecture}.')
+json_file, output_file = ARCHITECTURE_FILENAMES_MAPPING[provided_architecture.lower()]
+parse(json_file)
+with open(output_file, "w") as md_file:
+    md_file.write(gen_pl_table(json_file))
 
 if has_error:
     sys.exit(-2)
