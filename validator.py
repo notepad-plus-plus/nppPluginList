@@ -239,11 +239,11 @@ if len(sys.argv) > 1:
     provided_architecture = sys.argv[1].lower()
 else:
     provided_architecture = input(f'Please provide the target architecture ({ARCHITECTURE_OPTIONS}): ').lower()
-while provided_architecture not in ARCHITECTURE_FILENAMES_MAPPING:
-    provided_architecture = input(f'Invalid architecture value. Please provide '
-                                  f'{ARCHITECTURE_OPTIONS} as the target architecture: ').lower()
+if provided_architecture in ARCHITECTURE_FILENAMES_MAPPING:
+    json_file, output_file = ARCHITECTURE_FILENAMES_MAPPING[provided_architecture]
+else:
+    json_file, output_file = ARCHITECTURE_FILENAMES_MAPPING['x86']
 print(f'Provided architecture: {provided_architecture}.')
-json_file, output_file = ARCHITECTURE_FILENAMES_MAPPING[provided_architecture.lower()]
 parse(json_file)
 with open(output_file, "w") as md_file:
     md_file.write(gen_pl_table(json_file))
