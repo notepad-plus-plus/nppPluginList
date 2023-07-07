@@ -7,7 +7,7 @@ import shutil
 import requests
 import zipfile
 from hashlib import sha256
-from jsonschema import Draft7Validator, FormatChecker
+from jsonschema import Draft202012Validator, FormatChecker
 import win32api
 from win32api import GetFileVersionInfo, LOWORD, HIWORD
 
@@ -25,7 +25,7 @@ tmpl_new_line = '\n'
 tmpl_tr_b = '| '
 tmpl_td   = ' | '
 tmpl_tr_e = ' |'
-tmpl_tab_head = '''|Plugin name | Author | Homepage | Version and link | Description |
+tmpl_tab_head = '''| Plugin name | Author | Homepage | Version and link | Description |
 |---|---|---|---|---|
 '''
 
@@ -69,8 +69,8 @@ def rest_of_text(description):
 def gen_pl_table(filename):
     pl = json.loads(open(filename).read())
     arch = pl["arch"]
-    tab_text = "## Plugin List - %s bit%s" % (arch, tmpl_new_line)
-    tab_text += "version %s%s" % (pl["version"], tmpl_new_line)
+    tab_text = "## Plugin List - %s bit%s" % (arch, tmpl_new_line * 2)
+    tab_text += "version %s%s" % (pl["version"], tmpl_new_line * 2)
     tab_text += tmpl_tab_head
 
     # Plugin Name = ij.display-name
@@ -97,7 +97,7 @@ def gen_pl_table(filename):
 def parse(filename):
     try:
         schema = json.loads(open("pl.schema").read())
-        schema = Draft7Validator(schema, format_checker=FormatChecker())
+        schema = Draft202012Validator(schema, format_checker=FormatChecker())
     except ValueError as e:
         post_error("pl.schema - " + str(e))
         return
@@ -145,7 +145,7 @@ def parse(filename):
         try:
             response = requests.get(plugin["repository"])
         except requests.exceptions.RequestException as e:
-            post_error(str(e))
+            post_error(f'{plugin["display-name"]}: {str(e)}')
             continue
 
         if response.status_code != 200:
@@ -221,6 +221,7 @@ def parse(filename):
                found = True
         if found == False:
            repositories.append(plugin["repository"])
+
 bitness_from_input = ""
 if len(sys.argv) > 1:
     bitness_from_input = sys.argv[1]
@@ -228,11 +229,11 @@ else:
     print('please provide the bitness (x86 or x64 or arm64) as the first argument')
     sys.exit(-2)
 print('input: %s' % bitness_from_input)
-if bitness_from_input == 'x64':
+if bitness_from_input.lower() == 'x64':
     parse("src/pl.x64.json")
     with open("plugin_list_x64.md", "w") as md_file:
         md_file.write(gen_pl_table("src/pl.x64.json"))
-elif bitness_from_input == 'arm64':
+elif bitness_from_input.lower() == 'arm64':
     parse("src/pl.arm64.json")
     with open("plugin_list_arm64.md", "w") as md_file:
         md_file.write(gen_pl_table("src/pl.arm64.json"))
