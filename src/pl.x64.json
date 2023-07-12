@@ -706,9 +706,9 @@
 		{
 			"folder-name": "NavigateTo",
 			"display-name": "NavigateTo",
-			"version": "2.4.3.0",
-			"id": "89aa8edc6a40bfca0df40cf94ad920a4225361be788cf59555f5b2294c524326",
-			"repository": "https://github.com/young-developer/nppNavigateTo/releases/download/v.2.4.3/NavigateTo_v.2.4.3_v142_x64.zip",
+			"version": "2.6.1.0",
+			"id": "d664867374240ca6c2a8194d6464727f75b88867d814e6e9d832e61b63b0faad",
+			"repository": "https://github.com/young-developer/nppNavigateTo/releases/download/v.2.6.1/NavigateTo_v.2.6.1_v142_x64.zip",
 			"description": "Do you have more then 10 open tabs? Then this plugin is for you.\r\nNew and efficient way to quickly navigate between tabs (files). Allows you to search for a symbol or filename, filepath by matching against a keyword you type, and get a real-time preview while going through the search results with the Shift key.\r\nAnd YES, you can uncheck the Multi-line option, in the Preferences &gt; General &gt; Tab Bar zone because you don’t need the multi-lines tab feature anymore :)\r\nAuthor: Oleksii Maryshchenko\r\nEmail: oleksii.maryshchenko@gmail.com",
 			"author": "Oleksii Maryshchenko",
 			"homepage": "https://github.com/young-developer/nppNavigateTo"
