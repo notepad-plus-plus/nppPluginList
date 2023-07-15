@@ -780,6 +780,17 @@
 			"homepage": "https://sourceforge.net/projects/npp-plugins/files/MultiClipboard/"
 		},
 		{
+			"folder-name": "MultiReplace",
+			"display-name": "MultiReplace",
+			"version": "1.0.0.1",
+			"npp-compatible-versions": "[8.5.4,]",
+			"id": "96638a90cc7e6fc8c022f78f5bba830d7b1680c49328e44add4d35f35cb2f879",
+			"repository": "https://github.com/daddel80/notepadpp-multireplace/releases/download/1.0.0.1/MultiReplace-v1.0.0.1-Win32.zip",
+			"description": "Enables multi-string replacement, storage of search/replace operations in CSV lists, export to bash scripts, and color-highlighting of different 'find words'.",
+			"author": "Thomas Knoefel",
+			"homepage": "https://github.com/daddel80/notepadpp-multireplace"
+		},
+		{
 			"folder-name": "MusicPlaye_1.0.11x86r",
 			"display-name": "MusicPlayer",
 			"version": "1.0.0.3",

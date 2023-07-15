@@ -684,6 +684,17 @@
 			"homepage": "https://github.com/npp-plugins/mimetools"
 		},
 		{
+			"folder-name": "MultiReplace",
+			"display-name": "MultiReplace",
+			"version": "1.0.0.1",
+			"npp-compatible-versions": "[8.5.4,]",
+			"id": "51f98092bb227624cc9ed99a3c393bdcfa0ab057123152fe7d6343b436cd9a48",
+			"repository": "https://github.com/daddel80/notepadpp-multireplace/releases/download/1.0.0.1/MultiReplace-v1.0.0.1-x64.zip",
+			"description": "Enables multi-string replacement, storage of search/replace operations in CSV lists, export to bash scripts, and color-highlighting of different 'find words'.",
+			"author": "Thomas Knoefel",
+			"homepage": "https://github.com/daddel80/notepadpp-multireplace"
+		},
+		{
 			"folder-name": "MusicPlayer_1.0.11x64",
 			"display-name": "MusicPlayer",
 			"version": "1.0.0.3",
