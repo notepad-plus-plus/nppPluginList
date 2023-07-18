@@ -68,6 +68,17 @@
 			"homepage": "https://github.com/npp-plugins/mimetools"
 		},
 		{
+			"folder-name": "MultiReplace",
+			"display-name": "MultiReplace",
+			"version": "1.0.0.1",
+			"npp-compatible-versions": "[8.5.4,]",
+			"id": "c9422831578a6ae76540925b067b22cee0040b505e3c9942ee112de4526ecc66",
+			"repository": "https://github.com/daddel80/notepadpp-multireplace/releases/download/1.0.0.1/MultiReplace-v1.0.0.1-ARM64.zip",
+			"description": "Enables multi-string replacement, storage of search/replace operations in CSV lists, export to bash scripts, and color-highlighting of different 'find words'.",
+			"author": "Thomas Knoefel",
+			"homepage": "https://github.com/daddel80/notepadpp-multireplace"
+		},
+		{
 			"folder-name": "NppPluginDemo",
 			"display-name": "Notepad++ Plugin Demo",
 			"version": "4.3",
