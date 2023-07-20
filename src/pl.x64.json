@@ -172,17 +172,6 @@
 			"homepage": "https://github.com/vinsworldcom/nppColumnTools"
 		},
 		{
-			"folder-name": "CommentToggler",
-			"display-name": "Comment Toggler",
-			"version": "1.0.0.0",
-			"npp-compatible-versions": "[8.0,]",
-			"id": "10369d81bfdc565d7536fd6d98e9ee7cfdaf692c1a4354f7c50acc2982cc11d2",
-			"repository": "https://github.com/ScienceDiscoverer/CommentToggler/releases/download/1.0.0/CommentToggler.zip",
-			"description": "Smart single button comment toggler. Features:\r\n- Does not insert space in front of the comment\r\n- Supports all the built-in languages and even user defined languages\r\n- Can do simple single line comments without selection\r\n- Preserves indentation in the commented code block\r\n- Fixes some indentation inconsistencies\r\n- Supports block comments\r\n- Supports multiple selections\r\n- With every type of comment at the same time!",
-			"author": "ScienceDiscoverer",
-			"homepage": "https://github.com/ScienceDiscoverer/CommentToggler"
-		},
-		{
 			"folder-name": "Comment Wrap",
 			"display-name": "Comment Wrap",
 			"version": "1.0.0.5",
