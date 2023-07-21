@@ -170,9 +170,9 @@
 		{
 			"folder-name": "Comment Wrap",
 			"display-name": "Comment Wrap",
-			"version": "1.0.0.5",
-			"id": "8b557136493cc8339d8c16b03be561141d81af3c1ab4feb0f7fade4e2d17e555",
-			"repository": "https://sourceforge.net/projects/kered13-notepad-plugins/files/Comment%20Wrap%20Win32%20v1.0.0.5.zip",
+			"version": "1.0.0.6",
+			"id": "16d80061020ace0f15eccd2e1fd2ad4f783fbbd47885d2bbe22d2309edc18a44",
+			"repository": "https://sourceforge.net/projects/kered13-notepad-plugins/files/Comment%20Wrap%20Win32%20v1.0.0.6.zip",
 			"description": "Wraps comments as you type. Supports C-style, Python-style, and Lua-style comments.",
 			"author": "Derek Brown",
 			"homepage": "https://sourceforge.net/projects/kered13-notepad-plugins/"
@@ -1250,9 +1250,9 @@
 		{
 			"folder-name": "Python Indent",
 			"display-name": "Python Indent",
-			"version": "1.0.0.4",
-			"id": "ceef38255c06cc20acb7b4a3fedcc8e88f0cc83700fd7fe89ba8cb5a258cca0d",
-			"repository": "https://sourceforge.net/projects/kered13-notepad-plugins/files/Python%20Indent%20Win32%20v1.0.0.4.zip",
+			"version": "1.0.0.5",
+			"id": "16d80061020ace0f15eccd2e1fd2ad4f783fbbd47885d2bbe22d2309edc18a44",
+			"repository": "https://sourceforge.net/projects/kered13-notepad-plugins/files/Python%20Indent%20Win32%20v1.0.0.5.zip",
 			"description": "Python auto-indent plugin.",
 			"author": "Derek Brown",
 			"homepage": "https://sourceforge.net/projects/kered13-notepad-plugins/"
