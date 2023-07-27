@@ -174,11 +174,11 @@
 		{
 			"folder-name": "Comment Wrap",
 			"display-name": "Comment Wrap",
-			"version": "1.0.0.6",
+			"version": "1.0.0.7",
 			"npp-compatible-versions": "[8.3,]",
 			"old-versions-compatibility": "[,1.0.0.4][,8.2.1]",
-			"id": "cd47838c90bd285583176bea1e3efbee4046fc60395ebbf932384fcef5fc0efe",
-			"repository": "https://sourceforge.net/projects/kered13-notepad-plugins/files/Comment%20Wrap%20x64%20v1.0.0.6.zip",
+			"id": "86d58ea9fdc94467fd5ff0ca273f9ad2a7252dff22ef76302d40d5484aecb704",
+			"repository": "https://sourceforge.net/projects/kered13-notepad-plugins/files/Comment%20Wrap%20x64%20v1.0.0.7.zip",
 			"description": "Wraps comments as you type. Supports C-style, Python-style, and Lua-style comments.",
 			"author": "Derek Brown",
 			"homepage": "https://sourceforge.net/projects/kered13-notepad-plugins/"
