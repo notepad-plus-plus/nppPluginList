@@ -1,6 +1,6 @@
 {
 	"name": "npp-pluginList",
-	"version": "1.6.3",
+	"version": "1.6.4",
 	"arch": "32",
 	"npp-plugins": [
 		{
@@ -170,9 +170,9 @@
 		{
 			"folder-name": "Comment Wrap",
 			"display-name": "Comment Wrap",
-			"version": "1.0.0.5",
-			"id": "8b557136493cc8339d8c16b03be561141d81af3c1ab4feb0f7fade4e2d17e555",
-			"repository": "https://sourceforge.net/projects/kered13-notepad-plugins/files/Comment%20Wrap%20Win32%20v1.0.0.5.zip",
+			"version": "1.0.0.7",
+			"id": "17a85eac38355c6c2eafcfd365d6cf5ecacfc75a7d09629ef209269dcb266312",
+			"repository": "https://sourceforge.net/projects/kered13-notepad-plugins/files/Comment%20Wrap%20Win32%20v1.0.0.7.zip",
 			"description": "Wraps comments as you type. Supports C-style, Python-style, and Lua-style comments.",
 			"author": "Derek Brown",
 			"homepage": "https://sourceforge.net/projects/kered13-notepad-plugins/"
@@ -640,9 +640,9 @@
 		{
 			"folder-name": "JSMinNPP",
 			"display-name": "JSTool",
-			"version": "1.2205.0",
-			"id": "a5e6c812f0d53159e0099acede148cb2f2fa71dcd9567b2d73cb4acde31c28f7",
-			"repository": "https://sourceforge.net/projects/jsminnpp/files/Uni/JSToolNPP.1.2205.0.uni.32.zip",
+			"version": "1.2307.1",
+			"id": "a7807ae21656d30cee4cffd50dc824026a8022c1eed818fb1ebea97b5a5afa17",
+			"repository": "https://sourceforge.net/projects/jsminnpp/files/Uni/JSToolNPP.1.2307.1.uni.32.zip",
 			"description": "Javascript plugin.\r\n * Douglas Crockford's JSMin algorithm to minimize javascript code.\r\n * My own algorithm to format javascript code.\r\n * A JSON data viewer. This JSON data viewer can handle >10MB JSON file easily.\r\n * Support 64bit Notepad++ (from version 1.20.0).\r\nReally helpful to javascript coder on Notepad++ and really easy to use it.\r\nMade in China.",
 			"author": "Sun Junwen",
 			"homepage": "https://github.com/sunjw/jstoolnpp"
@@ -782,10 +782,10 @@
 		{
 			"folder-name": "MultiReplace",
 			"display-name": "MultiReplace",
-			"version": "1.0.0.1",
+			"version": "1.0.3.4",
 			"npp-compatible-versions": "[8.5.4,]",
-			"id": "96638a90cc7e6fc8c022f78f5bba830d7b1680c49328e44add4d35f35cb2f879",
-			"repository": "https://github.com/daddel80/notepadpp-multireplace/releases/download/1.0.0.1/MultiReplace-v1.0.0.1-Win32.zip",
+			"id": "3ac959e425e6520b037e3ada94da2205a2a8ac332f8b6d743352e9de90d96d25",
+			"repository": "https://github.com/daddel80/notepadpp-multireplace/releases/download/1.0.3.4/MultiReplace-v1.0.3.4-Win32.zip",
 			"description": "Enables multi-string replacement, storage of search/replace operations in CSV lists, export to bash scripts, and color-highlighting of different 'find words'.",
 			"author": "Thomas Knoefel",
 			"homepage": "https://github.com/daddel80/notepadpp-multireplace"
@@ -1156,10 +1156,10 @@
 		{
 			"folder-name": "NWScript-Npp",
 			"display-name": "NWScript Tools",
-			"version": "1.1.0.2150",
+			"version": "1.2.0.2300",
 			"npp-compatible-versions": "[8.3,]",
-			"id": "014e1a629ea056fe2a1140bfa19249fcf7ceec12a1e231f8bc3f73f89b1c19e7",
-			"repository": "https://github.com/Leonard-The-Wise/NWScript-Npp/releases/download/v1.1.0/nwscript-npp.v1.1.0-x86.zip",
+			"id": "03f0cbda8bde6e4d68a439e82b1d50e35278050d8bb28e5ed35646e73ff4e52e",
+			"repository": "https://github.com/Leonard-The-Wise/NWScript-Npp/releases/download/v1.2.0/nwscript-npp.v1.2.0-x86.zip",
 			"description": "View, edit and compile Bioware's NWScript files with this plugin. Use customized color-syntax for your personalized tokens and also for engine-defined ones. Can disassemble compiled scripts and build makefile dependencies. Also has a feature to process files in configurable batches.",
 			"author": "Leonardo Silva",
 			"homepage": "https://github.com/Leonard-The-Wise/NWScript-Npp"
@@ -1250,9 +1250,9 @@
 		{
 			"folder-name": "Python Indent",
 			"display-name": "Python Indent",
-			"version": "1.0.0.4",
-			"id": "ceef38255c06cc20acb7b4a3fedcc8e88f0cc83700fd7fe89ba8cb5a258cca0d",
-			"repository": "https://sourceforge.net/projects/kered13-notepad-plugins/files/Python%20Indent%20Win32%20v1.0.0.4.zip",
+			"version": "1.0.0.5",
+			"id": "64cc14e1aeb7f2565bd628bd741b8d5582673efc3f846efeacdedf99e871ad90",
+			"repository": "https://sourceforge.net/projects/kered13-notepad-plugins/files/Python%20Indent%20Win32%20v1.0.0.5.zip",
 			"description": "Python auto-indent plugin.",
 			"author": "Derek Brown",
 			"homepage": "https://sourceforge.net/projects/kered13-notepad-plugins/"

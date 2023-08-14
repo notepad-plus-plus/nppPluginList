@@ -1,6 +1,6 @@
 {
 	"name": "npp-pluginList",
-	"version": "1.6.3",
+	"version": "1.6.4",
 	"arch": "64",
 	"npp-plugins": [
 		{
@@ -172,13 +172,24 @@
 			"homepage": "https://github.com/vinsworldcom/nppColumnTools"
 		},
 		{
+			"folder-name": "CommentToggler",
+			"display-name": "Comment Toggler",
+			"version": "1.0.0.0",
+			"npp-compatible-versions": "[8.0,]",
+			"id": "10369d81bfdc565d7536fd6d98e9ee7cfdaf692c1a4354f7c50acc2982cc11d2",
+			"repository": "https://github.com/ScienceDiscoverer/CommentToggler/releases/download/1.0.0/CommentToggler.zip",
+			"description": "Smart single button comment toggler. Features:\r\n- Does not insert space in front of the comment\r\n- Supports all the built-in languages and even user defined languages\r\n- Can do simple single line comments without selection\r\n- Preserves indentation in the commented code block\r\n- Fixes some indentation inconsistencies\r\n- Supports block comments\r\n- Supports multiple selections\r\n- With every type of comment at the same time!",
+			"author": "ScienceDiscoverer",
+			"homepage": "https://github.com/ScienceDiscoverer/CommentToggler"
+		},
+		{
 			"folder-name": "Comment Wrap",
 			"display-name": "Comment Wrap",
-			"version": "1.0.0.5",
+			"version": "1.0.0.7",
 			"npp-compatible-versions": "[8.3,]",
 			"old-versions-compatibility": "[,1.0.0.4][,8.2.1]",
-			"id": "22c828a7b6a8ebe9fa133c832573394de806f47293412dd7b20707559a3d2318",
-			"repository": "https://sourceforge.net/projects/kered13-notepad-plugins/files/Comment%20Wrap%20x64%20v1.0.0.5.zip",
+			"id": "86d58ea9fdc94467fd5ff0ca273f9ad2a7252dff22ef76302d40d5484aecb704",
+			"repository": "https://sourceforge.net/projects/kered13-notepad-plugins/files/Comment%20Wrap%20x64%20v1.0.0.7.zip",
 			"description": "Wraps comments as you type. Supports C-style, Python-style, and Lua-style comments.",
 			"author": "Derek Brown",
 			"homepage": "https://sourceforge.net/projects/kered13-notepad-plugins/"
@@ -572,9 +583,9 @@
 		{
 			"folder-name": "JSMinNPP",
 			"display-name": "JSTool",
-			"version": "1.2205.0",
-			"id": "a83d5a5a9ac8c21a050f4d9297159d8e4717b5effcf8e8aacebe48eac8d14148",
-			"repository": "https://sourceforge.net/projects/jsminnpp/files/Uni/JSToolNPP.1.2205.0.uni.64.zip",
+			"version": "1.2307.1",
+			"id": "e1648246789045d8b8fc94c079f339c131957f7ab2e03b4cff4f853ab88fc9d0",
+			"repository": "https://sourceforge.net/projects/jsminnpp/files/Uni/JSToolNPP.1.2307.1.uni.64.zip",
 			"description": "Javascript plugin.\r\n * Douglas Crockford's JSMin algorithm to minimize javascript code.\r\n * My own algorithm to format javascript code.\r\n * A JSON data viewer. This JSON data viewer can handle >10MB JSON file easily.\r\n * Support 64bit Notepad++ (from version 1.20.0).\r\nReally helpful to javascript coder on Notepad++ and really easy to use it.\r\nMade in China.",
 			"author": "Sun Junwen",
 			"homepage": "https://github.com/sunjw/jstoolnpp"
@@ -686,10 +697,10 @@
 		{
 			"folder-name": "MultiReplace",
 			"display-name": "MultiReplace",
-			"version": "1.0.0.1",
+			"version": "1.0.3.4",
 			"npp-compatible-versions": "[8.5.4,]",
-			"id": "51f98092bb227624cc9ed99a3c393bdcfa0ab057123152fe7d6343b436cd9a48",
-			"repository": "https://github.com/daddel80/notepadpp-multireplace/releases/download/1.0.0.1/MultiReplace-v1.0.0.1-x64.zip",
+			"id": "befa019ad49c9ebe9ff851310ac809a15e85bc82fc86a2b399276c0aec5d9f12",
+			"repository": "https://github.com/daddel80/notepadpp-multireplace/releases/download/1.0.3.4/MultiReplace-v1.0.3.4-x64.zip",
 			"description": "Enables multi-string replacement, storage of search/replace operations in CSV lists, export to bash scripts, and color-highlighting of different 'find words'.",
 			"author": "Thomas Knoefel",
 			"homepage": "https://github.com/daddel80/notepadpp-multireplace"
@@ -1032,10 +1043,10 @@
 		{
 			"folder-name": "NWScript-Npp",
 			"display-name": "NWScript Tools",
-			"version": "1.1.0.2150",
+			"version": "1.2.0.2300",
 			"npp-compatible-versions": "[8.3,]",
-			"id": "6af1481f771fb58c13d543c6bc07b2ea103c0c7537b44672f66aba4db74c4c89",
-			"repository": "https://github.com/Leonard-The-Wise/NWScript-Npp/releases/download/v1.1.0/nwscript-npp.v1.1.0-x64.zip",
+			"id": "d0ebce981ec9716b09349cdd651af2248f10abc15ea26ca7644140cc07e6c352",
+			"repository": "https://github.com/Leonard-The-Wise/NWScript-Npp/releases/download/v1.2.0/nwscript-npp.v1.2.0-x64.zip",
 			"description": "View, edit and compile Bioware's NWScript files with this plugin. Use customized color-syntax for your personalized tokens and also for engine-defined ones. Can disassemble compiled scripts and build makefile dependencies. Also has a feature to process files in configurable batches.",
 			"author": "Leonardo Silva",
 			"homepage": "https://github.com/Leonard-The-Wise/NWScript-Npp"
@@ -1108,11 +1119,11 @@
 		{
 			"folder-name": "Python Indent",
 			"display-name": "Python Indent",
-			"version": "1.0.0.4",
+			"version": "1.0.0.5",
 			"npp-compatible-versions": "[8.3,]",
 			"old-versions-compatibility": "[,1.0.0.3][,8.2.1]",
-			"id": "e3d4c0b96d4cc5da8d3a3f900d97aa17a9563c13c4c2f20eea01cda399cbf91c",
-			"repository": "https://sourceforge.net/projects/kered13-notepad-plugins/files/Python%20Indent%20x64%20v1.0.0.4.zip",
+			"id": "e297d5f267913b84982e3bfa93fde8bf662940ea634ec3d656613aa736503e80",
+			"repository": "https://sourceforge.net/projects/kered13-notepad-plugins/files/Python%20Indent%20x64%20v1.0.0.5.zip",
 			"description": "Python auto-indent plugin.",
 			"author": "Derek Brown",
 			"homepage": "https://sourceforge.net/projects/kered13-notepad-plugins/"
