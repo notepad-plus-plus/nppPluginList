@@ -697,11 +697,11 @@
 		{
 			"folder-name": "MultiReplace",
 			"display-name": "MultiReplace",
-			"version": "1.0.3.4",
+			"version": "1.1.0.5",
 			"npp-compatible-versions": "[8.5.4,]",
-			"id": "befa019ad49c9ebe9ff851310ac809a15e85bc82fc86a2b399276c0aec5d9f12",
-			"repository": "https://github.com/daddel80/notepadpp-multireplace/releases/download/1.0.3.4/MultiReplace-v1.0.3.4-x64.zip",
-			"description": "Enables multi-string replacement, storage of search/replace operations in CSV lists, export to bash scripts, and color-highlighting of different 'find words'.",
+			"id": "a30292a91de94dbf72cca871049c7cdb88b76524ff144ad05e7be4576dcfd3e2",
+			"repository": "https://github.com/daddel80/notepadpp-multireplace/releases/download/1.1.0.5/MultiReplace-v1.1.0.5-x64.zip",
+			"description": "Enables multi-string replacement, storage of search/replace patterns in files, processing of delimited data columns, support for rectangular selection, and export to bash scripts.",
 			"author": "Thomas Knoefel",
 			"homepage": "https://github.com/daddel80/notepadpp-multireplace"
 		},
