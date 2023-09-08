@@ -1,6 +1,6 @@
 {
 	"name": "npp-pluginList",
-	"version": "1.6.4",
+	"version": "1.6.5",
 	"arch": "64",
 	"npp-plugins": [
 		{
@@ -343,10 +343,10 @@
 		{
 			"folder-name": "EnhanceAnyLexer",
 			"display-name": "EnhanceAnyLexer",
-			"version": "1.1.3",
+			"version": "1.2.0",
 			"npp-compatible-versions": "[8.4.1,]",
-			"id": "535af2090715af1503933401037d27a8a196e9cfd8a3c5d31f547fd0a4a41e5e",
-			"repository": "https://github.com/Ekopalypse/EnhanceAnyLexer/releases/download/v1.1.3/EnhanceAnyLexer_x64_PluginAdmin.zip",
+			"id": "4d4c244cbc921ec98c0fbbccf2e9398b83010ff96d84b3babc33a4dea5166d60",
+			"repository": "https://github.com/Ekopalypse/EnhanceAnyLexer/releases/download/v.1.2.0/EnhanceAnyLexer_x64_PluginAdmin.zip",
 			"description": "Adds more styling, colors only, options to any Lexer",
 			"author": "Ekopalypse",
 			"homepage": "https://github.com/Ekopalypse/EnhanceAnyLexer"
@@ -475,11 +475,11 @@
 		{
 			"folder-name": "HTMLTag",
 			"display-name": "HTML Tag",
-			"version": "1.3.7.0",
+			"version": "1.4.1.0",
 			"npp-compatible-versions": "[8.3,]",
 			"old-versions-compatibility": "[,1.1][,8.2.1]",
-			"id": "f8ba42bb8dc2a20260fb143f3eb3688f7b88671404b07f2873ff73e31062ff38",
-			"repository": "https://bitbucket.org/rdipardo/htmltag/downloads/HTMLTag_v1.3.7_x64.zip",
+			"id": "b63efbb19ddd9a2c37fbf4113c6aae87bb749dd4874ba886e5c37877a61b7da5",
+			"repository": "https://bitbucket.org/rdipardo/htmltag/downloads/HTMLTag_v1.4.1_x64.zip",
 			"description": "Provides three core functions:\r\n- HTML and XML tag jumping, like the built-in brace matching and selection\r\n of tags and/or contents.\r\n- HTML entity encoding/decoding (example: é to &eacute;)\r\n- JS character encoding/decoding (example: é to \\u00E9)",
 			"author": "Martijn Coppoolse",
 			"homepage": "https://bitbucket.org/rdipardo/htmltag/"
@@ -560,9 +560,9 @@
 		{
 			"folder-name": "JsonTools",
 			"display-name": "JSON Tools",
-			"version": "5.4.0",
-			"id": "a516d2176fafd5702d5b8414b12049fc6cace94b69cd640b56345730476899e5",
-			"repository": "https://github.com/molsonkiko/JsonToolsNppPlugin/releases/download/v5.4.0/Release_x64.zip",
+			"version": "5.6.0",
+			"id": "9678e4514caa92d2466d87599a484e52944997785de15a665af5e1228fcda664",
+			"repository": "https://github.com/molsonkiko/JsonToolsNppPlugin/releases/download/v5.6.0/Release_x64.zip",
 			"description": "Query/editing tool for JSON including linting, reformatting, a tree viewer with file navigation, JSON schema validation and generation, and much more",
 			"author": "Mark Johnston Olson",
 			"homepage": "https://github.com/molsonkiko/JsonToolsNppPlugin",
@@ -583,9 +583,9 @@
 		{
 			"folder-name": "JSMinNPP",
 			"display-name": "JSTool",
-			"version": "1.2307.1",
-			"id": "e1648246789045d8b8fc94c079f339c131957f7ab2e03b4cff4f853ab88fc9d0",
-			"repository": "https://sourceforge.net/projects/jsminnpp/files/Uni/JSToolNPP.1.2307.1.uni.64.zip",
+			"version": "1.2308.0",
+			"id": "0937cc056dcd936ba99a92ee4b5850e9e097ba413f200e4fe7475786267661c7",
+			"repository": "https://sourceforge.net/projects/jsminnpp/files/Uni/JSToolNPP.1.2308.0.uni.64.zip",
 			"description": "Javascript plugin.\r\n * Douglas Crockford's JSMin algorithm to minimize javascript code.\r\n * My own algorithm to format javascript code.\r\n * A JSON data viewer. This JSON data viewer can handle >10MB JSON file easily.\r\n * Support 64bit Notepad++ (from version 1.20.0).\r\nReally helpful to javascript coder on Notepad++ and really easy to use it.\r\nMade in China.",
 			"author": "Sun Junwen",
 			"homepage": "https://github.com/sunjw/jstoolnpp"
@@ -815,11 +815,11 @@
 		{
 			"folder-name": "nppRandomStringGenerator",
 			"display-name": "npp Random String Generator",
-			"version": "1.6.1",
+			"version": "1.7.0",
 			"npp-compatible-versions": "[8.3,]",
 			"old-versions-compatibility": "[,1.3][,8.2.1]",
-			"id": "f3fdfcf5c8ef229933cc9912e3b174e99e22d57bccd0abb2c36e78c52f250d2f",
-			"repository": "https://github.com/cmbsolutions/nppRandomStringGenerator/releases/download/v1.6.1/nppRandomStringGenerator.1.6.1.x64.zip",
+			"id": "770a3adbbadf8628ffb4b5a9ea1efb3123f81edf6ca355d6a0da3571b9bc4527",
+			"repository": "https://github.com/cmbsolutions/nppRandomStringGenerator/releases/download/v1.7.0/nppRandomStringGenerator.1.7.0.x64.zip",
 			"description": "Generates random strings with configurable output.",
 			"author": "Maurice CMBSolutions",
 			"homepage": "https://github.com/cmbsolutions/nppRandomStringGenerator"
@@ -1064,11 +1064,11 @@
 		{
 			"folder-name": "Papyrus",
 			"display-name": "Papyrus Script Lexer",
-			"version": "1.1.0.33",
+			"version": "1.2.0.330",
 			"npp-compatible-versions": "[8.3,]",
 			"old-versions-compatibility": "[,0.2.3.23][,8.2.1]",
-			"id": "ac8c09d876e2d93ab54f8e63017d38a44cb9e941d67ebb2463a5064bebd5d88d",
-			"repository": "https://github.com/blu3mania/npp-papyrus/releases/download/v1.1.0/PapyrusPlugin-v1.1.0-x64.zip",
+			"id": "112ed7a308203847aa1ab667e99674a77a895531efb905f91a68f627a6a18c78",
+			"repository": "https://github.com/blu3mania/npp-papyrus/releases/download/v1.2.0/PapyrusPlugin-v1.2.0-x64.zip",
 			"description": "View and edit Papyrus Script files used by Bethesda games with syntax highlighting, function and block folding, hyperlinks to referenced scripts, keywords matching, plus compilation support with anonymized output and error list view.",
 			"author": "blu3mania",
 			"homepage": "https://github.com/blu3mania/npp-papyrus"

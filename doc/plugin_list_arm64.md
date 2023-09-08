@@ -1,6 +1,6 @@
 ## Plugin List - arm64 bit
 
-version 1.6.4
+version 1.6.5
 
 | Plugin name | Author | Homepage | Version and link | Description |
 |---|---|---|---|---|
@@ -26,3 +26,4 @@ version 1.6.4
 | Task List | blitowitz | https://code.google.com/p/npp-task-list/ | [2.5 - arm64 bit](https://github.com/Megabyteceer/npp-task-list/releases/download/v2.5.0/NppTaskList_v2.5.0_arm64.zip) |  <details> <summary> Automatically scans the open document and adds all "TODO:*" items to your task list, a window pane </summary>  docked on the right. Double-clicking an item in the list will take you to that line in the code. </details> |
 | URL Encode/Decode Plugin | Rajendra Singh | https://github.com/SinghRajenM/nppURLPlugin | [1.2.0.0 - arm64 bit](https://github.com/SinghRajenM/nppURLPlugin/releases/download/1.2.0.0/urlPlugin_arm64.zip) |  <details> <summary> Hopefully a decent URL Encoder and Decoder plug-in for Notepad++ which helps to make developer's </summary>  life easier by providing facility to encode/decode the URL within Notepad++. <br><br>How it works:<br>1. Configure setting from menu (Plugins->URL Plugin->URL Plugin Settings). It is not mandatory, but recommended.<br>2. Select text/URL which you want to encode/decode.<br>3. Perform your task via Plugins->URL Plugin->Encode/Decode URL.<br><br> </details> |
 | JSON Viewer | Kapil Ratnani, Rajendra Singh | https://github.com/kapilratnani/JSON-Viewer | [2.0.6.0 - arm64 bit](https://github.com/kapilratnani/JSON-Viewer/releases/download/v2.0.6.0/NPPJSONViewer_ARM64.zip) | JSON viewer that displays the selected JSON string in a tree view. |
+| JSTool | Sun Junwen | https://github.com/sunjw/jstoolnpp | [1.2308.0 - arm64 bit](https://sourceforge.net/projects/jsminnpp/files/Uni/JSToolNPP.1.2308.0.uni.arm64.zip) |  <details> <summary> Javascript plugin.<br> * Douglas Crockford's JSMin algorithm to minimize javascript code. </summary> <br> * My own algorithm to format javascript code.<br> * A JSON data viewer. This JSON data viewer can handle >10MB JSON file easily.<br> * Support 64bit Notepad++ (from version 1.20.0).<br>Really helpful to javascript coder on Notepad++ and really easy to use it.<br>Made in China. </details> |
