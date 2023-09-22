@@ -1185,9 +1185,9 @@
 		{
 			"folder-name": "RegexTrainer",
 			"display-name": "Regex Trainer",
-			"version": "1.0.0",
-			"id": "9b1c3302e1bfc7dcd51d4df3915e4d9acbab7a94455b3ac5021da93394b4e91a",
-			"repository": "https://github.com/ahmoylaw/RegexTrainer-Descriptions/raw/master/Release-x64/RegexTrainer.zip",
+			"version": "1.1.0",
+			"id": "e11eabc9b27faa43644d711a14ca32f065bd5bc207376afb664eb1eaf0b4891c",
+			"repository": "https://github.com/ahmoylaw/RegexTrainer-Descriptions/raw/master/Release-x64-1.1.0/RegexTrainer.zip",
 			"description": "Regex Trainer (based on net framework 4) that supports a complex regular expression.",
 			"author": "Ahmoy Law",
 			"homepage": "https://github.com/ahmoylaw/RegexTrainer-Descriptions"
