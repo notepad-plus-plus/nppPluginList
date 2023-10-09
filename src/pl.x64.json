@@ -1,6 +1,6 @@
 {
 	"name": "npp-pluginList",
-	"version": "1.6.2",
+	"version": "1.6.5",
 	"arch": "64",
 	"npp-plugins": [
 		{
@@ -172,13 +172,24 @@
 			"homepage": "https://github.com/vinsworldcom/nppColumnTools"
 		},
 		{
+			"folder-name": "CommentToggler",
+			"display-name": "Comment Toggler",
+			"version": "1.0.0.0",
+			"npp-compatible-versions": "[8.0,]",
+			"id": "10369d81bfdc565d7536fd6d98e9ee7cfdaf692c1a4354f7c50acc2982cc11d2",
+			"repository": "https://github.com/ScienceDiscoverer/CommentToggler/releases/download/1.0.0/CommentToggler.zip",
+			"description": "Smart single button comment toggler. Features:\r\n- Does not insert space in front of the comment\r\n- Supports all the built-in languages and even user defined languages\r\n- Can do simple single line comments without selection\r\n- Preserves indentation in the commented code block\r\n- Fixes some indentation inconsistencies\r\n- Supports block comments\r\n- Supports multiple selections\r\n- With every type of comment at the same time!",
+			"author": "ScienceDiscoverer",
+			"homepage": "https://github.com/ScienceDiscoverer/CommentToggler"
+		},
+		{
 			"folder-name": "Comment Wrap",
 			"display-name": "Comment Wrap",
-			"version": "1.0.0.5",
+			"version": "1.0.0.7",
 			"npp-compatible-versions": "[8.3,]",
 			"old-versions-compatibility": "[,1.0.0.4][,8.2.1]",
-			"id": "22c828a7b6a8ebe9fa133c832573394de806f47293412dd7b20707559a3d2318",
-			"repository": "https://sourceforge.net/projects/kered13-notepad-plugins/files/Comment%20Wrap%20x64%20v1.0.0.5.zip",
+			"id": "86d58ea9fdc94467fd5ff0ca273f9ad2a7252dff22ef76302d40d5484aecb704",
+			"repository": "https://sourceforge.net/projects/kered13-notepad-plugins/files/Comment%20Wrap%20x64%20v1.0.0.7.zip",
 			"description": "Wraps comments as you type. Supports C-style, Python-style, and Lua-style comments.",
 			"author": "Derek Brown",
 			"homepage": "https://sourceforge.net/projects/kered13-notepad-plugins/"
@@ -222,11 +233,11 @@
 		{
 			"folder-name": "CSVLint",
 			"display-name": "CSV Lint",
-			"version": "0.4.6.4",
+			"version": "0.4.6.5",
 			"npp-compatible-versions": "[8.4,]",
 			"old-versions-compatibility": "[,0.4.5.1][,8.3.3]",
-			"id": "278725f51566fffaf403c00ea2b9d044a0bc809fd25a7e7162d21ad89456e0e7",
-			"repository": "https://github.com/BdR76/CSVLint/releases/download/0.4.6.4/CSVLint_x64.zip",
+			"id": "3aa5eee6d405e3834ca79428433f4cc5dcef33b4645c9c37e5bdf5f26dcc4a64",
+			"repository": "https://github.com/BdR76/CSVLint/releases/download/0.4.6.5/CSVLint_x64.zip",
 			"description": "Syntax highlighting and quality control for csv and fixed width data, detect column and datatypes, convert datetime/decimal format, sql, xml",
 			"author": "Bas de Reuver",
 			"homepage": "https://github.com/BdR76/CSVLint/"
@@ -332,10 +343,10 @@
 		{
 			"folder-name": "EnhanceAnyLexer",
 			"display-name": "EnhanceAnyLexer",
-			"version": "1.1.3",
+			"version": "1.2.0",
 			"npp-compatible-versions": "[8.4.1,]",
-			"id": "535af2090715af1503933401037d27a8a196e9cfd8a3c5d31f547fd0a4a41e5e",
-			"repository": "https://github.com/Ekopalypse/EnhanceAnyLexer/releases/download/v1.1.3/EnhanceAnyLexer_x64_PluginAdmin.zip",
+			"id": "4d4c244cbc921ec98c0fbbccf2e9398b83010ff96d84b3babc33a4dea5166d60",
+			"repository": "https://github.com/Ekopalypse/EnhanceAnyLexer/releases/download/v.1.2.0/EnhanceAnyLexer_x64_PluginAdmin.zip",
 			"description": "Adds more styling, colors only, options to any Lexer",
 			"author": "Ekopalypse",
 			"homepage": "https://github.com/Ekopalypse/EnhanceAnyLexer"
@@ -363,9 +374,9 @@
 		{
 			"folder-name": "PlanetCNCNpp64",
 			"display-name": "Expression calculator",
-			"version": "3001.21.1123.1",
-			"id": "e01f848c190a9d11e89af3289d9be45b28ae81cf3bfa435c3b2111290870e824",
-			"repository": "https://github.com/PlanetCNC/PlanetCNCNpp/releases/download/release/PlanetCNCNpp64.zip",
+			"version": "3001.21.1125.1",
+			"id": "4e9aa9f6b20e3301f7558c0230839f1604427c6d8ffeac911dbc7fec4ff98cb9",
+			"repository": "https://planet-cnc.com/wp-content/uploads/sw/Npp/PlanetCNCNpp64.zip",
 			"description": "Expression calculator plugin for Notepad++",
 			"author": "PlanetCNC",
 			"homepage": "https://planet-cnc.com/notepad-plugin/"
@@ -406,11 +417,11 @@
 		{
 			"folder-name": "FWDataViz",
 			"display-name": "Fixed-width Data Visualizer",
-			"version": "2.6.2.0",
+			"version": "2.6.3.1",
 			"npp-compatible-versions": "[8.4.1,]",
 			"old-versions-compatibility": "[,2.4.0.1][8,8.2.1]",
-			"id": "9fa100b7f003ee943d8ea9a745d7f889ca040a37d274d7531309958c08a4aa48",
-			"repository": "https://github.com/shriprem/FWDataViz/releases/download/v2.6.2.0/FWDataViz_x64.zip",
+			"id": "92e35fa333fa7fc497ce4f2a25a202131573897b34b1291e2e932839dbacd278",
+			"repository": "https://github.com/shriprem/FWDataViz/releases/download/v2.6.3.1/FWDataViz_x64.zip",
 			"description": "Fixed Width Data Visualizer adds Excel-like features for fixed-width data files in Notepad++. Displays cursor position data. Foldable Record Blocks; Hop & Jump to specific fields. Field Copy & Field Paste. Data Extraction. Builtin dialogs to configure file-type, record-type & fields; and themes & colors. Automatic File Type Detection. Handles homogenous, mixed & multi-line records. Full Multi-byte character support. Darkmode enabled.",
 			"author": "Shridhar Kumar",
 			"homepage": "https://github.com/shriprem/FWDataViz"
@@ -440,11 +451,11 @@
 		{
 			"folder-name": "GotoLineCol",
 			"display-name": "GotoLineCol",
-			"version": "2.4.2.0",
+			"version": "2.4.3.0",
 			"npp-compatible-versions": "[8.4.2,]",
 			"old-versions-compatibility": "[,2.2.0.1][,8.2.1]",
-			"id": "afaa08a53ec8482875454cb1270ab4faf870e2fcefbed9c4e628ae0058920a12",
-			"repository": "https://github.com/shriprem/Goto-Line-Col-NPP-Plugin/releases/download/v2.4.2.0/GotoLineCol_x64.zip",
+			"id": "f07463d3292779f39b1a7d27354d317379640597611f4f1b749bc6ed9668e8c8",
+			"repository": "https://github.com/shriprem/Goto-Line-Col-NPP-Plugin/releases/download/v2.4.3.0/GotoLineCol_x64.zip",
 			"description": "A plugin to navigate to a specified line and (byte-based or character-based) column position. Will also display character byte code, UTF-8 byte sequence & Unicode code point at cursor position. Darkmode enabled. Command line options.",
 			"author": "Shridhar Kumar",
 			"homepage": "https://github.com/shriprem/Goto-Line-Col-NPP-Plugin"
@@ -464,11 +475,11 @@
 		{
 			"folder-name": "HTMLTag",
 			"display-name": "HTML Tag",
-			"version": "1.3.7.0",
+			"version": "1.4.1.0",
 			"npp-compatible-versions": "[8.3,]",
 			"old-versions-compatibility": "[,1.1][,8.2.1]",
-			"id": "f8ba42bb8dc2a20260fb143f3eb3688f7b88671404b07f2873ff73e31062ff38",
-			"repository": "https://bitbucket.org/rdipardo/htmltag/downloads/HTMLTag_v1.3.7_x64.zip",
+			"id": "b63efbb19ddd9a2c37fbf4113c6aae87bb749dd4874ba886e5c37877a61b7da5",
+			"repository": "https://bitbucket.org/rdipardo/htmltag/downloads/HTMLTag_v1.4.1_x64.zip",
 			"description": "Provides three core functions:\r\n- HTML and XML tag jumping, like the built-in brace matching and selection\r\n of tags and/or contents.\r\n- HTML entity encoding/decoding (example: é to &eacute;)\r\n- JS character encoding/decoding (example: é to \\u00E9)",
 			"author": "Martijn Coppoolse",
 			"homepage": "https://bitbucket.org/rdipardo/htmltag/"
@@ -549,9 +560,9 @@
 		{
 			"folder-name": "JsonTools",
 			"display-name": "JSON Tools",
-			"version": "5.0.0",
-			"id": "ed555783878699d27c0e30e050c4c942658a63a0b93f6728ba80adb47844b08e",
-			"repository": "https://github.com/molsonkiko/JsonToolsNppPlugin/releases/download/v5.0.0/Release_x64.zip",
+			"version": "5.6.0",
+			"id": "9678e4514caa92d2466d87599a484e52944997785de15a665af5e1228fcda664",
+			"repository": "https://github.com/molsonkiko/JsonToolsNppPlugin/releases/download/v5.6.0/Release_x64.zip",
 			"description": "Query/editing tool for JSON including linting, reformatting, a tree viewer with file navigation, JSON schema validation and generation, and much more",
 			"author": "Mark Johnston Olson",
 			"homepage": "https://github.com/molsonkiko/JsonToolsNppPlugin",
@@ -561,9 +572,9 @@
 		{
 			"folder-name": "NPPJSONViewer",
 			"display-name": "JSON Viewer",
-			"version": "2.0.5.0",
-			"id": "974a6c4575c338b4e1fb2d05d7383816b9cc655755697fd648335ae53752e7dd",
-			"repository": "https://github.com/kapilratnani/JSON-Viewer/releases/download/v2.0.5.0/NPPJSONViewer_x64.zip",
+			"version": "2.0.6.0",
+			"id": "035a63d2b8f857a97a6b05ec232d6735fd2ecef0787f048ce5e782be8433f5bb",
+			"repository": "https://github.com/kapilratnani/JSON-Viewer/releases/download/v2.0.6.0/NPPJSONViewer_x64.zip",
 			"description": "JSON viewer that displays the selected JSON string in a tree view.",
 			"author": "Kapil Ratnani, Rajendra Singh",
 			"homepage": "https://github.com/kapilratnani/JSON-Viewer",
@@ -572,9 +583,9 @@
 		{
 			"folder-name": "JSMinNPP",
 			"display-name": "JSTool",
-			"version": "1.2205.0",
-			"id": "a83d5a5a9ac8c21a050f4d9297159d8e4717b5effcf8e8aacebe48eac8d14148",
-			"repository": "https://sourceforge.net/projects/jsminnpp/files/Uni/JSToolNPP.1.2205.0.uni.64.zip",
+			"version": "1.2308.0",
+			"id": "0937cc056dcd936ba99a92ee4b5850e9e097ba413f200e4fe7475786267661c7",
+			"repository": "https://sourceforge.net/projects/jsminnpp/files/Uni/JSToolNPP.1.2308.0.uni.64.zip",
 			"description": "Javascript plugin.\r\n * Douglas Crockford's JSMin algorithm to minimize javascript code.\r\n * My own algorithm to format javascript code.\r\n * A JSON data viewer. This JSON data viewer can handle >10MB JSON file easily.\r\n * Support 64bit Notepad++ (from version 1.20.0).\r\nReally helpful to javascript coder on Notepad++ and really easy to use it.\r\nMade in China.",
 			"author": "Sun Junwen",
 			"homepage": "https://github.com/sunjw/jstoolnpp"
@@ -684,6 +695,17 @@
 			"homepage": "https://github.com/npp-plugins/mimetools"
 		},
 		{
+			"folder-name": "MultiReplace",
+			"display-name": "MultiReplace",
+			"version": "1.1.1.6",
+			"npp-compatible-versions": "[8.5.4,]",
+			"id": "87192f3bbcea42c379fe7bcd0a2e3a2a748b3560a5a97f207bbc2d5c1c4ace53",
+			"repository": "https://github.com/daddel80/notepadpp-multireplace/releases/download/1.1.1.6/MultiReplace-v1.1.1.6-x64.zip",
+			"description": "Enables multi-string replacement, storage of search/replace patterns in files, processing of delimited data columns, support for rectangular selection, and export to bash scripts.",
+			"author": "Thomas Knoefel",
+			"homepage": "https://github.com/daddel80/notepadpp-multireplace"
+		},
+		{
 			"folder-name": "MusicPlayer_1.0.11x64",
 			"display-name": "MusicPlayer",
 			"version": "1.0.0.3",
@@ -706,10 +728,10 @@
 		{
 			"folder-name": "NavigateTo",
 			"display-name": "NavigateTo",
-			"version": "2.4.3.0",
-			"id": "89aa8edc6a40bfca0df40cf94ad920a4225361be788cf59555f5b2294c524326",
-			"repository": "https://github.com/young-developer/nppNavigateTo/releases/download/v.2.4.3/NavigateTo_v.2.4.3_v142_x64.zip",
-			"description": "Do you have more then 10 open tabs? Then this plugin is for you.\r\nNew and efficient way to quickly navigate between tabs (files). Allows you to search for a symbol or filename, filepath by matching against a keyword you type, and get a real-time preview while going through the search results with the Shift key.\r\nAnd YES, you can uncheck the Multi-line option, in the Preferences &gt; General &gt; Tab Bar zone because you don’t need the multi-lines tab feature anymore :)\r\nAuthor: Oleksii Maryshchenko\r\nEmail: oleksii.maryshchenko@gmail.com",
+			"version": "2.6.4.0",
+			"id": "8f56ce6b82a4d0c5283a06676859f870328932000fe8a458c12a8bbe847747ec",
+			"repository": "https://github.com/young-developer/nppNavigateTo/releases/download/v.2.6.4/NavigateTo_v.2.6.4_v142_x64.zip",
+			"description": "Do you have more then 10 open tabs? Then this plugin is for you.\r\nNew and efficient way to quickly navigate between tabs (files). Allows you to search for a symbol or filename, filepath by matching against a keyword you type, and get a real-time preview while going through the search results with the Shift key.\r\nAnd YES, you can uncheck the Multi-line option, in the Preferences &gt; General &gt; Tab Bar zone because you don’t need the multi-lines tab feature anymore :)\r\nAuthor: Oleksii Maryshchenko\r\nEmail: oleksii.maryshchenko@gmail.com \r\n Contributors: https://github.com/molsonkiko",
 			"author": "Oleksii Maryshchenko",
 			"homepage": "https://github.com/young-developer/nppNavigateTo"
 		},
@@ -736,10 +758,10 @@
 		{
 			"folder-name": "NppOpenAI",
 			"display-name": "NppOpenAI",
-			"version": "0.1.5.0",
+			"version": "0.2.1.0",
 			"npp-compatible-versions": "[8.4.8,]",
-			"id": "2b7f649ccecdd7d18ac530f713370ea99e9aac61bccf9852c5d8e6b1a6629b20",
-			"repository": "https://github.com/Krazal/nppopenai/releases/download/v0.1.5/NppOpenAI_x64.zip",
+			"id": "b333facdfb83b36eaf091fc0d8d9478ad2ae8db1fa438ba281cae0e5f674fb6d",
+			"repository": "https://github.com/Krazal/nppopenai/releases/download/v0.2.1/NppOpenAI_x64.zip",
 			"description": "OpenAI (aka. ChatGPT) plugin for Notepad++. Simply select your text, press Ctrl + Shift + O, and you'll see the AI generated response in seconds. Some examples: 'Please create a Fibonacci function in PHP'; 'Mi az árvíztűrő tükörfúrógép?' (Hungarian Unicode test) etc. This plugin requires an active internet connection and an OpenAI registration / API key (handles it confidential).",
 			"author": "Richárd Stockinger",
 			"homepage": "https://github.com/Krazal/nppopenai"
@@ -793,11 +815,11 @@
 		{
 			"folder-name": "nppRandomStringGenerator",
 			"display-name": "npp Random String Generator",
-			"version": "1.5.0",
+			"version": "1.7.0",
 			"npp-compatible-versions": "[8.3,]",
 			"old-versions-compatibility": "[,1.3][,8.2.1]",
-			"id": "356d04eb7aca261b277681a3765a8d978925d742f6cc1b752f0c13e683c5fc8c",
-			"repository": "https://github.com/cmbsolutions/nppRandomStringGenerator/releases/download/v1.5.0/nppRandomStringGenerator.1.5.0.x64.zip",
+			"id": "770a3adbbadf8628ffb4b5a9ea1efb3123f81edf6ca355d6a0da3571b9bc4527",
+			"repository": "https://github.com/cmbsolutions/nppRandomStringGenerator/releases/download/v1.7.0/nppRandomStringGenerator.1.7.0.x64.zip",
 			"description": "Generates random strings with configurable output.",
 			"author": "Maurice CMBSolutions",
 			"homepage": "https://github.com/cmbsolutions/nppRandomStringGenerator"
@@ -1021,12 +1043,12 @@
 		{
 			"folder-name": "NWScript-Npp",
 			"display-name": "NWScript Tools",
-			"version": "1.0.3.1950",
+			"version": "1.2.0.2300",
 			"npp-compatible-versions": "[8.3,]",
-			"id": "3e909c0f844fc31ea54b719e289639733be29128d9a7ccf88433008ff4d0dd36",
-			"repository": "https://github.com/Leonard-The-Wise/NWScript-Npp/releases/download/v1.0.3/nwscript-npp.v1.0.3-x64.zip",
+			"id": "d0ebce981ec9716b09349cdd651af2248f10abc15ea26ca7644140cc07e6c352",
+			"repository": "https://github.com/Leonard-The-Wise/NWScript-Npp/releases/download/v1.2.0/nwscript-npp.v1.2.0-x64.zip",
 			"description": "View, edit and compile Bioware's NWScript files with this plugin. Use customized color-syntax for your personalized tokens and also for engine-defined ones. Can disassemble compiled scripts and build makefile dependencies. Also has a feature to process files in configurable batches.",
-			"author": "Leonard-The-Wise",
+			"author": "Leonardo Silva",
 			"homepage": "https://github.com/Leonard-The-Wise/NWScript-Npp"
 		},
 		{
@@ -1042,11 +1064,11 @@
 		{
 			"folder-name": "Papyrus",
 			"display-name": "Papyrus Script Lexer",
-			"version": "1.0.0.31",
+			"version": "1.2.0.330",
 			"npp-compatible-versions": "[8.3,]",
 			"old-versions-compatibility": "[,0.2.3.23][,8.2.1]",
-			"id": "8a81bd6b8bf03754fb1b2965c4b35c93ee232f27f73f754fb7f3d7053caa20b2",
-			"repository": "https://github.com/blu3mania/npp-papyrus/releases/download/v1.0.0/PapyrusPlugin-v1.0.0-x64.zip",
+			"id": "112ed7a308203847aa1ab667e99674a77a895531efb905f91a68f627a6a18c78",
+			"repository": "https://github.com/blu3mania/npp-papyrus/releases/download/v1.2.0/PapyrusPlugin-v1.2.0-x64.zip",
 			"description": "View and edit Papyrus Script files used by Bethesda games with syntax highlighting, function and block folding, hyperlinks to referenced scripts, keywords matching, plus compilation support with anonymized output and error list view.",
 			"author": "blu3mania",
 			"homepage": "https://github.com/blu3mania/npp-papyrus"
@@ -1054,10 +1076,10 @@
 		{
 			"folder-name": "PlantUmlViewer",
 			"display-name": "PlantUML Viewer",
-			"version": "1.5.0.9",
+			"version": "1.6.0.10",
 			"npp-compatible-versions": "[8.3,]",
-			"id": "60c2dc6ed77d5de25ee4b2430e05e4139a23c2e9c8809e71a47211b2770410ba",
-			"repository": "https://github.com/Fruchtzwerg94/PlantUmlViewer/releases/download/1.5.0.9/PlantUmlViewer_v1.5.0.9_x64.zip",
+			"id": "424941d402856c5052bf348b21ebf8ce576143e54586e39d24c7149f02182191",
+			"repository": "https://github.com/Fruchtzwerg94/PlantUmlViewer/releases/download/1.6.0.10/PlantUmlViewer_v1.6.0.10_x64.zip",
 			"description": "A Notepad++ plugin to generate view and export PlantUML diagrams.",
 			"author": "Philipp Schmidt",
 			"homepage": "https://github.com/Fruchtzwerg94/PlantUmlViewer"
@@ -1097,11 +1119,11 @@
 		{
 			"folder-name": "Python Indent",
 			"display-name": "Python Indent",
-			"version": "1.0.0.4",
+			"version": "1.0.0.5",
 			"npp-compatible-versions": "[8.3,]",
 			"old-versions-compatibility": "[,1.0.0.3][,8.2.1]",
-			"id": "e3d4c0b96d4cc5da8d3a3f900d97aa17a9563c13c4c2f20eea01cda399cbf91c",
-			"repository": "https://sourceforge.net/projects/kered13-notepad-plugins/files/Python%20Indent%20x64%20v1.0.0.4.zip",
+			"id": "e297d5f267913b84982e3bfa93fde8bf662940ea634ec3d656613aa736503e80",
+			"repository": "https://sourceforge.net/projects/kered13-notepad-plugins/files/Python%20Indent%20x64%20v1.0.0.5.zip",
 			"description": "Python auto-indent plugin.",
 			"author": "Derek Brown",
 			"homepage": "https://sourceforge.net/projects/kered13-notepad-plugins/"
@@ -1163,9 +1185,9 @@
 		{
 			"folder-name": "RegexTrainer",
 			"display-name": "Regex Trainer",
-			"version": "1.0.0",
-			"id": "9b1c3302e1bfc7dcd51d4df3915e4d9acbab7a94455b3ac5021da93394b4e91a",
-			"repository": "https://github.com/ahmoylaw/RegexTrainer-Descriptions/raw/master/Release-x64/RegexTrainer.zip",
+			"version": "1.2.0",
+			"id": "715c123494a7687440f57f0d12aeeed9c0ba7bdf2b28781dacc03d5aa483a230",
+			"repository": "https://github.com/ahmoylaw/RegexTrainer-Descriptions/raw/master/Release-x64-1.2.0/RegexTrainer.zip",
 			"description": "Regex Trainer (based on net framework 4) that supports a complex regular expression.",
 			"author": "Ahmoy Law",
 			"homepage": "https://github.com/ahmoylaw/RegexTrainer-Descriptions"
