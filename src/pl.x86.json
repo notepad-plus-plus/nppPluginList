@@ -1096,12 +1096,12 @@
 		{
 			"folder-name": "NppQrCode32",
 			"display-name": "NppQrCode",
-			"version": "0.0.0.1",
-			"id": "c6a2cefbd8d71258f85f95e44fcb37cbc153a147f34c8bb41b34f58fe9d2a3b9",
-			"repository": "https://github.com/vladk1973/NppQrCode/releases/download/v0.0.0.1/NppQrCode-0.0.0.1-x32.zip",
-			"description": "Creates QR-Code from selected text. Just select the text and push plugin button.",
+			"version": "0.0.0.2",
+			"id": "0a5fd708e4e331ddc086962990284d0241046dc1acffb2fde9870a0e048ab8db",
+			"repository": "https://github.com/rdipardo/nppQrCode/releases/download/v0.0.0.2/NppQrCode-0.0.0.2-win32.zip",
+			"description": "Creates a QR code from selected text. Just select some text and click the toolbar button.",
 			"author": "Vladimir Korobenkov",
-			"homepage": "https://github.com/vladk1973/NppQrCode"
+			"homepage": "https://github.com/rdipardo/nppQrCode"
 		},
 		{
 			"folder-name": "NppRegExTractorPlugin",
