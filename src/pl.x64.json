@@ -697,11 +697,11 @@
 		{
 			"folder-name": "MultiReplace",
 			"display-name": "MultiReplace",
-			"version": "1.1.1.6",
+			"version": "2.0.0.7",
 			"npp-compatible-versions": "[8.5.4,]",
-			"id": "87192f3bbcea42c379fe7bcd0a2e3a2a748b3560a5a97f207bbc2d5c1c4ace53",
-			"repository": "https://github.com/daddel80/notepadpp-multireplace/releases/download/1.1.1.6/MultiReplace-v1.1.1.6-x64.zip",
-			"description": "Enables multi-string replacement, storage of search/replace patterns in files, processing of delimited data columns, support for rectangular selection, and export to bash scripts.",
+			"id": "64f9c3d4002c558241d4da9b89b1abed5676fbfafc51a7d4fc9d501ffa6e3160",
+			"repository": "https://github.com/daddel80/notepadpp-multireplace/releases/download/2.0.0.7/MultiReplace-v2.0.0.7-x64.zip",
+			"description": "Enables multi-string replacement, storage of search/replace patterns in files, processing of delimited data columns, instant calculations & dynamic text replacement, and support for rectangular selection.",
 			"author": "Thomas Knoefel",
 			"homepage": "https://github.com/daddel80/notepadpp-multireplace"
 		},
@@ -815,11 +815,11 @@
 		{
 			"folder-name": "nppRandomStringGenerator",
 			"display-name": "npp Random String Generator",
-			"version": "1.7.0",
+			"version": "1.7.1",
 			"npp-compatible-versions": "[8.3,]",
 			"old-versions-compatibility": "[,1.3][,8.2.1]",
-			"id": "770a3adbbadf8628ffb4b5a9ea1efb3123f81edf6ca355d6a0da3571b9bc4527",
-			"repository": "https://github.com/cmbsolutions/nppRandomStringGenerator/releases/download/v1.7.0/nppRandomStringGenerator.1.7.0.x64.zip",
+			"id": "5938efdde5f7e39fa208de7fed3564f3050af989562d8f0fe389653b5840c24f",
+			"repository": "https://github.com/cmbsolutions/nppRandomStringGenerator/releases/download/v1.7.1/nppRandomStringGenerator.1.7.1.x64.zip",
 			"description": "Generates random strings with configurable output.",
 			"author": "Maurice CMBSolutions",
 			"homepage": "https://github.com/cmbsolutions/nppRandomStringGenerator"
@@ -981,12 +981,12 @@
 		{
 			"folder-name": "NppQrCode64",
 			"display-name": "NppQrCode",
-			"version": "0.0.0.1",
-			"id": "b44a33976e8d199433eb5de8f896e86cdd67c2360a90192263e8c7c335c9725b",
-			"repository": "https://github.com/vladk1973/NppQrCode/releases/download/v0.0.0.1/NppQrCode-0.0.0.1-x64.zip",
-			"description": "Creates QR-Code from selected text. Just select the text and push plugin button.",
+			"version": "0.0.0.2",
+			"id": "15e00810524f15f3a14c689fa323cb59e3632a404caae1037a4649b4b93b9fb2",
+			"repository": "https://github.com/rdipardo/nppQrCode/releases/download/v0.0.0.2/NppQrCode-0.0.0.2-x64.zip",
+			"description": "Creates a QR code from selected text. Just select some text and click the toolbar button.",
 			"author": "Vladimir Korobenkov",
-			"homepage": "https://github.com/vladk1973/NppQrCode"
+			"homepage": "https://github.com/rdipardo/nppQrCode"
 		},
 		{
 			"folder-name": "NppRegExTractorPlugin",
