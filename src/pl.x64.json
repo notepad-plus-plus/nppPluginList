@@ -289,9 +289,9 @@
 		{
 			"folder-name": "DiscordRPC",
 			"display-name": "Discord Rich Presence",
-			"version": "1.6.612.1",
-			"id": "c3ee761ec6475428cb65de55155a1af6527f1a5fe1243ed41d540d399c5ecbb3",
-			"repository": "https://github.com/Zukaritasu/notepadpp_rpc/releases/download/v1.6.6/DiscordRPC_v1.6.6_x86_64.zip",
+			"version": "1.7.616.1",
+			"id": "c8775a780381d310c7991b8ab6f8c3700aa78eb777cfaaca9f53750bab72dbec",
+			"repository": "https://github.com/Zukaritasu/notepadpp_rpc/releases/download/v1.7.6/DiscordRPC_v1.7.6_x64.zip",
 			"description": "Shows in discord the file that is currently being edited in Notepad++.",
 			"author": "Zukaritasu",
 			"homepage": "https://github.com/Zukaritasu/notepadpp_rpc"
@@ -343,10 +343,10 @@
 		{
 			"folder-name": "EnhanceAnyLexer",
 			"display-name": "EnhanceAnyLexer",
-			"version": "1.2.0",
+			"version": "1.3.1",
 			"npp-compatible-versions": "[8.4.1,]",
-			"id": "4d4c244cbc921ec98c0fbbccf2e9398b83010ff96d84b3babc33a4dea5166d60",
-			"repository": "https://github.com/Ekopalypse/EnhanceAnyLexer/releases/download/v.1.2.0/EnhanceAnyLexer_x64_PluginAdmin.zip",
+			"id": "41475eb8c213681be016169739a4bccd3f928d55e6b237f53af116c1acf9a0e9",
+			"repository": "https://github.com/Ekopalypse/EnhanceAnyLexer/releases/download/v.1.3.1/EnhanceAnyLexer_x64_PluginAdmin.zip",
 			"description": "Adds more styling, colors only, options to any Lexer",
 			"author": "Ekopalypse",
 			"homepage": "https://github.com/Ekopalypse/EnhanceAnyLexer"
@@ -1064,11 +1064,11 @@
 		{
 			"folder-name": "Papyrus",
 			"display-name": "Papyrus Script Lexer",
-			"version": "1.2.0.330",
+			"version": "1.2.1.340",
 			"npp-compatible-versions": "[8.3,]",
 			"old-versions-compatibility": "[,0.2.3.23][,8.2.1]",
-			"id": "112ed7a308203847aa1ab667e99674a77a895531efb905f91a68f627a6a18c78",
-			"repository": "https://github.com/blu3mania/npp-papyrus/releases/download/v1.2.0/PapyrusPlugin-v1.2.0-x64.zip",
+			"id": "81f158b03bfdd17c65a553ac8ab0b5b31226f557c0828236ba82cbca1d5e3556",
+			"repository": "https://github.com/blu3mania/npp-papyrus/releases/download/v1.2.1/PapyrusPlugin-v1.2.1-x64.zip",
 			"description": "View and edit Papyrus Script files used by Bethesda games with syntax highlighting, function and block folding, hyperlinks to referenced scripts, keywords matching, plus compilation support with anonymized output and error list view.",
 			"author": "blu3mania",
 			"homepage": "https://github.com/blu3mania/npp-papyrus"
