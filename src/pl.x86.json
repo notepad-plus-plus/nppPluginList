@@ -1,6 +1,6 @@
 {
 	"name": "npp-pluginList",
-	"version": "1.6.5",
+	"version": "1.6.6",
 	"arch": "32",
 	"npp-plugins": [
 		{
@@ -278,9 +278,9 @@
 		{
 			"folder-name": "DiscordRPC",
 			"display-name": "Discord Rich Presence",
-			"version": "1.6.612.1",
-			"id": "ce362261a30df4c603e3c0bd9c903954b4438b48ae6c409732a4bdbe9d9ca286",
-			"repository": "https://github.com/Zukaritasu/notepadpp_rpc/releases/download/v1.6.6/DiscordRPC_v1.6.6_x86.zip",
+			"version": "1.7.616.1",
+			"id": "960e88ee4abcc5ce9340e667ff94c935f2189359f0b696c5c50d6fa18e707275",
+			"repository": "https://github.com/Zukaritasu/notepadpp_rpc/releases/download/v1.7.6/DiscordRPC_v1.7.6_x86.zip",
 			"description": "Shows in discord the file that is currently being edited in Notepad++.",
 			"author": "Zukaritasu",
 			"homepage": "https://github.com/Zukaritasu/notepadpp_rpc"
@@ -340,10 +340,10 @@
 		{
 			"folder-name": "EnhanceAnyLexer",
 			"display-name": "EnhanceAnyLexer",
-			"version": "1.2.0",
+			"version": "1.3.1",
 			"npp-compatible-versions": "[8.4.1,]",
-			"id": "bbcf28b4ff332af676832a6979b1612adc25fda41bf89a6bba351735c53f9b9f",
-			"repository": "https://github.com/Ekopalypse/EnhanceAnyLexer/releases/download/v.1.2.0/EnhanceAnyLexer_x86_PluginAdmin.zip",
+			"id": "bfe34fae1ee694f67a4588e2b67c4235559bb678cc8ec2e18bf661811e5deb2a",
+			"repository": "https://github.com/Ekopalypse/EnhanceAnyLexer/releases/download/v.1.3.1/EnhanceAnyLexer_x86_PluginAdmin.zip",
 			"description": "Adds more styling, colors only, options to any Lexer",
 			"author": "Ekopalypse",
 			"homepage": "https://github.com/Ekopalypse/EnhanceAnyLexer"
@@ -742,9 +742,9 @@
 		{
 			"folder-name": "MenuIcons",
 			"display-name": "MenuIcons",
-			"version": "2.0.3",
-			"id": "d677adf565f4a12cf6d251bb305eb552caf493194a0fe6d348e801f5b714ac4e",
-			"repository": "https://github.com/francostellari/NppPlugins/raw/main/MenuIcons/MenuIcons_dll_2v03_x32.zip",
+			"version": "2.0.5",
+			"id": "5716c3df8582bf165336a1ac6d77de2176adedf2daab8eb2ec674fdfc9118f46",
+			"repository": "https://github.com/francostellari/NppPlugins/raw/main/MenuIcons/MenuIcons_dll_2v05_x32.zip",
 			"description": "Adds icons to the main menu, tab menu, context menu, and the tabs themselves.",
 			"author": "Franco Stellari",
 			"homepage": "https://github.com/francostellari/NppPlugins"
@@ -912,11 +912,11 @@
 		{
 			"folder-name": "nppRandomStringGenerator",
 			"display-name": "npp Random String Generator",
-			"version": "1.7.0",
+			"version": "1.7.2",
 			"npp-compatible-versions": "[8.3,]",
 			"old-versions-compatibility": "[,1.3][,8.2.1]",
-			"id": "9275fc77950bd0c56cd578bc2c852446285f15ed6066699be8cab73245f3acf7",
-			"repository": "https://github.com/cmbsolutions/nppRandomStringGenerator/releases/download/v1.7.0/nppRandomStringGenerator.1.7.0.x86.zip",
+			"id": "8a6dd1d8fd41900ef032daf365ad2695cffd66b327508ae7a091ca7250823fbf",
+			"repository": "https://github.com/cmbsolutions/nppRandomStringGenerator/releases/download/v1.7.2/nppRandomStringGenerator.1.7.2.x86.zip",
 			"description": "Generates random strings with configurable output.",
 			"author": "Maurice CMBSolutions",
 			"homepage": "https://github.com/cmbsolutions/nppRandomStringGenerator"
@@ -1096,12 +1096,12 @@
 		{
 			"folder-name": "NppQrCode32",
 			"display-name": "NppQrCode",
-			"version": "0.0.0.1",
-			"id": "c6a2cefbd8d71258f85f95e44fcb37cbc153a147f34c8bb41b34f58fe9d2a3b9",
-			"repository": "https://github.com/vladk1973/NppQrCode/releases/download/v0.0.0.1/NppQrCode-0.0.0.1-x32.zip",
-			"description": "Creates QR-Code from selected text. Just select the text and push plugin button.",
+			"version": "0.0.0.2",
+			"id": "0a5fd708e4e331ddc086962990284d0241046dc1acffb2fde9870a0e048ab8db",
+			"repository": "https://github.com/rdipardo/nppQrCode/releases/download/v0.0.0.2/NppQrCode-0.0.0.2-win32.zip",
+			"description": "Creates a QR code from selected text. Just select some text and click the toolbar button.",
 			"author": "Vladimir Korobenkov",
-			"homepage": "https://github.com/vladk1973/NppQrCode"
+			"homepage": "https://github.com/rdipardo/nppQrCode"
 		},
 		{
 			"folder-name": "NppRegExTractorPlugin",
@@ -1179,9 +1179,9 @@
 		{
 			"folder-name": "Papyrus",
 			"display-name": "Papyrus Script Lexer",
-			"version": "1.2.0.330",
-			"id": "81fc4d614c7c0b47c0b3fca4185fcb02b91e8d7b57aeac522803423266bfccf2",
-			"repository": "https://github.com/blu3mania/npp-papyrus/releases/download/v1.2.0/PapyrusPlugin-v1.2.0-x86.zip",
+			"version": "1.2.1.340",
+			"id": "2f2f58b564db3eb763d96a2753bf1bf2bd668ae8b0eea9ce676567b043b2c1ba",
+			"repository": "https://github.com/blu3mania/npp-papyrus/releases/download/v1.2.1/PapyrusPlugin-v1.2.1-x86.zip",
 			"description": "View and edit Papyrus Script files used by Bethesda games with syntax highlighting, function and block folding, hyperlinks to referenced scripts, keywords matching, plus compilation support with anonymized output and error list view.",
 			"author": "blu3mania",
 			"homepage": "https://github.com/blu3mania/npp-papyrus"

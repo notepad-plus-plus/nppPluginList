@@ -23,5 +23,5 @@ https://community.notepad-plus-plus.org/topic/16566/support-for-plugins-admin-np
 Build Status
 ------------
 
-[![Appveyor build status](https://ci.appveyor.com/api/projects/status/github/notepad-plus-plus/nppPluginList?branch=master&svg=true)](https://ci.appveyor.com/project/donho/nppPluginList)
+[![Github build status](https://github.com/notepad-plus-plus/nppPluginList/actions/workflows/CI_build.yml/badge.svg)](https://github.com/notepad-plus-plus/nppPluginList/actions/workflows/CI_build.yml)
 [![GitHub release](https://img.shields.io/github/release/notepad-plus-plus/nppPluginList.svg)](https://github.com/notepad-plus-plus/nppPluginList/releases)
