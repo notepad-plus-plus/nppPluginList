@@ -2,7 +2,7 @@ attrs==23.1.0
 certifi==2023.7.22
 charset-normalizer==3.3.2
 idna==3.4
-jsonschema==4.19.1
+jsonschema==4.19.2
 pyrsistent==0.20.0
 pywin32==306
 requests==2.31.0
