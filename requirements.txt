@@ -1,9 +1,9 @@
-attrs==22.1.0
-certifi==2022.12.7
-charset-normalizer==2.1.1
+attrs==23.1.0
+certifi==2023.7.22
+charset-normalizer==3.3.2
 idna==3.4
-jsonschema==4.16.0
-pyrsistent==0.18.1
-pywin32==304
+jsonschema==4.19.2
+pyrsistent==0.20.0
+pywin32==306
 requests==2.31.0
-urllib3==1.26.12
+urllib3==2.0.7
