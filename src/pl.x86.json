@@ -158,6 +158,17 @@
 			"homepage": "https://github.com/p0358/notepadpp-CodeStats"
 		},
 		{
+			"folder-name": "ColumnsPlusPlus",
+			"display-name": "Columns++",
+			"version": "1.0",
+			"id": "75916743DD3825969BBF069859AD82A48F292D215566ED58A33840A56FF38A4D",
+			"repository": "https://github.com/Coises/ColumnsPlusPlus/releases/download/v1.0/ColumnsPlusPlus-1.0-x86.zip",
+			"description": "Offers features for working with text and data arranged in columns, including an implementation of elastic tabstops, enhanced searching and sorting, column alignment and numeric calulations.",
+			"author": "Randall Joseph Fellmy",
+			"homepage": "https://github.com/Coises/ColumnsPlusPlus",
+			"npp-compatible-versions": "[8.4.3,]"
+		},
+		{
 			"folder-name": "ColumnTools",
 			"display-name": "ColumnTools",
 			"version": "1.4.5.1",
