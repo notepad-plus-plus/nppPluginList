@@ -1,6 +1,6 @@
 {
 	"name": "npp-pluginList",
-	"version": "1.6.6",
+	"version": "1.6.7",
 	"arch": "32",
 	"npp-plugins": [
 		{
@@ -156,6 +156,17 @@
 			"description": "Write code, level up, show off! A free stats tracking service for programmers. Enables XP tracking in Notepad++.\r\nRequires a codestats.net account for its functionality.\r\n\r\nAnonymous usage statistics:\r\nOn the next Notepad++ launches, after API token has been provided, this plugin is making HTTPS request to analytics server containing plugin version and unique randomly generated ID. This is because the author would like to see the amount of people using this. The usage statistic collection is not related to the Code::Stats service itself. If you really do not want to be included, you can opt-out in plugin settings.\r\n",
 			"author": "p0358",
 			"homepage": "https://github.com/p0358/notepadpp-CodeStats"
+		},
+		{
+			"folder-name": "ColumnsPlusPlus",
+			"display-name": "Columns++",
+			"version": "1.0",
+			"id": "75916743DD3825969BBF069859AD82A48F292D215566ED58A33840A56FF38A4D",
+			"repository": "https://github.com/Coises/ColumnsPlusPlus/releases/download/v1.0/ColumnsPlusPlus-1.0-x86.zip",
+			"description": "Offers features for working with text and data arranged in columns, including an implementation of elastic tabstops, enhanced searching and sorting, column alignment and numeric calulations.",
+			"author": "Randall Joseph Fellmy",
+			"homepage": "https://github.com/Coises/ColumnsPlusPlus",
+			"npp-compatible-versions": "[8.4.3,]"
 		},
 		{
 			"folder-name": "ColumnTools",
@@ -340,10 +351,10 @@
 		{
 			"folder-name": "EnhanceAnyLexer",
 			"display-name": "EnhanceAnyLexer",
-			"version": "1.2.0",
+			"version": "1.4.0",
 			"npp-compatible-versions": "[8.4.1,]",
-			"id": "bbcf28b4ff332af676832a6979b1612adc25fda41bf89a6bba351735c53f9b9f",
-			"repository": "https://github.com/Ekopalypse/EnhanceAnyLexer/releases/download/v.1.2.0/EnhanceAnyLexer_x86_PluginAdmin.zip",
+			"id": "b88d334d42ee53ef1bbbb70eb5938b312d5b19353fdab8347c99b53e2895f0a3",
+			"repository": "https://github.com/Ekopalypse/EnhanceAnyLexer/releases/download/v.1.4.0/EnhanceAnyLexer_x86_PluginAdmin.zip",
 			"description": "Adds more styling, colors only, options to any Lexer",
 			"author": "Ekopalypse",
 			"homepage": "https://github.com/Ekopalypse/EnhanceAnyLexer"
@@ -642,9 +653,9 @@
 		{
 			"folder-name": "JSMinNPP",
 			"display-name": "JSTool",
-			"version": "1.2308.0",
-			"id": "b1c3ab7d1041bd58f2fafdce1858a5dfe16a166e5f831e6340ddb5c79335d003",
-			"repository": "https://sourceforge.net/projects/jsminnpp/files/Uni/JSToolNPP.1.2308.0.uni.32.zip",
+			"version": "1.2311.0",
+			"id": "0b6a5cc5e99bdcbce6d198267eafc21ede966b533a0178ac896204661080dd33",
+			"repository": "https://sourceforge.net/projects/jsminnpp/files/Uni/JSToolNPP.1.2311.0.uni.32.zip",
 			"description": "Javascript plugin.\r\n * Douglas Crockford's JSMin algorithm to minimize javascript code.\r\n * My own algorithm to format javascript code.\r\n * A JSON data viewer. This JSON data viewer can handle >10MB JSON file easily.\r\n * Support 64bit Notepad++ (from version 1.20.0).\r\nReally helpful to javascript coder on Notepad++ and really easy to use it.\r\nMade in China.",
 			"author": "Sun Junwen",
 			"homepage": "https://github.com/sunjw/jstoolnpp"
@@ -784,11 +795,11 @@
 		{
 			"folder-name": "MultiReplace",
 			"display-name": "MultiReplace",
-			"version": "2.0.0.7",
+			"version": "2.1.0.8",
 			"npp-compatible-versions": "[8.5.4,]",
-			"id": "d742c29d27af815b5d043040491387e624ab7dd99af97d142b1bb6a4ae407fb2",
-			"repository": "https://github.com/daddel80/notepadpp-multireplace/releases/download/2.0.0.7/MultiReplace-v2.0.0.7-Win32.zip",
-			"description": "Enables multi-string replacement, storage of search/replace patterns in files, processing of delimited data columns, instant calculations & dynamic text replacement, and support for rectangular selection.",
+			"id": "a481fa36a19cc48bc4c34fac664039c5e5d6d328ad4fdff17837e9a8a833cd30",
+			"repository": "https://github.com/daddel80/notepadpp-multireplace/releases/download/2.1.0.8/MultiReplace-v2.1.0.8-Win32.zip",
+			"description": "Advanced multi-string replacement, storage of search/replace patterns, CSV column highlighting and targeting, dynamic computational operations, and support for rectangular selection.",
 			"author": "Thomas Knoefel",
 			"homepage": "https://github.com/daddel80/notepadpp-multireplace"
 		},
@@ -855,10 +866,10 @@
 		{
 			"folder-name": "NppOpenAI",
 			"display-name": "NppOpenAI",
-			"version": "0.2.1.0",
+			"version": "0.2.1.2",
 			"npp-compatible-versions": "[8.4.8,]",
-			"id": "e17f30e72db34070959029c975bacfb073e7f55296cf2ba97922b73b307b9b25",
-			"repository": "https://github.com/Krazal/nppopenai/releases/download/v0.2.1/NppOpenAI_x86.zip",
+			"id": "b3688a57fe50d7cb632fbc14272791eb8bb3922e84d4547a6025a5ffaa50339b",
+			"repository": "https://github.com/Krazal/nppopenai/releases/download/v0.2.1.2/NppOpenAI_x86.zip",
 			"description": "OpenAI (aka. ChatGPT) plugin for Notepad++. Simply select your text, press Ctrl + Shift + O, and you'll see the AI generated response in seconds. Some examples: 'Please create a Fibonacci function in PHP'; 'Mi az árvíztűrő tükörfúrógép?' (Hungarian Unicode test) etc. This plugin requires an active internet connection and an OpenAI registration / API key (handles it confidential).",
 			"author": "Richárd Stockinger",
 			"homepage": "https://github.com/Krazal/nppopenai"
@@ -912,11 +923,11 @@
 		{
 			"folder-name": "nppRandomStringGenerator",
 			"display-name": "npp Random String Generator",
-			"version": "1.7.2",
+			"version": "1.8.0",
 			"npp-compatible-versions": "[8.3,]",
 			"old-versions-compatibility": "[,1.3][,8.2.1]",
-			"id": "8a6dd1d8fd41900ef032daf365ad2695cffd66b327508ae7a091ca7250823fbf",
-			"repository": "https://github.com/cmbsolutions/nppRandomStringGenerator/releases/download/v1.7.2/nppRandomStringGenerator.1.7.2.x86.zip",
+			"id": "afc44c3fe160e9d0671673a8c2e0ce8e5a20706a0a8cdc3b66499353ca928e0c",
+			"repository": "https://github.com/cmbsolutions/nppRandomStringGenerator/releases/download/v1.8.0/nppRandomStringGenerator.1.8.0.x86.zip",
 			"description": "Generates random strings with configurable output.",
 			"author": "Maurice CMBSolutions",
 			"homepage": "https://github.com/cmbsolutions/nppRandomStringGenerator"
@@ -1179,9 +1190,9 @@
 		{
 			"folder-name": "Papyrus",
 			"display-name": "Papyrus Script Lexer",
-			"version": "1.2.0.330",
-			"id": "81fc4d614c7c0b47c0b3fca4185fcb02b91e8d7b57aeac522803423266bfccf2",
-			"repository": "https://github.com/blu3mania/npp-papyrus/releases/download/v1.2.0/PapyrusPlugin-v1.2.0-x86.zip",
+			"version": "1.2.1.340",
+			"id": "2f2f58b564db3eb763d96a2753bf1bf2bd668ae8b0eea9ce676567b043b2c1ba",
+			"repository": "https://github.com/blu3mania/npp-papyrus/releases/download/v1.2.1/PapyrusPlugin-v1.2.1-x86.zip",
 			"description": "View and edit Papyrus Script files used by Bethesda games with syntax highlighting, function and block folding, hyperlinks to referenced scripts, keywords matching, plus compilation support with anonymized output and error list view.",
 			"author": "blu3mania",
 			"homepage": "https://github.com/blu3mania/npp-papyrus"
