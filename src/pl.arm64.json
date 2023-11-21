@@ -270,7 +270,7 @@
 		{
 			"folder-name": "MenuIcons",
 			"display-name": "MenuIcons",
-			"version": "2.0.5",
+			"version": "2.0.6",
 			"id": "bf4d7815858533bba8e9c4c6475c8cd891fdd7329fefc33a7ce489fc9de65e3e",
 			"repository": "https://github.com/francostellari/NppPlugins/raw/main/MenuIcons/MenuIcons_dll_2v06_arm64.zip",
 			"description": "Adds icons to the main menu, tab menu, context menu, and the tabs themselves.",
