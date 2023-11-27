@@ -270,9 +270,9 @@
 		{
 			"folder-name": "MenuIcons",
 			"display-name": "MenuIcons",
-			"version": "2.0.6",
-			"id": "bf4d7815858533bba8e9c4c6475c8cd891fdd7329fefc33a7ce489fc9de65e3e",
-			"repository": "https://github.com/francostellari/NppPlugins/raw/main/MenuIcons/MenuIcons_dll_2v06_arm64.zip",
+			"version": "2.0.7",
+			"id": "b3cc0138abe3362b30c9de0a33b2a71cf7f2f95dbf8be227d43bcf1d5ff3f23d",
+			"repository": "https://github.com/francostellari/NppPlugins/raw/main/MenuIcons/MenuIcons_dll_2v07_arm64.zip",
 			"description": "Adds icons to the main menu, tab menu, context menu, and the tabs themselves.",
 			"author": "Franco Stellari",
 			"homepage": "https://github.com/francostellari/NppPlugins"
