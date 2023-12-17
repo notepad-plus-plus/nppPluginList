@@ -277,11 +277,11 @@
 		{
 			"folder-name": "dbgpPlugin",
 			"display-name": "DBGp",
-			"version": "0.14.1.0",
+			"version": "0.14.2.1",
 			"npp-compatible-versions": "[7.7,]",
 			"old-versions-compatibility": "[,0.0.13.27][,7.6.6]",
-			"id": "338b63cdae90200f2f0c51288c0e0b8bbfc0f9d298cf6f2839b4dc2719943471",
-			"repository": "https://bitbucket.org/rdipardo/dbgp/downloads/dbgpPlugin_v0.14.1_win32.zip",
+			"id": "6babcfbae65ced266a6073fe9bf6947a409266b63117b5c3c55d7a84ae1ac93d",
+			"repository": "https://bitbucket.org/rdipardo/dbgp/downloads/dbgpPlugin_v0.14.2.1_win32.zip",
 			"description": "PHP debugger (XDebug) which talks with the DBGP protocol. Transforms Notepad++ into a PHP IDE.",
 			"author": "Damjan Zobo Cvetko",
 			"homepage": "https://bitbucket.org/rdipardo/dbgp"
