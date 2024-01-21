@@ -1045,6 +1045,16 @@
 			"homepage": "https://github.com/pnedev/nppgtags"
 		},
 		{
+			"folder-name": "NppGZipFileViewer",
+			"display-name": "NppGZipFileViewer",
+			"version": "3.0.1",
+			"id": "0149bc319c9835d87d2a0c2cafe7e161b2ffca26dc359d4f4a841402b7afcafa",
+			"repository": "https://github.com/Pascal-Krenckel/NppGZipFileViewer/releases/download/v3.0.1/NppGZipFileViewerX86.top.zip",
+			"description": "A Notepad++ plugin to open and save files in the gzip or bzip2 format.",
+			"author": "Pascal Krenckel",
+			"homepage": "https://github.com/Pascal-Krenckel/NppGZipFileViewer"
+		},
+		{
 			"folder-name": "NppHasher",
 			"display-name": "NppHash",
 			"version": "1.0",
