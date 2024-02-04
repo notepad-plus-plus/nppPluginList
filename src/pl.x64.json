@@ -696,11 +696,11 @@
 		{
 			"folder-name": "mimeTools",
 			"display-name": "Mime tools",
-			"version": "3.0",
+			"version": "3.1",
 			"npp-compatible-versions": "[8.4.7,]",
 			"old-versions-compatibility": "[,2.8][,8.4.6]",
-			"id": "3dbd0693c0f617487a9199159da7c5bdc256e3b8dd9ca5f8810233cf1349f6f0",
-			"repository": "https://github.com/npp-plugins/mimetools/releases/download/v3/mimetools.v3.0.x64.zip",
+			"id": "8df4ef5c94579639f5c429f97e13fe39802552d56db7e7eb3df226ccc9caae9b",
+			"repository": "https://github.com/npp-plugins/mimetools/releases/download/v3.1/mimetools.v3.1.x64.zip",
 			"description": "Implements several main functionalities defined in MIME (Multipurpose Internet Mail Extensions): Base64, Quoted-printable and URL encode/decode",
 			"author": "Don HO",
 			"homepage": "https://github.com/npp-plugins/mimetools"
@@ -780,26 +780,26 @@
 		{
 			"folder-name": "NppPluginDemo",
 			"display-name": "Notepad++ Plugin Demo",
-			"version": "4.3",
+			"version": "4.4",
 			"npp-compatible-versions": "[8.4.7,]",
 			"old-versions-compatibility": "[,4.2][,8.4.6]",
-			"id": "0e6e70d48b9f8cacf7816dbc6faff856064973458e7c9473d15ee834ebf20321",
-			"repository": "https://github.com/npp-plugins/plugindemo/releases/download/v4.3/pluginDemo.v4.3.bin.x64.zip",
+			"id": "0894477bbb5794978f1a013021df375c6f2ef1e2e82fe05d359f790604a5b7fe",
+			"repository": "https://github.com/npp-plugins/plugindemo/releases/download/v4.4/pluginDemo.v4.4.bin.x64.zip",
 			"description": "Notepad++ Plugin Demo is written from Notepad++ Plugin Template to demonstrate the usage of plugin API.",
 			"author": "Don HO",
-			"homepage": "https://npp-user-manual.org/docs/plugins/"
+			"homepage": "https://npp-user-manual.org/docs/plugins/#how-to-develop-a-plugin"
 		},
 		{
 			"folder-name": "NppPluginTemplate",
 			"display-name": "Notepad++ Plugin Template",
-			"version": "4.3",
+			"version": "4.4",
 			"npp-compatible-versions": "[8.4.7,]",
 			"old-versions-compatibility": "[,4.2][,8.4.6]",
-			"id": "27639a123e7f74baea139c2264d2897ad0807b40f9ebfcbcff205da68288d5e5",
-			"repository": "https://github.com/npp-plugins/plugintemplate/releases/download/v4.3/pluginTemplate.v4.3.bin.x64.zip",
+			"id": "ff5f9e918d80a754ef4cb53b4d5dc2c85557ff32fef94bb6c11ab5ae59f95278",
+			"repository": "https://github.com/npp-plugins/plugintemplate/releases/download/v4.4/pluginTemplate.v4.4.bin.x64.zip",
 			"description": "Template for making plugin development as easy and simple as possible. Four steps and it's done.",
 			"author": "Don HO",
-			"homepage": "https://npp-user-manual.org/docs/plugins/"
+			"homepage": "https://npp-user-manual.org/docs/plugins/#how-to-develop-a-plugin"
 		},
 		{
 			"folder-name": "NotepadStarterPlugin",
@@ -814,11 +814,11 @@
 		{
 			"folder-name": "nppConverter",
 			"display-name": "Npp Converter",
-			"version": "4.5",
+			"version": "4.6",
 			"npp-compatible-versions": "[8.4.7,]",
 			"old-versions-compatibility": "[,4.4][,8.4.6]",
-			"id": "86624d8c4e80b9372646f03fc5e7fff34079e2826ca71d14cc43bd8bce24a468",
-			"repository": "https://github.com/npp-plugins/converter/releases/download/v4.5/nppConvert.v4.5.x64.zip",
+			"id": "f80d8266112bb50e4aff95c8d1ddfb9dbc2562e380d33820dd5f85368747a2cc",
+			"repository": "https://github.com/npp-plugins/converter/releases/download/v4.6/nppConvert.v4.6.x64.zip",
 			"description": "ASCII<->Hex converter.",
 			"author": "Don HO",
 			"homepage": "https://github.com/npp-plugins/converter/"
@@ -1118,11 +1118,11 @@
 		{
 			"folder-name": "pork2sausage",
 			"display-name": "Pork to Sausage",
-			"version": "2.3",
+			"version": "2.5",
 			"npp-compatible-versions": "[8.4.7,]",
 			"old-versions-compatibility": "[,2.2][,8.4.6]",
-			"id": "cb3b33683971412229023bdd53edff9a6b30d0c0ec6ba3d0bb91d3a22a99cb75",
-			"repository": "https://github.com/npp-plugins/pork2sausage/releases/download/v2.3/pork2sausage.2.3.bin.x64.zip",
+			"id": "58ba10fafcfef67739c0c8a19525e6eb23352b6a146126cef3f28138b3ce3610",
+			"repository": "https://github.com/npp-plugins/pork2sausage/releases/download/v2.5/pork2sausage.2.5.bin.x64.zip",
 			"description": "Pass any selected text to any command line program as input and take the output (the result of program) to replace the selected text.",
 			"author": "Don HO",
 			"homepage": "https://github.com/npp-plugins/pork2sausage"
@@ -1278,9 +1278,9 @@
 		{
 			"folder-name": "selectNLaunch",
 			"display-name": "Select N' Launch",
-			"version": "2.1",
-			"id": "15a2af2d2904c4e1674e52fd0a8eba34b3dacea0b7e911a380af9eae2282db3f",
-			"repository": "https://github.com/npp-plugins/selectnlaunch/releases/download/v2.1/selectNLaunch.v2.1.bin.x64.zip",
+			"version": "2.2",
+			"id": "eb72e9475678c780dae1db5e0509689c476c76d7763cd49be5b435bb9d29facb",
+			"repository": "https://github.com/npp-plugins/selectnlaunch/releases/download/v2.2/selectNLaunch.v2.2.bin.x64.zip",
 			"description": "Get the selected text, save it as file with the extension you customized in the system temporary directory, then call system to open it with the extension-associated program.",
 			"author": "Don HO",
 			"homepage": "https://github.com/npp-plugins/selectnlaunch"
