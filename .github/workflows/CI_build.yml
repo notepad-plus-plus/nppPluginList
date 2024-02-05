@@ -29,7 +29,7 @@ jobs:
       run: python validator.py ${{ matrix.build_platform }}
 
     - name: Add msbuild to PATH
-      uses: microsoft/setup-msbuild@v1
+      uses: microsoft/setup-msbuild@v2
 
     - name: MSBuild of plugin dll
       working-directory: vcxproj
