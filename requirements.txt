@@ -6,4 +6,4 @@ jsonschema==4.21.1
 pyrsistent==0.20.0
 pywin32==306
 requests==2.31.0
-urllib3==2.1.0
+urllib3==2.2.0
