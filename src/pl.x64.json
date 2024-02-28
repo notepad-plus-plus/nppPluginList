@@ -220,11 +220,11 @@
 		{
 			"folder-name": "ComparePlus",
 			"display-name": "ComparePlus",
-			"version": "1.1.0",
+			"version": "1.2.0",
 			"npp-compatible-versions": "[8.4.7,]",
 			"old-versions-compatibility": "[,1.0.0][8.4.2,8.4.6]",
-			"id": "c2d7e2e040be25470c8e04ae8ca89ef9500013cdad1c596a7b737247d0b99da2",
-			"repository": "https://github.com/pnedev/comparePlus/releases/download/cp_1.1.0/ComparePlus_cp_1.1.0_x64.zip",
+			"id": "ff4a7c9b32c8cbbda4144f82e0f30d567fb12f8fd3401b4005f7a170a198ac23",
+			"repository": "https://github.com/pnedev/comparePlus/releases/download/cp_1.2.0/ComparePlus_cp_1.2.0_x64.zip",
 			"description": "Advanced compare tool based on the well-known Compare-plugin by Ty Landercasper and Jean-Sebastien Leroy.",
 			"author": "Pavel Nedev",
 			"homepage": "https://github.com/pnedev/comparePlus"
