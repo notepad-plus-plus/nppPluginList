@@ -308,6 +308,16 @@
 			"homepage": "https://github.com/francostellari/NppPlugins"
 		},
 		{
+			"folder-name": "rustnpp",
+			"display-name": "rustnpp",
+			"version": "1.0.2",
+			"id": "04477854871be8aa73be19ede001481df23df38b0645acc5cc59a6a36b36cf9e",
+			"repository": "https://github.com/chcg/rustnpp/releases/download/1.0.2/rustnpp_1.0.2_aarch64.zip",
+			"description": "Rust plugin to run or build cargo project and run or build *.rs files. Requisite Rust installation.",
+			"author": "nika-begiashvili",
+			"homepage": "https://github.com/nika-begiashvili/rustnpp"
+		},
+		{
 			"folder-name": "TakeNotes",
 			"display-name": "TakeNotes",
 			"version": "1.2.7.0",

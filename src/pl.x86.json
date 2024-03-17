@@ -1401,6 +1401,16 @@
 			"homepage": "https://github.com/francostellari/NppPlugins"
 		},
 		{
+			"folder-name": "rustnpp",
+			"display-name": "rustnpp",
+			"version": "1.0.2",
+			"id": "87ff2c96a445a82fa026133481bce6ce5789c36b97b7b60e9e88171bc73a0a0d",
+			"repository": "https://github.com/chcg/rustnpp/releases/download/1.0.2/rustnpp_1.0.2_i686.zip",
+			"description": "Rust plugin to run or build cargo project and run or build *.rs files. Requisite Rust installation.",
+			"author": "nika-begiashvili",
+			"homepage": "https://github.com/nika-begiashvili/rustnpp"
+		},
+		{
 			"folder-name": "NppSaveAsAdmin",
 			"display-name": "Save as admin",
 			"version": "1.0.211",
