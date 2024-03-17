@@ -947,8 +947,8 @@
 			"display-name": "npp.Connections",
 			"version": "1.1.0",
 			"npp-compatible-versions": "[8.4.3,]",
-			"id": "8610ae26937688a343b89a1634935dd56c0e24ac808245c34f2732b4eeee0d1f",
-			"repository": "https://github.com/vladk1973/npp.connections/releases/download/v1.1/npp.connections-1.1-x32.zip",
+			"id": "892561d471faa88c8f80571951dc5523b9b0170b306d47b094f3c1d98b81679f",
+			"repository": "https://github.com/chcg/npp.connections/releases/download/1.1/npp.connections-1.1-x32.zip",
 			"description": "This plugin allows Notepad++ to connect to MS SQL or Sybase servers. ODBC data sources, like a MySql Driver, are also supported",
 			"author": "Vladimir Korobenkov",
 			"homepage": "https://github.com/vladk1973/npp.connections"
