@@ -1403,9 +1403,9 @@
 		{
 			"folder-name": "SQLinFormNpp64",
 			"display-name": "SQLinForm",
-			"version": "6.24.2.23",
-			"id": "c090f2eefe4dae2a7fa23074acbe0e60f67d9688672952e9250f1e0c86d911a2",
-			"repository": "https://www.sqlinform.com/npp/SQLinFormNpp64_6.24.02.zip",
+			"version": "6.24.4.1",
+			"id": "60e2c7316313d5d03b9f5be0e96d99ace7379e06b6ad6249ff4a55144cebfad0",
+			"repository": "https://www.sqlinform.com/npp/SQLinFormNpp64_6.24.04.zip",
 			"description": "Formats plain SQL, SQL embedded in program code, SQL snippets, and SQL statements with syntax errors.\r\nHas a powerful code folding feature and formats your SQL as you Type. Supports all major DB like Oracle, DB2, SQL Server, Teradata, Netezza, MySQL, Sybase, MS Access, etc. Incorporates its own multi-DB parser engine. No additional software required.",
 			"author": "Guido Thelen",
 			"homepage": "https://www.sqlinform.com"
