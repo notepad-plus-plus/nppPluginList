@@ -954,6 +954,7 @@
 			"folder-name": "Npp-Highlighter",
 			"display-name": "Npp Highlighter",
 			"version": "1.0.0.1",
+			"npp-compatible-versions": "[,8.5]",
 			"id": "b968b70727a6ed03ad814dabe26865f0c01463552c529a139f12c74f2c791780",
 			"repository": "https://github.com/michaelxzhang/Npp-Highlighter/releases/download/v1.0.0.1/Npp-Highlighter_x64.zip",
 			"description": "Npp-Highlighter draw indicator on scroll bar when:\r\n- line contents changed\r\n- double clicked and smart highlighted words\r\n- text highlighted by Style token",
