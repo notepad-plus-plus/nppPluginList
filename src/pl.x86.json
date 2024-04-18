@@ -1070,7 +1070,7 @@
 			"display-name": "NppHash",
 			"version": "1.0",
 			"id": "9b013b43ffa3c4de550036c6299407d1f370f4ba90186c7b4987096577c8033a",
-			"repository": "https://download.tuxfamily.org/nppplugins/NppHashMaker/NppHashMaker.v1.0.zip",
+			"repository": "https://github.com/npp-plugins/hasher/releases/download/v1.0/NppHashMaker.v1.0.zip",
 			"description": "Computes the hash of selected text.\r\nProvides hash result base64 encoded (optional).\r\nCoded in C# by using .NET Framework.\r\nIt's under GPL.\r\n\r\nSupported hash methods:\r\n1. MD5\r\n2. SHA1\r\n3. SHA256\r\n4. SHA384\r\n5. SHA512",
 			"author": "Don Ho",
 			"homepage": "https://github.com/npp-plugins/hasher"
