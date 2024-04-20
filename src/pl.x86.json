@@ -1816,11 +1816,11 @@
 		{
 			"folder-name": "FoldingLineHider",
 			"display-name": "Folding Line Hider",
-			"version": "1.0",
+			"version": "1.1",
 			"npp-compatible-versions": "[7.0,]",
-			"id": "58cf80c181b05264cd80d031f0a6409d49c9571900e0bd791dda486bc360b573",
-			"repository": "https://github.com/leonardchai/FoldingLineHider/releases/download/v1.0/FoldingLineHider1.0.x86.zip",
-			"description": "This Notepad++ plugin can hide the unsightly folding line, and for convenience, you can fold and unfold the current level using the Alt + Left/Right keys.",
+			"id": "cf9ae52d0cafe046f30ccf40d8a410413168c1b359e248be314c1d87d9f45b19",
+			"repository": "https://github.com/leonardchai/FoldingLineHider/releases/download/v1.1/FoldingLineHider1.1.x86.zip",
+			"description": "This Notepad++ plugin can hide the unsightly folding lines, and for convenience, you can fold and unfold the current level using the Alt + Left/Right keys.",
 			"author": "leonardchai@gmail.com",
 			"homepage": "https://github.com/leonardchai/FoldingLineHider"
 		}
