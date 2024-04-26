@@ -110,12 +110,12 @@
 		{
 			"folder-name": "BookmarksDook",
 			"display-name": "Bookmarks@Dook",
-			"version": "2.3.3.0",
-			"id": "ccc215e90322c25b2eede9a730fd36450e9b14eb4d67bd80e4608e3cad301bcb",
-			"repository": "https://github.com/Dook1/Bookmarks-Dook/releases/download/23332b/BookmarksDook.32.2.3.3.zip",
+			"version": "4.0.4",
+			"id": "C30087F8F9684BEDE7454E704BD3D470D9A3D0E63665019E552C6F8A65316E38",
+			"repository": "https://github.com/Dook1/Bookmarks-Dook/releases/download/v4.0.4/BookmarksDook.32.4.0.4.zip",
 			"description": "Bookmarks panel",
 			"author": "Dook",
-			"homepage": "https://github.com/Dook1/Bookmarks-Dook/issues"
+			"homepage": "https://github.com/Dook1/Bookmarks-Dook"
 		},
 		{
 			"folder-name": "BracketsCheck",
