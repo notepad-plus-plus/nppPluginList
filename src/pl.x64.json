@@ -1531,10 +1531,10 @@
 			"folder-name": "XMLNavigator",
 			"display-name": "XML Navigator",
 			"version": "1.4",
-			"id": "7631ea990e731172e28e9fe85ac4861185c0292143603b9486bc969cc8e8e046",
+			"id": "c1b4fb2e586a8d3da7452d4bbb40909a8e551026c71e096b0c059668e37180e1",
 			"repository": "https://github.com/chcg/XmlNavigator/releases/download/1.4/XmlNavigator_1.4_x64.zip",
 			"description": "Plugin which shows the structure of an XML file in a tree view and allows fast navigation within it.",
-			"author": "Pavel Kotrč",
+			"author": "Pavel Kotrc",
 			"homepage": "https://github.com/crypto-rsa/XmlNavigator"
 		},
 		{
