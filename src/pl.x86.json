@@ -1764,6 +1764,16 @@
 			"homepage": "https://github.com/d0vgan/npp-XBracketsLite"
 		},
 		{
+			"folder-name": "XMLNavigator",
+			"display-name": "XML Navigator",
+			"version": "1.4",
+			"id": "6847974b2f015749870c10237ff904be98ce07773b67868a9c66a9634ae4b744  ",
+			"repository": "https://github.com/chcg/XmlNavigator/releases/download/1.4/XmlNavigator_1.4_x86.zip",
+			"description": "Plugin which shows the structure of an XML file in a tree view and allows fast navigation within it.",
+			"author": "Pavel Kotrč",
+			"homepage": "https://github.com/crypto-rsa/XmlNavigator"
+		},
+		{
 			"folder-name": "XMLTools",
 			"display-name": "XML Tools",
 			"version": "3.1.1.13",
