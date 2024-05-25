@@ -277,11 +277,11 @@
 		{
 			"folder-name": "CustomLineNumbers",
 			"display-name": "CustomLineNumbers",
-			"version": "1.1.9",
+			"version": "1.1.10",
 			"npp-compatible-versions": "[7.7,]",
 			"old-versions-compatibility": "[,1.1.7][7.7,]",
-			"id": "fcb24210eee7317b635e8df19ce6238e3101b1ea4f3d4a3f6568f61f11f67458",
-			"repository": "https://sourceforge.net/projects/customlinenumbers/files/v1.1.9/plugin/x64/CustomLineNumbers_v1.1.9_x64.zip",
+			"id": "2883d7ca2e5324f03be0578c3981f186ed84a7fc7e4ae1ac287346b0d0562ec7",
+			"repository": "https://sourceforge.net/projects/customlinenumbers/files/v1.1.10/plugin/x64/CustomLineNumbers_v1.1.10_x64.zip",
 			"description": "Displays line numbers as hex numbers or as relative numbers. You can also configure the starting line number.",
 			"author": "Andreas Heim",
 			"homepage": "https://sourceforge.net/projects/customlinenumbers"
