@@ -1,6 +1,6 @@
 {
 	"name": "npp-pluginList",
-	"version": "1.6.9",
+	"version": "1.7.2",
 	"arch": "arm64",
 	"npp-plugins": [
 		{
@@ -16,11 +16,11 @@
 		{
 			"folder-name": "ComparePlus",
 			"display-name": "ComparePlus",
-			"version": "1.1.0",
+			"version": "1.2.0",
 			"npp-compatible-versions": "[8.4.7,]",
 			"old-versions-compatibility": "[,1.0.0][8.4.2,8.4.6]",
-			"id": "37b4dd95aa5f9c4b6c7302beb1bb6a0b0eca02416585f32beb56b857c783fdcc",
-			"repository": "https://github.com/pnedev/comparePlus/releases/download/cp_1.1.0/ComparePlus_cp_1.1.0_ARM64.zip",
+			"id": "5d939b5d50cc3f882f17725592ac63959f6f2393c300bed7c40ec19eeb2708ab",
+			"repository": "https://github.com/pnedev/comparePlus/releases/download/cp_1.2.0/ComparePlus_cp_1.2.0_ARM64.zip",
 			"description": "Advanced compare tool based on the well-known Compare-plugin by Ty Landercasper and Jean-Sebastien Leroy.",
 			"author": "Pavel Nedev",
 			"homepage": "https://github.com/pnedev/comparePlus"
@@ -70,11 +70,11 @@
 		{
 			"folder-name": "MultiReplace",
 			"display-name": "MultiReplace",
-			"version": "2.3.0.10",
+			"version": "3.0.1.13",
 			"npp-compatible-versions": "[8.5.4,]",
-			"id": "16f9915efd003840b0f9390411c07239c2d29cefb46e8adaaa0ba4d4db3a625a",
-			"repository": "https://github.com/daddel80/notepadpp-multireplace/releases/download/2.3.0.10/MultiReplace-v2.3.0.10-ARM64.zip",
-			"description": "Advanced multi-string replacement, storage of search/replace patterns, CSV column highlighting, targeting, and sorting capabilities, followed by dynamic computational operations and support for rectangular selection.",
+			"id": "48a61da13eb0b846685b783b71dcf82c94d922814320d5e7f8f35bdcf6a8b7c4",
+			"repository": "https://github.com/daddel80/notepadpp-multireplace/releases/download/3.0.1.13/MultiReplace-v3.0.1.13-ARM64.zip",
+			"description": "Advanced multi-string replacement; storage of search/replace patterns; CSV column highlighting, targeting, and sorting; dynamic computational operations; rectangular selection support.",
 			"author": "Thomas Knoefel",
 			"homepage": "https://github.com/daddel80/notepadpp-multireplace"
 		},
@@ -219,12 +219,12 @@
 		{
 			"folder-name": "NppTaskList",
 			"display-name": "Task List",
-			"version": "2.5",
-			"id": "0f4754df834035245a8c847514bb14adc0fcdf67e0bd51d5ae1299830c3d5656",
-			"repository": "https://github.com/Megabyteceer/npp-task-list/releases/download/v2.5.0/NppTaskList_v2.5.0_arm64.zip",
+			"version": "2.6",
+			"id": "6defc5713d44366d8438ff496895554a6245e27e5d8c05d066adacf1c74e7ba8",
+			"repository": "https://github.com/Megabyteceer/npp-task-list/releases/download/v2.6.0/NppTaskList_v2.6.0_arm64.zip",
 			"description": "Automatically scans the open document and adds all \"TODO:*\" items to your task list, a window pane docked on the right. Double-clicking an item in the list will take you to that line in the code.",
 			"author": "blitowitz",
-			"homepage": "https://code.google.com/p/npp-task-list/"
+			"homepage": "https://github.com/Megabyteceer/npp-task-list"
 		},
 		{
 			"folder-name": "urlPlugin",
@@ -308,11 +308,21 @@
 			"homepage": "https://github.com/francostellari/NppPlugins"
 		},
 		{
+			"folder-name": "rustnpp",
+			"display-name": "rustnpp",
+			"version": "1.0.2",
+			"id": "04477854871be8aa73be19ede001481df23df38b0645acc5cc59a6a36b36cf9e",
+			"repository": "https://github.com/chcg/rustnpp/releases/download/1.0.2/rustnpp_1.0.2_aarch64.zip",
+			"description": "Rust plugin to run or build cargo project and run or build *.rs files. Requisite Rust installation.",
+			"author": "nika-begiashvili",
+			"homepage": "https://github.com/nika-begiashvili/rustnpp"
+		},
+		{
 			"folder-name": "TakeNotes",
 			"display-name": "TakeNotes",
-			"version": "1.2.6.0",
-			"id": "0b36679a489f4d532c3a7c8d7c0cf0200a10d3106b326023f4059fef1c84a8bc",
-			"repository": "https://github.com/francostellari/NppPlugins/raw/main/TakeNotes/TakeNotes_dll_1v26_arm64.zip",
+			"version": "1.2.7.0",
+			"id": "b182665ac3efb64acb2a08efe466962f3cfb5edfac3cdd20f23fd95290ecf8b1",
+			"repository": "https://github.com/francostellari/NppPlugins/raw/main/TakeNotes/TakeNotes_dll_1v27_arm64.zip",
 			"description": "Helps people who like to use Notepad++ for jotting quick notes. Instead of using unnamed 'new ?' files, this plugins allows to quickly create new empty files in a folder of choice. The file names may be custom generated using a mask and may contain details such as the user name, date, and time of creation so that unique files may be generated. Additionally, the plugin allows to load exiting notes in the folder of choice, save existing files as a note, and open the last saved note quickly. Please refer to the Options dialog box for more details. It is strongly recommended to use this plugin in combination with AutoSave to make sure that you never loose a note.",
 			"author": "Franco Stellari",
 			"homepage": "https://github.com/francostellari/NppPlugins"

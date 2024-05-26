@@ -1,6 +1,6 @@
 {
 	"name": "npp-pluginList",
-	"version": "1.6.9",
+	"version": "1.7.2",
 	"arch": "64",
 	"npp-plugins": [
 		{
@@ -114,12 +114,12 @@
 		{
 			"folder-name": "BookmarksDook",
 			"display-name": "Bookmarks@Dook",
-			"version": "2.3.3.0",
-			"id": "74e1b72aefbb1a89f74d922c15df6dd422b5bf0b72b9bc7cf28438fd24db3a64",
-			"repository": "https://github.com/Dook1/Bookmarks-Dook/releases/download/23364b/BookmarksDook.64.2.3.3.zip",
+			"version": "4.0.4",
+			"id": "EBC9BFD352F33B60879F73A21CE9909B91600EE0D46EC26998B63E8B3BB8F69E",
+			"repository": "https://github.com/Dook1/Bookmarks-Dook/releases/download/v4.0.4/BookmarksDook.64.4.0.4.zip",
 			"description": "Bookmarks panel",
 			"author": "Dook",
-			"homepage": "https://github.com/Dook1/Bookmarks-Dook/issues"
+			"homepage": "https://github.com/Dook1/Bookmarks-Dook"
 		},
 		{
 			"folder-name": "BracketsCheck",
@@ -164,9 +164,9 @@
 		{
 			"folder-name": "ColumnsPlusPlus",
 			"display-name": "Columns++",
-			"version": "1.0.2",
-			"id": "1FDBD3C1E89AD87A841C3094FBFFDA7D7D28E4E05ACFE4B37DBB0FCBB58A425B",
-			"repository": "https://github.com/Coises/ColumnsPlusPlus/releases/download/v1.0.2/ColumnsPlusPlus-1.0.2-x64.zip",
+			"version": "1.0.6",
+			"id": "3C34E2EB708446BAC0FA63F2BA618A3B72E84CB151500689FB1009B9A3F70D14",
+			"repository": "https://github.com/Coises/ColumnsPlusPlus/releases/download/v1.0.6/ColumnsPlusPlus-1.0.6-x64.zip",
 			"description": "Offers features for working with text and data arranged in columns, including an implementation of elastic tabstops, enhanced searching and sorting, column alignment and numeric calulations.",
 			"author": "Randall Joseph Fellmy",
 			"homepage": "https://github.com/Coises/ColumnsPlusPlus",
@@ -220,11 +220,11 @@
 		{
 			"folder-name": "ComparePlus",
 			"display-name": "ComparePlus",
-			"version": "1.1.0",
+			"version": "1.2.0",
 			"npp-compatible-versions": "[8.4.7,]",
 			"old-versions-compatibility": "[,1.0.0][8.4.2,8.4.6]",
-			"id": "c2d7e2e040be25470c8e04ae8ca89ef9500013cdad1c596a7b737247d0b99da2",
-			"repository": "https://github.com/pnedev/comparePlus/releases/download/cp_1.1.0/ComparePlus_cp_1.1.0_x64.zip",
+			"id": "ff4a7c9b32c8cbbda4144f82e0f30d567fb12f8fd3401b4005f7a170a198ac23",
+			"repository": "https://github.com/pnedev/comparePlus/releases/download/cp_1.2.0/ComparePlus_cp_1.2.0_x64.zip",
 			"description": "Advanced compare tool based on the well-known Compare-plugin by Ty Landercasper and Jean-Sebastien Leroy.",
 			"author": "Pavel Nedev",
 			"homepage": "https://github.com/pnedev/comparePlus"
@@ -277,12 +277,12 @@
 		{
 			"folder-name": "CustomLineNumbers",
 			"display-name": "CustomLineNumbers",
-			"version": "1.1.8",
+			"version": "1.1.10",
 			"npp-compatible-versions": "[7.7,]",
 			"old-versions-compatibility": "[,1.1.7][7.7,]",
-			"id": "6466533e445cbc06e551cb98b27715e432cc705d6988a37d0a935e5954263b20",
-			"repository": "https://sourceforge.net/projects/customlinenumbers/files/v1.1.8/plugin/x64/CustomLineNumbers_v1.1.8_x64.zip",
-			"description": "Displays line numbers as hex numbers. You can also configure the starting line number.",
+			"id": "2883d7ca2e5324f03be0578c3981f186ed84a7fc7e4ae1ac287346b0d0562ec7",
+			"repository": "https://sourceforge.net/projects/customlinenumbers/files/v1.1.10/plugin/x64/CustomLineNumbers_v1.1.10_x64.zip",
+			"description": "Displays line numbers as hex numbers or as relative numbers. You can also configure the starting line number.",
 			"author": "Andreas Heim",
 			"homepage": "https://sourceforge.net/projects/customlinenumbers"
 		},
@@ -387,10 +387,10 @@
 			"display-name": "Expression calculator",
 			"version": "3001.21.1125.1",
 			"id": "4e9aa9f6b20e3301f7558c0230839f1604427c6d8ffeac911dbc7fec4ff98cb9",
-			"repository": "https://planet-cnc.com/wp-content/uploads/sw/Npp/PlanetCNCNpp64.zip",
+			"repository": "https://raw.githubusercontent.com/PlanetCNC/PlanetCNCNpp/main/PlanetCNCNpp64.zip",
 			"description": "Expression calculator plugin for Notepad++",
 			"author": "PlanetCNC",
-			"homepage": "https://planet-cnc.com/notepad-plugin/"
+			"homepage": "https://github.com/PlanetCNC/PlanetCNCNpp"
 		},
 		{
 			"folder-name": "ExtSettings",
@@ -486,11 +486,11 @@
 		{
 			"folder-name": "HTMLTag",
 			"display-name": "HTML Tag",
-			"version": "1.4.3.0",
+			"version": "1.4.4.0",
 			"npp-compatible-versions": "[8.3,]",
 			"old-versions-compatibility": "[,1.1][,8.2.1]",
-			"id": "46d978c8856b945c7196cbc5ad0618c8644f76f7958b5c4266563800122ede67",
-			"repository": "https://bitbucket.org/rdipardo/htmltag/downloads/HTMLTag_v1.4.3_x64.zip",
+			"id": "465c63b74bc1090171095b4da9082d7304b87b71b08d8f1766aee75ef0f72c1e",
+			"repository": "https://bitbucket.org/rdipardo/htmltag/downloads/HTMLTag_v1.4.4_x64.zip",
 			"description": "Provides three core functions:\r\n- HTML and XML tag jumping, like the built-in brace matching and selection\r\n of tags and/or contents.\r\n- HTML entity encoding/decoding (example: é to &eacute;)\r\n- JS character encoding/decoding (example: é to \\u00E9)",
 			"author": "Martijn Coppoolse",
 			"homepage": "https://bitbucket.org/rdipardo/htmltag/"
@@ -571,9 +571,9 @@
 		{
 			"folder-name": "JsonTools",
 			"display-name": "JSON Tools",
-			"version": "6.1.1",
-			"id": "4904c93c5ffc44899626eab8d507678d88a9ce2353546d4b149840284f463e63",
-			"repository": "https://github.com/molsonkiko/JsonToolsNppPlugin/releases/download/v6.1.1/Release_x64.zip",
+			"version": "7.2",
+			"id": "883e9b2f32c18d9d2e8f8c6c4930f727cb69fa001ad48aa5cbb3d2ab0fc91ba5",
+			"repository": "https://github.com/molsonkiko/JsonToolsNppPlugin/releases/download/v7.2.0/Release_x64.zip",
 			"description": "Query/editing tool for JSON including linting, reformatting, a tree viewer with file navigation, JSON schema validation and generation, escaping/unescaping strings, and much more.\r\nThe tree viewer can also be used to explore CSV files and regex search results (experimental).",
 			"author": "Mark Johnston Olson",
 			"homepage": "https://github.com/molsonkiko/JsonToolsNppPlugin",
@@ -708,11 +708,11 @@
 		{
 			"folder-name": "MultiReplace",
 			"display-name": "MultiReplace",
-			"version": "2.3.0.10",
+			"version": "3.0.1.13",
 			"npp-compatible-versions": "[8.5.4,]",
-			"id": "b13a839dedc766c321aed33fcb405f43227614fd29eb6a599bafc73f9fd341ef",
-			"repository": "https://github.com/daddel80/notepadpp-multireplace/releases/download/2.3.0.10/MultiReplace-v2.3.0.10-x64.zip",
-			"description": "Advanced multi-string replacement, storage of search/replace patterns, CSV column highlighting, targeting, and sorting capabilities, followed by dynamic computational operations and support for rectangular selection.",
+			"id": "7aa5600ec5d0feb5708a7464985266a0cc70f682c5feacbe7c296b65130b64fe",
+			"repository": "https://github.com/daddel80/notepadpp-multireplace/releases/download/3.0.1.13/MultiReplace-v3.0.1.13-x64.zip",
+			"description": "Advanced multi-string replacement; storage of search/replace patterns; CSV column highlighting, targeting, and sorting; dynamic computational operations; rectangular selection support.",
 			"author": "Thomas Knoefel",
 			"homepage": "https://github.com/daddel80/notepadpp-multireplace"
 		},
@@ -826,11 +826,11 @@
 		{
 			"folder-name": "nppRandomStringGenerator",
 			"display-name": "npp Random String Generator",
-			"version": "1.9.0",
+			"version": "1.9.1",
 			"npp-compatible-versions": "[8.3,]",
 			"old-versions-compatibility": "[,1.3][,8.2.1]",
-			"id": "32b8bf9cf5e9f31c267a79cbf30badcf2e56471dbe358765de05dc50d717b2c5",
-			"repository": "https://github.com/cmbsolutions/nppRandomStringGenerator/releases/download/v1.9.0/nppRandomStringGenerator.1.9.0.x64.zip",
+			"id": "d017b867f18a417f72a68c20087f3872636ba3077e6fee1542695019e3fbbfb4",
+			"repository": "https://github.com/cmbsolutions/nppRandomStringGenerator/releases/download/v1.9.1/nppRandomStringGenerator.1.9.1.x64.zip",
 			"description": "Generates random strings with configurable output.",
 			"author": "Maurice CMBSolutions",
 			"homepage": "https://github.com/cmbsolutions/nppRandomStringGenerator"
@@ -848,9 +848,10 @@
 		{
 			"folder-name": "npp.connections",
 			"display-name": "npp.Connections",
-			"version": "1.0.1",
-			"id": "fa100d472692604977d83feb96d0cfe7efa9650586d8e3f9d5e7fef2f0318be4",
-			"repository": "https://github.com/vladk1973/npp.connections/releases/download/v1.0.1/npp.connections-1.0.1-x64.zip",
+			"version": "1.1.0",
+			"npp-compatible-versions": "[8.4.3,]",
+			"id": "1844116a50bb2c544c7616a6f327d8737e87d537ad70ef5df73dd9d50617d912",
+			"repository": "https://github.com/chcg/npp.connections/releases/download/1.1/npp.connections-1.1-x64.zip",
 			"description": "This plugin allows Notepad++ to connect to MS SQL or Sybase servers. ODBC data sources, like a MySql Driver, are also supported",
 			"author": "Vladimir Korobenkov",
 			"homepage": "https://github.com/vladk1973/npp.connections"
@@ -878,9 +879,9 @@
 		{
 			"folder-name": "NppExec",
 			"display-name": "NppExec",
-			"version": "0.8.4",
-			"id": "522875461ab26ad899d0699381a3c4f7e7f9ebd56626223c33c550f57d51c47c",
-			"repository": "https://github.com/d0vgan/nppexec/releases/download/v084/NppExec_084_dll_x64.zip",
+			"version": "0.8.8",
+			"id": "70e53fed962eeb21d2e11243c7cfad75d010b38565812f66bdf16b1c6e7c6f79",
+			"repository": "https://github.com/d0vgan/nppexec/releases/download/v088/NppExec_088_dll_x64.zip",
 			"description": "Execute commands or saved scripts without leaving Notepad++.",
 			"author": "Vitaliy Dovgan",
 			"homepage": "https://github.com/d0vgan/nppexec"
@@ -930,11 +931,11 @@
 		{
 			"folder-name": "NppGTags",
 			"display-name": "NppGTags",
-			"version": "5.1.1",
+			"version": "5.1.2",
 			"npp-compatible-versions": "[8.4.7,]",
 			"old-versions-compatibility": "[,5.0.0][8.4.2,8.4.6]",
-			"id": "39e8021c3227f1dfb884608827246fd399429b36a4b436fb55f467b261460dcb",
-			"repository": "https://github.com/pnedev/nppgtags/releases/download/v5.1.1/NppGTags_v5.1.1_x64.zip",
+			"id": "46c6db50a25ced35682a44dbb291207cbdc27dfdfdf96082677f7feddb4ecb62",
+			"repository": "https://github.com/pnedev/nppgtags/releases/download/v5.1.2/NppGTags_v5.1.2_x64.zip",
 			"description": "Front-end to GNU Global source code tagging system (GTags). Provides code indexing and search/navigation tools for various languages.",
 			"author": "Pavel Nedev",
 			"homepage": "https://github.com/pnedev/nppgtags"
@@ -953,6 +954,7 @@
 			"folder-name": "Npp-Highlighter",
 			"display-name": "Npp Highlighter",
 			"version": "1.0.0.1",
+			"npp-compatible-versions": "[,8.5]",
 			"id": "b968b70727a6ed03ad814dabe26865f0c01463552c529a139f12c74f2c791780",
 			"repository": "https://github.com/michaelxzhang/Npp-Highlighter/releases/download/v1.0.0.1/Npp-Highlighter_x64.zip",
 			"description": "Npp-Highlighter draw indicator on scroll bar when:\r\n- line contents changed\r\n- double clicked and smart highlighted words\r\n- text highlighted by Style token",
@@ -1097,10 +1099,10 @@
 		{
 			"folder-name": "PlantUmlViewer",
 			"display-name": "PlantUML Viewer",
-			"version": "1.6.0.10",
+			"version": "1.7.0.11",
 			"npp-compatible-versions": "[8.3,]",
-			"id": "424941d402856c5052bf348b21ebf8ce576143e54586e39d24c7149f02182191",
-			"repository": "https://github.com/Fruchtzwerg94/PlantUmlViewer/releases/download/1.6.0.10/PlantUmlViewer_v1.6.0.10_x64.zip",
+			"id": "11ee5c6c9972e876e2d8ec92749fe28b4d450fae15cfeb6788ff6b32f97d3558",
+			"repository": "https://github.com/Fruchtzwerg94/PlantUmlViewer/releases/download/1.7.0.11/PlantUmlViewer_v1.7.0.11_x64.zip",
 			"description": "A Notepad++ plugin to generate view and export PlantUML diagrams.",
 			"author": "Philipp Schmidt",
 			"homepage": "https://github.com/Fruchtzwerg94/PlantUmlViewer"
@@ -1254,9 +1256,20 @@
 			"homepage": "https://github.com/francostellari/NppPlugins"
 		},
 		{
+			"folder-name": "rustnpp",
+			"display-name": "rustnpp",
+			"version": "1.0.2",
+			"id": "3c6c6c4a00b54f50d824a1acb34b59426862ad628593ccbef5d676aa4179daf0",
+			"repository": "https://github.com/chcg/rustnpp/releases/download/1.0.2/rustnpp_1.0.2_x86_64.zip",
+			"description": "Rust plugin to run or build cargo project and run or build *.rs files. Requisite Rust installation.",
+			"author": "nika-begiashvili",
+			"homepage": "https://github.com/nika-begiashvili/rustnpp"
+		},
+		{
 			"folder-name": "NppSaveAsAdmin",
 			"display-name": "Save as admin",
 			"version": "1.0.211",
+			"npp-compatible-versions": "[,8.6.4]",
 			"id": "69915004273de2fdddbd97b43cf5fec07ced3842c88031416bdb55cd91089ab8",
 			"repository": "https://github.com/Hsilgos/nppsaveasadmin/releases/download/1.0.211/NppSaveAsAdmin_1.0.211_x64.zip",
 			"description": "Allows saving file as administrator with Windows UAC prompt.",
@@ -1392,9 +1405,9 @@
 		{
 			"folder-name": "SQLinFormNpp64",
 			"display-name": "SQLinForm",
-			"version": "6.23.3.24",
-			"id": "ad6601fdf6e427479f3b0098c35001eeff0a824fec23a575a97efe4d4987aaaf",
-			"repository": "https://www.sqlinform.com/npp/SQLinFormNpp64_6.23.03.zip",
+			"version": "6.24.4.1",
+			"id": "60e2c7316313d5d03b9f5be0e96d99ace7379e06b6ad6249ff4a55144cebfad0",
+			"repository": "https://www.sqlinform.com/npp/SQLinFormNpp64_6.24.04.zip",
 			"description": "Formats plain SQL, SQL embedded in program code, SQL snippets, and SQL statements with syntax errors.\r\nHas a powerful code folding feature and formats your SQL as you Type. Supports all major DB like Oracle, DB2, SQL Server, Teradata, Netezza, MySQL, Sybase, MS Access, etc. Incorporates its own multi-DB parser engine. No additional software required.",
 			"author": "Guido Thelen",
 			"homepage": "https://www.sqlinform.com"
@@ -1423,9 +1436,9 @@
 		{
 			"folder-name": "TakeNotes",
 			"display-name": "TakeNotes",
-			"version": "1.2.6.0",
-			"id": "91792e8a4e6c37ed53348af12f7d018ebfbea5b8f70afbe082bbfc477cee5d62",
-			"repository": "https://github.com/francostellari/NppPlugins/raw/main/TakeNotes/TakeNotes_dll_1v26_x64.zip",
+			"version": "1.2.7.0",
+			"id": "53298ba4cd90f1fc8d9ef58914f4b2a3ca1229791ae654b292c9e7d7208c3d5e",
+			"repository": "https://github.com/francostellari/NppPlugins/raw/main/TakeNotes/TakeNotes_dll_1v27_x64.zip",
 			"description": "Helps people who like to use Notepad++ for jotting quick notes. Instead of using unnamed 'new ?' files, this plugins allows to quickly create new empty files in a folder of choice. The file names may be custom generated using a mask and may contain details such as the user name, date, and time of creation so that unique files may be generated. Additionally, the plugin allows to load exiting notes in the folder of choice, save existing files as a note, and open the last saved note quickly. Please refer to the Options dialog box for more details. It is strongly recommended to use this plugin in combination with AutoSave to make sure that you never loose a note.",
 			"author": "Franco Stellari",
 			"homepage": "https://github.com/francostellari/NppPlugins"
@@ -1433,14 +1446,14 @@
 		{
 			"folder-name": "NppTaskList",
 			"display-name": "Task List",
-			"version": "2.5",
+			"version": "2.6",
 			"npp-compatible-versions": "[8.3,]",
 			"old-versions-compatibility": "[,2.3][,8.2.1]",
-			"id": "86914d07fa12312e5fa4801d0c40146661d0784003a381f28facd982a527ee29",
-			"repository": "https://github.com/Megabyteceer/npp-task-list/releases/download/v2.5.0/NppTaskList_v2.5.0_x64.zip",
+			"id": "b8367b137c52e4a1b7ba9978ff38c2bbf5c400a31284bbf674eeb5f60bc2578d",
+			"repository": "https://github.com/Megabyteceer/npp-task-list/releases/download/v2.6.0/NppTaskList_v2.6.0_x64.zip",
 			"description": "Automatically scans the open document and adds all \"TODO:*\" items to your task list, a window pane docked on the right. Double-clicking an item in the list will take you to that line in the code.",
 			"author": "blitowitz",
-			"homepage": "https://code.google.com/p/npp-task-list/"
+			"homepage": "https://github.com/Megabyteceer/npp-task-list"
 		},
 		{
 			"folder-name": "NppToolBucket",
@@ -1515,6 +1528,16 @@
 			"homepage": "https://github.com/d0vgan/npp-XBracketsLite"
 		},
 		{
+			"folder-name": "XMLNavigator",
+			"display-name": "XML Navigator",
+			"version": "1.4",
+			"id": "c1b4fb2e586a8d3da7452d4bbb40909a8e551026c71e096b0c059668e37180e1",
+			"repository": "https://github.com/chcg/XmlNavigator/releases/download/1.4/XmlNavigator_1.4_x64.zip",
+			"description": "Plugin which shows the structure of an XML file in a tree view and allows fast navigation within it.",
+			"author": "Pavel Kotrc",
+			"homepage": "https://github.com/crypto-rsa/XmlNavigator"
+		},
+		{
 			"folder-name": "XMLTools",
 			"display-name": "XML Tools",
 			"version": "3.1.1.13",
@@ -1549,11 +1572,11 @@
 		{
 			"folder-name": "FoldingLineHider",
 			"display-name": "Folding Line Hider",
-			"version": "1.0",
+			"version": "1.1",
 			"npp-compatible-versions": "[7.0,]",
-			"id": "a1d7276085f554d5ae3e9a6c1fd6321208299fa8041e0c8d1c85f766ab5ba50a",
-			"repository": "https://github.com/leonardchai/FoldingLineHider/releases/download/v1.0/FoldingLineHider1.0.x64.zip",
-			"description": "This Notepad++ plugin can hide the unsightly folding line, and for convenience, you can fold and unfold the current level using the Alt + Left/Right keys.",
+			"id": "2457f477e856e07ebbe3381aed9df1b2a1023dafdc9a3b0ca25cbe39604a6f5a",
+			"repository": "https://github.com/leonardchai/FoldingLineHider/releases/download/v1.1/FoldingLineHider1.1.x64.zip",
+			"description": "This Notepad++ plugin can hide the unsightly folding lines, and for convenience, you can fold and unfold the current level using the Alt + Left/Right keys.",
 			"author": "leonardchai@gmail.com",
 			"homepage": "https://github.com/leonardchai/FoldingLineHider"
 		}
