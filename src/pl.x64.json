@@ -164,9 +164,9 @@
 		{
 			"folder-name": "ColumnsPlusPlus",
 			"display-name": "Columns++",
-			"version": "1.0.6",
-			"id": "3C34E2EB708446BAC0FA63F2BA618A3B72E84CB151500689FB1009B9A3F70D14",
-			"repository": "https://github.com/Coises/ColumnsPlusPlus/releases/download/v1.0.6/ColumnsPlusPlus-1.0.6-x64.zip",
+			"version": "1.1.2",
+			"id": "120D14E881C6FAD09CD10F052A2788987E0467A095468A00A52CB508E9DD83D2",
+			"repository": "https://github.com/Coises/ColumnsPlusPlus/releases/download/v1.1.2/ColumnsPlusPlus-1.1.2-x64.zip",
 			"description": "Offers features for working with text and data arranged in columns, including an implementation of elastic tabstops, enhanced searching and sorting, column alignment and numeric calulations.",
 			"author": "Randall Joseph Fellmy",
 			"homepage": "https://github.com/Coises/ColumnsPlusPlus",
@@ -192,6 +192,17 @@
 			"description": "Smart single button comment toggler. Features:\r\n- Does not insert space in front of the comment\r\n- Supports all the built-in languages and even user defined languages\r\n- Can do simple single line comments without selection\r\n- Preserves indentation in the commented code block\r\n- Fixes some indentation inconsistencies\r\n- Supports block comments\r\n- Supports multiple selections\r\n- With every type of comment at the same time!",
 			"author": "ScienceDiscoverer",
 			"homepage": "https://github.com/ScienceDiscoverer/CommentToggler"
+		},
+		{
+			"folder-name": "BlitzSearch",
+			"display-name": "Blitz Search",
+			"version": "1.0.0.0",
+			"npp-compatible-versions": "[8.0,]",
+			"id": "b834b07e61f4ad93562eac353f182c1499c5031b29546936190bcd6e0f6353a8",
+			"repository": "https://github.com/Natestah/BlitsNppPlugin/releases/download/InitialRelease/BlitzSearch-v1.0.0.0-x64.zip",
+			"description": "Adds Blitz Search This to the Toolbar. Features:\r\n- Search This command with selection to run Blitz Search with substring\r\n- Search This command with no selection to run Blitz Search with Whole word match",
+			"author": "NateStah",
+			"homepage": "https://github.com/Natestah/BlitsNppPlugin"
 		},
 		{
 			"folder-name": "Comment Wrap",
