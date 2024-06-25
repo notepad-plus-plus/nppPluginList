@@ -255,11 +255,11 @@
 		{
 			"folder-name": "CSVLint",
 			"display-name": "CSV Lint",
-			"version": "0.4.6.6",
+			"version": "0.4.6.7",
 			"npp-compatible-versions": "[8.4,]",
 			"old-versions-compatibility": "[,0.4.5.1][,8.3.3]",
-			"id": "9c48d7e6b0619b6201d7546e429ac7ce29405572a47ec1655820c91081a7b85e",
-			"repository": "https://github.com/BdR76/CSVLint/releases/download/0.4.6.6/CSVLint_x64.zip",
+			"id": "04fa3bf4d6eacdf3d260a06564d5ec779aaeba443dfad8ac00547bbcb2a90595",
+			"repository": "https://github.com/BdR76/CSVLint/releases/download/0.4.6.7/CSVLint_x64.zip",
 			"description": "Syntax highlighting and quality control for csv and fixed width data, detect column and datatypes, convert datetime/decimal format, sql, xml",
 			"author": "Bas de Reuver",
 			"homepage": "https://github.com/BdR76/CSVLint/"
