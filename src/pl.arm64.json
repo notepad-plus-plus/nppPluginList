@@ -115,6 +115,16 @@
 			"homepage": "https://github.com/npp-plugins/converter/"
 		},
 		{
+			"folder-name": "NppBplistPlugin",
+			"display-name": "Notepad++ bplist plugin",
+			"version": "3.0.0.0",
+			"id": "34354e63c4df4de4984716b02e2c51b394546194b34207b96fd237dd27c1acb3",
+			"repository": "https://github.com/azerg/NppBplistPlugin/releases/download/3.0.0.0/NppBplistPlugin_arm64.zip",
+			"description": "Supports viewing/editing binary plist files. Due to the fact that ordinary plist files have XML format, this plugin does not support them. It only loads binary plist files (bplist).",
+			"author": "Sergiy Azarovsky",
+			"homepage": "https://github.com/azerg/NppBplistPlugin"
+		},
+		{
 			"folder-name": "NppExport",
 			"display-name": "NppExport",
 			"version": "0.4.0.0",
