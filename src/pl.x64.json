@@ -1590,6 +1590,16 @@
 			"description": "This Notepad++ plugin can hide the unsightly folding lines, and for convenience, you can fold and unfold the current level using the Alt + Left/Right keys.",
 			"author": "leonardchai@gmail.com",
 			"homepage": "https://github.com/leonardchai/FoldingLineHider"
+		},
+		{
+			"folder-name": "NX_ASCII_Database_Helper",
+			"display-name": "NX ASCII Database Helper",
+			"version": "1.0.0",
+			"id": "7730ca6b8611632c9d6a2e6dc0b28c797e8d03129eac4678c7b6f71269150989",
+			"repository": "https://github.com/ZhuXuefengGitHub/NX_ASCII_Database_Helper/releases/download/v1.0.0/NX_ASCII_Database_Helper1.0.0.x64.zip",
+			"description": "This is a Notepad++ plugin for Siemens NX CAM ASCII Database file, which help the user list all of type in database and format file.",
+			"author": "Xuefeng",
+			"homepage": "https://github.com/ZhuXuefengGitHub/NX_ASCII_Database_Helper"
 		}
 	]
 }
