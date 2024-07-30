@@ -1,6 +1,6 @@
 {
 	"name": "npp-pluginList",
-	"version": "1.6.6",
+	"version": "1.7.3",
 	"arch": "arm64",
 	"npp-plugins": [
 		{
@@ -16,11 +16,11 @@
 		{
 			"folder-name": "ComparePlus",
 			"display-name": "ComparePlus",
-			"version": "1.1.0",
+			"version": "1.2.0",
 			"npp-compatible-versions": "[8.4.7,]",
 			"old-versions-compatibility": "[,1.0.0][8.4.2,8.4.6]",
-			"id": "37b4dd95aa5f9c4b6c7302beb1bb6a0b0eca02416585f32beb56b857c783fdcc",
-			"repository": "https://github.com/pnedev/comparePlus/releases/download/cp_1.1.0/ComparePlus_cp_1.1.0_ARM64.zip",
+			"id": "5d939b5d50cc3f882f17725592ac63959f6f2393c300bed7c40ec19eeb2708ab",
+			"repository": "https://github.com/pnedev/comparePlus/releases/download/cp_1.2.0/ComparePlus_cp_1.2.0_ARM64.zip",
 			"description": "Advanced compare tool based on the well-known Compare-plugin by Ty Landercasper and Jean-Sebastien Leroy.",
 			"author": "Pavel Nedev",
 			"homepage": "https://github.com/pnedev/comparePlus"
@@ -58,61 +58,71 @@
 		{
 			"folder-name": "mimeTools",
 			"display-name": "Mime tools",
-			"version": "2.9",
+			"version": "3.1",
 			"npp-compatible-versions": "[8.4.7,]",
 			"old-versions-compatibility": "[,2.8][,8.4.6]",
-			"id": "189b3a2f9ef886cf9cd926aae325c6ac3ffd48c9e94c3726e08000687dc60d32",
-			"repository": "https://github.com/npp-plugins/mimetools/releases/download/v2.9/mimetools.v2.9.arm64.zip",
-			"description": "Implements several main functionalities defined in MIME (Multipurpose Internet Mail Extensions).",
+			"id": "e66f7fbae3a2ab23670764ce57265003c520afcf328d6bbf1add195119824199",
+			"repository": "https://github.com/npp-plugins/mimetools/releases/download/v3.1/mimetools.v3.1.arm64.zip",
+			"description": "Implements several main functionalities defined in MIME (Multipurpose Internet Mail Extensions): Base64, Quoted-printable and URL encode/decode",
 			"author": "Don HO",
 			"homepage": "https://github.com/npp-plugins/mimetools"
 		},
 		{
 			"folder-name": "MultiReplace",
 			"display-name": "MultiReplace",
-			"version": "2.1.0.8",
+			"version": "3.0.3.15",
 			"npp-compatible-versions": "[8.5.4,]",
-			"id": "4c974d03605295cba4313deca093401ea3a8b66704995a289a0f8e287d8ca65d",
-			"repository": "https://github.com/daddel80/notepadpp-multireplace/releases/download/2.1.0.8/MultiReplace-v2.1.0.8-ARM64.zip",
-			"description": "Advanced multi-string replacement, storage of search/replace patterns, CSV column highlighting and targeting, dynamic computational operations, and support for rectangular selection.",
+			"id": "2d68331acd0d725394c9ae31a2f176ffb56c56ec6b9f15610fd37018db49787c",
+			"repository": "https://github.com/daddel80/notepadpp-multireplace/releases/download/3.0.3.15/MultiReplace-v3.0.3.15-ARM64.zip",
+			"description": "Advanced multi-string replacement; storage of search/replace patterns; CSV column highlighting, targeting, and sorting; dynamic computational operations; rectangular selection support.",
 			"author": "Thomas Knoefel",
 			"homepage": "https://github.com/daddel80/notepadpp-multireplace"
 		},
 		{
 			"folder-name": "NppPluginDemo",
 			"display-name": "Notepad++ Plugin Demo",
-			"version": "4.3",
+			"version": "4.4",
 			"npp-compatible-versions": "[8.4.7,]",
 			"old-versions-compatibility": "[,4.2][,8.4.6]",
-			"id": "58c6b023f41d4fc967640939490132389c3b825baf19d415800a48978b6fd1b0",
-			"repository": "https://github.com/npp-plugins/plugindemo/releases/download/v4.3/pluginDemo.v4.3.bin.arm64.zip",
+			"id": "f72da1468ea1ea0e550f0a203a9c2bbedc8bf3b5122e5fc1ff467021913f8815",
+			"repository": "https://github.com/npp-plugins/plugindemo/releases/download/v4.4/pluginDemo.v4.4.bin.arm64.zip",
 			"description": "Notepad++ Plugin Demo is written from Notepad++ Plugin Template to demonstrate the usage of plugin API.",
 			"author": "Don HO",
-			"homepage": "https://npp-user-manual.org/docs/plugins/"
+			"homepage": "https://npp-user-manual.org/docs/plugins/#how-to-develop-a-plugin"
 		},
 		{
 			"folder-name": "NppPluginTemplate",
 			"display-name": "Notepad++ Plugin Template",
-			"version": "4.3",
+			"version": "4.4",
 			"npp-compatible-versions": "[8.4.7,]",
 			"old-versions-compatibility": "[,4.2][,8.4.6]",
-			"id": "820e17d7134f10d41d878ccb7cb64a17e1081e427ae151e742e6e4646eba58df",
-			"repository": "https://github.com/npp-plugins/plugintemplate/releases/download/v4.3/pluginTemplate.v4.3.bin.arm64.zip",
+			"id": "36a28a3c26ae3fb9290e20d423cb0708a6980bbe87cc60cb4313548d68a5644f",
+			"repository": "https://github.com/npp-plugins/plugintemplate/releases/download/v4.4/pluginTemplate.v4.4.bin.arm64.zip",
 			"description": "Template for making plugin development as easy and simple as possible. Four steps and it's done.",
 			"author": "Don HO",
-			"homepage": "https://npp-user-manual.org/docs/plugins/"
+			"homepage": "https://npp-user-manual.org/docs/plugins/#how-to-develop-a-plugin"
 		},
 		{
 			"folder-name": "nppConverter",
 			"display-name": "Npp Converter",
-			"version": "4.5",
+			"version": "4.6",
 			"npp-compatible-versions": "[8.4.7,]",
 			"old-versions-compatibility": "[,4.4][,8.4.6]",
-			"id": "9d858897af4539e87c3827796054501457be8f7b1135aece64140ecd6d74e6f7",
-			"repository": "https://github.com/npp-plugins/converter/releases/download/v4.5/nppConvert.v4.5.arm64.zip",
+			"id": "923dd89d1f7f7693b37a7019e6ef9e58ea14dec0b768e62d3860545734c01c11",
+			"repository": "https://github.com/npp-plugins/converter/releases/download/v4.6/nppConvert.v4.6.arm64.zip",
 			"description": "ASCII<->Hex converter.",
 			"author": "Don HO",
 			"homepage": "https://github.com/npp-plugins/converter/"
+		},
+		{
+			"folder-name": "NppBplistPlugin",
+			"display-name": "Notepad++ bplist plugin",
+			"version": "3.0.0.0",
+			"id": "f165b5dfa73c2b3808b5dd5347a62abbd1d9945ce636187161f0d335bb43acad",
+			"repository": "https://github.com/azerg/NppBplistPlugin/releases/download/3.0.0.0/NppBplistPlugin_arm64.zip",
+			"description": "Supports viewing/editing binary plist files. Due to the fact that ordinary plist files have XML format, this plugin does not support them. It only loads binary plist files (bplist).",
+			"author": "Sergiy Azarovsky",
+			"homepage": "https://github.com/azerg/NppBplistPlugin"
 		},
 		{
 			"folder-name": "NppExport",
@@ -157,11 +167,11 @@
 		{
 			"folder-name": "pork2sausage",
 			"display-name": "Pork to Sausage",
-			"version": "2.3",
+			"version": "2.5",
 			"npp-compatible-versions": "[8.4.7,]",
 			"old-versions-compatibility": "[,2.2][,8.4.6]",
-			"id": "765b642b2bc7e89afbbd8adb61b103801cd3a5b210170caa4407c2bfea75379e",
-			"repository": "https://github.com/npp-plugins/pork2sausage/releases/download/v2.3/pork2sausage.2.3.bin.arm64.zip",
+			"id": "47911fc7f0000e5ec62852e75c3edf67ad0e067bf0531f7d1c4b92e8c797049a",
+			"repository": "https://github.com/npp-plugins/pork2sausage/releases/download/v2.5/pork2sausage.2.5.bin.arm64.zip",
 			"description": "Pass any selected text to any command line program as input and take the output (the result of program) to replace the selected text.",
 			"author": "Don HO",
 			"homepage": "https://github.com/npp-plugins/pork2sausage"
@@ -175,6 +185,16 @@
 			"description": "Encrypt/decrypt whole documents or selected text with your own key. Useful for storing sensitive information like logins that you don't want lying around in a plaintext file.",
 			"author": "Dominic Tobias",
 			"homepage": "https://github.com/DominicTobias/SecurePad"
+		},
+		{
+			"folder-name": "selectNLaunch",
+			"display-name": "Select N' Launch",
+			"version": "2.2",
+			"id": "7187a95cfdf7bc30cc154f68f79ed8b3c0b02915bf782a86f2c74db406834958",
+			"repository": "https://github.com/npp-plugins/selectnlaunch/releases/download/v2.2/selectNLaunch.v2.2.bin.arm64.zip",
+			"description": "Get the selected text, save it as file with the extension you customized in the system temporary directory, then call system to open it with the extension-associated program.",
+			"author": "Don HO",
+			"homepage": "https://github.com/npp-plugins/selectnlaunch"
 		},
 		{
 			"folder-name": "SelectToClipboard",
@@ -209,12 +229,12 @@
 		{
 			"folder-name": "NppTaskList",
 			"display-name": "Task List",
-			"version": "2.5",
-			"id": "0f4754df834035245a8c847514bb14adc0fcdf67e0bd51d5ae1299830c3d5656",
-			"repository": "https://github.com/Megabyteceer/npp-task-list/releases/download/v2.5.0/NppTaskList_v2.5.0_arm64.zip",
+			"version": "2.6",
+			"id": "6defc5713d44366d8438ff496895554a6245e27e5d8c05d066adacf1c74e7ba8",
+			"repository": "https://github.com/Megabyteceer/npp-task-list/releases/download/v2.6.0/NppTaskList_v2.6.0_arm64.zip",
 			"description": "Automatically scans the open document and adds all \"TODO:*\" items to your task list, a window pane docked on the right. Double-clicking an item in the list will take you to that line in the code.",
 			"author": "blitowitz",
-			"homepage": "https://code.google.com/p/npp-task-list/"
+			"homepage": "https://github.com/Megabyteceer/npp-task-list"
 		},
 		{
 			"folder-name": "urlPlugin",
@@ -229,9 +249,9 @@
 		{
 			"folder-name": "NPPJSONViewer",
 			"display-name": "JSON Viewer",
-			"version": "2.0.6.0",
-			"id": "e1e08b4ef1b000271931e842e6312d54ed2e79b9e59ff61820138d4d7d2194d5",
-			"repository": "https://github.com/kapilratnani/JSON-Viewer/releases/download/v2.0.6.0/NPPJSONViewer_ARM64.zip",
+			"version": "2.0.7.0",
+			"id": "8d94cba37bd47b0bb5f67654b3bd2a4ce84ae398fe1e86cdc029afe949ee370e",
+			"repository": "https://github.com/kapilratnani/JSON-Viewer/releases/download/v2.0.7.0/NPPJSONViewer_ARM64.zip",
 			"description": "JSON viewer that displays the selected JSON string in a tree view.",
 			"author": "Kapil Ratnani, Rajendra Singh",
 			"homepage": "https://github.com/kapilratnani/JSON-Viewer",
@@ -240,9 +260,9 @@
 		{
 			"folder-name": "JSMinNPP",
 			"display-name": "JSTool",
-			"version": "1.2308.0",
-			"id": "220f9b0da1471d64f0930579548cd0c31cf88e014ef16a1edb5f550b1275953d",
-			"repository": "https://sourceforge.net/projects/jsminnpp/files/Uni/JSToolNPP.1.2308.0.uni.arm64.zip",
+			"version": "1.2312.0",
+			"id": "cacc174c42f867276d74b46ac8a8d32ae252886d086732200c04ff05afba220c",
+			"repository": "https://sourceforge.net/projects/jsminnpp/files/Uni/JSToolNPP.1.2312.0.uni.arm64.zip",
 			"description": "Javascript plugin.\r\n * Douglas Crockford's JSMin algorithm to minimize javascript code.\r\n * My own algorithm to format javascript code.\r\n * A JSON data viewer. This JSON data viewer can handle >10MB JSON file easily.\r\n * Support 64bit Notepad++ (from version 1.20.0).\r\nReally helpful to javascript coder on Notepad++ and really easy to use it.\r\nMade in China.",
 			"author": "Sun Junwen",
 			"homepage": "https://github.com/sunjw/jstoolnpp"
@@ -270,9 +290,9 @@
 		{
 			"folder-name": "MenuIcons",
 			"display-name": "MenuIcons",
-			"version": "2.0.5",
-			"id": "7c10a5b8890dda926eda70c8b8c67f170231dbe31554f8a8321cc14f29203ee9",
-			"repository": "https://github.com/francostellari/NppPlugins/raw/main/MenuIcons/MenuIcons_dll_2v05_arm64.zip",
+			"version": "2.0.7",
+			"id": "b3cc0138abe3362b30c9de0a33b2a71cf7f2f95dbf8be227d43bcf1d5ff3f23d",
+			"repository": "https://github.com/francostellari/NppPlugins/raw/main/MenuIcons/MenuIcons_dll_2v07_arm64.zip",
 			"description": "Adds icons to the main menu, tab menu, context menu, and the tabs themselves.",
 			"author": "Franco Stellari",
 			"homepage": "https://github.com/francostellari/NppPlugins"
@@ -298,11 +318,21 @@
 			"homepage": "https://github.com/francostellari/NppPlugins"
 		},
 		{
+			"folder-name": "rustnpp",
+			"display-name": "rustnpp",
+			"version": "1.0.2",
+			"id": "04477854871be8aa73be19ede001481df23df38b0645acc5cc59a6a36b36cf9e",
+			"repository": "https://github.com/chcg/rustnpp/releases/download/1.0.2/rustnpp_1.0.2_aarch64.zip",
+			"description": "Rust plugin to run or build cargo project and run or build *.rs files. Requisite Rust installation.",
+			"author": "nika-begiashvili",
+			"homepage": "https://github.com/nika-begiashvili/rustnpp"
+		},
+		{
 			"folder-name": "TakeNotes",
 			"display-name": "TakeNotes",
-			"version": "1.2.6.0",
-			"id": "0b36679a489f4d532c3a7c8d7c0cf0200a10d3106b326023f4059fef1c84a8bc",
-			"repository": "https://github.com/francostellari/NppPlugins/raw/main/TakeNotes/TakeNotes_dll_1v26_arm64.zip",
+			"version": "1.2.7.0",
+			"id": "b182665ac3efb64acb2a08efe466962f3cfb5edfac3cdd20f23fd95290ecf8b1",
+			"repository": "https://github.com/francostellari/NppPlugins/raw/main/TakeNotes/TakeNotes_dll_1v27_arm64.zip",
 			"description": "Helps people who like to use Notepad++ for jotting quick notes. Instead of using unnamed 'new ?' files, this plugins allows to quickly create new empty files in a folder of choice. The file names may be custom generated using a mask and may contain details such as the user name, date, and time of creation so that unique files may be generated. Additionally, the plugin allows to load exiting notes in the folder of choice, save existing files as a note, and open the last saved note quickly. Please refer to the Options dialog box for more details. It is strongly recommended to use this plugin in combination with AutoSave to make sure that you never loose a note.",
 			"author": "Franco Stellari",
 			"homepage": "https://github.com/francostellari/NppPlugins"
