@@ -1,6 +1,6 @@
 {
 	"name": "npp-pluginList",
-	"version": "1.7.2",
+	"version": "1.7.3",
 	"arch": "arm64",
 	"npp-plugins": [
 		{
@@ -113,6 +113,16 @@
 			"description": "ASCII<->Hex converter.",
 			"author": "Don HO",
 			"homepage": "https://github.com/npp-plugins/converter/"
+		},
+		{
+			"folder-name": "NppBplistPlugin",
+			"display-name": "Notepad++ bplist plugin",
+			"version": "3.0.0.0",
+			"id": "f165b5dfa73c2b3808b5dd5347a62abbd1d9945ce636187161f0d335bb43acad",
+			"repository": "https://github.com/azerg/NppBplistPlugin/releases/download/3.0.0.0/NppBplistPlugin_arm64.zip",
+			"description": "Supports viewing/editing binary plist files. Due to the fact that ordinary plist files have XML format, this plugin does not support them. It only loads binary plist files (bplist).",
+			"author": "Sergiy Azarovsky",
+			"homepage": "https://github.com/azerg/NppBplistPlugin"
 		},
 		{
 			"folder-name": "NppExport",

@@ -1,6 +1,6 @@
 {
 	"name": "npp-pluginList",
-	"version": "1.7.2",
+	"version": "1.7.3",
 	"arch": "32",
 	"npp-plugins": [
 		{
@@ -223,11 +223,11 @@
 		{
 			"folder-name": "CSVLint",
 			"display-name": "CSV Lint",
-			"version": "0.4.6.6",
+			"version": "0.4.6.7",
 			"npp-compatible-versions": "[8.4,]",
 			"old-versions-compatibility": "[,0.4.5.1][,8.3.3]",
-			"id": "51b96f47c923d4cc32552c3e6b7e7c9e5b381dc2783be497e2343d2e34027fb9",
-			"repository": "https://github.com/BdR76/CSVLint/releases/download/0.4.6.6/CSVLint_x86.zip",
+			"id": "82ab68a250e833e02f9cfce217258e13f69c3d3e47d2d43b0f7396b9fb9305bc",
+			"repository": "https://github.com/BdR76/CSVLint/releases/download/0.4.6.7/CSVLint_x86.zip",
 			"description": "Syntax highlighting and quality control for csv and fixed width data, detect column and datatypes, convert datetime/decimal format, sql, xml",
 			"author": "Bas de Reuver",
 			"homepage": "https://github.com/BdR76/CSVLint/"
@@ -630,9 +630,9 @@
 		{
 			"folder-name": "JsonTools",
 			"display-name": "JSON Tools",
-			"version": "7.2",
-			"id": "7b5c115d738e9331fdd75e21dfc364ef0e45aaa3cdc772292c88e8b1b492c199",
-			"repository": "https://github.com/molsonkiko/JsonToolsNppPlugin/releases/download/v7.2.0/Release_x86.zip",
+			"version": "8.0",
+			"id": "024f3ae74ca5a608d45e6cabb600a271eafd92726c83d9a65ce94cc52445cc58",
+			"repository": "https://github.com/molsonkiko/JsonToolsNppPlugin/releases/download/v8.0/Release_x86.zip",
 			"description": "Query/editing tool for JSON including linting, reformatting, a tree viewer with file navigation, JSON schema validation and generation, escaping/unescaping strings, and much more.\r\nThe tree viewer can also be used to explore CSV files and regex search results (experimental).",
 			"author": "Mark Johnston Olson",
 			"homepage": "https://github.com/molsonkiko/JsonToolsNppPlugin",
@@ -856,9 +856,9 @@
 		{
 			"folder-name": "NppBplistPlugin",
 			"display-name": "Notepad++ bplist plugin",
-			"version": "2.0.0.3",
-			"id": "be7c58a29c694a35698b5d0296d52d9b4ddf187b706668cec609a8907cecb87c",
-			"repository": "https://github.com/azerg/NppBplistPlugin/releases/download/2.0.0.3/NppBplistPlugin_x86.zip",
+			"version": "3.0.0.0",
+			"id": "0b0dff9514f46f12cd8ddeabaf090c6bedb020dcb90eaa64af4b720ec4976b5c",
+			"repository": "https://github.com/azerg/NppBplistPlugin/releases/download/3.0.0.0/NppBplistPlugin_x86.zip",
 			"description": "Supports viewing/editing binary plist files. Due to the fact that ordinary plist files have XML format, this plugin does not support them. It only loads binary plist files (bplist).",
 			"author": "Sergiy Azarovsky",
 			"homepage": "https://github.com/azerg/NppBplistPlugin"
@@ -923,11 +923,11 @@
 		{
 			"folder-name": "nppRandomStringGenerator",
 			"display-name": "npp Random String Generator",
-			"version": "1.9.1",
+			"version": "1.9.2",
 			"npp-compatible-versions": "[8.3,]",
 			"old-versions-compatibility": "[,1.3][,8.2.1]",
-			"id": "12458fb0abf6be6f6c6ecc032a5b4978072c6c5615c15ac835d73efe31536c0d",
-			"repository": "https://github.com/cmbsolutions/nppRandomStringGenerator/releases/download/v1.9.1/nppRandomStringGenerator.1.9.1.x86.zip",
+			"id": "13a84b6cb30fb042e10ee8887e13e1f09bd8c118907568be215e198286111356",
+			"repository": "https://github.com/cmbsolutions/nppRandomStringGenerator/releases/download/v1.9.2/nppRandomStringGenerator.1.9.2.x86.zip",
 			"description": "Generates random strings with configurable output.",
 			"author": "Maurice CMBSolutions",
 			"homepage": "https://github.com/cmbsolutions/nppRandomStringGenerator"
@@ -1576,9 +1576,9 @@
 		{
 			"folder-name": "SQLinFormNpp",
 			"display-name": "SQLinForm",
-			"version": "6.24.4.1",
-			"id": "dc85391eb208d570b40471e008eb655e2623c20a5099e5d202c70a237733addd",
-			"repository": "https://www.sqlinform.com/npp/SQLinFormNpp_6.24.04.zip",
+			"version": "6.24.7.15",
+			"id": "ca14f755d51269376d4f112859412ea08825db094c563a50451fc2edc9af713d",
+			"repository": "https://www.sqlinform.com/npp/SQLinFormNpp_6.24.07.zip",
 			"description": "Formats plain SQL, SQL embedded in program code, SQL snippets, and SQL statements with syntax errors.\r\nHas a powerful code folding feature and formats your SQL as you Type. Supports all major DB like Oracle, DB2, SQL Server, Teradata, Netezza, MySQL, Sybase, MS Access, etc. Incorporates its own multi-DB parser engine. No additional software required.",
 			"author": "Guido Thelen",
 			"homepage": "https://www.sqlinform.com"

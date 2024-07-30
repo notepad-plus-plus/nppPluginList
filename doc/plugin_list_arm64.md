@@ -1,6 +1,6 @@
 ## Plugin List - arm64 bit
 
-version 1.7.2
+version 1.7.3
 
 | Plugin name | Author | Homepage | Version and link | Description |
 |---|---|---|---|---|
@@ -10,7 +10,7 @@ version 1.7.2
 | GotoLineCol | Shridhar Kumar | https://github.com/shriprem/Goto-Line-Col-NPP-Plugin | [2.4.3.0 - arm64 bit](https://github.com/shriprem/Goto-Line-Col-NPP-Plugin/releases/download/v2.4.3.0/GotoLineCol_arm64.zip) |  <details> <summary> A plugin to navigate to a specified line and (byte-based or character-based) column position. Will </summary>  also display character byte code, UTF-8 byte sequence & Unicode code point at cursor position. Darkmode enabled. Command line options. </details> |
 | HEX-Editor | Jens Lorenz | https://github.com/chcg/NPP_HexEdit | [0.9.12.0 - arm64 bit](https://github.com/chcg/NPP_HexEdit/releases/download/0.9.12/HexEditor_0.9.12_arm64.zip) | Hex editor. Some reported issues, however many bugs fixed in latest release. |
 | Mime tools | Don HO | https://github.com/npp-plugins/mimetools | [3.1 - arm64 bit](https://github.com/npp-plugins/mimetools/releases/download/v3.1/mimetools.v3.1.arm64.zip) |  <details> <summary> Implements several main functionalities defined in MIME (Multipurpose Internet Mail Extensions): </summary>  Base64, Quoted-printable and URL encode/decode </details> |
-| MultiReplace | Thomas Knoefel | https://github.com/daddel80/notepadpp-multireplace | [3.0.0.12 - arm64 bit](https://github.com/daddel80/notepadpp-multireplace/releases/download/3.0.0.12/MultiReplace-v3.0.0.12-ARM64.zip) |  <details> <summary> Advanced multi-string replacement; storage of search/replace patterns; CSV column highlighting, </summary>  targeting, and sorting; dynamic computational operations; rectangular selection support. </details> |
+| MultiReplace | Thomas Knoefel | https://github.com/daddel80/notepadpp-multireplace | [3.0.3.15 - arm64 bit](https://github.com/daddel80/notepadpp-multireplace/releases/download/3.0.3.15/MultiReplace-v3.0.3.15-ARM64.zip) |  <details> <summary> Advanced multi-string replacement; storage of search/replace patterns; CSV column highlighting, </summary>  targeting, and sorting; dynamic computational operations; rectangular selection support. </details> |
 | Notepad++ Plugin Demo | Don HO | https://npp-user-manual.org/docs/plugins/#how-to-develop-a-plugin | [4.4 - arm64 bit](https://github.com/npp-plugins/plugindemo/releases/download/v4.4/pluginDemo.v4.4.bin.arm64.zip) |  <details> <summary> Notepad++ Plugin Demo is written from Notepad++ Plugin Template to demonstrate the usage of plugin </summary>  API. </details> |
 | Notepad++ Plugin Template | Don HO | https://npp-user-manual.org/docs/plugins/#how-to-develop-a-plugin | [4.4 - arm64 bit](https://github.com/npp-plugins/plugintemplate/releases/download/v4.4/pluginTemplate.v4.4.bin.arm64.zip) | Template for making plugin development as easy and simple as possible. Four steps and it's done. |
 | Npp Converter | Don HO | https://github.com/npp-plugins/converter/ | [4.6 - arm64 bit](https://github.com/npp-plugins/converter/releases/download/v4.6/nppConvert.v4.6.arm64.zip) | ASCII<->Hex converter. |
