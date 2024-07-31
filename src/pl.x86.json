@@ -1266,8 +1266,8 @@
 			"folder-name": "PreviewHTML",
 			"display-name": "Preview HTML",
 			"version": "1.3.2.0",
-			"id": "b7538d5b4c61e7232ad6befe3a5eb1799544a4de741d4acd896716e9273f260b",
-			"repository": "https://fossil.2of4.net/npp_preview/zip/PreviewHTML32.zip%3Fname%3D%26uuid%3Dv1.3.2.0-32",
+			"id": "d2a616bb7b6c7c29c5efaad4faa378fa959cc0db76067c5621441b9b129e9fbb",
+			"repository": "https://fossil.2of4.net/npp_preview/zip/PreviewHTML.zip?uuid=release-32bits",
 			"description": "Preview HTML files inside Notepad++ (or in a floating window) without having to save them first.",
 			"author": "Martijn Coppoolse",
 			"homepage": "https://fossil.2of4.net/npp_preview"
