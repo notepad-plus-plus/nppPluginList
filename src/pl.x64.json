@@ -1600,6 +1600,17 @@
 			"description": "This is a Notepad++ plugin for Siemens NX CAM ASCII Database file, which help the user list all of type in database and format file.",
 			"author": "Xuefeng",
 			"homepage": "https://github.com/ZhuXuefengGitHub/NX_ASCII_Database_Helper"
+		},
+		{
+			"folder-name": "AndroidLogger",
+			"display-name": "AndroidLogger",
+			"version": "1.4.0",
+			"npp-compatible-versions": "[7.8,]",
+			"id": "6d3c50a11dbb00e5b37697b9a5b4fa97e404fc47c921ae7b2b31f625d20a7376",
+			"repository": "https://sourceforge.net/projects/androidlogger/files/AndroidLoggerV1.4.0/AndroidLogger.v1.4.0.EN.r4.zip",
+			"description": "Log lexer and adb tools for Android, also provides a simple file exporer, which can upload/download files on user device.",
+			"author": "Simbaba",
+			"homepage": "https://sourceforge.net/projects/androidlogger"
 		}
 	]
 }
