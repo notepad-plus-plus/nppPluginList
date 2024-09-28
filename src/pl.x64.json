@@ -1604,12 +1604,12 @@
 		{
 			"folder-name": "AndroidLogger",
 			"display-name": "AndroidLogger",
-			"version": "1.4.0",
+			"version": "1.4.0.5",
 			"npp-compatible-versions": "[7.8,]",
-			"id": "6d3c50a11dbb00e5b37697b9a5b4fa97e404fc47c921ae7b2b31f625d20a7376",
-			"repository": "https://sourceforge.net/projects/androidlogger/files/AndroidLoggerV1.4.0/AndroidLogger.v1.4.0.EN.r4.zip",
-			"description": "Log lexer and adb tools for Android, also provides a simple file explorer, which can upload/download files on user device.",
-			"author": "Simbaba",
+			"id": "137bdac1e84110daddd505104906ef98ed588f4a86bc279344cf204c32268a9d",
+			"repository": "https://sourceforge.net/projects/androidlogger/files/AndroidLoggerV1.4.0/AndroidLogger.v1.4.0.5.EN.zip",
+			"description": "A lexer for Android, also can capture logs in real time, provides some utilities for developers.",
+			"author": "simbaba",
 			"homepage": "https://sourceforge.net/projects/androidlogger"
 		}
 	]
