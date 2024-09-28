@@ -1,6 +1,6 @@
 {
 	"name": "npp-pluginList",
-	"version": "1.7.2",
+	"version": "1.7.4",
 	"arch": "64",
 	"npp-plugins": [
 		{
@@ -164,9 +164,9 @@
 		{
 			"folder-name": "ColumnsPlusPlus",
 			"display-name": "Columns++",
-			"version": "1.0.6",
-			"id": "3C34E2EB708446BAC0FA63F2BA618A3B72E84CB151500689FB1009B9A3F70D14",
-			"repository": "https://github.com/Coises/ColumnsPlusPlus/releases/download/v1.0.6/ColumnsPlusPlus-1.0.6-x64.zip",
+			"version": "1.1.2",
+			"id": "120D14E881C6FAD09CD10F052A2788987E0467A095468A00A52CB508E9DD83D2",
+			"repository": "https://github.com/Coises/ColumnsPlusPlus/releases/download/v1.1.2/ColumnsPlusPlus-1.1.2-x64.zip",
 			"description": "Offers features for working with text and data arranged in columns, including an implementation of elastic tabstops, enhanced searching and sorting, column alignment and numeric calulations.",
 			"author": "Randall Joseph Fellmy",
 			"homepage": "https://github.com/Coises/ColumnsPlusPlus",
@@ -254,11 +254,11 @@
 		{
 			"folder-name": "CSVLint",
 			"display-name": "CSV Lint",
-			"version": "0.4.6.6",
+			"version": "0.4.6.7",
 			"npp-compatible-versions": "[8.4,]",
 			"old-versions-compatibility": "[,0.4.5.1][,8.3.3]",
-			"id": "9c48d7e6b0619b6201d7546e429ac7ce29405572a47ec1655820c91081a7b85e",
-			"repository": "https://github.com/BdR76/CSVLint/releases/download/0.4.6.6/CSVLint_x64.zip",
+			"id": "04fa3bf4d6eacdf3d260a06564d5ec779aaeba443dfad8ac00547bbcb2a90595",
+			"repository": "https://github.com/BdR76/CSVLint/releases/download/0.4.6.7/CSVLint_x64.zip",
 			"description": "Syntax highlighting and quality control for csv and fixed width data, detect column and datatypes, convert datetime/decimal format, sql, xml",
 			"author": "Bas de Reuver",
 			"homepage": "https://github.com/BdR76/CSVLint/"
@@ -310,9 +310,9 @@
 		{
 			"folder-name": "DiscordRPC",
 			"display-name": "Discord Rich Presence",
-			"version": "1.8.617.1",
-			"id": "2fe834e22982307018a08f689903208dc4b255a9f3988af9ea380ad89c12fa93",
-			"repository": "https://github.com/Zukaritasu/notepadpp_rpc/releases/download/v1.8.6/DiscordRPC_v1.8.6_x64.zip",
+			"version": "2.0.625.1",
+			"id": "bce28c82442dca8c317891a31ea11cc710b89eae4bf0d71c4b227c5bc20b6298",
+			"repository": "https://github.com/Zukaritasu/notepadpp_rpc/releases/download/v2.0/DiscordRPC_v2.0_x64.zip",
 			"description": "Shows in discord the file that is currently being edited in Notepad++.",
 			"author": "Zukaritasu",
 			"homepage": "https://github.com/Zukaritasu/notepadpp_rpc"
@@ -581,9 +581,9 @@
 		{
 			"folder-name": "JsonTools",
 			"display-name": "JSON Tools",
-			"version": "7.2",
-			"id": "883e9b2f32c18d9d2e8f8c6c4930f727cb69fa001ad48aa5cbb3d2ab0fc91ba5",
-			"repository": "https://github.com/molsonkiko/JsonToolsNppPlugin/releases/download/v7.2.0/Release_x64.zip",
+			"version": "8.1",
+			"id": "5be0b90df90918eab6f1203bcb93035be7e2c6fdf7ad074015c6766aeea5af0b",
+			"repository": "https://github.com/molsonkiko/JsonToolsNppPlugin/releases/download/v8.1/Release_x64.zip",
 			"description": "Query/editing tool for JSON including linting, reformatting, a tree viewer with file navigation, JSON schema validation and generation, escaping/unescaping strings, and much more.\r\nThe tree viewer can also be used to explore CSV files and regex search results (experimental).",
 			"author": "Mark Johnston Olson",
 			"homepage": "https://github.com/molsonkiko/JsonToolsNppPlugin",
@@ -718,10 +718,10 @@
 		{
 			"folder-name": "MultiReplace",
 			"display-name": "MultiReplace",
-			"version": "3.0.2.14",
+			"version": "3.1.2.18",
 			"npp-compatible-versions": "[8.5.4,]",
-			"id": "ccec73b1ab4845d54fe14d9b9df03808dcb93f28fcfcebd38ca0e81dfdb46066",
-			"repository": "https://github.com/daddel80/notepadpp-multireplace/releases/download/3.0.2.14/MultiReplace-v3.0.2.14-x64.zip",
+			"id": "9c2a453f195fdc4b394c844c8654cf7d3fa44db4b0c9a910769a86517652f335",
+			"repository": "https://github.com/daddel80/notepadpp-multireplace/releases/download/3.1.2.18/MultiReplace-v3.1.2.18-x64.zip",
 			"description": "Advanced multi-string replacement; storage of search/replace patterns; CSV column highlighting, targeting, and sorting; dynamic computational operations; rectangular selection support.",
 			"author": "Thomas Knoefel",
 			"homepage": "https://github.com/daddel80/notepadpp-multireplace"
@@ -769,9 +769,9 @@
 		{
 			"folder-name": "NppBplistPlugin",
 			"display-name": "Notepad++ bplist plugin",
-			"version": "2.0.0.3",
-			"id": "cc39adaa3f11971fed60d17cc1a5783235f1fc8a24a9175868ccc02bc59ff8f9",
-			"repository": "https://github.com/azerg/NppBplistPlugin/releases/download/2.0.0.3/NppBplistPlugin_x64.zip",
+			"version": "3.0.0.0",
+			"id": "3deee80f0fe25d02ac06eb8bdd9ec9ccad2c2deef39f74936c6ffc48af0f59db",
+			"repository": "https://github.com/azerg/NppBplistPlugin/releases/download/3.0.0.0/NppBplistPlugin_x64.zip",
 			"description": "Supports viewing/editing binary plist files. Due to the fact that ordinary plist files have XML format, this plugin does not support them. It only loads binary plist files (bplist).",
 			"author": "Sergiy Azarovsky",
 			"homepage": "https://github.com/azerg/NppBplistPlugin"
@@ -779,10 +779,10 @@
 		{
 			"folder-name": "NppOpenAI",
 			"display-name": "NppOpenAI",
-			"version": "0.3.0.1",
+			"version": "0.4.0.0",
 			"npp-compatible-versions": "[8.4.8,]",
-			"id": "0aa97efd054020688778f013344db1b87158b858c9c1b1e38a1dac1ea0da7859",
-			"repository": "https://github.com/Krazal/nppopenai/releases/download/v0.3.0.1/NppOpenAI_x64.zip",
+			"id": "c25b0496aa264e88779313271233e38f7208f05ebf3f8b46b8e98ecf2cd6c071",
+			"repository": "https://github.com/Krazal/nppopenai/releases/download/v0.4.0.0/NppOpenAI_x64.zip",
 			"description": "OpenAI (aka. ChatGPT) plugin for Notepad++. Simply select your text, press Ctrl + Shift + O, and you'll see the AI generated response in seconds. Some examples: 'Please create a Fibonacci function in PHP'; 'Mi az árvíztűrő tükörfúrógép?' (Hungarian Unicode test) etc. This plugin requires an active internet connection and an OpenAI registration / API key (handles it confidential).",
 			"author": "Richárd Stockinger",
 			"homepage": "https://github.com/Krazal/nppopenai"
@@ -836,11 +836,11 @@
 		{
 			"folder-name": "nppRandomStringGenerator",
 			"display-name": "npp Random String Generator",
-			"version": "1.9.1",
+			"version": "1.9.2",
 			"npp-compatible-versions": "[8.3,]",
 			"old-versions-compatibility": "[,1.3][,8.2.1]",
-			"id": "d017b867f18a417f72a68c20087f3872636ba3077e6fee1542695019e3fbbfb4",
-			"repository": "https://github.com/cmbsolutions/nppRandomStringGenerator/releases/download/v1.9.1/nppRandomStringGenerator.1.9.1.x64.zip",
+			"id": "9afbe8efe7612ff3f980353d3949110934164f85d772aa93743ac7733cc907e6",
+			"repository": "https://github.com/cmbsolutions/nppRandomStringGenerator/releases/download/v1.9.2/nppRandomStringGenerator.1.9.2.x64.zip",
 			"description": "Generates random strings with configurable output.",
 			"author": "Maurice CMBSolutions",
 			"homepage": "https://github.com/cmbsolutions/nppRandomStringGenerator"
@@ -1142,12 +1142,12 @@
 		{
 			"folder-name": "PreviewHTML",
 			"display-name": "Preview HTML",
-			"version": "1.3.2.0",
-			"id": "127dbdd677b5f3f75661f06e67e4e2b35cb5e926863b6268a51c11e72a08f8ec",
-			"repository": "https://fossil.2of4.net/npp_preview/zip/PreviewHTML64.zip%3Fname%3D%26uuid%3Dv1.3.2.0-64",
+			"version": "1.3.3.1",
+			"id": "45175ab53385804fc0077b8f89deb9dabfd6f6205400bc36d63bbf8a99e0d9af",
+			"repository": "https://github.com/rdipardo/npp_preview/releases/download/v1.3.3.1/PreviewHTML_v1.3.3.1_x64.zip",
 			"description": "Preview HTML files inside Notepad++ (or in a floating window) without having to save them first.",
 			"author": "Martijn Coppoolse",
-			"homepage": "https://fossil.2of4.net/npp_preview"
+			"homepage": "https://github.com/rdipardo/npp_preview"
 		},
 		{
 			"folder-name": "Python Indent",
@@ -1415,9 +1415,9 @@
 		{
 			"folder-name": "SQLinFormNpp64",
 			"display-name": "SQLinForm",
-			"version": "6.24.4.1",
-			"id": "60e2c7316313d5d03b9f5be0e96d99ace7379e06b6ad6249ff4a55144cebfad0",
-			"repository": "https://www.sqlinform.com/npp/SQLinFormNpp64_6.24.04.zip",
+			"version": "6.24.7.15",
+			"id": "bc48faa694d8a91c5271c4831045a1f5da6704a3fe74a77181a7d8208a2796a1",
+			"repository": "https://www.sqlinform.com/npp/SQLinFormNpp64_6.24.07.zip",
 			"description": "Formats plain SQL, SQL embedded in program code, SQL snippets, and SQL statements with syntax errors.\r\nHas a powerful code folding feature and formats your SQL as you Type. Supports all major DB like Oracle, DB2, SQL Server, Teradata, Netezza, MySQL, Sybase, MS Access, etc. Incorporates its own multi-DB parser engine. No additional software required.",
 			"author": "Guido Thelen",
 			"homepage": "https://www.sqlinform.com"
@@ -1589,6 +1589,16 @@
 			"description": "This Notepad++ plugin can hide the unsightly folding lines, and for convenience, you can fold and unfold the current level using the Alt + Left/Right keys.",
 			"author": "leonardchai@gmail.com",
 			"homepage": "https://github.com/leonardchai/FoldingLineHider"
+		},
+		{
+			"folder-name": "NX_ASCII_Database_Helper",
+			"display-name": "NX ASCII Database Helper",
+			"version": "1.0.0",
+			"id": "7730ca6b8611632c9d6a2e6dc0b28c797e8d03129eac4678c7b6f71269150989",
+			"repository": "https://github.com/ZhuXuefengGitHub/NX_ASCII_Database_Helper/releases/download/v1.0.0/NX_ASCII_Database_Helper1.0.0.x64.zip",
+			"description": "This is a Notepad++ plugin for Siemens NX CAM ASCII Database file, which help the user list all of type in database and format file.",
+			"author": "Xuefeng",
+			"homepage": "https://github.com/ZhuXuefengGitHub/NX_ASCII_Database_Helper"
 		}
 	]
 }
