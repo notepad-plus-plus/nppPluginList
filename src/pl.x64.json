@@ -196,12 +196,11 @@
 		{
 			"folder-name": "BlitzSearch",
 			"display-name": "Blitz Search",
-			"version": "1.0.0.0",
+			"version": "1.0.0.3",
 			"npp-compatible-versions": "[8.0,]",
-			"id": "b834b07e61f4ad93562eac353f182c1499c5031b29546936190bcd6e0f6353a8",
-			"repository": "https://github.com/Natestah/BlitsNppPlugin/releases/download/InitialRelease/BlitzSearch-v1.0.0.0-x64.zip",
-			"description": "Adds Blitz Search This to the Toolbar. Features:\r\n- Search This command with selection to run Blitz Search with substring\r\n- Search This command with no selection to run Blitz Search with Whole word match",
-			"author": "NateStah",
+			"id": "d603bd8a837ffd29355473908a37252e4e58b9021062e892f65b7478994858ff",
+			"repository": "https://github.com/Natestah/BlitsNppPlugin/releases/download/InitialRelease/BlitzSearch-v1.0.0.3-x64.zip",
+			"description": "Adds Blitz Search This to the Toolbar. Features:\r\n- Search This command with selection to run Blitz Search with substring\r\n- Search This command with no selection to run Blitz Search with Whole word match",			"author": "NateStah",
 			"homepage": "https://github.com/Natestah/BlitsNppPlugin"
 		},
 		{
