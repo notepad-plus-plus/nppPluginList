@@ -1,6 +1,6 @@
 {
 	"name": "npp-pluginList",
-	"version": "1.7.3",
+	"version": "1.7.4",
 	"arch": "32",
 	"npp-plugins": [
 		{
@@ -289,9 +289,9 @@
 		{
 			"folder-name": "DiscordRPC",
 			"display-name": "Discord Rich Presence",
-			"version": "1.8.617.1",
-			"id": "465a01a6fc9ffdc94fada02492b5df8380fc75620d2f4a02d631fa67eb71b0d8",
-			"repository": "https://github.com/Zukaritasu/notepadpp_rpc/releases/download/v1.8.6/DiscordRPC_v1.8.6_x86.zip",
+			"version": "2.0.625.1",
+			"id": "0a776e3bf32772ce00ea2964922b6777ebde41cb32cfd71902c04433d9f20b72",
+			"repository": "https://github.com/Zukaritasu/notepadpp_rpc/releases/download/v2.0/DiscordRPC_v2.0_x86.zip",
 			"description": "Shows in discord the file that is currently being edited in Notepad++.",
 			"author": "Zukaritasu",
 			"homepage": "https://github.com/Zukaritasu/notepadpp_rpc"
@@ -630,9 +630,9 @@
 		{
 			"folder-name": "JsonTools",
 			"display-name": "JSON Tools",
-			"version": "8.0",
-			"id": "024f3ae74ca5a608d45e6cabb600a271eafd92726c83d9a65ce94cc52445cc58",
-			"repository": "https://github.com/molsonkiko/JsonToolsNppPlugin/releases/download/v8.0/Release_x86.zip",
+			"version": "8.1",
+			"id": "c2d43e2d7aba22a59f49f923fec75d614f354b232d22ebac533e066bc7bcd16a",
+			"repository": "https://github.com/molsonkiko/JsonToolsNppPlugin/releases/download/v8.1/Release_x86.zip",
 			"description": "Query/editing tool for JSON including linting, reformatting, a tree viewer with file navigation, JSON schema validation and generation, escaping/unescaping strings, and much more.\r\nThe tree viewer can also be used to explore CSV files and regex search results (experimental).",
 			"author": "Mark Johnston Olson",
 			"homepage": "https://github.com/molsonkiko/JsonToolsNppPlugin",
@@ -795,10 +795,10 @@
 		{
 			"folder-name": "MultiReplace",
 			"display-name": "MultiReplace",
-			"version": "3.0.3.15",
+			"version": "3.1.2.18",
 			"npp-compatible-versions": "[8.5.4,]",
-			"id": "512f6ca1d323844968aa29d3d1efa228099e51106a501ea0f5e588fe059514f6",
-			"repository": "https://github.com/daddel80/notepadpp-multireplace/releases/download/3.0.3.15/MultiReplace-v3.0.3.15-Win32.zip",
+			"id": "d4755cad87d2b4c1281f8fb78b36ae3ee906b88e688e56202ed714bc933083ae",
+			"repository": "https://github.com/daddel80/notepadpp-multireplace/releases/download/3.1.2.18/MultiReplace-v3.1.2.18-Win32.zip",
 			"description": "Advanced multi-string replacement; storage of search/replace patterns; CSV column highlighting, targeting, and sorting; dynamic computational operations; rectangular selection support.",
 			"author": "Thomas Knoefel",
 			"homepage": "https://github.com/daddel80/notepadpp-multireplace"
@@ -1046,11 +1046,11 @@
 		{
 			"folder-name": "NppGTags",
 			"display-name": "NppGTags",
-			"version": "5.1.2",
+			"version": "5.2.0",
 			"npp-compatible-versions": "[8.4.7,]",
 			"old-versions-compatibility": "[,5.0.0][8.4.2,8.4.6]",
-			"id": "3236e0337185da7460f8e44144207117927420672d4e6ef39c066ba8b9248f61",
-			"repository": "https://github.com/pnedev/nppgtags/releases/download/v5.1.2/NppGTags_v5.1.2_x86.zip",
+			"id": "60d2b5bb528e6d6610047bd94d017bf8d76324842463d8348972e286d60d055e",
+			"repository": "https://github.com/pnedev/nppgtags/releases/download/v5.2.0/NppGTags_v5.2.0_x86.zip",
 			"description": "Front-end to GNU Global source code tagging system (GTags). Provides code indexing and search/navigation tools for various languages.",
 			"author": "Pavel Nedev",
 			"homepage": "https://github.com/pnedev/nppgtags"
@@ -1265,12 +1265,12 @@
 		{
 			"folder-name": "PreviewHTML",
 			"display-name": "Preview HTML",
-			"version": "1.3.2.0",
-			"id": "b7538d5b4c61e7232ad6befe3a5eb1799544a4de741d4acd896716e9273f260b",
-			"repository": "https://fossil.2of4.net/npp_preview/zip/PreviewHTML32.zip%3Fname%3D%26uuid%3Dv1.3.2.0-32",
+			"version": "1.3.3.1",
+			"id": "5cf848630e5bc27e4bcf0f90136788d71379fbc22e82cd00040b1521d12e4068",
+			"repository": "https://github.com/rdipardo/npp_preview/releases/download/v1.3.3.1/PreviewHTML_v1.3.3.1_win32.zip",
 			"description": "Preview HTML files inside Notepad++ (or in a floating window) without having to save them first.",
 			"author": "Martijn Coppoolse",
-			"homepage": "https://fossil.2of4.net/npp_preview"
+			"homepage": "https://github.com/rdipardo/npp_preview"
 		},
 		{
 			"folder-name": "PyNPP",
