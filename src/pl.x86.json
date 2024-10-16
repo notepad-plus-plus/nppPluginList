@@ -642,12 +642,12 @@
 		{
 			"folder-name": "NPPJSONViewer",
 			"display-name": "JSON Viewer",
-			"version": "2.0.7.0",
-			"id": "26246f54efdd7cbda051da9a7184342d64d93ea7fe0c5bde7f0470d0ab733909",
-			"repository": "https://github.com/kapilratnani/JSON-Viewer/releases/download/v2.0.7.0/NPPJSONViewer_Win32.zip",
+			"version": "2.0.8.0",
+			"id": "270423e0981a10271e264702ee6013a36e9a5aa30c5cd8d4e58537b1210d51e0",
+			"repository": "https://github.com/NPP-JSONViewer/JSON-Viewer/releases/download/v2.0.8.0/NPPJSONViewer_Win32.zip",
 			"description": "JSON viewer that displays the selected JSON string in a tree view.",
 			"author": "Kapil Ratnani, Rajendra Singh",
-			"homepage": "https://github.com/kapilratnani/JSON-Viewer",
+			"homepage": "https://github.com/NPP-JSONViewer/JSON-Viewer",
 			"npp-compatible-versions": "[8.4.5,]"
 		},
 		{
