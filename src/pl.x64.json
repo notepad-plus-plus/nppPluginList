@@ -1,6 +1,6 @@
 {
 	"name": "npp-pluginList",
-	"version": "1.7.3",
+	"version": "1.7.4",
 	"arch": "64",
 	"npp-plugins": [
 		{
@@ -196,12 +196,11 @@
 		{
 			"folder-name": "BlitzSearch",
 			"display-name": "Blitz Search",
-			"version": "1.0.0.0",
+			"version": "1.0.0.3",
 			"npp-compatible-versions": "[8.0,]",
-			"id": "b834b07e61f4ad93562eac353f182c1499c5031b29546936190bcd6e0f6353a8",
-			"repository": "https://github.com/Natestah/BlitsNppPlugin/releases/download/InitialRelease/BlitzSearch-v1.0.0.0-x64.zip",
-			"description": "Adds Blitz Search This to the Toolbar. Features:\r\n- Search This command with selection to run Blitz Search with substring\r\n- Search This command with no selection to run Blitz Search with Whole word match",
-			"author": "NateStah",
+			"id": "f400872ac8a5383c9b9cbffac383d07cdecfbc850d652a424a3a9c593ee4c38c",
+			"repository": "https://github.com/Natestah/BlitsNppPlugin/releases/download/InitialRelease/BlitzSearch-v1.0.0.3-x64.zip",
+			"description": "Adds Blitz Search This to the Toolbar. Features:\r\n- Search This command with selection to run Blitz Search with substring\r\n- Search This command with no selection to run Blitz Search with Whole word match",			"author": "NateStah",
 			"homepage": "https://github.com/Natestah/BlitsNppPlugin"
 		},
 		{
@@ -560,11 +559,11 @@
 		{
 			"folder-name": "jN",
 			"display-name": "jN Notepad++ Plugin",
-			"version": "2.2.185.9",
+			"version": "2.2.190.21986",
 			"npp-compatible-versions": "[8.4,]",
 			"old-versions-compatibility": "[,2.2.185.7][,8.3.3]",
-			"id": "4dad997496602a724b79e1e825ed0008e4315959ce85c6466a01ea93e1738bce",
-			"repository": "https://github.com/sieukrem/jn-npp-plugin/releases/download/2.2.185.9/jN_2.2.185.9_x64.zip",
+			"id": "ed425f41f758a6e80d50cb61c0b6a15d027dab9119fdeeaa9c6c529e1298eaad",
+			"repository": "https://github.com/sieukrem/jn-npp-plugin/releases/download/2.2.190/jN_2.2.190_x64.zip",
 			"description": "Allows you to extend Notepad++ by using JavaScript.\r\n- You can create new menu elements which execute JavaScript\r\n- You can use manu ActiveX components available on your PC\r\n- You can add shortcuts executing JavaScript\r\n- You can create HTML-based dialogs and docking windows\r\n- You can write JavaScript wrappers around Win32 API\r\n - Since version 2.0.116 you can debug your automating scripts\r\n - Selection highlighting and navigation bar\r\n - Integrated Zen Coding v0.7\r\n - You can catch context menu request and create your own",
 			"author": "Eugen Kremer",
 			"homepage": "https://github.com/sieukrem/jn-npp-plugin/wiki"
@@ -594,12 +593,12 @@
 		{
 			"folder-name": "NPPJSONViewer",
 			"display-name": "JSON Viewer",
-			"version": "2.0.7.0",
-			"id": "462a9af49765eba42bf8273f0c17d9cc399d396ff1b8cb619dc30d024ffb74ff",
-			"repository": "https://github.com/kapilratnani/JSON-Viewer/releases/download/v2.0.7.0/NPPJSONViewer_x64.zip",
+			"version": "2.0.8.0",
+			"id": "322b95d62ab11fec570bcd52d840c9061dac74f497dc86734e7461bec8af4b57",
+			"repository": "https://github.com/NPP-JSONViewer/JSON-Viewer/releases/download/v2.0.8.0/NPPJSONViewer_x64.zip",
 			"description": "JSON viewer that displays the selected JSON string in a tree view.",
 			"author": "Kapil Ratnani, Rajendra Singh",
-			"homepage": "https://github.com/kapilratnani/JSON-Viewer",
+			"homepage": "https://github.com/NPP-JSONViewer/JSON-Viewer",
 			"npp-compatible-versions": "[8.4.5,]"
 		},
 		{
@@ -780,11 +779,11 @@
 		{
 			"folder-name": "NppOpenAI",
 			"display-name": "NppOpenAI",
-			"version": "0.4.0.0",
+			"version": "0.4.1.0",
 			"npp-compatible-versions": "[8.4.8,]",
-			"id": "c25b0496aa264e88779313271233e38f7208f05ebf3f8b46b8e98ecf2cd6c071",
-			"repository": "https://github.com/Krazal/nppopenai/releases/download/v0.4.0.0/NppOpenAI_x64.zip",
-			"description": "OpenAI (aka. ChatGPT) plugin for Notepad++. Simply select your text, press Ctrl + Shift + O, and you'll see the AI generated response in seconds. Some examples: 'Please create a Fibonacci function in PHP'; 'Mi az árvíztűrő tükörfúrógép?' (Hungarian Unicode test) etc. This plugin requires an active internet connection and an OpenAI registration / API key (handles it confidential).",
+			"id": "dab92a0bb2a646f58e06ba177de8511fe431f73b3f2d7e631bf4f0472979dc04",
+			"repository": "https://github.com/Krazal/nppopenai/releases/download/v0.4.1.0/NppOpenAI_x64.zip",
+			"description": "OpenAI (aka. ChatGPT) plugin for Notepad++. Simply select your text, press Ctrl + Shift + O, and you'll see the AI generated response in seconds. Two examples: 'Please create a Fibonacci function in PHP'; 'Mi az árvíztűrő tükörfúrógép?' (Hungarian Unicode test) etc. This plugin requires an active internet connection and an OpenAI registration / API key (handles it confidentially).",
 			"author": "Richárd Stockinger",
 			"homepage": "https://github.com/Krazal/nppopenai"
 		},
@@ -942,11 +941,11 @@
 		{
 			"folder-name": "NppGTags",
 			"display-name": "NppGTags",
-			"version": "5.1.2",
+			"version": "5.2.0",
 			"npp-compatible-versions": "[8.4.7,]",
 			"old-versions-compatibility": "[,5.0.0][8.4.2,8.4.6]",
-			"id": "46c6db50a25ced35682a44dbb291207cbdc27dfdfdf96082677f7feddb4ecb62",
-			"repository": "https://github.com/pnedev/nppgtags/releases/download/v5.1.2/NppGTags_v5.1.2_x64.zip",
+			"id": "c29f7d65b717f34502eaaca9f24644497245818daba7240cf2650d8ae2bafd04",
+			"repository": "https://github.com/pnedev/nppgtags/releases/download/v5.2.0/NppGTags_v5.2.0_x64.zip",
 			"description": "Front-end to GNU Global source code tagging system (GTags). Provides code indexing and search/navigation tools for various languages.",
 			"author": "Pavel Nedev",
 			"homepage": "https://github.com/pnedev/nppgtags"
@@ -1143,9 +1142,9 @@
 		{
 			"folder-name": "PreviewHTML",
 			"display-name": "Preview HTML",
-			"version": "1.3.3.0",
-			"id": "732b4dd626bde77f28b6ad4459c3b5309a51b9dbc3975571cf258585989a1063",
-			"repository": "https://github.com/rdipardo/npp_preview/releases/download/v1.3.3.0/PreviewHTML_v1.3.3.0_x64.zip",
+			"version": "1.3.3.1",
+			"id": "45175ab53385804fc0077b8f89deb9dabfd6f6205400bc36d63bbf8a99e0d9af",
+			"repository": "https://github.com/rdipardo/npp_preview/releases/download/v1.3.3.1/PreviewHTML_v1.3.3.1_x64.zip",
 			"description": "Preview HTML files inside Notepad++ (or in a floating window) without having to save them first.",
 			"author": "Martijn Coppoolse",
 			"homepage": "https://github.com/rdipardo/npp_preview"
@@ -1600,6 +1599,17 @@
 			"description": "This is a Notepad++ plugin for Siemens NX CAM ASCII Database file, which help the user list all of type in database and format file.",
 			"author": "Xuefeng",
 			"homepage": "https://github.com/ZhuXuefengGitHub/NX_ASCII_Database_Helper"
+		},
+		{
+			"folder-name": "AndroidLogger",
+			"display-name": "AndroidLogger",
+			"version": "1.4.1.2",
+			"npp-compatible-versions": "[7.8,]",
+			"id": "fcf348d24f74d2411038f46d8febf5db2c0db5ed869877ef2e1fa6c736efe51c",
+			"repository": "https://sourceforge.net/projects/androidlogger/files/v1.4.1/AndroidLogger.v1.4.1.2.EN.zip",
+			"description": "A lexer for Android, also can capture logs in real time, provides some utilities for developers.",
+			"author": "simbaba",
+			"homepage": "https://sourceforge.net/projects/androidlogger"
 		}
 	]
 }
