@@ -994,9 +994,9 @@
 		{
 			"folder-name": "NppDocShare",
 			"display-name": "NppNetNote",
-			"version": "0.1.0.0",
-			"id": "01e16cdf85f5c5b10c0952f7997d9b963ea61fcdcdc02c082047e1885c976e59",
-			"repository": "https://github.com/chcg/NppDocShare/releases/download/0.1.13/NppDocShare_0.1.13_x64.zip",
+			"version": "0.2.0.0",
+			"id": "b5d97e400e259e35a95556e2d5a2d456804be75d747b80445202218be7739776",
+			"repository": "https://github.com/chcg/NppDocShare/releases/download/0.2.0/NppDocShare_0.2.0_x64.zip",
 			"description": "Allows the same document to be edited in real time on two different computers. Only needs a network connection between the two.",
 			"author": "Harrybharry",
 			"homepage": "https://sourceforge.net/projects/npp-plugins/files/NppDocShare/"
