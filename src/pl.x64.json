@@ -1594,7 +1594,7 @@
 			"folder-name": "NX_ASCII_Database_Helper",
 			"display-name": "NX ASCII Database Helper",
 			"version": "2.0.0",
-			"id": "0725e52700944e262f0bc76793e9792059a99d73a267656e3b0e19440b986416",
+			"id": "b3f7882b65b0bd36ee69698775bd93723f3bad98539cfb76d0eab8f31c52819c",
 			"repository": "https://github.com/ZhuXuefengGitHub/NX_ASCII_Database_Helper/releases/download/v2.0.0/NX_ASCII_Database_Helper.zip",
 			"description": "This is a Notepad++ plugin for Siemens NX CAM ASCII Database file, which help the user list all of type in database and format file. Simultaneously supporting code highlighting and indentation functions",
 			"author": "Xuefeng",
