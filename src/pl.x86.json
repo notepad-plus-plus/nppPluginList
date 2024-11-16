@@ -1232,10 +1232,10 @@
 		{
 			"folder-name": "PlantUmlViewer",
 			"display-name": "PlantUML Viewer",
-			"version": "1.7.0.11",
+			"version": "1.8.0.12",
 			"npp-compatible-versions": "[8.3,]",
-			"id": "3623638d64929445e0b980363fe2407ed3bdc1f9e1c24f74599be3bdcf48d324",
-			"repository": "https://github.com/Fruchtzwerg94/PlantUmlViewer/releases/download/1.7.0.11/PlantUmlViewer_v1.7.0.11_x86.zip",
+			"id": "b03d2005cb33ded36f7f9c2ee6591688550e7e1142ab0a574950fd6df79960dd",
+			"repository": "https://github.com/Fruchtzwerg94/PlantUmlViewer/releases/download/1.8.0.12/PlantUmlViewer_v1.8.0.12_x86.zip",
 			"description": "A Notepad++ plugin to generate view and export PlantUML diagrams.",
 			"author": "Philipp Schmidt",
 			"homepage": "https://github.com/Fruchtzwerg94/PlantUmlViewer"
