@@ -527,11 +527,11 @@
 		{
 			"folder-name": "HTMLTag_unicode",
 			"display-name": "HTML Tag",
-			"version": "1.5.0.0",
+			"version": "1.5.1.0",
 			"npp-compatible-versions": "[7.7,]",
 			"old-versions-compatibility": "[,1.1][,7.6.6]",
-			"id": "685cad1eefca2a1fdfd675323f447f3ed0c8334948dae881c46f392455421620",
-			"repository": "https://bitbucket.org/rdipardo/htmltag/downloads/HTMLTag_v1.5.0.zip",
+			"id": "578b4bd4fd0e61893c1e5d03e042033593505df7e32fc1267b7f8fb36444004c",
+			"repository": "https://bitbucket.org/rdipardo/htmltag/downloads/HTMLTag_v1.5.1.zip",
 			"description": "Provides three core functions:\r\n- HTML and XML tag jumping, like the built-in brace matching and selection\r\n of tags and/or contents.\r\n- HTML entity encoding/decoding (example: é to &eacute;)\r\n- JS character encoding/decoding (example: é to \\u00E9)",
 			"author": "Martijn Coppoolse",
 			"homepage": "https://bitbucket.org/rdipardo/htmltag/"
