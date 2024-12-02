@@ -1,6 +1,6 @@
 ## Plugin List - 32 bit
 
-version 1.7.6
+version 1.7.7
 
 | Plugin name | Author | Homepage | Version and link | Description |
 |---|---|---|---|---|
@@ -80,7 +80,7 @@ version 1.7.6
 | Merge files in one | G. Singh | https://github.com/gurikbal/Merge-files-in-one | [1.2.0.0 - 32 bit](https://github.com/gurikbal/Merge-files-in-one/releases/download/1.2.0.0/Merge.files.in.one_x86.zip) | Copy lines from multiple files into one. |
 | Mime tools | Don HO | https://github.com/npp-plugins/mimetools | [3.1 - 32 bit](https://github.com/npp-plugins/mimetools/releases/download/v3.1/mimetools.v3.1.zip) |  <details> <summary> Implements several main functionalities defined in MIME (Multipurpose Internet Mail Extensions): </summary>  Base64, Quoted-printable and URL encode/decode </details> |
 | MultiClipboard | LoonyChewy | https://sourceforge.net/projects/npp-plugins/files/MultiClipboard/ | [2.1.0.0 - 32 bit](https://downloads.sourceforge.net/project/npp-plugins/MultiClipboard/MultiClipboard%202.1%20unicode/MultiClipboard_2.1_unicode_dll.zip) |  <details> <summary> Implements multiple (10) text buffers that are filled via copying and/or cutting of text. To paste </summary>  any text from the buffers, use Ctrl-V or middle mouse click (normal paste): to paste the most recently copied/cut text Ctrl-Shift-V or Shift-middle mouse click: to pop up a menu with the text buffer entries. Select the desired menu item to paste it. </details> |
-| MultiReplace | Thomas Knoefel | https://github.com/daddel80/notepadpp-multireplace | [4.0.0.19 - 32 bit](https://github.com/daddel80/notepadpp-multireplace/releases/download/4.0.0.19/MultiReplace-v4.0.0.19-Win32.zip) |  <details> <summary> Advanced multi-string replacement; storage of search/replace patterns; CSV column highlighting, </summary>  targeting, and sorting; dynamic computational operations; rectangular selection support. </details> |
+| MultiReplace | Thomas Knoefel | https://github.com/daddel80/notepadpp-multireplace | [4.1.0.20 - 32 bit](https://github.com/daddel80/notepadpp-multireplace/releases/download/4.1.0.20/MultiReplace-v4.1.0.20-Win32.zip) |  <details> <summary> Advanced multi-string replacement; storage of search/replace patterns; CSV column highlighting, </summary>  targeting, and sorting; dynamic computational operations; rectangular selection support. </details> |
 | MusicPlayer | Jon Galletero | https://sourceforge.net/projects/nppmusicplayer | [1.0.0.3 - 32 bit](https://github.com/gallettube/MusicPlayer/releases/download/1.0.11/MusicPlaye_1.0.11x86r.dll.zip) | Open and play music files.<br>Supports: *.wav, *.mp3, *.aiff, *.wma |
 | MZC8051 | Jiangshan00001 | https://github.com/Jiangshan00001/npp_MZC8051 | [0.0.1 - 32 bit](https://github.com/Jiangshan00001/npp_MZC8051/releases/download/0.0.1/MZC8051_x86.zip) | a 8051 c compiler plugin within notepad++. |
 | NativeLang | Jens Lorenz | https://sourceforge.net/projects/npp-plugins/files/NativeLang/ | [1.1.0.0 - 32 bit](https://downloads.sourceforge.net/sourceforge/npp-plugins/NativeLang_1_2_dll.zip) | Helper plugin that allows other plugins to translate their menus and dialogs. |

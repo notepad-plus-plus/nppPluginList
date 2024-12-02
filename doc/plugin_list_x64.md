@@ -1,6 +1,6 @@
 ## Plugin List - 64 bit
 
-version 1.7.6
+version 1.7.7
 
 | Plugin name | Author | Homepage | Version and link | Description |
 |---|---|---|---|---|
@@ -70,7 +70,7 @@ version 1.7.6
 | MenuIcons | Franco Stellari | https://github.com/francostellari/NppPlugins | [2.0.7 - 64 bit](https://github.com/francostellari/NppPlugins/raw/main/MenuIcons/MenuIcons_dll_2v07_x64.zip) | Adds icons to the main menu, tab menu, context menu, and the tabs themselves. |
 | Merge files in one | G. Singh | https://github.com/gurikbal/Merge-files-in-one | [1.2.0.0 - 64 bit](https://github.com/gurikbal/Merge-files-in-one/releases/download/1.2.0.0/Merge.files.in.one_x64.zip) | Copy lines from multiple files into one. |
 | Mime tools | Don HO | https://github.com/npp-plugins/mimetools | [3.1 - 64 bit](https://github.com/npp-plugins/mimetools/releases/download/v3.1/mimetools.v3.1.x64.zip) |  <details> <summary> Implements several main functionalities defined in MIME (Multipurpose Internet Mail Extensions): </summary>  Base64, Quoted-printable and URL encode/decode </details> |
-| MultiReplace | Thomas Knoefel | https://github.com/daddel80/notepadpp-multireplace | [4.0.0.19 - 64 bit](https://github.com/daddel80/notepadpp-multireplace/releases/download/4.0.0.19/MultiReplace-v4.0.0.19-x64.zip) |  <details> <summary> Advanced multi-string replacement; storage of search/replace patterns; CSV column highlighting, </summary>  targeting, and sorting; dynamic computational operations; rectangular selection support. </details> |
+| MultiReplace | Thomas Knoefel | https://github.com/daddel80/notepadpp-multireplace | [4.1.0.20 - 64 bit](https://github.com/daddel80/notepadpp-multireplace/releases/download/4.1.0.20/MultiReplace-v4.1.0.20-x64.zip) |  <details> <summary> Advanced multi-string replacement; storage of search/replace patterns; CSV column highlighting, </summary>  targeting, and sorting; dynamic computational operations; rectangular selection support. </details> |
 | MusicPlayer | Jon Galletero | https://sourceforge.net/projects/nppmusicplayer | [1.0.0.3 - 64 bit](https://github.com/gallettube/MusicPlayer/releases/download/1.0.11/MusicPlayer_1.0.11x64.dll.zip) | Open and play music files.<br>Supports: *.wav, *.mp3, *.aiff, *.wma |
 | MZC8051 | Jiangshan00001 | https://github.com/Jiangshan00001/npp_MZC8051 | [0.0.1 - 64 bit](https://github.com/Jiangshan00001/npp_MZC8051/releases/download/0.0.1/MZC8051_x64.zip) | a 8051 c compiler plugin within notepad++. |
 | NavigateTo | Oleksii Maryshchenko | https://github.com/young-developer/nppNavigateTo | [2.6.4.0 - 64 bit](https://github.com/young-developer/nppNavigateTo/releases/download/v.2.6.4/NavigateTo_v.2.6.4_v142_x64.zip) |  <details> <summary> Do you have more then 10 open tabs? Then this plugin is for you. </summary> <br>New and efficient way to quickly navigate between tabs (files). Allows you to search for a symbol or filename, filepath by matching against a keyword you type, and get a real-time preview while going through the search results with the Shift key.<br>And YES, you can uncheck the Multi-line option, in the Preferences &gt; General &gt; Tab Bar zone because you don’t need the multi-lines tab feature anymore :)<br>Author: Oleksii Maryshchenko<br>Email: oleksii.maryshchenko@gmail.com <br> Contributors: https://github.com/molsonkiko </details> |
