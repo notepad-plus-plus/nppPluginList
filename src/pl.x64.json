@@ -1616,7 +1616,7 @@
 			"display-name": "pycalc",
 			"version": "1.0.0",
 			"npp-compatible-versions": "[7.8.1,]",
-			"id": "b20f3ba2373aa6c6a58168370ce4b079fb88b58a60279dd316eb5b0cd00ca0e9",
+			"id": "7708d6091754d7867f76cb5f1ff14d4aafa48ddd51da8a782b39cc8a85c921aa",
 			"repository": "https://github.com/pycalc-plugin/notepad-plus-plus/releases/download/1.0.0/pycalc-x64.zip",
 			"description": "The pycalc plugin enables the execution of python code directly within the editor upon pressing the Enter key.",
 			"author": "pycalc",
