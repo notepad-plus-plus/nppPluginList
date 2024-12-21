@@ -1833,6 +1833,17 @@
 			"description": "This Notepad++ plugin can hide the unsightly folding lines, and for convenience, you can fold and unfold the current level using the Alt + Left/Right keys.",
 			"author": "leonardchai@gmail.com",
 			"homepage": "https://github.com/leonardchai/FoldingLineHider"
+		},
+		{
+			"folder-name": "pycalc",
+			"display-name": "pycalc",
+			"version": "1.0.0",
+			"npp-compatible-versions": "[7.7.1,]",
+			"id": "4decd1d50b3a855221b0f98fd9d2ee201dd22c766047afe0ef4086e09a7f42bc",
+			"repository": "https://github.com/pycalc-plugin/notepad-plus-plus/releases/download/1.0.0/pycalc-x86.zip",
+			"description": "The pycalc plugin enables the execution of python code directly within the editor upon pressing the Enter key.",
+			"author": "pycalc",
+			"homepage": "https://github.com/pycalc-plugin/notepad-plus-plus"
 		}
 	]
 }
