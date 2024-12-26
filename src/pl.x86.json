@@ -497,10 +497,10 @@
 		{
 			"folder-name": "GotoLineCol",
 			"display-name": "GotoLineCol",
-			"version": "2.4.3.0",
-			"id": "7fad2862aa3ccaaeda9d981b83623292d6b4b9e1d5d68fe504a43c621f334f82",
-			"repository": "https://github.com/shriprem/Goto-Line-Col-NPP-Plugin/releases/download/v2.4.3.0/GotoLineCol_x86.zip",
-			"description": "A plugin to navigate to a specified line and (byte-based or character-based) column position. Will also display character byte code, UTF-8 byte sequence & Unicode code point at cursor position. Darkmode enabled. Command line options.",
+			"version": "2.4.4.0",
+			"id": "7913f3ed7840d91f9bce9d791629ff816992a271fe438073288e9766d02e7fad",
+			"repository": "https://github.com/shriprem/Goto-Line-Col-NPP-Plugin/releases/download/v2.4.4.0/GotoLineCol_x86.zip",
+			"description": "A plugin to navigate to a specified line and (byte-based or character-based) column position. Will also display character byte code, UTF-8 byte sequence & Unicode code point, name & block at cursor position. Darkmode enabled. Command line options.",
 			"author": "Shridhar Kumar",
 			"homepage": "https://github.com/shriprem/Goto-Line-Col-NPP-Plugin"
 		},
