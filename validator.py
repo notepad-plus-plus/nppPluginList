@@ -5,6 +5,7 @@ import shutil
 import sys
 import zipfile
 from hashlib import sha256
+from urllib.parse import unquote as unquote_url
 
 import requests
 from jsonschema import Draft202012Validator, FormatChecker
@@ -148,7 +149,7 @@ def parse(filename):
             print(f' *** REQUIRES Npp {req_npp_version.strip()} ***')
 
         try:
-            response = requests.get(plugin["repository"])
+            response = requests.get(unquote_url(plugin["repository"]))
         except requests.exceptions.RequestException as e:
             post_error(f'{plugin["display-name"]}: {str(e)}')
             continue
