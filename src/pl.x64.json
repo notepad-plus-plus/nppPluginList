@@ -1,6 +1,6 @@
 {
 	"name": "npp-pluginList",
-	"version": "1.7.7",
+	"version": "1.7.8",
 	"arch": "64",
 	"npp-plugins": [
 		{
@@ -242,11 +242,11 @@
 		{
 			"folder-name": "CSScriptNpp",
 			"display-name": "CS-Script - C# Intellisense",
-			"version": "2.0.5.0",
+			"version": "2.0.6.0",
 			"npp-compatible-versions": "[8.3,]",
 			"old-versions-compatibility": "[,1.7.26][,8.2.1]",
-			"id": "6FE8AE8C4C5DEF546310FF36FE83BE37DEDFC751099B5241D9EF64766EB24BCC",
-			"repository": "https://github.com/oleg-shilo/cs-script.npp/releases/download/v2.0.5.0/CSScriptNpp.2.0.5.0.x64.zip",
+			"id": "A4BB9F0E079416F15C13A8234D37FC7A2ADCDD564EFBF50F7B2D35C58A8F2EBF",
+			"repository": "https://github.com/oleg-shilo/cs-script.npp/releases/download/v2.0.6.0/CSScriptNpp.2.0.6.0.x64.zip",
 			"description": "CS-Script integration. Implements a real C# Intellisense solution based on CS-Script and Roslyn. Allows loading, executing modifying and debugging C# scripts in a way very similar to the Visual Studio C# projects support. This includes referencing assemblies and other scripts, code formatting, adding missing namespaces and intercepting Debug and Console output.",
 			"author": "Oleg Shilo",
 			"homepage": "https://github.com/oleg-shilo/cs-script.npp"
@@ -472,12 +472,12 @@
 		{
 			"folder-name": "GotoLineCol",
 			"display-name": "GotoLineCol",
-			"version": "2.4.3.0",
+			"version": "2.4.4.0",
 			"npp-compatible-versions": "[8.4.2,]",
 			"old-versions-compatibility": "[,2.2.0.1][,8.2.1]",
-			"id": "f07463d3292779f39b1a7d27354d317379640597611f4f1b749bc6ed9668e8c8",
-			"repository": "https://github.com/shriprem/Goto-Line-Col-NPP-Plugin/releases/download/v2.4.3.0/GotoLineCol_x64.zip",
-			"description": "A plugin to navigate to a specified line and (byte-based or character-based) column position. Will also display character byte code, UTF-8 byte sequence & Unicode code point at cursor position. Darkmode enabled. Command line options.",
+			"id": "238e550e633fe983623f09d361ae0fb101246aabba7cb6ea20038be1b49c1fbd",
+			"repository": "https://github.com/shriprem/Goto-Line-Col-NPP-Plugin/releases/download/v2.4.4.0/GotoLineCol_x64.zip",
+			"description": "A plugin to navigate to a specified line and (byte-based or character-based) column position. Will also display character byte code, UTF-8 byte sequence & Unicode code point, name & block at cursor position. Darkmode enabled. Command line options.",
 			"author": "Shridhar Kumar",
 			"homepage": "https://github.com/shriprem/Goto-Line-Col-NPP-Plugin"
 		},
@@ -581,9 +581,9 @@
 		{
 			"folder-name": "JsonTools",
 			"display-name": "JSON Tools",
-			"version": "8.2",
-			"id": "96e80d2f691be79530cc98b668fbdb991bd746207961ad24cb5dfeb1eb8324d9",
-			"repository": "https://github.com/molsonkiko/JsonToolsNppPlugin/releases/download/v8.2/Release_x64.zip",
+			"version": "8.3.1",
+			"id": "b7cd4f8298285c294c9e7998ca756a2b215b77e006e81b6e37a6227e93bf51e5",
+			"repository": "https://github.com/molsonkiko/JsonToolsNppPlugin/releases/download/v8.3.1/Release_x64.zip",
 			"description": "Query/editing tool for JSON including linting, reformatting, a tree viewer with file navigation, JSON schema validation and generation, escaping/unescaping strings, and much more.\r\nThe tree viewer can also be used to explore CSV files and regex search results (experimental).",
 			"author": "Mark Johnston Olson",
 			"homepage": "https://github.com/molsonkiko/JsonToolsNppPlugin",
@@ -1423,6 +1423,16 @@
 			"homepage": "https://www.sqlinform.com"
 		},
 		{
+			"folder-name": "StayAwake_NPP",
+			"display-name": "StayAwake",
+			"version": "1.0.0.0",
+			"id": "7d5033dfcdae2f66b10584223880f265a00f8544b6a58d93061d50b179c3b445",
+			"repository": "https://github.com/shriprem/StayAwake_NPP_Plugin/releases/download/v1.0.0.0/StayAwake_NPP_x64.zip",
+			"description": "StayAwake is a simple utility that enables you to maintain an Active status on Microsoft Teams by periodically cycling (double-toggling) the Scroll Lock button.",
+			"author": "Shridhar Kumar",
+			"homepage": "https://github.com/shriprem/StayAwake_NPP_Plugin"
+		},
+		{
 			"folder-name": "SurroundSelection",
 			"display-name": "SurroundSelection",
 			"version": "1.4.1",
@@ -1610,6 +1620,17 @@
 			"description": "A lexer for Android, also can capture logs in real time, provides some utilities for developers.",
 			"author": "simbaba",
 			"homepage": "https://sourceforge.net/projects/androidlogger"
+		},
+		{
+			"folder-name": "pycalc",
+			"display-name": "pycalc",
+			"version": "1.0.0",
+			"npp-compatible-versions": "[7.8.1,]",
+			"id": "7708d6091754d7867f76cb5f1ff14d4aafa48ddd51da8a782b39cc8a85c921aa",
+			"repository": "https://github.com/pycalc-plugin/notepad-plus-plus/releases/download/1.0.0/pycalc-x64.zip",
+			"description": "The pycalc plugin enables the execution of python code directly within the editor upon pressing the Enter key.",
+			"author": "pycalc",
+			"homepage": "https://github.com/pycalc-plugin/notepad-plus-plus"
 		}
 	]
 }
