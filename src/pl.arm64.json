@@ -58,10 +58,10 @@
 		{
 			"folder-name": "HTMLTag",
 			"display-name": "HTML Tag",
-			"version": "1.5.1.0",
+			"version": "1.5.2.0",
 			"npp-compatible-versions": "[8.3,]",
-			"id": "bc78aa6515a97e1e1f111a06c67329ed325d8c30607b7251a8a55d914137a258",
-			"repository": "https://bitbucket.org/rdipardo/htmltag/downloads/HTMLTag_v1.5.1_arm64.zip",
+			"id": "8dc0ec180499db04b724b62945de0f2ff1dac677763fd63d67fd4a6f9d80f491",
+			"repository": "https://bitbucket.org/rdipardo/htmltag/downloads/HTMLTag_v1.5.2_arm64.zip",
 			"description": "Provides three core functions:\r\n- HTML and XML tag jumping, like the built-in brace matching and selection\r\n of tags and/or contents.\r\n- HTML entity encoding/decoding (example: é to &eacute;)\r\n- JS character encoding/decoding (example: é to \\u00E9)",
 			"author": "Martijn Coppoolse",
 			"homepage": "https://bitbucket.org/rdipardo/htmltag"
