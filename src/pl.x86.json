@@ -527,11 +527,11 @@
 		{
 			"folder-name": "HTMLTag_unicode",
 			"display-name": "HTML Tag",
-			"version": "1.5.1.0",
+			"version": "1.5.2.0",
 			"npp-compatible-versions": "[7.7,]",
 			"old-versions-compatibility": "[,1.1][,7.6.6]",
-			"id": "578b4bd4fd0e61893c1e5d03e042033593505df7e32fc1267b7f8fb36444004c",
-			"repository": "https://bitbucket.org/rdipardo/htmltag/downloads/HTMLTag_v1.5.1.zip",
+			"id": "be5497de5c1a9eaf2b4e363c316b3701819c1b61cdf4f0dbc48d7071ab7161ea",
+			"repository": "https://bitbucket.org/rdipardo/htmltag/downloads/HTMLTag_v1.5.2.zip",
 			"description": "Provides three core functions:\r\n- HTML and XML tag jumping, like the built-in brace matching and selection\r\n of tags and/or contents.\r\n- HTML entity encoding/decoding (example: é to &eacute;)\r\n- JS character encoding/decoding (example: é to \\u00E9)",
 			"author": "Martijn Coppoolse",
 			"homepage": "https://bitbucket.org/rdipardo/htmltag/"
@@ -795,11 +795,11 @@
 		{
 			"folder-name": "MultiReplace",
 			"display-name": "MultiReplace",
-			"version": "4.1.1.21",
+			"version": "4.2.0.22",
 			"npp-compatible-versions": "[8.5.4,]",
-			"id": "84c8a6cbe78980af4c94d9e1a9e57974b3f019781c7fd53dddd6a1c9b64bab55",
-			"repository": "https://github.com/daddel80/notepadpp-multireplace/releases/download/4.1.1.21/MultiReplace-v4.1.1.21-Win32.zip",
-			"description": "Advanced multi-string replacement; storage of search/replace patterns; CSV column highlighting, targeting, and sorting; dynamic computational operations; rectangular selection support.",
+			"id": "d76c748b3de13d3713868f032bd129b9ad26ab4b6de49f89b255a01a743f44ea",
+			"repository": "https://github.com/daddel80/notepadpp-multireplace/releases/download/4.2.0.22/MultiReplace-v4.2.0.22-Win32.zip",
+			"description": "Advanced multi-string replacement; storage of search/replace patterns; CSV column highlighting, targeting, and sorting; mathematical operations on matched strings; rectangular selection support; external lookup files for data normalization and anonymization.",
 			"author": "Thomas Knoefel",
 			"homepage": "https://github.com/daddel80/notepadpp-multireplace"
 		},
@@ -1295,9 +1295,9 @@
 		{
 			"folder-name": "PythonScript",
 			"display-name": "PythonScript",
-			"version": "2.0.0.0",
-			"id": "6c5d4a51e511710b892f3ff3f443c0d7763e686cfd7ffb9888789c8ce09318b9",
-			"repository": "https://github.com/bruderstein/PythonScript/releases/download/v2.0.0/PythonScript_Full_2.0.0.0_PluginAdmin.zip",
+			"version": "2.1.0.0",
+			"id": "056c5607f05226540ff4a79ffb4b56d62e58d0d684926e3893a5c8a6aabae2dd",
+			"repository": "https://github.com/bruderstein/PythonScript/releases/download/v2.1.0/PythonScript_Full_2.1.0.0_PluginAdmin.zip",
 			"description": "Python Script plugin.",
 			"author": "Dave Brotherstone + Jocelyn Legault",
 			"homepage": "https://github.com/bruderstein/PythonScript"
