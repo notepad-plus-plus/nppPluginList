@@ -417,10 +417,10 @@
 		{
 			"folder-name": "NPPFSIPlugin",
 			"display-name": "F# Interactive",
-			"version": "0.2.3.0",
+			"version": "0.2.3.1",
 			"npp-compatible-versions": "[7.7,]",
-			"id": "872fa97b38be7d569a81d92b8d46b208806d14a29b59d6fb303bd74b1d161444",
-			"repository": "https://github.com/rdipardo/nppFSIPlugin/releases/download/v0.2.3.0/NPPFSIPlugin_v0.2.3.0_x64.zip",
+			"id": "53b4d5883a61b84106960eff0d09157cb8ab41c11aaa69e8fc9402f6f3e94e50",
+			"repository": "https://github.com/rdipardo/nppFSIPlugin/releases/download/v0.2.3.1/NPPFSIPlugin_v0.2.3.1_x64.zip",
 			"description": "F# source code lexer and IPC client for F# Interactive.\r\nNote: the .NET SDK must be installed separately.",
 			"author": "Prapin Peethambaran",
 			"homepage": "https://github.com/rdipardo/nppFSIPlugin"
