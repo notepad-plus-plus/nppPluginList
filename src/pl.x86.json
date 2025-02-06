@@ -1,6 +1,6 @@
 {
 	"name": "npp-pluginList",
-	"version": "1.7.8",
+	"version": "1.8.0",
 	"arch": "32",
 	"npp-plugins": [
 		{
@@ -160,9 +160,9 @@
 		{
 			"folder-name": "ColumnsPlusPlus",
 			"display-name": "Columns++",
-			"version": "1.1.3",
-			"id": "66B9EAB9191DD46E465BB67834E1EA2A51BAC8E652B3CBCD506BFB1BE2568AE6",
-			"repository": "https://github.com/Coises/ColumnsPlusPlus/releases/download/v1.1.3/ColumnsPlusPlus-1.1.3-x86.zip",
+			"version": "1.1.5",
+			"id": "3D4BF57DE2783A025DCDCBFB411E574BCC3A6660DF0809A58DF9FFECCDAFE40C",
+			"repository": "https://github.com/Coises/ColumnsPlusPlus/releases/download/v1.1.5/ColumnsPlusPlus-1.1.5-x86.zip",
 			"description": "Offers features for working with text and data arranged in columns, including an implementation of elastic tabstops, enhanced searching and sorting, column alignment and numeric calulations.",
 			"author": "Randall Joseph Fellmy",
 			"homepage": "https://github.com/Coises/ColumnsPlusPlus",
@@ -404,10 +404,10 @@
 		{
 			"folder-name": "NPPFSIPlugin",
 			"display-name": "F# Interactive",
-			"version": "0.2.3.0",
+			"version": "0.2.3.1",
 			"npp-compatible-versions": "[7.7,]",
-			"id": "3563be274b049357cf2469b497e9ca5eb480d12d5938ac08364d45bc383371c0",
-			"repository": "https://github.com/rdipardo/nppFSIPlugin/releases/download/v0.2.3.0/NPPFSIPlugin_v0.2.3.0_win32.zip",
+			"id": "7f5bdafec5847e494f1b1d519d36fbf48e0d6bbd4bebd24f99d505a727b724c2",
+			"repository": "https://github.com/rdipardo/nppFSIPlugin/releases/download/v0.2.3.1/NPPFSIPlugin_v0.2.3.1_win32.zip",
 			"description": "F# source code lexer and IPC client for F# Interactive.\r\nNote: the .NET SDK must be installed separately.",
 			"author": "Prapin Peethambaran",
 			"homepage": "https://github.com/rdipardo/nppFSIPlugin"
@@ -866,10 +866,10 @@
 		{
 			"folder-name": "NppOpenAI",
 			"display-name": "NppOpenAI",
-			"version": "0.4.1.0",
+			"version": "0.4.2.1",
 			"npp-compatible-versions": "[8.4.8,]",
-			"id": "1ccefff74334c698f92e58bc5fe3f7eedc9f17281cd1e6cb1547372c4994da8b",
-			"repository": "https://github.com/Krazal/nppopenai/releases/download/v0.4.1.0/NppOpenAI_x86.zip",
+			"id": "6ef06214593e7746a82775e8722de7e1f53d2c1486e626bed053208a94ef1b5b",
+			"repository": "https://github.com/Krazal/nppopenai/releases/download/v0.4.2.1/NppOpenAI_x86.zip",
 			"description": "OpenAI (aka. ChatGPT) plugin for Notepad++. Simply select your text, press Ctrl + Shift + O, and you'll see the AI generated response in seconds. Two examples: 'Please create a Fibonacci function in PHP'; 'Mi az árvíztűrő tükörfúrógép?' (Hungarian Unicode test) etc. This plugin requires an active internet connection and an OpenAI registration / API key (handles it confidentially).",
 			"author": "Richárd Stockinger",
 			"homepage": "https://github.com/Krazal/nppopenai"
@@ -1576,9 +1576,9 @@
 		{
 			"folder-name": "SQLinFormNpp",
 			"display-name": "SQLinForm",
-			"version": "6.24.7.15",
-			"id": "ca14f755d51269376d4f112859412ea08825db094c563a50451fc2edc9af713d",
-			"repository": "https://www.sqlinform.com/npp/SQLinFormNpp_6.24.07.zip",
+			"version": "6.25.1.15",
+			"id": "2f104cada8196644ae0502dae67baac65b343ad96b906f04e16d397cec5740a1",
+			"repository": "https://www.sqlinform.com/npp/SQLinFormNpp_6.25.01.zip",
 			"description": "Formats plain SQL, SQL embedded in program code, SQL snippets, and SQL statements with syntax errors.\r\nHas a powerful code folding feature and formats your SQL as you Type. Supports all major DB like Oracle, DB2, SQL Server, Teradata, Netezza, MySQL, Sybase, MS Access, etc. Incorporates its own multi-DB parser engine. No additional software required.",
 			"author": "Guido Thelen",
 			"homepage": "https://www.sqlinform.com"
