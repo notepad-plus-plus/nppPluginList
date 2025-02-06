@@ -1,6 +1,6 @@
 ## Plugin List - arm64 bit
 
-version 1.7.9
+version 1.8.0
 
 | Plugin name | Author | Homepage | Version and link | Description |
 |---|---|---|---|---|
