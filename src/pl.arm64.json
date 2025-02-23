@@ -1,6 +1,6 @@
 {
 	"name": "npp-pluginList",
-	"version": "1.7.8",
+	"version": "1.8.0",
 	"arch": "arm64",
 	"npp-plugins": [
 		{
@@ -58,10 +58,10 @@
 		{
 			"folder-name": "HTMLTag",
 			"display-name": "HTML Tag",
-			"version": "1.5.1.0",
+			"version": "1.5.2.0",
 			"npp-compatible-versions": "[8.3,]",
-			"id": "bc78aa6515a97e1e1f111a06c67329ed325d8c30607b7251a8a55d914137a258",
-			"repository": "https://bitbucket.org/rdipardo/htmltag/downloads/HTMLTag_v1.5.1_arm64.zip",
+			"id": "8dc0ec180499db04b724b62945de0f2ff1dac677763fd63d67fd4a6f9d80f491",
+			"repository": "https://bitbucket.org/rdipardo/htmltag/downloads/HTMLTag_v1.5.2_arm64.zip",
 			"description": "Provides three core functions:\r\n- HTML and XML tag jumping, like the built-in brace matching and selection\r\n of tags and/or contents.\r\n- HTML entity encoding/decoding (example: é to &eacute;)\r\n- JS character encoding/decoding (example: é to \\u00E9)",
 			"author": "Martijn Coppoolse",
 			"homepage": "https://bitbucket.org/rdipardo/htmltag"
@@ -270,9 +270,9 @@
 		{
 			"folder-name": "NPPJSONViewer",
 			"display-name": "JSON Viewer",
-			"version": "2.1.0.0",
-			"id": "37b87effab3dddf15f71618f734577b497f89c016944076bed497fbdb7118b7a",
-			"repository": "https://github.com/NPP-JSONViewer/JSON-Viewer/releases/download/v2.1.0.0/ARM64_Release.zip",
+			"version": "2.1.1.0",
+			"id": "e35a2ff36efb0feb6964946e584eb6cb6784e4987340ad76050f19cce0675f63",
+			"repository": "https://github.com/NPP-JSONViewer/JSON-Viewer/releases/download/v2.1.1.0/NppJSONViewer_ARM64_Release.zip",
 			"description": "JSON viewer that displays the selected JSON string in a tree view.",
 			"author": "Kapil Ratnani, Rajendra Singh",
 			"homepage": "https://github.com/NPP-JSONViewer/JSON-Viewer",

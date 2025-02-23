@@ -1,6 +1,6 @@
 {
 	"name": "npp-pluginList",
-	"version": "1.7.8",
+	"version": "1.8.0",
 	"arch": "64",
 	"npp-plugins": [
 		{
@@ -164,9 +164,9 @@
 		{
 			"folder-name": "ColumnsPlusPlus",
 			"display-name": "Columns++",
-			"version": "1.1.3",
-			"id": "911A4BFFF508DC18E0CC9D1DDD6AD5ADAA5F957783B238A8535B01790FBC0D97",
-			"repository": "https://github.com/Coises/ColumnsPlusPlus/releases/download/v1.1.3/ColumnsPlusPlus-1.1.3-x64.zip",
+			"version": "1.1.5",
+			"id": "44D43A8D43ECFEA064520DC3944CA1B751B9F8C56A6FC46B00A5B95712B4A378",
+			"repository": "https://github.com/Coises/ColumnsPlusPlus/releases/download/v1.1.5/ColumnsPlusPlus-1.1.5-x64.zip",
 			"description": "Offers features for working with text and data arranged in columns, including an implementation of elastic tabstops, enhanced searching and sorting, column alignment and numeric calulations.",
 			"author": "Randall Joseph Fellmy",
 			"homepage": "https://github.com/Coises/ColumnsPlusPlus",
@@ -242,11 +242,11 @@
 		{
 			"folder-name": "CSScriptNpp",
 			"display-name": "CS-Script - C# Intellisense",
-			"version": "2.0.6.0",
+			"version": "2.0.9.0",
 			"npp-compatible-versions": "[8.3,]",
 			"old-versions-compatibility": "[,1.7.26][,8.2.1]",
-			"id": "A4BB9F0E079416F15C13A8234D37FC7A2ADCDD564EFBF50F7B2D35C58A8F2EBF",
-			"repository": "https://github.com/oleg-shilo/cs-script.npp/releases/download/v2.0.6.0/CSScriptNpp.2.0.6.0.x64.zip",
+			"id": "663C569F768B26740D1D8AAB83C6A1040090010DB87969D5F7FD7BC0B8B9D05D",
+			"repository": "https://github.com/oleg-shilo/cs-script.npp/releases/download/v2.0.9.0/CSScriptNpp.2.0.9.0.x64.zip",
 			"description": "CS-Script integration. Implements a real C# Intellisense solution based on CS-Script and Roslyn. Allows loading, executing modifying and debugging C# scripts in a way very similar to the Visual Studio C# projects support. This includes referencing assemblies and other scripts, code formatting, adding missing namespaces and intercepting Debug and Console output.",
 			"author": "Oleg Shilo",
 			"homepage": "https://github.com/oleg-shilo/cs-script.npp"
@@ -417,10 +417,10 @@
 		{
 			"folder-name": "NPPFSIPlugin",
 			"display-name": "F# Interactive",
-			"version": "0.2.3.0",
+			"version": "0.2.3.1",
 			"npp-compatible-versions": "[7.7,]",
-			"id": "872fa97b38be7d569a81d92b8d46b208806d14a29b59d6fb303bd74b1d161444",
-			"repository": "https://github.com/rdipardo/nppFSIPlugin/releases/download/v0.2.3.0/NPPFSIPlugin_v0.2.3.0_x64.zip",
+			"id": "53b4d5883a61b84106960eff0d09157cb8ab41c11aaa69e8fc9402f6f3e94e50",
+			"repository": "https://github.com/rdipardo/nppFSIPlugin/releases/download/v0.2.3.1/NPPFSIPlugin_v0.2.3.1_x64.zip",
 			"description": "F# source code lexer and IPC client for F# Interactive.\r\nNote: the .NET SDK must be installed separately.",
 			"author": "Prapin Peethambaran",
 			"homepage": "https://github.com/rdipardo/nppFSIPlugin"
@@ -496,11 +496,11 @@
 		{
 			"folder-name": "HTMLTag",
 			"display-name": "HTML Tag",
-			"version": "1.5.1.0",
+			"version": "1.5.2.0",
 			"npp-compatible-versions": "[8.3,]",
 			"old-versions-compatibility": "[,1.1][,8.2.1]",
-			"id": "15eebaa7bac82a2571dd05c0590421c090e78f709f4360af7248385ca8672f7b",
-			"repository": "https://bitbucket.org/rdipardo/htmltag/downloads/HTMLTag_v1.5.1_x64.zip",
+			"id": "5138950112dadb99ac24c991f779e0fb8e9087ec43f54ca02997360fbca916ab",
+			"repository": "https://bitbucket.org/rdipardo/htmltag/downloads/HTMLTag_v1.5.2_x64.zip",
 			"description": "Provides three core functions:\r\n- HTML and XML tag jumping, like the built-in brace matching and selection\r\n of tags and/or contents.\r\n- HTML entity encoding/decoding (example: é to &eacute;)\r\n- JS character encoding/decoding (example: é to \\u00E9)",
 			"author": "Martijn Coppoolse",
 			"homepage": "https://bitbucket.org/rdipardo/htmltag/"
@@ -593,9 +593,9 @@
 		{
 			"folder-name": "NPPJSONViewer",
 			"display-name": "JSON Viewer",
-			"version": "2.1.0.0",
-			"id": "bedd72837d45e7b03eab07d48087f2cbe69a6f79de54a0ee2d3e342c3fd05b21",
-			"repository": "https://github.com/NPP-JSONViewer/JSON-Viewer/releases/download/v2.1.0.0/x64_Release.zip",
+			"version": "2.1.1.0",
+			"id": "d9e779084aee1a45a150eaa27dc10000be575364af4c9fc3f3f6937f2e5bf00c",
+			"repository": "https://github.com/NPP-JSONViewer/JSON-Viewer/releases/download/v2.1.1.0/NppJSONViewer_x64_Release.zip",
 			"description": "JSON viewer that displays the selected JSON string in a tree view.",
 			"author": "Kapil Ratnani, Rajendra Singh",
 			"homepage": "https://github.com/NPP-JSONViewer/JSON-Viewer",
@@ -779,10 +779,10 @@
 		{
 			"folder-name": "NppOpenAI",
 			"display-name": "NppOpenAI",
-			"version": "0.4.1.0",
+			"version": "0.4.2.1",
 			"npp-compatible-versions": "[8.4.8,]",
-			"id": "dab92a0bb2a646f58e06ba177de8511fe431f73b3f2d7e631bf4f0472979dc04",
-			"repository": "https://github.com/Krazal/nppopenai/releases/download/v0.4.1.0/NppOpenAI_x64.zip",
+			"id": "6a75e7a789b34275f0211674ac9ff31aa2d688a0dcc01ae0a6a05609449a6a8c",
+			"repository": "https://github.com/Krazal/nppopenai/releases/download/v0.4.2.1/NppOpenAI_x64.zip",
 			"description": "OpenAI (aka. ChatGPT) plugin for Notepad++. Simply select your text, press Ctrl + Shift + O, and you'll see the AI generated response in seconds. Two examples: 'Please create a Fibonacci function in PHP'; 'Mi az árvíztűrő tükörfúrógép?' (Hungarian Unicode test) etc. This plugin requires an active internet connection and an OpenAI registration / API key (handles it confidentially).",
 			"author": "Richárd Stockinger",
 			"homepage": "https://github.com/Krazal/nppopenai"
@@ -836,11 +836,11 @@
 		{
 			"folder-name": "nppRandomStringGenerator",
 			"display-name": "npp Random String Generator",
-			"version": "1.9.2",
+			"version": "1.9.4",
 			"npp-compatible-versions": "[8.3,]",
 			"old-versions-compatibility": "[,1.3][,8.2.1]",
-			"id": "9afbe8efe7612ff3f980353d3949110934164f85d772aa93743ac7733cc907e6",
-			"repository": "https://github.com/cmbsolutions/nppRandomStringGenerator/releases/download/v1.9.2/nppRandomStringGenerator.1.9.2.x64.zip",
+			"id": "e2a357fb097cd0e26c6a18509043e01d159bc4046e37bd1ab4b04a6a419083bb",
+			"repository": "https://github.com/cmbsolutions/nppRandomStringGenerator/releases/download/v1.9.4/nppRandomStringGenerator.1.9.4.x64.zip",
 			"description": "Generates random strings with configurable output.",
 			"author": "Maurice CMBSolutions",
 			"homepage": "https://github.com/cmbsolutions/nppRandomStringGenerator"
@@ -1164,11 +1164,11 @@
 		{
 			"folder-name": "PythonScript",
 			"display-name": "PythonScript",
-			"version": "2.0.0.0",
+			"version": "2.1.0.0",
 			"npp-compatible-versions": "[8.3,]",
 			"old-versions-compatibility": "[,1.5.4][,8.2.1]",
-			"id": "5bbacf656181adfb05b645f57634225c29e8d8ae1c6bec7842f2ff47958cfcd8",
-			"repository": "https://github.com/bruderstein/PythonScript/releases/download/v2.0.0/PythonScript_Full_2.0.0.0_x64_PluginAdmin.zip",
+			"id": "4627850375cafb5e4f75789a574bc2175b49ff52ccf44c50fca70e3a2e89ed10",
+			"repository": "https://github.com/bruderstein/PythonScript/releases/download/v2.1.0/PythonScript_Full_2.1.0.0_x64_PluginAdmin.zip",
 			"description": "Python Script plugin.",
 			"author": "Dave Brotherstone + Jocelyn Legault",
 			"homepage": "https://github.com/bruderstein/PythonScript"
@@ -1415,9 +1415,9 @@
 		{
 			"folder-name": "SQLinFormNpp64",
 			"display-name": "SQLinForm",
-			"version": "6.24.7.15",
-			"id": "bc48faa694d8a91c5271c4831045a1f5da6704a3fe74a77181a7d8208a2796a1",
-			"repository": "https://www.sqlinform.com/npp/SQLinFormNpp64_6.24.07.zip",
+			"version": "6.25.1.15",
+			"id": "f8892608d318a3663c350fcee837beb8abf0aa95e5db4fe7ffee74fed10d5b57",
+			"repository": "https://www.sqlinform.com/npp/SQLinFormNpp64_6.25.01.zip",
 			"description": "Formats plain SQL, SQL embedded in program code, SQL snippets, and SQL statements with syntax errors.\r\nHas a powerful code folding feature and formats your SQL as you Type. Supports all major DB like Oracle, DB2, SQL Server, Teradata, Netezza, MySQL, Sybase, MS Access, etc. Incorporates its own multi-DB parser engine. No additional software required.",
 			"author": "Guido Thelen",
 			"homepage": "https://www.sqlinform.com"
@@ -1613,10 +1613,10 @@
 		{
 			"folder-name": "AndroidLogger",
 			"display-name": "AndroidLogger",
-			"version": "1.4.1.2",
+			"version": "1.4.2.3",
 			"npp-compatible-versions": "[7.8,]",
-			"id": "fcf348d24f74d2411038f46d8febf5db2c0db5ed869877ef2e1fa6c736efe51c",
-			"repository": "https://sourceforge.net/projects/androidlogger/files/v1.4.1/AndroidLogger.v1.4.1.2.EN.zip",
+			"id": "17eb09a193fa1e050f8301d2ec3809f6af6bdaefc09eec23b585cb9d1952bdf5",
+			"repository": "https://sourceforge.net/projects/androidlogger/files/v1.4.2/AndroidLogger.v1.4.2.3.EN.zip",
 			"description": "A lexer for Android, also can capture logs in real time, provides some utilities for developers.",
 			"author": "simbaba",
 			"homepage": "https://sourceforge.net/projects/androidlogger"
