@@ -200,7 +200,8 @@
 			"npp-compatible-versions": "[8.0,]",
 			"id": "f400872ac8a5383c9b9cbffac383d07cdecfbc850d652a424a3a9c593ee4c38c",
 			"repository": "https://github.com/Natestah/BlitsNppPlugin/releases/download/InitialRelease/BlitzSearch-v1.0.0.3-x64.zip",
-			"description": "Adds Blitz Search This to the Toolbar. Features:\r\n- Search This command with selection to run Blitz Search with substring\r\n- Search This command with no selection to run Blitz Search with Whole word match",			"author": "NateStah",
+			"description": "Adds Blitz Search This to the Toolbar. Features:\r\n- Search This command with selection to run Blitz Search with substring\r\n- Search This command with no selection to run Blitz Search with Whole word match",
+			"author": "NateStah",
 			"homepage": "https://github.com/Natestah/BlitsNppPlugin"
 		},
 		{
@@ -718,10 +719,10 @@
 		{
 			"folder-name": "MultiReplace",
 			"display-name": "MultiReplace",
-			"version": "4.2.1.23",
+			"version": "4.2.2.24",
 			"npp-compatible-versions": "[8.5.4,]",
-			"id": "d3790a2cdf73ecbe0bce1ec2775cbb26752c8f3d17aabd34024595a73216e03b",
-			"repository": "https://github.com/daddel80/notepadpp-multireplace/releases/download/4.2.1.23/MultiReplace-v4.2.1.23-x64.zip",
+			"id": "85af882b9bab93d814c0fd87e18d99f351d3ed87fb891cacef34cb5187ef2304",
+			"repository": "https://github.com/daddel80/notepadpp-multireplace/releases/download/4.2.2.24/MultiReplace-v4.2.2.24-x64.zip",
 			"description": "Advanced multi-string replacement; storage of search/replace patterns; CSV column highlighting, targeting, and sorting; mathematical operations on matched strings; rectangular selection support; external lookup files for data normalization and anonymization.",
 			"author": "Thomas Knoefel",
 			"homepage": "https://github.com/daddel80/notepadpp-multireplace"
