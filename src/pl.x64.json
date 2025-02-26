@@ -164,9 +164,9 @@
 		{
 			"folder-name": "ColumnsPlusPlus",
 			"display-name": "Columns++",
-			"version": "1.1.5",
-			"id": "44D43A8D43ECFEA064520DC3944CA1B751B9F8C56A6FC46B00A5B95712B4A378",
-			"repository": "https://github.com/Coises/ColumnsPlusPlus/releases/download/v1.1.5/ColumnsPlusPlus-1.1.5-x64.zip",
+			"version": "1.2",
+			"id": "3B5E3D3E6D26D7191EE9FC90A027D1E2882E4B4E01267B46F8470FAC5DD8A45D",
+			"repository": "https://github.com/Coises/ColumnsPlusPlus/releases/download/v1.2/ColumnsPlusPlus-1.2-x64.zip",
 			"description": "Offers features for working with text and data arranged in columns, including an implementation of elastic tabstops, enhanced searching and sorting, column alignment and numeric calulations.",
 			"author": "Randall Joseph Fellmy",
 			"homepage": "https://github.com/Coises/ColumnsPlusPlus",
