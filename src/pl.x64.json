@@ -540,9 +540,9 @@
 		{
 			"folder-name": "NppJavaPlugin",
 			"display-name": "Java Plugin",
-			"version": "0.4.0",
-			"id": "e2ac3bfd6fac22d6a977a82f725e3cc0949f59daa41153aba54c5bef3c87816e",
-			"repository": "https://github.com/dominikcebula/npp-java-plugin/releases/download/v0.4.0/NppJavaPlugin_v0.4.0_x64.zip",
+			"version": "0.4.1",
+			"id": "28a4ad11fe89861c58862828c33781d91c7a50e180c510a2f2427bf5abaca0b3",
+			"repository": "https://github.com/dominikcebula/npp-java-plugin/releases/download/v0.4.1/NppJavaPlugin_v0.4.1_x64.zip",
 			"description": "Allows Java Code Compilation and Execution directly from Notepad++.",
 			"author": "Dominik Cebula",
 			"homepage": "https://github.com/dominikcebula/npp-java-plugin"
