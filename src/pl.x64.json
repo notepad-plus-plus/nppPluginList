@@ -1614,10 +1614,10 @@
 		{
 			"folder-name": "AndroidLogger",
 			"display-name": "AndroidLogger",
-			"version": "1.4.2.3",
+			"version": "1.4.2.4",
 			"npp-compatible-versions": "[7.8,]",
-			"id": "17eb09a193fa1e050f8301d2ec3809f6af6bdaefc09eec23b585cb9d1952bdf5",
-			"repository": "https://sourceforge.net/projects/androidlogger/files/v1.4.2/AndroidLogger.v1.4.2.3.EN.zip",
+			"id": "dd84387cf7c55e34c87597a7d7a5b6a94a761cb47fef0697d3ad1ca3f49e3359",
+			"repository": "https://sourceforge.net/projects/androidlogger/files/v1.4.2/AndroidLogger.v1.4.2.4.EN.zip",
 			"description": "A lexer for Android, also can capture logs in real time, provides some utilities for developers.",
 			"author": "simbaba",
 			"homepage": "https://sourceforge.net/projects/androidlogger"
