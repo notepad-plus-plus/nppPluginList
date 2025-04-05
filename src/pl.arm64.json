@@ -67,6 +67,17 @@
 			"homepage": "https://bitbucket.org/rdipardo/htmltag"
 		},
 		{
+			"folder-name": "Linter++",
+			"display-name": "Linter++",
+			"version": "1.0.0.0",
+            "npp-compatible-versions": "[8.7.5,]",
+            "id": "CAE8F0637CC731C7BE5314AC484C4CFFBDF5EE40F63F2AB187EFE6A9924CFE41",
+			"repository": "https://github.com/ThosRTanner/notepad-pp-linter/releases/download/1.0.0/plugin_dll_ARM64.zip",
+			"description": "Allows realtime code check against any checkstyle-compatible linter: jshint, eslint, jscs, phpcs, csslint, and many others.",
+			"author": "Tom Tanner",
+			"homepage": "https://github.com/thosrtanner/notepad-pp-linter"
+		},
+		{
 			"folder-name": "mimeTools",
 			"display-name": "Mime tools",
 			"version": "3.1",
