@@ -643,6 +643,17 @@
 			"homepage": "https://github.com/deadem/notepad-pp-linter"
 		},
 		{
+			"folder-name": "Linter++",
+			"display-name": "Linter++",
+			"version": "1.0.0.0",
+            "npp-compatible-versions": "[8.7.5,]",
+            "id": "4F4341FE98902824639A8C88D64D015D20A934ADE215145EFAA577FDF4231F9C",
+			"repository": "https://github.com/ThosRTanner/notepad-pp-linter/releases/download/1.0.0/plugin_dll_x64.zip",
+			"description": "Allows realtime code check against any checkstyle-compatible linter: jshint, eslint, jscs, phpcs, csslint, and many others.",
+			"author": "Tom Tanner",
+			"homepage": "https://github.com/thosrtanner/notepad-pp-linter"
+		},
+		{
 			"folder-name": "LocationNavigate",
 			"display-name": "Location Navigate",
 			"version": "0.4.8.1",
