@@ -1,6 +1,6 @@
 {
 	"name": "npp-pluginList",
-	"version": "1.8.0",
+	"version": "1.8.2",
 	"arch": "32",
 	"npp-plugins": [
 		{
@@ -160,9 +160,9 @@
 		{
 			"folder-name": "ColumnsPlusPlus",
 			"display-name": "Columns++",
-			"version": "1.1.5",
-			"id": "3D4BF57DE2783A025DCDCBFB411E574BCC3A6660DF0809A58DF9FFECCDAFE40C",
-			"repository": "https://github.com/Coises/ColumnsPlusPlus/releases/download/v1.1.5/ColumnsPlusPlus-1.1.5-x86.zip",
+			"version": "1.2",
+			"id": "5246A3136E29284719D8595F38F7BCB19679B2A3A0CC39939557048E240709BE",
+			"repository": "https://github.com/Coises/ColumnsPlusPlus/releases/download/v1.2/ColumnsPlusPlus-1.2-x86.zip",
 			"description": "Offers features for working with text and data arranged in columns, including an implementation of elastic tabstops, enhanced searching and sorting, column alignment and numeric calulations.",
 			"author": "Randall Joseph Fellmy",
 			"homepage": "https://github.com/Coises/ColumnsPlusPlus",
@@ -213,9 +213,9 @@
 		{
 			"folder-name": "CSScriptNpp",
 			"display-name": "CS-Script - C# Intellisense",
-			"version": "2.0.8.0",
-			"id": "CB2C389715DD22C92B60BCFA08FD6DDC1B2B3CFF4187F06D563599BEEF6FEBA5",
-			"repository": "https://github.com/oleg-shilo/cs-script.npp/releases/download/v2.0.8.0/CSScriptNpp.2.0.8.0.x86.zip",
+			"version": "2.0.9.0",
+			"id": "62F644E8122EB951EEECAEBDFAA31232D2CE2BFF4D3E305818095875322BC393",
+			"repository": "https://github.com/oleg-shilo/cs-script.npp/releases/download/v2.0.9.0/CSScriptNpp.2.0.9.0.x86.zip",
 			"description": "CS-Script integration. Implements a real C# Intellisense solution based on CS-Script and Roslyn. Allows loading, executing modifying and debugging C# scripts in a way very similar to the Visual Studio C# projects support. This includes referencing assemblies and other scripts, code formatting, adding missing namespaces and intercepting Debug and Console output.",
 			"author": "Oleg Shilo",
 			"homepage": "https://github.com/oleg-shilo/cs-script.npp"
@@ -223,11 +223,11 @@
 		{
 			"folder-name": "CSVLint",
 			"display-name": "CSV Lint",
-			"version": "0.4.6.7",
+			"version": "0.4.6.8",
 			"npp-compatible-versions": "[8.4,]",
 			"old-versions-compatibility": "[,0.4.5.1][,8.3.3]",
-			"id": "82ab68a250e833e02f9cfce217258e13f69c3d3e47d2d43b0f7396b9fb9305bc",
-			"repository": "https://github.com/BdR76/CSVLint/releases/download/0.4.6.7/CSVLint_x86.zip",
+			"id": "adc0622654625aa0b2ba14a757a3ef415f9d1c8fc682c87504720bbb122f78a9",
+			"repository": "https://github.com/BdR76/CSVLint/releases/download/0.4.6.8/CSVLint_x86.zip",
 			"description": "Syntax highlighting and quality control for csv and fixed width data, detect column and datatypes, convert datetime/decimal format, sql, xml",
 			"author": "Bas de Reuver",
 			"homepage": "https://github.com/BdR76/CSVLint/"
@@ -580,9 +580,9 @@
 		{
 			"folder-name": "NppJavaPlugin",
 			"display-name": "Java Plugin",
-			"version": "0.4.0",
-			"id": "8ceae37ad7aab7a663c93076e9b50c9e6e64320f987de52726ea6b160b9ee61c",
-			"repository": "https://github.com/dominikcebula/npp-java-plugin/releases/download/v0.4.0/NppJavaPlugin_v0.4.0_x86.zip",
+			"version": "0.4.1",
+			"id": "12debe5cc8f75d2c964166ce0386e031eb4fcb354eebd5030bfde72aa44afdf5",
+			"repository": "https://github.com/dominikcebula/npp-java-plugin/releases/download/v0.4.1/NppJavaPlugin_v0.4.1_x86.zip",
 			"description": "Allows Java Code Compilation and Execution directly from Notepad++.",
 			"author": "Dominik Cebula",
 			"homepage": "https://github.com/dominikcebula/npp-java-plugin"
@@ -642,9 +642,9 @@
 		{
 			"folder-name": "NPPJSONViewer",
 			"display-name": "JSON Viewer",
-			"version": "2.1.0.0",
-			"id": "e33aca9390566841389c1a049729318ff22c131f049ceede07758cec0141fd24",
-			"repository": "https://github.com/NPP-JSONViewer/JSON-Viewer/releases/download/v2.1.0.0/Win32_Release.zip",
+			"version": "2.1.1.0",
+			"id": "46e6a27383886927ee15bec0df738d3709fee2fc9cb16a7d28ce97587378d30f",
+			"repository": "https://github.com/NPP-JSONViewer/JSON-Viewer/releases/download/v2.1.1.0/NppJSONViewer_Win32_Release.zip",
 			"description": "JSON viewer that displays the selected JSON string in a tree view.",
 			"author": "Kapil Ratnani, Rajendra Singh",
 			"homepage": "https://github.com/NPP-JSONViewer/JSON-Viewer",
@@ -653,9 +653,9 @@
 		{
 			"folder-name": "JSMinNPP",
 			"display-name": "JSTool",
-			"version": "1.2312.0",
-			"id": "dc46e2bf466bd6431351e73bc332e47134b5e04d3c79cfc4738b79ecfed050ed",
-			"repository": "https://sourceforge.net/projects/jsminnpp/files/Uni/JSToolNPP.1.2312.0.uni.32.zip",
+			"version": "1.2503.0",
+			"id": "b54ca763ea970ba776e779fdcc631c0e441dca4ab55995491ab4a5763aef3af4",
+			"repository": "https://sourceforge.net/projects/jsminnpp/files/Uni/JSToolNPP.1.2503.0.uni.32.zip",
 			"description": "Javascript plugin.\r\n * Douglas Crockford's JSMin algorithm to minimize javascript code.\r\n * My own algorithm to format javascript code.\r\n * A JSON data viewer. This JSON data viewer can handle >10MB JSON file easily.\r\n * Support 64bit Notepad++ (from version 1.20.0).\r\nReally helpful to javascript coder on Notepad++ and really easy to use it.\r\nMade in China.",
 			"author": "Sun Junwen",
 			"homepage": "https://github.com/sunjw/jstoolnpp"
@@ -806,10 +806,10 @@
 		{
 			"folder-name": "MultiReplace",
 			"display-name": "MultiReplace",
-			"version": "4.2.0.22",
+			"version": "4.2.2.25",
 			"npp-compatible-versions": "[8.5.4,]",
-			"id": "d76c748b3de13d3713868f032bd129b9ad26ab4b6de49f89b255a01a743f44ea",
-			"repository": "https://github.com/daddel80/notepadpp-multireplace/releases/download/4.2.0.22/MultiReplace-v4.2.0.22-Win32.zip",
+			"id": "ce5608e2cf59d95b016b3581494dad6e172e79744e06978ad8ee510cc3835c50",
+			"repository": "https://github.com/daddel80/notepadpp-multireplace/releases/download/4.2.2.25/MultiReplace-v4.2.2.25-Win32.zip",
 			"description": "Advanced multi-string replacement; storage of search/replace patterns; CSV column highlighting, targeting, and sorting; mathematical operations on matched strings; rectangular selection support; external lookup files for data normalization and anonymization.",
 			"author": "Thomas Knoefel",
 			"homepage": "https://github.com/daddel80/notepadpp-multireplace"
@@ -934,11 +934,11 @@
 		{
 			"folder-name": "nppRandomStringGenerator",
 			"display-name": "npp Random String Generator",
-			"version": "1.9.2",
+			"version": "1.9.4",
 			"npp-compatible-versions": "[8.3,]",
 			"old-versions-compatibility": "[,1.3][,8.2.1]",
-			"id": "13a84b6cb30fb042e10ee8887e13e1f09bd8c118907568be215e198286111356",
-			"repository": "https://github.com/cmbsolutions/nppRandomStringGenerator/releases/download/v1.9.2/nppRandomStringGenerator.1.9.2.x86.zip",
+			"id": "ede6c093b60aa7ba64363f50c34d68288712c6027d6568bef09d3de5e65d4664",
+			"repository": "https://github.com/cmbsolutions/nppRandomStringGenerator/releases/download/v1.9.4/nppRandomStringGenerator.1.9.4.x86.zip",
 			"description": "Generates random strings with configurable output.",
 			"author": "Maurice CMBSolutions",
 			"homepage": "https://github.com/cmbsolutions/nppRandomStringGenerator"
@@ -1597,10 +1597,10 @@
 		{
 			"folder-name": "StayAwake_NPP",
 			"display-name": "StayAwake",
-			"version": "1.0.0.0",
-			"id": "e36d5631997462521cccfd2a99e059df3fa37fd712e38537fed7847894bc2e10",
-			"repository": "https://github.com/shriprem/StayAwake_NPP_Plugin/releases/download/v1.0.0.0/StayAwake_NPP_x86.zip",
-			"description": "StayAwake is a simple utility that enables you to maintain an Active status on Microsoft Teams by periodically cycling (double-toggling) the Scroll Lock button.",
+			"version": "1.0.0.2",
+			"id": "767a200b12e00e810f90c351ec72bf48571a84ed7c16a5a84684a3592d141b3c",
+			"repository": "https://github.com/shriprem/StayAwake_NPP_Plugin/releases/download/v1.0.0.2/StayAwake_NPP_x86.zip",
+			"description": "StayAwake is a simple utility that enables you to maintain an Active status on Microsoft Teams by periodically cycling (double-toggling) the Scroll Lock button. StayAwake also prevents screen saver activation, screen blanking, and Windows session lockouts.",
 			"author": "Shridhar Kumar",
 			"homepage": "https://github.com/shriprem/StayAwake_NPP_Plugin"
 		},

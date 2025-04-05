@@ -1,6 +1,6 @@
 {
 	"name": "npp-pluginList",
-	"version": "1.8.0",
+	"version": "1.8.2",
 	"arch": "arm64",
 	"npp-plugins": [
 		{
@@ -92,10 +92,10 @@
 		{
 			"folder-name": "MultiReplace",
 			"display-name": "MultiReplace",
-			"version": "4.2.0.22",
+			"version": "4.2.2.25",
 			"npp-compatible-versions": "[8.5.4,]",
-			"id": "5cb45acb36b43f9f83fc3b041139f4f9077fe564fa488c859f1f9c0756831f83",
-			"repository": "https://github.com/daddel80/notepadpp-multireplace/releases/download/4.2.0.22/MultiReplace-v4.2.0.22-ARM64.zip",
+			"id": "67eb9ae634daef1a9de7c0c293091cb79f19654b923d4d2e04c3333ae3c41f43",
+			"repository": "https://github.com/daddel80/notepadpp-multireplace/releases/download/4.2.2.25/MultiReplace-v4.2.2.25-ARM64.zip",
 			"description": "Advanced multi-string replacement; storage of search/replace patterns; CSV column highlighting, targeting, and sorting; mathematical operations on matched strings; rectangular selection support; external lookup files for data normalization and anonymization.",
 			"author": "Thomas Knoefel",
 			"homepage": "https://github.com/daddel80/notepadpp-multireplace"
@@ -251,10 +251,10 @@
 		{
 			"folder-name": "StayAwake_NPP",
 			"display-name": "StayAwake",
-			"version": "1.0.0.0",
-			"id": "6ec67c7c9442fc9f26f3ddd4ea3e32489616dc1a1ad0e22c1a4c34c786c66db5",
-			"repository": "https://github.com/shriprem/StayAwake_NPP_Plugin/releases/download/v1.0.0.0/StayAwake_NPP_arm64.zip",
-			"description": "StayAwake is a simple utility that enables you to maintain an Active status on Microsoft Teams by periodically cycling (double-toggling) the Scroll Lock button.",
+			"version": "1.0.0.2",
+			"id": "48566b7b705725c6b710f1897c681667a77366a06004504c304299eb4a787adf",
+			"repository": "https://github.com/shriprem/StayAwake_NPP_Plugin/releases/download/v1.0.0.2/StayAwake_NPP_arm64.zip",
+			"description": "StayAwake is a simple utility that enables you to maintain an Active status on Microsoft Teams by periodically cycling (double-toggling) the Scroll Lock button. StayAwake also prevents screen saver activation, screen blanking, and Windows session lockouts.",
 			"author": "Shridhar Kumar",
 			"homepage": "https://github.com/shriprem/StayAwake_NPP_Plugin"
 		},
@@ -281,9 +281,9 @@
 		{
 			"folder-name": "NPPJSONViewer",
 			"display-name": "JSON Viewer",
-			"version": "2.1.0.0",
-			"id": "37b87effab3dddf15f71618f734577b497f89c016944076bed497fbdb7118b7a",
-			"repository": "https://github.com/NPP-JSONViewer/JSON-Viewer/releases/download/v2.1.0.0/ARM64_Release.zip",
+			"version": "2.1.1.0",
+			"id": "e35a2ff36efb0feb6964946e584eb6cb6784e4987340ad76050f19cce0675f63",
+			"repository": "https://github.com/NPP-JSONViewer/JSON-Viewer/releases/download/v2.1.1.0/NppJSONViewer_ARM64_Release.zip",
 			"description": "JSON viewer that displays the selected JSON string in a tree view.",
 			"author": "Kapil Ratnani, Rajendra Singh",
 			"homepage": "https://github.com/NPP-JSONViewer/JSON-Viewer",
@@ -292,9 +292,9 @@
 		{
 			"folder-name": "JSMinNPP",
 			"display-name": "JSTool",
-			"version": "1.2312.0",
-			"id": "cacc174c42f867276d74b46ac8a8d32ae252886d086732200c04ff05afba220c",
-			"repository": "https://sourceforge.net/projects/jsminnpp/files/Uni/JSToolNPP.1.2312.0.uni.arm64.zip",
+			"version": "1.2503.0",
+			"id": "f72b668ca295f3f6133bc3f17c2ef0c67a90e9d4d2bbb605f908530ac57bebdf",
+			"repository": "https://sourceforge.net/projects/jsminnpp/files/Uni/JSToolNPP.1.2503.0.uni.arm64.zip",
 			"description": "Javascript plugin.\r\n * Douglas Crockford's JSMin algorithm to minimize javascript code.\r\n * My own algorithm to format javascript code.\r\n * A JSON data viewer. This JSON data viewer can handle >10MB JSON file easily.\r\n * Support 64bit Notepad++ (from version 1.20.0).\r\nReally helpful to javascript coder on Notepad++ and really easy to use it.\r\nMade in China.",
 			"author": "Sun Junwen",
 			"homepage": "https://github.com/sunjw/jstoolnpp"
