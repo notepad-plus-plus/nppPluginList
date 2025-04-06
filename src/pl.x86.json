@@ -1170,9 +1170,9 @@
 		{
 			"folder-name": "NppTextViz",
 			"display-name": "NppTextViz",
-			"version": "0.4.2",
-			"id": "8bfefc05f32c8e2ef4eb67b4550da3a7e3be9370eaf379bb899f11b6849867ff",
-			"repository": "https://github.com/KubaDee/NppTextViz/releases/download/v0.4.2/NppTextViz_x86_v0.4.2.zip",
+			"version": "0.4.3",
+			"id": "e573e68db6373d7e7fb9f8032508169b374497da947fa62c0f05466abc3e0238",
+			"repository": "https://github.com/chcg/NppTextViz/releases/download/v0.4.3/NppTextViz_v0.4.3_Win32.zip",
 			"description": "Hide or show lines to help analyse larger files - logs for example. Can hide all lines that contain text pattern. Or simply select several lines and hide them. Based on TextFX plugin v0.25 by Chris Severance.",
 			"author": "Jakub Dvorak",
 			"homepage": "https://github.com/KubaDee/NppTextViz"

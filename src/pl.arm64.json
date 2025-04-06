@@ -187,6 +187,16 @@
 			"homepage": "https://www.fesevur.com/nppsnippets"
 		},
 		{
+			"folder-name": "NppTextViz",
+			"display-name": "NppTextViz",
+			"version": "0.4.3",
+			"id": "8fdf194f386806bc86a0ea771f8e8ee7a4e4564f3603631bcd93589a525f0bb3",
+			"repository": "https://github.com/chcg/NppTextViz/releases/download/v0.4.3/NppTextViz_v0.4.3_ARM64.zip",
+			"description": "Hide or show lines to help analyse larger files - logs for example. Can hide all lines that contain text pattern. Or simply select several lines and hide them. Based on TextFX plugin v0.25 by Chris Severance.",
+			"author": "Jakub Dvorak",
+			"homepage": "https://github.com/KubaDee/NppTextViz"
+		},
+		{
 			"folder-name": "pork2sausage",
 			"display-name": "Pork to Sausage",
 			"version": "2.5",
