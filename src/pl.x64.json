@@ -36,6 +36,17 @@
 			"homepage": "https://sourceforge.net/projects/analyseplugin"
 		},
 		{
+			"folder-name": "AndroidLogger",
+			"display-name": "AndroidLogger",
+			"version": "1.4.2.4",
+			"npp-compatible-versions": "[7.8,]",
+			"id": "dd84387cf7c55e34c87597a7d7a5b6a94a761cb47fef0697d3ad1ca3f49e3359",
+			"repository": "https://sourceforge.net/projects/androidlogger/files/v1.4.2/AndroidLogger.v1.4.2.4.EN.zip",
+			"description": "A lexer for Android, also can capture logs in real time, provides some utilities for developers.",
+			"author": "simbaba",
+			"homepage": "https://sourceforge.net/projects/androidlogger"
+		},
+		{
 			"folder-name": "nppAutoDetectIndent",
 			"display-name": "Auto Detect Indention",
 			"version": "2.3",
@@ -110,6 +121,17 @@
 			"description": "Reads very large files. It does this by only showing a small buffer of the file and let the user move back anf forth in the page.\r\nThis is useful when you want to preview very large text files. Opening is done separately from Notepad++ and there is no option to save.\r\nhttps://github.com/superolmo/BigFiles",
 			"author": "Claudio Olmi",
 			"homepage": "https://github.com/superolmo/BigFiles"
+		},
+		{
+			"folder-name": "BlitzSearch",
+			"display-name": "Blitz Search",
+			"version": "1.0.0.3",
+			"npp-compatible-versions": "[8.0,]",
+			"id": "f400872ac8a5383c9b9cbffac383d07cdecfbc850d652a424a3a9c593ee4c38c",
+			"repository": "https://github.com/Natestah/BlitsNppPlugin/releases/download/InitialRelease/BlitzSearch-v1.0.0.3-x64.zip",
+			"description": "Adds Blitz Search This to the Toolbar. Features:\r\n- Search This command with selection to run Blitz Search with substring\r\n- Search This command with no selection to run Blitz Search with Whole word match",
+			"author": "NateStah",
+			"homepage": "https://github.com/Natestah/BlitsNppPlugin"
 		},
 		{
 			"folder-name": "BookmarksDook",
@@ -192,17 +214,6 @@
 			"description": "Smart single button comment toggler. Features:\r\n- Does not insert space in front of the comment\r\n- Supports all the built-in languages and even user defined languages\r\n- Can do simple single line comments without selection\r\n- Preserves indentation in the commented code block\r\n- Fixes some indentation inconsistencies\r\n- Supports block comments\r\n- Supports multiple selections\r\n- With every type of comment at the same time!",
 			"author": "ScienceDiscoverer",
 			"homepage": "https://github.com/ScienceDiscoverer/CommentToggler"
-		},
-		{
-			"folder-name": "BlitzSearch",
-			"display-name": "Blitz Search",
-			"version": "1.0.0.3",
-			"npp-compatible-versions": "[8.0,]",
-			"id": "f400872ac8a5383c9b9cbffac383d07cdecfbc850d652a424a3a9c593ee4c38c",
-			"repository": "https://github.com/Natestah/BlitsNppPlugin/releases/download/InitialRelease/BlitzSearch-v1.0.0.3-x64.zip",
-			"description": "Adds Blitz Search This to the Toolbar. Features:\r\n- Search This command with selection to run Blitz Search with substring\r\n- Search This command with no selection to run Blitz Search with Whole word match",
-			"author": "NateStah",
-			"homepage": "https://github.com/Natestah/BlitsNppPlugin"
 		},
 		{
 			"folder-name": "Comment Wrap",
@@ -449,6 +460,17 @@
 			"homepage": "https://github.com/shriprem/FWDataViz"
 		},
 		{
+			"folder-name": "FoldingLineHider",
+			"display-name": "Folding Line Hider",
+			"version": "1.1",
+			"npp-compatible-versions": "[7.0,]",
+			"id": "2457f477e856e07ebbe3381aed9df1b2a1023dafdc9a3b0ca25cbe39604a6f5a",
+			"repository": "https://github.com/leonardchai/FoldingLineHider/releases/download/v1.1/FoldingLineHider1.1.x64.zip",
+			"description": "This Notepad++ plugin can hide the unsightly folding lines, and for convenience, you can fold and unfold the current level using the Alt + Left/Right keys.",
+			"author": "leonardchai@gmail.com",
+			"homepage": "https://github.com/leonardchai/FoldingLineHider"
+		},
+		{
 			"folder-name": "GedcomLexer",
 			"display-name": "GEDCOM Lexer",
 			"version": "0.5.0.170",
@@ -646,8 +668,8 @@
 			"folder-name": "Linter++",
 			"display-name": "Linter++",
 			"version": "1.0.0.0",
-            "npp-compatible-versions": "[8.7.5,]",
-            "id": "4F4341FE98902824639A8C88D64D015D20A934ADE215145EFAA577FDF4231F9C",
+			"npp-compatible-versions": "[8.7.5,]",
+			"id": "4F4341FE98902824639A8C88D64D015D20A934ADE215145EFAA577FDF4231F9C",
 			"repository": "https://github.com/ThosRTanner/notepad-pp-linter/releases/download/1.0.0/plugin_dll_x64.zip",
 			"description": "Allows realtime code check against any checkstyle-compatible linter: jshint, eslint, jscs, phpcs, csslint, and many others.",
 			"author": "Tom Tanner",
@@ -789,17 +811,6 @@
 			"homepage": "https://github.com/azerg/NppBplistPlugin"
 		},
 		{
-			"folder-name": "NppOpenAI",
-			"display-name": "NppOpenAI",
-			"version": "0.4.2.1",
-			"npp-compatible-versions": "[8.4.8,]",
-			"id": "6a75e7a789b34275f0211674ac9ff31aa2d688a0dcc01ae0a6a05609449a6a8c",
-			"repository": "https://github.com/Krazal/nppopenai/releases/download/v0.4.2.1/NppOpenAI_x64.zip",
-			"description": "OpenAI (aka. ChatGPT) plugin for Notepad++. Simply select your text, press Ctrl + Shift + O, and you'll see the AI generated response in seconds. Two examples: 'Please create a Fibonacci function in PHP'; 'Mi az árvíztűrő tükörfúrógép?' (Hungarian Unicode test) etc. This plugin requires an active internet connection and an OpenAI registration / API key (handles it confidentially).",
-			"author": "Richárd Stockinger",
-			"homepage": "https://github.com/Krazal/nppopenai"
-		},
-		{
 			"folder-name": "NppPluginDemo",
 			"display-name": "Notepad++ Plugin Demo",
 			"version": "4.4",
@@ -844,6 +855,17 @@
 			"description": "ASCII<->Hex converter.",
 			"author": "Don HO",
 			"homepage": "https://github.com/npp-plugins/converter/"
+		},
+		{
+			"folder-name": "Npp-Highlighter",
+			"display-name": "Npp Highlighter",
+			"version": "1.0.0.1",
+			"npp-compatible-versions": "[,8.5]",
+			"id": "b968b70727a6ed03ad814dabe26865f0c01463552c529a139f12c74f2c791780",
+			"repository": "https://github.com/michaelxzhang/Npp-Highlighter/releases/download/v1.0.0.1/Npp-Highlighter_x64.zip",
+			"description": "Npp-Highlighter draw indicator on scroll bar when:\r\n- line contents changed\r\n- double clicked and smart highlighted words\r\n- text highlighted by Style token",
+			"author": "Michael Zhang",
+			"homepage": "https://github.com/michaelxzhang/Npp-Highlighter"
 		},
 		{
 			"folder-name": "nppRandomStringGenerator",
@@ -973,17 +995,6 @@
 			"homepage": "https://github.com/Pascal-Krenckel/NppGZipFileViewer"
 		},
 		{
-			"folder-name": "Npp-Highlighter",
-			"display-name": "Npp Highlighter",
-			"version": "1.0.0.1",
-			"npp-compatible-versions": "[,8.5]",
-			"id": "b968b70727a6ed03ad814dabe26865f0c01463552c529a139f12c74f2c791780",
-			"repository": "https://github.com/michaelxzhang/Npp-Highlighter/releases/download/v1.0.0.1/Npp-Highlighter_x64.zip",
-			"description": "Npp-Highlighter draw indicator on scroll bar when:\r\n- line contents changed\r\n- double clicked and smart highlighted words\r\n- text highlighted by Style token",
-			"author": "Michael Zhang",
-			"homepage": "https://github.com/michaelxzhang/Npp-Highlighter"
-		},
-		{
 			"folder-name": "NppJumpList",
 			"display-name": "NppJumpList",
 			"version": "1.2.2",
@@ -1012,6 +1023,17 @@
 			"description": "Allows the same document to be edited in real time on two different computers. Only needs a network connection between the two.",
 			"author": "Harrybharry",
 			"homepage": "https://sourceforge.net/projects/npp-plugins/files/NppDocShare/"
+		},
+		{
+			"folder-name": "NppOpenAI",
+			"display-name": "NppOpenAI",
+			"version": "0.4.2.1",
+			"npp-compatible-versions": "[8.4.8,]",
+			"id": "6a75e7a789b34275f0211674ac9ff31aa2d688a0dcc01ae0a6a05609449a6a8c",
+			"repository": "https://github.com/Krazal/nppopenai/releases/download/v0.4.2.1/NppOpenAI_x64.zip",
+			"description": "OpenAI (aka. ChatGPT) plugin for Notepad++. Simply select your text, press Ctrl + Shift + O, and you'll see the AI generated response in seconds. Two examples: 'Please create a Fibonacci function in PHP'; 'Mi az árvíztűrő tükörfúrógép?' (Hungarian Unicode test) etc. This plugin requires an active internet connection and an OpenAI registration / API key (handles it confidentially).",
+			"author": "Richárd Stockinger",
+			"homepage": "https://github.com/Krazal/nppopenai"
 		},
 		{
 			"folder-name": "NppPluginOpenHost",
@@ -1054,6 +1076,16 @@
 			"homepage": "https://www.fesevur.com/npptags"
 		},
 		{
+			"folder-name": "NppTextFX",
+			"display-name": "NppTextFX2",
+			"version": "1.4.1",
+			"id": "caf6a2f3e9c54a205e744713a30b5a49baff761b1eed02906ad37a843804c9d0",
+			"repository": "https://github.com/rainman74/NPPTextFX2/releases/download/1.4.1/NppTextFX2.1.4.1.x64.zip",
+			"description": "TextFX2 is a Notepad++ plugin which performs a variety of common conversions on selected text.",
+			"author": "Karlheinz Graf",
+			"homepage": "https://github.com/rainman74/NPPTextFX2"
+		},
+		{
 			"folder-name": "NppTextViz",
 			"display-name": "NppTextViz",
 			"version": "0.4.3",
@@ -1076,16 +1108,6 @@
 			"homepage": "https://github.com/dinkumoil/NppUISpy"
 		},
 		{
-			"folder-name": "nppplugin_ofis2",
-			"display-name": "Open File In Solution",
-			"version": "3.0.1",
-			"id": "26EAD2ED387F77AD416DF8D40729D10619BF740B37DD1709A8728AEDEDCB8B38",
-			"repository": "https://github.com/incrediblejr/nppplugins/releases/download/v3.0.1/nppplugin_ofis2_x64.zip",
-			"description": "Lets you index specific folders and possible specific types of resources (XML, CPP, PY files) for a fast indexing of files.",
-			"author": "IncredibleJunior",
-			"homepage": "https://www.incrediblejunior.com/npp_plugins/"
-		},
-		{
 			"folder-name": "NWScript-Npp",
 			"display-name": "NWScript Tools",
 			"version": "1.2.0.2300",
@@ -1095,6 +1117,26 @@
 			"description": "View, edit and compile Bioware's NWScript files with this plugin. Use customized color-syntax for your personalized tokens and also for engine-defined ones. Can disassemble compiled scripts and build makefile dependencies. Also has a feature to process files in configurable batches.",
 			"author": "Leonardo Silva",
 			"homepage": "https://github.com/Leonard-The-Wise/NWScript-Npp"
+		},
+		{
+			"folder-name": "NX_ASCII_Database_Helper",
+			"display-name": "NX ASCII Database Helper",
+			"version": "2.0.0",
+			"id": "b3f7882b65b0bd36ee69698775bd93723f3bad98539cfb76d0eab8f31c52819c",
+			"repository": "https://github.com/ZhuXuefengGitHub/NX_ASCII_Database_Helper/releases/download/v2.0.0/NX_ASCII_Database_Helper.zip",
+			"description": "This is a Notepad++ plugin for Siemens NX CAM ASCII Database file, which help the user list all of type in database and format file. Simultaneously supporting code highlighting and indentation functions",
+			"author": "Xuefeng",
+			"homepage": "https://github.com/ZhuXuefengGitHub/NX_ASCII_Database_Helper"
+		},
+		{
+			"folder-name": "nppplugin_ofis2",
+			"display-name": "Open File In Solution",
+			"version": "3.0.1",
+			"id": "26EAD2ED387F77AD416DF8D40729D10619BF740B37DD1709A8728AEDEDCB8B38",
+			"repository": "https://github.com/incrediblejr/nppplugins/releases/download/v3.0.1/nppplugin_ofis2_x64.zip",
+			"description": "Lets you index specific folders and possible specific types of resources (XML, CPP, PY files) for a fast indexing of files.",
+			"author": "IncredibleJunior",
+			"homepage": "https://www.incrediblejunior.com/npp_plugins/"
 		},
 		{
 			"folder-name": "OpenSelection",
@@ -1160,6 +1202,17 @@
 			"description": "Preview HTML files inside Notepad++ (or in a floating window) without having to save them first.",
 			"author": "Martijn Coppoolse",
 			"homepage": "https://github.com/rdipardo/npp_preview"
+		},
+		{
+			"folder-name": "pycalc",
+			"display-name": "pycalc",
+			"version": "1.0.0",
+			"npp-compatible-versions": "[7.8.1,]",
+			"id": "7708d6091754d7867f76cb5f1ff14d4aafa48ddd51da8a782b39cc8a85c921aa",
+			"repository": "https://github.com/pycalc-plugin/notepad-plus-plus/releases/download/1.0.0/pycalc-x64.zip",
+			"description": "The pycalc plugin enables the execution of python code directly within the editor upon pressing the Enter key.",
+			"author": "pycalc",
+			"homepage": "https://github.com/pycalc-plugin/notepad-plus-plus"
 		},
 		{
 			"folder-name": "Python Indent",
@@ -1590,59 +1643,6 @@
 			"description": "Tired of zooming your document everytime you just want to scroll but accidentally still holding the [Ctrl] key? Then this is what you want! It disables mouse zoom, keyboard zoom, or both.",
 			"author": "Stanislav Eckert",
 			"homepage": "https://github.com/StanDog/npp-zoomdisabler"
-		},
-		{
-			"folder-name": "NppTextFX",
-			"display-name": "NppTextFX2",
-			"version": "1.4.1",
-			"id": "caf6a2f3e9c54a205e744713a30b5a49baff761b1eed02906ad37a843804c9d0",
-			"repository": "https://github.com/rainman74/NPPTextFX2/releases/download/1.4.1/NppTextFX2.1.4.1.x64.zip",
-			"description": "TextFX2 is a Notepad++ plugin which performs a variety of common conversions on selected text.",
-			"author": "Karlheinz Graf",
-			"homepage": "https://github.com/rainman74/NPPTextFX2"
-		},
-		{
-			"folder-name": "FoldingLineHider",
-			"display-name": "Folding Line Hider",
-			"version": "1.1",
-			"npp-compatible-versions": "[7.0,]",
-			"id": "2457f477e856e07ebbe3381aed9df1b2a1023dafdc9a3b0ca25cbe39604a6f5a",
-			"repository": "https://github.com/leonardchai/FoldingLineHider/releases/download/v1.1/FoldingLineHider1.1.x64.zip",
-			"description": "This Notepad++ plugin can hide the unsightly folding lines, and for convenience, you can fold and unfold the current level using the Alt + Left/Right keys.",
-			"author": "leonardchai@gmail.com",
-			"homepage": "https://github.com/leonardchai/FoldingLineHider"
-		},
-		{
-			"folder-name": "NX_ASCII_Database_Helper",
-			"display-name": "NX ASCII Database Helper",
-			"version": "2.0.0",
-			"id": "b3f7882b65b0bd36ee69698775bd93723f3bad98539cfb76d0eab8f31c52819c",
-			"repository": "https://github.com/ZhuXuefengGitHub/NX_ASCII_Database_Helper/releases/download/v2.0.0/NX_ASCII_Database_Helper.zip",
-			"description": "This is a Notepad++ plugin for Siemens NX CAM ASCII Database file, which help the user list all of type in database and format file. Simultaneously supporting code highlighting and indentation functions",
-			"author": "Xuefeng",
-			"homepage": "https://github.com/ZhuXuefengGitHub/NX_ASCII_Database_Helper"
-		},
-		{
-			"folder-name": "AndroidLogger",
-			"display-name": "AndroidLogger",
-			"version": "1.4.2.4",
-			"npp-compatible-versions": "[7.8,]",
-			"id": "dd84387cf7c55e34c87597a7d7a5b6a94a761cb47fef0697d3ad1ca3f49e3359",
-			"repository": "https://sourceforge.net/projects/androidlogger/files/v1.4.2/AndroidLogger.v1.4.2.4.EN.zip",
-			"description": "A lexer for Android, also can capture logs in real time, provides some utilities for developers.",
-			"author": "simbaba",
-			"homepage": "https://sourceforge.net/projects/androidlogger"
-		},
-		{
-			"folder-name": "pycalc",
-			"display-name": "pycalc",
-			"version": "1.0.0",
-			"npp-compatible-versions": "[7.8.1,]",
-			"id": "7708d6091754d7867f76cb5f1ff14d4aafa48ddd51da8a782b39cc8a85c921aa",
-			"repository": "https://github.com/pycalc-plugin/notepad-plus-plus/releases/download/1.0.0/pycalc-x64.zip",
-			"description": "The pycalc plugin enables the execution of python code directly within the editor upon pressing the Enter key.",
-			"author": "pycalc",
-			"homepage": "https://github.com/pycalc-plugin/notepad-plus-plus"
 		}
 	]
 }
