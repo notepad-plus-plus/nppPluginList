@@ -158,6 +158,17 @@
 			"homepage": "https://github.com/p0358/notepadpp-CodeStats"
 		},
 		{
+			"folder-name": "CollectionInterface",
+			"display-name": "CollectionInterface",
+			"version": "1.0.0",
+			"id": "daa6fbfa777be0bf8ac765e8a768b6598890ca3c4bc170fbb6b14b407d452d71",
+			"repository": "https://github.com/pryrt/NppPlugin-CollectionInterface/releases/download/v1.0.0/CollectionInterface_Win32.zip",
+			"description": "Interface to the official UserDefinedLanguage Collection and nppThemes Collection.\r\n\r\nAllows easy download and installation of a UDL (with FunctionList and AutoCompletion definitions, when available) or a Theme",
+			"author": "pryrt",
+			"homepage": "https://github.com/pryrt/NppPlugin-CollectionInterface",
+			"npp-compatible-versions": "[8.7.5,]"
+		},
+		{
 			"folder-name": "ColumnsPlusPlus",
 			"display-name": "Columns++",
 			"version": "1.2",

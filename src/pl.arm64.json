@@ -24,6 +24,17 @@
 			"homepage": "https://github.com/francostellari/NppPlugins"
 		},
 		{
+			"folder-name": "CollectionInterface",
+			"display-name": "CollectionInterface",
+			"version": "1.0.0",
+			"id": "ee624e41d69286dde7fef460bce457dd0f335ff0213dc9a96b09036c346f374c",
+			"repository": "https://github.com/pryrt/NppPlugin-CollectionInterface/releases/download/v1.0.0/CollectionInterface_ARM64.zip",
+			"description": "Interface to the official UserDefinedLanguage Collection and nppThemes Collection.\r\n\r\nAllows easy download and installation of a UDL (with FunctionList and AutoCompletion definitions, when available) or a Theme",
+			"author": "pryrt",
+			"homepage": "https://github.com/pryrt/NppPlugin-CollectionInterface",
+			"npp-compatible-versions": "[8.7.5,]"
+		},
+		{
 			"folder-name": "ComparePlus",
 			"display-name": "ComparePlus",
 			"version": "1.2.0",
