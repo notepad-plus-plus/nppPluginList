@@ -1296,7 +1296,7 @@
 		{
 			"folder-name": "pork2sausage",
 			"display-name": "Pork to Sausage",
-			"version": "2.5",
+			"version": "2.6",
 			"npp-compatible-versions": "[8.4.7,]",
 			"old-versions-compatibility": "[,2.2][,8.4.6]",
 			"id": "12de4e71d643f9d0592b67071c46723e3ffda0a80d708d75bccd2a3280bead44",
