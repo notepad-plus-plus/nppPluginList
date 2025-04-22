@@ -1198,8 +1198,8 @@
 			"version": "2.5",
 			"npp-compatible-versions": "[8.4.7,]",
 			"old-versions-compatibility": "[,2.2][,8.4.6]",
-			"id": "58ba10fafcfef67739c0c8a19525e6eb23352b6a146126cef3f28138b3ce3610",
-			"repository": "https://github.com/npp-plugins/pork2sausage/releases/download/v2.5/pork2sausage.2.5.bin.x64.zip",
+			"id": "6316c51a10fc48cabd3475af1883879ed266015cf26c10b506f1d58d943aaf96",
+			"repository": "https://github.com/npp-plugins/pork2sausage/releases/download/v2.6/pork2sausage.2.6.bin.x64.zip",
 			"description": "Pass any selected text to any command line program as input and take the output (the result of program) to replace the selected text.",
 			"author": "Don HO",
 			"homepage": "https://github.com/npp-plugins/pork2sausage"
