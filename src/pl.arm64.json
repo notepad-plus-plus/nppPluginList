@@ -4,8 +4,8 @@
 	"arch": "arm64",
 	"npp-plugins": [
 		{
-			"folder-name": "nppAutoDetectIndent",
-			"display-name": "Auto Detect Indention",
+			"folder-name": "nppAutoDetectIndent RENAMING",
+			"display-name": "Auto Detect Indention RENAMING",
 			"version": "2.3",
 			"id": "dd4fd0bf10b5743c15cb7d012aed1bb0f482a1351376c3337d5c299e43a574db",
 			"repository": "https://github.com/Chocobo1/nppAutoDetectIndent/releases/download/2.3/arm64.zip",
