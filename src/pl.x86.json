@@ -1876,6 +1876,17 @@
 			"description": "Tired of zooming your document everytime you just want to scroll but accidentally still holding the [Ctrl] key? Then this is what you want! It disables mouse zoom, keyboard zoom, or both.",
 			"author": "Stanislav Eckert",
 			"homepage": "https://github.com/StanDog/npp-zoomdisabler"
+		},
+		{
+			"folder-name": "AndroidLogger",
+			"display-name": "AndroidLogger",
+			"version": "1.4.2.7",
+			"npp-compatible-versions": "[7.8,]",
+			"id": "359b4853942fc54f51132034ed10e02cc67eed3f6a481096cd628388d58c2446",
+			"repository": "https://sourceforge.net/projects/androidlogger/files/v1.4.2/AndroidLogger.v1.4.2.7.EN.x86.zip",
+			"description": "A lexer for Android, also can capture logs in real time, provides some utilities for developers.",
+			"author": "simbaba",
+			"homepage": "https://sourceforge.net/projects/androidlogger"
 		}
 	]
 }
