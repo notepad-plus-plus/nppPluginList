@@ -38,11 +38,11 @@
 		{
 			"folder-name": "AndroidLogger",
 			"display-name": "AndroidLogger",
-			"version": "1.4.2.8",
+			"version": "1.4.3.4",
 			"npp-compatible-versions": "[7.8,]",
-			"id": "d906cd2a19f0ee95753fe31b0281e183551bab4770e9b5e782c8ebc19eb517c9",
-			"repository": "https://sourceforge.net/projects/androidlogger/files/v1.4.2/AndroidLogger.v1.4.2.8.EN.x64.zip",
-			"description": "A lexer for Android, also can capture logs in real time, provides some utilities for developers.",
+			"id": "76d13f9d474fc3d2ebf288c732768f3e80fa668b30336e3f7493347123c492d1",
+			"repository": "https://github.com/glandon/AndroidLogger/releases/download/v1.4.3.4/AndroidLogger.v1.4.3.4.EN.x64.zip",
+			"description": "A comprehensive Android suite featuring real-time log/screen capture, integrated file explorer for rapid operations, and a smart command panel supporting one-click search/execution of commands with output retrieval.",
 			"author": "simbaba",
 			"homepage": "https://sourceforge.net/projects/androidlogger"
 		},
