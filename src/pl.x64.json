@@ -263,6 +263,17 @@
 			"homepage": "https://github.com/pnedev/comparePlus"
 		},
 		{
+			"folder-name": "ConfigUpdater",
+			"display-name": "ConfigUpdater",
+			"version": "2.0.0",
+			"id": "278c42ab18904280e5f635a6eb27b0527801009c0b644879b88d18f58b32e7c1",
+			"repository": "https://github.com/pryrt/NppPlugin-ConfigUpdater/releases/download/v2.0.0/ConfigUpdater_x64.zip",
+			"description": "Notepad++ Plugin to keep Langs/Stylers/Themes config files up-to-date",
+			"author": "pryrt",
+			"homepage": "https://github.com/pryrt/NppPlugin-ConfigUpdater",
+			"npp-compatible-versions": "[8.8.1,]"
+		},
+		{
 			"folder-name": "CSScriptNpp",
 			"display-name": "CS-Script - C# Intellisense",
 			"version": "2.0.9.0",
