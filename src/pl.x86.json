@@ -601,16 +601,6 @@
 			"homepage": "https://github.com/ffes/indentbyfold/"
 		},
 		{
-			"folder-name": "iTimeTrack",
-			"display-name": "iTimeTrack",
-			"version": "3.0.0",
-			"id": "b40ddd0e9d679d39acc1f731f07a646cf42f404e4470fb30673f091175a73024",
-			"repository": "https://github.com/itimetrack/itimetrack-notepadpp/releases/download/3.0.0/itimetrack-notepadpp-bin-3.0.0.zip",
-			"description": "Automated time tracking tool for programmers. Once the iTimeTrack plugin is installed, your billable time worked in files will be assigned to a project then a time-entry will be generated at https://itimetrack.com",
-			"author": "iTimeTrack",
-			"homepage": "https://itimetrack.com"
-		},
-		{
 			"folder-name": "NppJavaPlugin",
 			"display-name": "Java Plugin",
 			"version": "0.4.1",
