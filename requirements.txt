@@ -5,5 +5,5 @@ idna==3.10
 jsonschema==4.24.0
 pyrsistent==0.20.0
 pywin32==310
-requests==2.32.3
+requests==2.32.4
 urllib3==2.4.0
