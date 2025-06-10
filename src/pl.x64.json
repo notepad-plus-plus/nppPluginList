@@ -460,6 +460,16 @@
 			"homepage": "https://github.com/rdipardo/nppFSIPlugin"
 		},
 		{
+			"folder-name": "FileFinder",
+			"display-name": "FileFinder",
+			"version": "0.3",
+			"id": "9582adb0d78e550d1dc0ad13c463b3a3c442bc1db43a7301c55c8b34a256e25c",
+			"repository": "https://github.com/ufo/filefinder/releases/download/v0.3.0/FileFinder.v0.3.0.x64.bin.zip",
+			"description": "Quickly and comfortably find files by name, both in folders and in N++'s file history.",
+			"author": "UFO-Pu55y",
+			"homepage": "https://github.com/ufo/filefinder"
+		},
+		{
 			"folder-name": "FWDataViz",
 			"display-name": "Fixed-width Data Visualizer",
 			"version": "2.6.4.0",
@@ -1466,6 +1476,16 @@
 			"description": "Configurable priority-based fileswitching (most commonly used when switching between .h and .cpp). Configurable what extensions map to which targets and in what order.\n'goto file' implementation, Ex. stand on a line, press whatever shortcut(or left mouseclick on the line) you have bound to the GOTO command on a line like :\r\n#include \"somefile.h\"\r\nor\r\nrequire 'some_path/to_a_luafile'",
 			"author": "IncredibleJunior",
 			"homepage": "https://www.incrediblejunior.com/npp_plugins/"
+		},
+		{
+			"folder-name": "SourceCookifier",
+			"display-name": "Source Cookifier",
+			"version": "0.10.0",
+			"id": "c05b50c4a4a346681a170d18eda8dbddc2c295ae3b3a248ac0f5859c84c0c273",
+			"repository": "https://github.com/ufo/sourcecookifier/releases/download/v0.10.0/SourceCookifier.v0.10.0.x64.bin.zip",
+			"description": "Use Exuberant Ctags to parse either only the currently activated source file or multiple files. The results are shown and can be browsed in a treeview inside of a dockable window. (Requires .NET)",
+			"author": "UFO-Pu55y",
+			"homepage": "https://github.com/ufo/sourcecookifier"
 		},
 		{
 			"folder-name": "SpeechPlugin",
