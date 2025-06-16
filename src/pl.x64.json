@@ -186,13 +186,13 @@
 		{
 			"folder-name": "CollectionInterface",
 			"display-name": "CollectionInterface",
-			"version": "1.0.0",
-			"id": "4a7057aaa7e5a257f60fae559cb62e88fd98198d487ec24420b1103391b55e80",
-			"repository": "https://github.com/pryrt/NppPlugin-CollectionInterface/releases/download/v1.0.0/CollectionInterface_x64.zip",
+			"version": "1.1.0",
+			"id": "e7351eb9dd0b4374bdb0a3cc3d18dbd1b9768f0edb5d285f40109ad7abe72eb8",
+			"repository": "https://github.com/pryrt/NppPlugin-CollectionInterface/releases/download/v1.1.0/CollectionInterface_v1.1.0_x64.zip",
 			"description": "Interface to the official UserDefinedLanguage Collection and nppThemes Collection.\r\n\r\nAllows easy download and installation of a UDL (with FunctionList and AutoCompletion definitions, when available) or a Theme",
 			"author": "pryrt",
 			"homepage": "https://github.com/pryrt/NppPlugin-CollectionInterface",
-			"npp-compatible-versions": "[8.7.5,]"
+			"npp-compatible-versions": "[8.5,]"
 		},
 		{
 			"folder-name": "ColumnsPlusPlus",
