@@ -1512,9 +1512,9 @@
 		{
 			"folder-name": "StayAwake_NPP",
 			"display-name": "StayAwake",
-			"version": "1.0.0.2",
-			"id": "399929ebb9d969df842155b3a31d5fa5d4b71c74650776c8592ff92ab0a31e8c",
-			"repository": "https://github.com/shriprem/StayAwake_NPP_Plugin/releases/download/v1.0.0.2/StayAwake_NPP_x64.zip",
+			"version": "1.0.1.0",
+			"id": "58a7f02fbdbaa4126c4ca12141a6e98085181baff2e4db284c596867f6542eed",
+			"repository": "https://github.com/shriprem/StayAwake_NPP_Plugin/releases/download/v1.0.1.0/StayAwake_NPP_x64.zip",
 			"description": "StayAwake is a simple utility that enables you to maintain an Active status on Microsoft Teams by periodically cycling (double-toggling) the Scroll Lock button. StayAwake also prevents screen saver activation, screen blanking, and Windows session lockouts.",
 			"author": "Shridhar Kumar",
 			"homepage": "https://github.com/shriprem/StayAwake_NPP_Plugin"
