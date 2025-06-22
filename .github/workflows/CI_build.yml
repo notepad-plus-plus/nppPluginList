@@ -21,6 +21,12 @@ jobs:
     - name: Checkout repo
       uses: actions/checkout@v4
 
+    - name: Checkout main branch if push trigger is a tag
+      if: github.repository_owner == 'notepad-plus-plus' && github.ref_type == 'tag'
+      run: |
+        git fetch --all
+        git checkout master
+
     - name: Install python modules
       working-directory: .
       run: pip3 install -r requirements.txt
