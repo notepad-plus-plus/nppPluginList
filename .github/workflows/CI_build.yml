@@ -67,6 +67,12 @@ jobs:
                 binarm64\nppPluginList.dll
                 doc\plugin_list_arm64.md
 
+    - name: Checkout main branch if push trigger is a tag
+      if: github.repository_owner == 'notepad-plus-plus' && github.ref_type == 'tag'
+      run: |
+           git fetch --all
+           git checkout master
+
     - name: Generate all plugin lists markdown from json on tagging
       if: startsWith(github.ref, 'refs/tags/') && matrix.build_platform == 'ARM64' && matrix.build_configuration == 'Release'
       working-directory: .
