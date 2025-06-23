@@ -68,7 +68,7 @@ jobs:
                 doc\plugin_list_arm64.md
 
     - name: Checkout main branch if push trigger is a tag
-      if: github.repository_owner == 'notepad-plus-plus' && github.ref_type == 'tag'
+      if: github.repository_owner == 'notepad-plus-plus' && github.ref_type == 'tag' && matrix.build_platform == 'ARM64' && matrix.build_configuration == 'Release'
       run: |
            git fetch --all
            git checkout master
