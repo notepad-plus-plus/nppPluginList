@@ -767,9 +767,9 @@
 		{
 			"folder-name": "NppMarkdownPanel",
 			"display-name": "Markdown Panel",
-			"version": "0.7.3",
-			"id": "477c3056692fb29b588b07aaa6d18a4079a5f2ff781de63c8d23a5f37830f3d5",
-			"repository": "https://github.com/mohzy83/NppMarkdownPanel/releases/download/0.7.3.1/NppMarkdownPanel-0.7.3.0-x86.zip",
+			"version": "0.9.0",
+			"id": "45004f2b0285365de03c246ead6295462b0898004461c313be14be519c522c34",
+			"repository": "https://github.com/mohzy83/NppMarkdownPanel/releases/download/0.9.0/NppMarkdownPanel-0.9.0.0-x86.zip",
 			"description": "Lightweight plugin to display rendered Markdown files.",
 			"author": "Mohzy83",
 			"homepage": "https://github.com/mohzy83/NppMarkdownPanel"
