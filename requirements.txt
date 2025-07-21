@@ -4,6 +4,6 @@ charset-normalizer==3.4.2
 idna==3.10
 jsonschema==4.24.0
 pyrsistent==0.20.0
-pywin32==310
+pywin32==311
 requests==2.32.4
 urllib3==2.5.0
