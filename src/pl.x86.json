@@ -907,7 +907,7 @@
 			"repository": "https://github.com/npp-plugins/plugindemo/releases/download/v4.4/pluginDemo.v4.4.bin.zip",
 			"description": "Notepad++ Plugin Demo is written from Notepad++ Plugin Template to demonstrate the usage of plugin API.",
 			"author": "Don HO",
-			"homepage": "https://npp-user-manual.org/docs/plugins/"
+			"homepage": "https://github.com/npp-plugins/plugindemo"
 		},
 		{
 			"folder-name": "NppPluginTemplate",
@@ -919,7 +919,7 @@
 			"repository": "https://github.com/npp-plugins/plugintemplate/releases/download/v4.4/pluginTemplate.v4.4.bin.zip",
 			"description": "Template for making plugin development as easy and simple as possible. Four steps and it's done.",
 			"author": "Don HO",
-			"homepage": "https://npp-user-manual.org/docs/plugins/#how-to-develop-a-plugin"
+			"homepage": "https://github.com/npp-plugins/plugintemplate"
 		},
 		{
 			"folder-name": "NotepadStarterPlugin",
