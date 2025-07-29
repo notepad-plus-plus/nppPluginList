@@ -265,9 +265,9 @@
 		{
 			"folder-name": "ConfigUpdater",
 			"display-name": "ConfigUpdater",
-			"version": "2.0.1",
-			"id": "00d8be7d67c9dd42a98d6665068f4e2a1f606d5dd1e66fbb68e1987755fc6ab9",
-			"repository": "https://github.com/pryrt/NppPlugin-ConfigUpdater/releases/download/v2.0.1/ConfigUpdater_x64.zip",
+			"version": "2.2.1",
+			"id": "87a82299ed4b3a77ce41ff1772667dbb313bbdac3d696b62aaded8bfc90f2317",
+			"repository": "https://github.com/pryrt/NppPlugin-ConfigUpdater/releases/download/v2.2.1/ConfigUpdater_v2.2.1_x64.zip",
 			"description": "Notepad++ Plugin to keep Langs/Stylers/Themes config files up-to-date",
 			"author": "pryrt",
 			"homepage": "https://github.com/pryrt/NppPlugin-ConfigUpdater",
