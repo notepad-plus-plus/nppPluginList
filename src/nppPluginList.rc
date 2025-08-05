@@ -1,5 +1,5 @@
 // This file is part of Notepad++ project
-// Copyright (C)2018 Don HO <don.h@free.fr>
+// Copyright (C)2025 Don HO <don.h@free.fr>
 //
 // This program is free software; you can redistribute it and/or
 // modify it under the terms of the GNU General Public License
@@ -51,7 +51,7 @@ BEGIN
 			VALUE	"FileDescription",	"Plugin List for Notepad++\0"
 			VALUE	"FileVersion",	VERSION_VALUE
 			VALUE	"InternalName",	"nppPluginList.dll\0"
-			VALUE	"LegalCopyright",	"Copyright 2020 by Don HO\0"
+			VALUE	"LegalCopyright",	"Copyright 2025 by Don HO\0"
 			VALUE	"OriginalFilename",	"nppPluginList.dll\0"
 			VALUE	"ProductName",	"Plugin List for Notepad++\0"
 			VALUE	"ProductVersion",	VERSION_VALUE
