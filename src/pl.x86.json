@@ -245,7 +245,7 @@
 		{
 			"folder-name": "CSVLint",
 			"display-name": "CSV Lint",
-			"version":  "0.4.7",
+			"version": "0.4.7",
 			"npp-compatible-versions": "[8.4,]",
 			"old-versions-compatibility": "[,0.4.5.1][,8.3.3]",
 			"id": "1c37a686a9708c92ce0602b73564290854b5320cd428311e4c346082f53623af",
