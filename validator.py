@@ -230,9 +230,9 @@ def parse(filename):
 
 
 ARCHITECTURE_FILENAMES_MAPPING = {
-    'x86': ("src/pl.x86.json", "plugin_list_x86.md"),
-    'x64': ("src/pl.x64.json", "plugin_list_x64.md"),
-    'arm64': ("src/pl.arm64.json", "plugin_list_arm64.md")
+    'x86': ("src/pl.x86.json", "doc/plugin_list_x86.md"),
+    'x64': ("src/pl.x64.json", "doc/plugin_list_x64.md"),
+    'arm64': ("src/pl.arm64.json", "doc/plugin_list_arm64.md")
 }
 ARCHITECTURE_OPTIONS = ", ".join(ARCHITECTURE_FILENAMES_MAPPING.keys())
 ARCHITECTURE_OPTIONS = f"{ARCHITECTURE_OPTIONS.rpartition(',')[0]}, or{ARCHITECTURE_OPTIONS.rpartition(',')[-1]}"
@@ -242,6 +242,15 @@ else:
     provided_architecture = input(f'Please provide the target architecture ({ARCHITECTURE_OPTIONS}): ').lower()
 if provided_architecture in ARCHITECTURE_FILENAMES_MAPPING:
     json_file, output_file = ARCHITECTURE_FILENAMES_MAPPING[provided_architecture]
+elif provided_architecture == "all_md":
+    for key in ARCHITECTURE_FILENAMES_MAPPING.keys():
+        json_file, output_file = ARCHITECTURE_FILENAMES_MAPPING[key]
+        with open(output_file, "w") as md_file:
+            md_file.write(gen_pl_table(json_file))
+    if has_error:
+        sys.exit(-2)
+    else:
+        sys.exit()
 else:
     json_file, output_file = ARCHITECTURE_FILENAMES_MAPPING['x86']
 print(f'Provided architecture: {provided_architecture}.')

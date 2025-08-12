@@ -1,6 +1,6 @@
 {
 	"name": "npp-pluginList",
-	"version": "1.8.2",
+	"version": "1.8.5",
 	"arch": "32",
 	"npp-plugins": [
 		{
@@ -110,9 +110,9 @@
 		{
 			"folder-name": "BookmarksDook",
 			"display-name": "Bookmarks@Dook",
-			"version": "4.0.4",
-			"id": "C30087F8F9684BEDE7454E704BD3D470D9A3D0E63665019E552C6F8A65316E38",
-			"repository": "https://github.com/Dook1/Bookmarks-Dook/releases/download/v4.0.4/BookmarksDook.32.4.0.4.zip",
+			"version": "4.1.2",
+			"id": "1b571aa057a2ebf051caeff1ce61aece0df501750bcc6be664b0ae6cd0bccaae",
+			"repository": "https://github.com/Dook1/Bookmarks-Dook/releases/download/v4.1.2/BookmarksDook.32.4.1.2.zip",
 			"description": "Bookmarks panel",
 			"author": "Dook",
 			"homepage": "https://github.com/Dook1/Bookmarks-Dook"
@@ -158,6 +158,17 @@
 			"homepage": "https://github.com/p0358/notepadpp-CodeStats"
 		},
 		{
+			"folder-name": "CollectionInterface",
+			"display-name": "CollectionInterface",
+			"version": "1.1.0",
+			"id": "04ec583dd33cb54cdce6e208e7be1671ebe377d99e0017366278150a1bcab70b",
+			"repository": "https://github.com/pryrt/NppPlugin-CollectionInterface/releases/download/v1.1.0/CollectionInterface_v1.1.0_Win32.zip",
+			"description": "Interface to the official UserDefinedLanguage Collection and nppThemes Collection.\r\n\r\nAllows easy download and installation of a UDL (with FunctionList and AutoCompletion definitions, when available) or a Theme",
+			"author": "pryrt",
+			"homepage": "https://github.com/pryrt/NppPlugin-CollectionInterface",
+			"npp-compatible-versions": "[8.5,]"
+		},
+		{
 			"folder-name": "ColumnsPlusPlus",
 			"display-name": "Columns++",
 			"version": "1.2",
@@ -201,14 +212,25 @@
 		{
 			"folder-name": "ComparePlus",
 			"display-name": "ComparePlus",
-			"version": "1.2.0",
+			"version": "2.0.0",
 			"npp-compatible-versions": "[8.4.7,]",
 			"old-versions-compatibility": "[,1.0.0][8.4.2,8.4.6]",
-			"id": "2bb2c68397bc2b1a26730e05eb41c4b7744754b2833da150e4ba868d92ea8173",
-			"repository": "https://github.com/pnedev/comparePlus/releases/download/cp_1.2.0/ComparePlus_cp_1.2.0_Win32.zip",
+			"id": "9eec644b7ff578fb03564542873a2dd29c008f7bda1f5f2c60b73b57fcf522f5",
+			"repository": "https://github.com/pnedev/comparePlus/releases/download/cp_2.0.0/ComparePlus_cp_2.0.0_Win32.zip",
 			"description": "Advanced compare tool based on the well-known Compare-plugin by Ty Landercasper and Jean-Sebastien Leroy.",
 			"author": "Pavel Nedev",
 			"homepage": "https://github.com/pnedev/comparePlus"
+		},
+		{
+			"folder-name": "ConfigUpdater",
+			"display-name": "ConfigUpdater",
+			"version": "2.2.1",
+			"id": "dd402e8a0b2f5a80772a2222805538ef28f5c12774913fe40f7f69fd9c9c61a5",
+			"repository": "https://github.com/pryrt/NppPlugin-ConfigUpdater/releases/download/v2.2.1/ConfigUpdater_v2.2.1_Win32.zip",
+			"description": "Notepad++ Plugin to keep Langs/Stylers/Themes config files up-to-date",
+			"author": "pryrt",
+			"homepage": "https://github.com/pryrt/NppPlugin-ConfigUpdater",
+			"npp-compatible-versions": "[8.8.1,]"
 		},
 		{
 			"folder-name": "CSScriptNpp",
@@ -223,11 +245,11 @@
 		{
 			"folder-name": "CSVLint",
 			"display-name": "CSV Lint",
-			"version": "0.4.6.8",
+			"version": "0.4.7",
 			"npp-compatible-versions": "[8.4,]",
 			"old-versions-compatibility": "[,0.4.5.1][,8.3.3]",
-			"id": "adc0622654625aa0b2ba14a757a3ef415f9d1c8fc682c87504720bbb122f78a9",
-			"repository": "https://github.com/BdR76/CSVLint/releases/download/0.4.6.8/CSVLint_x86.zip",
+			"id": "1c37a686a9708c92ce0602b73564290854b5320cd428311e4c346082f53623af",
+			"repository": "https://github.com/BdR76/CSVLint/releases/download/0.4.7/CSVLint_x86.zip",
 			"description": "Syntax highlighting and quality control for csv and fixed width data, detect column and datatypes, convert datetime/decimal format, sql, xml",
 			"author": "Bas de Reuver",
 			"homepage": "https://github.com/BdR76/CSVLint/"
@@ -404,10 +426,10 @@
 		{
 			"folder-name": "NPPFSIPlugin",
 			"display-name": "F# Interactive",
-			"version": "0.2.3.1",
+			"version": "0.2.3.2",
 			"npp-compatible-versions": "[7.7,]",
-			"id": "7f5bdafec5847e494f1b1d519d36fbf48e0d6bbd4bebd24f99d505a727b724c2",
-			"repository": "https://github.com/rdipardo/nppFSIPlugin/releases/download/v0.2.3.1/NPPFSIPlugin_v0.2.3.1_win32.zip",
+			"id": "e34fc6c36aaa8315c889dcc9ede3ec55797e67b98f82d0e1965154aca0dddeae",
+			"repository": "https://github.com/rdipardo/nppFSIPlugin/releases/download/v0.2.3.2/NPPFSIPlugin_v0.2.3.2_win32.zip",
 			"description": "F# source code lexer and IPC client for F# Interactive.\r\nNote: the .NET SDK must be installed separately.",
 			"author": "Prapin Peethambaran",
 			"homepage": "https://github.com/rdipardo/nppFSIPlugin"
@@ -445,12 +467,23 @@
 		{
 			"folder-name": "FWDataViz",
 			"display-name": "Fixed-width Data Visualizer",
-			"version": "2.6.3.1",
-			"id": "e7f18c2b6fdda837ac1b33c17a8d71fd74dfba204605939aa3a781e85198ba94",
-			"repository": "https://github.com/shriprem/FWDataViz/releases/download/v2.6.3.1/FWDataViz_x86.zip",
+			"version": "2.6.5.0",
+			"id": "4cb394fcaf32fbbb8136688dc1a9f297c7fe4cf3afe5fd01adfdc37a55766878",
+			"repository": "https://github.com/shriprem/FWDataViz/releases/download/v2.6.5.0/FWDataViz_x86.zip",
 			"description": "Fixed Width Data Visualizer adds Excel-like features for fixed-width data files in Notepad++. Displays cursor position data. Foldable Record Blocks; Hop & Jump to specific fields. Field Copy & Field Paste. Data Extraction. Builtin dialogs to configure file-type, record-type & fields; and themes & colors. Automatic File Type Detection. Handles homogenous, mixed & multi-line records. Full Multi-byte character support. Darkmode enabled.",
 			"author": "Shridhar Kumar",
 			"homepage": "https://github.com/shriprem/FWDataViz"
+		},
+		{
+			"folder-name": "FoldingLineHider",
+			"display-name": "Folding Line Hider",
+			"version": "1.1",
+			"npp-compatible-versions": "[7.0,]",
+			"id": "cf9ae52d0cafe046f30ccf40d8a410413168c1b359e248be314c1d87d9f45b19",
+			"repository": "https://github.com/leonardchai/FoldingLineHider/releases/download/v1.1/FoldingLineHider1.1.x86.zip",
+			"description": "This Notepad++ plugin can hide the unsightly folding lines, and for convenience, you can fold and unfold the current level using the Alt + Left/Right keys.",
+			"author": "leonardchai@gmail.com",
+			"homepage": "https://github.com/leonardchai/FoldingLineHider"
 		},
 		{
 			"folder-name": "GedcomLexer",
@@ -497,9 +530,9 @@
 		{
 			"folder-name": "GotoLineCol",
 			"display-name": "GotoLineCol",
-			"version": "2.4.4.0",
-			"id": "7913f3ed7840d91f9bce9d791629ff816992a271fe438073288e9766d02e7fad",
-			"repository": "https://github.com/shriprem/Goto-Line-Col-NPP-Plugin/releases/download/v2.4.4.0/GotoLineCol_x86.zip",
+			"version": "2.4.5.0",
+			"id": "f9fbe42d4a096d93692fb1ac701ade4d841e1bbf08f191b0df46a46c4049b4ec",
+			"repository": "https://github.com/shriprem/Goto-Line-Col-NPP-Plugin/releases/download/v2.4.5.0/GotoLineCol_x86.zip",
 			"description": "A plugin to navigate to a specified line and (byte-based or character-based) column position. Will also display character byte code, UTF-8 byte sequence & Unicode code point, name & block at cursor position. Darkmode enabled. Command line options.",
 			"author": "Shridhar Kumar",
 			"homepage": "https://github.com/shriprem/Goto-Line-Col-NPP-Plugin"
@@ -527,11 +560,11 @@
 		{
 			"folder-name": "HTMLTag_unicode",
 			"display-name": "HTML Tag",
-			"version": "1.5.2.0",
+			"version": "1.5.4.0",
 			"npp-compatible-versions": "[7.7,]",
 			"old-versions-compatibility": "[,1.1][,7.6.6]",
-			"id": "be5497de5c1a9eaf2b4e363c316b3701819c1b61cdf4f0dbc48d7071ab7161ea",
-			"repository": "https://bitbucket.org/rdipardo/htmltag/downloads/HTMLTag_v1.5.2.zip",
+			"id": "ae3945abdf64c5a0cb1f32be5b2de53806bcb20e2e3dfd6bf771989b2eba03a6",
+			"repository": "https://bitbucket.org/rdipardo/htmltag/downloads/HTMLTag_v1.5.4.zip",
 			"description": "Provides three core functions:\r\n- HTML and XML tag jumping, like the built-in brace matching and selection\r\n of tags and/or contents.\r\n- HTML entity encoding/decoding (example: é to &eacute;)\r\n- JS character encoding/decoding (example: é to \\u00E9)",
 			"author": "Martijn Coppoolse",
 			"homepage": "https://bitbucket.org/rdipardo/htmltag/"
@@ -566,16 +599,6 @@
 			"description": "Indent using Fold points\r\nNote: Disable Notepad++'s Auto Indent in Settings - Preferences - MISC - Untick Auto Indent.",
 			"author": "Ben Bluemel, Frank Fesevur",
 			"homepage": "https://github.com/ffes/indentbyfold/"
-		},
-		{
-			"folder-name": "iTimeTrack",
-			"display-name": "iTimeTrack",
-			"version": "3.0.0",
-			"id": "b40ddd0e9d679d39acc1f731f07a646cf42f404e4470fb30673f091175a73024",
-			"repository": "https://github.com/itimetrack/itimetrack-notepadpp/releases/download/3.0.0/itimetrack-notepadpp-bin-3.0.0.zip",
-			"description": "Automated time tracking tool for programmers. Once the iTimeTrack plugin is installed, your billable time worked in files will be assigned to a project then a time-entry will be generated at https://itimetrack.com",
-			"author": "iTimeTrack",
-			"homepage": "https://itimetrack.com"
 		},
 		{
 			"folder-name": "NppJavaPlugin",
@@ -630,9 +653,9 @@
 		{
 			"folder-name": "JsonTools",
 			"display-name": "JSON Tools",
-			"version": "8.3.1",
-			"id": "e8066974a57e555f296c62da65a7f72c7d77243117a8d730153aec8f9a801421",
-			"repository": "https://github.com/molsonkiko/JsonToolsNppPlugin/releases/download/v8.3.1/Release_x86.zip",
+			"version": "8.4",
+			"id": "c2cdb7941531d3c2391f21117320133ab493c5ba0bd23a33496f3137c93c1d79",
+			"repository": "https://github.com/molsonkiko/JsonToolsNppPlugin/releases/download/v8.4/Release_x86.zip",
 			"description": "Query/editing tool for JSON including linting, reformatting, a tree viewer with file navigation, JSON schema validation and generation, escaping/unescaping strings, and much more.\r\nThe tree viewer can also be used to explore CSV files and regex search results (experimental).",
 			"author": "Mark Johnston Olson",
 			"homepage": "https://github.com/molsonkiko/JsonToolsNppPlugin",
@@ -714,8 +737,8 @@
 			"folder-name": "Linter++",
 			"display-name": "Linter++",
 			"version": "1.0.0.0",
-            "npp-compatible-versions": "[8.7.5,]",
-            "id": "28900953726DE541EFEEEA3B506AD33491BB563D28F8D7C8E547EC7C625AE210",
+			"npp-compatible-versions": "[8.7.5,]",
+			"id": "28900953726DE541EFEEEA3B506AD33491BB563D28F8D7C8E547EC7C625AE210",
 			"repository": "https://github.com/ThosRTanner/notepad-pp-linter/releases/download/1.0.0/plugin_dll_Win32.zip",
 			"description": "Allows realtime code check against any checkstyle-compatible linter: jshint, eslint, jscs, phpcs, csslint, and many others.",
 			"author": "Tom Tanner",
@@ -744,9 +767,9 @@
 		{
 			"folder-name": "NppMarkdownPanel",
 			"display-name": "Markdown Panel",
-			"version": "0.7.3",
-			"id": "477c3056692fb29b588b07aaa6d18a4079a5f2ff781de63c8d23a5f37830f3d5",
-			"repository": "https://github.com/mohzy83/NppMarkdownPanel/releases/download/0.7.3.1/NppMarkdownPanel-0.7.3.0-x86.zip",
+			"version": "0.9.0",
+			"id": "45004f2b0285365de03c246ead6295462b0898004461c313be14be519c522c34",
+			"repository": "https://github.com/mohzy83/NppMarkdownPanel/releases/download/0.9.0/NppMarkdownPanel-0.9.0.0-x86.zip",
 			"description": "Lightweight plugin to display rendered Markdown files.",
 			"author": "Mohzy83",
 			"homepage": "https://github.com/mohzy83/NppMarkdownPanel"
@@ -806,10 +829,10 @@
 		{
 			"folder-name": "MultiReplace",
 			"display-name": "MultiReplace",
-			"version": "4.2.2.25",
+			"version": "4.3.2.28",
 			"npp-compatible-versions": "[8.5.4,]",
-			"id": "ce5608e2cf59d95b016b3581494dad6e172e79744e06978ad8ee510cc3835c50",
-			"repository": "https://github.com/daddel80/notepadpp-multireplace/releases/download/4.2.2.25/MultiReplace-v4.2.2.25-Win32.zip",
+			"id": "6ec33485258465a2c9fca94ae853f88264ccc34e9c728ee4943e71ba8cf83758",
+			"repository": "https://github.com/daddel80/notepadpp-multireplace/releases/download/4.3.2.28/MultiReplace-v4.3.2.28-Win32.zip",
 			"description": "Advanced multi-string replacement; storage of search/replace patterns; CSV column highlighting, targeting, and sorting; mathematical operations on matched strings; rectangular selection support; external lookup files for data normalization and anonymization.",
 			"author": "Thomas Knoefel",
 			"homepage": "https://github.com/daddel80/notepadpp-multireplace"
@@ -847,9 +870,9 @@
 		{
 			"folder-name": "NavigateTo",
 			"display-name": "NavigateTo",
-			"version": "2.6.4.0",
-			"id": "8a6b5c110cd195bf5d51677e157860a86ee1e7e3b5bf7da8a26ef846545eafba",
-			"repository": "https://github.com/young-developer/nppNavigateTo/releases/download/v.2.6.4/NavigateTo_v.2.6.4_v142_x86.zip",
+			"version": "2.7.1.0",
+			"id": "2685e50daca2ef2b5ee67a8b5f306b67c9d314f1ef3fc1b837d31cf3852eb881",
+			"repository": "https://github.com/young-developer/nppNavigateTo/releases/download/v2.7.1/NavigateTo_v2.7.1_v142_x86.zip",
 			"description": "Do you have more then 10 open tabs? Then this plugin is for you.\r\nNew and efficient way to quickly navigate between tabs (files). Allows you to search for a symbol or filename, filepath by matching against a keyword you type, and get a real-time preview while going through the search results with the Shift key.\r\nAnd YES, you can uncheck the Multi-line option, in the Preferences &gt; General &gt; Tab Bar zone because you don’t need the multi-lines tab feature anymore :)\r\nAuthor: Oleksii Maryshchenko\r\nEmail: oleksii.maryshchenko@gmail.com \r\n Contributors: https://github.com/molsonkiko",
 			"author": "Oleksii Maryshchenko",
 			"homepage": "https://github.com/young-developer/nppNavigateTo"
@@ -875,17 +898,6 @@
 			"homepage": "https://github.com/azerg/NppBplistPlugin"
 		},
 		{
-			"folder-name": "NppOpenAI",
-			"display-name": "NppOpenAI",
-			"version": "0.4.2.1",
-			"npp-compatible-versions": "[8.4.8,]",
-			"id": "6ef06214593e7746a82775e8722de7e1f53d2c1486e626bed053208a94ef1b5b",
-			"repository": "https://github.com/Krazal/nppopenai/releases/download/v0.4.2.1/NppOpenAI_x86.zip",
-			"description": "OpenAI (aka. ChatGPT) plugin for Notepad++. Simply select your text, press Ctrl + Shift + O, and you'll see the AI generated response in seconds. Two examples: 'Please create a Fibonacci function in PHP'; 'Mi az árvíztűrő tükörfúrógép?' (Hungarian Unicode test) etc. This plugin requires an active internet connection and an OpenAI registration / API key (handles it confidentially).",
-			"author": "Richárd Stockinger",
-			"homepage": "https://github.com/Krazal/nppopenai"
-		},
-		{
 			"folder-name": "NppPluginDemo",
 			"display-name": "Notepad++ Plugin Demo",
 			"version": "4.4",
@@ -895,7 +907,7 @@
 			"repository": "https://github.com/npp-plugins/plugindemo/releases/download/v4.4/pluginDemo.v4.4.bin.zip",
 			"description": "Notepad++ Plugin Demo is written from Notepad++ Plugin Template to demonstrate the usage of plugin API.",
 			"author": "Don HO",
-			"homepage": "https://npp-user-manual.org/docs/plugins/"
+			"homepage": "https://github.com/npp-plugins/plugindemo"
 		},
 		{
 			"folder-name": "NppPluginTemplate",
@@ -907,7 +919,7 @@
 			"repository": "https://github.com/npp-plugins/plugintemplate/releases/download/v4.4/pluginTemplate.v4.4.bin.zip",
 			"description": "Template for making plugin development as easy and simple as possible. Four steps and it's done.",
 			"author": "Don HO",
-			"homepage": "https://npp-user-manual.org/docs/plugins/#how-to-develop-a-plugin"
+			"homepage": "https://github.com/npp-plugins/plugintemplate"
 		},
 		{
 			"folder-name": "NotepadStarterPlugin",
@@ -932,13 +944,24 @@
 			"homepage": "https://github.com/npp-plugins/converter/"
 		},
 		{
+			"folder-name": "Npp-Highlighter",
+			"display-name": "Npp Highlighter",
+			"version": "1.0.0.1",
+			"npp-compatible-versions": "[,8.5]",
+			"id": "9ee68f05dfbbdc5af6e1980bb50daeb66debf9b9a133ece1f0b47e41cbf01dde",
+			"repository": "https://github.com/michaelxzhang/Npp-Highlighter/releases/download/v1.0.0.1/Npp-Highlighter_x86.zip",
+			"description": "Npp-Highlighter draw indicator on scroll bar when:\r\n- line contents changed\r\n- double clicked and smart highlighted words\r\n- text highlighted by Style token",
+			"author": "Michael Zhang",
+			"homepage": "https://github.com/michaelxzhang/Npp-Highlighter/"
+		},
+		{
 			"folder-name": "nppRandomStringGenerator",
 			"display-name": "npp Random String Generator",
-			"version": "1.9.4",
+			"version": "1.9.6",
 			"npp-compatible-versions": "[8.3,]",
 			"old-versions-compatibility": "[,1.3][,8.2.1]",
-			"id": "ede6c093b60aa7ba64363f50c34d68288712c6027d6568bef09d3de5e65d4664",
-			"repository": "https://github.com/cmbsolutions/nppRandomStringGenerator/releases/download/v1.9.4/nppRandomStringGenerator.1.9.4.x86.zip",
+			"id": "d476b2a5da998d35cb8804cd13176abd37d8179203f44d63c1d487be00245d2f",
+			"repository": "https://github.com/cmbsolutions/nppRandomStringGenerator/releases/download/v1.9.6/nppRandomStringGenerator.1.9.6.x86.zip",
 			"description": "Generates random strings with configurable output.",
 			"author": "Maurice CMBSolutions",
 			"homepage": "https://github.com/cmbsolutions/nppRandomStringGenerator"
@@ -1087,17 +1110,6 @@
 			"homepage": "https://github.com/npp-plugins/hasher"
 		},
 		{
-			"folder-name": "Npp-Highlighter",
-			"display-name": "Npp Highlighter",
-			"version": "1.0.0.1",
-			"npp-compatible-versions": "[,8.5]",
-			"id": "9ee68f05dfbbdc5af6e1980bb50daeb66debf9b9a133ece1f0b47e41cbf01dde",
-			"repository": "https://github.com/michaelxzhang/Npp-Highlighter/releases/download/v1.0.0.1/Npp-Highlighter_x86.zip",
-			"description": "Npp-Highlighter draw indicator on scroll bar when:\r\n- line contents changed\r\n- double clicked and smart highlighted words\r\n- text highlighted by Style token",
-			"author": "Michael Zhang",
-			"homepage": "https://github.com/michaelxzhang/Npp-Highlighter/"
-		},
-		{
 			"folder-name": "NppJumpList",
 			"display-name": "NppJumpList",
 			"version": "1.2.2",
@@ -1128,6 +1140,17 @@
 			"homepage": "https://sourceforge.net/projects/npp-plugins/files/NppDocShare/"
 		},
 		{
+			"folder-name": "NppOpenAI",
+			"display-name": "NppOpenAI",
+			"version": "0.5.0.0",
+			"npp-compatible-versions": "[8.4.8,]",
+			"id": "75b89295996fe5aab4544433f3415ce03da09bc6e800d727e1ac7fbff7cf18e6",
+			"repository": "https://github.com/Krazal/nppopenai/releases/download/v0.5.0/NppOpenAI_x86.zip",
+			"description": "Enhance your Notepad++ with this OpenAI (aka. ChatGPT) plugin, enabling AI assistance directly in your editor. Select text, press Ctrl + Shift + O, and get AI responses in seconds. Now supports multiple instructions for complex tasks. This plugin requires an active internet connection and an OpenAI (Grok, DeepSeek etc.) access / API key (handles it confidentially). For examples and detailed descriptions see the Homepage.",
+			"author": "Richárd Stockinger",
+			"homepage": "https://github.com/Krazal/nppopenai"
+		},
+		{
 			"folder-name": "NppPluginOpenHost",
 			"display-name": "NppPluginOpenHost",
 			"version": "1.1.0.0",
@@ -1141,6 +1164,7 @@
 			"folder-name": "NppQrCode32",
 			"display-name": "NppQrCode",
 			"version": "0.0.0.2",
+			"old-versions-compatibility": "[,0.0.0.1][,8.3.3]",
 			"id": "0a5fd708e4e331ddc086962990284d0241046dc1acffb2fde9870a0e048ab8db",
 			"repository": "https://github.com/rdipardo/nppQrCode/releases/download/v0.0.0.2/NppQrCode-0.0.0.2-win32.zip",
 			"description": "Creates a QR code from selected text. Just select some text and click the toolbar button.",
@@ -1168,11 +1192,21 @@
 			"homepage": "https://www.fesevur.com/npptags"
 		},
 		{
+			"folder-name": "NppTextFX",
+			"display-name": "NppTextFX2",
+			"version": "1.4.1",
+			"id": "9e9372e0948d01946134e279d1cd534337dd19c441ec5622c0cbb7435498cdf5",
+			"repository": "https://github.com/rainman74/NPPTextFX2/releases/download/1.4.1/NppTextFX2.1.4.1.x86.zip",
+			"description": "TextFX2 is a Notepad++ plugin which performs a variety of common conversions on selected text.",
+			"author": "Karlheinz Graf",
+			"homepage": "https://github.com/rainman74/NPPTextFX2"
+		},
+		{
 			"folder-name": "NppTextViz",
 			"display-name": "NppTextViz",
-			"version": "0.4.2",
-			"id": "8bfefc05f32c8e2ef4eb67b4550da3a7e3be9370eaf379bb899f11b6849867ff",
-			"repository": "https://github.com/KubaDee/NppTextViz/releases/download/v0.4.2/NppTextViz_x86_v0.4.2.zip",
+			"version": "0.4.3",
+			"id": "e573e68db6373d7e7fb9f8032508169b374497da947fa62c0f05466abc3e0238",
+			"repository": "https://github.com/chcg/NppTextViz/releases/download/v0.4.3/NppTextViz_v0.4.3_Win32.zip",
 			"description": "Hide or show lines to help analyse larger files - logs for example. Can hide all lines that contain text pattern. Or simply select several lines and hide them. Based on TextFX plugin v0.25 by Chris Severance.",
 			"author": "Jakub Dvorak",
 			"homepage": "https://github.com/KubaDee/NppTextViz"
@@ -1190,16 +1224,6 @@
 			"homepage": "https://github.com/dinkumoil/NppUISpy"
 		},
 		{
-			"folder-name": "nppplugin_ofis2",
-			"display-name": "Open File In Solution",
-			"version": "3.0.1",
-			"id": "9306E7EBAF36247C61F26C7F215518835A7BD96EAD37458A8F2BE295CDF08CDB",
-			"repository": "https://github.com/incrediblejr/nppplugins/releases/download/v3.0.1/nppplugin_ofis2_x86.zip",
-			"description": "Lets you index specific folders and possible specific types of resources (XML, CPP, PY files) for a fast indexing of files.",
-			"author": "IncredibleJunior",
-			"homepage": "https://www.incrediblejunior.com/npp_plugins/"
-		},
-		{
 			"folder-name": "NWScript-Npp",
 			"display-name": "NWScript Tools",
 			"version": "1.2.0.2300",
@@ -1209,6 +1233,16 @@
 			"description": "View, edit and compile Bioware's NWScript files with this plugin. Use customized color-syntax for your personalized tokens and also for engine-defined ones. Can disassemble compiled scripts and build makefile dependencies. Also has a feature to process files in configurable batches.",
 			"author": "Leonardo Silva",
 			"homepage": "https://github.com/Leonard-The-Wise/NWScript-Npp"
+		},
+		{
+			"folder-name": "nppplugin_ofis2",
+			"display-name": "Open File In Solution",
+			"version": "3.0.1",
+			"id": "9306E7EBAF36247C61F26C7F215518835A7BD96EAD37458A8F2BE295CDF08CDB",
+			"repository": "https://github.com/incrediblejr/nppplugins/releases/download/v3.0.1/nppplugin_ofis2_x86.zip",
+			"description": "Lets you index specific folders and possible specific types of resources (XML, CPP, PY files) for a fast indexing of files.",
+			"author": "IncredibleJunior",
+			"homepage": "https://www.incrediblejunior.com/npp_plugins/"
 		},
 		{
 			"folder-name": "OpenSelection",
@@ -1264,11 +1298,11 @@
 		{
 			"folder-name": "pork2sausage",
 			"display-name": "Pork to Sausage",
-			"version": "2.5",
+			"version": "2.6",
 			"npp-compatible-versions": "[8.4.7,]",
 			"old-versions-compatibility": "[,2.2][,8.4.6]",
-			"id": "a04f10eafab2d4f9c9c29a7cdfc5340b64c52b7e5970451c9df3852a0ff74808",
-			"repository": "https://github.com/npp-plugins/pork2sausage/releases/download/v2.5/pork2sausage.2.5.bin.zip",
+			"id": "12de4e71d643f9d0592b67071c46723e3ffda0a80d708d75bccd2a3280bead44",
+			"repository": "https://github.com/npp-plugins/pork2sausage/releases/download/v2.6/pork2sausage.2.6.bin.zip",
 			"description": "Pass any selected text to any command line program as input and take the output (the result of program) to replace the selected text.",
 			"author": "Don HO",
 			"homepage": "https://github.com/npp-plugins/pork2sausage"
@@ -1277,11 +1311,23 @@
 			"folder-name": "PreviewHTML",
 			"display-name": "Preview HTML",
 			"version": "1.3.3.2",
+			"old-versions-compatibility": "[,1.3.3.1][,8.3.3]",
 			"id": "92fa7faa01b9953c5b759bfe5637c948f5a742623ec1b9a99565d623979dc3c3",
 			"repository": "https://github.com/rdipardo/npp_preview/releases/download/v1.3.3.2/PreviewHTML_v1.3.3.2_win32.zip",
 			"description": "Preview HTML files inside Notepad++ (or in a floating window) without having to save them first.",
 			"author": "Martijn Coppoolse",
 			"homepage": "https://github.com/rdipardo/npp_preview"
+		},
+		{
+			"folder-name": "pycalc",
+			"display-name": "pycalc",
+			"version": "1.0.0",
+			"npp-compatible-versions": "[7.7.1,]",
+			"id": "4decd1d50b3a855221b0f98fd9d2ee201dd22c766047afe0ef4086e09a7f42bc",
+			"repository": "https://github.com/pycalc-plugin/notepad-plus-plus/releases/download/1.0.0/pycalc-x86.zip",
+			"description": "The pycalc plugin enables the execution of python code directly within the editor upon pressing the Enter key.",
+			"author": "pycalc",
+			"homepage": "https://github.com/pycalc-plugin/notepad-plus-plus"
 		},
 		{
 			"folder-name": "PyNPP",
@@ -1559,10 +1605,10 @@
 			"display-name": "Source Cookifier",
 			"version": "0.7.3",
 			"id": "ccc0e93ddb580511b5c2b4a3363713ef0cd96187515e972362bf5b6b235430de",
-			"repository": "https://downloads.sourceforge.net/project/sourcecookifier/0.7.3/SourceCookifier.v0.7.3.bin.zip",
+			"repository": "https://github.com/ufo/sourcecookifier/releases/download/v0.7.3/SourceCookifier.v0.7.3.bin.zip",
 			"description": "Use Exuberant Ctags to parse either only the currently activated source file or multiple files. The results are shown and can be browsed in a treeview inside of a dockable window. (Requires .NET 2.0) NOTE: The 32 bit version has been discontinued.",
 			"author": "UFO-Pu55y",
-			"homepage": "https://sourceforge.net/projects/sourcecookifier/"
+			"homepage": "https://github.com/ufo/sourcecookifier"
 		},
 		{
 			"folder-name": "SpeechPlugin",
@@ -1597,9 +1643,9 @@
 		{
 			"folder-name": "StayAwake_NPP",
 			"display-name": "StayAwake",
-			"version": "1.0.0.2",
-			"id": "767a200b12e00e810f90c351ec72bf48571a84ed7c16a5a84684a3592d141b3c",
-			"repository": "https://github.com/shriprem/StayAwake_NPP_Plugin/releases/download/v1.0.0.2/StayAwake_NPP_x86.zip",
+			"version": "1.0.1.0",
+			"id": "cbe7e3dca3f94dd61305485f6a123581e737a489d9f38a45d2c5d26cff66bb48",
+			"repository": "https://github.com/shriprem/StayAwake_NPP_Plugin/releases/download/v1.0.1.0/StayAwake_NPP_x86.zip",
 			"description": "StayAwake is a simple utility that enables you to maintain an Active status on Microsoft Teams by periodically cycling (double-toggling) the Scroll Lock button. StayAwake also prevents screen saver activation, screen blanking, and Windows session lockouts.",
 			"author": "Shridhar Kumar",
 			"homepage": "https://github.com/shriprem/StayAwake_NPP_Plugin"
@@ -1835,36 +1881,15 @@
 			"homepage": "https://github.com/StanDog/npp-zoomdisabler"
 		},
 		{
-			"folder-name": "NppTextFX",
-			"display-name": "NppTextFX2",
-			"version": "1.4.1",
-			"id": "9e9372e0948d01946134e279d1cd534337dd19c441ec5622c0cbb7435498cdf5",
-			"repository": "https://github.com/rainman74/NPPTextFX2/releases/download/1.4.1/NppTextFX2.1.4.1.x86.zip",
-			"description": "TextFX2 is a Notepad++ plugin which performs a variety of common conversions on selected text.",
-			"author": "Karlheinz Graf",
-			"homepage": "https://github.com/rainman74/NPPTextFX2"
-		},
-		{
-			"folder-name": "FoldingLineHider",
-			"display-name": "Folding Line Hider",
-			"version": "1.1",
-			"npp-compatible-versions": "[7.0,]",
-			"id": "cf9ae52d0cafe046f30ccf40d8a410413168c1b359e248be314c1d87d9f45b19",
-			"repository": "https://github.com/leonardchai/FoldingLineHider/releases/download/v1.1/FoldingLineHider1.1.x86.zip",
-			"description": "This Notepad++ plugin can hide the unsightly folding lines, and for convenience, you can fold and unfold the current level using the Alt + Left/Right keys.",
-			"author": "leonardchai@gmail.com",
-			"homepage": "https://github.com/leonardchai/FoldingLineHider"
-		},
-		{
-			"folder-name": "pycalc",
-			"display-name": "pycalc",
-			"version": "1.0.0",
-			"npp-compatible-versions": "[7.7.1,]",
-			"id": "4decd1d50b3a855221b0f98fd9d2ee201dd22c766047afe0ef4086e09a7f42bc",
-			"repository": "https://github.com/pycalc-plugin/notepad-plus-plus/releases/download/1.0.0/pycalc-x86.zip",
-			"description": "The pycalc plugin enables the execution of python code directly within the editor upon pressing the Enter key.",
-			"author": "pycalc",
-			"homepage": "https://github.com/pycalc-plugin/notepad-plus-plus"
+			"folder-name": "AndroidLogger",
+			"display-name": "AndroidLogger",
+			"version": "1.4.3.4",
+			"npp-compatible-versions": "[7.8,]",
+			"id": "8c45c9a3540ee3bf0d487038880bb824c3150b1bd5a9156bce37f06f0f523596",
+			"repository": "https://github.com/glandon/AndroidLogger/releases/download/v1.4.3.4/AndroidLogger.v1.4.3.4.EN.x86.zip",
+			"description": "A comprehensive Android suite featuring real-time log/screen capture, integrated file explorer for rapid operations, and a smart command panel supporting one-click search/execution of commands with output retrieval.",
+			"author": "simbaba",
+			"homepage": "https://sourceforge.net/projects/androidlogger"
 		}
 	]
 }

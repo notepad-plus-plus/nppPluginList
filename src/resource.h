@@ -1,6 +1,6 @@
 
 // This file is part of Notepad++ project
-// Copyright (C)2018 Don HO <don.h@free.fr>
+// Copyright (C)2025 Don HO <don.h@free.fr>
 //
 // This program is free software; you can redistribute it and/or
 // modify it under the terms of the GNU General Public License
@@ -40,8 +40,8 @@
 #define PLJSON "pl.x86.json"
 #endif
 
-#define VERSION_VALUE "1.82\0"
-#define VERSION_DIGITALVALUE 1, 8, 2, 0
+#define VERSION_VALUE "1.85\0"
+#define VERSION_DIGITALVALUE 1, 8, 5, 0
 
 #define TEXTFILE        256
 #define IDR_PLUGINLISTJSONFILE  101

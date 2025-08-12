@@ -6,6 +6,11 @@ jobs:
   build:
 
     runs-on: windows-latest
+
+    permissions:
+      # Give the default GITHUB_TOKEN write permission to commit and push the changed files back to the repository.
+      contents: write
+
     strategy:
       fail-fast: false
       matrix:
@@ -42,7 +47,7 @@ jobs:
           name: plugin_dll_and_list_x64
           path: |
                 bin64\nppPluginList.dll
-                plugin_list_x64.md
+                doc\plugin_list_x64.md
 
     - name: Archive artifacts for Win32
       if: matrix.build_platform == 'Win32' && matrix.build_configuration == 'Release'
@@ -51,7 +56,7 @@ jobs:
           name: plugin_dll_and_list_x86
           path: |
                 bin\nppPluginList.dll
-                plugin_list_x86.md
+                doc\plugin_list_x86.md
 
     - name: Archive artifacts for ARM64
       if: matrix.build_platform == 'ARM64' && matrix.build_configuration == 'Release'
@@ -60,4 +65,21 @@ jobs:
           name: plugin_dll_and_list_arm64
           path: |
                 binarm64\nppPluginList.dll
-                plugin_list_arm64.md
+                doc\plugin_list_arm64.md
+
+    - name: Checkout main branch if push trigger is a tag
+      if: github.repository_owner == 'notepad-plus-plus' && github.ref_type == 'tag' && matrix.build_platform == 'ARM64' && matrix.build_configuration == 'Release'
+      run: |
+           git fetch --all
+           git checkout master
+
+    - name: Generate all plugin lists markdown from json on tagging
+      if: startsWith(github.ref, 'refs/tags/') && matrix.build_platform == 'ARM64' && matrix.build_configuration == 'Release'
+      working-directory: .
+      run: python validator.py all_md
+
+    - name: Push markdown changes on tagging
+      if: startsWith(github.ref, 'refs/tags/') && matrix.build_platform == 'ARM64' && matrix.build_configuration == 'Release'
+      uses: stefanzweifel/git-auto-commit-action@v6
+      with:
+        file_pattern: 'doc/*.md'
