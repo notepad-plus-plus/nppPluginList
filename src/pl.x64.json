@@ -398,10 +398,10 @@
 		{
 			"folder-name": "EnhanceAnyLexer",
 			"display-name": "EnhanceAnyLexer",
-			"version": "1.4.0",
+			"version": "1.4.1",
 			"npp-compatible-versions": "[8.4.1,]",
-			"id": "e09f05c641faa60968f99cfacaafa0599b351a8aeec837eeb0599dcd16f8f5a8",
-			"repository": "https://github.com/Ekopalypse/EnhanceAnyLexer/releases/download/v.1.4.0/EnhanceAnyLexer_x64_PluginAdmin.zip",
+			"id": "2740ec8ba974c9c40d27045638322ef053ae687257d251a4a891f80c36fe9ed7",
+			"repository": "https://github.com/Ekopalypse/EnhanceAnyLexer/releases/download/v.1.4.1/EnhanceAnyLexer_x64_PluginAdmin.zip",
 			"description": "Adds more styling, colors only, options to any Lexer",
 			"author": "Ekopalypse",
 			"homepage": "https://github.com/Ekopalypse/EnhanceAnyLexer"
