@@ -294,9 +294,9 @@
 		{
 			"folder-name": "RAScript",
 			"display-name": "RAScript",
-			"version": "0.4.0",
-			"id": "ca4de7d247bfc3c89d60ecc502b4a79d66fdcd6845149b35f8447b1c97ed24b3",
-			"repository": "https://github.com/joshraphael/npp-rascript/releases/download/v0.4.0/npp-rascript_v0.4.0_ARM64.zip",
+			"version": "0.4.1",
+			"id": "40d920319726a64c7631e8608f92e8ca15d8a3e6e46fea24ff22223ae36fc85a",
+			"repository": "https://github.com/joshraphael/npp-rascript/releases/download/v0.4.1/npp-rascript_v0.4.1_ARM64.zip",
 			"description": "Notepad++ plugin to define RAScript grammar",
 			"author": "Joshua Raphael",
 			"homepage": "https://github.com/joshraphael/npp-rascript"
