@@ -1400,6 +1400,16 @@
 			"homepage": "https://github.com/BdR76/RandomValuesNPP/"
 		},
 		{
+			"folder-name": "RAScript",
+			"display-name": "RAScript",
+			"version": "0.4.1",
+			"id": "2f063447419e1bf614e0d854ebc28c2c184b5b84eb22195c5e0cde471cf26968",
+			"repository": "https://github.com/joshraphael/npp-rascript/releases/download/v0.4.1/npp-rascript_v0.4.1_Win32.zip",
+			"description": "Notepad++ plugin to define RAScript grammar",
+			"author": "Joshua Raphael",
+			"homepage": "https://github.com/joshraphael/npp-rascript"
+		},
+		{
 			"folder-name": "rdmd-en-x86",
 			"display-name": "RDMD for Notepad++ (English)",
 			"version": "0.1.0.2",

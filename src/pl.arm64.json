@@ -292,6 +292,16 @@
 			"homepage": "https://github.com/npp-plugins/pork2sausage"
 		},
 		{
+			"folder-name": "RAScript",
+			"display-name": "RAScript",
+			"version": "0.4.1",
+			"id": "40d920319726a64c7631e8608f92e8ca15d8a3e6e46fea24ff22223ae36fc85a",
+			"repository": "https://github.com/joshraphael/npp-rascript/releases/download/v0.4.1/npp-rascript_v0.4.1_ARM64.zip",
+			"description": "Notepad++ plugin to define RAScript grammar",
+			"author": "Joshua Raphael",
+			"homepage": "https://github.com/joshraphael/npp-rascript"
+		},
+		{
 			"folder-name": "RunMe",
 			"display-name": "RunMe",
 			"version": "1.6.1.0",
