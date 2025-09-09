@@ -829,10 +829,10 @@
 		{
 			"folder-name": "MultiReplace",
 			"display-name": "MultiReplace",
-			"version": "4.5.1.31",
+			"version": "4.5.2.32",
 			"npp-compatible-versions": "[8.5.4,]",
-			"id": "e7e0454a6924601f7ca0d5b149ce6b4cfed1fb356bbd25d1849b19f19f95284f",
-			"repository": "https://github.com/daddel80/notepadpp-multireplace/releases/download/4.5.1.31/MultiReplace-v4.5.1.31-Win32.zip",
+			"id": "16ae99bdd9202173163ba3f5eba09973b3ea2a651fb1556781a517c7157d27dd",
+			"repository": "https://github.com/daddel80/notepadpp-multireplace/releases/download/4.5.2.32/MultiReplace-v4.5.2.32-Win32.zip",
 			"description": "Multi-string replacement across single or multiple files; reusable search/replace lists; CSV column operations (targeting, sort, delete, replace); external lookup tables; rectangular selection support; conditional (if/then) and math logic.\r\n",
 			"author": "Thomas Knoefel",
 			"homepage": "https://github.com/daddel80/notepadpp-multireplace"
