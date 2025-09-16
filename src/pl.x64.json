@@ -1295,6 +1295,16 @@
 			"homepage": "https://github.com/joshraphael/npp-rascript"
 		},
 		{
+			"folder-name": "RedisPlugin",
+			"display-name": "Redis",
+			"version": "1.0.0",
+			"id": "e7e96de5a6be6ce05fd7bbae91294fd4659048df5c25021b2bdf7d2f0bb9ff55",
+			"repository": "https://github.com/bakingam1983/Notepad.plus.plus-RedisPlugin/releases/download/v1.0.0/Notepad++RedisPlugin_v1.0.0.zip",
+			"description": "Notepad++ plugin to view Redis keys and values",
+			"author": "Andrea Baghin",
+			"homepage": "https://github.com/bakingam1983/Notepad.plus.plus-RedisPlugin"
+		},
+		{
 			"folder-name": "rdmd-en-x64",
 			"display-name": "RDMD for Notepad++ (English)",
 			"version": "0.1.0.2",
