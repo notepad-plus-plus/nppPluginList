@@ -1224,6 +1224,16 @@
 			"homepage": "https://github.com/dinkumoil/NppUISpy"
 		},
 		{
+			"folder-name": "NppVim",
+			"display-name": "NppVim",
+			"version": "1.0.0.0",
+			"id": "7d753cd404998c7748bf46ac41b2df56a4e8d0f480c9c0a4b87afb2c6ce83bf5",
+			"repository": "https://github.com/h-jangra/NppVim/releases/download/1.0.0.0/NppVim.zip",
+			"description": "A Notepad++ plugin that adds Vim-style editing and key bindings.",
+			"author": "h-jangra",
+			"homepage": "https://github.com/h-jangra/NppVim"
+		},
+		{
 			"folder-name": "NWScript-Npp",
 			"display-name": "NWScript Tools",
 			"version": "1.2.0.2300",
