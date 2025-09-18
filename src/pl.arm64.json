@@ -270,6 +270,16 @@
 			"homepage": "https://github.com/KubaDee/NppTextViz"
 		},
 		{
+			"folder-name": "NppVim",
+			"display-name": "NppVim",
+			"version": "1.0.0",
+			"id": "6573a5f3ad6fbf4315753e935a74c35817fa10ece96be3bf2dddcabe5189fe6b",
+			"repository": "https://github.com/h-jangra/NppVim/releases/download/1.0.0.0/NppVim.arm64.zip",
+			"description": "A Notepad++ plugin that adds Vim-style editing and key bindings.",
+			"author": "h-jangra",
+			"homepage": "https://github.com/h-jangra/NppVim"
+		},
+		{
 			"folder-name": "OpenSelection",
 			"display-name": "OpenSelection",
 			"version": "1.1.3.0",
