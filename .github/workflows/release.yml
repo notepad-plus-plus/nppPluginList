@@ -1,4 +1,4 @@
-name: CI_build
+name: release
 
 on: [workflow_dispatch]
 
