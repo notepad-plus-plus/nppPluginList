@@ -186,9 +186,9 @@
 		{
 			"folder-name": "CollectionInterface",
 			"display-name": "CollectionInterface",
-			"version": "1.1.0",
-			"id": "e7351eb9dd0b4374bdb0a3cc3d18dbd1b9768f0edb5d285f40109ad7abe72eb8",
-			"repository": "https://github.com/pryrt/NppPlugin-CollectionInterface/releases/download/v1.1.0/CollectionInterface_v1.1.0_x64.zip",
+			"version": "1.2.0",
+			"id": "329d43febc698b0afd31062a10d97d4b36d770ff20af95c431ffb244e36c0b47",
+			"repository": "https://github.com/pryrt/NppPlugin-CollectionInterface/releases/download/v1.2.0/CollectionInterface_v1.2.0_x64.zip",
 			"description": "Interface to the official UserDefinedLanguage Collection and nppThemes Collection.\r\n\r\nAllows easy download and installation of a UDL (with FunctionList and AutoCompletion definitions, when available) or a Theme",
 			"author": "pryrt",
 			"homepage": "https://github.com/pryrt/NppPlugin-CollectionInterface",
