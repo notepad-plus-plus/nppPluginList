@@ -1664,7 +1664,7 @@
 			"folder-name": "StayAwake_NPP",
 			"display-name": "StayAwake",
 			"version": "1.1.0.0",
-			"id": "a4f4d6561ebf77dbf5881b400a2e765edcd4744514debb38d163b216905faa4e",
+			"id": "8b59e7489cb4c97c24980d8783cb099d92e431aaf7b3019acf2c6c95530e24b0",
 			"repository": "https://github.com/shriprem/StayAwake_NPP_Plugin/releases/download/v1.1.0.0/StayAwake_NPP_x86.zip",
 			"description": "StayAwake is a plugin for Notepad++ that enables you to maintain an Active status on Microsoft Teams by simulating key presses of unused or low side-effect buttons at specified intervals. StayAwake also prevents screen saver activation, screen blanking, and Windows session lockouts.",
 			"author": "Shridhar Kumar",
