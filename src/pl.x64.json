@@ -1659,9 +1659,9 @@
 		{
 			"folder-name": "WebEdit",
 			"display-name": "WebEdit",
-			"version": "2.8",
-			"id": "89607cf5008b2510f587e73c4eb34b2fd197e0caed9fd3cec75e7c60a82075af",
-			"repository": "https://github.com/Krazal/WebEdit/releases/download/v2.8.0.0/WebEdit.2.8.0.0.x64.zip",
+			"version": "2.8.1.0",
+			"id": "433dad8587ecae164af6da07322b395f19a5d33030a506482c361df2a27f6bc1",
+			"repository": "https://github.com/Krazal/WebEdit/releases/download/v2.8.1.0/WebEdit.2.8.1.0.x64.zip",
 			"description": "WebEdit is a modern Notepad++ plugin for configurable code templates and text expansions. Define any number of 'wrap' commands (insert left/right text around the selection or caret) and unlimited tag abbreviations that expand into multiline snippets with preserved indentation and a configurable caret position. Type a tag, press Alt + Enter and it will be replaced with the corresponding block of text. Commands can be exposed in the menu, assigned shortcuts, or placed on the toolbar for one‑click use. Full Unicode support ensures seamless handling of international text and symbols. Configuration is stored in WebEdit.ini (open it with the Plugins → WebEdit → Edit Config command). For credits and more information see ReadMe.txt on the Homepage.",
 			"author": "Alexander Iljin",
 			"homepage": "https://github.com/Krazal/WebEdit"
