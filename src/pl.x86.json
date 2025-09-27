@@ -1813,12 +1813,12 @@
 		{
 			"folder-name": "WebEdit",
 			"display-name": "WebEdit",
-			"version": "2.1",
-			"id": "60622e73f01a1fdb5462c2ba416649c404c39db18100826301f4ad74b4e7da46",
-			"repository": "https://master.dl.sourceforge.net/project/npp-plugins/WebEdit/WebEdit%202.1/WebEdit.v2.1.zip",
-			"description": "WebEdit is another attempt to integrate a user-configurable code template collection into Notepad++. With WebEdit you have the following options:\r\n create a menu command for pasting some text, possibly surrounding the current selection, if any. Imagine selecting a word and putting \"&lt;p&gt;...&lt;/p&gt;\" around it with a single hotkey. You can create up to 30 such commands and assign keyboard shortcuts to them, or simply use the menu;\r\n the same 30 commands can also be represented by buttons on the main toolbar for quick access with the mouse;\r\n you can create a set of \"tags\" or abbreviations. Type one of them, then press Alt+Enter and it will be replaced with the corresponding block of text. If the replacement consists of multiple lines, all of them will be indented same as the first one. The caret will be placed in a predefined position within the new text. You can have the current clipboard contents (e.g. a function name) pasted on expansion.\r\nThe plugin configuration is stored in the WebEdit.ini file. Use \"WebEdit\\Edit Config\" command from the \"Plugins\" menu to open the file in Notepad++ for editing.\r\nAll keyboard shortcuts can be assigned/modified using the standard Shortcut Mapper. For more information see the WebEdit.txt help file.",
+			"version": "2.8.1.2",
+			"id": "30bd05420648cd7b3e47c7b60a9f51842d9ca06cb70ca2eaa7adaacc2d2368a2",
+			"repository": "https://github.com/Krazal/WebEdit/releases/download/v2.8.1.2/WebEdit.2.8.1.2.win32.zip",
+			"description": "WebEdit is another attempt to integrate a user-configurable code template collection into Notepad++. With WebEdit you have the following options:\r\n create a menu command for pasting some text, possibly surrounding the current selection, if any. Imagine selecting a word and putting \"&lt;p&gt;...&lt;/p&gt;\" around it with a single hotkey. You can create up to 30 such commands and assign keyboard shortcuts to them, or simply use the menu;\r\n the same 30 commands can also be represented by buttons on the main toolbar for quick access with the mouse;\r\n you can create a set of \"tags\" or abbreviations. Type one of them, then press Alt+Enter and it will be replaced with the corresponding block of text. If the replacement consists of multiple lines, all of them will be indented same as the first one. The caret will be placed in a predefined position within the new text. You can have the current clipboard contents (e.g. a function name) pasted on expansion.\r\nThe plugin configuration is stored in the WebEdit.ini file. Use \"WebEdit\\Edit Config\" command from the \"Plugins\" menu to open the file in Notepad++ for editing.\r\nAll keyboard shortcuts can be assigned/modified using the standard Shortcut Mapper. For more information see the WebEdit.txt help file.\r\nNOTE: This is an updated version of the plugin. You can find the original (v2.1) files here: https://sourceforge.net/projects/npp-plugins/files/WebEdit/WebEdit%202.1/",
 			"author": "Alexander Iljin",
-			"homepage": "https://sourceforge.net/projects/npp-plugins/files/WebEdit/WebEdit%202.1/"
+			"homepage": "https://github.com/Krazal/WebEdit"
 		},
 		{
 			"folder-name": "WindowManager",

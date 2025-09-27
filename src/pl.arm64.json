@@ -440,6 +440,16 @@
 			"description": "Hopefully a decent URL Encoder and Decoder plug-in for Notepad++ which helps to make developer's life easier by providing facility to encode/decode the URL within Notepad++. \r\n\r\nHow it works:\r\n1. Configure setting from menu (Plugins->URL Plugin->URL Plugin Settings). It is not mandatory, but recommended.\r\n2. Select text/URL which you want to encode/decode.\r\n3. Perform your task via Plugins->URL Plugin->Encode/Decode URL.\r\n\r\n",
 			"author": "Rajendra Singh",
 			"homepage": "https://github.com/SinghRajenM/nppURLPlugin"
+		},
+		{
+			"folder-name": "WebEdit",
+			"display-name": "WebEdit",
+			"version": "2.8.1.2",
+			"id": "57326011155b494747b1d3156f1443e56a3dd116f5abca522c2df90709d93614",
+			"repository": "https://github.com/Krazal/WebEdit/releases/download/v2.8.1.2/WebEdit.2.8.1.2.arm64.zip",
+			"description": "WebEdit is a modern Notepad++ plugin for configurable code templates and text expansions. Define any number of 'wrap' commands (insert left/right text around the selection or caret) and unlimited tag abbreviations that expand into multiline snippets with preserved indentation and a configurable caret position. Type a tag, press Alt + Enter and it will be replaced with the corresponding block of text. Commands can be exposed in the menu, assigned shortcuts, or placed on the toolbar for one‑click use. Full Unicode support ensures seamless handling of international text and symbols. Configuration is stored in WebEdit.ini (open it with the Plugins → WebEdit → Edit Config command). For credits and more information see ReadMe.txt on the Homepage.",
+			"author": "Alexander Iljin",
+			"homepage": "https://github.com/Krazal/WebEdit"
 		}
 	]
 }
