@@ -872,7 +872,7 @@
 			"version": "4.7",
 			"npp-compatible-versions": "[8.4.7,]",
 			"old-versions-compatibility": "[,4.4][,8.4.6]",
-			"id": "953901b67b9688fb66f939a4c5370410abb61983a19d8f853a9a0b08670800e4",
+			"id": "9aa959789ed8882b18f11dae694ea8f9260901be23cb359a870e9ac28422f186",
 			"repository": "https://github.com/npp-plugins/converter/releases/download/v4.7/nppConvert.v4.7.x64.zip",
 			"description": "ASCII<->Hex converter.",
 			"author": "Don HO",
