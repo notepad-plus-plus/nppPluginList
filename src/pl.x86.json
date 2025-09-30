@@ -934,11 +934,11 @@
 		{
 			"folder-name": "nppConverter",
 			"display-name": "Npp Converter",
-			"version": "4.6.0",
+			"version": "4.7",
 			"npp-compatible-versions": "[8.4.7,]",
 			"old-versions-compatibility": "[,4.4][,8.4.6]",
-			"id": "61826fee7b91ded1db1de7d16cf16b71172510c8abe5486ade06664cc1af06c9",
-			"repository": "https://github.com/npp-plugins/converter/releases/download/v4.6/nppConvert.v4.6.zip",
+			"id": "e3075e4c17ca4c5569a3600c820a2997b4b49136ace6f494185695d1799c656c",
+			"repository": "https://github.com/npp-plugins/converter/releases/download/v4.7/nppConvert.v4.7.zip",
 			"description": "ASCII<->Hex converter.",
 			"author": "Don HO",
 			"homepage": "https://github.com/npp-plugins/converter/"
