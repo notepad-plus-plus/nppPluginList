@@ -1707,6 +1707,17 @@
 			"description": "Tired of zooming your document everytime you just want to scroll but accidentally still holding the [Ctrl] key? Then this is what you want! It disables mouse zoom, keyboard zoom, or both.",
 			"author": "Stanislav Eckert",
 			"homepage": "https://github.com/StanDog/npp-zoomdisabler"
+		},
+		{
+			"folder-name": "NppRgaIsaPlugin",
+			"display-name": "RGA ISA Compiler",
+			"version": "1.0.0.0",
+			"npp-compatible-versions": "[8.4.3,]",
+			"id": "0449215d66228e1ab6268374dfc41b176f5b206877fe7b53039de9582f4c678b",
+			"repository": "https://github.com/DIMOSUS/NppRgaIsaPlugin/releases/download/v1.0.0.0/NppRgaIsaPlugin_v1.0.0.0.zip",
+			"description": "A plugin that displays the assembler ISA code of a compiled HLSL shader in a separate dockable panel. Compilation is performed via rga.exe (Radeon GPU Analyzer) in DX12 mode directly to ISA (without intermediate SPIR-V).",
+			"author": "Dmitry Budik",
+			"homepage": "https://github.com/DIMOSUS/NppRgaIsaPlugin"
 		}
 	]
 }
