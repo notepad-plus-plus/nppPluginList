@@ -1307,9 +1307,9 @@
 		{
 			"folder-name": "RedisPlugin",
 			"display-name": "Redis",
-			"version": "1.0.0",
-			"id": "e7e96de5a6be6ce05fd7bbae91294fd4659048df5c25021b2bdf7d2f0bb9ff55",
-			"repository": "https://github.com/bakingam1983/Notepad.plus.plus-RedisPlugin/releases/download/v1.0.0/Notepad++RedisPlugin_v1.0.0.zip",
+			"version": "1.0.2",
+			"id": "0ec19575b952dd205bb4a70464f85637e2174237169ff47bb328b130a1105af7",
+			"repository": "https://github.com/bakingam1983/Notepad.plus.plus-RedisPlugin/releases/download/v1.0.2/Notepad++RedisPlugin_v1.0.2.zip",
 			"description": "Notepad++ plugin to view Redis keys and values",
 			"author": "Andrea Baghin",
 			"homepage": "https://github.com/bakingam1983/Notepad.plus.plus-RedisPlugin"
