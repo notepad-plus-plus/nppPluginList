@@ -80,6 +80,6 @@ jobs:
 
     - name: Push markdown changes on tagging
       if: startsWith(github.ref, 'refs/tags/') && matrix.build_platform == 'ARM64' && matrix.build_configuration == 'Release'
-      uses: stefanzweifel/git-auto-commit-action@v6
+      uses: stefanzweifel/git-auto-commit-action@v7
       with:
         file_pattern: 'doc/*.md'
