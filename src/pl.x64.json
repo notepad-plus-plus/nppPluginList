@@ -1,6 +1,6 @@
 {
 	"name": "npp-pluginList",
-	"version": "1.8.5",
+	"version": "1.8.6",
 	"arch": "64",
 	"npp-plugins": [
 		{
@@ -186,9 +186,9 @@
 		{
 			"folder-name": "CollectionInterface",
 			"display-name": "CollectionInterface",
-			"version": "1.1.0",
-			"id": "e7351eb9dd0b4374bdb0a3cc3d18dbd1b9768f0edb5d285f40109ad7abe72eb8",
-			"repository": "https://github.com/pryrt/NppPlugin-CollectionInterface/releases/download/v1.1.0/CollectionInterface_v1.1.0_x64.zip",
+			"version": "1.2.0",
+			"id": "329d43febc698b0afd31062a10d97d4b36d770ff20af95c431ffb244e36c0b47",
+			"repository": "https://github.com/pryrt/NppPlugin-CollectionInterface/releases/download/v1.2.0/CollectionInterface_v1.2.0_x64.zip",
 			"description": "Interface to the official UserDefinedLanguage Collection and nppThemes Collection.\r\n\r\nAllows easy download and installation of a UDL (with FunctionList and AutoCompletion definitions, when available) or a Theme",
 			"author": "pryrt",
 			"homepage": "https://github.com/pryrt/NppPlugin-CollectionInterface",
@@ -265,9 +265,9 @@
 		{
 			"folder-name": "ConfigUpdater",
 			"display-name": "ConfigUpdater",
-			"version": "2.2.1",
-			"id": "87a82299ed4b3a77ce41ff1772667dbb313bbdac3d696b62aaded8bfc90f2317",
-			"repository": "https://github.com/pryrt/NppPlugin-ConfigUpdater/releases/download/v2.2.1/ConfigUpdater_v2.2.1_x64.zip",
+			"version": "2.3.0",
+			"id": "c0fa5dcc4ca56852a503923c0e9fc2e5e5582fd7eb26735e439298500d4c55d6",
+			"repository": "https://github.com/pryrt/NppPlugin-ConfigUpdater/releases/download/v2.3.0/ConfigUpdater_v2.3.0_x64.zip",
 			"description": "Notepad++ Plugin to keep Langs/Stylers/Themes config files up-to-date",
 			"author": "pryrt",
 			"homepage": "https://github.com/pryrt/NppPlugin-ConfigUpdater",
@@ -472,11 +472,11 @@
 		{
 			"folder-name": "FWDataViz",
 			"display-name": "Fixed-width Data Visualizer",
-			"version": "2.6.5.0",
+			"version": "2.6.6.0",
 			"npp-compatible-versions": "[8.4.1,]",
 			"old-versions-compatibility": "[,2.4.0.1][8,8.2.1]",
-			"id": "199bcadf2d9cb19491f1366fc1bfaa8a7fd7588aa70ebd16054de7130676d9d3",
-			"repository": "https://github.com/shriprem/FWDataViz/releases/download/v2.6.5.0/FWDataViz_x64.zip",
+			"id": "823614d21a2c5616d00bd8f7507ac6b84e5d627c5a87dedf25f56b4937613bb7",
+			"repository": "https://github.com/shriprem/FWDataViz/releases/download/v2.6.6.0/FWDataViz_x64.zip",
 			"description": "Fixed Width Data Visualizer adds Excel-like features for fixed-width data files in Notepad++. Displays cursor position data. Foldable Record Blocks; Hop & Jump to specific fields. Field Copy & Field Paste. Data Extraction. Builtin dialogs to configure file-type, record-type & fields; and themes & colors. Automatic File Type Detection. Handles homogenous, mixed & multi-line records. Full Multi-byte character support. Darkmode enabled.",
 			"author": "Shridhar Kumar",
 			"homepage": "https://github.com/shriprem/FWDataViz"
@@ -517,11 +517,11 @@
 		{
 			"folder-name": "GotoLineCol",
 			"display-name": "GotoLineCol",
-			"version": "2.4.5.0",
+			"version": "2.4.5.1",
 			"npp-compatible-versions": "[8.4.2,]",
 			"old-versions-compatibility": "[,2.2.0.1][,8.2.1]",
-			"id": "34622a7411d3040a092fe2292d8c15defe5b07aee594979d72a2c041181cf5d5",
-			"repository": "https://github.com/shriprem/Goto-Line-Col-NPP-Plugin/releases/download/v2.4.5.0/GotoLineCol_x64.zip",
+			"id": "84f3588a0d985f40e6d2e162423fa22ef99543995ce0be93aadb1a5a397c3657",
+			"repository": "https://github.com/shriprem/Goto-Line-Col-NPP-Plugin/releases/download/v2.4.5.1/GotoLineCol_x64.zip",
 			"description": "A plugin to navigate to a specified line and (byte-based or character-based) column position. Will also display character byte code, UTF-8 byte sequence & Unicode code point, name & block at cursor position. Darkmode enabled. Command line options.",
 			"author": "Shridhar Kumar",
 			"homepage": "https://github.com/shriprem/Goto-Line-Col-NPP-Plugin"
@@ -774,10 +774,10 @@
 		{
 			"folder-name": "MultiReplace",
 			"display-name": "MultiReplace",
-			"version": "4.5.1.31",
+			"version": "4.5.2.32",
 			"npp-compatible-versions": "[8.5.4,]",
-			"id": "4b1cee81b9ce76aad667e214701eefc43b358c4743fd6ad0489dfb8a37acbc15",
-			"repository": "https://github.com/daddel80/notepadpp-multireplace/releases/download/4.5.1.31/MultiReplace-v4.5.1.31-x64.zip",
+			"id": "2c7f5ed69d5017a7d87909a51470bedf16a51e77f04ea68a189b0e53213cee44",
+			"repository": "https://github.com/daddel80/notepadpp-multireplace/releases/download/4.5.2.32/MultiReplace-v4.5.2.32-x64.zip",
 			"description": "Multi-string replacement across single or multiple files; reusable search/replace lists; CSV column operations (targeting, sort, delete, replace); external lookup tables; rectangular selection support; conditional (if/then) and math logic.\r\n",
 			"author": "Thomas Knoefel",
 			"homepage": "https://github.com/daddel80/notepadpp-multireplace"
@@ -869,11 +869,11 @@
 		{
 			"folder-name": "nppConverter",
 			"display-name": "Npp Converter",
-			"version": "4.6",
+			"version": "4.7",
 			"npp-compatible-versions": "[8.4.7,]",
 			"old-versions-compatibility": "[,4.4][,8.4.6]",
-			"id": "f80d8266112bb50e4aff95c8d1ddfb9dbc2562e380d33820dd5f85368747a2cc",
-			"repository": "https://github.com/npp-plugins/converter/releases/download/v4.6/nppConvert.v4.6.x64.zip",
+			"id": "9aa959789ed8882b18f11dae694ea8f9260901be23cb359a870e9ac28422f186",
+			"repository": "https://github.com/npp-plugins/converter/releases/download/v4.7/nppConvert.v4.7.x64.zip",
 			"description": "ASCII<->Hex converter.",
 			"author": "Don HO",
 			"homepage": "https://github.com/npp-plugins/converter/"
@@ -1131,6 +1131,16 @@
 			"homepage": "https://github.com/dinkumoil/NppUISpy"
 		},
 		{
+			"folder-name": "NppVim",
+			"display-name": "NppVim",
+			"version": "1.0.0.0",
+			"id": "e44c213b158a469e9e0e9186bb647a4eff3f915f6e8bdf5fb8e105dc47b35936",
+			"repository": "https://github.com/h-jangra/NppVim/releases/download/1.0.0.0/NppVim.x64.zip",
+			"description": "A Notepad++ plugin that adds Vim-style editing and key bindings.",
+			"author": "h-jangra",
+			"homepage": "https://github.com/h-jangra/NppVim"
+		},
+		{
 			"folder-name": "NWScript-Npp",
 			"display-name": "NWScript Tools",
 			"version": "1.2.0.2300",
@@ -1293,6 +1303,16 @@
 			"description": "Notepad++ plugin to define RAScript grammar",
 			"author": "Joshua Raphael",
 			"homepage": "https://github.com/joshraphael/npp-rascript"
+		},
+		{
+			"folder-name": "RedisPlugin",
+			"display-name": "Redis",
+			"version": "1.0.2",
+			"id": "0ec19575b952dd205bb4a70464f85637e2174237169ff47bb328b130a1105af7",
+			"repository": "https://github.com/bakingam1983/Notepad.plus.plus-RedisPlugin/releases/download/v1.0.2/Notepad++RedisPlugin_v1.0.2.zip",
+			"description": "Notepad++ plugin to view Redis keys and values",
+			"author": "Andrea Baghin",
+			"homepage": "https://github.com/bakingam1983/Notepad.plus.plus-RedisPlugin"
 		},
 		{
 			"folder-name": "rdmd-en-x64",
@@ -1524,10 +1544,10 @@
 		{
 			"folder-name": "StayAwake_NPP",
 			"display-name": "StayAwake",
-			"version": "1.0.1.0",
-			"id": "58a7f02fbdbaa4126c4ca12141a6e98085181baff2e4db284c596867f6542eed",
-			"repository": "https://github.com/shriprem/StayAwake_NPP_Plugin/releases/download/v1.0.1.0/StayAwake_NPP_x64.zip",
-			"description": "StayAwake is a simple utility that enables you to maintain an Active status on Microsoft Teams by periodically cycling (double-toggling) the Scroll Lock button. StayAwake also prevents screen saver activation, screen blanking, and Windows session lockouts.",
+			"version": "1.1.0.0",
+			"id": "53700424c0c7a58c324e38d8cfc4afff1d51b7948dc6bf0db6e5aba2a6f506d5",
+			"repository": "https://github.com/shriprem/StayAwake_NPP_Plugin/releases/download/v1.1.0.0/StayAwake_NPP_x64.zip",
+			"description": "StayAwake enables you to maintain an Active status on Microsoft Teams by simulating key presses of unused or low side-effect buttons at specified intervals. StayAwake also prevents screen saver activation, screen blanking, and Windows session lockouts.",
 			"author": "Shridhar Kumar",
 			"homepage": "https://github.com/shriprem/StayAwake_NPP_Plugin"
 		},
@@ -3338,6 +3358,16 @@
 			"homepage": "https://github.com/wakatime/notepadpp-wakatime"
 		},
 		{
+			"folder-name": "WebEdit",
+			"display-name": "WebEdit",
+			"version": "2.8.1.2",
+			"id": "c5bb17bbd1b9ea384b0c1e56cf0742e101bbc259aae3294dc95724bc167a0cef",
+			"repository": "https://github.com/Krazal/WebEdit/releases/download/v2.8.1.2/WebEdit.2.8.1.2.x64.zip",
+			"description": "WebEdit is a modern Notepad++ plugin for configurable code templates and text expansions. Define any number of 'wrap' commands (insert left/right text around the selection or caret) and unlimited tag abbreviations that expand into multiline snippets with preserved indentation and a configurable caret position. Type a tag, press Alt + Enter and it will be replaced with the corresponding block of text. Commands can be exposed in the menu, assigned shortcuts, or placed on the toolbar for one‑click use. Full Unicode support ensures seamless handling of international text and symbols. Configuration is stored in WebEdit.ini (open it with the Plugins → WebEdit → Edit Config command). For credits and more information see ReadMe.txt on the Homepage.",
+			"author": "Alexander Iljin",
+			"homepage": "https://github.com/Krazal/WebEdit"
+		},
+		{
 			"folder-name": "XBrackets",
 			"display-name": "XBrackets Lite",
 			"version": "1.3.1",
@@ -3378,6 +3408,17 @@
 			"description": "Tired of zooming your document everytime you just want to scroll but accidentally still holding the [Ctrl] key? Then this is what you want! It disables mouse zoom, keyboard zoom, or both.",
 			"author": "Stanislav Eckert",
 			"homepage": "https://github.com/StanDog/npp-zoomdisabler"
+		},
+		{
+			"folder-name": "NppRgaIsaPlugin",
+			"display-name": "RGA ISA Compiler",
+			"version": "1.0.0.0",
+			"npp-compatible-versions": "[8.4.3,]",
+			"id": "0449215d66228e1ab6268374dfc41b176f5b206877fe7b53039de9582f4c678b",
+			"repository": "https://github.com/DIMOSUS/NppRgaIsaPlugin/releases/download/v1.0.0.0/NppRgaIsaPlugin_v1.0.0.0.zip",
+			"description": "A plugin that displays the assembler ISA code of a compiled HLSL shader in a separate dockable panel. Compilation is performed via rga.exe (Radeon GPU Analyzer) in DX12 mode directly to ISA (without intermediate SPIR-V).",
+			"author": "Dmitry Budik",
+			"homepage": "https://github.com/DIMOSUS/NppRgaIsaPlugin"
 		}
 	]
 }
