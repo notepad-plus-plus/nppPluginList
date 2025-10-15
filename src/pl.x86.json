@@ -550,9 +550,9 @@
 		{
 			"folder-name": "HexEditor",
 			"display-name": "HEX-Editor",
-			"version": "0.9.12.0",
-			"id": "266be61339df9d7a781ca6f5853ac03db1e35c3c6c1c8bcb2349c619f981c781",
-			"repository": "https://github.com/chcg/NPP_HexEdit/releases/download/0.9.12/HexEditor_0.9.12_Win32.zip",
+			"version": "0.9.13.0",
+			"id": "5801ad7b74da714f49f81d90c44c864ef5a24a4dffae2da45df2b9ae0e1ea923",
+			"repository": "https://github.com/chcg/NPP_HexEdit/releases/download/0.9.13/HexEditor_0.9.13_Win32.zip",
 			"description": "Hex editor. Some reported issues, however many bugs fixed in latest release.",
 			"author": "Jens Lorenz",
 			"homepage": "https://github.com/chcg/NPP_HexEdit"
