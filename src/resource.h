@@ -40,8 +40,8 @@
 #define PLJSON "pl.x86.json"
 #endif
 
-#define VERSION_VALUE "1.86\0"
-#define VERSION_DIGITALVALUE 1, 8, 6, 0
+#define VERSION_VALUE "1.87\0"
+#define VERSION_DIGITALVALUE 1, 8, 7, 0
 
 #define TEXTFILE        256
 #define IDR_PLUGINLISTJSONFILE  101
