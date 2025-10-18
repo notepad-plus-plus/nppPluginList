@@ -450,6 +450,17 @@
 			"description": "WebEdit is a modern Notepad++ plugin for configurable code templates and text expansions. Define any number of 'wrap' commands (insert left/right text around the selection or caret) and unlimited tag abbreviations that expand into multiline snippets with preserved indentation and a configurable caret position. Type a tag, press Alt + Enter and it will be replaced with the corresponding block of text. Commands can be exposed in the menu, assigned shortcuts, or placed on the toolbar for one‑click use. Full Unicode support ensures seamless handling of international text and symbols. Configuration is stored in WebEdit.ini (open it with the Plugins → WebEdit → Edit Config command). For credits and more information see ReadMe.txt on the Homepage.",
 			"author": "Alexander Iljin",
 			"homepage": "https://github.com/Krazal/WebEdit"
+		},
+		{
+			"folder-name": "VirtualFolders",
+			"display-name": "Virtual Folders",
+			"version": "1.0.0",
+			"npp-compatible-versions": "[8.8.5,]",
+			"id": "18ce08fa5cfcde441536f7f3b8e82838374cc4e2f7d9209d93d915097cde1989",
+			"repository": "https://github.com/FatihC/VirtualFolders/releases/download/v1.0/VirtualFolders-v1.0-arm64.zip",
+			"description": "This plugin adds a dockable tree panel where you can create your own virtual folder structure. Group files from different paths, reorder them freely, and keep related resources together without touching the actual filesystem.",
+			"author": "Fatih Coşkun",
+			"homepage": "https://github.com/FatihC/VirtualFolders"
 		}
 	]
 }
