@@ -1718,6 +1718,17 @@
 			"description": "A plugin that displays the assembler ISA code of a compiled HLSL shader in a separate dockable panel. Compilation is performed via rga.exe (Radeon GPU Analyzer) in DX12 mode directly to ISA (without intermediate SPIR-V).",
 			"author": "Dmitry Budik",
 			"homepage": "https://github.com/DIMOSUS/NppRgaIsaPlugin"
+		},
+		{
+			"folder-name": "VirtualFolders",
+			"display-name": "Virtual Folders",
+			"version": "1.0.0",
+			"npp-compatible-versions": "[8.8.5,]",
+			"id": "8d091f5ffb8ef5153c489c762cb1385012d89da7abda54170816972a1ab159e1",
+			"repository": "https://github.com/FatihC/VirtualFolders/releases/download/v1.0/VirtualFolders-v1.0-x64.zip",
+			"description": "This plugin adds a dockable tree panel where you can create your own virtual folder structure. Group files from different paths, reorder them freely, and keep related resources together without touching the actual filesystem.",
+			"author": "Fatih Coşkun",
+			"homepage": "https://github.com/FatihC/VirtualFolders"
 		}
 	]
 }
