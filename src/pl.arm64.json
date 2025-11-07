@@ -1,6 +1,6 @@
 {
 	"name": "npp-pluginList",
-	"version": "1.8.5",
+	"version": "1.8.7",
 	"arch": "arm64",
 	"npp-plugins": [
 		{
@@ -26,9 +26,9 @@
 		{
 			"folder-name": "CollectionInterface",
 			"display-name": "CollectionInterface",
-			"version": "1.1.0",
-			"id": "b87cd9aa2f84a1a3b131ca81df2d5cb9d50c90e4f67c5466e00f43cf9f960395",
-			"repository": "https://github.com/pryrt/NppPlugin-CollectionInterface/releases/download/v1.1.0/CollectionInterface_v1.1.0_ARM64.zip",
+			"version": "1.3.0",
+			"id": "c3722ac2933aee3183d819200f2510539b51768e9eaa2e37f71abd12b0de9df2",
+			"repository": "https://github.com/pryrt/NppPlugin-CollectionInterface/releases/download/v1.3.0/CollectionInterface_v1.3.0_ARM64.zip",
 			"description": "Interface to the official UserDefinedLanguage Collection and nppThemes Collection.\r\n\r\nAllows easy download and installation of a UDL (with FunctionList and AutoCompletion definitions, when available) or a Theme",
 			"author": "pryrt",
 			"homepage": "https://github.com/pryrt/NppPlugin-CollectionInterface",
@@ -37,11 +37,11 @@
 		{
 			"folder-name": "ComparePlus",
 			"display-name": "ComparePlus",
-			"version": "2.1.1",
+			"version": "2.2.0",
 			"npp-compatible-versions": "[8.4.7,]",
 			"old-versions-compatibility": "[,1.0.0][8.4.2,8.4.6]",
-			"id": "17c760d6407549b782793889f0a121b7f006af6f0dbe152fac31695a89a07bbd",
-			"repository": "https://github.com/pnedev/comparePlus/releases/download/cp_2.1.1/ComparePlus_cp_2.1.1_ARM64.zip",
+			"id": "ac75f0a48645d0ed56bd740de5cb74dd3c5f51ee3cde16597be9d65b19c1e595",
+			"repository": "https://github.com/pnedev/comparePlus/releases/download/cp_2.2.0/ComparePlus_cp_2.2.0_ARM64.zip",
 			"description": "Advanced compare tool based on the well-known Compare-plugin by Ty Landercasper and Jean-Sebastien Leroy.",
 			"author": "Pavel Nedev",
 			"homepage": "https://github.com/pnedev/comparePlus"
@@ -49,9 +49,9 @@
 		{
 			"folder-name": "ConfigUpdater",
 			"display-name": "ConfigUpdater",
-			"version": "2.2.1",
-			"id": "e02fce4c7f7ea3f9de68750d428c6e87235fac0638695fa05a896ca28b12246d",
-			"repository": "https://github.com/pryrt/NppPlugin-ConfigUpdater/releases/download/v2.2.1/ConfigUpdater_v2.2.1_ARM64.zip",
+			"version": "2.3.0",
+			"id": "1ae55100c090e353f039634dc7d28be52489dce7a742da383b37a8f3a513bbe2",
+			"repository": "https://github.com/pryrt/NppPlugin-ConfigUpdater/releases/download/v2.3.0/ConfigUpdater_v2.3.0_ARM64.zip",
 			"description": "Notepad++ Plugin to keep Langs/Stylers/Themes config files up-to-date",
 			"author": "pryrt",
 			"homepage": "https://github.com/pryrt/NppPlugin-ConfigUpdater",
@@ -60,9 +60,9 @@
 		{
 			"folder-name": "FWDataViz",
 			"display-name": "Fixed-width Data Visualizer",
-			"version": "2.6.5.0",
-			"id": "b5a7047adc28a54677ef6bff172a0c7b3a5671e221507e1eb3a7bec53c67b60e",
-			"repository": "https://github.com/shriprem/FWDataViz/releases/download/v2.6.5.0/FWDataViz_arm64.zip",
+			"version": "2.6.6.0",
+			"id": "1ead23bc29e5e5fea627520d529c8a43256489fc7787661d4eb689ae2f1c6d17",
+			"repository": "https://github.com/shriprem/FWDataViz/releases/download/v2.6.6.0/FWDataViz_arm64.zip",
 			"description": "Fixed Width Data Visualizer adds Excel-like features for fixed-width data files in Notepad++. Displays cursor position data. Foldable Record Blocks; Hop & Jump to specific fields. Field Copy & Field Paste. Data Extraction. Builtin dialogs to configure file-type, record-type & fields; and themes & colors. Automatic File Type Detection. Handles homogenous, mixed & multi-line records. Full Multi-byte character support. Darkmode enabled.",
 			"author": "Shridhar Kumar",
 			"homepage": "https://github.com/shriprem/FWDataViz"
@@ -70,9 +70,9 @@
 		{
 			"folder-name": "GotoLineCol",
 			"display-name": "GotoLineCol",
-			"version": "2.4.5.0",
-			"id": "07e0fc82dca248923a06f21a12c23adc0245854fab32255ffb311ab1c86080db",
-			"repository": "https://github.com/shriprem/Goto-Line-Col-NPP-Plugin/releases/download/v2.4.5.0/GotoLineCol_arm64.zip",
+			"version": "2.4.5.1",
+			"id": "b6ec535c3376d57228d683990159f49fa04a96c4c31c0f734dc8bb3d2736732c",
+			"repository": "https://github.com/shriprem/Goto-Line-Col-NPP-Plugin/releases/download/v2.4.5.1/GotoLineCol_arm64.zip",
 			"description": "A plugin to navigate to a specified line and (byte-based or character-based) column position. Will also display character byte code, UTF-8 byte sequence & Unicode code point, name & block at cursor position. Darkmode enabled. Command line options.",
 			"author": "Shridhar Kumar",
 			"homepage": "https://github.com/shriprem/Goto-Line-Col-NPP-Plugin"
@@ -80,9 +80,9 @@
 		{
 			"folder-name": "HexEditor",
 			"display-name": "HEX-Editor",
-			"version": "0.9.12.0",
-			"id": "cb26108b28588190b531f8e37f8d1acb73d589a55db727519daf9dcf1665ff58",
-			"repository": "https://github.com/chcg/NPP_HexEdit/releases/download/0.9.12/HexEditor_0.9.12_arm64.zip",
+			"version": "0.9.14.0",
+			"id": "ba7751e20460b1371703338fc371e5ada5cb733385ee12d016f6ee0002407296",
+			"repository": "https://github.com/chcg/NPP_HexEdit/releases/download/0.9.14/HexEditor_0.9.14_arm64.zip",
 			"description": "Hex editor. Some reported issues, however many bugs fixed in latest release.",
 			"author": "Jens Lorenz",
 			"homepage": "https://github.com/chcg/NPP_HexEdit"
@@ -90,10 +90,10 @@
 		{
 			"folder-name": "HTMLTag",
 			"display-name": "HTML Tag",
-			"version": "1.5.4.0",
+			"version": "1.5.5.0",
 			"npp-compatible-versions": "[8.3,]",
-			"id": "16cf7fa6b530097fe230f22895e8c49087f2d0d4acde96ddd3562fff497e9bae",
-			"repository": "https://bitbucket.org/rdipardo/htmltag/downloads/HTMLTag_v1.5.4_arm64.zip",
+			"id": "f8210a44f009b1586792311797207e7dd512110f546a493b746b3bb6dc4a2426",
+			"repository": "https://bitbucket.org/rdipardo/htmltag/downloads/HTMLTag_v1.5.5_arm64.zip",
 			"description": "Provides three core functions:\r\n- HTML and XML tag jumping, like the built-in brace matching and selection\r\n of tags and/or contents.\r\n- HTML entity encoding/decoding (example: é to &eacute;)\r\n- JS character encoding/decoding (example: é to \\u00E9)",
 			"author": "Martijn Coppoolse",
 			"homepage": "https://bitbucket.org/rdipardo/htmltag"
@@ -220,11 +220,11 @@
 		{
 			"folder-name": "nppConverter",
 			"display-name": "Npp Converter",
-			"version": "4.6",
+			"version": "4.7",
 			"npp-compatible-versions": "[8.4.7,]",
 			"old-versions-compatibility": "[,4.4][,8.4.6]",
-			"id": "923dd89d1f7f7693b37a7019e6ef9e58ea14dec0b768e62d3860545734c01c11",
-			"repository": "https://github.com/npp-plugins/converter/releases/download/v4.6/nppConvert.v4.6.arm64.zip",
+			"id": "4386dcb10ce429c7e1a80d6085710893eef333d134accf79aae3b6e8df530d61",
+			"repository": "https://github.com/npp-plugins/converter/releases/download/v4.7/nppConvert.v4.7.arm64.zip",
 			"description": "ASCII<->Hex converter.",
 			"author": "Don HO",
 			"homepage": "https://github.com/npp-plugins/converter/"
@@ -268,6 +268,16 @@
 			"description": "Hide or show lines to help analyse larger files - logs for example. Can hide all lines that contain text pattern. Or simply select several lines and hide them. Based on TextFX plugin v0.25 by Chris Severance.",
 			"author": "Jakub Dvorak",
 			"homepage": "https://github.com/KubaDee/NppTextViz"
+		},
+		{
+			"folder-name": "NppVim",
+			"display-name": "NppVim",
+			"version": "1.4.0.0",
+			"id": "EC63D25F5981ADBF0F93485555236AADB379866F7A50B3BEB20E9477E10EB0BE",
+			"repository": "https://github.com/h-jangra/NppVim/releases/download/1.4.0.0/NppVim.arm64.zip",
+			"description": "A Notepad++ plugin that adds Vim-style editing and key bindings.",
+			"author": "h-jangra",
+			"homepage": "https://github.com/h-jangra/NppVim"
 		},
 		{
 			"folder-name": "OpenSelection",
@@ -384,10 +394,10 @@
 		{
 			"folder-name": "StayAwake_NPP",
 			"display-name": "StayAwake",
-			"version": "1.0.1.0",
-			"id": "3542c063875015b833e3dc9d1327b84ed480ec942195b0f3873059de81cb4ad0",
-			"repository": "https://github.com/shriprem/StayAwake_NPP_Plugin/releases/download/v1.0.1.0/StayAwake_NPP_arm64.zip",
-			"description": "StayAwake is a simple utility that enables you to maintain an Active status on Microsoft Teams by periodically cycling (double-toggling) the Scroll Lock button. StayAwake also prevents screen saver activation, screen blanking, and Windows session lockouts.",
+			"version": "1.1.0.0",
+			"id": "1432f5616971894e22369028df337290a53b14285a669b3479510a91725b2609",
+			"repository": "https://github.com/shriprem/StayAwake_NPP_Plugin/releases/download/v1.1.0.0/StayAwake_NPP_arm64.zip",
+			"description": "StayAwake enables you to maintain an Active status on Microsoft Teams by simulating key presses of unused or low side-effect buttons at specified intervals. StayAwake also prevents screen saver activation, screen blanking, and Windows session lockouts.",
 			"author": "Shridhar Kumar",
 			"homepage": "https://github.com/shriprem/StayAwake_NPP_Plugin"
 		},
@@ -430,6 +440,27 @@
 			"description": "Hopefully a decent URL Encoder and Decoder plug-in for Notepad++ which helps to make developer's life easier by providing facility to encode/decode the URL within Notepad++. \r\n\r\nHow it works:\r\n1. Configure setting from menu (Plugins->URL Plugin->URL Plugin Settings). It is not mandatory, but recommended.\r\n2. Select text/URL which you want to encode/decode.\r\n3. Perform your task via Plugins->URL Plugin->Encode/Decode URL.\r\n\r\n",
 			"author": "Rajendra Singh",
 			"homepage": "https://github.com/SinghRajenM/nppURLPlugin"
+		},
+		{
+			"folder-name": "WebEdit",
+			"display-name": "WebEdit",
+			"version": "2.8.1.2",
+			"id": "57326011155b494747b1d3156f1443e56a3dd116f5abca522c2df90709d93614",
+			"repository": "https://github.com/Krazal/WebEdit/releases/download/v2.8.1.2/WebEdit.2.8.1.2.arm64.zip",
+			"description": "WebEdit is a modern Notepad++ plugin for configurable code templates and text expansions. Define any number of 'wrap' commands (insert left/right text around the selection or caret) and unlimited tag abbreviations that expand into multiline snippets with preserved indentation and a configurable caret position. Type a tag, press Alt + Enter and it will be replaced with the corresponding block of text. Commands can be exposed in the menu, assigned shortcuts, or placed on the toolbar for one‑click use. Full Unicode support ensures seamless handling of international text and symbols. Configuration is stored in WebEdit.ini (open it with the Plugins → WebEdit → Edit Config command). For credits and more information see ReadMe.txt on the Homepage.",
+			"author": "Alexander Iljin",
+			"homepage": "https://github.com/Krazal/WebEdit"
+		},
+		{
+			"folder-name": "VirtualFolders",
+			"display-name": "Virtual Folders",
+			"version": "1.0.1",
+			"npp-compatible-versions": "[8.8.5,]",
+			"id": "3bbfa0c6f0b72b12e7599e0bb7bdf23db13521f83c662909c99679ce2e200be4",
+			"repository": "https://github.com/FatihC/VirtualFolders/releases/download/v1.0.1/VirtualFolders-v1.0.1-arm64.zip",
+			"description": "This plugin adds a dockable tree panel where you can create your own virtual folder structure. Group files from different paths, reorder them freely, and keep related resources together without touching the actual filesystem.",
+			"author": "Fatih Coşkun",
+			"homepage": "https://github.com/FatihC/VirtualFolders"
 		}
 	]
 }

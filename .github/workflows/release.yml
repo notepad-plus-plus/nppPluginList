@@ -1,6 +1,6 @@
-name: CI_build
+name: release
 
-on: [push, pull_request]
+on: [workflow_dispatch]
 
 jobs:
   build:
@@ -8,8 +8,10 @@ jobs:
     runs-on: windows-latest
 
     permissions:
-      # Give the default GITHUB_TOKEN write permission to commit and push the changed files back to the repository.
-      contents: write
+      id-token: write
+      contents: read
+      
+      
 
     strategy:
       fail-fast: false
@@ -39,6 +41,29 @@ jobs:
     - name: MSBuild of plugin dll
       working-directory: vcxproj
       run: msbuild nppPluginList.vcxproj /m /p:configuration="${{ matrix.build_configuration }}" /p:platform="${{ matrix.build_platform }}" /p:PlatformToolset="v143"
+
+
+    - name: Azure CLI login with federated credential
+      uses: azure/login@v2
+      with:
+        client-id: ${{ secrets.AZURE_CLIENT_ID }}
+        tenant-id: ${{ secrets.AZURE_TENANT_ID }}
+        subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
+        allow-no-subscriptions: true
+
+    - name: Install sign cli
+      run: dotnet tool install --global sign --prerelease
+
+    - name: Sign executables and libraries
+      run: sign code trusted-signing `
+        --trusted-signing-account ${{ secrets.TRUSTED_SIGNING_ACCOUNT_NAME }} `
+        --trusted-signing-certificate-profile ${{ secrets.TRUSTED_SIGNING_CERTIFICATE_PROFILE }} `
+        --trusted-signing-endpoint https://weu.codesigning.azure.net `
+        --azure-credential-type azure-cli `
+        --verbosity information `
+        **/*.dll
+
+
 
     - name: Archive artifacts for x64
       if: matrix.build_platform == 'x64' && matrix.build_configuration == 'Release'
