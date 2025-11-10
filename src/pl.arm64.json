@@ -37,11 +37,11 @@
 		{
 			"folder-name": "ComparePlus",
 			"display-name": "ComparePlus",
-			"version": "2.1.1",
+			"version": "2.2.0",
 			"npp-compatible-versions": "[8.4.7,]",
 			"old-versions-compatibility": "[,1.0.0][8.4.2,8.4.6]",
-			"id": "17c760d6407549b782793889f0a121b7f006af6f0dbe152fac31695a89a07bbd",
-			"repository": "https://github.com/pnedev/comparePlus/releases/download/cp_2.1.1/ComparePlus_cp_2.1.1_ARM64.zip",
+			"id": "ac75f0a48645d0ed56bd740de5cb74dd3c5f51ee3cde16597be9d65b19c1e595",
+			"repository": "https://github.com/pnedev/comparePlus/releases/download/cp_2.2.0/ComparePlus_cp_2.2.0_ARM64.zip",
 			"description": "Advanced compare tool based on the well-known Compare-plugin by Ty Landercasper and Jean-Sebastien Leroy.",
 			"author": "Pavel Nedev",
 			"homepage": "https://github.com/pnedev/comparePlus"
@@ -90,10 +90,10 @@
 		{
 			"folder-name": "HTMLTag",
 			"display-name": "HTML Tag",
-			"version": "1.5.4.0",
+			"version": "1.5.5.0",
 			"npp-compatible-versions": "[8.3,]",
-			"id": "16cf7fa6b530097fe230f22895e8c49087f2d0d4acde96ddd3562fff497e9bae",
-			"repository": "https://bitbucket.org/rdipardo/htmltag/downloads/HTMLTag_v1.5.4_arm64.zip",
+			"id": "f8210a44f009b1586792311797207e7dd512110f546a493b746b3bb6dc4a2426",
+			"repository": "https://bitbucket.org/rdipardo/htmltag/downloads/HTMLTag_v1.5.5_arm64.zip",
 			"description": "Provides three core functions:\r\n- HTML and XML tag jumping, like the built-in brace matching and selection\r\n of tags and/or contents.\r\n- HTML entity encoding/decoding (example: é to &eacute;)\r\n- JS character encoding/decoding (example: é to \\u00E9)",
 			"author": "Martijn Coppoolse",
 			"homepage": "https://bitbucket.org/rdipardo/htmltag"
@@ -165,10 +165,10 @@
 		{
 			"folder-name": "MultiReplace",
 			"display-name": "MultiReplace",
-			"version": "4.5.2.32",
+			"version": "4.6.0.33",
 			"npp-compatible-versions": "[8.5.4,]",
-			"id": "e405e6c61637097e51236e18b76217506d82b02410a910894fc190a3b352c3e6",
-			"repository": "https://github.com/daddel80/notepadpp-multireplace/releases/download/4.5.2.32/MultiReplace-v4.5.2.32-ARM64.zip",
+			"id": "ff398ff2f6b8951ec3999339e6592792bf772bd6fad46dcfc74963f84848fdb4",
+			"repository": "https://github.com/daddel80/notepadpp-multireplace/releases/download/4.6.0.33/MultiReplace-v4.6.0.33-ARM64.zip",
 			"description": "Multi-string replacement across single or multiple files; reusable search/replace lists; CSV column operations (targeting, sort, delete, replace); external lookup tables; rectangular selection support; conditional (if/then) and math logic.\r\n",
 			"author": "Thomas Knoefel",
 			"homepage": "https://github.com/daddel80/notepadpp-multireplace"
@@ -454,10 +454,10 @@
 		{
 			"folder-name": "VirtualFolders",
 			"display-name": "Virtual Folders",
-			"version": "1.0.0",
+			"version": "1.0.1",
 			"npp-compatible-versions": "[8.8.5,]",
-			"id": "18ce08fa5cfcde441536f7f3b8e82838374cc4e2f7d9209d93d915097cde1989",
-			"repository": "https://github.com/FatihC/VirtualFolders/releases/download/v1.0/VirtualFolders-v1.0-arm64.zip",
+			"id": "3bbfa0c6f0b72b12e7599e0bb7bdf23db13521f83c662909c99679ce2e200be4",
+			"repository": "https://github.com/FatihC/VirtualFolders/releases/download/v1.0.1/VirtualFolders-v1.0.1-arm64.zip",
 			"description": "This plugin adds a dockable tree panel where you can create your own virtual folder structure. Group files from different paths, reorder them freely, and keep related resources together without touching the actual filesystem.",
 			"author": "Fatih Coşkun",
 			"homepage": "https://github.com/FatihC/VirtualFolders"

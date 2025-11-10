@@ -212,11 +212,11 @@
 		{
 			"folder-name": "ComparePlus",
 			"display-name": "ComparePlus",
-			"version": "2.1.1",
+			"version": "2.2.0",
 			"npp-compatible-versions": "[8.4.7,]",
 			"old-versions-compatibility": "[,1.0.0][8.4.2,8.4.6]",
-			"id": "7af8da8a02510b35052b79db855bb02716311f3d954e1d7324cf86319e713dc1",
-			"repository": "https://github.com/pnedev/comparePlus/releases/download/cp_2.1.1/ComparePlus_cp_2.1.1_Win32.zip",
+			"id": "6a509c8f3d6aa5bfae021870b71a15a27bd0f421b9a44d27f55bd20029316d40",
+			"repository": "https://github.com/pnedev/comparePlus/releases/download/cp_2.2.0/ComparePlus_cp_2.2.0_Win32.zip",
 			"description": "Advanced compare tool based on the well-known Compare-plugin by Ty Landercasper and Jean-Sebastien Leroy.",
 			"author": "Pavel Nedev",
 			"homepage": "https://github.com/pnedev/comparePlus"
@@ -560,11 +560,11 @@
 		{
 			"folder-name": "HTMLTag_unicode",
 			"display-name": "HTML Tag",
-			"version": "1.5.4.0",
+			"version": "1.5.5.0",
 			"npp-compatible-versions": "[7.7,]",
 			"old-versions-compatibility": "[,1.1][,7.6.6]",
-			"id": "ae3945abdf64c5a0cb1f32be5b2de53806bcb20e2e3dfd6bf771989b2eba03a6",
-			"repository": "https://bitbucket.org/rdipardo/htmltag/downloads/HTMLTag_v1.5.4.zip",
+			"id": "0a3a05e5758fb846e518171608cf4df9e64df8809bf0209e252b3d17ee0c1687",
+			"repository": "https://bitbucket.org/rdipardo/htmltag/downloads/HTMLTag_v1.5.5.zip",
 			"description": "Provides three core functions:\r\n- HTML and XML tag jumping, like the built-in brace matching and selection\r\n of tags and/or contents.\r\n- HTML entity encoding/decoding (example: é to &eacute;)\r\n- JS character encoding/decoding (example: é to \\u00E9)",
 			"author": "Martijn Coppoolse",
 			"homepage": "https://bitbucket.org/rdipardo/htmltag/"
@@ -829,10 +829,10 @@
 		{
 			"folder-name": "MultiReplace",
 			"display-name": "MultiReplace",
-			"version": "4.5.2.32",
+			"version": "4.6.0.33",
 			"npp-compatible-versions": "[8.5.4,]",
-			"id": "16ae99bdd9202173163ba3f5eba09973b3ea2a651fb1556781a517c7157d27dd",
-			"repository": "https://github.com/daddel80/notepadpp-multireplace/releases/download/4.5.2.32/MultiReplace-v4.5.2.32-Win32.zip",
+			"id": "d543462179ee2a4eccb1df7b476d7738b1025baec6ac68c21a566534850129bb",
+			"repository": "https://github.com/daddel80/notepadpp-multireplace/releases/download/4.6.0.33/MultiReplace-v4.6.0.33-Win32.zip",
 			"description": "Multi-string replacement across single or multiple files; reusable search/replace lists; CSV column operations (targeting, sort, delete, replace); external lookup tables; rectangular selection support; conditional (if/then) and math logic.\r\n",
 			"author": "Thomas Knoefel",
 			"homepage": "https://github.com/daddel80/notepadpp-multireplace"
@@ -1163,10 +1163,10 @@
 		{
 			"folder-name": "NppQrCode32",
 			"display-name": "NppQrCode",
-			"version": "0.0.0.2",
+			"version": "0.0.0.3",
 			"old-versions-compatibility": "[,0.0.0.1][,8.3.3]",
-			"id": "0a5fd708e4e331ddc086962990284d0241046dc1acffb2fde9870a0e048ab8db",
-			"repository": "https://github.com/rdipardo/nppQrCode/releases/download/v0.0.0.2/NppQrCode-0.0.0.2-win32.zip",
+			"id": "54557a2361351f58b9822bbf927b19086338d9885431348839005f550b05d216",
+			"repository": "https://github.com/rdipardo/nppQrCode/releases/download/v0.0.0.3/NppQrCode-v0.0.0.3-win32.zip",
 			"description": "Creates a QR code from selected text. Just select some text and click the toolbar button.",
 			"author": "Vladimir Korobenkov",
 			"homepage": "https://github.com/rdipardo/nppQrCode"
@@ -1914,10 +1914,10 @@
 		{
 			"folder-name": "VirtualFolders",
 			"display-name": "Virtual Folders",
-			"version": "1.0.0",
+			"version": "1.0.1",
 			"npp-compatible-versions": "[8.8.5,]",
-			"id": "69b6daf06291400fcfe4b364b65bf1c6a61ae9303b0a9269c5e9cdf35cea2404",
-			"repository": "https://github.com/FatihC/VirtualFolders/releases/download/v1.0/VirtualFolders-v1.0-x86.zip",
+			"id": "5bec534c5b893b1252100b0b945d01d0d941851034fe39eb9be253bb5ddc00f1",
+			"repository": "https://github.com/FatihC/VirtualFolders/releases/download/v1.0.1/VirtualFolders-v1.0.1-x86.zip",
 			"description": "This plugin adds a dockable tree panel where you can create your own virtual folder structure. Group files from different paths, reorder them freely, and keep related resources together without touching the actual filesystem.",
 			"author": "Fatih Coşkun",
 			"homepage": "https://github.com/FatihC/VirtualFolders"
