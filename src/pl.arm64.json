@@ -92,11 +92,11 @@
 			"display-name": "HTML Tag",
 			"version": "1.5.5.0",
 			"npp-compatible-versions": "[8.3,]",
-			"id": "f8210a44f009b1586792311797207e7dd512110f546a493b746b3bb6dc4a2426",
-			"repository": "https://bitbucket.org/rdipardo/htmltag/downloads/HTMLTag_v1.5.5_arm64.zip",
+			"id": "6081c7cec7aa19dbbc0f9a2ab1a7c6d39dc8e2f92fa792036ecaa662d7a077ae",
+			"repository": "https://github.com/rdipardo/nppHTMLTag/releases/download/v1.5.5/HTMLTag_v1.5.5_arm64.zip",
 			"description": "Provides three core functions:\r\n- HTML and XML tag jumping, like the built-in brace matching and selection\r\n of tags and/or contents.\r\n- HTML entity encoding/decoding (example: é to &eacute;)\r\n- JS character encoding/decoding (example: é to \\u00E9)",
 			"author": "Martijn Coppoolse",
-			"homepage": "https://bitbucket.org/rdipardo/htmltag"
+			"homepage": "https://github.com/rdipardo/nppHTMLTag"
 		},
 		{
 			"folder-name": "NPPJSONViewer",

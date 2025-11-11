@@ -563,11 +563,11 @@
 			"version": "1.5.5.0",
 			"npp-compatible-versions": "[7.7,]",
 			"old-versions-compatibility": "[,1.1][,7.6.6]",
-			"id": "0a3a05e5758fb846e518171608cf4df9e64df8809bf0209e252b3d17ee0c1687",
-			"repository": "https://bitbucket.org/rdipardo/htmltag/downloads/HTMLTag_v1.5.5.zip",
+			"id": "4b7eefd0beb4a40f811ccc237020a86dac6285658b0593d625be779c8e7505f4",
+			"repository": "https://github.com/rdipardo/nppHTMLTag/releases/download/v1.5.5/HTMLTag_v1.5.5.zip",
 			"description": "Provides three core functions:\r\n- HTML and XML tag jumping, like the built-in brace matching and selection\r\n of tags and/or contents.\r\n- HTML entity encoding/decoding (example: é to &eacute;)\r\n- JS character encoding/decoding (example: é to \\u00E9)",
 			"author": "Martijn Coppoolse",
-			"homepage": "https://bitbucket.org/rdipardo/htmltag/"
+			"homepage": "https://github.com/rdipardo/nppHTMLTag"
 		},
 		{
 			"folder-name": "HugeFiles",
