@@ -835,11 +835,11 @@
 		{
 			"folder-name": "NppPluginDemo",
 			"display-name": "Notepad++ Plugin Demo",
-			"version": "4.4",
+			"version": "4.5",
 			"npp-compatible-versions": "[8.4.7,]",
 			"old-versions-compatibility": "[,4.2][,8.4.6]",
-			"id": "0894477bbb5794978f1a013021df375c6f2ef1e2e82fe05d359f790604a5b7fe",
-			"repository": "https://github.com/npp-plugins/plugindemo/releases/download/v4.4/pluginDemo.v4.4.bin.x64.zip",
+			"id": "8739c76e681f900923b900c9df0ef75cf421d39cabb54650c4b9ad19b6a76d85",
+			"repository": "https://github.com/npp-plugins/plugindemo/releases/download/v4.5/pluginDemo.v4.5.bin.x64.zip",
 			"description": "Notepad++ Plugin Demo is written from Notepad++ Plugin Template to demonstrate the usage of plugin API.",
 			"author": "Don HO",
 			"homepage": "https://github.com/npp-plugins/plugindemo"
