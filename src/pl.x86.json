@@ -1,6 +1,6 @@
 {
 	"name": "npp-pluginList",
-	"version": "1.8.7",
+	"version": "1.8.8",
 	"arch": "32",
 	"npp-plugins": [
 		{
@@ -235,9 +235,9 @@
 		{
 			"folder-name": "CSScriptNpp",
 			"display-name": "CS-Script - C# Intellisense",
-			"version": "2.0.9.0",
-			"id": "62F644E8122EB951EEECAEBDFAA31232D2CE2BFF4D3E305818095875322BC393",
-			"repository": "https://github.com/oleg-shilo/cs-script.npp/releases/download/v2.0.9.0/CSScriptNpp.2.0.9.0.x86.zip",
+			"version": "2.0.11.0",
+			"id": "5f2ad7e665d4aec9817c0666dd60f174e0ef9a587a67a91f5c9b8399a871d171",
+			"repository": "https://github.com/oleg-shilo/cs-script.npp/releases/download/v2.0.11.0/CSScriptNpp.2.0.11.0.x86.zip",
 			"description": "CS-Script integration. Implements a real C# Intellisense solution based on CS-Script and Roslyn. Allows loading, executing modifying and debugging C# scripts in a way very similar to the Visual Studio C# projects support. This includes referencing assemblies and other scripts, code formatting, adding missing namespaces and intercepting Debug and Console output.",
 			"author": "Oleg Shilo",
 			"homepage": "https://github.com/oleg-shilo/cs-script.npp"
@@ -563,11 +563,11 @@
 			"version": "1.5.5.0",
 			"npp-compatible-versions": "[7.7,]",
 			"old-versions-compatibility": "[,1.1][,7.6.6]",
-			"id": "0a3a05e5758fb846e518171608cf4df9e64df8809bf0209e252b3d17ee0c1687",
-			"repository": "https://bitbucket.org/rdipardo/htmltag/downloads/HTMLTag_v1.5.5.zip",
+			"id": "4b7eefd0beb4a40f811ccc237020a86dac6285658b0593d625be779c8e7505f4",
+			"repository": "https://github.com/rdipardo/nppHTMLTag/releases/download/v1.5.5/HTMLTag_v1.5.5.zip",
 			"description": "Provides three core functions:\r\n- HTML and XML tag jumping, like the built-in brace matching and selection\r\n of tags and/or contents.\r\n- HTML entity encoding/decoding (example: é to &eacute;)\r\n- JS character encoding/decoding (example: é to \\u00E9)",
 			"author": "Martijn Coppoolse",
-			"homepage": "https://bitbucket.org/rdipardo/htmltag/"
+			"homepage": "https://github.com/rdipardo/nppHTMLTag"
 		},
 		{
 			"folder-name": "HugeFiles",
@@ -900,11 +900,11 @@
 		{
 			"folder-name": "NppPluginDemo",
 			"display-name": "Notepad++ Plugin Demo",
-			"version": "4.4",
+			"version": "4.5",
 			"npp-compatible-versions": "[8.4.7,]",
 			"old-versions-compatibility": "[,4.2][,8.4.6]",
-			"id": "9ee50d483b6e363d4db8b940e2607609f569ba7460af4a1e7c6f06bf843e1dc3",
-			"repository": "https://github.com/npp-plugins/plugindemo/releases/download/v4.4/pluginDemo.v4.4.bin.zip",
+			"id": "d771714cf4db2f221ce2ec8f41eaf57e7ef60847ecdb25d30abc459902b5392b",
+			"repository": "https://github.com/npp-plugins/plugindemo/releases/download/v4.5/pluginDemo.v4.5.bin.zip",
 			"description": "Notepad++ Plugin Demo is written from Notepad++ Plugin Template to demonstrate the usage of plugin API.",
 			"author": "Don HO",
 			"homepage": "https://github.com/npp-plugins/plugindemo"

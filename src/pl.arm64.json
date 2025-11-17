@@ -1,6 +1,6 @@
 {
 	"name": "npp-pluginList",
-	"version": "1.8.7",
+	"version": "1.8.8",
 	"arch": "arm64",
 	"npp-plugins": [
 		{
@@ -92,11 +92,11 @@
 			"display-name": "HTML Tag",
 			"version": "1.5.5.0",
 			"npp-compatible-versions": "[8.3,]",
-			"id": "f8210a44f009b1586792311797207e7dd512110f546a493b746b3bb6dc4a2426",
-			"repository": "https://bitbucket.org/rdipardo/htmltag/downloads/HTMLTag_v1.5.5_arm64.zip",
+			"id": "6081c7cec7aa19dbbc0f9a2ab1a7c6d39dc8e2f92fa792036ecaa662d7a077ae",
+			"repository": "https://github.com/rdipardo/nppHTMLTag/releases/download/v1.5.5/HTMLTag_v1.5.5_arm64.zip",
 			"description": "Provides three core functions:\r\n- HTML and XML tag jumping, like the built-in brace matching and selection\r\n of tags and/or contents.\r\n- HTML entity encoding/decoding (example: é to &eacute;)\r\n- JS character encoding/decoding (example: é to \\u00E9)",
 			"author": "Martijn Coppoolse",
-			"homepage": "https://bitbucket.org/rdipardo/htmltag"
+			"homepage": "https://github.com/rdipardo/nppHTMLTag"
 		},
 		{
 			"folder-name": "NPPJSONViewer",
@@ -196,11 +196,11 @@
 		{
 			"folder-name": "NppPluginDemo",
 			"display-name": "Notepad++ Plugin Demo",
-			"version": "4.4",
+			"version": "4.5",
 			"npp-compatible-versions": "[8.4.7,]",
 			"old-versions-compatibility": "[,4.2][,8.4.6]",
-			"id": "f72da1468ea1ea0e550f0a203a9c2bbedc8bf3b5122e5fc1ff467021913f8815",
-			"repository": "https://github.com/npp-plugins/plugindemo/releases/download/v4.4/pluginDemo.v4.4.bin.arm64.zip",
+			"id": "23b3efa6d00f474b45254aad4bf12977def4441c8873e436dba3c0994ba14dd8",
+			"repository": "https://github.com/npp-plugins/plugindemo/releases/download/v4.5/pluginDemo.v4.5.bin.arm64.zip",
 			"description": "Notepad++ Plugin Demo is written from Notepad++ Plugin Template to demonstrate the usage of plugin API.",
 			"author": "Don HO",
 			"homepage": "https://github.com/npp-plugins/plugindemo"
@@ -444,10 +444,10 @@
 		{
 			"folder-name": "WebEdit",
 			"display-name": "WebEdit",
-			"version": "2.8.1.2",
-			"id": "57326011155b494747b1d3156f1443e56a3dd116f5abca522c2df90709d93614",
-			"repository": "https://github.com/Krazal/WebEdit/releases/download/v2.8.1.2/WebEdit.2.8.1.2.arm64.zip",
-			"description": "WebEdit is a modern Notepad++ plugin for configurable code templates and text expansions. Define any number of 'wrap' commands (insert left/right text around the selection or caret) and unlimited tag abbreviations that expand into multiline snippets with preserved indentation and a configurable caret position. Type a tag, press Alt + Enter and it will be replaced with the corresponding block of text. Commands can be exposed in the menu, assigned shortcuts, or placed on the toolbar for one‑click use. Full Unicode support ensures seamless handling of international text and symbols. Configuration is stored in WebEdit.ini (open it with the Plugins → WebEdit → Edit Config command). For credits and more information see ReadMe.txt on the Homepage.",
+			"version": "2.9.0.0",
+			"id": "54f5321bc3d284ab36741cd998be76854c4f9dbd66e136f0eab68b961adc5577",
+			"repository": "https://github.com/Krazal/WebEdit/releases/download/v2.9.0.0/WebEdit.2.9.0.0.arm64.zip",
+			"description": "Speed up your code editing! Enter an abbreviation (tag), press Alt + Enter, and expand the tag into a full code snippet. You can also wrap (surround) a selection e.g. with HTML tags.\r\n- More than 1000 preset tags: HTML (elements, attributes, BootStrap, Smarty, etc.), JavaScript (jQuery), CSS, PHP, SQL (MySQL, Eloquent ORM), etc.\r\n- Automatic or custom caret (cursor) positioning\r\n- Handling new lines, indents, etc.\r\n- Variables: clipboard content, current file name, custom date/time, etc.\r\n- Customizable tags in the plugin menu; assign tags to shortcuts\r\n- Customizable tags in the toolbar\r\n- Tag suggestions (similar tags)\r\n- Easy tag addition\r\n- Multiselect support\r\n- Unicode support\r\n- Over 17 years with Notepad++, now in 64-bit version!",
 			"author": "Alexander Iljin",
 			"homepage": "https://github.com/Krazal/WebEdit"
 		},
