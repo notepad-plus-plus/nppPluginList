@@ -1922,7 +1922,7 @@
 			"author": "Fatih Coşkun",
 			"homepage": "https://github.com/FatihC/VirtualFolders"
 		},
-		}
+		{
 			"folder-name": "NppESPHome",
 			"display-name": "NppESPHome",
 			"version": "1.0.26",
