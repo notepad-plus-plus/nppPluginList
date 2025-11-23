@@ -1912,7 +1912,6 @@
 			"homepage": "https://sourceforge.net/projects/androidlogger"
 		},
 		{
-<<<<<<< Updated upstream
 			"folder-name": "VirtualFolders",
 			"display-name": "Virtual Folders",
 			"version": "1.0.1",
@@ -1922,8 +1921,8 @@
 			"description": "This plugin adds a dockable tree panel where you can create your own virtual folder structure. Group files from different paths, reorder them freely, and keep related resources together without touching the actual filesystem.",
 			"author": "Fatih Coşkun",
 			"homepage": "https://github.com/FatihC/VirtualFolders"
+		},
 		}
-=======
 			"folder-name": "NppESPHome",
 			"display-name": "NppESPHome",
 			"version": "1.0.26",
@@ -1932,7 +1931,6 @@
 			"description": "Plugin to directly interact with ESPHome and easily manage related projects workflows in Windows environment.",
 			"author": "Andrea Tiburzi",
 			"homepage": "https://github.com/atiburzi/NppESPHome-Plugin"
-		}	
->>>>>>> Stashed changes
+		}
 	]
 }
