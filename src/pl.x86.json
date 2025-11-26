@@ -1921,6 +1921,16 @@
 			"description": "This plugin adds a dockable tree panel where you can create your own virtual folder structure. Group files from different paths, reorder them freely, and keep related resources together without touching the actual filesystem.",
 			"author": "Fatih Coşkun",
 			"homepage": "https://github.com/FatihC/VirtualFolders"
+		},
+		{
+			"folder-name": "NppESPHome",
+			"display-name": "NppESPHome",
+			"version": "1.0.26",
+			"id": "5e60f9c3c591b3e29c4d2f17e46399f3e9202b92352d65df21504c08d04930e0",
+			"repository": "https://github.com/atiburzi/NppESPHome-Plugin/releases/download/v1.0.26/NppESPHome_x32.zip",
+			"description": "Plugin to directly interact with ESPHome and easily manage related projects workflows in Windows environment.",
+			"author": "Andrea Tiburzi",
+			"homepage": "https://github.com/atiburzi/NppESPHome-Plugin"
 		}
 	]
 }
