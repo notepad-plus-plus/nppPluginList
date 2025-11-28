@@ -649,9 +649,9 @@
 		{
 			"folder-name": "JSMinNPP",
 			"display-name": "JSTool",
-			"version": "1.2503.0",
-			"id": "a0c3812a4694400878dfbbebf65a31ec2e5ef9a5ec1f2565ca6abc06d3399092",
-			"repository": "https://sourceforge.net/projects/jsminnpp/files/Uni/JSToolNPP.1.2503.0.uni.64.zip",
+			"version": "25.11.16",
+			"id": "96bf6b2d0a036eb0be0a5489a6ae57a19d4dbbee8e0e558b758bd0100e85cd86",
+			"repository": "https://sourceforge.net/projects/jsminnpp/files/Uni/JSToolNPP.25.11.16.uni.64.zip",
 			"description": "Javascript plugin.\r\n * Douglas Crockford's JSMin algorithm to minimize javascript code.\r\n * My own algorithm to format javascript code.\r\n * A JSON data viewer. This JSON data viewer can handle >10MB JSON file easily.\r\n * Support 64bit Notepad++ (from version 1.20.0).\r\nReally helpful to javascript coder on Notepad++ and really easy to use it.\r\nMade in China.",
 			"author": "Sun Junwen",
 			"homepage": "https://github.com/sunjw/jstoolnpp"
