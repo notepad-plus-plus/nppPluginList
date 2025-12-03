@@ -222,6 +222,17 @@
 			"homepage": "https://github.com/pnedev/comparePlus"
 		},
 		{
+			"folder-name": "Compose",
+			"display-name": "Compose",
+			"version": "1.1",
+			"id": "415486cf2075e892bfc4f7cb7e37e78c5d29102fc078e3a47a71d59b5e930ea1",
+			"repository": "https://github.com/Coises/Compose-for-NotepadPlusPlus/releases/download/v1.1/Compose-1.1-x86.zip",
+			"description": "Implements a Compose key for entering characters not available on the keyboard with easily remembered key sequences.",
+			"author": "Randall Joseph Fellmy",
+			"homepage": "https://github.com/Coises/Compose-for-NotepadPlusPlus",
+			"npp-compatible-versions": "[8.5.4,]"
+		},
+		{
 			"folder-name": "ConfigUpdater",
 			"display-name": "ConfigUpdater",
 			"version": "2.3.0",
