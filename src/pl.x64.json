@@ -1733,10 +1733,10 @@
 		{
 			"folder-name": "VirtualFolders",
 			"display-name": "Virtual Folders",
-			"version": "1.0.1",
+			"version": "1.0.2",
 			"npp-compatible-versions": "[8.8.5,]",
-			"id": "94584bfa91c19599c77c8a8d4318ff3150a9d9b96867779610ce5b46a7b8241a",
-			"repository": "https://github.com/FatihC/VirtualFolders/releases/download/v1.0.1/VirtualFolders-v1.0.1-x64.zip",
+			"id": "b11c01ee186d1c82ebadc0d6a6863898f401dabd8a2b888a54b7da0a3ec22e56",
+			"repository": "https://github.com/FatihC/VirtualFolders/releases/download/v1.0.2/VirtualFolders-v1.0.2-x64.zip",
 			"description": "This plugin adds a dockable tree panel where you can create your own virtual folder structure. Group files from different paths, reorder them freely, and keep related resources together without touching the actual filesystem.",
 			"author": "Fatih Coşkun",
 			"homepage": "https://github.com/FatihC/VirtualFolders"
