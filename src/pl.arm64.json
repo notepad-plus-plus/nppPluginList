@@ -176,9 +176,9 @@
 		{
 			"folder-name": "NestedDSV",
 			"display-name": "NestedDSV Data Visualizer",
-			"version": "1.1.0.0",
-			"id": "d41e92fe248914a621797beda7f1cc939e2fc4295fcbedb6dd38beb8c8d449ad",
-			"repository": "https://github.com/shriprem/NestedDSV/releases/download/v1.1.0.0/NestedDSV_arm64.zip",
+			"version": "1.1.0.1",
+			"id": "318e55e554fd7ab60e2a4d8ffd766965ba0c9d60c3f0a2c54d5f7b2f5a44d97b",
+			"repository": "https://github.com/shriprem/NestedDSV/releases/download/v1.1.0.1/NestedDSV_arm64.zip",
 			"description": "Plugin for visualizing hierarchical (nested) delimiter-separated values (DSV) data in Notepad++. Displays cursor position data. Jumps to specific fields. Folding Record Blocks. Extracts Data. Builtin dialogs to configure file-type, record-type & fields; Themes & Colors; and Folding.",
 			"author": "Shridhar Kumar",
 			"homepage": "https://github.com/shriprem/NestedDSV"
