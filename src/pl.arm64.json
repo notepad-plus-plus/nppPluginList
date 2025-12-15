@@ -47,17 +47,6 @@
 			"homepage": "https://github.com/pnedev/comparePlus"
 		},
 		{
-			"folder-name": "ConfigUpdater",
-			"display-name": "ConfigUpdater",
-			"version": "2.4.0",
-			"id": "237cce133896c7252886e762251d7aab21e451629200d1e3a8dbd7b3267305bd",
-			"repository": "https://github.com/pryrt/NppPlugin-ConfigUpdater/releases/download/v2.4.0/ConfigUpdater_v2.4.0_ARM64.zip",
-			"description": "Notepad++ Plugin to keep Langs/Stylers/Themes config files up-to-date",
-			"author": "pryrt",
-			"homepage": "https://github.com/pryrt/NppPlugin-ConfigUpdater",
-			"npp-compatible-versions": "[8.8.1,]"
-		},
-		{
 			"folder-name": "FWDataViz",
 			"display-name": "Fixed-width Data Visualizer",
 			"version": "2.6.7.0",
