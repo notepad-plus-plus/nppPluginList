@@ -1,6 +1,6 @@
 {
 	"name": "npp-pluginList",
-	"version": "1.8.5",
+	"version": "1.8.9",
 	"arch": "32",
 	"npp-plugins": [
 		{
@@ -160,9 +160,9 @@
 		{
 			"folder-name": "CollectionInterface",
 			"display-name": "CollectionInterface",
-			"version": "1.1.0",
-			"id": "04ec583dd33cb54cdce6e208e7be1671ebe377d99e0017366278150a1bcab70b",
-			"repository": "https://github.com/pryrt/NppPlugin-CollectionInterface/releases/download/v1.1.0/CollectionInterface_v1.1.0_Win32.zip",
+			"version": "1.3.0",
+			"id": "592711eeb009ed3603f13d0cc88d75e0e2eb65cb520c9f1e57505ff5bfb364fc",
+			"repository": "https://github.com/pryrt/NppPlugin-CollectionInterface/releases/download/v1.3.0/CollectionInterface_v1.3.0_Win32.zip",
 			"description": "Interface to the official UserDefinedLanguage Collection and nppThemes Collection.\r\n\r\nAllows easy download and installation of a UDL (with FunctionList and AutoCompletion definitions, when available) or a Theme",
 			"author": "pryrt",
 			"homepage": "https://github.com/pryrt/NppPlugin-CollectionInterface",
@@ -171,9 +171,9 @@
 		{
 			"folder-name": "ColumnsPlusPlus",
 			"display-name": "Columns++",
-			"version": "1.2",
-			"id": "5246A3136E29284719D8595F38F7BCB19679B2A3A0CC39939557048E240709BE",
-			"repository": "https://github.com/Coises/ColumnsPlusPlus/releases/download/v1.2/ColumnsPlusPlus-1.2-x86.zip",
+			"version": "1.3",
+			"id": "879FDAA56128FBC070E3779C6EA8DFB217559D917C7C4BD1CF0B0D39F511ECED",
+			"repository": "https://github.com/Coises/ColumnsPlusPlus/releases/download/v1.3/ColumnsPlusPlus-1.3-x86.zip",
 			"description": "Offers features for working with text and data arranged in columns, including an implementation of elastic tabstops, enhanced searching and sorting, column alignment and numeric calulations.",
 			"author": "Randall Joseph Fellmy",
 			"homepage": "https://github.com/Coises/ColumnsPlusPlus",
@@ -212,21 +212,32 @@
 		{
 			"folder-name": "ComparePlus",
 			"display-name": "ComparePlus",
-			"version": "2.0.0",
+			"version": "2.2.0",
 			"npp-compatible-versions": "[8.4.7,]",
 			"old-versions-compatibility": "[,1.0.0][8.4.2,8.4.6]",
-			"id": "9eec644b7ff578fb03564542873a2dd29c008f7bda1f5f2c60b73b57fcf522f5",
-			"repository": "https://github.com/pnedev/comparePlus/releases/download/cp_2.0.0/ComparePlus_cp_2.0.0_Win32.zip",
+			"id": "6a509c8f3d6aa5bfae021870b71a15a27bd0f421b9a44d27f55bd20029316d40",
+			"repository": "https://github.com/pnedev/comparePlus/releases/download/cp_2.2.0/ComparePlus_cp_2.2.0_Win32.zip",
 			"description": "Advanced compare tool based on the well-known Compare-plugin by Ty Landercasper and Jean-Sebastien Leroy.",
 			"author": "Pavel Nedev",
 			"homepage": "https://github.com/pnedev/comparePlus"
 		},
 		{
+			"folder-name": "Compose",
+			"display-name": "Compose",
+			"version": "1.1",
+			"id": "415486cf2075e892bfc4f7cb7e37e78c5d29102fc078e3a47a71d59b5e930ea1",
+			"repository": "https://github.com/Coises/Compose-for-NotepadPlusPlus/releases/download/v1.1/Compose-1.1-x86.zip",
+			"description": "Implements a Compose key for entering characters not available on the keyboard with easily remembered key sequences.",
+			"author": "Randall Joseph Fellmy",
+			"homepage": "https://github.com/Coises/Compose-for-NotepadPlusPlus",
+			"npp-compatible-versions": "[8.5.4,]"
+		},
+		{
 			"folder-name": "ConfigUpdater",
 			"display-name": "ConfigUpdater",
-			"version": "2.2.1",
-			"id": "dd402e8a0b2f5a80772a2222805538ef28f5c12774913fe40f7f69fd9c9c61a5",
-			"repository": "https://github.com/pryrt/NppPlugin-ConfigUpdater/releases/download/v2.2.1/ConfigUpdater_v2.2.1_Win32.zip",
+			"version": "2.4.0",
+			"id": "5a3f5af5492051876f8f7f7087bce351f5f37a6e1b6b2b63e2a360a1d1805034",
+			"repository": "https://github.com/pryrt/NppPlugin-ConfigUpdater/releases/download/v2.4.0/ConfigUpdater_v2.4.0_Win32.zip",
 			"description": "Notepad++ Plugin to keep Langs/Stylers/Themes config files up-to-date",
 			"author": "pryrt",
 			"homepage": "https://github.com/pryrt/NppPlugin-ConfigUpdater",
@@ -235,9 +246,9 @@
 		{
 			"folder-name": "CSScriptNpp",
 			"display-name": "CS-Script - C# Intellisense",
-			"version": "2.0.9.0",
-			"id": "62F644E8122EB951EEECAEBDFAA31232D2CE2BFF4D3E305818095875322BC393",
-			"repository": "https://github.com/oleg-shilo/cs-script.npp/releases/download/v2.0.9.0/CSScriptNpp.2.0.9.0.x86.zip",
+			"version": "2.0.11.0",
+			"id": "5f2ad7e665d4aec9817c0666dd60f174e0ef9a587a67a91f5c9b8399a871d171",
+			"repository": "https://github.com/oleg-shilo/cs-script.npp/releases/download/v2.0.11.0/CSScriptNpp.2.0.11.0.x86.zip",
 			"description": "CS-Script integration. Implements a real C# Intellisense solution based on CS-Script and Roslyn. Allows loading, executing modifying and debugging C# scripts in a way very similar to the Visual Studio C# projects support. This includes referencing assemblies and other scripts, code formatting, adding missing namespaces and intercepting Debug and Console output.",
 			"author": "Oleg Shilo",
 			"homepage": "https://github.com/oleg-shilo/cs-script.npp"
@@ -373,10 +384,10 @@
 		{
 			"folder-name": "EnhanceAnyLexer",
 			"display-name": "EnhanceAnyLexer",
-			"version": "1.4.0",
+			"version": "1.4.1",
 			"npp-compatible-versions": "[8.4.1,]",
-			"id": "b88d334d42ee53ef1bbbb70eb5938b312d5b19353fdab8347c99b53e2895f0a3",
-			"repository": "https://github.com/Ekopalypse/EnhanceAnyLexer/releases/download/v.1.4.0/EnhanceAnyLexer_x86_PluginAdmin.zip",
+			"id": "9262b35764cbcacba96becb37b0bf5d1330de43e992a5d3939e8a8303b9e903c",
+			"repository": "https://github.com/Ekopalypse/EnhanceAnyLexer/releases/download/v.1.4.1/EnhanceAnyLexer_x86_PluginAdmin.zip",
 			"description": "Adds more styling, colors only, options to any Lexer",
 			"author": "Ekopalypse",
 			"homepage": "https://github.com/Ekopalypse/EnhanceAnyLexer"
@@ -467,9 +478,9 @@
 		{
 			"folder-name": "FWDataViz",
 			"display-name": "Fixed-width Data Visualizer",
-			"version": "2.6.5.0",
-			"id": "4cb394fcaf32fbbb8136688dc1a9f297c7fe4cf3afe5fd01adfdc37a55766878",
-			"repository": "https://github.com/shriprem/FWDataViz/releases/download/v2.6.5.0/FWDataViz_x86.zip",
+			"version": "2.6.7.0",
+			"id": "08814e9aace0e108c08c8d113050bab4a90be3518d0cd43ec357df01b283f398",
+			"repository": "https://github.com/shriprem/FWDataViz/releases/download/v2.6.7.0/FWDataViz_x86.zip",
 			"description": "Fixed Width Data Visualizer adds Excel-like features for fixed-width data files in Notepad++. Displays cursor position data. Foldable Record Blocks; Hop & Jump to specific fields. Field Copy & Field Paste. Data Extraction. Builtin dialogs to configure file-type, record-type & fields; and themes & colors. Automatic File Type Detection. Handles homogenous, mixed & multi-line records. Full Multi-byte character support. Darkmode enabled.",
 			"author": "Shridhar Kumar",
 			"homepage": "https://github.com/shriprem/FWDataViz"
@@ -530,9 +541,9 @@
 		{
 			"folder-name": "GotoLineCol",
 			"display-name": "GotoLineCol",
-			"version": "2.4.5.0",
-			"id": "f9fbe42d4a096d93692fb1ac701ade4d841e1bbf08f191b0df46a46c4049b4ec",
-			"repository": "https://github.com/shriprem/Goto-Line-Col-NPP-Plugin/releases/download/v2.4.5.0/GotoLineCol_x86.zip",
+			"version": "2.4.5.1",
+			"id": "d3b4c89ef7193f1d9fb4cf49cf1845c329591b46b0ec2bdf8e879c9d83d306b3",
+			"repository": "https://github.com/shriprem/Goto-Line-Col-NPP-Plugin/releases/download/v2.4.5.1/GotoLineCol_x86.zip",
 			"description": "A plugin to navigate to a specified line and (byte-based or character-based) column position. Will also display character byte code, UTF-8 byte sequence & Unicode code point, name & block at cursor position. Darkmode enabled. Command line options.",
 			"author": "Shridhar Kumar",
 			"homepage": "https://github.com/shriprem/Goto-Line-Col-NPP-Plugin"
@@ -550,9 +561,9 @@
 		{
 			"folder-name": "HexEditor",
 			"display-name": "HEX-Editor",
-			"version": "0.9.12.0",
-			"id": "266be61339df9d7a781ca6f5853ac03db1e35c3c6c1c8bcb2349c619f981c781",
-			"repository": "https://github.com/chcg/NPP_HexEdit/releases/download/0.9.12/HexEditor_0.9.12_Win32.zip",
+			"version": "0.9.14.0",
+			"id": "7e5503ab395bfb1c4cc3d7f0f7ba3e6856356ef0ada016d5fe68f7c5a694731c",
+			"repository": "https://github.com/chcg/NPP_HexEdit/releases/download/0.9.14/HexEditor_0.9.14_Win32.zip",
 			"description": "Hex editor. Some reported issues, however many bugs fixed in latest release.",
 			"author": "Jens Lorenz",
 			"homepage": "https://github.com/chcg/NPP_HexEdit"
@@ -560,14 +571,14 @@
 		{
 			"folder-name": "HTMLTag_unicode",
 			"display-name": "HTML Tag",
-			"version": "1.5.4.0",
+			"version": "1.5.5.0",
 			"npp-compatible-versions": "[7.7,]",
 			"old-versions-compatibility": "[,1.1][,7.6.6]",
-			"id": "ae3945abdf64c5a0cb1f32be5b2de53806bcb20e2e3dfd6bf771989b2eba03a6",
-			"repository": "https://bitbucket.org/rdipardo/htmltag/downloads/HTMLTag_v1.5.4.zip",
+			"id": "4b7eefd0beb4a40f811ccc237020a86dac6285658b0593d625be779c8e7505f4",
+			"repository": "https://github.com/rdipardo/nppHTMLTag/releases/download/v1.5.5/HTMLTag_v1.5.5.zip",
 			"description": "Provides three core functions:\r\n- HTML and XML tag jumping, like the built-in brace matching and selection\r\n of tags and/or contents.\r\n- HTML entity encoding/decoding (example: é to &eacute;)\r\n- JS character encoding/decoding (example: é to \\u00E9)",
 			"author": "Martijn Coppoolse",
-			"homepage": "https://bitbucket.org/rdipardo/htmltag/"
+			"homepage": "https://github.com/rdipardo/nppHTMLTag"
 		},
 		{
 			"folder-name": "HugeFiles",
@@ -676,9 +687,9 @@
 		{
 			"folder-name": "JSMinNPP",
 			"display-name": "JSTool",
-			"version": "1.2503.0",
-			"id": "b54ca763ea970ba776e779fdcc631c0e441dca4ab55995491ab4a5763aef3af4",
-			"repository": "https://sourceforge.net/projects/jsminnpp/files/Uni/JSToolNPP.1.2503.0.uni.32.zip",
+			"version": "25.11.16",
+			"id": "e05a5d7491dc4528905e78f54b9472bcf5d9eb17ec8a20b557646a27fc0e9a6f",
+			"repository": "https://sourceforge.net/projects/jsminnpp/files/Uni/JSToolNPP.25.11.16.uni.32.zip",
 			"description": "Javascript plugin.\r\n * Douglas Crockford's JSMin algorithm to minimize javascript code.\r\n * My own algorithm to format javascript code.\r\n * A JSON data viewer. This JSON data viewer can handle >10MB JSON file easily.\r\n * Support 64bit Notepad++ (from version 1.20.0).\r\nReally helpful to javascript coder on Notepad++ and really easy to use it.\r\nMade in China.",
 			"author": "Sun Junwen",
 			"homepage": "https://github.com/sunjw/jstoolnpp"
@@ -829,11 +840,11 @@
 		{
 			"folder-name": "MultiReplace",
 			"display-name": "MultiReplace",
-			"version": "4.3.2.28",
+			"version": "4.6.0.33",
 			"npp-compatible-versions": "[8.5.4,]",
-			"id": "6ec33485258465a2c9fca94ae853f88264ccc34e9c728ee4943e71ba8cf83758",
-			"repository": "https://github.com/daddel80/notepadpp-multireplace/releases/download/4.3.2.28/MultiReplace-v4.3.2.28-Win32.zip",
-			"description": "Advanced multi-string replacement; storage of search/replace patterns; CSV column highlighting, targeting, and sorting; mathematical operations on matched strings; rectangular selection support; external lookup files for data normalization and anonymization.",
+			"id": "d543462179ee2a4eccb1df7b476d7738b1025baec6ac68c21a566534850129bb",
+			"repository": "https://github.com/daddel80/notepadpp-multireplace/releases/download/4.6.0.33/MultiReplace-v4.6.0.33-Win32.zip",
+			"description": "Multi-string replacement across single or multiple files; reusable search/replace lists; CSV column operations (targeting, sort, delete, replace); external lookup tables; rectangular selection support; conditional (if/then) and math logic.\r\n",
 			"author": "Thomas Knoefel",
 			"homepage": "https://github.com/daddel80/notepadpp-multireplace"
 		},
@@ -878,6 +889,16 @@
 			"homepage": "https://github.com/young-developer/nppNavigateTo"
 		},
 		{
+			"folder-name": "NestedDSV",
+			"display-name": "NestedDSV Data Visualizer",
+			"version": "1.1.0.1",
+			"id": "45f09c5d01bf75472984d24bea8e67c9fe2ec60cbe89cdf9edc840525d9bcd40",
+			"repository": "https://github.com/shriprem/NestedDSV/releases/download/v1.1.0.1/NestedDSV_x86.zip",
+			"description": "Plugin for visualizing hierarchical (nested) delimiter-separated values (DSV) data in Notepad++. Displays cursor position data. Jumps to specific fields. Folding Record Blocks. Extracts Data. Builtin dialogs to configure file-type, record-type & fields; Themes & Colors; and Folding.",
+			"author": "Shridhar Kumar",
+			"homepage": "https://github.com/shriprem/NestedDSV"
+		},
+		{
 			"folder-name": "NewFileBrowser",
 			"display-name": "NewFileBrowser",
 			"version": "0.1.3",
@@ -900,11 +921,11 @@
 		{
 			"folder-name": "NppPluginDemo",
 			"display-name": "Notepad++ Plugin Demo",
-			"version": "4.4",
+			"version": "4.5",
 			"npp-compatible-versions": "[8.4.7,]",
 			"old-versions-compatibility": "[,4.2][,8.4.6]",
-			"id": "9ee50d483b6e363d4db8b940e2607609f569ba7460af4a1e7c6f06bf843e1dc3",
-			"repository": "https://github.com/npp-plugins/plugindemo/releases/download/v4.4/pluginDemo.v4.4.bin.zip",
+			"id": "d771714cf4db2f221ce2ec8f41eaf57e7ef60847ecdb25d30abc459902b5392b",
+			"repository": "https://github.com/npp-plugins/plugindemo/releases/download/v4.5/pluginDemo.v4.5.bin.zip",
 			"description": "Notepad++ Plugin Demo is written from Notepad++ Plugin Template to demonstrate the usage of plugin API.",
 			"author": "Don HO",
 			"homepage": "https://github.com/npp-plugins/plugindemo"
@@ -934,11 +955,11 @@
 		{
 			"folder-name": "nppConverter",
 			"display-name": "Npp Converter",
-			"version": "4.6.0",
+			"version": "4.7",
 			"npp-compatible-versions": "[8.4.7,]",
 			"old-versions-compatibility": "[,4.4][,8.4.6]",
-			"id": "61826fee7b91ded1db1de7d16cf16b71172510c8abe5486ade06664cc1af06c9",
-			"repository": "https://github.com/npp-plugins/converter/releases/download/v4.6/nppConvert.v4.6.zip",
+			"id": "17a54bd2af45de388b47f767cafcb9b93618ea387639523d6d684f693ef59dc1",
+			"repository": "https://github.com/npp-plugins/converter/releases/download/v4.7/nppConvert.v4.7.zip",
 			"description": "ASCII<->Hex converter.",
 			"author": "Don HO",
 			"homepage": "https://github.com/npp-plugins/converter/"
@@ -1060,9 +1081,9 @@
 		{
 			"folder-name": "NppFTP",
 			"display-name": "NppFTP",
-			"version": "0.29.13",
-			"id": "239fe7e0dde9cbeb2ce4a3192e792509ecbff19ffa6d78cfaab4e4f46c86668a",
-			"repository": "https://github.com/ashkulz/NppFTP/releases/download/v0.29.13/NppFTP-x86.zip",
+			"version": "0.29.14",
+			"id": "49da5eec72ca01953d46e5d0ba8ce84c843f9a14aaf05547c433ce12247f4e84",
+			"repository": "https://github.com/ashkulz/NppFTP/releases/download/v0.29.14/NppFTP-x86.zip",
 			"description": "Allows FTP, FTPS, FTPES, and SFTP communications. Very useful for web development.",
 			"author": "ashish_kulz",
 			"homepage": "https://ashkulz.github.io/NppFTP/"
@@ -1163,10 +1184,10 @@
 		{
 			"folder-name": "NppQrCode32",
 			"display-name": "NppQrCode",
-			"version": "0.0.0.2",
+			"version": "0.0.0.3",
 			"old-versions-compatibility": "[,0.0.0.1][,8.3.3]",
-			"id": "0a5fd708e4e331ddc086962990284d0241046dc1acffb2fde9870a0e048ab8db",
-			"repository": "https://github.com/rdipardo/nppQrCode/releases/download/v0.0.0.2/NppQrCode-0.0.0.2-win32.zip",
+			"id": "54557a2361351f58b9822bbf927b19086338d9885431348839005f550b05d216",
+			"repository": "https://github.com/rdipardo/nppQrCode/releases/download/v0.0.0.3/NppQrCode-v0.0.0.3-win32.zip",
 			"description": "Creates a QR code from selected text. Just select some text and click the toolbar button.",
 			"author": "Vladimir Korobenkov",
 			"homepage": "https://github.com/rdipardo/nppQrCode"
@@ -1224,6 +1245,16 @@
 			"homepage": "https://github.com/dinkumoil/NppUISpy"
 		},
 		{
+			"folder-name": "NppVim",
+			"display-name": "NppVim",
+			"version": "1.6.0.0",
+			"id": "F3DA68DD627C7297AFC7B375D0F28C1C6ADC6EBEA9B682B0D058B9714A56FFF7",
+			"repository": "https://github.com/h-jangra/NppVim/releases/download/1.6.0.0/NppVim.zip",
+			"description": "A Notepad++ plugin that adds Vim-style editing and key bindings.",
+			"author": "h-jangra",
+			"homepage": "https://github.com/h-jangra/NppVim"
+		},
+		{
 			"folder-name": "NWScript-Npp",
 			"display-name": "NWScript Tools",
 			"version": "1.2.0.2300",
@@ -1277,10 +1308,10 @@
 		{
 			"folder-name": "PlantUmlViewer",
 			"display-name": "PlantUML Viewer",
-			"version": "1.8.0.12",
+			"version": "1.9.0.13",
 			"npp-compatible-versions": "[8.3,]",
-			"id": "b03d2005cb33ded36f7f9c2ee6591688550e7e1142ab0a574950fd6df79960dd",
-			"repository": "https://github.com/Fruchtzwerg94/PlantUmlViewer/releases/download/1.8.0.12/PlantUmlViewer_v1.8.0.12_x86.zip",
+			"id": "924791e595cc05801a63836229d472c2c262738162e6a12e4660ddde9724b492",
+			"repository": "https://github.com/Fruchtzwerg94/PlantUmlViewer/releases/download/1.9.0.13/PlantUmlViewer_v1.9.0.13_x86.zip",
 			"description": "A Notepad++ plugin to generate view and export PlantUML diagrams.",
 			"author": "Philipp Schmidt",
 			"homepage": "https://github.com/Fruchtzwerg94/PlantUmlViewer"
@@ -1310,11 +1341,11 @@
 		{
 			"folder-name": "PreviewHTML",
 			"display-name": "Preview HTML",
-			"version": "1.3.3.2",
+			"version": "1.4.2.1",
 			"old-versions-compatibility": "[,1.3.3.1][,8.3.3]",
-			"id": "92fa7faa01b9953c5b759bfe5637c948f5a742623ec1b9a99565d623979dc3c3",
-			"repository": "https://github.com/rdipardo/npp_preview/releases/download/v1.3.3.2/PreviewHTML_v1.3.3.2_win32.zip",
-			"description": "Preview HTML files inside Notepad++ (or in a floating window) without having to save them first.",
+			"id": "e47e2ac11308d3ffdd05b956c49baa4d280d65597474b2b0a0579c40ac7563ce",
+			"repository": "https://github.com/rdipardo/npp_preview/releases/download/v1.4.2.1/PreviewHTML_v1.4.2.1_win32.zip",
+			"description": "Preview HTML files inside a WebView2 embedded browser, or preview Markdown, AsciiDoc, etc., rendered as HTML by an external program.",
 			"author": "Martijn Coppoolse",
 			"homepage": "https://github.com/rdipardo/npp_preview"
 		},
@@ -1398,6 +1429,16 @@
 			"description": "Random values generator for passwords or test data. Generate single value string, int, decimal, datetime, guid or csv, xml, json, sql.",
 			"author": "Bas de Reuver",
 			"homepage": "https://github.com/BdR76/RandomValuesNPP/"
+		},
+		{
+			"folder-name": "RAScript",
+			"display-name": "RAScript",
+			"version": "0.4.1",
+			"id": "2f063447419e1bf614e0d854ebc28c2c184b5b84eb22195c5e0cde471cf26968",
+			"repository": "https://github.com/joshraphael/npp-rascript/releases/download/v0.4.1/npp-rascript_v0.4.1_Win32.zip",
+			"description": "Notepad++ plugin to define RAScript grammar",
+			"author": "Joshua Raphael",
+			"homepage": "https://github.com/joshraphael/npp-rascript"
 		},
 		{
 			"folder-name": "rdmd-en-x86",
@@ -1633,9 +1674,9 @@
 		{
 			"folder-name": "SQLinFormNpp",
 			"display-name": "SQLinForm",
-			"version": "6.25.1.15",
-			"id": "2f104cada8196644ae0502dae67baac65b343ad96b906f04e16d397cec5740a1",
-			"repository": "https://www.sqlinform.com/npp/SQLinFormNpp_6.25.01.zip",
+			"version": "6.25.8.28",
+			"id": "f2270b2684142016d6eb8ca79b437cd9d7112ed3cd802934dc8cb0658f54e1e8",
+			"repository": "https://www.sqlinform.com/npp/SQLinFormNpp_6.25.08.zip",
 			"description": "Formats plain SQL, SQL embedded in program code, SQL snippets, and SQL statements with syntax errors.\r\nHas a powerful code folding feature and formats your SQL as you Type. Supports all major DB like Oracle, DB2, SQL Server, Teradata, Netezza, MySQL, Sybase, MS Access, etc. Incorporates its own multi-DB parser engine. No additional software required.",
 			"author": "Guido Thelen",
 			"homepage": "https://www.sqlinform.com"
@@ -1643,10 +1684,10 @@
 		{
 			"folder-name": "StayAwake_NPP",
 			"display-name": "StayAwake",
-			"version": "1.0.1.0",
-			"id": "cbe7e3dca3f94dd61305485f6a123581e737a489d9f38a45d2c5d26cff66bb48",
-			"repository": "https://github.com/shriprem/StayAwake_NPP_Plugin/releases/download/v1.0.1.0/StayAwake_NPP_x86.zip",
-			"description": "StayAwake is a simple utility that enables you to maintain an Active status on Microsoft Teams by periodically cycling (double-toggling) the Scroll Lock button. StayAwake also prevents screen saver activation, screen blanking, and Windows session lockouts.",
+			"version": "1.1.0.0",
+			"id": "8b59e7489cb4c97c24980d8783cb099d92e431aaf7b3019acf2c6c95530e24b0",
+			"repository": "https://github.com/shriprem/StayAwake_NPP_Plugin/releases/download/v1.1.0.0/StayAwake_NPP_x86.zip",
+			"description": "StayAwake enables you to maintain an Active status on Microsoft Teams by simulating key presses of unused or low side-effect buttons at specified intervals. StayAwake also prevents screen saver activation, screen blanking, and Windows session lockouts.",
 			"author": "Shridhar Kumar",
 			"homepage": "https://github.com/shriprem/StayAwake_NPP_Plugin"
 		},
@@ -1793,12 +1834,12 @@
 		{
 			"folder-name": "WebEdit",
 			"display-name": "WebEdit",
-			"version": "2.1",
-			"id": "60622e73f01a1fdb5462c2ba416649c404c39db18100826301f4ad74b4e7da46",
-			"repository": "https://master.dl.sourceforge.net/project/npp-plugins/WebEdit/WebEdit%202.1/WebEdit.v2.1.zip",
-			"description": "WebEdit is another attempt to integrate a user-configurable code template collection into Notepad++. With WebEdit you have the following options:\r\n create a menu command for pasting some text, possibly surrounding the current selection, if any. Imagine selecting a word and putting \"&lt;p&gt;...&lt;/p&gt;\" around it with a single hotkey. You can create up to 30 such commands and assign keyboard shortcuts to them, or simply use the menu;\r\n the same 30 commands can also be represented by buttons on the main toolbar for quick access with the mouse;\r\n you can create a set of \"tags\" or abbreviations. Type one of them, then press Alt+Enter and it will be replaced with the corresponding block of text. If the replacement consists of multiple lines, all of them will be indented same as the first one. The caret will be placed in a predefined position within the new text. You can have the current clipboard contents (e.g. a function name) pasted on expansion.\r\nThe plugin configuration is stored in the WebEdit.ini file. Use \"WebEdit\\Edit Config\" command from the \"Plugins\" menu to open the file in Notepad++ for editing.\r\nAll keyboard shortcuts can be assigned/modified using the standard Shortcut Mapper. For more information see the WebEdit.txt help file.",
+			"version": "2.8.1.2",
+			"id": "30bd05420648cd7b3e47c7b60a9f51842d9ca06cb70ca2eaa7adaacc2d2368a2",
+			"repository": "https://github.com/Krazal/WebEdit/releases/download/v2.8.1.2/WebEdit.2.8.1.2.win32.zip",
+			"description": "WebEdit is another attempt to integrate a user-configurable code template collection into Notepad++. With WebEdit you have the following options:\r\n create a menu command for pasting some text, possibly surrounding the current selection, if any. Imagine selecting a word and putting \"&lt;p&gt;...&lt;/p&gt;\" around it with a single hotkey. You can create up to 30 such commands and assign keyboard shortcuts to them, or simply use the menu;\r\n the same 30 commands can also be represented by buttons on the main toolbar for quick access with the mouse;\r\n you can create a set of \"tags\" or abbreviations. Type one of them, then press Alt+Enter and it will be replaced with the corresponding block of text. If the replacement consists of multiple lines, all of them will be indented same as the first one. The caret will be placed in a predefined position within the new text. You can have the current clipboard contents (e.g. a function name) pasted on expansion.\r\nThe plugin configuration is stored in the WebEdit.ini file. Use \"WebEdit\\Edit Config\" command from the \"Plugins\" menu to open the file in Notepad++ for editing.\r\nAll keyboard shortcuts can be assigned/modified using the standard Shortcut Mapper. For more information see the WebEdit.txt help file.\r\nNOTE: This is an updated version of the plugin. You can find the original (v2.1) files here: https://sourceforge.net/projects/npp-plugins/files/WebEdit/WebEdit%202.1/",
 			"author": "Alexander Iljin",
-			"homepage": "https://sourceforge.net/projects/npp-plugins/files/WebEdit/WebEdit%202.1/"
+			"homepage": "https://github.com/Krazal/WebEdit"
 		},
 		{
 			"folder-name": "WindowManager",
@@ -1890,6 +1931,27 @@
 			"description": "A comprehensive Android suite featuring real-time log/screen capture, integrated file explorer for rapid operations, and a smart command panel supporting one-click search/execution of commands with output retrieval.",
 			"author": "simbaba",
 			"homepage": "https://sourceforge.net/projects/androidlogger"
+		},
+		{
+			"folder-name": "VirtualFolders",
+			"display-name": "Virtual Folders",
+			"version": "1.0.2",
+			"npp-compatible-versions": "[8.8.5,]",
+			"id": "adc7056900b47c29060d9d6f3ce8b8b7e0cbc2bf1b778de524f767f8cd875cc8",
+			"repository": "https://github.com/FatihC/VirtualFolders/releases/download/v1.0.2/VirtualFolders-v1.0.2-x86.zip",
+			"description": "This plugin adds a dockable tree panel where you can create your own virtual folder structure. Group files from different paths, reorder them freely, and keep related resources together without touching the actual filesystem.",
+			"author": "Fatih Coşkun",
+			"homepage": "https://github.com/FatihC/VirtualFolders"
+		},
+		{
+			"folder-name": "NppESPHome",
+			"display-name": "NppESPHome",
+			"version": "1.0.26",
+			"id": "5e60f9c3c591b3e29c4d2f17e46399f3e9202b92352d65df21504c08d04930e0",
+			"repository": "https://github.com/atiburzi/NppESPHome-Plugin/releases/download/v1.0.26/NppESPHome_x32.zip",
+			"description": "Plugin to directly interact with ESPHome and easily manage related projects workflows in Windows environment.",
+			"author": "Andrea Tiburzi",
+			"homepage": "https://github.com/atiburzi/NppESPHome-Plugin"
 		}
 	]
 }
