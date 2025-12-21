@@ -303,10 +303,10 @@
 			"npp-compatible-versions": "[7.7,]",
 			"old-versions-compatibility": "[,0.0.13.27][,7.6.6]",
 			"id": "6babcfbae65ced266a6073fe9bf6947a409266b63117b5c3c55d7a84ae1ac93d",
-			"repository": "https://bitbucket.org/rdipardo/dbgp/downloads/dbgpPlugin_v0.14.2.1_win32.zip",
+			"repository": "https://github.com/rdipardo/dbgpPlugin/releases/download/v0.14.2.1/dbgpPlugin_v0.14.2.1_win32.zip",
 			"description": "PHP debugger (XDebug) which talks with the DBGP protocol. Transforms Notepad++ into a PHP IDE.",
 			"author": "Damjan Zobo Cvetko",
-			"homepage": "https://bitbucket.org/rdipardo/dbgp"
+			"homepage": "https://github.com/rdipardo/dbgpPlugin"
 		},
 		{
 			"folder-name": "DiscordRPC",
