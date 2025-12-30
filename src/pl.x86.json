@@ -4,6 +4,17 @@
 	"arch": "32",
 	"npp-plugins": [
 		{
+			"folder-name": "AnotherMarkdown",
+			"display-name": "Another Markdown",
+			"version": "0.1.1",
+			"id": "f0149d757c17f07bc089aefdfd15907cb02d83a7eb33c13e69516e3610c288c9",
+			"repository": "https://github.com/ezyuzin/NppAnotherMarkdown/releases/download/0.1.1/AnotherMarkdown-0.1.1-x86.zip",
+			"description": "[Requires .NET framework v4.7.2]\r\nEasiest customizable, extendable preview and edit for Markdown files.\r\nBonus: Edit and preview 360 photos",
+			"author": "Evgeny Zyuzin",
+			"homepage": "https://github.com/ezyuzin/NppAnotherMarkdown",
+      "npp-compatible-versions": "[8.5,]"
+		},   
+		{
 			"folder-name": "3P",
 			"display-name": "3P - Progress Programmers Pal",
 			"version": "1.8.8",
