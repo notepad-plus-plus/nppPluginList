@@ -687,7 +687,7 @@
 			"folder-name": "Language_Selector",
 			"display-name": "Language Selector",
 			"version": "1.0.0.0",
-			"id": "d222dd2c040d73bdfa9930272c42c733c0435a4e04e92a45c568fc27e21000ce",
+			"id": "8782bbbf7aa81e6aae882283391d74daadc932b2364c12093aa022028be50481",
 			"repository": "https://github.com/hassaine-abdellah/npp-language-selector/releases/download/v1.0/Language_Selector_v1.0_x86.zip",
 			"description": "Set the programming language and see the syntax highlighting on new files without the need to save them, or to go each time to the menu to choose the language.\r\nYou can also pin your favorite languages on top of the list so you can easily access them.",
 			"author": "Abdellah Hassaine",
