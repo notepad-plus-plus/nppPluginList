@@ -7,7 +7,7 @@
 			"folder-name": "3P",
 			"display-name": "3P - Progress Programmers Pal",
 			"version": "1.8.8",
-			"id": "cdb445b2f3de150d17ff7219a7dfd6b1d5eb53e8c2baf14d026548e2e9cf1fdf",
+			"id": "20a1307444324835f8143987d0e9465d968a74524b6994566eabe84bea8dfbb8",
 			"repository": "https://github.com/jcaillon/3P/releases/download/v1.8.8/3P.zip",
 			"description": "[Requires .NET framework v4.6.1]\r\nDesigned to help writing OpenEdge ABL (formerly known as Progress 4GL) code. It provides :\r\n- a powerful auto-completion\r\n- tool-tips on every words\r\n- a code explorer to quickly navigate through your code\r\n- a file explorer to easily access all your sources\r\n- the ability to run/compile and even PROLINT your source file with an in-line visualization of errors\r\n- more than 50 options to better suit your needs\r\n- and so much more!\r\nVisit https://jcaillon.github.io/3P/ for more details on the plugin",
 			"author": "Julien Caillon",
@@ -683,11 +683,11 @@
 			"author": "Sun Junwen",
 			"homepage": "https://github.com/sunjw/jstoolnpp"
 		},
-			{
+		{
 			"folder-name": "Language_Selector",
 			"display-name": "Language Selector",
 			"version": "1.0.0.0",
-			"id": "8782bbbf7aa81e6aae882283391d74daadc932b2364c12093aa022028be50481",
+			"id": "cdb445b2f3de150d17ff7219a7dfd6b1d5eb53e8c2baf14d026548e2e9cf1fdf",
 			"repository": "https://github.com/hassaine-abdellah/npp-language-selector/releases/download/v1.0/Language_Selector_v1.0_x86.zip",
 			"description": "Set the programming language and see the syntax highlighting on new files without the need to save them, or to go each time to the menu to choose the language.\r\nYou can also pin your favorite languages on top of the list so you can easily access them.",
 			"author": "Abdellah Hassaine",
@@ -977,11 +977,11 @@
 		{
 			"folder-name": "nppRandomStringGenerator",
 			"display-name": "npp Random String Generator",
-			"version": "1.9.6",
+			"version": "1.9.10",
 			"npp-compatible-versions": "[8.3,]",
 			"old-versions-compatibility": "[,1.3][,8.2.1]",
-			"id": "d476b2a5da998d35cb8804cd13176abd37d8179203f44d63c1d487be00245d2f",
-			"repository": "https://github.com/cmbsolutions/nppRandomStringGenerator/releases/download/v1.9.6/nppRandomStringGenerator.1.9.6.x86.zip",
+			"id": "e0a6b8c8021a1a42a57350b295fabcf4b4a68721cdf5a08fc8d1680349b00efb",
+			"repository": "https://github.com/cmbsolutions/nppRandomStringGenerator/releases/download/v1.9.10/nppRandomStringGenerator.1.9.10.x86.zip",
 			"description": "Generates random strings with configurable output.",
 			"author": "Maurice CMBSolutions",
 			"homepage": "https://github.com/cmbsolutions/nppRandomStringGenerator"
@@ -1050,9 +1050,9 @@
 		{
 			"folder-name": "NppExec",
 			"display-name": "NppExec",
-			"version": "0.8.8",
-			"id": "83fcb24c2ab860d94d31783a213757c8137735154712ad28137c2fa452fec17f",
-			"repository": "https://github.com/d0vgan/nppexec/releases/download/v088/NppExec_088_dll.zip",
+			"version": "0.8.10",
+			"id": "49d6b8fd513edefdf895ae7b8fbf597c6f7c34081b7d1875ca11b8eb7b1a40c3",
+			"repository": "https://github.com/d0vgan/nppexec/releases/download/NppExec_v0810/NppExec_0810_dll.zip",
 			"description": "Execute commands or saved scripts without leaving Notepad++.",
 			"author": "Vitaliy Dovgan",
 			"homepage": "https://github.com/d0vgan/nppexec"
