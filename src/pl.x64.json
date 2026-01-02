@@ -1,6 +1,6 @@
 {
 	"name": "npp-pluginList",
-	"version": "1.8.8",
+	"version": "1.9",
 	"arch": "64",
 	"npp-plugins": [
 		{
@@ -263,24 +263,24 @@
 			"homepage": "https://github.com/pnedev/comparePlus"
 		},
 		{
-			"folder-name": "ConfigUpdater",
-			"display-name": "ConfigUpdater",
-			"version": "2.3.0",
-			"id": "c0fa5dcc4ca56852a503923c0e9fc2e5e5582fd7eb26735e439298500d4c55d6",
-			"repository": "https://github.com/pryrt/NppPlugin-ConfigUpdater/releases/download/v2.3.0/ConfigUpdater_v2.3.0_x64.zip",
-			"description": "Notepad++ Plugin to keep Langs/Stylers/Themes config files up-to-date",
-			"author": "pryrt",
-			"homepage": "https://github.com/pryrt/NppPlugin-ConfigUpdater",
-			"npp-compatible-versions": "[8.8.1,]"
+			"folder-name": "Compose",
+			"display-name": "Compose",
+			"version": "1.1",
+			"id": "f3a160e1ea408187872e01a183012c2dc9dd6e126639aba093eeb6dcfb43ac6f",
+			"repository": "https://github.com/Coises/Compose-for-NotepadPlusPlus/releases/download/v1.1/Compose-1.1-x64.zip",
+			"description": "Implements a Compose key for entering characters not available on the keyboard with easily remembered key sequences.",
+			"author": "Randall Joseph Fellmy",
+			"homepage": "https://github.com/Coises/Compose-for-NotepadPlusPlus",
+			"npp-compatible-versions": "[8.5.4,]"
 		},
 		{
 			"folder-name": "CSScriptNpp",
 			"display-name": "CS-Script - C# Intellisense",
-			"version": "2.0.11.0",
+			"version": "2.0.12.0",
 			"npp-compatible-versions": "[8.3,]",
 			"old-versions-compatibility": "[,1.7.26][,8.2.1]",
-			"id": "0b4894d5d0e3228388874ba32bef3ff6850acff15648c2883f899d320c11f377",
-			"repository": "https://github.com/oleg-shilo/cs-script.npp/releases/download/v2.0.11.0/CSScriptNpp.2.0.11.0.x64.zip",
+			"id": "f6d415955da5a1578f515505074831a0d3befbb4ead685ed238c205921004eaa",
+			"repository": "https://github.com/oleg-shilo/cs-script.npp/releases/download/v2.0.12.0/CSScriptNpp.2.0.12.0.x64.zip",
 			"description": "CS-Script integration. Implements a real C# Intellisense solution based on CS-Script and Roslyn. Allows loading, executing modifying and debugging C# scripts in a way very similar to the Visual Studio C# projects support. This includes referencing assemblies and other scripts, code formatting, adding missing namespaces and intercepting Debug and Console output.",
 			"author": "Oleg Shilo",
 			"homepage": "https://github.com/oleg-shilo/cs-script.npp"
@@ -336,10 +336,10 @@
 			"version": "0.14.2.1",
 			"npp-compatible-versions": "[8.3,]",
 			"id": "e86ef5b0cc263d314d367f6016836e65b0e624d96c2ff447a8a70cc3d8415efd",
-			"repository": "https://bitbucket.org/rdipardo/dbgp/downloads/dbgpPlugin_v0.14.2.1_x64.zip",
+			"repository": "https://github.com/rdipardo/dbgpPlugin/releases/download/v0.14.2.1/dbgpPlugin_v0.14.2.1_x64.zip",
 			"description": "PHP debugger (XDebug) which talks with the DBGP protocol. Transforms Notepad++ into a PHP IDE.",
 			"author": "Damjan Zobo Cvetko",
-			"homepage": "https://bitbucket.org/rdipardo/dbgp"
+			"homepage": "https://github.com/rdipardo/dbgpPlugin"
 		},
 		{
 			"folder-name": "DiscordRPC",
@@ -472,11 +472,11 @@
 		{
 			"folder-name": "FWDataViz",
 			"display-name": "Fixed-width Data Visualizer",
-			"version": "2.6.6.0",
+			"version": "2.6.7.0",
 			"npp-compatible-versions": "[8.4.1,]",
 			"old-versions-compatibility": "[,2.4.0.1][8,8.2.1]",
-			"id": "823614d21a2c5616d00bd8f7507ac6b84e5d627c5a87dedf25f56b4937613bb7",
-			"repository": "https://github.com/shriprem/FWDataViz/releases/download/v2.6.6.0/FWDataViz_x64.zip",
+			"id": "ad523796c6e13283a12f175fcc6d0a321abe035be7a3b3abff9daa1ea2e80bf0",
+			"repository": "https://github.com/shriprem/FWDataViz/releases/download/v2.6.7.0/FWDataViz_x64.zip",
 			"description": "Fixed Width Data Visualizer adds Excel-like features for fixed-width data files in Notepad++. Displays cursor position data. Foldable Record Blocks; Hop & Jump to specific fields. Field Copy & Field Paste. Data Extraction. Builtin dialogs to configure file-type, record-type & fields; and themes & colors. Automatic File Type Detection. Handles homogenous, mixed & multi-line records. Full Multi-byte character support. Darkmode enabled.",
 			"author": "Shridhar Kumar",
 			"homepage": "https://github.com/shriprem/FWDataViz"
@@ -649,12 +649,22 @@
 		{
 			"folder-name": "JSMinNPP",
 			"display-name": "JSTool",
-			"version": "1.2503.0",
-			"id": "a0c3812a4694400878dfbbebf65a31ec2e5ef9a5ec1f2565ca6abc06d3399092",
-			"repository": "https://sourceforge.net/projects/jsminnpp/files/Uni/JSToolNPP.1.2503.0.uni.64.zip",
+			"version": "25.11.16",
+			"id": "96bf6b2d0a036eb0be0a5489a6ae57a19d4dbbee8e0e558b758bd0100e85cd86",
+			"repository": "https://sourceforge.net/projects/jsminnpp/files/Uni/JSToolNPP.25.11.16.uni.64.zip",
 			"description": "Javascript plugin.\r\n * Douglas Crockford's JSMin algorithm to minimize javascript code.\r\n * My own algorithm to format javascript code.\r\n * A JSON data viewer. This JSON data viewer can handle >10MB JSON file easily.\r\n * Support 64bit Notepad++ (from version 1.20.0).\r\nReally helpful to javascript coder on Notepad++ and really easy to use it.\r\nMade in China.",
 			"author": "Sun Junwen",
 			"homepage": "https://github.com/sunjw/jstoolnpp"
+		},
+			{
+			"folder-name": "Language_Selector",
+			"display-name": "Language Selector",
+			"version": "1.0.0.0",
+			"id": "74176b4772df00b6cd11cf98e5b641a8ca621bccb62ab5fa4a80281b36998167",
+			"repository": "https://github.com/hassaine-abdellah/npp-language-selector/releases/download/v1.0/Language_Selector_v1.0_x64.zip",
+			"description": "Set the programming language and see the syntax highlighting on new files without the need to save them, or to go each time to the menu to choose the language.\r\nYou can also pin your favorite languages on top of the list so you can easily access them.",
+			"author": "Abdellah Hassaine",
+			"homepage": "https://github.com/hassaine-abdellah"
 		},
 		{
 			"folder-name": "LanguageHelp",
@@ -689,10 +699,10 @@
 		{
 			"folder-name": "Linter++",
 			"display-name": "Linter++",
-			"version": "1.0.1.0",
+			"version": "1.0.2.0",
 			"npp-compatible-versions": "[8.7.5,]",
-			"id": "E0EF26EFD4B845F6B36C84BF72C6EDB76AA0269264431084663D939175191267",
-			"repository": "https://github.com/ThosRTanner/notepad-pp-linter/releases/download/1.0.1/plugin_dll_x64.zip",
+			"id": "4A053FFEDEB1E2A5135DC51677C44B824D02BA9539F2A25A4CD5466A368D3CD7",
+			"repository": "https://github.com/ThosRTanner/notepad-pp-linter/releases/download/1.0.2/plugin_dll_x64.zip",
 			"description": "Allows realtime code check against any checkstyle-compatible linter: jshint, eslint, jscs, phpcs, csslint, and many others.",
 			"author": "Tom Tanner",
 			"homepage": "https://github.com/thosrtanner/notepad-pp-linter"
@@ -813,6 +823,16 @@
 			"homepage": "https://github.com/young-developer/nppNavigateTo"
 		},
 		{
+			"folder-name": "NestedDSV",
+			"display-name": "NestedDSV Data Visualizer",
+			"version": "1.1.0.1",
+			"id": "8d670c6e3971f49ecef89165936d960bb7def0202824d283a5d15d56a768eb50",
+			"repository": "https://github.com/shriprem/NestedDSV/releases/download/v1.1.0.1/NestedDSV_x64.zip",
+			"description": "Plugin for visualizing hierarchical (nested) delimiter-separated values (DSV) data in Notepad++. Displays cursor position data. Jumps to specific fields. Folding Record Blocks. Extracts Data. Builtin dialogs to configure file-type, record-type & fields; Themes & Colors; and Folding.",
+			"author": "Shridhar Kumar",
+			"homepage": "https://github.com/shriprem/NestedDSV"
+		},
+		{
 			"folder-name": "NewFileBrowser",
 			"display-name": "NewFileBrowser",
 			"version": "0.1.5",
@@ -892,11 +912,11 @@
 		{
 			"folder-name": "nppRandomStringGenerator",
 			"display-name": "npp Random String Generator",
-			"version": "1.9.6",
+			"version": "1.9.10",
 			"npp-compatible-versions": "[8.3,]",
 			"old-versions-compatibility": "[,1.3][,8.2.1]",
-			"id": "cf8e37451bea40ffe9739c12f0020d7d3bfaf54ea213382d44c646dd3d754938",
-			"repository": "https://github.com/cmbsolutions/nppRandomStringGenerator/releases/download/v1.9.6/nppRandomStringGenerator.1.9.6.x64.zip",
+			"id": "91a83f309de8413c239bab2ed1fb027fc3f4f0099376df2262ec97b0951f6955",
+			"repository": "https://github.com/cmbsolutions/nppRandomStringGenerator/releases/download/v1.9.10/nppRandomStringGenerator.1.9.10.x64.zip",
 			"description": "Generates random strings with configurable output.",
 			"author": "Maurice CMBSolutions",
 			"homepage": "https://github.com/cmbsolutions/nppRandomStringGenerator"
@@ -945,9 +965,9 @@
 		{
 			"folder-name": "NppExec",
 			"display-name": "NppExec",
-			"version": "0.8.8",
-			"id": "70e53fed962eeb21d2e11243c7cfad75d010b38565812f66bdf16b1c6e7c6f79",
-			"repository": "https://github.com/d0vgan/nppexec/releases/download/v088/NppExec_088_dll_x64.zip",
+			"version": "0.8.10",
+			"id": "fb1829a1003180dc760ebe8c9ae025d2e89bfe22bd5e33ed661748b747f32b5e",
+			"repository": "https://github.com/d0vgan/nppexec/releases/download/NppExec_v0810/NppExec_0810_dll_x64.zip",
 			"description": "Execute commands or saved scripts without leaving Notepad++.",
 			"author": "Vitaliy Dovgan",
 			"homepage": "https://github.com/d0vgan/nppexec"
@@ -1196,10 +1216,10 @@
 		{
 			"folder-name": "PlantUmlViewer",
 			"display-name": "PlantUML Viewer",
-			"version": "1.8.0.12",
+			"version": "1.9.0.13",
 			"npp-compatible-versions": "[8.3,]",
-			"id": "83e91b3fd6c6486db0f8e3c9e6a48d59a6003e6aa70658ba93d234edc366304e",
-			"repository": "https://github.com/Fruchtzwerg94/PlantUmlViewer/releases/download/1.8.0.12/PlantUmlViewer_v1.8.0.12_x64.zip",
+			"id": "ec59705861f3715531d22f9f836e55a807709e038bb7cb8afc9f28875bc267cf",
+			"repository": "https://github.com/Fruchtzwerg94/PlantUmlViewer/releases/download/1.9.0.13/PlantUmlViewer_v1.9.0.13_x64.zip",
 			"description": "A Notepad++ plugin to generate view and export PlantUML diagrams.",
 			"author": "Philipp Schmidt",
 			"homepage": "https://github.com/Fruchtzwerg94/PlantUmlViewer"
@@ -1229,11 +1249,11 @@
 		{
 			"folder-name": "PreviewHTML",
 			"display-name": "Preview HTML",
-			"version": "1.3.3.3",
+			"version": "1.4.3.0",
 			"old-versions-compatibility": "[,1.3.3.1][,8.3.3]",
-			"id": "77dec1c1658891b1cbe70298216b3d4ad0f92f9dec6eeafdd16fc07b563812bd",
-			"repository": "https://github.com/rdipardo/npp_preview/releases/download/v1.3.3.3/PreviewHTML_v1.3.3.3_x64.zip",
-			"description": "Preview HTML files inside Notepad++ (or in a floating window) without having to save them first.",
+			"id": "495d6d82b35c467fab857953322c395771d5d13dfdc78f378c1a48b7da5e6e66",
+			"repository": "https://github.com/rdipardo/npp_preview/releases/download/v1.4.3.0/PreviewHTML_v1.4.3.0_x64.zip",
+			"description": "Preview HTML files inside a WebView2 embedded browser, or preview Markdown, AsciiDoc, etc., rendered as HTML by an external program.",
 			"author": "Martijn Coppoolse",
 			"homepage": "https://github.com/rdipardo/npp_preview"
 		},
@@ -1722,13 +1742,23 @@
 		{
 			"folder-name": "VirtualFolders",
 			"display-name": "Virtual Folders",
-			"version": "1.0.1",
+			"version": "1.0.2",
 			"npp-compatible-versions": "[8.8.5,]",
-			"id": "94584bfa91c19599c77c8a8d4318ff3150a9d9b96867779610ce5b46a7b8241a",
-			"repository": "https://github.com/FatihC/VirtualFolders/releases/download/v1.0.1/VirtualFolders-v1.0.1-x64.zip",
+			"id": "b11c01ee186d1c82ebadc0d6a6863898f401dabd8a2b888a54b7da0a3ec22e56",
+			"repository": "https://github.com/FatihC/VirtualFolders/releases/download/v1.0.2/VirtualFolders-v1.0.2-x64.zip",
 			"description": "This plugin adds a dockable tree panel where you can create your own virtual folder structure. Group files from different paths, reorder them freely, and keep related resources together without touching the actual filesystem.",
 			"author": "Fatih Coşkun",
 			"homepage": "https://github.com/FatihC/VirtualFolders"
+		},
+		{
+			"folder-name": "NppESPHome",
+			"display-name": "NppESPHome",
+			"version": "1.0.26",
+			"id": "38c11337063f57b3e67bc88f397ecf00bdc76e41b93a04263d600d0cac95ef21",
+			"repository": "https://github.com/atiburzi/NppESPHome-Plugin/releases/download/v1.0.26/NppESPHome_x64.zip",
+			"description": "Plugin to directly interact with ESPHome and easily manage related projects workflows in Windows environment.",
+			"author": "Andrea Tiburzi",
+			"homepage": "https://github.com/atiburzi/NppESPHome-Plugin"
 		}
 	]
 }

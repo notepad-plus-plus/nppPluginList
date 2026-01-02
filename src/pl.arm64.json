@@ -1,6 +1,6 @@
 {
 	"name": "npp-pluginList",
-	"version": "1.8.8",
+	"version": "1.9",
 	"arch": "arm64",
 	"npp-plugins": [
 		{
@@ -47,22 +47,11 @@
 			"homepage": "https://github.com/pnedev/comparePlus"
 		},
 		{
-			"folder-name": "ConfigUpdater",
-			"display-name": "ConfigUpdater",
-			"version": "2.3.0",
-			"id": "1ae55100c090e353f039634dc7d28be52489dce7a742da383b37a8f3a513bbe2",
-			"repository": "https://github.com/pryrt/NppPlugin-ConfigUpdater/releases/download/v2.3.0/ConfigUpdater_v2.3.0_ARM64.zip",
-			"description": "Notepad++ Plugin to keep Langs/Stylers/Themes config files up-to-date",
-			"author": "pryrt",
-			"homepage": "https://github.com/pryrt/NppPlugin-ConfigUpdater",
-			"npp-compatible-versions": "[8.8.1,]"
-		},
-		{
 			"folder-name": "FWDataViz",
 			"display-name": "Fixed-width Data Visualizer",
-			"version": "2.6.6.0",
-			"id": "1ead23bc29e5e5fea627520d529c8a43256489fc7787661d4eb689ae2f1c6d17",
-			"repository": "https://github.com/shriprem/FWDataViz/releases/download/v2.6.6.0/FWDataViz_arm64.zip",
+			"version": "2.6.7.0",
+			"id": "25913c84be6ed153f009346e4b67cb4ec88c18d2cb389b5af66c9fae1516f90a",
+			"repository": "https://github.com/shriprem/FWDataViz/releases/download/v2.6.7.0/FWDataViz_arm64.zip",
 			"description": "Fixed Width Data Visualizer adds Excel-like features for fixed-width data files in Notepad++. Displays cursor position data. Foldable Record Blocks; Hop & Jump to specific fields. Field Copy & Field Paste. Data Extraction. Builtin dialogs to configure file-type, record-type & fields; and themes & colors. Automatic File Type Detection. Handles homogenous, mixed & multi-line records. Full Multi-byte character support. Darkmode enabled.",
 			"author": "Shridhar Kumar",
 			"homepage": "https://github.com/shriprem/FWDataViz"
@@ -112,12 +101,22 @@
 		{
 			"folder-name": "JSMinNPP",
 			"display-name": "JSTool",
-			"version": "1.2503.0",
-			"id": "f72b668ca295f3f6133bc3f17c2ef0c67a90e9d4d2bbb605f908530ac57bebdf",
-			"repository": "https://sourceforge.net/projects/jsminnpp/files/Uni/JSToolNPP.1.2503.0.uni.arm64.zip",
+			"version": "25.11.16",
+			"id": "9e243350015140e34c7b9d577047855abfb8c27ae916a2cc74aadcf5a7b997d9",
+			"repository": "https://sourceforge.net/projects/jsminnpp/files/Uni/JSToolNPP.25.11.16.uni.arm64.zip",
 			"description": "Javascript plugin.\r\n * Douglas Crockford's JSMin algorithm to minimize javascript code.\r\n * My own algorithm to format javascript code.\r\n * A JSON data viewer. This JSON data viewer can handle >10MB JSON file easily.\r\n * Support 64bit Notepad++ (from version 1.20.0).\r\nReally helpful to javascript coder on Notepad++ and really easy to use it.\r\nMade in China.",
 			"author": "Sun Junwen",
 			"homepage": "https://github.com/sunjw/jstoolnpp"
+		},
+				{
+			"folder-name": "Language_Selector",
+			"display-name": "Language Selector",
+			"version": "1.0.0.0",
+			"id": "2f6e939658a18e6bb4925ea2d70c1eccadcd8ff6661b5917121f61f753ebf6b3",
+			"repository": "https://github.com/hassaine-abdellah/npp-language-selector/releases/download/v1.0/Language_Selector_v1.0_ARM64.zip",
+			"description": "Set the programming language and see the syntax highlighting on new files without the need to save them, or to go each time to the menu to choose the language.\r\nYou can also pin your favorite languages on top of the list so you can easily access them.",
+			"author": "Abdellah Hassaine",
+			"homepage": "https://github.com/hassaine-abdellah"
 		},
 		{
 			"folder-name": "LanguageHelp",
@@ -132,10 +131,10 @@
 		{
 			"folder-name": "Linter++",
 			"display-name": "Linter++",
-			"version": "1.0.1.0",
+			"version": "1.0.2.0",
 			"npp-compatible-versions": "[8.7.5,]",
-			"id": "48F255273C7B78747E76389649CF494536EFC9CFC67F3BDC006EA2ABF74B11C4",
-			"repository": "https://github.com/ThosRTanner/notepad-pp-linter/releases/download/1.0.1/plugin_dll_ARM64.zip",
+			"id": "502B12B4BC54E56780861DEEECC4AB85631228BDCEB172D2B4726E5BEBBA3B42",
+			"repository": "https://github.com/ThosRTanner/notepad-pp-linter/releases/download/1.0.2/plugin_dll_ARM64.zip",
 			"description": "Allows realtime code check against any checkstyle-compatible linter: jshint, eslint, jscs, phpcs, csslint, and many others.",
 			"author": "Tom Tanner",
 			"homepage": "https://github.com/thosrtanner/notepad-pp-linter"
@@ -172,6 +171,16 @@
 			"description": "Multi-string replacement across single or multiple files; reusable search/replace lists; CSV column operations (targeting, sort, delete, replace); external lookup tables; rectangular selection support; conditional (if/then) and math logic.\r\n",
 			"author": "Thomas Knoefel",
 			"homepage": "https://github.com/daddel80/notepadpp-multireplace"
+		},
+		{
+			"folder-name": "NestedDSV",
+			"display-name": "NestedDSV Data Visualizer",
+			"version": "1.1.0.1",
+			"id": "318e55e554fd7ab60e2a4d8ffd766965ba0c9d60c3f0a2c54d5f7b2f5a44d97b",
+			"repository": "https://github.com/shriprem/NestedDSV/releases/download/v1.1.0.1/NestedDSV_arm64.zip",
+			"description": "Plugin for visualizing hierarchical (nested) delimiter-separated values (DSV) data in Notepad++. Displays cursor position data. Jumps to specific fields. Folding Record Blocks. Extracts Data. Builtin dialogs to configure file-type, record-type & fields; Themes & Colors; and Folding.",
+			"author": "Shridhar Kumar",
+			"homepage": "https://github.com/shriprem/NestedDSV"
 		},
 		{
 			"folder-name": "NppBplistPlugin",
@@ -454,10 +463,10 @@
 		{
 			"folder-name": "VirtualFolders",
 			"display-name": "Virtual Folders",
-			"version": "1.0.1",
+			"version": "1.0.2",
 			"npp-compatible-versions": "[8.8.5,]",
-			"id": "3bbfa0c6f0b72b12e7599e0bb7bdf23db13521f83c662909c99679ce2e200be4",
-			"repository": "https://github.com/FatihC/VirtualFolders/releases/download/v1.0.1/VirtualFolders-v1.0.1-arm64.zip",
+			"id": "ac5f4c199e51eb6cc7464ac9abf341855f7862b10c1912e22a1c39fa38e2ff5b",
+			"repository": "https://github.com/FatihC/VirtualFolders/releases/download/v1.0.2/VirtualFolders-v1.0.2-arm64.zip",
 			"description": "This plugin adds a dockable tree panel where you can create your own virtual folder structure. Group files from different paths, reorder them freely, and keep related resources together without touching the actual filesystem.",
 			"author": "Fatih Coşkun",
 			"homepage": "https://github.com/FatihC/VirtualFolders"

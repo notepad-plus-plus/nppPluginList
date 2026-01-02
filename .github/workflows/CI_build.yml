@@ -19,7 +19,7 @@ jobs:
 
     steps:
     - name: Checkout repo
-      uses: actions/checkout@v5
+      uses: actions/checkout@v6
 
     - name: Install python modules
       working-directory: .
@@ -42,7 +42,7 @@ jobs:
 
     - name: Archive artifacts for x64
       if: matrix.build_platform == 'x64' && matrix.build_configuration == 'Release'
-      uses: actions/upload-artifact@v5
+      uses: actions/upload-artifact@v6
       with:
           name: plugin_dll_and_list_x64
           path: |
@@ -51,7 +51,7 @@ jobs:
 
     - name: Archive artifacts for Win32
       if: matrix.build_platform == 'Win32' && matrix.build_configuration == 'Release'
-      uses: actions/upload-artifact@v5
+      uses: actions/upload-artifact@v6
       with:
           name: plugin_dll_and_list_x86
           path: |
@@ -60,7 +60,7 @@ jobs:
 
     - name: Archive artifacts for ARM64
       if: matrix.build_platform == 'ARM64' && matrix.build_configuration == 'Release'
-      uses: actions/upload-artifact@v5
+      uses: actions/upload-artifact@v6
       with:
           name: plugin_dll_and_list_arm64
           path: |
