@@ -2,7 +2,7 @@
 	"name": "npp-pluginList",
 	"version": "1.9",
 	"arch": "64",
-	"npp-plugins": [
+	"npp-plugins": [ 
 		{
 			"folder-name": "3P",
 			"display-name": "3P - Progress Programmers Pal",
@@ -46,6 +46,18 @@
 			"author": "simbaba",
 			"homepage": "https://sourceforge.net/projects/androidlogger"
 		},
+		{
+			"folder-name": "AnotherMarkdown",
+			"display-name": "Another Markdown",
+			"version": "0.1.2",
+			"id": "02856fcefe1cc7e3d02bd3178f0e2d9a03aac798dc84bd4813125216818ebcc6",
+			"repository": "https://github.com/ezyuzin/NppAnotherMarkdown/releases/download/0.1.2/AnotherMarkdown-0.1.2-x64.zip",
+			"description": "[Requires .NET framework v4.7.2]\r\nEasiest customizable, extendable preview and edit for Markdown files.\r\nBonus: Edit and preview 360 photos",
+			"author": "Evgeny Zyuzin",
+			"homepage": "https://github.com/ezyuzin/NppAnotherMarkdown",
+      "npp-compatible-versions": "[8.5,]"
+		},     
+    
 		{
 			"folder-name": "nppAutoDetectIndent",
 			"display-name": "Auto Detect Indention",

@@ -2,7 +2,7 @@
 	"name": "npp-pluginList",
 	"version": "1.9",
 	"arch": "32",
-	"npp-plugins": [
+	"npp-plugins": [  
 		{
 			"folder-name": "3P",
 			"display-name": "3P - Progress Programmers Pal",
@@ -33,6 +33,17 @@
 			"author": "Mattes H.",
 			"homepage": "https://sourceforge.net/projects/analyseplugin"
 		},
+		{
+			"folder-name": "AnotherMarkdown",
+			"display-name": "Another Markdown",
+			"version": "0.1.2",
+			"id": "016fa7ceb8cf4158fb636b21993b7ac6a93e66b662768a0af8d8f2755f694936",
+			"repository": "https://github.com/ezyuzin/NppAnotherMarkdown/releases/download/0.1.2/AnotherMarkdown-0.1.2-x86.zip",
+			"description": "[Requires .NET framework v4.7.2]\r\nEasiest customizable, extendable preview and edit for Markdown files.\r\nBonus: Edit and preview 360 photos",
+			"author": "Evgeny Zyuzin",
+			"homepage": "https://github.com/ezyuzin/NppAnotherMarkdown",
+      "npp-compatible-versions": "[8.5,]"
+		}, 
 		{
 			"folder-name": "nppAutoDetectIndent",
 			"display-name": "Auto Detect Indention",
