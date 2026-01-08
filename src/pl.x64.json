@@ -2,7 +2,7 @@
 	"name": "npp-pluginList",
 	"version": "1.9",
 	"arch": "64",
-	"npp-plugins": [ 
+	"npp-plugins": [
 		{
 			"folder-name": "3P",
 			"display-name": "3P - Progress Programmers Pal",
@@ -55,9 +55,8 @@
 			"description": "[Requires .NET framework v4.7.2]\r\nEasiest customizable, extendable preview and edit for Markdown files.\r\nBonus: Edit and preview 360 photos",
 			"author": "Evgeny Zyuzin",
 			"homepage": "https://github.com/ezyuzin/NppAnotherMarkdown",
-      "npp-compatible-versions": "[8.5,]"
-		},     
-    
+			"npp-compatible-versions": "[8.5,]"
+		},
 		{
 			"folder-name": "nppAutoDetectIndent",
 			"display-name": "Auto Detect Indention",
@@ -288,11 +287,11 @@
 		{
 			"folder-name": "CSScriptNpp",
 			"display-name": "CS-Script - C# Intellisense",
-			"version": "2.0.11.0",
+			"version": "2.0.12.0",
 			"npp-compatible-versions": "[8.3,]",
 			"old-versions-compatibility": "[,1.7.26][,8.2.1]",
-			"id": "0b4894d5d0e3228388874ba32bef3ff6850acff15648c2883f899d320c11f377",
-			"repository": "https://github.com/oleg-shilo/cs-script.npp/releases/download/v2.0.11.0/CSScriptNpp.2.0.11.0.x64.zip",
+			"id": "f6d415955da5a1578f515505074831a0d3befbb4ead685ed238c205921004eaa",
+			"repository": "https://github.com/oleg-shilo/cs-script.npp/releases/download/v2.0.12.0/CSScriptNpp.2.0.12.0.x64.zip",
 			"description": "CS-Script integration. Implements a real C# Intellisense solution based on CS-Script and Roslyn. Allows loading, executing modifying and debugging C# scripts in a way very similar to the Visual Studio C# projects support. This includes referencing assemblies and other scripts, code formatting, adding missing namespaces and intercepting Debug and Console output.",
 			"author": "Oleg Shilo",
 			"homepage": "https://github.com/oleg-shilo/cs-script.npp"
@@ -406,6 +405,16 @@
 			"description": "Support for Elastic Tabstops.",
 			"author": "Marius Vasiliu, Justin Dailey",
 			"homepage": "https://github.com/mariusv-github/ElasticTabstops"
+		},
+		{
+			"folder-name": "EmojiDescription",
+			"display-name": "Emoji Description",
+			"version": "0.1.0",
+			"id": "308b06c81412e2db395f96ae21e2d497c12a6249106b7db5e5e2da2ace7c9c51",
+			"repository": "https://github.com/Ruberoid/npp_emoji_description/releases/download/v0.1.0/EmojiDescription_x64_v0.1.0.zip",
+			"description": "Displays detailed character encoding information in the status bar. Shows Unicode code point, decimal/hexadecimal values, HTML entity, and UTF-8 byte sequence for any character including emoji.",
+			"author": "Ruberoid",
+			"homepage": "https://github.com/Ruberoid/npp_emoji_description"
 		},
 		{
 			"folder-name": "EnhanceAnyLexer",
@@ -553,11 +562,11 @@
 		{
 			"folder-name": "HTMLTag",
 			"display-name": "HTML Tag",
-			"version": "1.5.5.0",
+			"version": "1.5.6.0",
 			"npp-compatible-versions": "[8.3,]",
 			"old-versions-compatibility": "[,1.1][,8.2.1]",
-			"id": "5043c7ea112872fb035fd63a9baa1c720a1c639572a069c6dfdde5e56bad5295",
-			"repository": "https://github.com/rdipardo/nppHTMLTag/releases/download/v1.5.5/HTMLTag_v1.5.5_x64.zip",
+			"id": "667eec25d6207d71711f40ff2e32448d4d8aff5e9c4ade69a60fc5440a4a2221",
+			"repository": "https://github.com/rdipardo/nppHTMLTag/releases/download/v1.5.6/HTMLTag_v1.5.6_x64.zip",
 			"description": "Provides three core functions:\r\n- HTML and XML tag jumping, like the built-in brace matching and selection\r\n of tags and/or contents.\r\n- HTML entity encoding/decoding (example: é to &eacute;)\r\n- JS character encoding/decoding (example: é to \\u00E9)",
 			"author": "Martijn Coppoolse",
 			"homepage": "https://github.com/rdipardo/nppHTMLTag"
@@ -667,6 +676,16 @@
 			"description": "Javascript plugin.\r\n * Douglas Crockford's JSMin algorithm to minimize javascript code.\r\n * My own algorithm to format javascript code.\r\n * A JSON data viewer. This JSON data viewer can handle >10MB JSON file easily.\r\n * Support 64bit Notepad++ (from version 1.20.0).\r\nReally helpful to javascript coder on Notepad++ and really easy to use it.\r\nMade in China.",
 			"author": "Sun Junwen",
 			"homepage": "https://github.com/sunjw/jstoolnpp"
+		},
+		{
+			"folder-name": "Language_Selector",
+			"display-name": "Language Selector",
+			"version": "1.0.0.0",
+			"id": "74176b4772df00b6cd11cf98e5b641a8ca621bccb62ab5fa4a80281b36998167",
+			"repository": "https://github.com/hassaine-abdellah/npp-language-selector/releases/download/v1.0/Language_Selector_v1.0_x64.zip",
+			"description": "Set the programming language and see the syntax highlighting on new files without the need to save them, or to go each time to the menu to choose the language.\r\nYou can also pin your favorite languages on top of the list so you can easily access them.",
+			"author": "Abdellah Hassaine",
+			"homepage": "https://github.com/hassaine-abdellah"
 		},
 		{
 			"folder-name": "LanguageHelp",
@@ -914,11 +933,11 @@
 		{
 			"folder-name": "nppRandomStringGenerator",
 			"display-name": "npp Random String Generator",
-			"version": "1.9.6",
+			"version": "1.9.10",
 			"npp-compatible-versions": "[8.3,]",
 			"old-versions-compatibility": "[,1.3][,8.2.1]",
-			"id": "cf8e37451bea40ffe9739c12f0020d7d3bfaf54ea213382d44c646dd3d754938",
-			"repository": "https://github.com/cmbsolutions/nppRandomStringGenerator/releases/download/v1.9.6/nppRandomStringGenerator.1.9.6.x64.zip",
+			"id": "91a83f309de8413c239bab2ed1fb027fc3f4f0099376df2262ec97b0951f6955",
+			"repository": "https://github.com/cmbsolutions/nppRandomStringGenerator/releases/download/v1.9.10/nppRandomStringGenerator.1.9.10.x64.zip",
 			"description": "Generates random strings with configurable output.",
 			"author": "Maurice CMBSolutions",
 			"homepage": "https://github.com/cmbsolutions/nppRandomStringGenerator"
@@ -967,9 +986,9 @@
 		{
 			"folder-name": "NppExec",
 			"display-name": "NppExec",
-			"version": "0.8.8",
-			"id": "70e53fed962eeb21d2e11243c7cfad75d010b38565812f66bdf16b1c6e7c6f79",
-			"repository": "https://github.com/d0vgan/nppexec/releases/download/v088/NppExec_088_dll_x64.zip",
+			"version": "0.8.10",
+			"id": "fb1829a1003180dc760ebe8c9ae025d2e89bfe22bd5e33ed661748b747f32b5e",
+			"repository": "https://github.com/d0vgan/nppexec/releases/download/NppExec_v0810/NppExec_0810_dll_x64.zip",
 			"description": "Execute commands or saved scripts without leaving Notepad++.",
 			"author": "Vitaliy Dovgan",
 			"homepage": "https://github.com/d0vgan/nppexec"
@@ -1155,9 +1174,9 @@
 		{
 			"folder-name": "NppVim",
 			"display-name": "NppVim",
-			"version": "1.6.0.0",
-			"id": "5707E08B0E5215F60CEB25B4B4C425AA281E107D57F3955748754A5805DCFD50",
-			"repository": "https://github.com/h-jangra/NppVim/releases/download/1.6.0.0/NppVim.x64.zip",
+			"version": "1.8.0.0",
+			"id": "CBD6DCCDC004A828A92BBE3DFF74B2AD05547D8A23F546A4B915B9F49A4EB3D7",
+			"repository": "https://github.com/h-jangra/NppVim/releases/download/1.8.0.0/NppVim.x64.zip",
 			"description": "A Notepad++ plugin that adds Vim-style editing and key bindings.",
 			"author": "h-jangra",
 			"homepage": "https://github.com/h-jangra/NppVim"

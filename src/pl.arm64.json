@@ -47,6 +47,16 @@
 			"homepage": "https://github.com/pnedev/comparePlus"
 		},
 		{
+			"folder-name": "EmojiDescription",
+			"display-name": "Emoji Description",
+			"version": "0.1.0",
+			"id": "581fe7911d8f76edde26009fdc4cf5860cc34cd67fa996381f883eda936fcf10",
+			"repository": "https://github.com/Ruberoid/npp_emoji_description/releases/download/v0.1.0/EmojiDescription_arm64_v0.1.0.zip",
+			"description": "Displays detailed character encoding information in the status bar. Shows Unicode code point, decimal/hexadecimal values, HTML entity, and UTF-8 byte sequence for any character including emoji.",
+			"author": "Ruberoid",
+			"homepage": "https://github.com/Ruberoid/npp_emoji_description"
+		},
+		{
 			"folder-name": "FWDataViz",
 			"display-name": "Fixed-width Data Visualizer",
 			"version": "2.6.7.0",
@@ -79,10 +89,10 @@
 		{
 			"folder-name": "HTMLTag",
 			"display-name": "HTML Tag",
-			"version": "1.5.5.0",
+			"version": "1.5.6.0",
 			"npp-compatible-versions": "[8.3,]",
-			"id": "6081c7cec7aa19dbbc0f9a2ab1a7c6d39dc8e2f92fa792036ecaa662d7a077ae",
-			"repository": "https://github.com/rdipardo/nppHTMLTag/releases/download/v1.5.5/HTMLTag_v1.5.5_arm64.zip",
+			"id": "42ab10c8bd4d429c425cc00208cf81e24e0e95d07ac146aa5ef0f6c3a40f5c7f",
+			"repository": "https://github.com/rdipardo/nppHTMLTag/releases/download/v1.5.6/HTMLTag_v1.5.6_arm64.zip",
 			"description": "Provides three core functions:\r\n- HTML and XML tag jumping, like the built-in brace matching and selection\r\n of tags and/or contents.\r\n- HTML entity encoding/decoding (example: é to &eacute;)\r\n- JS character encoding/decoding (example: é to \\u00E9)",
 			"author": "Martijn Coppoolse",
 			"homepage": "https://github.com/rdipardo/nppHTMLTag"
@@ -107,6 +117,16 @@
 			"description": "Javascript plugin.\r\n * Douglas Crockford's JSMin algorithm to minimize javascript code.\r\n * My own algorithm to format javascript code.\r\n * A JSON data viewer. This JSON data viewer can handle >10MB JSON file easily.\r\n * Support 64bit Notepad++ (from version 1.20.0).\r\nReally helpful to javascript coder on Notepad++ and really easy to use it.\r\nMade in China.",
 			"author": "Sun Junwen",
 			"homepage": "https://github.com/sunjw/jstoolnpp"
+		},
+				{
+			"folder-name": "Language_Selector",
+			"display-name": "Language Selector",
+			"version": "1.0.0.0",
+			"id": "2f6e939658a18e6bb4925ea2d70c1eccadcd8ff6661b5917121f61f753ebf6b3",
+			"repository": "https://github.com/hassaine-abdellah/npp-language-selector/releases/download/v1.0/Language_Selector_v1.0_ARM64.zip",
+			"description": "Set the programming language and see the syntax highlighting on new files without the need to save them, or to go each time to the menu to choose the language.\r\nYou can also pin your favorite languages on top of the list so you can easily access them.",
+			"author": "Abdellah Hassaine",
+			"homepage": "https://github.com/hassaine-abdellah"
 		},
 		{
 			"folder-name": "LanguageHelp",
@@ -271,9 +291,9 @@
 		{
 			"folder-name": "NppVim",
 			"display-name": "NppVim",
-			"version": "1.6.0.0",
-			"id": "A5D069C9166F93A53D180F0CEAE733F382CC62505CADC9D727ABF8CDF4146600",
-			"repository": "https://github.com/h-jangra/NppVim/releases/download/1.6.0.0/NppVim.arm64.zip",
+			"version": "1.8.0.0",
+			"id": "6E5737AC0BB989E39F0C53D63F34EEECE5447F15F50A49B2E08F0F4917143A5D",
+			"repository": "https://github.com/h-jangra/NppVim/releases/download/1.8.0.0/NppVim.arm64.zip",
 			"description": "A Notepad++ plugin that adds Vim-style editing and key bindings.",
 			"author": "h-jangra",
 			"homepage": "https://github.com/h-jangra/NppVim"
