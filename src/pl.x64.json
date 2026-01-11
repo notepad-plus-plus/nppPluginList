@@ -677,7 +677,7 @@
 			"author": "Sun Junwen",
 			"homepage": "https://github.com/sunjw/jstoolnpp"
 		},
-			{
+		{
 			"folder-name": "Language_Selector",
 			"display-name": "Language Selector",
 			"version": "1.1.0.0",
