@@ -677,12 +677,12 @@
 			"author": "Sun Junwen",
 			"homepage": "https://github.com/sunjw/jstoolnpp"
 		},
-		{
+			{
 			"folder-name": "Language_Selector",
 			"display-name": "Language Selector",
-			"version": "1.0.0.0",
-			"id": "74176b4772df00b6cd11cf98e5b641a8ca621bccb62ab5fa4a80281b36998167",
-			"repository": "https://github.com/hassaine-abdellah/npp-language-selector/releases/download/v1.0/Language_Selector_v1.0_x64.zip",
+			"version": "1.1.0.0",
+			"id": "e855ad125faf194cd285897e1264d816ad0ada2f526cc84967a64a5a7f93ac1c",
+			"repository": "https://github.com/hassaine-abdellah/npp-language-selector/releases/download/v1.1/Language_Selector_v1.1_x64.zip",
 			"description": "Set the programming language and see the syntax highlighting on new files without the need to save them, or to go each time to the menu to choose the language.\r\nYou can also pin your favorite languages on top of the list so you can easily access them.",
 			"author": "Abdellah Hassaine",
 			"homepage": "https://github.com/hassaine-abdellah"
