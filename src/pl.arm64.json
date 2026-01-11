@@ -203,16 +203,6 @@
 			"homepage": "https://github.com/azerg/NppBplistPlugin"
 		},
 		{
-			"folder-name": "NppFTP",
-			"display-name": "NppFTP",
-			"version": "0.29.14",
-			"id": "535a9c263267601b3df50bf53371dff806baea7bacd76e237b27dcba831c31b4",
-			"repository": "https://github.com/ashkulz/NppFTP/releases/download/v0.29.14/NppFTP-arm64.zip",
-			"description": "Allows FTP, FTPS, FTPES, and SFTP communications. Very useful for web development.",
-			"author": "ashish_kulz",
-			"homepage": "https://ashkulz.github.io/NppFTP/"
-		},
-		{
 			"folder-name": "NppPluginDemo",
 			"display-name": "Notepad++ Plugin Demo",
 			"version": "4.5",
@@ -257,6 +247,16 @@
 			"description": "True WYSIWYG exporter. Allows you not only to save your source code as an HTML/RTF file, but also to copy your source code in the clipboard in RTF/HTML format, so you can paste it into your word processor (Openoffice.org Writer, LibreOffice Writer, Abiword, MS Word) to get the same visual effect.",
 			"author": "",
 			"homepage": "https://github.com/chcg/NPP_ExportPlugin"
+		},
+		{
+			"folder-name": "NppFTP",
+			"display-name": "NppFTP",
+			"version": "0.29.14",
+			"id": "535a9c263267601b3df50bf53371dff806baea7bacd76e237b27dcba831c31b4",
+			"repository": "https://github.com/ashkulz/NppFTP/releases/download/v0.29.14/NppFTP-arm64.zip",
+			"description": "Allows FTP, FTPS, FTPES, and SFTP communications. Very useful for web development.",
+			"author": "ashish_kulz",
+			"homepage": "https://ashkulz.github.io/NppFTP/"
 		},
 		{
 			"folder-name": "NppJumpList",
@@ -461,16 +461,6 @@
 			"homepage": "https://github.com/SinghRajenM/nppURLPlugin"
 		},
 		{
-			"folder-name": "WebEdit",
-			"display-name": "WebEdit",
-			"version": "2.9.0.0",
-			"id": "54f5321bc3d284ab36741cd998be76854c4f9dbd66e136f0eab68b961adc5577",
-			"repository": "https://github.com/Krazal/WebEdit/releases/download/v2.9.0.0/WebEdit.2.9.0.0.arm64.zip",
-			"description": "Speed up your code editing! Enter an abbreviation (tag), press Alt + Enter, and expand the tag into a full code snippet. You can also wrap (surround) a selection e.g. with HTML tags.\r\n- More than 1000 preset tags: HTML (elements, attributes, BootStrap, Smarty, etc.), JavaScript (jQuery), CSS, PHP, SQL (MySQL, Eloquent ORM), etc.\r\n- Automatic or custom caret (cursor) positioning\r\n- Handling new lines, indents, etc.\r\n- Variables: clipboard content, current file name, custom date/time, etc.\r\n- Customizable tags in the plugin menu; assign tags to shortcuts\r\n- Customizable tags in the toolbar\r\n- Tag suggestions (similar tags)\r\n- Easy tag addition\r\n- Multiselect support\r\n- Unicode support\r\n- Over 17 years with Notepad++, now in 64-bit version!",
-			"author": "Alexander Iljin",
-			"homepage": "https://github.com/Krazal/WebEdit"
-		},
-		{
 			"folder-name": "VirtualFolders",
 			"display-name": "Virtual Folders",
 			"version": "1.0.2",
@@ -480,6 +470,16 @@
 			"description": "This plugin adds a dockable tree panel where you can create your own virtual folder structure. Group files from different paths, reorder them freely, and keep related resources together without touching the actual filesystem.",
 			"author": "Fatih Coşkun",
 			"homepage": "https://github.com/FatihC/VirtualFolders"
+		},
+		{
+			"folder-name": "WebEdit",
+			"display-name": "WebEdit",
+			"version": "2.9.0.0",
+			"id": "54f5321bc3d284ab36741cd998be76854c4f9dbd66e136f0eab68b961adc5577",
+			"repository": "https://github.com/Krazal/WebEdit/releases/download/v2.9.0.0/WebEdit.2.9.0.0.arm64.zip",
+			"description": "Speed up your code editing! Enter an abbreviation (tag), press Alt + Enter, and expand the tag into a full code snippet. You can also wrap (surround) a selection e.g. with HTML tags.\r\n- More than 1000 preset tags: HTML (elements, attributes, BootStrap, Smarty, etc.), JavaScript (jQuery), CSS, PHP, SQL (MySQL, Eloquent ORM), etc.\r\n- Automatic or custom caret (cursor) positioning\r\n- Handling new lines, indents, etc.\r\n- Variables: clipboard content, current file name, custom date/time, etc.\r\n- Customizable tags in the plugin menu; assign tags to shortcuts\r\n- Customizable tags in the toolbar\r\n- Tag suggestions (similar tags)\r\n- Easy tag addition\r\n- Multiselect support\r\n- Unicode support\r\n- Over 17 years with Notepad++, now in 64-bit version!",
+			"author": "Alexander Iljin",
+			"homepage": "https://github.com/Krazal/WebEdit"
 		}
 	]
 }

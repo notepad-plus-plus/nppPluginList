@@ -974,6 +974,16 @@
 			"homepage": "https://github.com/jeanpaulrichter/nppcrypt"
 		},
 		{
+			"folder-name": "NppESPHome",
+			"display-name": "NppESPHome",
+			"version": "1.0.26",
+			"id": "38c11337063f57b3e67bc88f397ecf00bdc76e41b93a04263d600d0cac95ef21",
+			"repository": "https://github.com/atiburzi/NppESPHome-Plugin/releases/download/v1.0.26/NppESPHome_x64.zip",
+			"description": "Plugin to directly interact with ESPHome and easily manage related projects workflows in Windows environment.",
+			"author": "Andrea Tiburzi",
+			"homepage": "https://github.com/atiburzi/NppESPHome-Plugin"
+		},
+		{
 			"folder-name": "NppEventExec",
 			"display-name": "NppEventExec",
 			"version": "0.9.0",
@@ -1346,16 +1356,6 @@
 			"homepage": "https://github.com/joshraphael/npp-rascript"
 		},
 		{
-			"folder-name": "RedisPlugin",
-			"display-name": "Redis",
-			"version": "1.0.2",
-			"id": "0ec19575b952dd205bb4a70464f85637e2174237169ff47bb328b130a1105af7",
-			"repository": "https://github.com/bakingam1983/Notepad.plus.plus-RedisPlugin/releases/download/v1.0.2/Notepad++RedisPlugin_v1.0.2.zip",
-			"description": "Notepad++ plugin to view Redis keys and values",
-			"author": "Andrea Baghin",
-			"homepage": "https://github.com/bakingam1983/Notepad.plus.plus-RedisPlugin"
-		},
-		{
 			"folder-name": "rdmd-en-x64",
 			"display-name": "RDMD for Notepad++ (English)",
 			"version": "0.1.0.2",
@@ -1374,6 +1374,16 @@
 			"description": "Runs rdmd in Notepad++ (Japanese).",
 			"author": "dokutoku",
 			"homepage": "https://gitlab.com/dokutoku/rdmd-for-npp"
+		},
+		{
+			"folder-name": "RedisPlugin",
+			"display-name": "Redis",
+			"version": "1.0.2",
+			"id": "0ec19575b952dd205bb4a70464f85637e2174237169ff47bb328b130a1105af7",
+			"repository": "https://github.com/bakingam1983/Notepad.plus.plus-RedisPlugin/releases/download/v1.0.2/Notepad++RedisPlugin_v1.0.2.zip",
+			"description": "Notepad++ plugin to view Redis keys and values",
+			"author": "Andrea Baghin",
+			"homepage": "https://github.com/bakingam1983/Notepad.plus.plus-RedisPlugin"
 		},
 		{
 			"folder-name": "RegexTrainer",
@@ -1414,6 +1424,17 @@
 			"description": "Reverse lines in the selection or document. It works like the unix tac command.",
 			"author": "Query Kuma",
 			"homepage": "https://github.com/querykuma/qkNppReverseLines"
+		},
+		{
+			"folder-name": "NppRgaIsaPlugin",
+			"display-name": "RGA ISA Compiler",
+			"version": "1.0.0.0",
+			"npp-compatible-versions": "[8.4.3,]",
+			"id": "0449215d66228e1ab6268374dfc41b176f5b206877fe7b53039de9582f4c678b",
+			"repository": "https://github.com/DIMOSUS/NppRgaIsaPlugin/releases/download/v1.0.0.0/NppRgaIsaPlugin_v1.0.0.0.zip",
+			"description": "A plugin that displays the assembler ISA code of a compiled HLSL shader in a separate dockable panel. Compilation is performed via rga.exe (Radeon GPU Analyzer) in DX12 mode directly to ISA (without intermediate SPIR-V).",
+			"author": "Dmitry Budik",
+			"homepage": "https://github.com/DIMOSUS/NppRgaIsaPlugin"
 		},
 		{
 			"folder-name": "RunMe",
@@ -1676,6 +1697,17 @@
 			"homepage": "https://github.com/SinghRajenM/nppURLPlugin"
 		},
 		{
+			"folder-name": "VirtualFolders",
+			"display-name": "Virtual Folders",
+			"version": "1.0.2",
+			"npp-compatible-versions": "[8.8.5,]",
+			"id": "b11c01ee186d1c82ebadc0d6a6863898f401dabd8a2b888a54b7da0a3ec22e56",
+			"repository": "https://github.com/FatihC/VirtualFolders/releases/download/v1.0.2/VirtualFolders-v1.0.2-x64.zip",
+			"description": "This plugin adds a dockable tree panel where you can create your own virtual folder structure. Group files from different paths, reorder them freely, and keep related resources together without touching the actual filesystem.",
+			"author": "Fatih Coşkun",
+			"homepage": "https://github.com/FatihC/VirtualFolders"
+		},
+		{
 			"folder-name": "VisualStudioLineCopy",
 			"display-name": "Visual Studio Line Copy",
 			"version": "1.0.0.2",
@@ -1748,38 +1780,6 @@
 			"description": "Tired of zooming your document everytime you just want to scroll but accidentally still holding the [Ctrl] key? Then this is what you want! It disables mouse zoom, keyboard zoom, or both.",
 			"author": "Stanislav Eckert",
 			"homepage": "https://github.com/StanDog/npp-zoomdisabler"
-		},
-		{
-			"folder-name": "NppRgaIsaPlugin",
-			"display-name": "RGA ISA Compiler",
-			"version": "1.0.0.0",
-			"npp-compatible-versions": "[8.4.3,]",
-			"id": "0449215d66228e1ab6268374dfc41b176f5b206877fe7b53039de9582f4c678b",
-			"repository": "https://github.com/DIMOSUS/NppRgaIsaPlugin/releases/download/v1.0.0.0/NppRgaIsaPlugin_v1.0.0.0.zip",
-			"description": "A plugin that displays the assembler ISA code of a compiled HLSL shader in a separate dockable panel. Compilation is performed via rga.exe (Radeon GPU Analyzer) in DX12 mode directly to ISA (without intermediate SPIR-V).",
-			"author": "Dmitry Budik",
-			"homepage": "https://github.com/DIMOSUS/NppRgaIsaPlugin"
-		},
-		{
-			"folder-name": "VirtualFolders",
-			"display-name": "Virtual Folders",
-			"version": "1.0.2",
-			"npp-compatible-versions": "[8.8.5,]",
-			"id": "b11c01ee186d1c82ebadc0d6a6863898f401dabd8a2b888a54b7da0a3ec22e56",
-			"repository": "https://github.com/FatihC/VirtualFolders/releases/download/v1.0.2/VirtualFolders-v1.0.2-x64.zip",
-			"description": "This plugin adds a dockable tree panel where you can create your own virtual folder structure. Group files from different paths, reorder them freely, and keep related resources together without touching the actual filesystem.",
-			"author": "Fatih Coşkun",
-			"homepage": "https://github.com/FatihC/VirtualFolders"
-		},
-		{
-			"folder-name": "NppESPHome",
-			"display-name": "NppESPHome",
-			"version": "1.0.26",
-			"id": "38c11337063f57b3e67bc88f397ecf00bdc76e41b93a04263d600d0cac95ef21",
-			"repository": "https://github.com/atiburzi/NppESPHome-Plugin/releases/download/v1.0.26/NppESPHome_x64.zip",
-			"description": "Plugin to directly interact with ESPHome and easily manage related projects workflows in Windows environment.",
-			"author": "Andrea Tiburzi",
-			"homepage": "https://github.com/atiburzi/NppESPHome-Plugin"
 		}
 	]
 }
