@@ -25,17 +25,15 @@
 // You should have received a copy of the GNU General Public License
 // along with this program; if not, write to the Free Software
 // Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
-
-#pragma once
-     
 #ifdef _WIN64
     #define PLJSON "pl.x64.json"
-#ifdef _M_ARM64
+#elif defined(_M_ARM64)
     #define PLJSON "pl.arm64.json"
-#ifdef _WIN32
+#elif defined(_WIN32)
     #define PLJSON "pl.x86.json"
+#else
+    #define PLJSON "pl.unknown.json"
 #endif
-
 #define VERSION_VALUE "1.9\0"
 #define VERSION_DIGITALVALUE 1, 9, 0, 0
 
