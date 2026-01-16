@@ -49,10 +49,10 @@
 		{
 			"folder-name": "AnotherMarkdown",
 			"display-name": "Another Markdown",
-			"version": "0.1.4",
-			"id": "95453e9257b8ac1bb89fbc465625382828440b57df2691d6967654d9f96621fc",
-			"repository": "https://github.com/ezyuzin/NppAnotherMarkdown/releases/download/0.1.4/AnotherMarkdown-0.1.4-x64.zip",
-			"description": "[Requires .NET framework v4.7.2]\r\nEasiest customizable, extendable preview and edit for Markdown files.\r\nBonus: Edit and preview 360 photos",
+			"version": "0.1.6",
+			"id": "5964887dec3528e2d6027b150395d4677f0f9fc18e8e2e935d64a2e3c84e5fc4",
+			"repository": "https://github.com/ezyuzin/NppAnotherMarkdown/releases/download/0.1.6/AnotherMarkdown-0.1.6-x64.zip",
+			"description": "[Requires .NET framework v4.7.2]\r\nEasiest customizable, extendable preview and edit for Markdown files",
 			"author": "Evgeny Zyuzin",
 			"homepage": "https://github.com/ezyuzin/NppAnotherMarkdown",
 			"npp-compatible-versions": "[8.5,]"
