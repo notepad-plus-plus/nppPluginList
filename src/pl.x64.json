@@ -175,6 +175,17 @@
 			"homepage": "https://github.com/MarioRosi/CADdyTools"
 		},
 		{
+			"folder-name": "NppChineseConverter",
+			"display-name": "Chinese Converter",
+			"version": "1.0.1",
+			"id": "501ce5a17ddeabb2ffde3e6c78eac3e0f670b9760f52cb448d75ef0f966e2df6",
+			"repository": "https://github.com/lkk9898969/Npp_ChineseConverter/releases/download/v1.0.1/NppChineseConverter-x64.zip",
+			"description": "Traditional and Simplified conversion plugin for Notepad++",
+			"author": "lkk9898969",
+			"homepage": "https://github.com/lkk9898969/Npp_ChineseConverter",
+			"npp-compatible-versions": "[8.4.3,]"
+		},
+		{
 			"folder-name": "CodeAlignmentNpp",
 			"display-name": "Code Alignment",
 			"version": "14.1.107",
