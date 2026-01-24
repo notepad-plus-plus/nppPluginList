@@ -1,9 +1,9 @@
 attrs==25.4.0
-certifi==2025.11.12
+certifi==2026.1.4
 charset-normalizer==3.4.4
 idna==3.11
 jsonschema==4.25.1
 pyrsistent==0.20.0
 pywin32==311
 requests==2.32.5
-urllib3==2.6.2
+urllib3==2.6.3

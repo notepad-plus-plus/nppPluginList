@@ -1,6 +1,6 @@
 {
 	"name": "npp-pluginList",
-	"version": "1.9",
+	"version": "1.9.1",
 	"arch": "arm64",
 	"npp-plugins": [
 		{
@@ -47,6 +47,16 @@
 			"homepage": "https://github.com/pnedev/comparePlus"
 		},
 		{
+			"folder-name": "EmojiDescription",
+			"display-name": "Emoji Description",
+			"version": "0.1.0",
+			"id": "581fe7911d8f76edde26009fdc4cf5860cc34cd67fa996381f883eda936fcf10",
+			"repository": "https://github.com/Ruberoid/npp_emoji_description/releases/download/v0.1.0/EmojiDescription_arm64_v0.1.0.zip",
+			"description": "Displays detailed character encoding information in the status bar. Shows Unicode code point, decimal/hexadecimal values, HTML entity, and UTF-8 byte sequence for any character including emoji.",
+			"author": "Ruberoid",
+			"homepage": "https://github.com/Ruberoid/npp_emoji_description"
+		},
+		{
 			"folder-name": "FWDataViz",
 			"display-name": "Fixed-width Data Visualizer",
 			"version": "2.6.7.0",
@@ -79,10 +89,10 @@
 		{
 			"folder-name": "HTMLTag",
 			"display-name": "HTML Tag",
-			"version": "1.5.5.0",
+			"version": "1.5.6.0",
 			"npp-compatible-versions": "[8.3,]",
-			"id": "6081c7cec7aa19dbbc0f9a2ab1a7c6d39dc8e2f92fa792036ecaa662d7a077ae",
-			"repository": "https://github.com/rdipardo/nppHTMLTag/releases/download/v1.5.5/HTMLTag_v1.5.5_arm64.zip",
+			"id": "42ab10c8bd4d429c425cc00208cf81e24e0e95d07ac146aa5ef0f6c3a40f5c7f",
+			"repository": "https://github.com/rdipardo/nppHTMLTag/releases/download/v1.5.6/HTMLTag_v1.5.6_arm64.zip",
 			"description": "Provides three core functions:\r\n- HTML and XML tag jumping, like the built-in brace matching and selection\r\n of tags and/or contents.\r\n- HTML entity encoding/decoding (example: é to &eacute;)\r\n- JS character encoding/decoding (example: é to \\u00E9)",
 			"author": "Martijn Coppoolse",
 			"homepage": "https://github.com/rdipardo/nppHTMLTag"
@@ -108,12 +118,12 @@
 			"author": "Sun Junwen",
 			"homepage": "https://github.com/sunjw/jstoolnpp"
 		},
-				{
+		{
 			"folder-name": "Language_Selector",
 			"display-name": "Language Selector",
-			"version": "1.0.0.0",
-			"id": "2f6e939658a18e6bb4925ea2d70c1eccadcd8ff6661b5917121f61f753ebf6b3",
-			"repository": "https://github.com/hassaine-abdellah/npp-language-selector/releases/download/v1.0/Language_Selector_v1.0_ARM64.zip",
+			"version": "1.1.0.0",
+			"id": "df8d1941e221128a20dae6c02658e4220c1e81824f7c352ccf81eacf2f498f2a",
+			"repository": "https://github.com/hassaine-abdellah/npp-language-selector/releases/download/v1.1/Language_Selector_v1.1_arm64.zip",
 			"description": "Set the programming language and see the syntax highlighting on new files without the need to save them, or to go each time to the menu to choose the language.\r\nYou can also pin your favorite languages on top of the list so you can easily access them.",
 			"author": "Abdellah Hassaine",
 			"homepage": "https://github.com/hassaine-abdellah"
@@ -164,10 +174,10 @@
 		{
 			"folder-name": "MultiReplace",
 			"display-name": "MultiReplace",
-			"version": "4.6.0.33",
+			"version": "4.6.1.34",
 			"npp-compatible-versions": "[8.5.4,]",
-			"id": "ff398ff2f6b8951ec3999339e6592792bf772bd6fad46dcfc74963f84848fdb4",
-			"repository": "https://github.com/daddel80/notepadpp-multireplace/releases/download/4.6.0.33/MultiReplace-v4.6.0.33-ARM64.zip",
+			"id": "4899e42e2a99aa083a27e12c9bd03d5561fd826007b9b44815f872aa85e297c8",
+			"repository": "https://github.com/daddel80/notepadpp-multireplace/releases/download/4.6.1.34/MultiReplace-v4.6.1.34-ARM64.zip",
 			"description": "Multi-string replacement across single or multiple files; reusable search/replace lists; CSV column operations (targeting, sort, delete, replace); external lookup tables; rectangular selection support; conditional (if/then) and math logic.\r\n",
 			"author": "Thomas Knoefel",
 			"homepage": "https://github.com/daddel80/notepadpp-multireplace"
@@ -191,16 +201,6 @@
 			"description": "Supports viewing/editing binary plist files. Due to the fact that ordinary plist files have XML format, this plugin does not support them. It only loads binary plist files (bplist).",
 			"author": "Sergiy Azarovsky",
 			"homepage": "https://github.com/azerg/NppBplistPlugin"
-		},
-		{
-			"folder-name": "NppFTP",
-			"display-name": "NppFTP",
-			"version": "0.29.14",
-			"id": "535a9c263267601b3df50bf53371dff806baea7bacd76e237b27dcba831c31b4",
-			"repository": "https://github.com/ashkulz/NppFTP/releases/download/v0.29.14/NppFTP-arm64.zip",
-			"description": "Allows FTP, FTPS, FTPES, and SFTP communications. Very useful for web development.",
-			"author": "ashish_kulz",
-			"homepage": "https://ashkulz.github.io/NppFTP/"
 		},
 		{
 			"folder-name": "NppPluginDemo",
@@ -247,6 +247,16 @@
 			"description": "True WYSIWYG exporter. Allows you not only to save your source code as an HTML/RTF file, but also to copy your source code in the clipboard in RTF/HTML format, so you can paste it into your word processor (Openoffice.org Writer, LibreOffice Writer, Abiword, MS Word) to get the same visual effect.",
 			"author": "",
 			"homepage": "https://github.com/chcg/NPP_ExportPlugin"
+		},
+		{
+			"folder-name": "NppFTP",
+			"display-name": "NppFTP",
+			"version": "0.29.14",
+			"id": "535a9c263267601b3df50bf53371dff806baea7bacd76e237b27dcba831c31b4",
+			"repository": "https://github.com/ashkulz/NppFTP/releases/download/v0.29.14/NppFTP-arm64.zip",
+			"description": "Allows FTP, FTPS, FTPES, and SFTP communications. Very useful for web development.",
+			"author": "ashish_kulz",
+			"homepage": "https://ashkulz.github.io/NppFTP/"
 		},
 		{
 			"folder-name": "NppJumpList",
@@ -451,16 +461,6 @@
 			"homepage": "https://github.com/SinghRajenM/nppURLPlugin"
 		},
 		{
-			"folder-name": "WebEdit",
-			"display-name": "WebEdit",
-			"version": "2.9.0.0",
-			"id": "54f5321bc3d284ab36741cd998be76854c4f9dbd66e136f0eab68b961adc5577",
-			"repository": "https://github.com/Krazal/WebEdit/releases/download/v2.9.0.0/WebEdit.2.9.0.0.arm64.zip",
-			"description": "Speed up your code editing! Enter an abbreviation (tag), press Alt + Enter, and expand the tag into a full code snippet. You can also wrap (surround) a selection e.g. with HTML tags.\r\n- More than 1000 preset tags: HTML (elements, attributes, BootStrap, Smarty, etc.), JavaScript (jQuery), CSS, PHP, SQL (MySQL, Eloquent ORM), etc.\r\n- Automatic or custom caret (cursor) positioning\r\n- Handling new lines, indents, etc.\r\n- Variables: clipboard content, current file name, custom date/time, etc.\r\n- Customizable tags in the plugin menu; assign tags to shortcuts\r\n- Customizable tags in the toolbar\r\n- Tag suggestions (similar tags)\r\n- Easy tag addition\r\n- Multiselect support\r\n- Unicode support\r\n- Over 17 years with Notepad++, now in 64-bit version!",
-			"author": "Alexander Iljin",
-			"homepage": "https://github.com/Krazal/WebEdit"
-		},
-		{
 			"folder-name": "VirtualFolders",
 			"display-name": "Virtual Folders",
 			"version": "1.0.2",
@@ -470,6 +470,16 @@
 			"description": "This plugin adds a dockable tree panel where you can create your own virtual folder structure. Group files from different paths, reorder them freely, and keep related resources together without touching the actual filesystem.",
 			"author": "Fatih Coşkun",
 			"homepage": "https://github.com/FatihC/VirtualFolders"
+		},
+		{
+			"folder-name": "WebEdit",
+			"display-name": "WebEdit",
+			"version": "2.9.0.0",
+			"id": "54f5321bc3d284ab36741cd998be76854c4f9dbd66e136f0eab68b961adc5577",
+			"repository": "https://github.com/Krazal/WebEdit/releases/download/v2.9.0.0/WebEdit.2.9.0.0.arm64.zip",
+			"description": "Speed up your code editing! Enter an abbreviation (tag), press Alt + Enter, and expand the tag into a full code snippet. You can also wrap (surround) a selection e.g. with HTML tags.\r\n- More than 1000 preset tags: HTML (elements, attributes, BootStrap, Smarty, etc.), JavaScript (jQuery), CSS, PHP, SQL (MySQL, Eloquent ORM), etc.\r\n- Automatic or custom caret (cursor) positioning\r\n- Handling new lines, indents, etc.\r\n- Variables: clipboard content, current file name, custom date/time, etc.\r\n- Customizable tags in the plugin menu; assign tags to shortcuts\r\n- Customizable tags in the toolbar\r\n- Tag suggestions (similar tags)\r\n- Easy tag addition\r\n- Multiselect support\r\n- Unicode support\r\n- Over 17 years with Notepad++, now in 64-bit version!",
+			"author": "Alexander Iljin",
+			"homepage": "https://github.com/Krazal/WebEdit"
 		}
 	]
 }

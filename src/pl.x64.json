@@ -1,6 +1,6 @@
 {
 	"name": "npp-pluginList",
-	"version": "1.9",
+	"version": "1.9.1",
 	"arch": "64",
 	"npp-plugins": [
 		{
@@ -45,6 +45,17 @@
 			"description": "A comprehensive Android suite featuring real-time log/screen capture, integrated file explorer for rapid operations, and a smart command panel supporting one-click search/execution of commands with output retrieval.",
 			"author": "simbaba",
 			"homepage": "https://sourceforge.net/projects/androidlogger"
+		},
+		{
+			"folder-name": "AnotherMarkdown",
+			"display-name": "Another Markdown",
+			"version": "0.1.6",
+			"id": "5964887dec3528e2d6027b150395d4677f0f9fc18e8e2e935d64a2e3c84e5fc4",
+			"repository": "https://github.com/ezyuzin/NppAnotherMarkdown/releases/download/0.1.6/AnotherMarkdown-0.1.6-x64.zip",
+			"description": "[Requires .NET framework v4.7.2]\r\nEasiest customizable, extendable preview and edit for Markdown files",
+			"author": "Evgeny Zyuzin",
+			"homepage": "https://github.com/ezyuzin/NppAnotherMarkdown",
+			"npp-compatible-versions": "[8.5,]"
 		},
 		{
 			"folder-name": "nppAutoDetectIndent",
@@ -197,9 +208,9 @@
 		{
 			"folder-name": "ColumnsPlusPlus",
 			"display-name": "Columns++",
-			"version": "1.3",
-			"id": "DA54576763E7A62A980F9DE7B0277AA7242DF82A6F45C5FD0196B7CCC6D08AD3",
-			"repository": "https://github.com/Coises/ColumnsPlusPlus/releases/download/v1.3/ColumnsPlusPlus-1.3-x64.zip",
+			"version": "1.3.1",
+			"id": "F31475EE604E7645ADF998123FF37460B5D46477396675AAE17192A3F03BE7EB",
+			"repository": "https://github.com/Coises/ColumnsPlusPlus/releases/download/v1.3.1/ColumnsPlusPlus-1.3.1-x64.zip",
 			"description": "Offers features for working with text and data arranged in columns, including an implementation of elastic tabstops, enhanced searching and sorting, column alignment and numeric calulations.",
 			"author": "Randall Joseph Fellmy",
 			"homepage": "https://github.com/Coises/ColumnsPlusPlus",
@@ -396,6 +407,16 @@
 			"homepage": "https://github.com/mariusv-github/ElasticTabstops"
 		},
 		{
+			"folder-name": "EmojiDescription",
+			"display-name": "Emoji Description",
+			"version": "0.1.0",
+			"id": "308b06c81412e2db395f96ae21e2d497c12a6249106b7db5e5e2da2ace7c9c51",
+			"repository": "https://github.com/Ruberoid/npp_emoji_description/releases/download/v0.1.0/EmojiDescription_x64_v0.1.0.zip",
+			"description": "Displays detailed character encoding information in the status bar. Shows Unicode code point, decimal/hexadecimal values, HTML entity, and UTF-8 byte sequence for any character including emoji.",
+			"author": "Ruberoid",
+			"homepage": "https://github.com/Ruberoid/npp_emoji_description"
+		},
+		{
 			"folder-name": "EnhanceAnyLexer",
 			"display-name": "EnhanceAnyLexer",
 			"version": "1.4.1",
@@ -541,11 +562,11 @@
 		{
 			"folder-name": "HTMLTag",
 			"display-name": "HTML Tag",
-			"version": "1.5.5.0",
+			"version": "1.5.6.0",
 			"npp-compatible-versions": "[8.3,]",
 			"old-versions-compatibility": "[,1.1][,8.2.1]",
-			"id": "5043c7ea112872fb035fd63a9baa1c720a1c639572a069c6dfdde5e56bad5295",
-			"repository": "https://github.com/rdipardo/nppHTMLTag/releases/download/v1.5.5/HTMLTag_v1.5.5_x64.zip",
+			"id": "667eec25d6207d71711f40ff2e32448d4d8aff5e9c4ade69a60fc5440a4a2221",
+			"repository": "https://github.com/rdipardo/nppHTMLTag/releases/download/v1.5.6/HTMLTag_v1.5.6_x64.zip",
 			"description": "Provides three core functions:\r\n- HTML and XML tag jumping, like the built-in brace matching and selection\r\n of tags and/or contents.\r\n- HTML entity encoding/decoding (example: é to &eacute;)\r\n- JS character encoding/decoding (example: é to \\u00E9)",
 			"author": "Martijn Coppoolse",
 			"homepage": "https://github.com/rdipardo/nppHTMLTag"
@@ -656,12 +677,12 @@
 			"author": "Sun Junwen",
 			"homepage": "https://github.com/sunjw/jstoolnpp"
 		},
-			{
+		{
 			"folder-name": "Language_Selector",
 			"display-name": "Language Selector",
-			"version": "1.0.0.0",
-			"id": "74176b4772df00b6cd11cf98e5b641a8ca621bccb62ab5fa4a80281b36998167",
-			"repository": "https://github.com/hassaine-abdellah/npp-language-selector/releases/download/v1.0/Language_Selector_v1.0_x64.zip",
+			"version": "1.1.0.0",
+			"id": "e855ad125faf194cd285897e1264d816ad0ada2f526cc84967a64a5a7f93ac1c",
+			"repository": "https://github.com/hassaine-abdellah/npp-language-selector/releases/download/v1.1/Language_Selector_v1.1_x64.zip",
 			"description": "Set the programming language and see the syntax highlighting on new files without the need to save them, or to go each time to the menu to choose the language.\r\nYou can also pin your favorite languages on top of the list so you can easily access them.",
 			"author": "Abdellah Hassaine",
 			"homepage": "https://github.com/hassaine-abdellah"
@@ -784,10 +805,10 @@
 		{
 			"folder-name": "MultiReplace",
 			"display-name": "MultiReplace",
-			"version": "4.6.0.33",
+			"version": "4.6.1.34",
 			"npp-compatible-versions": "[8.5.4,]",
-			"id": "a9aed5a5a96c7e33df21a9ad068c27f408d86284734444517630f74e0e058f8a",
-			"repository": "https://github.com/daddel80/notepadpp-multireplace/releases/download/4.6.0.33/MultiReplace-v4.6.0.33-x64.zip",
+			"id": "8a69b11fdbd72f2033cb12fcb50d999353538e2bf26bf2c30e3b187cea199966",
+			"repository": "https://github.com/daddel80/notepadpp-multireplace/releases/download/4.6.1.34/MultiReplace-v4.6.1.34-x64.zip",
 			"description": "Multi-string replacement across single or multiple files; reusable search/replace lists; CSV column operations (targeting, sort, delete, replace); external lookup tables; rectangular selection support; conditional (if/then) and math logic.\r\n",
 			"author": "Thomas Knoefel",
 			"homepage": "https://github.com/daddel80/notepadpp-multireplace"
@@ -951,6 +972,16 @@
 			"description": "Encryption/decryption with various block ciphers, hash-algorithms, random-characters, encoding with Base-16/32/64.",
 			"author": "Jean Paul Richter",
 			"homepage": "https://github.com/jeanpaulrichter/nppcrypt"
+		},
+		{
+			"folder-name": "NppESPHome",
+			"display-name": "NppESPHome",
+			"version": "1.0.26",
+			"id": "38c11337063f57b3e67bc88f397ecf00bdc76e41b93a04263d600d0cac95ef21",
+			"repository": "https://github.com/atiburzi/NppESPHome-Plugin/releases/download/v1.0.26/NppESPHome_x64.zip",
+			"description": "Plugin to directly interact with ESPHome and easily manage related projects workflows in Windows environment.",
+			"author": "Andrea Tiburzi",
+			"homepage": "https://github.com/atiburzi/NppESPHome-Plugin"
 		},
 		{
 			"folder-name": "NppEventExec",
@@ -1325,16 +1356,6 @@
 			"homepage": "https://github.com/joshraphael/npp-rascript"
 		},
 		{
-			"folder-name": "RedisPlugin",
-			"display-name": "Redis",
-			"version": "1.0.2",
-			"id": "0ec19575b952dd205bb4a70464f85637e2174237169ff47bb328b130a1105af7",
-			"repository": "https://github.com/bakingam1983/Notepad.plus.plus-RedisPlugin/releases/download/v1.0.2/Notepad++RedisPlugin_v1.0.2.zip",
-			"description": "Notepad++ plugin to view Redis keys and values",
-			"author": "Andrea Baghin",
-			"homepage": "https://github.com/bakingam1983/Notepad.plus.plus-RedisPlugin"
-		},
-		{
 			"folder-name": "rdmd-en-x64",
 			"display-name": "RDMD for Notepad++ (English)",
 			"version": "0.1.0.2",
@@ -1353,6 +1374,16 @@
 			"description": "Runs rdmd in Notepad++ (Japanese).",
 			"author": "dokutoku",
 			"homepage": "https://gitlab.com/dokutoku/rdmd-for-npp"
+		},
+		{
+			"folder-name": "RedisPlugin",
+			"display-name": "Redis",
+			"version": "1.0.2",
+			"id": "0ec19575b952dd205bb4a70464f85637e2174237169ff47bb328b130a1105af7",
+			"repository": "https://github.com/bakingam1983/Notepad.plus.plus-RedisPlugin/releases/download/v1.0.2/Notepad++RedisPlugin_v1.0.2.zip",
+			"description": "Notepad++ plugin to view Redis keys and values",
+			"author": "Andrea Baghin",
+			"homepage": "https://github.com/bakingam1983/Notepad.plus.plus-RedisPlugin"
 		},
 		{
 			"folder-name": "RegexTrainer",
@@ -1393,6 +1424,17 @@
 			"description": "Reverse lines in the selection or document. It works like the unix tac command.",
 			"author": "Query Kuma",
 			"homepage": "https://github.com/querykuma/qkNppReverseLines"
+		},
+		{
+			"folder-name": "NppRgaIsaPlugin",
+			"display-name": "RGA ISA Compiler",
+			"version": "1.0.0.0",
+			"npp-compatible-versions": "[8.4.3,]",
+			"id": "0449215d66228e1ab6268374dfc41b176f5b206877fe7b53039de9582f4c678b",
+			"repository": "https://github.com/DIMOSUS/NppRgaIsaPlugin/releases/download/v1.0.0.0/NppRgaIsaPlugin_v1.0.0.0.zip",
+			"description": "A plugin that displays the assembler ISA code of a compiled HLSL shader in a separate dockable panel. Compilation is performed via rga.exe (Radeon GPU Analyzer) in DX12 mode directly to ISA (without intermediate SPIR-V).",
+			"author": "Dmitry Budik",
+			"homepage": "https://github.com/DIMOSUS/NppRgaIsaPlugin"
 		},
 		{
 			"folder-name": "RunMe",
@@ -1655,6 +1697,17 @@
 			"homepage": "https://github.com/SinghRajenM/nppURLPlugin"
 		},
 		{
+			"folder-name": "VirtualFolders",
+			"display-name": "Virtual Folders",
+			"version": "1.0.2",
+			"npp-compatible-versions": "[8.8.5,]",
+			"id": "b11c01ee186d1c82ebadc0d6a6863898f401dabd8a2b888a54b7da0a3ec22e56",
+			"repository": "https://github.com/FatihC/VirtualFolders/releases/download/v1.0.2/VirtualFolders-v1.0.2-x64.zip",
+			"description": "This plugin adds a dockable tree panel where you can create your own virtual folder structure. Group files from different paths, reorder them freely, and keep related resources together without touching the actual filesystem.",
+			"author": "Fatih Coşkun",
+			"homepage": "https://github.com/FatihC/VirtualFolders"
+		},
+		{
 			"folder-name": "VisualStudioLineCopy",
 			"display-name": "Visual Studio Line Copy",
 			"version": "1.0.0.2",
@@ -1727,38 +1780,6 @@
 			"description": "Tired of zooming your document everytime you just want to scroll but accidentally still holding the [Ctrl] key? Then this is what you want! It disables mouse zoom, keyboard zoom, or both.",
 			"author": "Stanislav Eckert",
 			"homepage": "https://github.com/StanDog/npp-zoomdisabler"
-		},
-		{
-			"folder-name": "NppRgaIsaPlugin",
-			"display-name": "RGA ISA Compiler",
-			"version": "1.0.0.0",
-			"npp-compatible-versions": "[8.4.3,]",
-			"id": "0449215d66228e1ab6268374dfc41b176f5b206877fe7b53039de9582f4c678b",
-			"repository": "https://github.com/DIMOSUS/NppRgaIsaPlugin/releases/download/v1.0.0.0/NppRgaIsaPlugin_v1.0.0.0.zip",
-			"description": "A plugin that displays the assembler ISA code of a compiled HLSL shader in a separate dockable panel. Compilation is performed via rga.exe (Radeon GPU Analyzer) in DX12 mode directly to ISA (without intermediate SPIR-V).",
-			"author": "Dmitry Budik",
-			"homepage": "https://github.com/DIMOSUS/NppRgaIsaPlugin"
-		},
-		{
-			"folder-name": "VirtualFolders",
-			"display-name": "Virtual Folders",
-			"version": "1.0.2",
-			"npp-compatible-versions": "[8.8.5,]",
-			"id": "b11c01ee186d1c82ebadc0d6a6863898f401dabd8a2b888a54b7da0a3ec22e56",
-			"repository": "https://github.com/FatihC/VirtualFolders/releases/download/v1.0.2/VirtualFolders-v1.0.2-x64.zip",
-			"description": "This plugin adds a dockable tree panel where you can create your own virtual folder structure. Group files from different paths, reorder them freely, and keep related resources together without touching the actual filesystem.",
-			"author": "Fatih Coşkun",
-			"homepage": "https://github.com/FatihC/VirtualFolders"
-		},
-		{
-			"folder-name": "NppESPHome",
-			"display-name": "NppESPHome",
-			"version": "1.0.26",
-			"id": "38c11337063f57b3e67bc88f397ecf00bdc76e41b93a04263d600d0cac95ef21",
-			"repository": "https://github.com/atiburzi/NppESPHome-Plugin/releases/download/v1.0.26/NppESPHome_x64.zip",
-			"description": "Plugin to directly interact with ESPHome and easily manage related projects workflows in Windows environment.",
-			"author": "Andrea Tiburzi",
-			"homepage": "https://github.com/atiburzi/NppESPHome-Plugin"
 		}
 	]
 }

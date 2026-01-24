@@ -1,6 +1,6 @@
 {
 	"name": "npp-pluginList",
-	"version": "1.9",
+	"version": "1.9.1",
 	"arch": "32",
 	"npp-plugins": [
 		{
@@ -32,6 +32,28 @@
 			"description": "AnalysePlugin will help you to search for more than one search pattern at a time. Great for analysing big log files...\r\nLast changes and how to use you will find in Help... in Plugins Menu.",
 			"author": "Mattes H.",
 			"homepage": "https://sourceforge.net/projects/analyseplugin"
+		},
+		{
+			"folder-name": "AndroidLogger",
+			"display-name": "AndroidLogger",
+			"version": "1.4.3.4",
+			"npp-compatible-versions": "[7.8,]",
+			"id": "8c45c9a3540ee3bf0d487038880bb824c3150b1bd5a9156bce37f06f0f523596",
+			"repository": "https://github.com/glandon/AndroidLogger/releases/download/v1.4.3.4/AndroidLogger.v1.4.3.4.EN.x86.zip",
+			"description": "A comprehensive Android suite featuring real-time log/screen capture, integrated file explorer for rapid operations, and a smart command panel supporting one-click search/execution of commands with output retrieval.",
+			"author": "simbaba",
+			"homepage": "https://sourceforge.net/projects/androidlogger"
+		},
+		{
+			"folder-name": "AnotherMarkdown",
+			"display-name": "Another Markdown",
+			"version": "0.1.6",
+			"id": "58f030480fa88bf74dc5e60cb30df41b6dc8ed68d31d77658b3cbff24b2b09f1",
+			"repository": "https://github.com/ezyuzin/NppAnotherMarkdown/releases/download/0.1.6/AnotherMarkdown-0.1.6-x86.zip",
+			"description": "[Requires .NET framework v4.7.2]\r\nEasiest customizable, extendable preview and edit for Markdown files",
+			"author": "Evgeny Zyuzin",
+			"homepage": "https://github.com/ezyuzin/NppAnotherMarkdown",
+			"npp-compatible-versions": "[8.5,]"
 		},
 		{
 			"folder-name": "nppAutoDetectIndent",
@@ -171,9 +193,9 @@
 		{
 			"folder-name": "ColumnsPlusPlus",
 			"display-name": "Columns++",
-			"version": "1.3",
-			"id": "879FDAA56128FBC070E3779C6EA8DFB217559D917C7C4BD1CF0B0D39F511ECED",
-			"repository": "https://github.com/Coises/ColumnsPlusPlus/releases/download/v1.3/ColumnsPlusPlus-1.3-x86.zip",
+			"version": "1.3.1",
+			"id": "26246F793C0A9AD74A76EC14E2DE3B387D1246AE4AA04A904F9CF532C65AA799",
+			"repository": "https://github.com/Coises/ColumnsPlusPlus/releases/download/v1.3.1/ColumnsPlusPlus-1.3.1-x86.zip",
 			"description": "Offers features for working with text and data arranged in columns, including an implementation of elastic tabstops, enhanced searching and sorting, column alignment and numeric calulations.",
 			"author": "Randall Joseph Fellmy",
 			"homepage": "https://github.com/Coises/ColumnsPlusPlus",
@@ -371,6 +393,16 @@
 			"homepage": "https://github.com/mariusv-github/ElasticTabstops"
 		},
 		{
+			"folder-name": "EmojiDescription",
+			"display-name": "Emoji Description",
+			"version": "0.1.0",
+			"id": "4d4fa84a1ace691970cf2502995bd955ccc75ddba01a64354835c17e59c61d22",
+			"repository": "https://github.com/Ruberoid/npp_emoji_description/releases/download/v0.1.0/EmojiDescription_x86_v0.1.0.zip",
+			"description": "Displays detailed character encoding information in the status bar. Shows Unicode code point, decimal/hexadecimal values, HTML entity, and UTF-8 byte sequence for any character including emoji.",
+			"author": "Ruberoid",
+			"homepage": "https://github.com/Ruberoid/npp_emoji_description"
+		},
+		{
 			"folder-name": "EnhanceAnyLexer",
 			"display-name": "EnhanceAnyLexer",
 			"version": "1.4.1",
@@ -560,11 +592,11 @@
 		{
 			"folder-name": "HTMLTag_unicode",
 			"display-name": "HTML Tag",
-			"version": "1.5.5.0",
+			"version": "1.5.6.0",
 			"npp-compatible-versions": "[7.7,]",
 			"old-versions-compatibility": "[,1.1][,7.6.6]",
-			"id": "4b7eefd0beb4a40f811ccc237020a86dac6285658b0593d625be779c8e7505f4",
-			"repository": "https://github.com/rdipardo/nppHTMLTag/releases/download/v1.5.5/HTMLTag_v1.5.5.zip",
+			"id": "7afc119737172892027e57b37c9014946e846c8508c205d395bacc07849b21a4",
+			"repository": "https://github.com/rdipardo/nppHTMLTag/releases/download/v1.5.6/HTMLTag_v1.5.6.zip",
 			"description": "Provides three core functions:\r\n- HTML and XML tag jumping, like the built-in brace matching and selection\r\n of tags and/or contents.\r\n- HTML entity encoding/decoding (example: é to &eacute;)\r\n- JS character encoding/decoding (example: é to \\u00E9)",
 			"author": "Martijn Coppoolse",
 			"homepage": "https://github.com/rdipardo/nppHTMLTag"
@@ -686,9 +718,9 @@
 		{
 			"folder-name": "Language_Selector",
 			"display-name": "Language Selector",
-			"version": "1.0.0.0",
-			"id": "cdb445b2f3de150d17ff7219a7dfd6b1d5eb53e8c2baf14d026548e2e9cf1fdf",
-			"repository": "https://github.com/hassaine-abdellah/npp-language-selector/releases/download/v1.0/Language_Selector_v1.0_x86.zip",
+			"version": "1.1.0.0",
+			"id": "1012233b087dd15668205c8f2af74ad45855893f83b911e03cc415efbf408f3b",
+			"repository": "https://github.com/hassaine-abdellah/npp-language-selector/releases/download/v1.1/Language_Selector_v1.1_x86.zip",
 			"description": "Set the programming language and see the syntax highlighting on new files without the need to save them, or to go each time to the menu to choose the language.\r\nYou can also pin your favorite languages on top of the list so you can easily access them.",
 			"author": "Abdellah Hassaine",
 			"homepage": "https://github.com/hassaine-abdellah"
@@ -839,10 +871,10 @@
 		{
 			"folder-name": "MultiReplace",
 			"display-name": "MultiReplace",
-			"version": "4.6.0.33",
+			"version": "4.6.1.34",
 			"npp-compatible-versions": "[8.5.4,]",
-			"id": "d543462179ee2a4eccb1df7b476d7738b1025baec6ac68c21a566534850129bb",
-			"repository": "https://github.com/daddel80/notepadpp-multireplace/releases/download/4.6.0.33/MultiReplace-v4.6.0.33-Win32.zip",
+			"id": "2ae0d718923b395fded1e0da782eef8e40862dbc95f5f3722314341028f3f662",
+			"repository": "https://github.com/daddel80/notepadpp-multireplace/releases/download/4.6.1.34/MultiReplace-v4.6.1.34-Win32.zip",
 			"description": "Multi-string replacement across single or multiple files; reusable search/replace lists; CSV column operations (targeting, sort, delete, replace); external lookup tables; rectangular selection support; conditional (if/then) and math logic.\r\n",
 			"author": "Thomas Knoefel",
 			"homepage": "https://github.com/daddel80/notepadpp-multireplace"
@@ -1036,6 +1068,16 @@
 			"description": "Encryption/decryption with various block ciphers, hash-algorithms, random-characters, encoding with Base-16/32/64.",
 			"author": "Jean Paul Richter",
 			"homepage": "https://github.com/jeanpaulrichter/nppcrypt"
+		},
+		{
+			"folder-name": "NppESPHome",
+			"display-name": "NppESPHome",
+			"version": "1.0.26",
+			"id": "5e60f9c3c591b3e29c4d2f17e46399f3e9202b92352d65df21504c08d04930e0",
+			"repository": "https://github.com/atiburzi/NppESPHome-Plugin/releases/download/v1.0.26/NppESPHome_x32.zip",
+			"description": "Plugin to directly interact with ESPHome and easily manage related projects workflows in Windows environment.",
+			"author": "Andrea Tiburzi",
+			"homepage": "https://github.com/atiburzi/NppESPHome-Plugin"
 		},
 		{
 			"folder-name": "NppEventExec",
@@ -1811,6 +1853,17 @@
 			"homepage": "https://github.com/SinghRajenM/nppURLPlugin"
 		},
 		{
+			"folder-name": "VirtualFolders",
+			"display-name": "Virtual Folders",
+			"version": "1.0.2",
+			"npp-compatible-versions": "[8.8.5,]",
+			"id": "adc7056900b47c29060d9d6f3ce8b8b7e0cbc2bf1b778de524f767f8cd875cc8",
+			"repository": "https://github.com/FatihC/VirtualFolders/releases/download/v1.0.2/VirtualFolders-v1.0.2-x86.zip",
+			"description": "This plugin adds a dockable tree panel where you can create your own virtual folder structure. Group files from different paths, reorder them freely, and keep related resources together without touching the actual filesystem.",
+			"author": "Fatih Coşkun",
+			"homepage": "https://github.com/FatihC/VirtualFolders"
+		},
+		{
 			"folder-name": "VisualStudioLineCopy",
 			"display-name": "Visual Studio Line Copy",
 			"version": "1.0.0.2",
@@ -1919,38 +1972,6 @@
 			"description": "Tired of zooming your document everytime you just want to scroll but accidentally still holding the [Ctrl] key? Then this is what you want! It disables mouse zoom, keyboard zoom, or both.",
 			"author": "Stanislav Eckert",
 			"homepage": "https://github.com/StanDog/npp-zoomdisabler"
-		},
-		{
-			"folder-name": "AndroidLogger",
-			"display-name": "AndroidLogger",
-			"version": "1.4.3.4",
-			"npp-compatible-versions": "[7.8,]",
-			"id": "8c45c9a3540ee3bf0d487038880bb824c3150b1bd5a9156bce37f06f0f523596",
-			"repository": "https://github.com/glandon/AndroidLogger/releases/download/v1.4.3.4/AndroidLogger.v1.4.3.4.EN.x86.zip",
-			"description": "A comprehensive Android suite featuring real-time log/screen capture, integrated file explorer for rapid operations, and a smart command panel supporting one-click search/execution of commands with output retrieval.",
-			"author": "simbaba",
-			"homepage": "https://sourceforge.net/projects/androidlogger"
-		},
-		{
-			"folder-name": "VirtualFolders",
-			"display-name": "Virtual Folders",
-			"version": "1.0.2",
-			"npp-compatible-versions": "[8.8.5,]",
-			"id": "adc7056900b47c29060d9d6f3ce8b8b7e0cbc2bf1b778de524f767f8cd875cc8",
-			"repository": "https://github.com/FatihC/VirtualFolders/releases/download/v1.0.2/VirtualFolders-v1.0.2-x86.zip",
-			"description": "This plugin adds a dockable tree panel where you can create your own virtual folder structure. Group files from different paths, reorder them freely, and keep related resources together without touching the actual filesystem.",
-			"author": "Fatih Coşkun",
-			"homepage": "https://github.com/FatihC/VirtualFolders"
-		},
-		{
-			"folder-name": "NppESPHome",
-			"display-name": "NppESPHome",
-			"version": "1.0.26",
-			"id": "5e60f9c3c591b3e29c4d2f17e46399f3e9202b92352d65df21504c08d04930e0",
-			"repository": "https://github.com/atiburzi/NppESPHome-Plugin/releases/download/v1.0.26/NppESPHome_x32.zip",
-			"description": "Plugin to directly interact with ESPHome and easily manage related projects workflows in Windows environment.",
-			"author": "Andrea Tiburzi",
-			"homepage": "https://github.com/atiburzi/NppESPHome-Plugin"
 		}
 	]
 }
