@@ -24,6 +24,17 @@
 			"homepage": "https://github.com/francostellari/NppPlugins"
 		},
 		{
+			"folder-name": "NppChineseConverter",
+			"display-name": "Chinese Converter",
+			"version": "1.0.2",
+			"id": "e2b4f6c388fb691d8cfe49c30c37e594a0953ce2402be04d1f06eefdf07242f7",
+			"repository": "https://github.com/lkk9898969/Npp_ChineseConverter/releases/download/v1.0.2/NppChineseConverter-ARM64.zip",
+			"description": "Traditional and Simplified conversion plugin for Notepad++",
+			"author": "lkk9898969",
+			"homepage": "https://github.com/lkk9898969/Npp_ChineseConverter",
+			"npp-compatible-versions": "[8.4.3,]"
+		},
+		{
 			"folder-name": "CollectionInterface",
 			"display-name": "CollectionInterface",
 			"version": "1.3.0",
