@@ -50,7 +50,7 @@
 			"folder-name": "AnotherMarkdown",
 			"display-name": "Another Markdown",
 			"version": "0.1.7",
-			"id": "sha256:668438180a35ebcd8b2817cae8535f92f42f742b4deb0bf7d8f0ac0046821ff7",
+			"id": "668438180a35ebcd8b2817cae8535f92f42f742b4deb0bf7d8f0ac0046821ff7",
 			"repository": "https://github.com/ezyuzin/NppAnotherMarkdown/releases/download/0.1.7/AnotherMarkdown-0.1.7-x64.zip",
 			"description": "[Requires .NET framework v4.7.2]\r\nEasiest customizable, extendable preview and edit for Markdown files",
 			"author": "Evgeny Zyuzin",
