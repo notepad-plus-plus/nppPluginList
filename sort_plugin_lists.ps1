@@ -1,10 +1,8 @@
 function Sort-Json($file)
 {
-    $a = Get-Content $file | ConvertFrom-Json
-    $a.'npp-plugins' = $a.'npp-plugins' | sort -Property 'display-name'
-    $a | ConvertTo-Json > $file
-    #replace 2 spaces by tab
-    $content = [IO.File]::ReadAllText($file)
+    $a = Get-Content $file -Raw | ConvertFrom-Json
+    $a.'npp-plugins' = $a.'npp-plugins' | Sort-Object -Property 'display-name'
+    $content = $a | ConvertTo-Json -Depth 10
     $content = $content -replace ' {2}', "`t"
     [IO.File]::WriteAllText($file, $content)
 }
@@ -12,4 +10,3 @@ function Sort-Json($file)
 Sort-Json ".\src\pl.x64.json"
 Sort-Json ".\src\pl.x86.json"
 Sort-Json ".\src\pl.arm64.json"
-
