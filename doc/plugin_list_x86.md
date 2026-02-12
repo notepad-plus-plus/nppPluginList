@@ -1,6 +1,6 @@
 ## Plugin List - 32 bit
 
-version 1.9.1
+version 1.9.2
 
 | Plugin name | Author | Homepage | Version and link | Description |
 |---|---|---|---|---|
@@ -8,7 +8,7 @@ version 1.9.1
 | ActiveX Plugin | Bananen-Joe | https://sourceforge.net/projects/nppactivexplugin/ | [1.1.8.7 - 32 bit](https://sourceforge.net/projects/nppactivexplugin/files/bin/ActiveX_Unicode_1_1_8_7.zip) |  <details> <summary> Allows you to control Notepad++ via ActiveX. </summary> <br>You can use ActiveX with many scripting languages (VBScript, JScript, PHP, ...) and other languages (C++, C+, VB.NET, Delphi, ...).<br>So you are not bound to a single language. </details> |
 | AnalysePlugin | Mattes H. | https://sourceforge.net/projects/analyseplugin | [1.13.49.0 - 32 bit](https://sourceforge.net/projects/analyseplugin/files/binaries/v01.13-R49/AnalysePlugin-v01.13-R49-x86.zip) |  <details> <summary> AnalysePlugin will help you to search for more than one search pattern at a time. Great for </summary>  analysing big log files...<br>Last changes and how to use you will find in Help... in Plugins Menu. </details> |
 | AndroidLogger | simbaba | https://sourceforge.net/projects/androidlogger | [1.4.3.4 - 32 bit](https://github.com/glandon/AndroidLogger/releases/download/v1.4.3.4/AndroidLogger.v1.4.3.4.EN.x86.zip) |  <details> <summary> A comprehensive Android suite featuring real-time log/screen capture, integrated file explorer for </summary>  rapid operations, and a smart command panel supporting one-click search/execution of commands with output retrieval. </details> |
-| Another Markdown | Evgeny Zyuzin | https://github.com/ezyuzin/NppAnotherMarkdown | [0.1.6 - 32 bit](https://github.com/ezyuzin/NppAnotherMarkdown/releases/download/0.1.6/AnotherMarkdown-0.1.6-x86.zip) |  <details> <summary> [Requires .NET framework v4.7.2] </summary> <br>Easiest customizable, extendable preview and edit for Markdown files </details> |
+| Another Markdown | Evgeny Zyuzin | https://github.com/ezyuzin/NppAnotherMarkdown | [0.1.8 - 32 bit](https://github.com/ezyuzin/NppAnotherMarkdown/releases/download/0.1.8/AnotherMarkdown-0.1.8-x86.zip) |  <details> <summary> [Requires .NET framework v4.7.2] </summary> <br>Easiest customizable, extendable preview and edit for Markdown files </details> |
 | Auto Detect Indention | Mike Tzou (Chocobo1) | https://github.com/Chocobo1/nppAutoDetectIndent | [2.3 - 32 bit](https://github.com/Chocobo1/nppAutoDetectIndent/releases/download/2.3/x86.zip) | Detects indention (tab or spaces) and auto adjust Tab key on-the-fly. |
 | AutoCodepage | Andreas Heim | https://sourceforge.net/projects/autocodepage | [1.2.7 - 32 bit](https://sourceforge.net/projects/autocodepage/files/v1.2.7/plugin/x86/AutoCodepage_v1.2.7_UNI.zip) |  <details> <summary> Automatically sets a document's code page to your needs on loading or renaming a document, changing </summary>  its language or activating its tab. Usefull especially when coding batch scripts. </details> |
 | AutoEolFormat | Andreas Heim | https://sourceforge.net/projects/autoeolformat | [1.0.4 - 32 bit](https://sourceforge.net/projects/autoeolformat/files/v1.0.4/plugin/x86/AutoEolFormat_v1.0.4_UNI.zip) |  <details> <summary> A plugin to automatically set a document's EOL (End Of Line) format to your needs on loading, </summary>  saving or renaming a document or activating its tab. </details> |
