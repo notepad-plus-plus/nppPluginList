@@ -1,6 +1,6 @@
 {
 	"name": "npp-pluginList",
-	"version": "1.9.1",
+	"version": "1.9.2",
 	"arch": "64",
 	"npp-plugins": [
 		{
