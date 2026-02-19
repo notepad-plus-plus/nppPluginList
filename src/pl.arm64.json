@@ -1,6 +1,6 @@
 {
 	"name": "npp-pluginList",
-	"version": "1.9.1",
+	"version": "1.9.2",
 	"arch": "arm64",
 	"npp-plugins": [
 		{
@@ -22,6 +22,17 @@
 			"description": "Automatically save the currently open files based on a timer schedule and/or upon the application losing focus.\r\nThe plugin offers several options to save the current (or all the files), selecting only the named ones, accessible through an options dialog box.",
 			"author": "Franco Stellari",
 			"homepage": "https://github.com/francostellari/NppPlugins"
+		},
+		{
+			"folder-name": "NppChineseConverter",
+			"display-name": "Chinese Converter",
+			"version": "1.0.2",
+			"id": "e2b4f6c388fb691d8cfe49c30c37e594a0953ce2402be04d1f06eefdf07242f7",
+			"repository": "https://github.com/lkk9898969/Npp_ChineseConverter/releases/download/v1.0.2/NppChineseConverter-ARM64.zip",
+			"description": "Traditional and Simplified conversion plugin for Notepad++",
+			"author": "lkk9898969",
+			"homepage": "https://github.com/lkk9898969/Npp_ChineseConverter",
+			"npp-compatible-versions": "[8.4.3,]"
 		},
 		{
 			"folder-name": "CollectionInterface",
@@ -463,10 +474,10 @@
 		{
 			"folder-name": "VirtualFolders",
 			"display-name": "Virtual Folders",
-			"version": "1.0.2",
+			"version": "1.0.3",
 			"npp-compatible-versions": "[8.8.5,]",
-			"id": "ac5f4c199e51eb6cc7464ac9abf341855f7862b10c1912e22a1c39fa38e2ff5b",
-			"repository": "https://github.com/FatihC/VirtualFolders/releases/download/v1.0.2/VirtualFolders-v1.0.2-arm64.zip",
+			"id": "02304c0be5558becc5dc72f822216d0003b9266489afad6d7f2adb1a4f3c3494",
+			"repository": "https://github.com/FatihC/VirtualFolders/releases/download/v1.0.3/VirtualFolders-v1.0.3-arm64.zip",
 			"description": "This plugin adds a dockable tree panel where you can create your own virtual folder structure. Group files from different paths, reorder them freely, and keep related resources together without touching the actual filesystem.",
 			"author": "Fatih Coşkun",
 			"homepage": "https://github.com/FatihC/VirtualFolders"
@@ -474,9 +485,9 @@
 		{
 			"folder-name": "WebEdit",
 			"display-name": "WebEdit",
-			"version": "2.9.0.0",
-			"id": "54f5321bc3d284ab36741cd998be76854c4f9dbd66e136f0eab68b961adc5577",
-			"repository": "https://github.com/Krazal/WebEdit/releases/download/v2.9.0.0/WebEdit.2.9.0.0.arm64.zip",
+			"version": "2.9.0.1",
+			"id": "6ff9b07114639ae40c9eeb1746651f464ad93440c45109a0158f91d53cd543c2",
+			"repository": "https://github.com/Krazal/WebEdit/releases/download/v2.9.0.1/WebEdit.2.9.0.1.arm64.zip",
 			"description": "Speed up your code editing! Enter an abbreviation (tag), press Alt + Enter, and expand the tag into a full code snippet. You can also wrap (surround) a selection e.g. with HTML tags.\r\n- More than 1000 preset tags: HTML (elements, attributes, BootStrap, Smarty, etc.), JavaScript (jQuery), CSS, PHP, SQL (MySQL, Eloquent ORM), etc.\r\n- Automatic or custom caret (cursor) positioning\r\n- Handling new lines, indents, etc.\r\n- Variables: clipboard content, current file name, custom date/time, etc.\r\n- Customizable tags in the plugin menu; assign tags to shortcuts\r\n- Customizable tags in the toolbar\r\n- Tag suggestions (similar tags)\r\n- Easy tag addition\r\n- Multiselect support\r\n- Unicode support\r\n- Over 17 years with Notepad++, now in 64-bit version!",
 			"author": "Alexander Iljin",
 			"homepage": "https://github.com/Krazal/WebEdit"

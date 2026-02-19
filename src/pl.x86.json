@@ -1,6 +1,6 @@
 {
 	"name": "npp-pluginList",
-	"version": "1.9.1",
+	"version": "1.9.2",
 	"arch": "32",
 	"npp-plugins": [
 		{
@@ -47,9 +47,9 @@
 		{
 			"folder-name": "AnotherMarkdown",
 			"display-name": "Another Markdown",
-			"version": "0.1.6",
-			"id": "58f030480fa88bf74dc5e60cb30df41b6dc8ed68d31d77658b3cbff24b2b09f1",
-			"repository": "https://github.com/ezyuzin/NppAnotherMarkdown/releases/download/0.1.6/AnotherMarkdown-0.1.6-x86.zip",
+			"version": "0.1.8",
+			"id": "df4caa6df5e5216edc6c7aa6071a2822d41f1ff1293ff9f9082bf31b85e9c9b7",
+			"repository": "https://github.com/ezyuzin/NppAnotherMarkdown/releases/download/0.1.8/AnotherMarkdown-0.1.8-x86.zip",
 			"description": "[Requires .NET framework v4.7.2]\r\nEasiest customizable, extendable preview and edit for Markdown files",
 			"author": "Evgeny Zyuzin",
 			"homepage": "https://github.com/ezyuzin/NppAnotherMarkdown",
@@ -158,6 +158,17 @@
 			"description": "Notepad++-Plugin for manipulate CADdy-formated coordinate- and measure-textfiles",
 			"author": "Mario Rosenbohm",
 			"homepage": "https://github.com/MarioRosi/CADdyTools"
+		},
+		{
+			"folder-name": "NppChineseConverter",
+			"display-name": "Chinese Converter",
+			"version": "1.0.2",
+			"id": "4770a5fd77cb7e6cf75b64381e019448ee130ec39f135f31c92c523ec23b09db",
+			"repository": "https://github.com/lkk9898969/Npp_ChineseConverter/releases/download/v1.0.2/NppChineseConverter-x86.zip",
+			"description": "Traditional and Simplified conversion plugin for Notepad++",
+			"author": "lkk9898969",
+			"homepage": "https://github.com/lkk9898969/Npp_ChineseConverter",
+			"npp-compatible-versions": "[8.4.3,]"
 		},
 		{
 			"folder-name": "CodeAlignmentNpp",
@@ -809,9 +820,9 @@
 		{
 			"folder-name": "NppMarkdownPanel",
 			"display-name": "Markdown Panel",
-			"version": "0.9.0",
-			"id": "45004f2b0285365de03c246ead6295462b0898004461c313be14be519c522c34",
-			"repository": "https://github.com/mohzy83/NppMarkdownPanel/releases/download/0.9.0/NppMarkdownPanel-0.9.0.0-x86.zip",
+			"version": "0.9.1",
+			"id": "d9249efeda4ce8336b2cf871205464d4ddaca5e3bc9558d9ebf129d15137c23b",
+			"repository": "https://github.com/mohzy83/NppMarkdownPanel/releases/download/0.9.1/NppMarkdownPanel-0.9.1.0-x86.zip",
 			"description": "Lightweight plugin to display rendered Markdown files.",
 			"author": "Mohzy83",
 			"homepage": "https://github.com/mohzy83/NppMarkdownPanel"
@@ -1855,10 +1866,10 @@
 		{
 			"folder-name": "VirtualFolders",
 			"display-name": "Virtual Folders",
-			"version": "1.0.2",
+			"version": "1.0.3",
 			"npp-compatible-versions": "[8.8.5,]",
-			"id": "adc7056900b47c29060d9d6f3ce8b8b7e0cbc2bf1b778de524f767f8cd875cc8",
-			"repository": "https://github.com/FatihC/VirtualFolders/releases/download/v1.0.2/VirtualFolders-v1.0.2-x86.zip",
+			"id": "43238e68d9173af3d89a4a376dc92b6573dda82b45c32a5084d166171c71e0ad",
+			"repository": "https://github.com/FatihC/VirtualFolders/releases/download/v1.0.3/VirtualFolders-v1.0.3-x86.zip",
 			"description": "This plugin adds a dockable tree panel where you can create your own virtual folder structure. Group files from different paths, reorder them freely, and keep related resources together without touching the actual filesystem.",
 			"author": "Fatih Coşkun",
 			"homepage": "https://github.com/FatihC/VirtualFolders"

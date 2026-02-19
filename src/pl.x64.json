@@ -1,6 +1,6 @@
 {
 	"name": "npp-pluginList",
-	"version": "1.9.1",
+	"version": "1.9.2",
 	"arch": "64",
 	"npp-plugins": [
 		{
@@ -49,9 +49,9 @@
 		{
 			"folder-name": "AnotherMarkdown",
 			"display-name": "Another Markdown",
-			"version": "0.1.6",
-			"id": "5964887dec3528e2d6027b150395d4677f0f9fc18e8e2e935d64a2e3c84e5fc4",
-			"repository": "https://github.com/ezyuzin/NppAnotherMarkdown/releases/download/0.1.6/AnotherMarkdown-0.1.6-x64.zip",
+			"version": "0.1.8",
+			"id": "39af8f985bfd0eddcec81e0edeab0180e5b0ed1081d55747c59b5d0207469bb7",
+			"repository": "https://github.com/ezyuzin/NppAnotherMarkdown/releases/download/0.1.8/AnotherMarkdown-0.1.8-x64.zip",
 			"description": "[Requires .NET framework v4.7.2]\r\nEasiest customizable, extendable preview and edit for Markdown files",
 			"author": "Evgeny Zyuzin",
 			"homepage": "https://github.com/ezyuzin/NppAnotherMarkdown",
@@ -173,6 +173,17 @@
 			"description": "Notepad++-Plugin for manipulate CADdy-formated coordinate- and measure-textfiles",
 			"author": "Mario Rosenbohm",
 			"homepage": "https://github.com/MarioRosi/CADdyTools"
+		},
+		{
+			"folder-name": "NppChineseConverter",
+			"display-name": "Chinese Converter",
+			"version": "1.0.2",
+			"id": "f6f741aa936500b46fedc96b7e378d37e57c2d31d0945543fb81be74cb5b8625",
+			"repository": "https://github.com/lkk9898969/Npp_ChineseConverter/releases/download/v1.0.2/NppChineseConverter-x64.zip",
+			"description": "Traditional and Simplified conversion plugin for Notepad++",
+			"author": "lkk9898969",
+			"homepage": "https://github.com/lkk9898969/Npp_ChineseConverter",
+			"npp-compatible-versions": "[8.4.3,]"
 		},
 		{
 			"folder-name": "CodeAlignmentNpp",
@@ -753,9 +764,9 @@
 		{
 			"folder-name": "NppMarkdownPanel",
 			"display-name": "Markdown Panel",
-			"version": "0.9.0",
-			"id": "134c2eaf09f72097bf17e2cc41d8a63e57ca4a3d5a221f1e867538629d92189c",
-			"repository": "https://github.com/mohzy83/NppMarkdownPanel/releases/download/0.9.0/NppMarkdownPanel-0.9.0.0-x64.zip",
+			"version": "0.9.1",
+			"id": "f578f738ef0aeb535ea8b45916ff10c751dafe19c125db8f2081d94bebd1ffa9",
+			"repository": "https://github.com/mohzy83/NppMarkdownPanel/releases/download/0.9.1/NppMarkdownPanel-0.9.1.0-x64.zip",
 			"description": "Lightweight plugin to display rendered Markdown files.",
 			"author": "Mohzy83",
 			"homepage": "https://github.com/mohzy83/NppMarkdownPanel"
@@ -1699,10 +1710,10 @@
 		{
 			"folder-name": "VirtualFolders",
 			"display-name": "Virtual Folders",
-			"version": "1.0.2",
+			"version": "1.0.3",
 			"npp-compatible-versions": "[8.8.5,]",
-			"id": "b11c01ee186d1c82ebadc0d6a6863898f401dabd8a2b888a54b7da0a3ec22e56",
-			"repository": "https://github.com/FatihC/VirtualFolders/releases/download/v1.0.2/VirtualFolders-v1.0.2-x64.zip",
+			"id": "0636215d29258b462512beee563064029abd4bf9ca4a0d9fe2fb450d41f032ca",
+			"repository": "https://github.com/FatihC/VirtualFolders/releases/download/v1.0.3/VirtualFolders-v1.0.3-x64.zip",
 			"description": "This plugin adds a dockable tree panel where you can create your own virtual folder structure. Group files from different paths, reorder them freely, and keep related resources together without touching the actual filesystem.",
 			"author": "Fatih Coşkun",
 			"homepage": "https://github.com/FatihC/VirtualFolders"
@@ -1732,9 +1743,9 @@
 		{
 			"folder-name": "WebEdit",
 			"display-name": "WebEdit",
-			"version": "2.9.0.0",
-			"id": "8c0c6363bc698535246db46f8844d7355e62902bbb3edac3fbd3a4dd77d5f7ec",
-			"repository": "https://github.com/Krazal/WebEdit/releases/download/v2.9.0.0/WebEdit.2.9.0.0.x64.zip",
+			"version": "2.9.0.1",
+			"id": "eb51c1cf60ee2e3ef86b0d9874e541e7976399dc7599b0018285a693859b2c27",
+			"repository": "https://github.com/Krazal/WebEdit/releases/download/v2.9.0.1/WebEdit.2.9.0.1.x64.zip",
 			"description": "Speed up your code editing! Enter an abbreviation (tag), press Alt + Enter, and expand the tag into a full code snippet. You can also wrap (surround) a selection e.g. with HTML tags.\r\n- More than 1000 preset tags: HTML (elements, attributes, BootStrap, Smarty, etc.), JavaScript (jQuery), CSS, PHP, SQL (MySQL, Eloquent ORM), etc.\r\n- Automatic or custom caret (cursor) positioning\r\n- Handling new lines, indents, etc.\r\n- Variables: clipboard content, current file name, custom date/time, etc.\r\n- Customizable tags in the plugin menu; assign tags to shortcuts\r\n- Customizable tags in the toolbar\r\n- Tag suggestions (similar tags)\r\n- Easy tag addition\r\n- Multiselect support\r\n- Unicode support\r\n- Over 17 years with Notepad++, now in 64-bit version!",
 			"author": "Alexander Iljin",
 			"homepage": "https://github.com/Krazal/WebEdit"
