@@ -344,9 +344,9 @@
 		{
 			"folder-name": "DiscordRPC",
 			"display-name": "Discord Rich Presence",
-			"version": "2.0.625.1",
-			"id": "0a776e3bf32772ce00ea2964922b6777ebde41cb32cfd71902c04433d9f20b72",
-			"repository": "https://github.com/Zukaritasu/notepadpp_rpc/releases/download/v2.0/DiscordRPC_v2.0_x86.zip",
+			"version": "2.1.711.1",
+			"id": "aeaa6f669036e8b2460ab9b708082f4cda26b3077f2a2881a6f81923475d7755",
+			"repository": "https://github.com/Zukaritasu/notepadpp_rpc/releases/download/v2.1.7/DiscordRPC_v2.1.7_x86.zip",
 			"description": "Shows in discord the file that is currently being edited in Notepad++.",
 			"author": "Zukaritasu",
 			"homepage": "https://github.com/Zukaritasu/notepadpp_rpc"

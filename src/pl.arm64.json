@@ -58,6 +58,16 @@
 			"homepage": "https://github.com/pnedev/comparePlus"
 		},
 		{
+			"folder-name": "DiscordRPC",
+			"display-name": "Discord Rich Presence",
+			"version": "2.1.711.1",
+			"id": "5d271bb0219ac204c9a45926a27c37e3cdd2d37e2b0939be475419cc238a4c39",
+			"repository": "https://github.com/Zukaritasu/notepadpp_rpc/releases/download/v2.1.7/DiscordRPC_v2.1.7_arm64.zip",
+			"description": "Shows in discord the file that is currently being edited in Notepad++.",
+			"author": "Zukaritasu",
+			"homepage": "https://github.com/Zukaritasu/notepadpp_rpc"
+		},
+		{
 			"folder-name": "EmojiDescription",
 			"display-name": "Emoji Description",
 			"version": "0.1.0",
