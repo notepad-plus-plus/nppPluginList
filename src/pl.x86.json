@@ -1,6 +1,6 @@
 {
 	"name": "npp-pluginList",
-	"version": "1.8.9",
+	"version": "1.9.2",
 	"arch": "32",
 	"npp-plugins": [
 		{
@@ -32,6 +32,28 @@
 			"description": "AnalysePlugin will help you to search for more than one search pattern at a time. Great for analysing big log files...\r\nLast changes and how to use you will find in Help... in Plugins Menu.",
 			"author": "Mattes H.",
 			"homepage": "https://sourceforge.net/projects/analyseplugin"
+		},
+		{
+			"folder-name": "AndroidLogger",
+			"display-name": "AndroidLogger",
+			"version": "1.4.3.4",
+			"npp-compatible-versions": "[7.8,]",
+			"id": "8c45c9a3540ee3bf0d487038880bb824c3150b1bd5a9156bce37f06f0f523596",
+			"repository": "https://github.com/glandon/AndroidLogger/releases/download/v1.4.3.4/AndroidLogger.v1.4.3.4.EN.x86.zip",
+			"description": "A comprehensive Android suite featuring real-time log/screen capture, integrated file explorer for rapid operations, and a smart command panel supporting one-click search/execution of commands with output retrieval.",
+			"author": "simbaba",
+			"homepage": "https://sourceforge.net/projects/androidlogger"
+		},
+		{
+			"folder-name": "AnotherMarkdown",
+			"display-name": "Another Markdown",
+			"version": "0.1.8",
+			"id": "df4caa6df5e5216edc6c7aa6071a2822d41f1ff1293ff9f9082bf31b85e9c9b7",
+			"repository": "https://github.com/ezyuzin/NppAnotherMarkdown/releases/download/0.1.8/AnotherMarkdown-0.1.8-x86.zip",
+			"description": "[Requires .NET framework v4.7.2]\r\nEasiest customizable, extendable preview and edit for Markdown files",
+			"author": "Evgeny Zyuzin",
+			"homepage": "https://github.com/ezyuzin/NppAnotherMarkdown",
+			"npp-compatible-versions": "[8.5,]"
 		},
 		{
 			"folder-name": "nppAutoDetectIndent",
@@ -138,6 +160,17 @@
 			"homepage": "https://github.com/MarioRosi/CADdyTools"
 		},
 		{
+			"folder-name": "NppChineseConverter",
+			"display-name": "Chinese Converter",
+			"version": "1.0.2",
+			"id": "4770a5fd77cb7e6cf75b64381e019448ee130ec39f135f31c92c523ec23b09db",
+			"repository": "https://github.com/lkk9898969/Npp_ChineseConverter/releases/download/v1.0.2/NppChineseConverter-x86.zip",
+			"description": "Traditional and Simplified conversion plugin for Notepad++",
+			"author": "lkk9898969",
+			"homepage": "https://github.com/lkk9898969/Npp_ChineseConverter",
+			"npp-compatible-versions": "[8.4.3,]"
+		},
+		{
 			"folder-name": "CodeAlignmentNpp",
 			"display-name": "Code Alignment",
 			"version": "14.1.107",
@@ -171,9 +204,9 @@
 		{
 			"folder-name": "ColumnsPlusPlus",
 			"display-name": "Columns++",
-			"version": "1.3",
-			"id": "879FDAA56128FBC070E3779C6EA8DFB217559D917C7C4BD1CF0B0D39F511ECED",
-			"repository": "https://github.com/Coises/ColumnsPlusPlus/releases/download/v1.3/ColumnsPlusPlus-1.3-x86.zip",
+			"version": "1.3.1",
+			"id": "26246F793C0A9AD74A76EC14E2DE3B387D1246AE4AA04A904F9CF532C65AA799",
+			"repository": "https://github.com/Coises/ColumnsPlusPlus/releases/download/v1.3.1/ColumnsPlusPlus-1.3.1-x86.zip",
 			"description": "Offers features for working with text and data arranged in columns, including an implementation of elastic tabstops, enhanced searching and sorting, column alignment and numeric calulations.",
 			"author": "Randall Joseph Fellmy",
 			"homepage": "https://github.com/Coises/ColumnsPlusPlus",
@@ -233,22 +266,11 @@
 			"npp-compatible-versions": "[8.5.4,]"
 		},
 		{
-			"folder-name": "ConfigUpdater",
-			"display-name": "ConfigUpdater",
-			"version": "2.4.0",
-			"id": "5a3f5af5492051876f8f7f7087bce351f5f37a6e1b6b2b63e2a360a1d1805034",
-			"repository": "https://github.com/pryrt/NppPlugin-ConfigUpdater/releases/download/v2.4.0/ConfigUpdater_v2.4.0_Win32.zip",
-			"description": "Notepad++ Plugin to keep Langs/Stylers/Themes config files up-to-date",
-			"author": "pryrt",
-			"homepage": "https://github.com/pryrt/NppPlugin-ConfigUpdater",
-			"npp-compatible-versions": "[8.8.1,]"
-		},
-		{
 			"folder-name": "CSScriptNpp",
 			"display-name": "CS-Script - C# Intellisense",
-			"version": "2.0.11.0",
-			"id": "5f2ad7e665d4aec9817c0666dd60f174e0ef9a587a67a91f5c9b8399a871d171",
-			"repository": "https://github.com/oleg-shilo/cs-script.npp/releases/download/v2.0.11.0/CSScriptNpp.2.0.11.0.x86.zip",
+			"version": "2.0.12.0",
+			"id": "b016c98312d54d7383477ca1948162aca8d2036ea25ff7efba39ce9fbef28177",
+			"repository": "https://github.com/oleg-shilo/cs-script.npp/releases/download/v2.0.12.0/CSScriptNpp.2.0.12.0.x86.zip",
 			"description": "CS-Script integration. Implements a real C# Intellisense solution based on CS-Script and Roslyn. Allows loading, executing modifying and debugging C# scripts in a way very similar to the Visual Studio C# projects support. This includes referencing assemblies and other scripts, code formatting, adding missing namespaces and intercepting Debug and Console output.",
 			"author": "Oleg Shilo",
 			"homepage": "https://github.com/oleg-shilo/cs-script.npp"
@@ -314,17 +336,17 @@
 			"npp-compatible-versions": "[7.7,]",
 			"old-versions-compatibility": "[,0.0.13.27][,7.6.6]",
 			"id": "6babcfbae65ced266a6073fe9bf6947a409266b63117b5c3c55d7a84ae1ac93d",
-			"repository": "https://bitbucket.org/rdipardo/dbgp/downloads/dbgpPlugin_v0.14.2.1_win32.zip",
+			"repository": "https://github.com/rdipardo/dbgpPlugin/releases/download/v0.14.2.1/dbgpPlugin_v0.14.2.1_win32.zip",
 			"description": "PHP debugger (XDebug) which talks with the DBGP protocol. Transforms Notepad++ into a PHP IDE.",
 			"author": "Damjan Zobo Cvetko",
-			"homepage": "https://bitbucket.org/rdipardo/dbgp"
+			"homepage": "https://github.com/rdipardo/dbgpPlugin"
 		},
 		{
 			"folder-name": "DiscordRPC",
 			"display-name": "Discord Rich Presence",
-			"version": "2.0.625.1",
-			"id": "0a776e3bf32772ce00ea2964922b6777ebde41cb32cfd71902c04433d9f20b72",
-			"repository": "https://github.com/Zukaritasu/notepadpp_rpc/releases/download/v2.0/DiscordRPC_v2.0_x86.zip",
+			"version": "2.1.711.1",
+			"id": "aeaa6f669036e8b2460ab9b708082f4cda26b3077f2a2881a6f81923475d7755",
+			"repository": "https://github.com/Zukaritasu/notepadpp_rpc/releases/download/v2.1.7/DiscordRPC_v2.1.7_x86.zip",
 			"description": "Shows in discord the file that is currently being edited in Notepad++.",
 			"author": "Zukaritasu",
 			"homepage": "https://github.com/Zukaritasu/notepadpp_rpc"
@@ -380,6 +402,16 @@
 			"description": "Support for Elastic Tabstops.",
 			"author": "Marius Vasiliu, Justin Dailey",
 			"homepage": "https://github.com/mariusv-github/ElasticTabstops"
+		},
+		{
+			"folder-name": "EmojiDescription",
+			"display-name": "Emoji Description",
+			"version": "0.1.0",
+			"id": "4d4fa84a1ace691970cf2502995bd955ccc75ddba01a64354835c17e59c61d22",
+			"repository": "https://github.com/Ruberoid/npp_emoji_description/releases/download/v0.1.0/EmojiDescription_x86_v0.1.0.zip",
+			"description": "Displays detailed character encoding information in the status bar. Shows Unicode code point, decimal/hexadecimal values, HTML entity, and UTF-8 byte sequence for any character including emoji.",
+			"author": "Ruberoid",
+			"homepage": "https://github.com/Ruberoid/npp_emoji_description"
 		},
 		{
 			"folder-name": "EnhanceAnyLexer",
@@ -571,11 +603,11 @@
 		{
 			"folder-name": "HTMLTag_unicode",
 			"display-name": "HTML Tag",
-			"version": "1.5.5.0",
+			"version": "1.5.6.0",
 			"npp-compatible-versions": "[7.7,]",
 			"old-versions-compatibility": "[,1.1][,7.6.6]",
-			"id": "4b7eefd0beb4a40f811ccc237020a86dac6285658b0593d625be779c8e7505f4",
-			"repository": "https://github.com/rdipardo/nppHTMLTag/releases/download/v1.5.5/HTMLTag_v1.5.5.zip",
+			"id": "7afc119737172892027e57b37c9014946e846c8508c205d395bacc07849b21a4",
+			"repository": "https://github.com/rdipardo/nppHTMLTag/releases/download/v1.5.6/HTMLTag_v1.5.6.zip",
 			"description": "Provides three core functions:\r\n- HTML and XML tag jumping, like the built-in brace matching and selection\r\n of tags and/or contents.\r\n- HTML entity encoding/decoding (example: é to &eacute;)\r\n- JS character encoding/decoding (example: é to \\u00E9)",
 			"author": "Martijn Coppoolse",
 			"homepage": "https://github.com/rdipardo/nppHTMLTag"
@@ -695,6 +727,16 @@
 			"homepage": "https://github.com/sunjw/jstoolnpp"
 		},
 		{
+			"folder-name": "Language_Selector",
+			"display-name": "Language Selector",
+			"version": "1.1.0.0",
+			"id": "1012233b087dd15668205c8f2af74ad45855893f83b911e03cc415efbf408f3b",
+			"repository": "https://github.com/hassaine-abdellah/npp-language-selector/releases/download/v1.1/Language_Selector_v1.1_x86.zip",
+			"description": "Set the programming language and see the syntax highlighting on new files without the need to save them, or to go each time to the menu to choose the language.\r\nYou can also pin your favorite languages on top of the list so you can easily access them.",
+			"author": "Abdellah Hassaine",
+			"homepage": "https://github.com/hassaine-abdellah"
+		},
+		{
 			"folder-name": "LanguageHelp",
 			"display-name": "LanguageHelp",
 			"version": "1.7.5.0",
@@ -778,9 +820,9 @@
 		{
 			"folder-name": "NppMarkdownPanel",
 			"display-name": "Markdown Panel",
-			"version": "0.9.0",
-			"id": "45004f2b0285365de03c246ead6295462b0898004461c313be14be519c522c34",
-			"repository": "https://github.com/mohzy83/NppMarkdownPanel/releases/download/0.9.0/NppMarkdownPanel-0.9.0.0-x86.zip",
+			"version": "0.9.1",
+			"id": "d9249efeda4ce8336b2cf871205464d4ddaca5e3bc9558d9ebf129d15137c23b",
+			"repository": "https://github.com/mohzy83/NppMarkdownPanel/releases/download/0.9.1/NppMarkdownPanel-0.9.1.0-x86.zip",
 			"description": "Lightweight plugin to display rendered Markdown files.",
 			"author": "Mohzy83",
 			"homepage": "https://github.com/mohzy83/NppMarkdownPanel"
@@ -840,10 +882,10 @@
 		{
 			"folder-name": "MultiReplace",
 			"display-name": "MultiReplace",
-			"version": "4.6.0.33",
+			"version": "4.6.1.34",
 			"npp-compatible-versions": "[8.5.4,]",
-			"id": "d543462179ee2a4eccb1df7b476d7738b1025baec6ac68c21a566534850129bb",
-			"repository": "https://github.com/daddel80/notepadpp-multireplace/releases/download/4.6.0.33/MultiReplace-v4.6.0.33-Win32.zip",
+			"id": "2ae0d718923b395fded1e0da782eef8e40862dbc95f5f3722314341028f3f662",
+			"repository": "https://github.com/daddel80/notepadpp-multireplace/releases/download/4.6.1.34/MultiReplace-v4.6.1.34-Win32.zip",
 			"description": "Multi-string replacement across single or multiple files; reusable search/replace lists; CSV column operations (targeting, sort, delete, replace); external lookup tables; rectangular selection support; conditional (if/then) and math logic.\r\n",
 			"author": "Thomas Knoefel",
 			"homepage": "https://github.com/daddel80/notepadpp-multireplace"
@@ -978,11 +1020,11 @@
 		{
 			"folder-name": "nppRandomStringGenerator",
 			"display-name": "npp Random String Generator",
-			"version": "1.9.6",
+			"version": "1.9.10",
 			"npp-compatible-versions": "[8.3,]",
 			"old-versions-compatibility": "[,1.3][,8.2.1]",
-			"id": "d476b2a5da998d35cb8804cd13176abd37d8179203f44d63c1d487be00245d2f",
-			"repository": "https://github.com/cmbsolutions/nppRandomStringGenerator/releases/download/v1.9.6/nppRandomStringGenerator.1.9.6.x86.zip",
+			"id": "e0a6b8c8021a1a42a57350b295fabcf4b4a68721cdf5a08fc8d1680349b00efb",
+			"repository": "https://github.com/cmbsolutions/nppRandomStringGenerator/releases/download/v1.9.10/nppRandomStringGenerator.1.9.10.x86.zip",
 			"description": "Generates random strings with configurable output.",
 			"author": "Maurice CMBSolutions",
 			"homepage": "https://github.com/cmbsolutions/nppRandomStringGenerator"
@@ -1039,6 +1081,16 @@
 			"homepage": "https://github.com/jeanpaulrichter/nppcrypt"
 		},
 		{
+			"folder-name": "NppESPHome",
+			"display-name": "NppESPHome",
+			"version": "1.0.26",
+			"id": "5e60f9c3c591b3e29c4d2f17e46399f3e9202b92352d65df21504c08d04930e0",
+			"repository": "https://github.com/atiburzi/NppESPHome-Plugin/releases/download/v1.0.26/NppESPHome_x32.zip",
+			"description": "Plugin to directly interact with ESPHome and easily manage related projects workflows in Windows environment.",
+			"author": "Andrea Tiburzi",
+			"homepage": "https://github.com/atiburzi/NppESPHome-Plugin"
+		},
+		{
 			"folder-name": "NppEventExec",
 			"display-name": "NppEventExec",
 			"version": "0.9.0",
@@ -1051,9 +1103,9 @@
 		{
 			"folder-name": "NppExec",
 			"display-name": "NppExec",
-			"version": "0.8.8",
-			"id": "83fcb24c2ab860d94d31783a213757c8137735154712ad28137c2fa452fec17f",
-			"repository": "https://github.com/d0vgan/nppexec/releases/download/v088/NppExec_088_dll.zip",
+			"version": "0.8.10",
+			"id": "49d6b8fd513edefdf895ae7b8fbf597c6f7c34081b7d1875ca11b8eb7b1a40c3",
+			"repository": "https://github.com/d0vgan/nppexec/releases/download/NppExec_v0810/NppExec_0810_dll.zip",
 			"description": "Execute commands or saved scripts without leaving Notepad++.",
 			"author": "Vitaliy Dovgan",
 			"homepage": "https://github.com/d0vgan/nppexec"
@@ -1247,9 +1299,9 @@
 		{
 			"folder-name": "NppVim",
 			"display-name": "NppVim",
-			"version": "1.6.0.0",
-			"id": "F3DA68DD627C7297AFC7B375D0F28C1C6ADC6EBEA9B682B0D058B9714A56FFF7",
-			"repository": "https://github.com/h-jangra/NppVim/releases/download/1.6.0.0/NppVim.zip",
+			"version": "1.12.0.0",
+			"id": "40d65ace274d1b306ab5b6f70cc6b891c9ffadaa37c2aa9e5978a7ce62687a5f",
+			"repository": "https://github.com/h-jangra/NppVim/releases/download/1.12.0.0/NppVim-1.12.0.0-x86.zip",
 			"description": "A Notepad++ plugin that adds Vim-style editing and key bindings.",
 			"author": "h-jangra",
 			"homepage": "https://github.com/h-jangra/NppVim"
@@ -1341,10 +1393,10 @@
 		{
 			"folder-name": "PreviewHTML",
 			"display-name": "Preview HTML",
-			"version": "1.4.2.1",
+			"version": "1.4.3.0",
 			"old-versions-compatibility": "[,1.3.3.1][,8.3.3]",
-			"id": "e47e2ac11308d3ffdd05b956c49baa4d280d65597474b2b0a0579c40ac7563ce",
-			"repository": "https://github.com/rdipardo/npp_preview/releases/download/v1.4.2.1/PreviewHTML_v1.4.2.1_win32.zip",
+			"id": "f6bfa9344c28020727f5f3be136d6f7688ae3ab4e59ce60803dbb1d180dd8451",
+			"repository": "https://github.com/rdipardo/npp_preview/releases/download/v1.4.3.0/PreviewHTML_v1.4.3.0_win32.zip",
 			"description": "Preview HTML files inside a WebView2 embedded browser, or preview Markdown, AsciiDoc, etc., rendered as HTML by an external program.",
 			"author": "Martijn Coppoolse",
 			"homepage": "https://github.com/rdipardo/npp_preview"
@@ -1812,6 +1864,17 @@
 			"homepage": "https://github.com/SinghRajenM/nppURLPlugin"
 		},
 		{
+			"folder-name": "VirtualFolders",
+			"display-name": "Virtual Folders",
+			"version": "1.0.3",
+			"npp-compatible-versions": "[8.8.5,]",
+			"id": "43238e68d9173af3d89a4a376dc92b6573dda82b45c32a5084d166171c71e0ad",
+			"repository": "https://github.com/FatihC/VirtualFolders/releases/download/v1.0.3/VirtualFolders-v1.0.3-x86.zip",
+			"description": "This plugin adds a dockable tree panel where you can create your own virtual folder structure. Group files from different paths, reorder them freely, and keep related resources together without touching the actual filesystem.",
+			"author": "Fatih Coşkun",
+			"homepage": "https://github.com/FatihC/VirtualFolders"
+		},
+		{
 			"folder-name": "VisualStudioLineCopy",
 			"display-name": "Visual Studio Line Copy",
 			"version": "1.0.0.2",
@@ -1920,38 +1983,6 @@
 			"description": "Tired of zooming your document everytime you just want to scroll but accidentally still holding the [Ctrl] key? Then this is what you want! It disables mouse zoom, keyboard zoom, or both.",
 			"author": "Stanislav Eckert",
 			"homepage": "https://github.com/StanDog/npp-zoomdisabler"
-		},
-		{
-			"folder-name": "AndroidLogger",
-			"display-name": "AndroidLogger",
-			"version": "1.4.3.4",
-			"npp-compatible-versions": "[7.8,]",
-			"id": "8c45c9a3540ee3bf0d487038880bb824c3150b1bd5a9156bce37f06f0f523596",
-			"repository": "https://github.com/glandon/AndroidLogger/releases/download/v1.4.3.4/AndroidLogger.v1.4.3.4.EN.x86.zip",
-			"description": "A comprehensive Android suite featuring real-time log/screen capture, integrated file explorer for rapid operations, and a smart command panel supporting one-click search/execution of commands with output retrieval.",
-			"author": "simbaba",
-			"homepage": "https://sourceforge.net/projects/androidlogger"
-		},
-		{
-			"folder-name": "VirtualFolders",
-			"display-name": "Virtual Folders",
-			"version": "1.0.2",
-			"npp-compatible-versions": "[8.8.5,]",
-			"id": "adc7056900b47c29060d9d6f3ce8b8b7e0cbc2bf1b778de524f767f8cd875cc8",
-			"repository": "https://github.com/FatihC/VirtualFolders/releases/download/v1.0.2/VirtualFolders-v1.0.2-x86.zip",
-			"description": "This plugin adds a dockable tree panel where you can create your own virtual folder structure. Group files from different paths, reorder them freely, and keep related resources together without touching the actual filesystem.",
-			"author": "Fatih Coşkun",
-			"homepage": "https://github.com/FatihC/VirtualFolders"
-		},
-		{
-			"folder-name": "NppESPHome",
-			"display-name": "NppESPHome",
-			"version": "1.0.26",
-			"id": "5e60f9c3c591b3e29c4d2f17e46399f3e9202b92352d65df21504c08d04930e0",
-			"repository": "https://github.com/atiburzi/NppESPHome-Plugin/releases/download/v1.0.26/NppESPHome_x32.zip",
-			"description": "Plugin to directly interact with ESPHome and easily manage related projects workflows in Windows environment.",
-			"author": "Andrea Tiburzi",
-			"homepage": "https://github.com/atiburzi/NppESPHome-Plugin"
 		}
 	]
 }
