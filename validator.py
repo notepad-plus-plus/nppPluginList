@@ -100,6 +100,33 @@ def gen_pl_table(filename):
     return tab_text
 
 
+def unique_json_keys_check(plugin, displaynames, foldernames, repositories):
+
+    found = False
+    for name in displaynames :
+       if plugin["display-name"] == name :
+           post_error(f'{plugin["display-name"]}: non unique display-name entry')
+           found = True
+    if found == False:
+           displaynames.append(plugin["display-name"])
+
+    found = False
+    for folder in foldernames :
+       if plugin["folder-name"] == folder :
+           post_error(f'{plugin["folder-name"]}: non unique folder-name entry')
+           found = True
+    if found == False:
+       foldernames.append(plugin["folder-name"])
+
+    found = False
+    for repo in repositories :
+       if plugin["repository"] == repo :
+           post_error(f'{plugin["repository"]}: non unique repository entry')
+           found = True
+    if found == False:
+       repositories.append(plugin["repository"])
+
+
 def parse(filename):
     try:
         schema = json.loads(open("pl.schema").read())
@@ -203,30 +230,10 @@ def parse(filename):
                        f'detected is {dll_version}, but the expected version is {version}.')
             continue
 
-        # Check the uniqueness of the JSON folder name, the display name, and the repository
-        found = False
-        for name in displaynames:
-            if plugin["display-name"] == name:
-                post_error(f'{plugin["display-name"]}: non unique display-name entry.')
-                found = True
-        if not found:
-            displaynames.append(plugin["display-name"])
 
-        found = False
-        for folder in foldernames:
-            if plugin["folder-name"] == folder:
-                post_error(f'{plugin["folder-name"]}: non unique folder-name entry.')
-                found = True
-        if found == False:
-            foldernames.append(plugin["folder-name"])
+        #check uniqueness of json folder-name, display-name and repository
+        unique_json_keys_check(plugin, displaynames, foldernames, repositories)
 
-        found = False
-        for repo in repositories:
-            if plugin["repository"] == repo:
-                post_error(f'{plugin["repository"]}: non unique repository entry.')
-                found = True
-        if found == False:
-            repositories.append(plugin["repository"])
 
 
 ARCHITECTURE_FILENAMES_MAPPING = {
