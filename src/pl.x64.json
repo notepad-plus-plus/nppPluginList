@@ -27,7 +27,7 @@
 			"folder-name": "AnalysePlugin",
 			"display-name": "AnalysePlugin",
 			"version": "1.13.49.0",
-			"npp-compatible-versions": "[8.3,]",
+			"-compatible-versions": "[8.3,]",
 			"old-versions-compatibility": "[,1.12.47.0][,8.2.1]",
 			"id": "5ff269f9981d5b21342179e188a75795092068925c44f92048d4cca75e091afc",
 			"repository": "https://sourceforge.net/projects/analyseplugin/files/binaries/v01.13-R49/AnalysePlugin-v01.13-R49-x64.zip",
@@ -39,7 +39,7 @@
 			"folder-name": "AndroidLogger",
 			"display-name": "AndroidLogger",
 			"version": "1.4.3.4",
-			"npp-compatible-versions": "[7.8,]",
+			"-compatible-versions": "[7.8,]",
 			"id": "76d13f9d474fc3d2ebf288c732768f3e80fa668b30336e3f7493347123c492d1",
 			"repository": "https://github.com/glandon/AndroidLogger/releases/download/v1.4.3.4/AndroidLogger.v1.4.3.4.EN.x64.zip",
 			"description": "A comprehensive Android suite featuring real-time log/screen capture, integrated file explorer for rapid operations, and a smart command panel supporting one-click search/execution of commands with output retrieval.",
@@ -1552,6 +1552,16 @@
 			"author": "Frank Fesevur",
 			"homepage": "https://www.fesevur.com/nppsnippets"
 		},
+        {
+            "folder-name": "NppStripIpAndHost",
+            "display-name": "NppStripIpAndHost",
+            "version": "1.0.0",
+            "id": "DDF4B9552CA11EFE30569CF939CCAE0E8CAD8B74A991E8B62FF50B83B9EA46F",
+            "repository": "https://github.com/larreblarsson/NppStripIpAndHost/releases/download/v.1.0.0/NppStripIpAndHost.zip",
+            "description": "Strips out sensitive IP addresses (IPv4 & IPv6) and hostnames from text files and server logs. Features a custom replacement UI and safe per-document undo.",
+            "author": "Tomas Larsson",
+            "homepage": "https://github.com/larreblarsson/NppStripIpAndHost.git"
+        },		
 		{
 			"folder-name": "nppplugin_solutionhub",
 			"display-name": "Solution Hub",
