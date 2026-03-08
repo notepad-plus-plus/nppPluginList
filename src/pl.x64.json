@@ -1791,6 +1791,18 @@
 			"description": "Tired of zooming your document everytime you just want to scroll but accidentally still holding the [Ctrl] key? Then this is what you want! It disables mouse zoom, keyboard zoom, or both.",
 			"author": "Stanislav Eckert",
 			"homepage": "https://github.com/StanDog/npp-zoomdisabler"
+		},
+		{
+			"folder-name": "NppCrossCheck",
+			"display-name": "NppCrossCheck",
+			"version": "1.1.0.0",
+			"npp-compatible-versions": "[8.4,]",
+			"old-versions-compatibility": "[,1.0.0.0][8.5,]",
+			"id": "f2c6256e468f10cd553748416c9f6bdcbaaa204a86ffac8831363b0852a3f009",
+			"repository": "https://github.com/pablo-code14/NppCrossCheck/releases/download/v1.1.0/NppCrossCheck_x64.zip",
+			"description": "Compare two lists in the current document.\r\nPlace the two lists separated by one or more blank lines and run the plugin to cross-check their contents.",
+			"author": "Pablo Lopez",
+			"homepage": "https://github.com/pablo-code14/NppCrossCheck"
 		}
 	]
 }
