@@ -1,6 +1,6 @@
 attrs==25.4.0
 certifi==2026.2.25
-charset-normalizer==3.4.4
+charset-normalizer==3.4.5
 idna==3.11
 jsonschema==4.25.1
 pyrsistent==0.20.0
