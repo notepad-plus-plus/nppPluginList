@@ -1556,8 +1556,8 @@
             "folder-name": "NppStripIpAndHost",
             "display-name": "NppStripIpAndHost",
             "version": "1.0.0",
-            "id": "CDDF4B9552CA11EFE30569CF939CCAE0E8CAD8B74A991E8B62FF50B83B9EA46F",
-            "repository": "https://github.com/larreblarsson/NppStripIpAndHost/releases/download/v.1.0.0/NppStripIpAndHost.zip",
+            "id": "F3ADC88E677EDEAB64380E94F9E9B8D4EAC2C95743449514BD718CE4AF8AAE4A",
+            "repository": "https://github.com/larreblarsson/NppStripIpAndHost/releases/download/1.0.0/NppStripIpAndHost_1.0.0_x64.zip",
             "description": "Strips out sensitive IP addresses (IPv4 & IPv6) and hostnames from text files and server logs. Features a custom replacement UI and safe per-document undo.",
             "author": "Tomas Larsson",
             "homepage": "https://github.com/larreblarsson/NppStripIpAndHost.git"
