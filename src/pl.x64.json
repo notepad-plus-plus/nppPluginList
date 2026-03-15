@@ -27,7 +27,7 @@
 			"folder-name": "AnalysePlugin",
 			"display-name": "AnalysePlugin",
 			"version": "1.13.49.0",
-			"-compatible-versions": "[8.3,]",
+			"npp-compatible-versions": "[8.3,]",
 			"old-versions-compatibility": "[,1.12.47.0][,8.2.1]",
 			"id": "5ff269f9981d5b21342179e188a75795092068925c44f92048d4cca75e091afc",
 			"repository": "https://sourceforge.net/projects/analyseplugin/files/binaries/v01.13-R49/AnalysePlugin-v01.13-R49-x64.zip",
