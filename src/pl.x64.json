@@ -39,7 +39,7 @@
 			"folder-name": "AndroidLogger",
 			"display-name": "AndroidLogger",
 			"version": "1.4.3.4",
-			"-compatible-versions": "[7.8,]",
+			"npp-compatible-versions": "[7.8,]",
 			"id": "76d13f9d474fc3d2ebf288c732768f3e80fa668b30336e3f7493347123c492d1",
 			"repository": "https://github.com/glandon/AndroidLogger/releases/download/v1.4.3.4/AndroidLogger.v1.4.3.4.EN.x64.zip",
 			"description": "A comprehensive Android suite featuring real-time log/screen capture, integrated file explorer for rapid operations, and a smart command panel supporting one-click search/execution of commands with output retrieval.",
