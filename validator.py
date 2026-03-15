@@ -1,6 +1,7 @@
 import io
 import json
 import os
+import re
 import shutil
 import sys
 import zipfile
@@ -9,7 +10,7 @@ from urllib.parse import unquote as unquote_url
 
 import requests
 from jsonschema import Draft202012Validator, FormatChecker
-from win32api import GetFileVersionInfo, LOWORD, HIWORD
+from win32api import GetFileVersionInfo, LOWORD, HIWORD, error as win32api_error
 
 api_url = os.environ.get('APPVEYOR_API_URL')
 has_error = False
@@ -55,6 +56,32 @@ def post_error(message):
         pprint(message)
 
 
+def format_version_range(version_range):
+    match = re.fullmatch(r'\[(.*?),(.*?)\]', version_range)
+    if not match:
+        return version_range
+
+    minimum, maximum = match.groups()
+    if minimum and maximum:
+        return f'{minimum} - {maximum}'
+    if minimum:
+        return f'>= {minimum}'
+    if maximum:
+        return f'<= {maximum}'
+    return version_range
+
+
+def format_old_versions_compatibility(compatibility):
+    match = re.fullmatch(r'\[(.*?),(.*?)\]\[(.*?),(.*?)\]', compatibility)
+    if not match:
+        return compatibility
+
+    plugin_minimum, plugin_maximum, npp_minimum, npp_maximum = match.groups()
+    plugin_range = format_version_range(f'[{plugin_minimum},{plugin_maximum}]')
+    npp_range = format_version_range(f'[{npp_minimum},{npp_maximum}]')
+    return f'older plugin versions {plugin_range} for Npp {npp_range}'
+
+
 def first_two_lines(description):
     if len(description) <= C_SUM_LEN:
         return ""
@@ -72,7 +99,8 @@ def rest_of_text(description):
 
 
 def gen_pl_table(filename):
-    pl = json.loads(open(filename).read())
+    with open(filename, encoding='utf-8') as plugin_list_file:
+        pl = json.loads(plugin_list_file.read())
     arch = pl["arch"]
     tab_text = "## Plugin List - %s bit%s" % (arch, TMPL_NEW_LINE * 2)
     tab_text += "version %s%s" % (pl["version"], TMPL_NEW_LINE * 2)
@@ -129,14 +157,16 @@ def unique_json_keys_check(plugin, displaynames, foldernames, repositories):
 
 def parse(filename):
     try:
-        schema = json.loads(open("pl.schema").read())
+        with open("pl.schema", encoding='utf-8') as schema_file:
+            schema = json.loads(schema_file.read())
         schema = Draft202012Validator(schema, format_checker=FormatChecker())
     except ValueError as e:
         post_error("pl.schema - " + str(e))
         return
 
     try:
-        pl = json.loads(open(filename).read())
+        with open(filename, encoding='utf-8') as plugin_list_file:
+            pl = json.loads(plugin_list_file.read())
     except ValueError as e:
         post_error(filename + " - " + str(e))
         return
@@ -155,25 +185,20 @@ def parse(filename):
     for plugin in pl["npp-plugins"]:
         print(plugin["display-name"], end='')
 
-        if 'npp-compatible-versions' not in plugin:
+        compatibility_messages = []
+        if 'npp-compatible-versions' in plugin:
+            compatibility_messages.append(
+                f'REQUIRES Npp {format_version_range(plugin["npp-compatible-versions"])}'
+            )
+        if 'old-versions-compatibility' in plugin:
+            compatibility_messages.append(
+                format_old_versions_compatibility(plugin["old-versions-compatibility"])
+            )
+
+        if not compatibility_messages:
             print()
         else:
-            import re
-            req_npp_version = plugin['npp-compatible-versions']
-            min_re = r'^\[.*\d+,'
-            max_re = r'^\[,\d+'
-            min_version = re.match(min_re, req_npp_version)
-            max_version = re.match(max_re, req_npp_version)
-            try:
-                if min_version is not None:
-                    req_npp_version = re.sub(min_re, f'{min_version.group(0)[:-1]} - ', req_npp_version)
-                if max_version is not None:
-                    req_npp_version = re.sub(max_re, f'<= {max_version.group(0)[2:]}', req_npp_version)
-            except:
-                pass
-
-            req_npp_version = re.sub(r'\s{2,}', ' ', re.sub(r'\[', '', re.sub(r'\]', '', req_npp_version)))
-            print(f' *** REQUIRES Npp {req_npp_version.strip()} ***')
+            print(f' *** {"; ".join(compatibility_messages)} ***')
 
         try:
             response = requests.get(unquote_url(plugin["repository"]))
@@ -221,7 +246,7 @@ def parse(filename):
 
         try:
             dll_version = get_version_number("./" + provided_architecture + "/" + dll_name)
-        except win32api.error:
+        except win32api_error:
             post_error(f'{plugin["display-name"]}: Does not contain any version information.')
             continue
 
@@ -252,7 +277,7 @@ if provided_architecture in ARCHITECTURE_FILENAMES_MAPPING:
 elif provided_architecture == "all_md":
     for key in ARCHITECTURE_FILENAMES_MAPPING.keys():
         json_file, output_file = ARCHITECTURE_FILENAMES_MAPPING[key]
-        with open(output_file, "w") as md_file:
+        with open(output_file, "w", encoding='utf-8') as md_file:
             md_file.write(gen_pl_table(json_file))
     if has_error:
         sys.exit(-2)
@@ -262,7 +287,7 @@ else:
     json_file, output_file = ARCHITECTURE_FILENAMES_MAPPING['x86']
 print(f'Provided architecture: {provided_architecture}.')
 parse(json_file)
-with open(output_file, "w") as md_file:
+with open(output_file, "w", encoding='utf-8') as md_file:
     md_file.write(gen_pl_table(json_file))
 
 if has_error:
