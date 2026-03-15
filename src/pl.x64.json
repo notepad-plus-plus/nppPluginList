@@ -1552,6 +1552,16 @@
 			"author": "Frank Fesevur",
 			"homepage": "https://www.fesevur.com/nppsnippets"
 		},
+        {
+            "folder-name": "NppStripIpAndHost",
+            "display-name": "NppStripIpAndHost",
+            "version": "1.0.0",
+            "id": "F3ADC88E677EDEAB64380E94F9E9B8D4EAC2C95743449514BD718CE4AF8AAE4A",
+            "repository": "https://github.com/larreblarsson/NppStripIpAndHost/releases/download/1.0.0/NppStripIpAndHost_1.0.0_x64.zip",
+            "description": "Strips out sensitive IP addresses (IPv4 & IPv6) and hostnames from text files and server logs. Features a custom replacement UI and safe per-document undo.",
+            "author": "Tomas Larsson",
+            "homepage": "https://github.com/larreblarsson/NppStripIpAndHost.git"
+        },		
 		{
 			"folder-name": "nppplugin_solutionhub",
 			"display-name": "Solution Hub",
