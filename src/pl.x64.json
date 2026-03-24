@@ -593,6 +593,16 @@
 			"homepage": "https://github.com/rdipardo/nppHTMLTag"
 		},
 		{
+			"folder-name": "HLASMLexer",
+			"display-name": "HLASM Lexer - Column-Aware Syntax Highlighting",
+			"version": "1.0.0",
+			"id": "72901da59c5f1b7f53d56b84d75cdde8d4618a99397d66429e8ba838105a1c67",
+			"repository": "https://github.com/Zaneham/hlasm-npp/releases/download/v1.0.0/HLASMLexer_x64.zip",
+			"description": "Column-aware syntax highlighting for IBM HLASM. Understands the 80-column punch card layout — labels, operations, operands, continuation markers and sequence numbers are each highlighted by their column position, not just keywords.",
+			"author": "Zane Hambly",
+			"homepage": "https://github.com/Zaneham/hlasm-npp"
+		},
+		{
 			"folder-name": "HugeFiles",
 			"display-name": "HugeFiles",
 			"version": "0.4.1",
