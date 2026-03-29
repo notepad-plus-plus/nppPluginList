@@ -1815,6 +1815,17 @@
 			"description": "Compare two lists in the current document.\r\nPlace the two lists separated by one or more blank lines and run the plugin to cross-check their contents.",
 			"author": "Pablo Lopez",
 			"homepage": "https://github.com/pablo-code14/NppCrossCheck"
+		},
+		{
+			"folder-name": "VSCodeKeymapNpp",
+			"display-name": "VSCode Keymap NPP",
+			"version": "0.1.0",
+			"npp-compatible-versions": "[8.8.6,]",
+			"id": "07d6750f00b57bdb83e7037913cb667f5ea8840df03726f9f1b95d1a671f1a2b",
+			"repository": "https://github.com/14ag/vscode-to-notepadpp/releases/download/v0.1.0/VSCodeKeymapNpp-0.1.0-x64.zip",
+			"description": "Brings a focused VS Code shortcut set to Notepad++ and blocks conflicting default shortcuts in strict mode.",
+			"author": "philip",
+			"homepage": "https://github.com/14ag/vscode-to-notepadpp"
 		}
 	]
 }
