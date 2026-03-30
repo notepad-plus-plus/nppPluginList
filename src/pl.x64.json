@@ -1690,12 +1690,12 @@
 			"homepage": "https://github.com/Megabyteceer/npp-task-list"
 		},
 		{
-			"folder-name": "NppTreeSitter",
+			"folder-name": "TreeSitterLexer",
 			"display-name": "TreeSitter",
 			"version": "1.0.0",
-			"id": "3975cecc0d49337363cb1f25aaf4f5370ad285865be83f232f8ada865b09b120",
+			"id": "719a1b191b4e3e535a3704c16d20d1fd66d0ab65b39c3a074e351b05a7e465ff",
 			"repository": "https://github.com/Thorium/NppTreeSitter/releases/download/1.0.0/NppTreeSitter-x64.zip",
-			"description": "Integrate Tree-sitter to Notpad++. AST-based syntax highlighting and code folding for many languages.",
+			"description": "Integrate Tree-sitter to Notepad++. AST-based syntax highlighting and code folding for many languages.",
 			"author": "Tuomas Hietanen",
 			"homepage": "https://github.com/Thorium/NppTreeSitter/"
 		},
