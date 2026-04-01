@@ -58,16 +58,6 @@
 			"npp-compatible-versions": "[8.5,]"
 		},
 		{
-			"folder-name": "NppAIAssistant",
-			"display-name": "NppAIAssistant",
-			"version": "0.1.0.0",
-			"id": "2C94E42609E9A49F9B9840D617CD345635E6E9F7FCF4F5975884C355554F955E",
-			"repository": "https://github.com/pingqLIN/NppAIAssistant/releases/download/v0.1.0/NppAIAssistant-0.1.0.0-x64.zip",
-			"description": "Lightweight AI assistant plugin for Notepad++ with visible prompts and single-turn behavior.",
-			"author": "pingqLIN",
-			"homepage": "https://github.com/pingqLIN/NppAIAssistant"
-		},
-		{
 			"folder-name": "nppAutoDetectIndent",
 			"display-name": "Auto Detect Indention",
 			"version": "2.3",
