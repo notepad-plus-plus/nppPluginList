@@ -1,6 +1,6 @@
 {
 	"name": "npp-pluginList",
-	"version": "1.9.1",
+	"version": "1.9.3",
 	"arch": "64",
 	"npp-plugins": [
 		{
@@ -366,9 +366,9 @@
 		{
 			"folder-name": "DiscordRPC",
 			"display-name": "Discord Rich Presence",
-			"version": "2.0.625.1",
-			"id": "bce28c82442dca8c317891a31ea11cc710b89eae4bf0d71c4b227c5bc20b6298",
-			"repository": "https://github.com/Zukaritasu/notepadpp_rpc/releases/download/v2.0/DiscordRPC_v2.0_x64.zip",
+			"version": "2.1.711.1",
+			"id": "e6a1bc2d41960b038110a9fe86d9dc8ebe5bca39bb833d666837e5e036625b7f",
+			"repository": "https://github.com/Zukaritasu/notepadpp_rpc/releases/download/v2.1.7/DiscordRPC_v2.1.7_x64.zip",
 			"description": "Shows in discord the file that is currently being edited in Notepad++.",
 			"author": "Zukaritasu",
 			"homepage": "https://github.com/Zukaritasu/notepadpp_rpc"
@@ -658,9 +658,9 @@
 		{
 			"folder-name": "JsonTools",
 			"display-name": "JSON Tools",
-			"version": "8.4",
-			"id": "2f24867113872812758b3908466514ac0a401f5ddad389777ff912a961c496ea",
-			"repository": "https://github.com/molsonkiko/JsonToolsNppPlugin/releases/download/v8.4/Release_x64.zip",
+			"version": "8.5",
+			"id": "2b430c399e3624ba02d4d9634cd4c307535cb10eafd5b478f630de866414e32a",
+			"repository": "https://github.com/molsonkiko/JsonToolsNppPlugin/releases/download/v8.5/Release_x64.zip",
 			"description": "Query/editing tool for JSON including linting, reformatting, a tree viewer with file navigation, JSON schema validation and generation, escaping/unescaping strings, and much more.\r\nThe tree viewer can also be used to explore CSV files and regex search results (experimental).",
 			"author": "Mark Johnston Olson",
 			"homepage": "https://github.com/molsonkiko/JsonToolsNppPlugin",
@@ -731,10 +731,10 @@
 		{
 			"folder-name": "Linter++",
 			"display-name": "Linter++",
-			"version": "1.0.2.0",
+			"version": "1.0.3.0",
 			"npp-compatible-versions": "[8.7.5,]",
-			"id": "4A053FFEDEB1E2A5135DC51677C44B824D02BA9539F2A25A4CD5466A368D3CD7",
-			"repository": "https://github.com/ThosRTanner/notepad-pp-linter/releases/download/1.0.2/plugin_dll_x64.zip",
+			"id": "36A0E9DD4F6AFC654C88719701A23898BB7FF90301A4B5B1D18B9EFBE1FF4402",
+			"repository": "https://github.com/ThosRTanner/notepad-pp-linter/releases/download/1.0.3/plugin_dll_x64.zip",
 			"description": "Allows realtime code check against any checkstyle-compatible linter: jshint, eslint, jscs, phpcs, csslint, and many others.",
 			"author": "Tom Tanner",
 			"homepage": "https://github.com/thosrtanner/notepad-pp-linter"
@@ -816,11 +816,11 @@
 		{
 			"folder-name": "MultiReplace",
 			"display-name": "MultiReplace",
-			"version": "4.6.1.34",
+			"version": "5.0.0.35",
 			"npp-compatible-versions": "[8.5.4,]",
-			"id": "8a69b11fdbd72f2033cb12fcb50d999353538e2bf26bf2c30e3b187cea199966",
-			"repository": "https://github.com/daddel80/notepadpp-multireplace/releases/download/4.6.1.34/MultiReplace-v4.6.1.34-x64.zip",
-			"description": "Multi-string replacement across single or multiple files; reusable search/replace lists; CSV column operations (targeting, sort, delete, replace); external lookup tables; rectangular selection support; conditional (if/then) and math logic.\r\n",
+			"id": "9218099e90e43901029a01ba9131462bfe0aacfcda7d6338e18efd78deb5a858",
+			"repository": "https://github.com/daddel80/notepadpp-multireplace/releases/download/5.0.0.35/MultiReplace-v5.0.0.35-x64.zip",
+			"description": "Multi-pattern search & replace across single or multiple files; reusable search/replace lists; CSV column operations (sort, delete, replace); FlowTabs for visual column alignment; external lookup tables; rectangular selection support; conditional (if/then) and math logic.\r\n",
 			"author": "Thomas Knoefel",
 			"homepage": "https://github.com/daddel80/notepadpp-multireplace"
 		},
@@ -975,16 +975,6 @@
 			"homepage": "https://github.com/vladk1973/npp.connections"
 		},
 		{
-			"folder-name": "nppcrypt",
-			"display-name": "NppCrypt",
-			"version": "1.0.1.6",
-			"id": "37d04936e9f4c33e6232a1333e405d19a7d5c32a26faef8e1172ff84a7930a6a",
-			"repository": "https://github.com/jeanpaulrichter/nppcrypt/releases/download/1.0.1.6/nppcrypt_1.0.1.6_x64.zip",
-			"description": "Encryption/decryption with various block ciphers, hash-algorithms, random-characters, encoding with Base-16/32/64.",
-			"author": "Jean Paul Richter",
-			"homepage": "https://github.com/jeanpaulrichter/nppcrypt"
-		},
-		{
 			"folder-name": "NppESPHome",
 			"display-name": "NppESPHome",
 			"version": "1.0.26",
@@ -1133,6 +1123,7 @@
 			"folder-name": "NppQrCode64",
 			"display-name": "NppQrCode",
 			"version": "0.0.0.3",
+			"npp-compatible-versions": "[8.4,]",
 			"old-versions-compatibility": "[,0.0.0.1][,8.3.3]",
 			"id": "3c14ee06e1aadd2456a04aa0674a8d55cb68f52a2f1839d77df2bc609f9e59c0",
 			"repository": "https://github.com/rdipardo/nppQrCode/releases/download/v0.0.0.3/NppQrCode-v0.0.0.3-x64.zip",
@@ -1195,9 +1186,9 @@
 		{
 			"folder-name": "NppVim",
 			"display-name": "NppVim",
-			"version": "1.10.0.0",
-			"id": "203f5d88f61874f94e4818519d917cd6838d2800da712bb91ad89e1749b76fa1",
-			"repository": "https://github.com/h-jangra/NppVim/releases/download/1.10.0.0/NppVim-1.10.0.0-x64.zip",
+			"version": "1.12.0.0",
+			"id": "ae9c9eccbe0aada4ebf56216b3239a846f0a3d503598376f1d3279219a114798",
+			"repository": "https://github.com/h-jangra/NppVim/releases/download/1.12.0.0/NppVim-1.12.0.0-x64.zip",
 			"description": "A Notepad++ plugin that adds Vim-style editing and key bindings.",
 			"author": "h-jangra",
 			"homepage": "https://github.com/h-jangra/NppVim"
@@ -1292,6 +1283,7 @@
 			"folder-name": "PreviewHTML",
 			"display-name": "Preview HTML",
 			"version": "1.4.3.0",
+			"npp-compatible-versions": "[8.4,]",
 			"old-versions-compatibility": "[,1.3.3.1][,8.3.3]",
 			"id": "495d6d82b35c467fab857953322c395771d5d13dfdc78f378c1a48b7da5e6e66",
 			"repository": "https://github.com/rdipardo/npp_preview/releases/download/v1.4.3.0/PreviewHTML_v1.4.3.0_x64.zip",
@@ -1552,6 +1544,16 @@
 			"author": "Frank Fesevur",
 			"homepage": "https://www.fesevur.com/nppsnippets"
 		},
+        {
+            "folder-name": "NppStripIpAndHost",
+            "display-name": "NppStripIpAndHost",
+            "version": "1.0.0",
+            "id": "F3ADC88E677EDEAB64380E94F9E9B8D4EAC2C95743449514BD718CE4AF8AAE4A",
+            "repository": "https://github.com/larreblarsson/NppStripIpAndHost/releases/download/1.0.0/NppStripIpAndHost_1.0.0_x64.zip",
+            "description": "Strips out sensitive IP addresses (IPv4 & IPv6) and hostnames from text files and server logs. Features a custom replacement UI and safe per-document undo.",
+            "author": "Tomas Larsson",
+            "homepage": "https://github.com/larreblarsson/NppStripIpAndHost.git"
+        },		
 		{
 			"folder-name": "nppplugin_solutionhub",
 			"display-name": "Solution Hub",
@@ -1743,9 +1745,9 @@
 		{
 			"folder-name": "WebEdit",
 			"display-name": "WebEdit",
-			"version": "2.9.0.0",
-			"id": "8c0c6363bc698535246db46f8844d7355e62902bbb3edac3fbd3a4dd77d5f7ec",
-			"repository": "https://github.com/Krazal/WebEdit/releases/download/v2.9.0.0/WebEdit.2.9.0.0.x64.zip",
+			"version": "2.9.0.1",
+			"id": "eb51c1cf60ee2e3ef86b0d9874e541e7976399dc7599b0018285a693859b2c27",
+			"repository": "https://github.com/Krazal/WebEdit/releases/download/v2.9.0.1/WebEdit.2.9.0.1.x64.zip",
 			"description": "Speed up your code editing! Enter an abbreviation (tag), press Alt + Enter, and expand the tag into a full code snippet. You can also wrap (surround) a selection e.g. with HTML tags.\r\n- More than 1000 preset tags: HTML (elements, attributes, BootStrap, Smarty, etc.), JavaScript (jQuery), CSS, PHP, SQL (MySQL, Eloquent ORM), etc.\r\n- Automatic or custom caret (cursor) positioning\r\n- Handling new lines, indents, etc.\r\n- Variables: clipboard content, current file name, custom date/time, etc.\r\n- Customizable tags in the plugin menu; assign tags to shortcuts\r\n- Customizable tags in the toolbar\r\n- Tag suggestions (similar tags)\r\n- Easy tag addition\r\n- Multiselect support\r\n- Unicode support\r\n- Over 17 years with Notepad++, now in 64-bit version!",
 			"author": "Alexander Iljin",
 			"homepage": "https://github.com/Krazal/WebEdit"
@@ -1791,6 +1793,18 @@
 			"description": "Tired of zooming your document everytime you just want to scroll but accidentally still holding the [Ctrl] key? Then this is what you want! It disables mouse zoom, keyboard zoom, or both.",
 			"author": "Stanislav Eckert",
 			"homepage": "https://github.com/StanDog/npp-zoomdisabler"
+		},
+		{
+			"folder-name": "NppCrossCheck",
+			"display-name": "NppCrossCheck",
+			"version": "1.1.0.0",
+			"npp-compatible-versions": "[8.4,]",
+			"old-versions-compatibility": "[,1.0.0.0][8.5,]",
+			"id": "f2c6256e468f10cd553748416c9f6bdcbaaa204a86ffac8831363b0852a3f009",
+			"repository": "https://github.com/pablo-code14/NppCrossCheck/releases/download/v1.1.0/NppCrossCheck_x64.zip",
+			"description": "Compare two lists in the current document.\r\nPlace the two lists separated by one or more blank lines and run the plugin to cross-check their contents.",
+			"author": "Pablo Lopez",
+			"homepage": "https://github.com/pablo-code14/NppCrossCheck"
 		}
 	]
 }

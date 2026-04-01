@@ -1,6 +1,6 @@
 {
 	"name": "npp-pluginList",
-	"version": "1.9.1",
+	"version": "1.9.3",
 	"arch": "arm64",
 	"npp-plugins": [
 		{
@@ -56,6 +56,16 @@
 			"description": "Advanced compare tool based on the well-known Compare-plugin by Ty Landercasper and Jean-Sebastien Leroy.",
 			"author": "Pavel Nedev",
 			"homepage": "https://github.com/pnedev/comparePlus"
+		},
+		{
+			"folder-name": "DiscordRPC",
+			"display-name": "Discord Rich Presence",
+			"version": "2.1.711.1",
+			"id": "5d271bb0219ac204c9a45926a27c37e3cdd2d37e2b0939be475419cc238a4c39",
+			"repository": "https://github.com/Zukaritasu/notepadpp_rpc/releases/download/v2.1.7/DiscordRPC_v2.1.7_arm64.zip",
+			"description": "Shows in discord the file that is currently being edited in Notepad++.",
+			"author": "Zukaritasu",
+			"homepage": "https://github.com/Zukaritasu/notepadpp_rpc"
 		},
 		{
 			"folder-name": "EmojiDescription",
@@ -152,10 +162,10 @@
 		{
 			"folder-name": "Linter++",
 			"display-name": "Linter++",
-			"version": "1.0.2.0",
+			"version": "1.0.3.0",
 			"npp-compatible-versions": "[8.7.5,]",
-			"id": "502B12B4BC54E56780861DEEECC4AB85631228BDCEB172D2B4726E5BEBBA3B42",
-			"repository": "https://github.com/ThosRTanner/notepad-pp-linter/releases/download/1.0.2/plugin_dll_ARM64.zip",
+			"id": "F56573351010B62BFC75039725496C8687D53E82A3F47074F1F1B629A37A92C1",
+			"repository": "https://github.com/ThosRTanner/notepad-pp-linter/releases/download/1.0.3/plugin_dll_ARM64.zip",
 			"description": "Allows realtime code check against any checkstyle-compatible linter: jshint, eslint, jscs, phpcs, csslint, and many others.",
 			"author": "Tom Tanner",
 			"homepage": "https://github.com/thosrtanner/notepad-pp-linter"
@@ -185,11 +195,11 @@
 		{
 			"folder-name": "MultiReplace",
 			"display-name": "MultiReplace",
-			"version": "4.6.1.34",
+			"version": "5.0.0.35",
 			"npp-compatible-versions": "[8.5.4,]",
-			"id": "4899e42e2a99aa083a27e12c9bd03d5561fd826007b9b44815f872aa85e297c8",
-			"repository": "https://github.com/daddel80/notepadpp-multireplace/releases/download/4.6.1.34/MultiReplace-v4.6.1.34-ARM64.zip",
-			"description": "Multi-string replacement across single or multiple files; reusable search/replace lists; CSV column operations (targeting, sort, delete, replace); external lookup tables; rectangular selection support; conditional (if/then) and math logic.\r\n",
+			"id": "3487f2b17b0f851995541eb8055068fbaab8d312bc70203dab7f0387ed11afad",
+			"repository": "https://github.com/daddel80/notepadpp-multireplace/releases/download/5.0.0.35/MultiReplace-v5.0.0.35-ARM64.zip",
+			"description": "Multi-pattern search & replace across single or multiple files; reusable search/replace lists; CSV column operations (sort, delete, replace); FlowTabs for visual column alignment; external lookup tables; rectangular selection support; conditional (if/then) and math logic.\r\n",
 			"author": "Thomas Knoefel",
 			"homepage": "https://github.com/daddel80/notepadpp-multireplace"
 		},
@@ -485,12 +495,24 @@
 		{
 			"folder-name": "WebEdit",
 			"display-name": "WebEdit",
-			"version": "2.9.0.0",
-			"id": "54f5321bc3d284ab36741cd998be76854c4f9dbd66e136f0eab68b961adc5577",
-			"repository": "https://github.com/Krazal/WebEdit/releases/download/v2.9.0.0/WebEdit.2.9.0.0.arm64.zip",
+			"version": "2.9.0.1",
+			"id": "6ff9b07114639ae40c9eeb1746651f464ad93440c45109a0158f91d53cd543c2",
+			"repository": "https://github.com/Krazal/WebEdit/releases/download/v2.9.0.1/WebEdit.2.9.0.1.arm64.zip",
 			"description": "Speed up your code editing! Enter an abbreviation (tag), press Alt + Enter, and expand the tag into a full code snippet. You can also wrap (surround) a selection e.g. with HTML tags.\r\n- More than 1000 preset tags: HTML (elements, attributes, BootStrap, Smarty, etc.), JavaScript (jQuery), CSS, PHP, SQL (MySQL, Eloquent ORM), etc.\r\n- Automatic or custom caret (cursor) positioning\r\n- Handling new lines, indents, etc.\r\n- Variables: clipboard content, current file name, custom date/time, etc.\r\n- Customizable tags in the plugin menu; assign tags to shortcuts\r\n- Customizable tags in the toolbar\r\n- Tag suggestions (similar tags)\r\n- Easy tag addition\r\n- Multiselect support\r\n- Unicode support\r\n- Over 17 years with Notepad++, now in 64-bit version!",
 			"author": "Alexander Iljin",
 			"homepage": "https://github.com/Krazal/WebEdit"
+		},
+		{
+			"folder-name": "NppCrossCheck",
+			"display-name": "NppCrossCheck",
+			"version": "1.1.0.0",
+			"npp-compatible-versions": "[8.4,]",
+			"old-versions-compatibility": "[,1.0.0.0][8.5,]",
+			"id": "e14f9886e643973571480dce2dd848eaaee8f5ee121718ea1f7ad84b0c577d1e",
+			"repository": "https://github.com/pablo-code14/NppCrossCheck/releases/download/v1.1.0/NppCrossCheck_arm64.zip",
+			"description": "Compare two lists in the current document.\r\nPlace the two lists separated by one or more blank lines and run the plugin to cross-check their contents.",
+			"author": "Pablo Lopez",
+			"homepage": "https://github.com/pablo-code14/NppCrossCheck"
 		}
 	]
 }
