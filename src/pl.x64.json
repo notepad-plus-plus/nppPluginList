@@ -1690,16 +1690,6 @@
 			"homepage": "https://github.com/Megabyteceer/npp-task-list"
 		},
 		{
-			"folder-name": "TreeSitterLexer",
-			"display-name": "TreeSitter",
-			"version": "1.0.0",
-			"id": "719a1b191b4e3e535a3704c16d20d1fd66d0ab65b39c3a074e351b05a7e465ff",
-			"repository": "https://github.com/Thorium/NppTreeSitter/releases/download/1.0.0/NppTreeSitter-x64.zip",
-			"description": "Integrate Tree-sitter to Notepad++. AST-based syntax highlighting and code folding for many languages.",
-			"author": "Tuomas Hietanen",
-			"homepage": "https://github.com/Thorium/NppTreeSitter/"
-		},
-		{
 			"folder-name": "NppToolBucket",
 			"display-name": "ToolBucket",
 			"version": "1.10.6622.41516",
@@ -1728,6 +1718,16 @@
 			"description": "Main operations for SVN, with a concept of a root solution directory. Note: Uses Tortoise SVN internally so you have to have this installed. Available at http://tortoisesvn.tigris.org/",
 			"author": "IncredibleJunior",
 			"homepage": "https://www.incrediblejunior.com/npp_plugins/"
+		},
+		{
+			"folder-name": "TreeSitterLexer",
+			"display-name": "TreeSitter",
+			"version": "1.0.0",
+			"id": "93e4214d9360fe4e9fd3be4dfc1e2a2869ea5a1c9fdb64e1662a2f5effd36c52",
+			"repository": "https://github.com/Thorium/NppTreeSitter/releases/download/1.0.0/NppTreeSitter-x64.zip",
+			"description": "Integrate Tree-sitter to Notepad++. AST-based syntax highlighting and code folding for many languages.",
+			"author": "Tuomas Hietanen",
+			"homepage": "https://github.com/Thorium/NppTreeSitter/"
 		},
 		{
 			"folder-name": "urlPlugin",
