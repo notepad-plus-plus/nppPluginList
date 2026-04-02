@@ -1700,6 +1700,16 @@
 			"homepage": "https://www.incrediblejunior.com/npp_plugins/"
 		},
 		{
+			"folder-name": "TreeSitterLexer",
+			"display-name": "TreeSitter",
+			"version": "1.0.0",
+			"id": "93e4214d9360fe4e9fd3be4dfc1e2a2869ea5a1c9fdb64e1662a2f5effd36c52",
+			"repository": "https://github.com/Thorium/NppTreeSitter/releases/download/1.0.0/NppTreeSitter-x64.zip",
+			"description": "Integrate Tree-sitter to Notepad++. AST-based syntax highlighting and code folding for many languages.",
+			"author": "Tuomas Hietanen",
+			"homepage": "https://github.com/Thorium/NppTreeSitter/"
+		},
+		{
 			"folder-name": "urlPlugin",
 			"display-name": "URL Encode/Decode Plugin",
 			"version": "1.2.0.0",

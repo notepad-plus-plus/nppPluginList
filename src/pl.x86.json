@@ -1846,6 +1846,16 @@
 			"homepage": "https://sourceforge.net/projects/npptranslate/"
 		},
 		{
+			"folder-name": "TreeSitterLexer",
+			"display-name": "TreeSitter",
+			"version": "1.0.0",
+			"id": "27edd5e8c21e35748b3a1d6faf5f1bb98a5f893ba6c488b6a15d98eedc98eafe",
+			"repository": "https://github.com/Thorium/NppTreeSitter/releases/download/1.0.0/NppTreeSitter-x86.zip",
+			"description": "Integrate Tree-sitter to Notepad++. AST-based syntax highlighting and code folding for many languages.",
+			"author": "Tuomas Hietanen",
+			"homepage": "https://github.com/Thorium/NppTreeSitter/"
+		},
+		{
 			"folder-name": "urlPlugin",
 			"display-name": "URL Encode/Decode Plugin",
 			"version": "1.2.0.0",
