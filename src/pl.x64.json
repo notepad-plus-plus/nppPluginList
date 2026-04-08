@@ -985,6 +985,16 @@
 			"homepage": "https://github.com/vladk1973/npp.connections"
 		},
 		{
+			"folder-name": "nppcrypt",
+			"display-name": "NppCrypt",
+			"version": "1.0.1.6",
+			"id": "134e6a10b088bc65d67d5d2bee1a56abd9495783cd84d3c0e76365361243368d",
+			"repository": "https://github.com/chcg/nppcrypt/releases/download/1.0.1.6/nppcrypt_1.0.1.6_x64.zip",
+			"description": "Encryption/decryption with various block ciphers, hash-algorithms, random-characters, encoding with Base-16/32/64. Recompiled from forked repo as orig https://github.com/jeanpaulrichter/nppcrypt was deleted.",
+			"author": "Jean Paul Richter",
+			"homepage": "https://github.com/chcg/nppcrypt"
+		},
+		{
 			"folder-name": "NppESPHome",
 			"display-name": "NppESPHome",
 			"version": "1.0.26",
