@@ -964,6 +964,16 @@
 			"homepage": "https://github.com/cmbsolutions/nppRandomStringGenerator"
 		},
 		{
+		    "folder-name": "NppSync",
+		    "display-name": "NppSync",
+		    "version": "0.1.0",
+		    "id": "8c4e839aa7a87155aeb21f95d4021f5530db480fcf7bb2cccaf64b9b0058e86e",
+		    "repository": "https://github.com/belarrem/NppSync/releases/download/v0.1/NppSync_x64.zip",
+		    "description": "Syncs scratch notes across machines via a shared folder. If you like to fire up Notepad++ to take a quick note and wish it followed you to another machine, this plugin is for you. No accounts, no servers — just a folder.",
+		    "author": "Mohammed Belarrem",
+		    "homepage": "https://github.com/belarrem/NppSync"
+  		},
+		{
 			"folder-name": "NppXmlTreeviewPlugin",
 			"display-name": "Npp Xml Treeview",
 			"version": "2.0.0",
