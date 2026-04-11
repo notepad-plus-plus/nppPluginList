@@ -1256,6 +1256,16 @@
 			"homepage": "https://github.com/viper3400/RegExTractor/wiki/de_userdocumentation"
 		},
 		{
+		    "folder-name": "NppSync",
+		    "display-name": "NppSync",
+		    "version": "0.1.0",
+		    "id": "366f6d19d1260d90558d73287c0d942f960cae9d7792a14ba07c79b6c62664d1",
+		    "repository": "https://github.com/belarrem/NppSync/releases/download/v0.1/NppSync_x86.zip",
+		    "description": "Syncs scratch notes across machines via a shared folder. If you like to fire up Notepad++ to take a quick note and wish it followed you to another machine, this plugin is for you. No accounts, no servers — just a folder.",
+		    "author": "Mohammed Belarrem",
+		    "homepage": "https://github.com/belarrem/NppSync"
+		},
+		{
 			"folder-name": "NppTags",
 			"display-name": "NppTags",
 			"version": "0.9.1",
