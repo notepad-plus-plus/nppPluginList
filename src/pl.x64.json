@@ -1722,6 +1722,17 @@
 			"homepage": "https://github.com/Megabyteceer/npp-task-list"
 		},
 		{
+			"folder-name": "TCSyslogFinder",
+			"display-name": "TC Syslog Finder",
+			"version": "1.0.0.0",
+			"npp-compatible-versions": "[8.0,]",
+			"id": "09a462e5e025bbb63b81d636974ba3c11a7849e4f4ea7deb4ea225321f380b63",
+			"repository": "https://github.com/bsagarzazu/npp-tc-syslog-finder/releases/download/v1.0.0/TCSyslogFinder_v1.0.0_x64.zip",
+			"description": "Instantly find and open the latest Teamcenter syslog in Notepad++.",
+			"author": "bsagarzazu",
+			"homepage": "https://github.com/bsagarzazu/npp-tc-syslog-finder"
+		},
+		{
 			"folder-name": "NppToolBucket",
 			"display-name": "ToolBucket",
 			"version": "1.10.6622.41516",
