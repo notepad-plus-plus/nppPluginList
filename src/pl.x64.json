@@ -1797,11 +1797,12 @@
 		{
 			"folder-name": "VSCodeKeymapNpp",
 			"display-name": "VSCode Keymap NPP",
-			"version": "0.1.0",
+			"version": "0.2.0",
 			"npp-compatible-versions": "[8.8.6,]",
-			"id": "07d6750f00b57bdb83e7037913cb667f5ea8840df03726f9f1b95d1a671f1a2b",
-			"repository": "https://github.com/14ag/vscode-to-notepadpp/releases/download/v0.1.0/VSCodeKeymapNpp-0.1.0-x64.zip",
-			"description": "Brings a focused VS Code shortcut set to Notepad++ and blocks conflicting default shortcuts in strict mode.",
+			"id": "0e3e542d5434c66775ee79742ffcf53b874dc9df87ba6e8cb00b5aded7cd4d47",
+			"repository": "https://github.com/14ag/vscode-to-notepadpp/releases/download/v0.2.0/VSCodeKeymapNpp-0.2.0-x64.zip",
+			"description": "Ports the stock Windows VS Code shortcuts to Notepad++ as far as Notepad++ can reasonably follow them.
+Maps clean Notepad++ or Scintilla equivalents, blocks conflicting fallthrough in strict mode, and keeps the rest documented in the coverage report.",
 			"author": "philip",
 			"homepage": "https://github.com/14ag/vscode-to-notepadpp"
 		},

@@ -1919,6 +1919,17 @@
 			"homepage": "https://sourceforge.net/projects/notepad-visualstudiolinecopy/"
 		},
 		{
+			"folder-name": "VSCodeKeymapNpp",
+			"display-name": "VSCode Keymap NPP",
+			"version": "0.2.0",
+			"npp-compatible-versions": "[8.8.6,]",
+			"id": "93cae6931d0c08f0dae9ed448561e5910ea5b38c8a1bd114d6fb7f3c40c38f34",
+			"repository": "https://github.com/14ag/vscode-to-notepadpp/releases/download/v0.2.0/VSCodeKeymapNpp-0.2.0-x86.zip",
+			"description": "Ports the stock Windows VS Code shortcuts to Notepad++ as far as Notepad++ can reasonably follow them.\r\nMaps clean Notepad++ or Scintilla equivalents, blocks conflicting fallthrough in strict mode, and keeps the rest documented in the coverage report.",
+			"author": "philip",
+			"homepage": "https://github.com/14ag/vscode-to-notepadpp"
+		},
+		{
 			"folder-name": "WakaTime",
 			"display-name": "WakaTime",
 			"version": "5.1.1",
