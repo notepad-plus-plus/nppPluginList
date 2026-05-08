@@ -110,10 +110,10 @@
 		{
 			"folder-name": "HTMLTag",
 			"display-name": "HTML Tag",
-			"version": "1.5.6.0",
+			"version": "1.6.0.0",
 			"npp-compatible-versions": "[8.3,]",
-			"id": "42ab10c8bd4d429c425cc00208cf81e24e0e95d07ac146aa5ef0f6c3a40f5c7f",
-			"repository": "https://github.com/rdipardo/nppHTMLTag/releases/download/v1.5.6/HTMLTag_v1.5.6_arm64.zip",
+			"id": "0f172f4244f31c180953682d3d30ba0c912ded7e2b235fea22aa9a117cb327bb",
+			"repository": "https://github.com/rdipardo/nppHTMLTag/releases/download/v1.6.0/HTMLTag_v1.6.0_arm64.zip",
 			"description": "Provides three core functions:\r\n- HTML and XML tag jumping, like the built-in brace matching and selection\r\n of tags and/or contents.\r\n- HTML entity encoding/decoding (example: é to &eacute;)\r\n- JS character encoding/decoding (example: é to \\u00E9)",
 			"author": "Martijn Coppoolse",
 			"homepage": "https://github.com/rdipardo/nppHTMLTag"
