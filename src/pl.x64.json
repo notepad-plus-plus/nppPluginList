@@ -1794,6 +1794,16 @@
 			"homepage": "https://github.com/FatihC/VirtualFolders"
 		},
 		{
+			"folder-name": "VirtualTabGroups",
+			"display-name": "Virtual Tab Groups",
+			"version": "1.0.0",
+			"id": "78e869ba856192017bfb0ef06fa55af9efb0e545ecb20032efb4ef8f38063713",
+			"repository": "https://github.com/JamesShaver/VirtualTabGroups/releases/download/v1.0.0/VirtualTabGroups_x64.zip",
+			"description": "Dockable panel that organizes open documents into virtual folders. Group files into custom hierarchies independent of disk layout — folder structure, panel visibility, and unsaved-buffer references all persist across Notepad++ sessions. Supports drag-and-drop, multi-select, file aliasing, and dark mode.",
+			"author": "James Shaver",
+			"homepage": "https://github.com/JamesShaver/VirtualTabGroups"
+		},
+		{
 			"folder-name": "VisualStudioLineCopy",
 			"display-name": "Visual Studio Line Copy",
 			"version": "1.0.0.2",
