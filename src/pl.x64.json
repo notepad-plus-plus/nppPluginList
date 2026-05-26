@@ -512,6 +512,16 @@
 			"homepage": "https://github.com/ufo/filefinder"
 		},
 		{
+			"folder-name": "FingerText2",
+			"display-name": "FingerText2",
+			"version": "26.5.26.1",
+			"id": "37787783088f5f469bc6aa50d230ddcbe5d51d90cb0ef7a301feec203a94f790",
+			"repository": "https://github.com/ultimatejimmy/FingerText2/releases/download/26.5.26.1/FingerText2_26.5.26.1_64bit.zip",
+			"description": "Tab-triggered snippet plugin with hotspot navigation, dynamic hotspots, and a snippet dock.",
+			"author": "Jimmy Pautz",
+			"homepage": "https://github.com/ultimatejimmy/FingerText2"
+		},
+		{
 			"folder-name": "FWDataViz",
 			"display-name": "Fixed-width Data Visualizer",
 			"version": "2.6.7.0",
