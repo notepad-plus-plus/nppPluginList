@@ -518,6 +518,16 @@
 			"homepage": "https://sourceforge.net/projects/fingertext/"
 		},
 		{
+			"folder-name": "FingerText2",
+			"display-name": "FingerText2",
+			"version": "26.5.26.1",
+			"id": "f3b43cd748ad880618f3e016d8f225bcf964b66cf9884ebef266a159d12d030e",
+			"repository": "https://github.com/ultimatejimmy/FingerText2/releases/download/26.5.26.1/FingerText2_26.5.26.1_32bit.zip",
+			"description": "Tab-triggered snippet plugin with hotspot navigation, dynamic hotspots, and a snippet dock.",
+			"author": "Jimmy Pautz",
+			"homepage": "https://github.com/ultimatejimmy/FingerText2"
+		},
+		{
 			"folder-name": "FWDataViz",
 			"display-name": "Fixed-width Data Visualizer",
 			"version": "2.6.7.0",
