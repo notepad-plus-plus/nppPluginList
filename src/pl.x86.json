@@ -266,6 +266,16 @@
 			"npp-compatible-versions": "[8.5.4,]"
 		},
 		{
+			"folder-name": "CompressedFileViewer",
+			"display-name": "CompressedFileViewer",
+			"version": "5.1.0",
+			"id": "038168ef0c3714de65fb3f245cf2cb0d9dc4d196f4f9ed7a45ff398ef8c814b0",
+			"repository": "https://github.com/Pascal-Krenckel/CompressedFileViewer/releases/download/v5.1.0/CompressedFileViewerX86.zip",
+			"description": "[Requires .Net 8] A Notepad++ plugin to open and save files in the gzip, bzip2, brotli, XZ or ZStd format.",
+			"author": "Pascal Krenckel",
+			"homepage": "https://github.com/Pascal-Krenckel/CompressedFileViewer"
+		},
+		{
 			"folder-name": "CSScriptNpp",
 			"display-name": "CS-Script - C# Intellisense",
 			"version": "2.0.13.0",
