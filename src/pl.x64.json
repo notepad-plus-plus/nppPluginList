@@ -295,6 +295,16 @@
 			"homepage": "https://github.com/Coises/Compose-for-NotepadPlusPlus",
 			"npp-compatible-versions": "[8.5.4,]"
 		},
+	    {
+			"folder-name": "CompressedFileViewer",
+			"display-name": "CompressedFileViewer",
+			"version": "5.1.0",
+			"id": "5dd420a36f6ea99812f59ae52eb03aa2ec7ce77c96582923f6bf88513832cde8",
+			"repository": "https://github.com/Pascal-Krenckel/CompressedFileViewer/releases/download/v5.1.0-ver/CompressedFileViewerX64.zip",
+			"description": "[Requires .Net 8] A Notepad++ plugin to open and save files in the gzip, bzip2, brotli, XZ or ZStd format.",
+			"author": "Pascal Krenckel",
+			"homepage": "https://github.com/Pascal-Krenckel/CompressedFileViewer"
+		},
 		{
 			"folder-name": "CSScriptNpp",
 			"display-name": "CS-Script - C# Intellisense",
@@ -1122,11 +1132,11 @@
 		},
 		{
 			"folder-name": "NppGZipFileViewer",
-			"display-name": "NppGZipFileViewer",
-			"version": "3.0.1",
-			"id": "283b61717686faea40598e2b9376304341324eb51c01100fd30c0580a66dc9bb",
-			"repository": "https://github.com/Pascal-Krenckel/NppGZipFileViewer/releases/download/v3.0.1/NppGZipFileViewerX64.top.zip",
-			"description": "A Notepad++ plugin to open and save files in the gzip or bzip2 format.",
+			"display-name": "NppGZipFileViewer [Deprecated]",
+			"version": "4.0.0",
+			"id": "7194976da3945d29e56ed4d7e9bffd0740de9ddf0dda8c6c7a3fccf25c63ed30",
+			"repository": "https://github.com/Pascal-Krenckel/NppGZipFileViewer/releases/download/v4.0.0-Deprecated/NppGZipFileViewerX64.top.zip",
+			"description": "[Requires .Net Framework 4.8] A Notepad++ plugin to open and save files in the gzip or bzip2 format. This plugin is deprecated, please use CompressedFileViewer",
 			"author": "Pascal Krenckel",
 			"homepage": "https://github.com/Pascal-Krenckel/NppGZipFileViewer"
 		},
