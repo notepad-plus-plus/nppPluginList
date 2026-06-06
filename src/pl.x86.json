@@ -912,11 +912,11 @@
 		{
 			"folder-name": "MultiReplace",
 			"display-name": "MultiReplace",
-			"version": "5.0.0.35",
+			"version": "6.0.0.36",
 			"npp-compatible-versions": "[8.5.4,]",
-			"id": "fc49ccac120b0f8c38c55856901de4dffe3ff2249a645971e195ab33b158e235",
-			"repository": "https://github.com/daddel80/notepadpp-multireplace/releases/download/5.0.0.35/MultiReplace-v5.0.0.35-Win32.zip",
-			"description": "Multi-pattern search & replace across single or multiple files; reusable search/replace lists; CSV column operations (sort, delete, replace); FlowTabs for visual column alignment; external lookup tables; rectangular selection support; conditional (if/then) and math logic.\r\n",
+			"id": "2c489c06beb8fcda1059febd88dfb89984b478f8489b1096e5efc59aa77b63a0",
+			"repository": "https://github.com/daddel80/notepadpp-multireplace/releases/download/6.0.0.36/MultiReplace-v6.0.0.36-Win32.zip",
+			"description": "Multi-pattern search & replace across single or multiple files; reusable search & replace lists; CSV column operations (sort, delete, deduplicate); FlowTabs for visual column alignment; dockable search results; rectangular selection support; Lua/ExprTk formula engine with conditional and math logic.\r\n",
 			"author": "Thomas Knoefel",
 			"homepage": "https://github.com/daddel80/notepadpp-multireplace"
 		},
