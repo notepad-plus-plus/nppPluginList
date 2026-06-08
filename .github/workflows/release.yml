@@ -84,7 +84,7 @@ jobs:
                 doc\plugin_list_x86.md
 
     - name: Archive artifacts for ARM64
-      if: matrix.build_platform == 'arm64' && matrix.build_configuration == 'Release'
+      if: matrix.build_platform == 'ARM64' && matrix.build_configuration == 'Release'
       uses: actions/upload-artifact@v7
       with:
           name: plugin_dll_and_list_arm64
@@ -93,18 +93,18 @@ jobs:
                 doc\plugin_list_arm64.md
 
     - name: Checkout main branch if push trigger is a tag
-      if: github.repository_owner == 'notepad-plus-plus' && github.ref_type == 'tag' && matrix.build_platform == 'arm64' && matrix.build_configuration == 'Release'
+      if: github.repository_owner == 'notepad-plus-plus' && github.ref_type == 'tag' && matrix.build_platform == 'ARM64' && matrix.build_configuration == 'Release'
       run: |
            git fetch --all
            git checkout master
 
     - name: Generate all plugin lists markdown from json on tagging
-      if: startsWith(github.ref, 'refs/tags/') && matrix.build_platform == 'arm64' && matrix.build_configuration == 'Release'
+      if: startsWith(github.ref, 'refs/tags/') && matrix.build_platform == 'ARM64' && matrix.build_configuration == 'Release'
       working-directory: .
       run: python validator.py all_md
 
     - name: Push markdown changes on tagging
-      if: startsWith(github.ref, 'refs/tags/') && matrix.build_platform == 'arm64' && matrix.build_configuration == 'Release'
+      if: startsWith(github.ref, 'refs/tags/') && matrix.build_platform == 'ARM64' && matrix.build_configuration == 'Release'
       uses: stefanzweifel/git-auto-commit-action@v7
       with:
         file_pattern: 'doc/*.md'
