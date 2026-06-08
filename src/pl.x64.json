@@ -363,6 +363,17 @@
 			"homepage": "https://sourceforge.net/projects/customlinenumbers"
 		},
 		{
+			"folder-name": "dark_mode_C",
+			"display-name": "Dark Mode C",
+			"version": "1.0.2",
+			"npp-compatible-versions": "[8.0,]",
+			"id": "33F60B772FDC443EF611B0447533893C4033572B35862DADC6DDA764E4A92CBA",
+			"repository": "https://github.com/pullitall/Notepadpp-light-dark-switch-and-automatic-switch-based-on-location/releases/download/1.0.2/DARK_MODE_NPP_x64.zip",
+			"description": "Adds toolbar icons to instantly switch between light and dark mode with no restart required. Features an automatic mode that dynamically toggles your theme based on local sunrise and sunset times.",
+			"author": "pullitall",
+			"homepage": "https://github.com/pullitall/Notepadpp-light-dark-switch-and-automatic-switch-based-on-location"
+		},
+		{
 			"folder-name": "dbgpPlugin",
 			"display-name": "DBGp",
 			"version": "0.14.2.1",
