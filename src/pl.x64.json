@@ -295,7 +295,7 @@
 			"homepage": "https://github.com/Coises/Compose-for-NotepadPlusPlus",
 			"npp-compatible-versions": "[8.5.4,]"
 		},
-	    {
+		{
 			"folder-name": "CompressedFileViewer",
 			"display-name": "CompressedFileViewer",
 			"version": "5.1.0",
@@ -814,10 +814,10 @@
 		{
 			"folder-name": "MarkdownTableEditor",
 			"display-name": "Markdown Table Editor",
-			"version": "0.7.0",
+			"version": "0.8.0",
 			"npp-compatible-versions": "[8.3.1,]",
-			"id": "86896eee7f2f4bc05ed00692090d39188dd06916e5b030b9c764d3235c2c5325",
-			"repository": "https://github.com/krotname/NppMarkdownTableEditor/releases/download/v0.7.0/MarkdownTableEditor-0.7.0-x64-pluginadmin.zip",
+			"id": "3d4b4d4bd18b81e63095cc2469814b000db3ad503730c57fd6c80d75b149b048",
+			"repository": "https://github.com/krotname/NppMarkdownTableEditor/releases/download/v0.8.0/MarkdownTableEditor-0.8.0-x64-pluginadmin.zip",
 			"description": "Edits Markdown pipe tables as aligned text. Align, navigate, insert, delete, move and sort rows or columns, convert CSV/TSV selections, and insert new tables from Notepad++.",
 			"author": "Kreout",
 			"homepage": "https://github.com/krotname/NppMarkdownTableEditor"
