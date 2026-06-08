@@ -171,6 +171,17 @@
 			"homepage": "https://github.com/thosrtanner/notepad-pp-linter"
 		},
 		{
+			"folder-name": "MarkdownTableEditor",
+			"display-name": "Markdown Table Editor",
+			"version": "0.6.0",
+			"npp-compatible-versions": "[8.3.1,]",
+			"id": "10ee489cc71d868534393fb449756370c5bab1ecdf487c1180d994632417ef28",
+			"repository": "https://github.com/krotname/NppMarkdownTableEditor/releases/download/v0.6.0/MarkdownTableEditor-0.6.0-arm64-pluginadmin.zip",
+			"description": "Edits Markdown pipe tables as aligned text. Align, navigate, insert, delete, move and sort rows or columns, convert CSV/TSV selections, and insert new tables from Notepad++.",
+			"author": "krotname",
+			"homepage": "https://github.com/krotname/NppMarkdownTableEditor"
+		},
+		{
 			"folder-name": "MenuIcons",
 			"display-name": "MenuIcons",
 			"version": "2.0.7",

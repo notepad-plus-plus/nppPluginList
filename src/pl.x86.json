@@ -858,6 +858,17 @@
 			"homepage": "https://github.com/mohzy83/NppMarkdownPanel"
 		},
 		{
+			"folder-name": "MarkdownTableEditor",
+			"display-name": "Markdown Table Editor",
+			"version": "0.6.0",
+			"npp-compatible-versions": "[7.5.9,]",
+			"id": "16c361c7dbc86c0ab450e1fca53ef60a380440846e6dce8046de1e7f548f1a9e",
+			"repository": "https://github.com/krotname/NppMarkdownTableEditor/releases/download/v0.6.0/MarkdownTableEditor-0.6.0-x86-pluginadmin.zip",
+			"description": "Edits Markdown pipe tables as aligned text. Align, navigate, insert, delete, move and sort rows or columns, convert CSV/TSV selections, and insert new tables from Notepad++.",
+			"author": "krotname",
+			"homepage": "https://github.com/krotname/NppMarkdownTableEditor"
+		},
+		{
 			"folder-name": "MarkdownViewerPlusPlus",
 			"display-name": "MarkdownViewer++",
 			"version": "0.8.2",
