@@ -814,10 +814,10 @@
 		{
 			"folder-name": "MarkdownTableEditor",
 			"display-name": "Markdown Table Editor",
-			"version": "9.0.0",
+			"version": "10.0.0",
 			"npp-compatible-versions": "[8.3.1,]",
-			"id": "95b0c792caa011a6c203ae648807f04e1caf7aa54c3c427dab6987d192c2d917",
-			"repository": "https://github.com/krotname/NppMarkdownTableEditor/releases/download/v9.0.0/MarkdownTableEditor-9.0.0-x64-pluginadmin.zip",
+			"id": "03aaa4abd3a68fe5e6a56268e4f588c225c4d1f8b4e1c06efa97cf7cc5ac765b",
+			"repository": "https://github.com/krotname/NppMarkdownTableEditor/releases/download/v10.0.0/MarkdownTableEditor-10.0.0-x64-pluginadmin.zip",
 			"description": "Edits Markdown pipe tables as aligned text. Align, navigate, insert, delete, move and sort rows or columns, convert CSV/TSV selections or current blocks, and insert new tables from Notepad++.",
 			"author": "Kreout",
 			"homepage": "https://github.com/krotname/NppMarkdownTableEditor"
