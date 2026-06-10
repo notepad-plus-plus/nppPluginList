@@ -62,7 +62,7 @@
 			"display-name": "Dark Mode C",
 			"version": "1.0.2",
 			"npp-compatible-versions": "[8.0,]",
-			"id": "54CBBA7128DEEA1F35EF8CF149E22AE6703AE44F27FEE552EA26FCE3CDB0738D",
+			"id": "282819DB8AAA6BA379886C79012277B906BD7F68381FBDDA21013A290C1B0B17",
 			"repository": "https://github.com/pullitall/Notepadpp-light-dark-switch-and-automatic-switch-based-on-location/releases/download/1.0.2/DARK_MODE_NPP_ARM64.zip",
 			"description": "Adds toolbar icons to instantly switch between light and dark mode with no restart required. Features an automatic mode that dynamically toggles your theme based on local sunrise and sunset times.",
 			"author": "pullitall",
