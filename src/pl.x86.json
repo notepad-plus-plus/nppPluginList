@@ -332,7 +332,7 @@
 		{
 			"folder-name": "dark_mode_C",
 			"display-name": "Dark Mode C",
-			"version": "1.0.2",
+			"version": "1.0.3",
 			"npp-compatible-versions": "[8.0,]",
 			"id": "7be4d602ec6fa366b0b5fdcd93146c41baf67c0af50cd752ce8e47aee9dadcb89",
 			"repository": "https://github.com/pullitall/Notepadpp-light-dark-switch-and-automatic-switch-based-on-location/releases/download/v1.0.3/DARK_MODE_NPP_v1.0.3_x86.zip",
