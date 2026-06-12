@@ -145,6 +145,16 @@
 			"homepage": "https://github.com/Natestah/BlitsNppPlugin"
 		},
 		{
+			"folder-name": "BunyanLogViewer",
+			"display-name": "Bunyan Log Viewer",
+			"version": "1.0.0",
+			"id": "CB3D00E6D3B99970CAFE07ECF4DC954B27423DD7A6F7419D8AD2A46724FA2330",
+			"repository": "https://github.com/jayapalb/notepad-bunyan-plugin/releases/download/1.0.0/BunyanLogViewer_x64.zip",
+			"description": "Docked Bunyan log viewer for Notepad++ with Bunyan-style short formatting, in-pane search, and inline DEBUG/INFO/WARN/ERROR filters.",
+			"author": "Jayapal B",
+			"homepage": "https://github.com/jayapalb/nodepaddplus_bunyan-plugin"
+		},
+		{
 			"folder-name": "BookmarksDook",
 			"display-name": "Bookmarks@Dook",
 			"version": "4.1.2",
@@ -361,6 +371,17 @@
 			"description": "Displays line numbers as hex numbers or as relative numbers. You can also configure the starting line number.",
 			"author": "Andreas Heim",
 			"homepage": "https://sourceforge.net/projects/customlinenumbers"
+		},
+		{
+			"folder-name": "dark_mode_C",
+			"display-name": "Dark Mode C",
+			"version": "1.0.3",
+			"npp-compatible-versions": "[8.0,]",
+			"id": "80de8f99c39b34203de847f66a9db6b754b13f9f9afe05adb9327866a1ba9d6d",
+			"repository": "https://github.com/pullitall/Notepadpp-light-dark-switch-and-automatic-switch-based-on-location/releases/download/v1.0.3/DARK_MODE_NPP_v1.0.3_x64.zip",
+			"description": "Adds toolbar icons to instantly switch between light and dark mode with no restart required. Features an automatic mode that dynamically toggles your theme based on local sunrise and sunset times.",
+			"author": "pullitall",
+			"homepage": "https://github.com/pullitall/Notepadpp-light-dark-switch-and-automatic-switch-based-on-location"
 		},
 		{
 			"folder-name": "dbgpPlugin",
@@ -1908,16 +1929,6 @@
 			"description": "Small set of useful tools for editing XML. Plugin is MSXML-based. The features are:\r\n- XML syntax Check\r\n- XML Schema (XSD) + DTD Validation\r\n- XML tag autoclose\r\n- Pretty print\n- Linarize XML\r\n- Current XML Path\r\n- Conversion XML &amp;lt;-&amp;gt; Text\n- Comment / Uncomment\r\n- XPath expression evaluation",
 			"author": "Nicolas Crittin",
 			"homepage": "https://github.com/morbac/xmltools"
-		},
-		{
-			"folder-name": "zoomdisabler_x64",
-			"display-name": "Zoom Disabler",
-			"version": "1.2.0",
-			"id": "eb49c4fce581fa63b024a3a0454ccc49d082b9524c0cc9a0d5c25544e264da55",
-			"repository": "https://github.com/StanDog/npp-zoomdisabler/raw/master/RELEASES/zoomdisabler_1.2.0.zip",
-			"description": "Tired of zooming your document everytime you just want to scroll but accidentally still holding the [Ctrl] key? Then this is what you want! It disables mouse zoom, keyboard zoom, or both.",
-			"author": "Stanislav Eckert",
-			"homepage": "https://github.com/StanDog/npp-zoomdisabler"
 		}
 	]
 }
