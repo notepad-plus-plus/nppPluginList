@@ -145,6 +145,16 @@
 			"homepage": "https://github.com/Natestah/BlitsNppPlugin"
 		},
 		{
+			"folder-name": "BunyanLogViewer",
+			"display-name": "Bunyan Log Viewer",
+			"version": "1.0.0",
+			"id": "CB3D00E6D3B99970CAFE07ECF4DC954B27423DD7A6F7419D8AD2A46724FA2330",
+			"repository": "https://github.com/jayapalb/notepad-bunyan-plugin/releases/download/1.0.0/BunyanLogViewer_x64.zip",
+			"description": "Docked Bunyan log viewer for Notepad++ with Bunyan-style short formatting, in-pane search, and inline DEBUG/INFO/WARN/ERROR filters.",
+			"author": "Jayapal B",
+			"homepage": "https://github.com/jayapalb/nodepaddplus_bunyan-plugin"
+		},
+		{
 			"folder-name": "BookmarksDook",
 			"display-name": "Bookmarks@Dook",
 			"version": "4.1.2",
@@ -294,6 +304,16 @@
 			"author": "Randall Joseph Fellmy",
 			"homepage": "https://github.com/Coises/Compose-for-NotepadPlusPlus",
 			"npp-compatible-versions": "[8.5.4,]"
+		},
+	    {
+			"folder-name": "CompressedFileViewer",
+			"display-name": "CompressedFileViewer",
+			"version": "5.1.0",
+			"id": "5dd420a36f6ea99812f59ae52eb03aa2ec7ce77c96582923f6bf88513832cde8",
+			"repository": "https://github.com/Pascal-Krenckel/CompressedFileViewer/releases/download/v5.1.0-ver/CompressedFileViewerX64.zip",
+			"description": "[Requires .Net 8] A Notepad++ plugin to open and save files in the gzip, bzip2, brotli, XZ or ZStd format.",
+			"author": "Pascal Krenckel",
+			"homepage": "https://github.com/Pascal-Krenckel/CompressedFileViewer"
 		},
 		{
 			"folder-name": "CSScriptNpp",
@@ -846,11 +866,11 @@
 		{
 			"folder-name": "MultiReplace",
 			"display-name": "MultiReplace",
-			"version": "5.0.0.35",
+			"version": "6.0.0.36",
 			"npp-compatible-versions": "[8.5.4,]",
-			"id": "9218099e90e43901029a01ba9131462bfe0aacfcda7d6338e18efd78deb5a858",
-			"repository": "https://github.com/daddel80/notepadpp-multireplace/releases/download/5.0.0.35/MultiReplace-v5.0.0.35-x64.zip",
-			"description": "Multi-pattern search & replace across single or multiple files; reusable search/replace lists; CSV column operations (sort, delete, replace); FlowTabs for visual column alignment; external lookup tables; rectangular selection support; conditional (if/then) and math logic.\r\n",
+			"id": "e6a7fe3a230ed5c61b4f76bfba53e077d30a24b1d8bacb323784e4c02c90dcae",
+			"repository": "https://github.com/daddel80/notepadpp-multireplace/releases/download/6.0.0.36/MultiReplace-v6.0.0.36-x64.zip",
+			"description": "Multi-pattern search & replace across single or multiple files; reusable search & replace lists; CSV column operations (sort, delete, deduplicate); FlowTabs for visual column alignment; dockable search results; rectangular selection support; Lua/ExprTk formula engine with conditional and math logic.\r\n",
 			"author": "Thomas Knoefel",
 			"homepage": "https://github.com/daddel80/notepadpp-multireplace"
 		},
@@ -1122,11 +1142,11 @@
 		},
 		{
 			"folder-name": "NppGZipFileViewer",
-			"display-name": "NppGZipFileViewer",
-			"version": "3.0.1",
-			"id": "283b61717686faea40598e2b9376304341324eb51c01100fd30c0580a66dc9bb",
-			"repository": "https://github.com/Pascal-Krenckel/NppGZipFileViewer/releases/download/v3.0.1/NppGZipFileViewerX64.top.zip",
-			"description": "A Notepad++ plugin to open and save files in the gzip or bzip2 format.",
+			"display-name": "NppGZipFileViewer [Deprecated]",
+			"version": "4.0.0",
+			"id": "7194976da3945d29e56ed4d7e9bffd0740de9ddf0dda8c6c7a3fccf25c63ed30",
+			"repository": "https://github.com/Pascal-Krenckel/NppGZipFileViewer/releases/download/v4.0.0-Deprecated/NppGZipFileViewerX64.top.zip",
+			"description": "[Requires .Net Framework 4.8] A Notepad++ plugin to open and save files in the gzip or bzip2 format. This plugin is deprecated, please use CompressedFileViewer",
 			"author": "Pascal Krenckel",
 			"homepage": "https://github.com/Pascal-Krenckel/NppGZipFileViewer"
 		},
@@ -1889,16 +1909,6 @@
 			"homepage": "https://github.com/morbac/xmltools"
 		},
 		{
-			"folder-name": "zoomdisabler_x64",
-			"display-name": "Zoom Disabler",
-			"version": "1.2.0",
-			"id": "eb49c4fce581fa63b024a3a0454ccc49d082b9524c0cc9a0d5c25544e264da55",
-			"repository": "https://github.com/StanDog/npp-zoomdisabler/raw/master/RELEASES/zoomdisabler_1.2.0.zip",
-			"description": "Tired of zooming your document everytime you just want to scroll but accidentally still holding the [Ctrl] key? Then this is what you want! It disables mouse zoom, keyboard zoom, or both.",
-			"author": "Stanislav Eckert",
-			"homepage": "https://github.com/StanDog/npp-zoomdisabler"
-		},
-		{
   			"folder-name": "MarkMe",
   			"display-name": "MarkMe",
   			"version": "1.0.0",
@@ -1907,6 +1917,6 @@
   			"description": "Multi-color text highlighting plugin for Notepad++ with rule management and color editing.",
   			"author": "Username0811595",
   			"homepage": "https://github.com/Username0811595/MarkMe"
-		},
+		}
 	]
 }

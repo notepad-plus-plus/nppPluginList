@@ -266,6 +266,16 @@
 			"npp-compatible-versions": "[8.5.4,]"
 		},
 		{
+			"folder-name": "CompressedFileViewer",
+			"display-name": "CompressedFileViewer",
+			"version": "5.1.0",
+			"id": "34dfa594259a81bdbba2d511ff58d05e6e81e06859f12d6defc725fac1bca32a",
+			"repository": "https://github.com/Pascal-Krenckel/CompressedFileViewer/releases/download/v5.1.0-ver/CompressedFileViewerX86.zip",
+			"description": "[Requires .Net 8] A Notepad++ plugin to open and save files in the gzip, bzip2, brotli, XZ or ZStd format.",
+			"author": "Pascal Krenckel",
+			"homepage": "https://github.com/Pascal-Krenckel/CompressedFileViewer"
+		},
+		{
 			"folder-name": "CSScriptNpp",
 			"display-name": "CS-Script - C# Intellisense",
 			"version": "2.0.13.0",
@@ -902,11 +912,11 @@
 		{
 			"folder-name": "MultiReplace",
 			"display-name": "MultiReplace",
-			"version": "5.0.0.35",
+			"version": "6.0.0.36",
 			"npp-compatible-versions": "[8.5.4,]",
-			"id": "fc49ccac120b0f8c38c55856901de4dffe3ff2249a645971e195ab33b158e235",
-			"repository": "https://github.com/daddel80/notepadpp-multireplace/releases/download/5.0.0.35/MultiReplace-v5.0.0.35-Win32.zip",
-			"description": "Multi-pattern search & replace across single or multiple files; reusable search/replace lists; CSV column operations (sort, delete, replace); FlowTabs for visual column alignment; external lookup tables; rectangular selection support; conditional (if/then) and math logic.\r\n",
+			"id": "6d8f90993c01edf7402e53f77ff517cafa192955d28a636d9b4a81341c872fc5",
+			"repository": "https://github.com/daddel80/notepadpp-multireplace/releases/download/6.0.0.36/MultiReplace-v6.0.0.36-Win32.zip",
+			"description": "Multi-pattern search & replace across single or multiple files; reusable search & replace lists; CSV column operations (sort, delete, deduplicate); FlowTabs for visual column alignment; dockable search results; rectangular selection support; Lua/ExprTk formula engine with conditional and math logic.\r\n",
 			"author": "Thomas Knoefel",
 			"homepage": "https://github.com/daddel80/notepadpp-multireplace"
 		},
@@ -1196,11 +1206,11 @@
 		},
 		{
 			"folder-name": "NppGZipFileViewer",
-			"display-name": "NppGZipFileViewer",
-			"version": "3.0.1",
-			"id": "0149bc319c9835d87d2a0c2cafe7e161b2ffca26dc359d4f4a841402b7afcafa",
-			"repository": "https://github.com/Pascal-Krenckel/NppGZipFileViewer/releases/download/v3.0.1/NppGZipFileViewerX86.top.zip",
-			"description": "A Notepad++ plugin to open and save files in the gzip or bzip2 format.",
+			"display-name": "NppGZipFileViewer [Deprecated]",
+			"version": "4.0.0",
+			"id": "1375a83388fda3e9981b18a207efeb0bb121841abb01d5cc54643b49140d1441",
+			"repository": "https://github.com/Pascal-Krenckel/NppGZipFileViewer/releases/download/v4.0.0-Deprecated/NppGZipFileViewerX86.top.zip",
+			"description": "[Requires .Net Framework 4.8] A Notepad++ plugin to open and save files in the gzip or bzip2 format. This plugin is deprecated, please use CompressedFileViewer",
 			"author": "Pascal Krenckel",
 			"homepage": "https://github.com/Pascal-Krenckel/NppGZipFileViewer"
 		},
@@ -1379,16 +1389,6 @@
 			"description": "View and edit Papyrus Script files used by Bethesda games with syntax highlighting, function and block folding, hyperlinks to referenced scripts, keywords matching, plus compilation support with anonymized output and error list view.",
 			"author": "blu3mania",
 			"homepage": "https://github.com/blu3mania/npp-papyrus"
-		},
-		{
-			"folder-name": "ccc",
-			"display-name": "PHP Autocompletion",
-			"version": "1.4.1",
-			"id": "86d29d7a7998eec33cff35af54071ecf767c014048755cfbc0e54c1fda9d73d8",
-			"repository": "https://github.com/StanDog/npp-phpautocompletion/raw/master/RELEASES/ccc_1.4.1.zip",
-			"description": "Implements code completion for custom PHP classes. Keeps an overview over your classes' attributes &amp; methods in a nice popup!\r\nA popup window appears after typing the \"-&gt;\" or \"::\" behind a class or an instantiated object variable which displays all attributes and methods of it's class. As soon as the popup appears you can type in the name of the method or attribute you are looking for and the plugin will select it in the list automatically. Hitting [return] or double clicking the entry will insert the name of the property to your script. Additionally, there is a list with all classes and their properties in a dockable window. Double-clicking this entry opens their file &amp; jumps right to the declaration. The list also offers a quick search function.",
-			"author": "Stanislav Eckert",
-			"homepage": "https://github.com/StanDog/npp-phpautocompletion"
 		},
 		{
 			"folder-name": "PlantUmlViewer",
@@ -2049,16 +2049,6 @@
 			"description": "Implementation of the Zen Coding method by Sergey Chikuyonok. Expand HTML, CSS, XML, XSLT and XSD from abbreviations\ntr#head1.header&gt;td*2 becomes &lt;tr id=\"head1\" class=\"header\"&gt;\n &lt;td&gt;&lt;/td&gt;\n &lt;td&gt;&lt;/td&gt;\n&lt;/tr&gt;\nUses the Python Script plugin.",
 			"author": "Dave Brotherstone",
 			"homepage": "https://github.com/bruderstein/ZenCoding-Python"
-		},
-		{
-			"folder-name": "zoomdisabler",
-			"display-name": "Zoom Disabler",
-			"version": "1.2.0",
-			"id": "eb49c4fce581fa63b024a3a0454ccc49d082b9524c0cc9a0d5c25544e264da55",
-			"repository": "https://github.com/StanDog/npp-zoomdisabler/raw/master/RELEASES/zoomdisabler_1.2.0.zip",
-			"description": "Tired of zooming your document everytime you just want to scroll but accidentally still holding the [Ctrl] key? Then this is what you want! It disables mouse zoom, keyboard zoom, or both.",
-			"author": "Stanislav Eckert",
-			"homepage": "https://github.com/StanDog/npp-zoomdisabler"
 		}
 	]
 }
