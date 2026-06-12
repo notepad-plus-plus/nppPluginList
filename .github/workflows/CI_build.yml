@@ -5,7 +5,7 @@ on: [push, pull_request]
 jobs:
   build:
 
-    runs-on: windows-latest
+    runs-on: windows-2022
 
     permissions:
       # Give the default GITHUB_TOKEN write permission to commit and push the changed files back to the repository.

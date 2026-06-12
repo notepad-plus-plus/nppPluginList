@@ -1391,16 +1391,6 @@
 			"homepage": "https://github.com/blu3mania/npp-papyrus"
 		},
 		{
-			"folder-name": "ccc",
-			"display-name": "PHP Autocompletion",
-			"version": "1.4.1",
-			"id": "86d29d7a7998eec33cff35af54071ecf767c014048755cfbc0e54c1fda9d73d8",
-			"repository": "https://github.com/StanDog/npp-phpautocompletion/raw/master/RELEASES/ccc_1.4.1.zip",
-			"description": "Implements code completion for custom PHP classes. Keeps an overview over your classes' attributes &amp; methods in a nice popup!\r\nA popup window appears after typing the \"-&gt;\" or \"::\" behind a class or an instantiated object variable which displays all attributes and methods of it's class. As soon as the popup appears you can type in the name of the method or attribute you are looking for and the plugin will select it in the list automatically. Hitting [return] or double clicking the entry will insert the name of the property to your script. Additionally, there is a list with all classes and their properties in a dockable window. Double-clicking this entry opens their file &amp; jumps right to the declaration. The list also offers a quick search function.",
-			"author": "Stanislav Eckert",
-			"homepage": "https://github.com/StanDog/npp-phpautocompletion"
-		},
-		{
 			"folder-name": "PlantUmlViewer",
 			"display-name": "PlantUML Viewer",
 			"version": "1.9.0.13",
@@ -2059,16 +2049,6 @@
 			"description": "Implementation of the Zen Coding method by Sergey Chikuyonok. Expand HTML, CSS, XML, XSLT and XSD from abbreviations\ntr#head1.header&gt;td*2 becomes &lt;tr id=\"head1\" class=\"header\"&gt;\n &lt;td&gt;&lt;/td&gt;\n &lt;td&gt;&lt;/td&gt;\n&lt;/tr&gt;\nUses the Python Script plugin.",
 			"author": "Dave Brotherstone",
 			"homepage": "https://github.com/bruderstein/ZenCoding-Python"
-		},
-		{
-			"folder-name": "zoomdisabler",
-			"display-name": "Zoom Disabler",
-			"version": "1.2.0",
-			"id": "eb49c4fce581fa63b024a3a0454ccc49d082b9524c0cc9a0d5c25544e264da55",
-			"repository": "https://github.com/StanDog/npp-zoomdisabler/raw/master/RELEASES/zoomdisabler_1.2.0.zip",
-			"description": "Tired of zooming your document everytime you just want to scroll but accidentally still holding the [Ctrl] key? Then this is what you want! It disables mouse zoom, keyboard zoom, or both.",
-			"author": "Stanislav Eckert",
-			"homepage": "https://github.com/StanDog/npp-zoomdisabler"
 		}
 	]
 }
