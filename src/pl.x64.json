@@ -145,6 +145,16 @@
 			"homepage": "https://github.com/Natestah/BlitsNppPlugin"
 		},
 		{
+			"folder-name": "BunyanLogViewer",
+			"display-name": "Bunyan Log Viewer",
+			"version": "1.0.0",
+			"id": "CB3D00E6D3B99970CAFE07ECF4DC954B27423DD7A6F7419D8AD2A46724FA2330",
+			"repository": "https://github.com/jayapalb/notepad-bunyan-plugin/releases/download/1.0.0/BunyanLogViewer_x64.zip",
+			"description": "Docked Bunyan log viewer for Notepad++ with Bunyan-style short formatting, in-pane search, and inline DEBUG/INFO/WARN/ERROR filters.",
+			"author": "Jayapal B",
+			"homepage": "https://github.com/jayapalb/nodepaddplus_bunyan-plugin"
+		},
+		{
 			"folder-name": "BookmarksDook",
 			"display-name": "Bookmarks@Dook",
 			"version": "4.1.2",
