@@ -58,6 +58,17 @@
 			"homepage": "https://github.com/pnedev/comparePlus"
 		},
 		{
+			"folder-name": "dark_mode_C",
+			"display-name": "Dark Mode C",
+			"version": "1.0.3",
+			"npp-compatible-versions": "[8.0,]",
+			"id": "0b90c891b9b7a39197f534ebc1197425b41e0caf6525261c85a27ffa7bf62843",
+			"repository": "https://github.com/pullitall/Notepadpp-light-dark-switch-and-automatic-switch-based-on-location/releases/download/v1.0.3/DARK_MODE_NPP_v1.0.3_ARM64.zip",
+			"description": "Adds toolbar icons to instantly switch between light and dark mode with no restart required. Features an automatic mode that dynamically toggles your theme based on local sunrise and sunset times.",
+			"author": "pullitall",
+			"homepage": "https://github.com/pullitall/Notepadpp-light-dark-switch-and-automatic-switch-based-on-location"
+		},
+		{
 			"folder-name": "DiscordRPC",
 			"display-name": "Discord Rich Presence",
 			"version": "2.1.711.1",
