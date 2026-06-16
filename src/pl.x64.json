@@ -145,16 +145,6 @@
 			"homepage": "https://github.com/Natestah/BlitsNppPlugin"
 		},
 		{
-			"folder-name": "BunyanLogViewer",
-			"display-name": "Bunyan Log Viewer",
-			"version": "1.0.0",
-			"id": "CB3D00E6D3B99970CAFE07ECF4DC954B27423DD7A6F7419D8AD2A46724FA2330",
-			"repository": "https://github.com/jayapalb/notepad-bunyan-plugin/releases/download/1.0.0/BunyanLogViewer_x64.zip",
-			"description": "Docked Bunyan log viewer for Notepad++ with Bunyan-style short formatting, in-pane search, and inline DEBUG/INFO/WARN/ERROR filters.",
-			"author": "Jayapal B",
-			"homepage": "https://github.com/jayapalb/nodepaddplus_bunyan-plugin"
-		},
-		{
 			"folder-name": "BookmarksDook",
 			"display-name": "Bookmarks@Dook",
 			"version": "4.1.2",
@@ -173,6 +163,16 @@
 			"description": "Helps to check if brackets in your file are balanced.\r\nYou can check all text in a file or only the part you selected.",
 			"author": "niccord",
 			"homepage": "https://github.com/niccord/BracketsCheck/"
+		},
+		{
+			"folder-name": "BunyanLogViewer",
+			"display-name": "Bunyan Log Viewer",
+			"version": "1.0.0",
+			"id": "CB3D00E6D3B99970CAFE07ECF4DC954B27423DD7A6F7419D8AD2A46724FA2330",
+			"repository": "https://github.com/jayapalb/notepad-bunyan-plugin/releases/download/1.0.0/BunyanLogViewer_x64.zip",
+			"description": "Docked Bunyan log viewer for Notepad++ with Bunyan-style short formatting, in-pane search, and inline DEBUG/INFO/WARN/ERROR filters.",
+			"author": "Jayapal B",
+			"homepage": "https://github.com/jayapalb/nodepaddplus_bunyan-plugin"
 		},
 		{
 			"folder-name": "CADdyTools",
@@ -305,7 +305,7 @@
 			"homepage": "https://github.com/Coises/Compose-for-NotepadPlusPlus",
 			"npp-compatible-versions": "[8.5.4,]"
 		},
-	    {
+		{
 			"folder-name": "CompressedFileViewer",
 			"display-name": "CompressedFileViewer",
 			"version": "5.1.0",
@@ -545,9 +545,9 @@
 		{
 			"folder-name": "FingerText2",
 			"display-name": "FingerText2",
-			"version": "26.5.26.1",
-			"id": "37787783088f5f469bc6aa50d230ddcbe5d51d90cb0ef7a301feec203a94f790",
-			"repository": "https://github.com/ultimatejimmy/FingerText2/releases/download/26.5.26.1/FingerText2_26.5.26.1_64bit.zip",
+			"version": "26.6.15",
+			"id": "51772662966318de3bab705729c368b2cbe47b62e3fc073b5e1b200c2cba3145",
+			"repository": "https://github.com/ultimatejimmy/FingerText2/releases/download/26.6.15/FingerText2_26.6.15_64bit.zip",
 			"description": "Tab-triggered snippet plugin with hotspot navigation, dynamic hotspots, and a snippet dock.",
 			"author": "Jimmy Pautz",
 			"homepage": "https://github.com/ultimatejimmy/FingerText2"
@@ -1931,4 +1931,4 @@
 			"homepage": "https://github.com/morbac/xmltools"
 		}
 	]
-}
+}
