@@ -1364,9 +1364,9 @@
 		{
 			"folder-name": "NppVim",
 			"display-name": "NppVim",
-			"version": "1.12.0.0",
-			"id": "40d65ace274d1b306ab5b6f70cc6b891c9ffadaa37c2aa9e5978a7ce62687a5f",
-			"repository": "https://github.com/h-jangra/NppVim/releases/download/1.12.0.0/NppVim-1.12.0.0-x86.zip",
+			"version": "1.14.0.0",
+			"id": "e885f91575655ef77a811cc204c75f631e9d611dabb89903228f87714d944d06",
+			"repository": "https://github.com/h-jangra/NppVim/releases/download/1.14.0.0/NppVim-1.14.0.0-x86.zip",
 			"description": "A Notepad++ plugin that adds Vim-style editing and key bindings.",
 			"author": "h-jangra",
 			"homepage": "https://github.com/h-jangra/NppVim"
