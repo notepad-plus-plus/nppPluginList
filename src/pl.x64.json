@@ -333,7 +333,7 @@
 			"version": "0.4.8",
 			"npp-compatible-versions": "[8.4,]",
 			"old-versions-compatibility": "[,0.4.5.1][,8.3.3]",
-			"id": "deede67764af23c963ffe4bfe5e29806d2792f20215dc72748e2de95db7467a1",
+			"id": "cfb8c2ad710c3b7cf5d684c7626fc740562d3bd9df054d3b886c0f197f23a9f2",
 			"repository": "https://github.com/BdR76/CSVLint/releases/download/0.4.8/CSVLint_x64.zip",
 			"description": "Syntax highlighting and quality control for csv and fixed width data, detect column and datatypes, convert datetime/decimal format, sql, xml",
 			"author": "Bas de Reuver",
