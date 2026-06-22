@@ -565,6 +565,17 @@
 			"homepage": "https://github.com/shriprem/FWDataViz"
 		},
 		{
+			"folder-name": "FixParser",
+			"display-name": "FixParser",
+			"version": "0.1.3",
+			"npp-compatible-versions": "[8.9.0,]",
+			"id": "ce42010f9cf6b8eb7c8fdc34e618554f2f89febd077bbe6008bda44ccdee4798",
+			"repository": "https://github.com/chtaylo3/fix-parser/releases/download/v0.1.3/FixParser_0.1.3_x64.zip",
+			"description": "Pretty-print and inspect FIX protocol logs: field/value decoding, hover quickview, and a dockable message inspector.",
+			"author": "Chris Taylor",
+			"homepage": "https://github.com/chtaylo3/fix-parser"
+		},
+		{
 			"folder-name": "FoldingLineHider",
 			"display-name": "Folding Line Hider",
 			"version": "1.1",
