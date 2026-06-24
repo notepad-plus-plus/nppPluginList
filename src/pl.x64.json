@@ -3,6 +3,18 @@
 	"version": "1.9.6",
 	"arch": "64",
 	"npp-plugins": [
+		
+{
+  "folder-name": "BaswareUtilityTools",
+  "display-name": "Basware Utility Tools",
+  "version": "1.0.0",
+  "id": "d860c62e639570a94e7a8cf8406ada695a62ad3e00ca8ba234c95b1d167e5240",
+  "repository": "https://github.com/heyharman/BaswareUtilityTools/releases/download/v1.0.0/BaswareUtilityTools-x64.zip",
+  "description": "Utility tools for Basware XML and JSON support workflows. Initial version adds the Basware Utility Tools plugin menu in Notepad++.",
+  "author": "Harmanpreet Singh",
+  "homepage": "https://github.com/heyharman/BaswareUtilityTools"
+},
+
 		{
 			"folder-name": "3P",
 			"display-name": "3P - Progress Programmers Pal",
@@ -1942,4 +1954,5 @@
 			"homepage": "https://github.com/morbac/xmltools"
 		}
 	]
-}
+}
+
