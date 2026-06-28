@@ -1068,6 +1068,16 @@
 			"homepage": "https://github.com/pingqLIN/NppAIAssistant"
 		},
 		{
+			"folder-name": "NppAIChat",
+			"display-name": "AI Chat",
+			"version": "1.0.0",
+			"id": "716c8f317b45f9fd3827c80e5d558ef2949ea2f612f986e4ee8b5a05717b1a26",
+			"repository": "https://github.com/isaacjuan/NppAIChat/releases/download/v1.0.0/NppAIChat_v1.0.0.zip",
+			"description": "Chat with AI models (OpenAI-compatible API) directly inside Notepad++. Supports streaming responses, code context, system prompt, configurable endpoint/model, and inserting responses into the editor.",
+			"author": "Isaac Juan",
+			"homepage": "https://github.com/isaacjuan/NppAIChat"
+		},
+		{
 			"folder-name": "NppCrossCheck",
 			"display-name": "NppCrossCheck",
 			"version": "1.2.0.0",
