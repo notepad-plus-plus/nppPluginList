@@ -26,9 +26,9 @@
 		{
 			"folder-name": "NppChineseConverter",
 			"display-name": "Chinese Converter",
-			"version": "1.0.2",
-			"id": "e2b4f6c388fb691d8cfe49c30c37e594a0953ce2402be04d1f06eefdf07242f7",
-			"repository": "https://github.com/lkk9898969/Npp_ChineseConverter/releases/download/v1.0.2/NppChineseConverter-ARM64.zip",
+			"version": "1.0.3",
+			"id": "4585d7c79fb28bb11afb40cd55f558071f947fdec8bd506330a85409a5c69a0b",
+			"repository": "https://github.com/lkk9898969/Npp_ChineseConverter/releases/download/v1.0.3/NppChineseConverter-ARM64.zip",
 			"description": "Traditional and Simplified conversion plugin for Notepad++",
 			"author": "lkk9898969",
 			"homepage": "https://github.com/lkk9898969/Npp_ChineseConverter",
