@@ -17,12 +17,16 @@ Thumbs.db
 *.sln
 *.opendb
 *.db
-*.md
 obj/
 [Dd]ebug*/
 [Rr]elease*/
 _ReSharper*/
 .vs/
+__pycache__/
+*.py[cod]
+.coverage
+.pytest_cache/
+.ruff_cache/
 [Bb]in/
 bin64/
 binarm64/

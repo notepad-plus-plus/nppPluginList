@@ -1,20 +1,28 @@
 name: release
 
-on: [workflow_dispatch]
+on:
+  workflow_dispatch:
+    inputs:
+      sign_cli_version:
+        description: Exact NuGet version of the Sign CLI to use
+        required: true
+        type: string
 
 permissions:
   contents: read
 
+concurrency:
+  group: release-${{ github.ref }}
+  cancel-in-progress: false
+
 jobs:
   build:
-
+    if: github.repository == 'notepad-plus-plus/nppPluginList' && github.ref == 'refs/heads/master'
     runs-on: windows-2022
+    timeout-minutes: 90
 
     permissions:
-      id-token: write
       contents: read
-      
-      
 
     strategy:
       fail-fast: false
@@ -23,112 +31,150 @@ jobs:
           - build_configuration: Release
             build_platform: x64
             validator_arch: x64
+            artifact_name: plugin_dll_and_list_x64
+            dll_path: bin64\nppPluginList.dll
+            doc_path: doc\plugin_list_x64.md
           - build_configuration: Release
             build_platform: Win32
             validator_arch: x86
+            artifact_name: plugin_dll_and_list_x86
+            dll_path: bin\nppPluginList.dll
+            doc_path: doc\plugin_list_x86.md
           - build_configuration: Release
             build_platform: ARM64
             validator_arch: arm64
+            artifact_name: plugin_dll_and_list_arm64
+            dll_path: binarm64\nppPluginList.dll
+            doc_path: doc\plugin_list_arm64.md
 
     steps:
-    - name: Checkout repo
-      uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6
-      with:
-        persist-credentials: false
+      - name: Checkout repo
+        uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6
+        with:
+          persist-credentials: false
 
-    - name: Install python modules
-      working-directory: .
-      run: pip3 install --require-hashes -r requirements.lock
+      - name: Set up Python
+        uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6.3.0
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements.lock
 
-    - name: check used package versions
-      working-directory: .
-      run: pip3 freeze
+      - name: Install locked Python modules
+        run: "python -m pip install --disable-pip-version-check --require-hashes --only-binary=:all: -r requirements.lock"
 
-    - name: Validate json
-      working-directory: .
-      shell: pwsh
-      run: |
-        for ($attempt = 1; $attempt -le 3; $attempt++) {
-          python validator.py ${{ matrix.validator_arch }}
-          if ($LASTEXITCODE -eq 0) {
-            exit 0
+      - name: Run regression and offline catalog checks
+        run: |
+          python -m unittest discover -s tests -v
+          python validator.py all --offline
+
+      - name: Validate package hashes, archives and DLL versions
+        shell: pwsh
+        run: |
+          for ($attempt = 1; $attempt -le 3; $attempt++) {
+            python validator.py ${{ matrix.validator_arch }}
+            if ($LASTEXITCODE -eq 0) {
+              exit 0
+            }
+            if ($attempt -lt 3) {
+              Start-Sleep -Seconds (15 * $attempt)
+            }
           }
-          if ($attempt -lt 3) {
-            Start-Sleep -Seconds (15 * $attempt)
+          exit 1
+
+      - name: Add msbuild to PATH
+        uses: microsoft/setup-msbuild@30375c66a4eea26614e0d39710365f22f8b0af57 # v3
+
+      - name: Build plugin list DLL
+        working-directory: vcxproj
+        run: msbuild nppPluginList.vcxproj /m /p:configuration="${{ matrix.build_configuration }}" /p:platform="${{ matrix.build_platform }}" /p:PlatformToolset="v143"
+
+      - name: Upload unsigned build for isolated signing
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7
+        with:
+          name: unsigned_${{ matrix.artifact_name }}
+          path: |
+            ${{ matrix.dll_path }}
+            ${{ matrix.doc_path }}
+          if-no-files-found: error
+          retention-days: 1
+
+  sign:
+    needs: build
+    if: github.repository == 'notepad-plus-plus/nppPluginList' && github.ref == 'refs/heads/master'
+    runs-on: windows-2022
+    timeout-minutes: 30
+
+    permissions:
+      id-token: write
+      contents: read
+
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - artifact_name: plugin_dll_and_list_x64
+            sign_target: payload\bin64\nppPluginList.dll
+            doc_path: payload\doc\plugin_list_x64.md
+          - artifact_name: plugin_dll_and_list_x86
+            sign_target: payload\bin\nppPluginList.dll
+            doc_path: payload\doc\plugin_list_x86.md
+          - artifact_name: plugin_dll_and_list_arm64
+            sign_target: payload\binarm64\nppPluginList.dll
+            doc_path: payload\doc\plugin_list_arm64.md
+
+    steps:
+      - name: Download isolated unsigned build
+        uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c # v8.0.1
+        with:
+          name: unsigned_${{ matrix.artifact_name }}
+          path: payload
+
+      - name: Install exact Sign CLI version
+        shell: pwsh
+        env:
+          SIGN_CLI_VERSION: ${{ inputs.sign_cli_version }}
+        run: |
+          if ($env:SIGN_CLI_VERSION -notmatch '^\d+\.\d+\.\d+(?:[-+][0-9A-Za-z.-]+)?$') {
+            throw 'sign_cli_version must be an exact semantic version.'
           }
-        }
-        exit 1
+          dotnet tool install --global sign --version $env:SIGN_CLI_VERSION
 
-    - name: Add msbuild to PATH
-      uses: microsoft/setup-msbuild@30375c66a4eea26614e0d39710365f22f8b0af57 # v3
+      - name: Azure CLI login with federated credential
+        uses: azure/login@532459ea530d8321f2fb9bb10d1e0bcf23869a43 # v3
+        with:
+          client-id: ${{ secrets.AZURE_CLIENT_ID }}
+          tenant-id: ${{ secrets.AZURE_TENANT_ID }}
+          subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
+          allow-no-subscriptions: true
 
-    - name: MSBuild of plugin dll
-      working-directory: vcxproj
-      run: msbuild nppPluginList.vcxproj /m /p:configuration="${{ matrix.build_configuration }}" /p:platform="${{ matrix.build_platform }}" /p:PlatformToolset="v143"
+      - name: Sign only the built catalog DLL
+        shell: pwsh
+        env:
+          SIGN_TARGET: ${{ matrix.sign_target }}
+          TRUSTED_SIGNING_ACCOUNT: ${{ secrets.TRUSTED_SIGNING_ACCOUNT_NAME }}
+          TRUSTED_SIGNING_PROFILE: ${{ secrets.TRUSTED_SIGNING_CERTIFICATE_PROFILE }}
+        run: |
+          $target = (Resolve-Path -LiteralPath $env:SIGN_TARGET).Path
+          sign code trusted-signing `
+            --trusted-signing-account $env:TRUSTED_SIGNING_ACCOUNT `
+            --trusted-signing-certificate-profile $env:TRUSTED_SIGNING_PROFILE `
+            --trusted-signing-endpoint https://weu.codesigning.azure.net `
+            --azure-credential-type azure-cli `
+            --verbosity information `
+            $target
 
+          $signature = Get-AuthenticodeSignature -LiteralPath $target
+          if ($signature.Status -ne 'Valid') {
+            throw "Authenticode verification failed: $($signature.Status) $($signature.StatusMessage)"
+          }
 
-    - name: Azure CLI login with federated credential
-      uses: azure/login@532459ea530d8321f2fb9bb10d1e0bcf23869a43 # v3
-      with:
-        client-id: ${{ secrets.AZURE_CLIENT_ID }}
-        tenant-id: ${{ secrets.AZURE_TENANT_ID }}
-        subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
-        allow-no-subscriptions: true
-
-    - name: Install sign cli
-      run: dotnet tool install --global sign --prerelease
-
-    - name: Sign executables and libraries
-      run: sign code trusted-signing `
-        --trusted-signing-account ${{ secrets.TRUSTED_SIGNING_ACCOUNT_NAME }} `
-        --trusted-signing-certificate-profile ${{ secrets.TRUSTED_SIGNING_CERTIFICATE_PROFILE }} `
-        --trusted-signing-endpoint https://weu.codesigning.azure.net `
-        --azure-credential-type azure-cli `
-        --verbosity information `
-        **/*.dll
-
-
-
-    - name: Archive artifacts for x64
-      if: matrix.build_platform == 'x64' && matrix.build_configuration == 'Release'
-      uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7
-      with:
-          name: plugin_dll_and_list_x64
+      - name: Archive signed build artifacts
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7
+        with:
+          name: ${{ matrix.artifact_name }}
           path: |
-                bin64\nppPluginList.dll
-                doc\plugin_list_x64.md
-
-    - name: Archive artifacts for Win32
-      if: matrix.build_platform == 'Win32' && matrix.build_configuration == 'Release'
-      uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7
-      with:
-          name: plugin_dll_and_list_x86
-          path: |
-                bin\nppPluginList.dll
-                doc\plugin_list_x86.md
-
-    - name: Archive artifacts for ARM64
-      if: matrix.build_platform == 'ARM64' && matrix.build_configuration == 'Release'
-      uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7
-      with:
-          name: plugin_dll_and_list_arm64
-          path: |
-                binarm64\nppPluginList.dll
-                doc\plugin_list_arm64.md
-
-    - name: Checkout main branch if push trigger is a tag
-      if: github.repository_owner == 'notepad-plus-plus' && github.ref_type == 'tag' && matrix.build_platform == 'ARM64' && matrix.build_configuration == 'Release'
-      run: |
-           git fetch --all
-           git checkout master
-
-    - name: Generate all plugin lists markdown from json on tagging
-      if: startsWith(github.ref, 'refs/tags/') && matrix.build_platform == 'ARM64' && matrix.build_configuration == 'Release'
-      working-directory: .
-      run: python validator.py all_md
-
-    - name: Push markdown changes on tagging
-      if: startsWith(github.ref, 'refs/tags/') && matrix.build_platform == 'ARM64' && matrix.build_configuration == 'Release'
-      uses: stefanzweifel/git-auto-commit-action@04702edda442b2e678b25b537cec683a1493fcb9 # v7
-      with:
-        file_pattern: 'doc/*.md'
+            ${{ matrix.sign_target }}
+            ${{ matrix.doc_path }}
+          if-no-files-found: error
+          retention-days: 14

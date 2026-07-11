@@ -1,14 +1,47 @@
 name: CI_build
 
-on: [push, pull_request]
+on:
+  push:
+  pull_request:
 
 permissions:
   contents: read
 
-jobs:
-  build:
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 
+jobs:
+  quality:
     runs-on: windows-2022
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6
+        with:
+          persist-credentials: false
+
+      - name: Set up Python
+        uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6.3.0
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements.lock
+
+      - name: Install locked Python modules
+        run: "python -m pip install --disable-pip-version-check --require-hashes --only-binary=:all: -r requirements.lock"
+
+      - name: Run regression tests
+        run: python -m unittest discover -s tests -v
+
+      - name: Run offline catalog and documentation checks
+        run: python validator.py all --offline
+
+  build:
+    needs: quality
+    runs-on: windows-2022
+    timeout-minutes: 90
 
     strategy:
       fail-fast: false
@@ -17,102 +50,101 @@ jobs:
           - build_configuration: Release
             build_platform: x64
             validator_arch: x64
+            artifact_name: plugin_dll_and_list_x64
+            dll_path: bin64\nppPluginList.dll
+            doc_path: doc\plugin_list_x64.md
           - build_configuration: Release
             build_platform: Win32
             validator_arch: x86
+            artifact_name: plugin_dll_and_list_x86
+            dll_path: bin\nppPluginList.dll
+            doc_path: doc\plugin_list_x86.md
           - build_configuration: Release
             build_platform: ARM64
             validator_arch: arm64
+            artifact_name: plugin_dll_and_list_arm64
+            dll_path: binarm64\nppPluginList.dll
+            doc_path: doc\plugin_list_arm64.md
 
     steps:
-    - name: Checkout repo
-      uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6
-      with:
-        persist-credentials: false
+      - name: Checkout repo
+        uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6
+        with:
+          persist-credentials: false
 
-    - name: Install python modules
-      working-directory: .
-      run: pip3 install --require-hashes -r requirements.lock
+      - name: Set up Python
+        uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6.3.0
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements.lock
 
-    - name: check used package versions
-      working-directory: .
-      run: pip3 freeze
+      - name: Install locked Python modules
+        run: "python -m pip install --disable-pip-version-check --require-hashes --only-binary=:all: -r requirements.lock"
 
-    - name: Validate json
-      working-directory: .
-      shell: pwsh
-      run: |
-        for ($attempt = 1; $attempt -le 3; $attempt++) {
-          python validator.py ${{ matrix.validator_arch }}
-          if ($LASTEXITCODE -eq 0) {
-            exit 0
+      - name: Validate package hashes, archives and DLL versions
+        shell: pwsh
+        run: |
+          for ($attempt = 1; $attempt -le 3; $attempt++) {
+            python validator.py ${{ matrix.validator_arch }}
+            if ($LASTEXITCODE -eq 0) {
+              exit 0
+            }
+            if ($attempt -lt 3) {
+              Start-Sleep -Seconds (15 * $attempt)
+            }
           }
-          if ($attempt -lt 3) {
-            Start-Sleep -Seconds (15 * $attempt)
-          }
-        }
-        exit 1
+          exit 1
 
-    - name: Add msbuild to PATH
-      uses: microsoft/setup-msbuild@30375c66a4eea26614e0d39710365f22f8b0af57 # v3
+      - name: Add msbuild to PATH
+        uses: microsoft/setup-msbuild@30375c66a4eea26614e0d39710365f22f8b0af57 # v3
 
-    - name: MSBuild of plugin dll
-      working-directory: vcxproj
-      run: msbuild nppPluginList.vcxproj /m /p:configuration="${{ matrix.build_configuration }}" /p:platform="${{ matrix.build_platform }}" /p:PlatformToolset="v143"
+      - name: Build plugin list DLL
+        working-directory: vcxproj
+        run: msbuild nppPluginList.vcxproj /m /p:configuration="${{ matrix.build_configuration }}" /p:platform="${{ matrix.build_platform }}" /p:PlatformToolset="v143"
 
-    - name: Archive artifacts for x64
-      if: matrix.build_platform == 'x64' && matrix.build_configuration == 'Release'
-      uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7
-      with:
-          name: plugin_dll_and_list_x64
+      - name: Archive build artifacts
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7
+        with:
+          name: ${{ matrix.artifact_name }}
           path: |
-                bin64\nppPluginList.dll
-                doc\plugin_list_x64.md
-
-    - name: Archive artifacts for Win32
-      if: matrix.build_platform == 'Win32' && matrix.build_configuration == 'Release'
-      uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7
-      with:
-          name: plugin_dll_and_list_x86
-          path: |
-                bin\nppPluginList.dll
-                doc\plugin_list_x86.md
-
-    - name: Archive artifacts for ARM64
-      if: matrix.build_platform == 'ARM64' && matrix.build_configuration == 'Release'
-      uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7
-      with:
-          name: plugin_dll_and_list_arm64
-          path: |
-                binarm64\nppPluginList.dll
-                doc\plugin_list_arm64.md
+            ${{ matrix.dll_path }}
+            ${{ matrix.doc_path }}
+          if-no-files-found: error
+          retention-days: 14
 
   update-plugin-lists:
-
-    runs-on: windows-latest
+    needs: build
+    runs-on: windows-2022
+    timeout-minutes: 15
     if: github.repository_owner == 'notepad-plus-plus' && github.ref_type == 'tag'
 
     permissions:
       contents: write
 
     steps:
-    - name: Checkout repo
-      uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6
-      with:
-        fetch-depth: 0
+      - name: Checkout repo
+        uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6
+        with:
+          fetch-depth: 0
 
-    - name: Install python modules
-      working-directory: .
-      run: pip3 install --require-hashes -r requirements.lock
+      - name: Set up Python
+        uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6.3.0
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements.lock
 
-    - name: Checkout main branch
-      run: git checkout master
+      - name: Install locked Python modules
+        run: "python -m pip install --disable-pip-version-check --require-hashes --only-binary=:all: -r requirements.lock"
 
-    - name: Generate all plugin lists markdown from json on tagging
-      working-directory: .
-      run: python validator.py all_md
+      - name: Checkout main branch
+        run: git checkout master
 
-    - name: Push markdown changes on tagging
-      uses: stefanzweifel/git-auto-commit-action@04702edda442b2e678b25b537cec683a1493fcb9 # v7
-      with:
-        file_pattern: 'doc/*.md'
+      - name: Generate all plugin list documentation
+        run: python validator.py all_md
+
+      - name: Push generated documentation
+        uses: stefanzweifel/git-auto-commit-action@04702edda442b2e678b25b537cec683a1493fcb9 # v7
+        with:
+          file_pattern: doc/*.md

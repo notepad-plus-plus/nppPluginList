@@ -20,6 +20,34 @@ https://npp-user-manual.org/docs/plugins/#plugins-admin
 Please check here if you need any support:  
 https://community.notepad-plus-plus.org/topic/16566/support-for-plugins-admin-npppluginlist
 
+Local validation
+----------------
+
+The validator supports a deterministic offline mode for pull-request review. It checks the JSON schema, duplicate JSON keys, architecture metadata, case-insensitive plugin duplicates, version ranges, HTTPS package URLs, safe Windows folder names, ordering, and generated documentation without making network requests:
+
+```powershell
+python -m pip install --require-hashes -r requirements.lock
+python -m unittest discover -s tests -v
+python validator.py all --offline
+```
+
+Python 3.12 is the version used by CI and by the generated dependency lock. Package URL availability, package contents, SHA-256 hashes, and DLL versions require the architecture-specific online validation used by CI:
+
+```powershell
+python validator.py x86
+python validator.py x64
+python validator.py arm64
+```
+
+Remote packages are downloaded with size and time limits. Redirects must remain on public HTTPS endpoints. ZIP files with traversal paths, symbolic links, encryption, duplicate DLL names, excessive expansion, or a non-root plugin DLL are rejected. Only the expected DLL is copied to a temporary directory, which is removed before the validator exits.
+
+Use `./sort_plugin_lists.ps1` for deterministic catalog ordering. It preserves plugin text verbatim. Regenerate the Markdown views atomically with `python validator.py all_md`, then rerun the offline checks.
+
+Release safety
+--------------
+
+The signing workflow is restricted to the upstream `master` branch. A release operator must provide an exact `sign_cli_version`; floating or prerelease tool selection is not accepted. The workflow signs and verifies only the catalog DLL produced by the current matrix job, never downloaded plugin DLLs.
+
 Build Status
 ------------
 

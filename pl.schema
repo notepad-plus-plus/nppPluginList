@@ -1,5 +1,7 @@
 {
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
 	"type": "object",
+	"additionalProperties": false,
 	"required": [
 		"name",
 		"version",
@@ -7,20 +9,35 @@
 		"npp-plugins"
 	],
 	"properties": {
-		"name": { "enum": ["npp-pluginList"] },
-		"version": {
-			"type": "string",
-			"pattern": "^\\d+(\\.\\d+){,3}$"
+		"name": {
+			"const": "npp-pluginList"
 		},
-		"arch": { "enum": ["32", "64", "arm64"] },
+		"version": {
+			"$ref": "#/$defs/version"
+		},
+		"arch": {
+			"enum": ["32", "64", "arm64"]
+		},
 		"npp-plugins": {
 			"type": "array",
-			"items": { "$ref": "#/definitions/plugin" }
+			"minItems": 1,
+			"items": {
+				"$ref": "#/$defs/plugin"
+			}
 		}
 	},
-	"definitions": {
+	"$defs": {
+		"version": {
+			"type": "string",
+			"pattern": "^\\d+(?:\\.\\d+){0,3}$"
+		},
+		"versionRange": {
+			"type": "string",
+			"pattern": "^\\[(?:\\d+(?:\\.\\d+){0,3})?,(?:\\d+(?:\\.\\d+){0,3})?\\]$"
+		},
 		"plugin": {
 			"type": "object",
+			"additionalProperties": false,
 			"required": [
 				"folder-name",
 				"display-name",
@@ -34,42 +51,54 @@
 			"properties": {
 				"folder-name": {
 					"type": "string",
-					"minLength": 1
+					"minLength": 1,
+					"maxLength": 200
 				},
 				"display-name": {
 					"type": "string",
-					"minLength": 1
+					"minLength": 1,
+					"maxLength": 200
 				},
 				"version": {
-					"type": "string",
-					"pattern": "^\\d+(\\.\\d+){,3}$"
+					"$ref": "#/$defs/version"
 				},
 				"npp-compatible-versions": {
-					"type": "string",
-					"pattern": "^\\[?,?(\\d+(\\.\\d+){,3},?){1,2}\\]?$"
+					"$ref": "#/$defs/versionRange"
 				},
 				"old-versions-compatibility": {
 					"type": "string",
-					"pattern": "^\\[(\\d+(\\.\\d+){,3})?,(\\d+(\\.\\d+){,3})?\\]\\[(\\d+(\\.\\d+){,3})?,(\\d+(\\.\\d+){,3})?\\]$"
+					"pattern": "^\\[(?:\\d+(?:\\.\\d+){0,3})?,(?:\\d+(?:\\.\\d+){0,3})?\\]\\[(?:\\d+(?:\\.\\d+){0,3})?,(?:\\d+(?:\\.\\d+){0,3})?\\]$"
 				},
 				"id": {
 					"type": "string",
-					"pattern": "(?i)^[0-9A-F]{64}$"
+					"pattern": "^[0-9A-Fa-f]{64}$"
 				},
 				"repository": {
-					"format": "uri"
+					"type": "string",
+					"maxLength": 2048,
+					"format": "uri",
+					"pattern": "^https://"
 				},
 				"description": {
 					"type": "string",
-					"minLength": 1
+					"minLength": 1,
+					"maxLength": 20000
 				},
 				"author": {
-					"type": "string"
+					"type": "string",
+					"maxLength": 500
 				},
 				"homepage": {
 					"oneOf": [
-						{"type": "string", "maxLength": 0},
-						{"format": "uri"}
+						{
+							"const": ""
+						},
+						{
+							"type": "string",
+							"maxLength": 2048,
+							"format": "uri",
+							"pattern": "^https?://"
+						}
 					]
 				}
 			}
