@@ -437,9 +437,9 @@
 		{
 			"folder-name": "EmojiDescription",
 			"display-name": "Emoji Description",
-			"version": "0.2.14",
-			"id": "105a85da9f1ee548066b85f06c3ddb900e959ace4005546f7b448c5017f8487b",
-			"repository": "https://github.com/Ruberoid/npp_emoji_description/releases/download/v0.2.14/EmojiDescription_x86_v0.2.14.zip",
+			"version": "0.3.16",
+			"id": "b84c19588bbed9ff04d26d0f998b7835c2ed4468942f9355ad4e205c523168b8",
+			"repository": "https://github.com/Ruberoid/npp_emoji_description/releases/download/v0.3.16/EmojiDescription_x86_v0.3.16.zip",
 			"description": "Displays detailed character encoding information in the status bar. Shows Unicode code point, decimal/hexadecimal values, HTML entity, and UTF-8 byte sequence for any character including emoji.",
 			"author": "Ruberoid",
 			"homepage": "https://github.com/Ruberoid/npp_emoji_description"
