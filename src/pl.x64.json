@@ -587,6 +587,17 @@
 			"homepage": "https://github.com/leonardchai/FoldingLineHider"
 		},
 		{
+			"folder-name": "FormatSQL",
+			"display-name": "Datamodder SQL Formatter",
+			"version": "1.3.1.2",
+			"npp-compatible-versions": "[8.3,]",
+			"id": "e4837de661ed176dd5f05ca649ccc9eebcd195247f59ccd2df1c2ba2c3d2e2ed",
+			"repository": "https://github.com/dm-utils/formatsql/releases/download/v1.3.1.2/FormatSQL.zip",
+			"description": "Formats, minifies and converts SQL directly in Notepad++.\r\nFeatures:\r\n- Format / minify SQL, format-on-save, format-and-copy\r\n- Multi-dialect conversion (ANSI, Snowflake, MS SQL, PostgreSQL, MySQL, Databricks)\r\n- Quote, comment-style, boolean and number-format conversion\r\n- Configurable casing, alignment, structure and spacing rules with saved profiles",
+			"author": "Datamodder",
+			"homepage": "https://github.com/dm-utils/formatsql"
+		},
+		{
 			"folder-name": "GedcomLexer",
 			"display-name": "GEDCOM Lexer",
 			"version": "0.5.0.170",
