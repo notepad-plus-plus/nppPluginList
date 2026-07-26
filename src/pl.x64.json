@@ -744,7 +744,7 @@
 			"display-name": "NppVoicePlugin",
 			"version": "1.2",
 			"npp-compatible-versions": "[8.8.8,]",
-			"id": "2c3826e541d9dfd769ec63cf13c4bfef0e14a7cad0056b278a7412ed391713d2",
+			"id": "66583e5610c0c830409909f50832b2a8e44a1b9bdb0cbb0a00ce083a55ed5900",
 			"repository": "https://github.com/bms-prog/NppVoicePlugin/releases/download/v1.2/NppVoicePlugin.1.2.x64.zip",
 			"description": "Boost your productivity with voice input and AI integration! Completely local solution\r\n- Dictate text, read selected text aloud, and send spoken or selected text directly to your local Ollama AI.\r\n- Voice typing with speech recognition\r\n- Text-to-speech for selected text\r\n- Send spoken or selected text to your local Ollama AI\r\n- Supports English and Russian interface languages ​​and 19 voice model languages\r\n- Seamlessly integrated into Notepad++\r\n- See the Help section in the plugin menu for detailed setup and usage instructions.",
 			"author": "HC Team, HCC",
