@@ -610,6 +610,16 @@
 			"homepage": "https://sourceforge.net/projects/gedcomlexer/"
 		},
 		{
+			"folder-name": "GitHubRepoViewer",
+			"display-name": "GitHub Repo Viewer",
+			"version": "1.2",
+			"id": "c9a8effae062cb6df35111fd5293ab9c1f024ce029ce8b5bde475d9a46917419",
+			"repository": "https://github.com/ufoptg/GitHubRepoViewer/releases/download/v1.2/GitHubRepoViewer.zip",
+			"description": "Browse all your GitHub repositories in a docked tree, open files, and push edits back on save.",
+			"author": "TrueSaiyan",
+			"homepage": "https://github.com/ufoptg/GitHubRepoViewer"
+		},
+		{
 			"folder-name": "GitSCM",
 			"display-name": "GitSCM",
 			"version": "1.4.10.1",
