@@ -244,6 +244,19 @@ class ValidatorTests(unittest.TestCase):
                 validator._open_safe_response(response.url, session)
         session.get.assert_called_once()
 
+    def test_download_session_retries_transient_failures(self):
+        with validator.create_download_session() as session:
+            retries = session.get_adapter("https://").max_retries
+
+        self.assertEqual(3, retries.total)
+        self.assertEqual(2, retries.backoff_factor)
+        self.assertEqual(
+            {408, 425, 429, 500, 502, 503, 504},
+            set(retries.status_forcelist),
+        )
+        self.assertEqual(frozenset({"GET"}), retries.allowed_methods)
+        self.assertFalse(retries.raise_on_status)
+
     def test_dll_version_reader_failure_is_reported_as_package_error(self):
         with mock.patch.object(
             validator, "get_version_number", side_effect=RuntimeError("bad resource")

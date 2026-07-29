@@ -1,6 +1,6 @@
 {
 	"name": "npp-pluginList",
-	"version": "1.9.6",
+	"version": "1.9.7",
 	"arch": "64",
 	"npp-plugins": [
 		{
@@ -165,6 +165,16 @@
 			"homepage": "https://github.com/niccord/BracketsCheck/"
 		},
 		{
+			"folder-name": "BunyanLogViewer",
+			"display-name": "Bunyan Log Viewer",
+			"version": "1.0.0",
+			"id": "CB3D00E6D3B99970CAFE07ECF4DC954B27423DD7A6F7419D8AD2A46724FA2330",
+			"repository": "https://github.com/jayapalb/notepad-bunyan-plugin/releases/download/1.0.0/BunyanLogViewer_x64.zip",
+			"description": "Docked Bunyan log viewer for Notepad++ with Bunyan-style short formatting, in-pane search, and inline DEBUG/INFO/WARN/ERROR filters.",
+			"author": "Jayapal B",
+			"homepage": "https://github.com/jayapalb/nodepaddplus_bunyan-plugin"
+		},
+		{
 			"folder-name": "CADdyTools",
 			"display-name": "CADdyTools",
 			"version": "1.1.3.7",
@@ -177,9 +187,9 @@
 		{
 			"folder-name": "NppChineseConverter",
 			"display-name": "Chinese Converter",
-			"version": "1.0.2",
-			"id": "f6f741aa936500b46fedc96b7e378d37e57c2d31d0945543fb81be74cb5b8625",
-			"repository": "https://github.com/lkk9898969/Npp_ChineseConverter/releases/download/v1.0.2/NppChineseConverter-x64.zip",
+			"version": "1.0.3",
+			"id": "3bdf539171d5e0392f11330b3de39afd4486a07f7411ff73946b3982f78f00b9",
+			"repository": "https://github.com/lkk9898969/Npp_ChineseConverter/releases/download/v1.0.3/NppChineseConverter-x64.zip",
 			"description": "Traditional and Simplified conversion plugin for Notepad++",
 			"author": "lkk9898969",
 			"homepage": "https://github.com/lkk9898969/Npp_ChineseConverter",
@@ -295,7 +305,7 @@
 			"homepage": "https://github.com/Coises/Compose-for-NotepadPlusPlus",
 			"npp-compatible-versions": "[8.5.4,]"
 		},
-	    {
+		{
 			"folder-name": "CompressedFileViewer",
 			"display-name": "CompressedFileViewer",
 			"version": "5.1.0",
@@ -320,11 +330,11 @@
 		{
 			"folder-name": "CSVLint",
 			"display-name": "CSV Lint",
-			"version": "0.4.7",
+			"version": "0.4.8",
 			"npp-compatible-versions": "[8.4,]",
 			"old-versions-compatibility": "[,0.4.5.1][,8.3.3]",
-			"id": "1bc0b02a11905d9656f568f6a7beb7ceb18ab5ac378bd2ecac5161828f6a2f60",
-			"repository": "https://github.com/BdR76/CSVLint/releases/download/0.4.7/CSVLint_x64.zip",
+			"id": "cfb8c2ad710c3b7cf5d684c7626fc740562d3bd9df054d3b886c0f197f23a9f2",
+			"repository": "https://github.com/BdR76/CSVLint/releases/download/0.4.8/CSVLint_x64.zip",
 			"description": "Syntax highlighting and quality control for csv and fixed width data, detect column and datatypes, convert datetime/decimal format, sql, xml",
 			"author": "Bas de Reuver",
 			"homepage": "https://github.com/BdR76/CSVLint/"
@@ -361,6 +371,28 @@
 			"description": "Displays line numbers as hex numbers or as relative numbers. You can also configure the starting line number.",
 			"author": "Andreas Heim",
 			"homepage": "https://sourceforge.net/projects/customlinenumbers"
+		},
+		{
+			"folder-name": "dark_mode_C",
+			"display-name": "Dark Mode C",
+			"version": "1.0.3",
+			"npp-compatible-versions": "[8.0,]",
+			"id": "80de8f99c39b34203de847f66a9db6b754b13f9f9afe05adb9327866a1ba9d6d",
+			"repository": "https://github.com/pullitall/Notepadpp-light-dark-switch-and-automatic-switch-based-on-location/releases/download/v1.0.3/DARK_MODE_NPP_v1.0.3_x64.zip",
+			"description": "Adds toolbar icons to instantly switch between light and dark mode with no restart required. Features an automatic mode that dynamically toggles your theme based on local sunrise and sunset times.",
+			"author": "pullitall",
+			"homepage": "https://github.com/pullitall/Notepadpp-light-dark-switch-and-automatic-switch-based-on-location"
+		},
+		{
+			"folder-name": "FormatSQL",
+			"display-name": "Datamodder SQL Formatter",
+			"version": "1.3.1.2",
+			"npp-compatible-versions": "[8.3,]",
+			"id": "e4837de661ed176dd5f05ca649ccc9eebcd195247f59ccd2df1c2ba2c3d2e2ed",
+			"repository": "https://github.com/dm-utils/formatsql/releases/download/v1.3.1.2/FormatSQL.zip",
+			"description": "Formats, minifies and converts SQL directly in Notepad++.\r\nFeatures:\r\n- Format / minify SQL, format-on-save, format-and-copy\r\n- Multi-dialect conversion (ANSI, Snowflake, MS SQL, PostgreSQL, MySQL, Databricks)\r\n- Quote, comment-style, boolean and number-format conversion\r\n- Configurable casing, alignment, structure and spacing rules with saved profiles",
+			"author": "Datamodder",
+			"homepage": "https://github.com/dm-utils/formatsql"
 		},
 		{
 			"folder-name": "dbgpPlugin",
@@ -440,9 +472,9 @@
 		{
 			"folder-name": "EmojiDescription",
 			"display-name": "Emoji Description",
-			"version": "0.1.0",
-			"id": "308b06c81412e2db395f96ae21e2d497c12a6249106b7db5e5e2da2ace7c9c51",
-			"repository": "https://github.com/Ruberoid/npp_emoji_description/releases/download/v0.1.0/EmojiDescription_x64_v0.1.0.zip",
+			"version": "0.3.16",
+			"id": "62102bba90ef9b9e58c832fe3c5a67e4dffce5e18389ddf931c4ae0471675ddc",
+			"repository": "https://github.com/Ruberoid/npp_emoji_description/releases/download/v0.3.16/EmojiDescription_x64_v0.3.16.zip",
 			"description": "Displays detailed character encoding information in the status bar. Shows Unicode code point, decimal/hexadecimal values, HTML entity, and UTF-8 byte sequence for any character including emoji.",
 			"author": "Ruberoid",
 			"homepage": "https://github.com/Ruberoid/npp_emoji_description"
@@ -524,9 +556,9 @@
 		{
 			"folder-name": "FingerText2",
 			"display-name": "FingerText2",
-			"version": "26.5.26.1",
-			"id": "37787783088f5f469bc6aa50d230ddcbe5d51d90cb0ef7a301feec203a94f790",
-			"repository": "https://github.com/ultimatejimmy/FingerText2/releases/download/26.5.26.1/FingerText2_26.5.26.1_64bit.zip",
+			"version": "26.6.15",
+			"id": "51772662966318de3bab705729c368b2cbe47b62e3fc073b5e1b200c2cba3145",
+			"repository": "https://github.com/ultimatejimmy/FingerText2/releases/download/26.6.15/FingerText2_26.6.15_64bit.zip",
 			"description": "Tab-triggered snippet plugin with hotspot navigation, dynamic hotspots, and a snippet dock.",
 			"author": "Jimmy Pautz",
 			"homepage": "https://github.com/ultimatejimmy/FingerText2"
@@ -542,6 +574,17 @@
 			"description": "Fixed Width Data Visualizer adds Excel-like features for fixed-width data files in Notepad++. Displays cursor position data. Foldable Record Blocks; Hop & Jump to specific fields. Field Copy & Field Paste. Data Extraction. Builtin dialogs to configure file-type, record-type & fields; and themes & colors. Automatic File Type Detection. Handles homogenous, mixed & multi-line records. Full Multi-byte character support. Darkmode enabled.",
 			"author": "Shridhar Kumar",
 			"homepage": "https://github.com/shriprem/FWDataViz"
+		},
+		{
+			"folder-name": "FixParser",
+			"display-name": "FixParser",
+			"version": "0.1.3",
+			"npp-compatible-versions": "[8.9.0,]",
+			"id": "ce42010f9cf6b8eb7c8fdc34e618554f2f89febd077bbe6008bda44ccdee4798",
+			"repository": "https://github.com/chtaylo3/fix-parser/releases/download/v0.1.3/FixParser_0.1.3_x64.zip",
+			"description": "Pretty-print and inspect FIX protocol logs: field/value decoding, hover quickview, and a dockable message inspector.",
+			"author": "Chris Taylor",
+			"homepage": "https://github.com/chtaylo3/fix-parser"
 		},
 		{
 			"folder-name": "FoldingLineHider",
@@ -603,9 +646,9 @@
 		{
 			"folder-name": "HLASMLexer",
 			"display-name": "HLASM Lexer - Column-Aware Syntax Highlighting",
-			"version": "1.0.0",
-			"id": "4bf87ca7aed8d068169d588d1ac791ee10fadef5f1f5a566915d5990440fec95",
-			"repository": "https://github.com/Zaneham/hlasm-npp/releases/download/v1.0.1/HLASMLexer_x64.zip",
+			"version": "1.1.0",
+			"id": "506c27ddea0242554c6f08abd7dbedad1273a6027db27b57faf1e4b22bd63142",
+			"repository": "https://github.com/Zaneham/hlasm-npp/releases/download/v1.1.0/HLASMLexer_x64.zip",
 			"description": "Column-aware syntax highlighting for IBM HLASM. Understands the 80-column punch card layout — labels, operations, operands, continuation markers and sequence numbers are each highlighted by their column position, not just keywords.",
 			"author": "Zane Hambly",
 			"homepage": "https://github.com/Zaneham/hlasm-npp"
@@ -613,11 +656,11 @@
 		{
 			"folder-name": "HTMLTag",
 			"display-name": "HTML Tag",
-			"version": "1.6.0.0",
+			"version": "1.6.1.0",
 			"npp-compatible-versions": "[8.3,]",
 			"old-versions-compatibility": "[,1.1][,8.2.1]",
-			"id": "0281be7b6f0c77661ba004e0c2f52f7f8b3289071535042879f8c69b242af5f4",
-			"repository": "https://github.com/rdipardo/nppHTMLTag/releases/download/v1.6.0/HTMLTag_v1.6.0_x64.zip",
+			"id": "32127f58479d106840a9790ed52296d62406e5715b63740ac96338d8ae8d515b",
+			"repository": "https://github.com/rdipardo/nppHTMLTag/releases/download/v1.6.1/HTMLTag_v1.6.1_x64.zip",
 			"description": "Provides three core functions:\r\n- HTML and XML tag jumping, like the built-in brace matching and selection\r\n of tags and/or contents.\r\n- HTML entity encoding/decoding (example: é to &eacute;)\r\n- JS character encoding/decoding (example: é to \\u00E9)",
 			"author": "Martijn Coppoolse",
 			"homepage": "https://github.com/rdipardo/nppHTMLTag"
@@ -780,6 +823,16 @@
 			"homepage": "https://github.com/thosrtanner/notepad-pp-linter"
 		},
 		{
+			"folder-name": "LLMAssistant",
+			"display-name": "LLM Assistant",
+			"version": "1.0",
+			"id": "d13e692bb8da61ee4168df1065d7abb30dc58977c71a665710f1fee25ac6fe32",
+			"repository": "https://github.com/Gvo87/NotepadPlusPlus-LLM-Plugin/releases/download/v1.0/LLMAssistant_v1.0_x64.zip",
+			"description": "AI-powered text processing (enhance, translate, summarize, grammar, code) via the OpenAI API, directly inside Notepad++.",
+			"author": "Gvo87",
+			"homepage": "https://github.com/Gvo87/NotepadPlusPlus-LLM-Plugin"
+		},
+		{
 			"folder-name": "LocationNavigate",
 			"display-name": "Location Navigate",
 			"version": "0.4.8.1",
@@ -804,9 +857,9 @@
 		{
 			"folder-name": "NppMarkdownPanel",
 			"display-name": "Markdown Panel",
-			"version": "0.9.1",
-			"id": "f578f738ef0aeb535ea8b45916ff10c751dafe19c125db8f2081d94bebd1ffa9",
-			"repository": "https://github.com/mohzy83/NppMarkdownPanel/releases/download/0.9.1/NppMarkdownPanel-0.9.1.0-x64.zip",
+			"version": "0.9.3",
+			"id": "0366a693e89805edc8cb276d6ad713d892c8f4ec98b2f6570c8eaeb6deb1c3a8",
+			"repository": "https://github.com/mohzy83/NppMarkdownPanel/releases/download/0.9.3/NppMarkdownPanel-0.9.3.0-x64.zip",
 			"description": "Lightweight plugin to display rendered Markdown files.",
 			"author": "Mohzy83",
 			"homepage": "https://github.com/mohzy83/NppMarkdownPanel"
@@ -814,11 +867,12 @@
 		{
 			"folder-name": "MarkdownTableEditor",
 			"display-name": "Markdown Table Editor",
-			"version": "11.0.1",
-			"id": "6f79a886ef06bb44359094223d550d47b08fc15bc6796d570cb82f7cd5012186",
-			"repository": "https://github.com/krotname/NppMarkdownTableEditor/releases/download/v11.0.1/MarkdownTableEditor-11.0.1-x64-pluginadmin.zip",
-			"description": "Format, align, sort, resize, and convert Markdown tables directly in Notepad++.",
-			"author": "krotname",
+			"version": "11.1.0",
+			"npp-compatible-versions": "[8.3.1,]",
+			"id": "a39a5f4cce2b726c585b80d142c755b1d2cd7cd3ef8c1afe6e3be41c0ff5fa40",
+			"repository": "https://github.com/krotname/NppMarkdownTableEditor/releases/download/v11.1.0/MarkdownTableEditor-11.1.0-x64-pluginadmin.zip",
+			"description": "Edits Markdown pipe tables as aligned text. Align, fit width, narrow or widen columns, navigate, insert, delete, move and sort rows or columns, convert CSV/TSV blocks, and insert new tables from Notepad++.",
+			"author": "Kreout",
 			"homepage": "https://github.com/krotname/NppMarkdownTableEditor"
 		},
 		{
@@ -1278,9 +1332,9 @@
 		{
 			"folder-name": "NppVim",
 			"display-name": "NppVim",
-			"version": "1.12.0.0",
-			"id": "ae9c9eccbe0aada4ebf56216b3239a846f0a3d503598376f1d3279219a114798",
-			"repository": "https://github.com/h-jangra/NppVim/releases/download/1.12.0.0/NppVim-1.12.0.0-x64.zip",
+			"version": "1.14.0.0",
+			"id": "b15fdad1ac67982c1c7a7b26c5cc86d3384e7c715a611957666679fb9ec92b36",
+			"repository": "https://github.com/h-jangra/NppVim/releases/download/1.14.0.0/NppVim-1.14.0.0-x64.zip",
 			"description": "A Notepad++ plugin that adds Vim-style editing and key bindings.",
 			"author": "h-jangra",
 			"homepage": "https://github.com/h-jangra/NppVim"
@@ -1754,10 +1808,10 @@
 		{
 			"folder-name": "TCSyslogFinder",
 			"display-name": "TC Syslog Finder",
-			"version": "1.0.0.0",
+			"version": "1.1.0",
 			"npp-compatible-versions": "[8.0,]",
-			"id": "09a462e5e025bbb63b81d636974ba3c11a7849e4f4ea7deb4ea225321f380b63",
-			"repository": "https://github.com/bsagarzazu/npp-tc-syslog-finder/releases/download/v1.0.0/TCSyslogFinder_v1.0.0_x64.zip",
+			"id": "fbc35857fa65a657b388359bb2deb43c728e304f2ba75dd9be915ff55a03654c",
+			"repository": "https://github.com/bsagarzazu/npp-tc-syslog-finder/releases/download/v1.1.0/TCSyslogFinder_v1.1.0_x64.zip",
 			"description": "Instantly find and open the latest Teamcenter syslog in Notepad++.",
 			"author": "bsagarzazu",
 			"homepage": "https://github.com/bsagarzazu/npp-tc-syslog-finder"
@@ -1795,9 +1849,9 @@
 		{
 			"folder-name": "TreeSitterLexer",
 			"display-name": "TreeSitter",
-			"version": "1.1.0",
-			"id": "DC077FE10BEAC90FD9AF517E864EB80821DBFA3A46753C650170062786D12F00",
-			"repository": "https://github.com/Thorium/NppTreeSitter/releases/download/1.1.0/NppTreeSitter-x64.zip",
+			"version": "1.4.2",
+			"id": "6e76d0cbb0d707364444e7d9a0e4bcb14ebc8b54a3de21aa79a34899ab2e3c9b",
+			"repository": "https://github.com/Thorium/NppTreeSitter/releases/download/1.4.2/NppTreeSitter_1.4.2_x64.zip",
 			"description": "Integrate Tree-sitter to Notepad++. AST-based syntax highlighting and code folding for many languages.",
 			"author": "Tuomas Hietanen",
 			"homepage": "https://github.com/Thorium/NppTreeSitter/"

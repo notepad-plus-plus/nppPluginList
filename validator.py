@@ -17,6 +17,8 @@ from urllib.parse import unquote, urljoin, urlsplit
 
 import requests
 from jsonschema import Draft202012Validator, FormatChecker
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 
 
 ROOT = Path(__file__).resolve().parent
@@ -32,6 +34,13 @@ MAX_ARCHIVE_MEMBERS = 10_000
 MAX_COMPRESSION_RATIO = 1_000
 COPY_CHUNK_BYTES = 1024 * 1024
 USER_AGENT = "nppPluginList-validator/1"
+DOWNLOAD_RETRIES = Retry(
+    total=3,
+    backoff_factor=2,
+    status_forcelist=(408, 425, 429, 500, 502, 503, 504),
+    allowed_methods=frozenset({"GET"}),
+    raise_on_status=False,
+)
 
 C_SUM_LEN = 100
 TMPL_BR = "<br>"
@@ -81,6 +90,12 @@ class DuplicateJsonKeyError(ValueError):
 
 class PackageValidationError(ValueError):
     pass
+
+
+def create_download_session():
+    session = requests.Session()
+    session.mount("https://", HTTPAdapter(max_retries=DOWNLOAD_RETRIES))
+    return session
 
 
 class Reporter:
@@ -734,7 +749,7 @@ def validate_remote_catalog(catalog, architecture, reporter):
     with tempfile.TemporaryDirectory(
         prefix=f"npp-plugin-list-{architecture}-"
     ) as temporary_directory:
-        with requests.Session() as session:
+        with create_download_session() as session:
             session.max_redirects = MAX_REDIRECTS
             for plugin in catalog["npp-plugins"]:
                 print(plugin["display-name"], end="")

@@ -1,6 +1,6 @@
 {
 	"name": "npp-pluginList",
-	"version": "1.9.6",
+	"version": "1.9.7",
 	"arch": "arm64",
 	"npp-plugins": [
 		{
@@ -26,9 +26,9 @@
 		{
 			"folder-name": "NppChineseConverter",
 			"display-name": "Chinese Converter",
-			"version": "1.0.2",
-			"id": "e2b4f6c388fb691d8cfe49c30c37e594a0953ce2402be04d1f06eefdf07242f7",
-			"repository": "https://github.com/lkk9898969/Npp_ChineseConverter/releases/download/v1.0.2/NppChineseConverter-ARM64.zip",
+			"version": "1.0.3",
+			"id": "4585d7c79fb28bb11afb40cd55f558071f947fdec8bd506330a85409a5c69a0b",
+			"repository": "https://github.com/lkk9898969/Npp_ChineseConverter/releases/download/v1.0.3/NppChineseConverter-ARM64.zip",
 			"description": "Traditional and Simplified conversion plugin for Notepad++",
 			"author": "lkk9898969",
 			"homepage": "https://github.com/lkk9898969/Npp_ChineseConverter",
@@ -58,6 +58,17 @@
 			"homepage": "https://github.com/pnedev/comparePlus"
 		},
 		{
+			"folder-name": "dark_mode_C",
+			"display-name": "Dark Mode C",
+			"version": "1.0.3",
+			"npp-compatible-versions": "[8.0,]",
+			"id": "0b90c891b9b7a39197f534ebc1197425b41e0caf6525261c85a27ffa7bf62843",
+			"repository": "https://github.com/pullitall/Notepadpp-light-dark-switch-and-automatic-switch-based-on-location/releases/download/v1.0.3/DARK_MODE_NPP_v1.0.3_ARM64.zip",
+			"description": "Adds toolbar icons to instantly switch between light and dark mode with no restart required. Features an automatic mode that dynamically toggles your theme based on local sunrise and sunset times.",
+			"author": "pullitall",
+			"homepage": "https://github.com/pullitall/Notepadpp-light-dark-switch-and-automatic-switch-based-on-location"
+		},
+		{
 			"folder-name": "DiscordRPC",
 			"display-name": "Discord Rich Presence",
 			"version": "2.1.711.1",
@@ -70,9 +81,9 @@
 		{
 			"folder-name": "EmojiDescription",
 			"display-name": "Emoji Description",
-			"version": "0.1.0",
-			"id": "581fe7911d8f76edde26009fdc4cf5860cc34cd67fa996381f883eda936fcf10",
-			"repository": "https://github.com/Ruberoid/npp_emoji_description/releases/download/v0.1.0/EmojiDescription_arm64_v0.1.0.zip",
+			"version": "0.3.16",
+			"id": "293bcb62c8cbc389e8552a6eeae34dcd013402322c60da6094f107c767109d1f",
+			"repository": "https://github.com/Ruberoid/npp_emoji_description/releases/download/v0.3.16/EmojiDescription_arm64_v0.3.16.zip",
 			"description": "Displays detailed character encoding information in the status bar. Shows Unicode code point, decimal/hexadecimal values, HTML entity, and UTF-8 byte sequence for any character including emoji.",
 			"author": "Ruberoid",
 			"homepage": "https://github.com/Ruberoid/npp_emoji_description"
@@ -110,10 +121,10 @@
 		{
 			"folder-name": "HTMLTag",
 			"display-name": "HTML Tag",
-			"version": "1.6.0.0",
+			"version": "1.6.1.0",
 			"npp-compatible-versions": "[8.3,]",
-			"id": "0f172f4244f31c180953682d3d30ba0c912ded7e2b235fea22aa9a117cb327bb",
-			"repository": "https://github.com/rdipardo/nppHTMLTag/releases/download/v1.6.0/HTMLTag_v1.6.0_arm64.zip",
+			"id": "870a1bd94c141e1c7d441a5ec1ae01a1c2650a86759b2b56822411738d4d1491",
+			"repository": "https://github.com/rdipardo/nppHTMLTag/releases/download/v1.6.1/HTMLTag_v1.6.1_arm64.zip",
 			"description": "Provides three core functions:\r\n- HTML and XML tag jumping, like the built-in brace matching and selection\r\n of tags and/or contents.\r\n- HTML entity encoding/decoding (example: é to &eacute;)\r\n- JS character encoding/decoding (example: é to \\u00E9)",
 			"author": "Martijn Coppoolse",
 			"homepage": "https://github.com/rdipardo/nppHTMLTag"
@@ -173,11 +184,12 @@
 		{
 			"folder-name": "MarkdownTableEditor",
 			"display-name": "Markdown Table Editor",
-			"version": "11.0.1",
-			"id": "65d537fb89e3f91777c0158a12e0b26f95845e499cefd8fac8f8d0bac44260fd",
-			"repository": "https://github.com/krotname/NppMarkdownTableEditor/releases/download/v11.0.1/MarkdownTableEditor-11.0.1-arm64-pluginadmin.zip",
-			"description": "Format, align, sort, resize, and convert Markdown tables directly in Notepad++.",
-			"author": "krotname",
+			"version": "11.1.0",
+			"npp-compatible-versions": "[8.3.1,]",
+			"id": "37ed2e3ac28b514d3267e9bcd0cca18683d67ae817075e9f91a5b944c78e18ea",
+			"repository": "https://github.com/krotname/NppMarkdownTableEditor/releases/download/v11.1.0/MarkdownTableEditor-11.1.0-arm64-pluginadmin.zip",
+			"description": "Edits Markdown pipe tables as aligned text. Align, fit width, narrow or widen columns, navigate, insert, delete, move and sort rows or columns, convert CSV/TSV blocks, and insert new tables from Notepad++.",
+			"author": "Kreout",
 			"homepage": "https://github.com/krotname/NppMarkdownTableEditor"
 		},
 		{
@@ -486,10 +498,10 @@
 		{
 			"folder-name": "TCSyslogFinder",
 			"display-name": "TC Syslog Finder",
-			"version": "1.0.0.0",
+			"version": "1.1.0",
 			"npp-compatible-versions": "[8.0,]",
-			"id": "d2d0ea220b4297b11658bcbc7da9e52285b5f3cd55b19391ce8b17a2eeb6cb92",
-			"repository": "https://github.com/bsagarzazu/npp-tc-syslog-finder/releases/download/v1.0.0/TCSyslogFinder_v1.0.0_arm64.zip",
+			"id": "d087e36f8fa052eb817b08bdd80016d7f49f4681495f40f647509458f4ac1368",
+			"repository": "https://github.com/bsagarzazu/npp-tc-syslog-finder/releases/download/v1.1.0/TCSyslogFinder_v1.1.0_arm64.zip",
 			"description": "Instantly find and open the latest Teamcenter syslog in Notepad++.",
 			"author": "bsagarzazu",
 			"homepage": "https://github.com/bsagarzazu/npp-tc-syslog-finder"
@@ -507,9 +519,9 @@
 		{
 			"folder-name": "TreeSitterLexer",
 			"display-name": "TreeSitter",
-			"version": "1.1.0",
-			"id": "49A37ED0D3C4A9CEAD489D06EDB4B86F5C87BDA4AFD53A5D935240CC50B7F7B0",
-			"repository": "https://github.com/Thorium/NppTreeSitter/releases/download/1.1.0/NppTreeSitter-arm64.zip",
+			"version": "1.4.2",
+			"id": "757485b3b8730ef7e75934401832f8abd82dfa6dc630fee010e5f1ec85ba6c0f",
+			"repository": "https://github.com/Thorium/NppTreeSitter/releases/download/1.4.2/NppTreeSitter_1.4.2_ARM64.zip",
 			"description": "Integrate Tree-sitter to Notepad++. AST-based syntax highlighting and code folding for many languages.",
 			"author": "Tuomas Hietanen",
 			"homepage": "https://github.com/Thorium/NppTreeSitter/"
