@@ -445,7 +445,7 @@
 		    "description": "A simple Notepad++ plugin that adds a second vertical scrollbar with mirrored line numbers and markers.",
 		    "author": "SaiyajinK",
 		    "homepage": "https://github.com/SaiyajinK/Dual-Scrollbars-for-Notepad-Plus-Plus"
-		}
+		},
 		{
 			"folder-name": "NppEditorConfig",
 			"display-name": "EditorConfig",
