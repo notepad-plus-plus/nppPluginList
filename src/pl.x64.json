@@ -437,6 +437,16 @@
 			"homepage": "https://github.com/Predelnik/DSpellCheck"
 		},
 		{
+		    "folder-name": "DualScrollbars",
+		    "display-name": "Dual Scrollbars",
+		    "version": "1.0.0",
+		    "id": "811b53ca903ef1ee2b483df663bd755c524b03ed8f2f78eadd8d845c3933c956",
+		    "repository": "https://github.com/SaiyajinK/Dual-Scrollbars-for-Notepad-Plus-Plus/releases/download/v1.0.0/Dual-Scrollbars-v1.0.0-x64.zip",
+		    "description": "A simple Notepad++ plugin that adds a second vertical scrollbar with mirrored line numbers and markers.",
+		    "author": "SaiyajinK",
+		    "homepage": "https://github.com/SaiyajinK/Dual-Scrollbars-for-Notepad-Plus-Plus"
+		}
+		{
 			"folder-name": "NppEditorConfig",
 			"display-name": "EditorConfig",
 			"version": "0.4.0",
