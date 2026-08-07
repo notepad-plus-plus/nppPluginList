@@ -632,6 +632,16 @@
 			"homepage": "https://github.com/shriprem/Goto-Line-Col-NPP-Plugin"
 		},
 		{
+			"folder-name": "GraphBuilderLaz",
+			"display-name": "GraphBuilder",
+			"version": "1.0.7",
+			"id": "42b8f422c21717783a43d86f4c87fa511703c808e4012204419533d80771ff54",
+			"repository": "https://github.com/pisarev/graphbuilder-npp/releases/download/v1.0.7/GraphBuilder-npp-1.0.7-win64.zip",
+			"description": "[Requires the WebView2 runtime, which ships with Windows 11 and arrives with Edge on Windows 10]\r\nPlots the formula under your mouse. Press Alt+G for the docked panel, then point at a line: if it parses as a formula, the curve appears with its roots, intersections and extrema marked. A selection wins over the line, and what comes from the editor keeps one slot of its own, so pointing around does not fill the list. The report goes back the other way - to a new tab as Markdown with the curve embedded as SVG, or straight at the caret. Cartesian and polar systems, several curves at once. The panel is a web page and the computing is Object Pascal, so the same page runs as a browser demo with the engine compiled to WebAssembly.",
+			"author": "Yuriy Pisarev",
+			"homepage": "https://github.com/pisarev/graphbuilder-npp"
+		},
+		{
 			"folder-name": "HexEditor",
 			"display-name": "HEX-Editor",
 			"version": "0.9.14.0",
