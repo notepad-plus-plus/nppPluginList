@@ -308,10 +308,10 @@
 		{
 			"folder-name": "CompressedFileViewer",
 			"display-name": "CompressedFileViewer",
-			"version": "5.1.0",
-			"id": "5dd420a36f6ea99812f59ae52eb03aa2ec7ce77c96582923f6bf88513832cde8",
-			"repository": "https://github.com/Pascal-Krenckel/CompressedFileViewer/releases/download/v5.1.0-ver/CompressedFileViewerX64.zip",
-			"description": "[Requires .Net 8] A Notepad++ plugin to open and save files in the gzip, bzip2, brotli, XZ or ZStd format.",
+			"version": "5.1.1",
+			"id": "dad24388ca918bd275cbe856a7d0f92e8ae68724335db3d8a0b27048decfc42e",
+			"repository": "https://github.com/Pascal-Krenckel/CompressedFileViewer/releases/download/v5.1.1/CompressedFileViewerx64.zip",
+			"description": "[Requires .NET 8] A Notepad++ plugin for opening and saving files in GZip, BZip2, Brotli, XZ, or ZStd format. Enable the desired algorithms in the plugin settings after installation.",
 			"author": "Pascal Krenckel",
 			"homepage": "https://github.com/Pascal-Krenckel/CompressedFileViewer"
 		},
