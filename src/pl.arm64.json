@@ -81,10 +81,10 @@
 		{
 			"folder-name": "EmojiDescription",
 			"display-name": "Emoji Description",
-			"version": "0.3.16",
-			"id": "293bcb62c8cbc389e8552a6eeae34dcd013402322c60da6094f107c767109d1f",
-			"repository": "https://github.com/Ruberoid/npp_emoji_description/releases/download/v0.3.16/EmojiDescription_arm64_v0.3.16.zip",
-			"description": "Displays detailed character encoding information in the status bar. Shows Unicode code point, decimal/hexadecimal values, HTML entity, and UTF-8 byte sequence for any character including emoji.",
+			"version": "0.4.17",
+			"id": "e9ad7776551c1d8e5b8a601de239b553516c054fcb6dc7acc4cf0d4a25ec1e4c",
+			"repository": "https://github.com/Ruberoid/npp_emoji_description/releases/download/v0.4.17/EmojiDescription_arm64_v0.4.17.zip",
+			"description": "Displays detailed character encoding information in the status bar: Unicode code point, character name, HTML entity, and the UTF-8 byte sequence in hexadecimal, decimal or git-style octal notation. A menu command opens a dialog with every field for the character at the caret, ready to copy to the clipboard. Works for any character including emoji.",
 			"author": "Ruberoid",
 			"homepage": "https://github.com/Ruberoid/npp_emoji_description"
 		},
