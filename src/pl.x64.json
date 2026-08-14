@@ -1340,6 +1340,17 @@
 			"homepage": "https://github.com/KubaDee/NppTextViz"
 		},
 		{
+			"folder-name": "NppTranslatePanel",
+			"display-name": "NppTranslatePanel",
+			"version": "0.1.0.0",
+			"npp-compatible-versions": "[8.0,]",
+			"id": "d387ba96d978949af7006d5081350da0f1eecca6e83d8deb0de344c42dd2d89c",
+			"repository": "https://github.com/Jerryk133/NppTranslatePanel/releases/download/v0.1.0/NppTranslatePanel-0.1.0-x64.zip",
+			"description": "[Requires .NET Framework 4.8] Live-translates the active document in a synchronized dockable panel. Supports DeepL (user API key required) and MyMemory.",
+			"author": "Jerryk133",
+			"homepage": "https://github.com/Jerryk133/NppTranslatePanel"
+		},
+		{
 			"folder-name": "NppUISpy",
 			"display-name": "NppUISpy",
 			"version": "1.2",
