@@ -507,6 +507,16 @@
 			"homepage": "https://github.com/bsagarzazu/npp-tc-syslog-finder"
 		},
 		{
+			"folder-name": "TidyText",
+			"display-name": "TidyText",
+			"version": "1.1.0.0",
+			"id": "3fc684e1fbae22bf22775fdb1e5ad6133c772666a1fde97c2f777dd0d78bce50",
+			"repository": "https://github.com/gonzalu/TidyText/releases/download/v1.1.0/TidyText_ARM64.zip",
+			"description": "Highlights and repairs non-printing and mis-encoded (mojibake) characters, including curly quotes, dashes, NBSP, zero-width spaces, BOM, and UTF-8-as-Latin-1 corruption. Also sends the current selection to ChatGPT, Claude, or Gemini via the clipboard and your default browser.",
+			"author": "gonzalu",
+			"homepage": "https://github.com/gonzalu/TidyText"
+		},
+		{
 			"folder-name": "TopMost",
 			"display-name": "TopMost",
 			"version": "1.4.2.0",

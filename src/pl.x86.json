@@ -1903,6 +1903,16 @@
 			"homepage": "https://code.google.com/p/npp-tidy2/"
 		},
 		{
+			"folder-name": "TidyText",
+			"display-name": "TidyText",
+			"version": "1.1.0.0",
+			"id": "d997a31500c2a135694c6b4403241658f17d944459a129fe3dd1fefb31434df4",
+			"repository": "https://github.com/gonzalu/TidyText/releases/download/v1.1.0/TidyText_Win32.zip",
+			"description": "Highlights and repairs non-printing and mis-encoded (mojibake) characters, including curly quotes, dashes, NBSP, zero-width spaces, BOM, and UTF-8-as-Latin-1 corruption. Also sends the current selection to ChatGPT, Claude, or Gemini via the clipboard and your default browser.",
+			"author": "gonzalu",
+			"homepage": "https://github.com/gonzalu/TidyText"
+		},
+		{
 			"folder-name": "NppToolBucket",
 			"display-name": "ToolBucket",
 			"version": "1.10.6622.41336",
