@@ -1240,7 +1240,7 @@
         "folder-name": "NppImagePreview",
         "display-name": "NppImagePreview",
         "version": "1.0.0",
-        "id": "8492449a2679d641dd8555df0c5fb4e09e2446398ee123216aae0e96f8cc4fdd",
+        "id": "7a6c8d01d391162999d820438b9bfd4c8218644fd78787bb0af6609c2ad11d20",
         "repository": "https://github.com/bdgeek/NppImagePreview/releases/download/v1.0.0/NppImagePreview-v1.0.0-x64.zip",
         "description": "Preview images referenced in HTML, CSS, PHP, and JavaScript files directly in Notepad++. Hover over an image path to display a thumbnail preview, or use Preview Image at Cursor. Supports PNG, JPG, WebP, GIF, SVG, BMP, ICO, AVIF, and TIFF.",
         "author": "Mashkawat Ahsan",
