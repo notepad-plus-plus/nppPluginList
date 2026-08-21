@@ -759,6 +759,17 @@
 			"homepage": "https://github.com/davidsover/nppJSFunctionViewer"
 		},
 		{
+			"folder-name": "JsonLSimpleFormatter",
+			"display-name": "JsonL Simple Formatter",
+			"version": "1.0",
+			"npp-compatible-versions": "[8.8.5,]",
+			"id": "5f12ffc60687ea639226a98c5ac06e4e070b0b06070836454eab31ea41224f48",
+			"repository": "https://github.com/davikokar/JsonLSimpleFormatter/releases/download/v1.0.0/JsonLSimpleFormatter-1.0.0-x64.zip",
+			"description": "Plugin which toggles beetween pretty-printed and linearized json-l files.",
+			"author": "Davide Seddio",
+			"homepage": "https://github.com/davikokar/JsonLSimpleFormatter"
+		},		
+		{
 			"folder-name": "JsonTools",
 			"display-name": "JSON Tools",
 			"version": "8.5",
