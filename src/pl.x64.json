@@ -1144,11 +1144,11 @@
 		{
 			"folder-name": "NppCrossCheck",
 			"display-name": "NppCrossCheck",
-			"version": "1.2.0.0",
+			"version": "1.3.0.0",
 			"npp-compatible-versions": "[8.4,]",
 			"old-versions-compatibility": "[,1.1.0.0][8.4,]",
-			"id": "834dff6c43a5f7c872ebb6f35df7515f1cfc16049e75dd772d03030c907e5634",
-			"repository": "https://github.com/pablo-code14/NppCrossCheck/releases/download/v1.2.0/NppCrossCheck_x64.zip",
+			"id": "d823b1f629fb5837c8c3112e01067e2a5154aced3926f3a647af55238613ccb3",
+			"repository": "https://github.com/pablo-code14/NppCrossCheck/releases/download/v1.3.0/NppCrossCheck_x64.zip",
 			"description": "Compare two lists in the current document.\r\nPlace the two lists separated by one or more blank lines and run the plugin to cross-check their contents.",
 			"author": "Pablo Lopez",
 			"homepage": "https://github.com/pablo-code14/NppCrossCheck"
