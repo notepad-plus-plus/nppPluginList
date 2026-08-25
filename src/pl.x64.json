@@ -1435,6 +1435,16 @@
 			"homepage": "https://github.com/ZhuXuefengGitHub/NX_ASCII_Database_Helper"
 		},
 		{
+			"folder-name": "OCamlLexer",
+			"display-name": "OCaml Lexer",
+			"version": "1.0.0",
+			"id": "20b136328f477e7ace3366b0ca87d6de61d61b384969f275f419a41d65e8a3be",
+			"repository": "https://github.com/Zaneham/ocaml-npp/releases/download/v1.0.0/OCamlLexer_x64.zip",
+			"description": "Syntax highlighting, folding and live linting for OCaml. A Scintilla ILexer5 lexer, so OCaml registers as a real language, with nested comments, quoted strings and char literals kept apart from type variables. Bundles the olint linter, which draws diagnostics inline on open and save.",
+			"author": "Zane Hambly",
+			"homepage": "https://github.com/Zaneham/ocaml-npp"
+		},
+		{
 			"folder-name": "nppplugin_ofis2",
 			"display-name": "Open File In Solution",
 			"version": "3.0.1",
