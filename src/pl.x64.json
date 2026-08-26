@@ -676,9 +676,9 @@
 		{
 			"folder-name": "HLASMLexer",
 			"display-name": "HLASM Lexer - Column-Aware Syntax Highlighting",
-			"version": "1.1.0",
-			"id": "506c27ddea0242554c6f08abd7dbedad1273a6027db27b57faf1e4b22bd63142",
-			"repository": "https://github.com/Zaneham/hlasm-npp/releases/download/v1.1.0/HLASMLexer_x64.zip",
+			"version": "1.1.1",
+			"id": "cd3bfda12873a6173f4ec63af33cb10f93336bd33ae7be3c9612a5bcdd824c69",
+			"repository": "https://github.com/Zaneham/hlasm-npp/releases/download/v1.1.1/HLASMLexer_x64.zip",
 			"description": "Column-aware syntax highlighting for IBM HLASM. Understands the 80-column punch card layout — labels, operations, operands, continuation markers and sequence numbers are each highlighted by their column position, not just keywords.",
 			"author": "Zane Hambly",
 			"homepage": "https://github.com/Zaneham/hlasm-npp"
