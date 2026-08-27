@@ -334,6 +334,16 @@
 			"homepage": "https://sourceforge.net/projects/npp-plugins/files/NppDocShare/"
 		},
 		{
+			"folder-name": "NppS3",
+			"display-name": "NppS3",
+			"version": "1.0.0",
+			"id": "68422319489f4fda7886902ad1576eddb79b95dc37db1c158c142052eeef6571",
+			"repository": "https://github.com/bsy0318/NppS3/releases/download/v1.0.0/NppS3-1.0.0-arm64.zip",
+			"description": "Browse and edit Amazon S3 and Cloudflare R2 objects from a docked panel. Open a remote object, edit it, and press Ctrl+S to upload it back.",
+			"author": "Seoyeon Bae",
+			"homepage": "https://github.com/bsy0318/NppS3"
+		},
+		{
 			"folder-name": "NppTextViz",
 			"display-name": "NppTextViz",
 			"version": "0.4.3",
