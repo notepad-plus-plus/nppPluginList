@@ -109,6 +109,17 @@
 			"homepage": "https://github.com/shriprem/Goto-Line-Col-NPP-Plugin"
 		},
 		{
+			"folder-name": "HiddenLexers",
+			"display-name": "HiddenLexers",
+			"version": "1.0.0",
+			"id": "a0828a8f57268e414bcdc2d11cd86928106d4c791807352d6653edd15180fa0f",
+			"repository": "https://github.com/pryrt/NppPlugin-HiddenLexers/releases/download/v1.0.0/HiddenLexers_v1.0.0_ARM64.zip",
+			"description": "Allows users to enable 'hidden' Lexilla lexers in Notepad++",
+			"author": "pryrt",
+			"homepage": "https://github.com/pryrt/NppPlugin-HiddenLexers",
+			"npp-compatible-versions": "[8.5,]"
+		},
+		{
 			"folder-name": "HexEditor",
 			"display-name": "HEX-Editor",
 			"version": "0.9.14.0",
