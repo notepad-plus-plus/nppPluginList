@@ -1121,6 +1121,17 @@
 			"homepage": "https://github.com/joaoasrosa/nppxmltreeview/"
 		},
 		{
+			"folder-name": "NppZenHankaku",
+			"display-name": "NppZenHankaku",
+			"version": "1.0.0",
+			"npp-compatible-versions": "[8.0,]",
+			"id": "f1dfe323bd9b17075138274e7ed2a6848d588a29e57da866186e3102c36f24d2",
+			"repository": "https://github.com/RivieraSystems/NppZenHankaku/releases/download/v1.0.0/NppZenHankaku_1.0.0_x64.zip",
+			"description": "Convert between full-width (zenkaku) and half-width (hankaku) characters: alphanumerics, katakana, symbols, and spaces. Supports multiple and rectangular selections.",
+			"author": "RivieraSystems",
+			"homepage": "https://github.com/RivieraSystems/NppZenHankaku"
+		},
+		{
 			"folder-name": "npp.connections",
 			"display-name": "npp.Connections",
 			"version": "1.1.0",
