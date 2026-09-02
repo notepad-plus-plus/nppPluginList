@@ -1331,6 +1331,16 @@
 			"homepage": "https://github.com/viper3400/RegExTractor/wiki/de_userdocumentation"
 		},
 		{
+			"folder-name": "NppS3",
+			"display-name": "NppS3",
+			"version": "1.0.0",
+			"id": "0a23fe7b31b65fd055fcfb0f3c7568f02e18352c6540336ef8fe4d0679e5a66f",
+			"repository": "https://github.com/bsy0318/NppS3/releases/download/v1.0.0/NppS3-1.0.0-x86.zip",
+			"description": "Browse and edit Amazon S3 and Cloudflare R2 objects from a docked panel. Open a remote object, edit it, and press Ctrl+S to upload it back.",
+			"author": "Seoyeon Bae",
+			"homepage": "https://github.com/bsy0318/NppS3"
+		},
+		{
 			"folder-name": "NppTags",
 			"display-name": "NppTags",
 			"version": "0.9.1",
