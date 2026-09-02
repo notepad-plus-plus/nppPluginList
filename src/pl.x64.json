@@ -654,9 +654,9 @@
 		{
 			"folder-name": "GraphBuilderLaz",
 			"display-name": "Graph Builder",
-			"version": "1.3.3",
-			"id": "1c143f67fbbb47d52b53b9d5da45dad3d9823a4776a6e9e4b2f9440e4be4a7d0",
-			"repository": "https://github.com/pisarev/graphbuilder-npp/releases/download/v1.3.3/GraphBuilder-npp-1.3.3-win64.zip",
+			"version": "1.3.4",
+			"id": "a02753bdcd9f69e7ad2e7f843297e845a576a41614046c1e37025eff8312a671",
+			"repository": "https://github.com/pisarev/graphbuilder-npp/releases/download/v1.3.4/GraphBuilder-npp-1.3.4-win64.zip",
 			"description": "[Requires the WebView2 runtime, which ships with Windows 11 and arrives with Edge on Windows 10]\r\nA docked panel that plots the formula under your mouse: roots, intersections, extrema, a report, and a formula fitted to pasted data.",
 			"author": "Yuriy Pisarev",
 			"homepage": "https://github.com/pisarev/graphbuilder-npp"
