@@ -1384,10 +1384,10 @@
 		{
 			"folder-name": "NppTranslatePanel",
 			"display-name": "NppTranslatePanel",
-			"version": "0.3.1.0",
+			"version": "0.3.5.0",
 			"npp-compatible-versions": "[8.0,]",
-			"id": "96c19fbcd6c141fe90be67fcb32f064e4fcc4c662867abbe8accec6d8ad5fbf7",
-			"repository": "https://github.com/Jerryk133/NppTranslatePanel/releases/download/v0.3.1/NppTranslatePanel-0.3.1-x86.zip",
+			"id": "d2d6fd446baf94b831d79d2a6eb9effe35c72d3912f9203a529060e6ac0064be",
+			"repository": "https://github.com/Jerryk133/NppTranslatePanel/releases/download/v0.3.5/NppTranslatePanel-0.3.5-x86.zip",
 			"description": "[Requires .NET Framework 4.8] Translates selected text or the active document in a synchronized dockable panel. Supports DeepL (user API key required) and MyMemory.",
 			"author": "Jerryk133",
 			"homepage": "https://github.com/Jerryk133/NppTranslatePanel"
