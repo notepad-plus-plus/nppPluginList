@@ -553,6 +553,17 @@
 			"homepage": "https://github.com/ufo/filefinder"
 		},
 		{
+			"folder-name": "FileTools",
+			"display-name": "Datamodder File Tools",
+			"version": "1.3.1.3",
+			"npp-compatible-versions": "[8.3,]",
+			"id": "ffe99faa911a524128ce225dd77bd09277b5a073e34c94c5561929dbe9cfd3fb",
+			"repository": "https://github.com/dm-utils/filetools/releases/download/v1.3.1.3/FileTools.zip",
+			"description": "Tidy, validate and convert YAML, JSON and CSV directly in Notepad++.\r\nFeatures:\r\n- Reindent / tidy YAML (comments preserved)\r\n- Full conversion matrix: YAML, JSON, CSV and Parquet (via duckdb.exe) all reach each other\r\n- JSON: pretty-print, minify, sort keys, escape/unescape\r\n- CSV: align, compact, delimiter convert, sort, transpose, add/remove quotes\r\n- Settings dialog with saved profiles",
+			"author": "Datamodder",
+			"homepage": "https://datamodder.com/utils/file-tools"
+		},
+		{
 			"folder-name": "FingerText2",
 			"display-name": "FingerText2",
 			"version": "26.6.15",
