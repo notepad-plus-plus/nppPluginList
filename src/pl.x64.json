@@ -605,7 +605,7 @@
 			"repository": "https://github.com/dm-utils/formatsql/releases/download/v1.3.1.2/FormatSQL.zip",
 			"description": "Formats, minifies and converts SQL directly in Notepad++.\r\nFeatures:\r\n- Format / minify SQL, format-on-save, format-and-copy\r\n- Multi-dialect conversion (ANSI, Snowflake, MS SQL, PostgreSQL, MySQL, Databricks)\r\n- Quote, comment-style, boolean and number-format conversion\r\n- Configurable casing, alignment, structure and spacing rules with saved profiles",
 			"author": "Datamodder",
-			"homepage": "https://github.com/dm-utils/formatsql"
+			"homepage": "https://datamodder.com/utils/sql-formatter"
 		},
 		{
 			"folder-name": "GedcomLexer",
