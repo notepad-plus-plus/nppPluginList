@@ -1311,6 +1311,17 @@
 			"homepage": "https://sourceforge.net/projects/nppjumplist/"
 		},
 		{
+			"folder-name": "NppMarkdownNext",
+			"display-name": "NppMarkdownNext",
+			"version": "1.0.0",
+			"npp-compatible-versions": "[8.0,]",
+			"id": "a3491152fc41eb0d1515b603e910eb9fe8b0f69f970ba99a2b3774d9e591eaea",
+			"repository": "https://github.com/theneet0/NppMarkdownNext/releases/download/v1.0.0/NppMarkdownNext-1.0.0-x64.zip",
+			"description": "Next-generation native C++26 Markdown live preview & reader for Notepad++.\r\nFeatures include:\r\n- Ultra-fast WebView2 Chromium rendering with Direct2D hardware fallback\r\n- Real-time live preview with DOM diffing and bidirectional caret sync\r\n- Smart BiDi engine for Persian, Arabic, Hebrew, and mixed RTL/LTR documents\r\n- Built-in offline KaTeX math formulas and Mermaid UML diagrams\r\n- macOS-styled code blocks with syntax highlighting and 1-click copy\r\n- Slide-out Table of Contents (TOC) and in-page search\r\n- Real-time Notepad++ Dark Mode synchronization and standalone HTML export\r\n- 100% offline and self-contained",
+			"author": "theneet0",
+			"homepage": "https://github.com/theneet0/NppMarkdownNext"
+		},
+		{
 			"folder-name": "NppMenuSearch",
 			"display-name": "NppMenuSearch",
 			"version": "0.9.7",
