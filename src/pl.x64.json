@@ -993,6 +993,17 @@
 			"homepage": "https://github.com/npp-plugins/mimetools"
 		},
 		{
+			"folder-name": "NMD",
+			"display-name": "Modern Markdown viewer",
+			"version": "1.0.0",
+			"npp-compatible-versions": "[8.0,]",
+			"id": "b540515344ca15c638957a406dcdd6e661b0a69de1041a90804c524fd8bd715d",
+			"repository": "https://github.com/VioletTape/notepad_md_plugin/releases/download/1.0.0/NMD-v1.0.0-x64.zip",
+			"description": "Modern Markdown viewer with sync scrolling, zoom, mermaid, front-matter, and opinionated coloring (for now).",
+			"author": "violet tape",
+			"homepage": "https://github.com/VioletTape/notepad_md_plugin"
+		},
+		{
 			"folder-name": "MultiReplace",
 			"display-name": "MultiReplace",
 			"version": "6.1.0.37",
