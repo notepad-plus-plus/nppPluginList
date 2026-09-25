@@ -941,6 +941,16 @@
 			"homepage": "https://github.com/dail8859/LuaScript"
 		},
 		{
+			"folder-name": "NppMarkdownFeatures",
+			"display-name": "Markdown Features",
+			"version": "1.0.1",
+			"id": "85a329c7b99879b6f88582b6fa797bae1a814c5c19d961b958d7dcfa926b1dea",
+			"repository": "https://github.com/0langa/npp-markdown-features/releases/download/v1.0.1/NppMarkdownFeatures-v1.0.1-win-x64.zip",
+			"description": "[Requires Microsoft Edge WebView2 Runtime]\r\nAll-in-one Markdown plugin: rendered GitHub-flavored view with scroll sync, document outline panel, smart list and table editing, formatting commands, link tools and link checking, HTML export and copy, TOC generation, document cleanup, and live word count in the status bar.",
+			"author": "0langa",
+			"homepage": "https://github.com/0langa/npp-markdown-features"
+		},
+		{
 			"folder-name": "NppMarkdownPanel",
 			"display-name": "Markdown Panel",
 			"version": "0.9.3",
