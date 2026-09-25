@@ -340,6 +340,17 @@
 			"homepage": "https://github.com/BdR76/CSVLint/"
 		},
 		{
+			"folder-name": "CsvVisualEditor",
+			"display-name": "CSV Visual Editor",
+			"version": "1.0.1",
+			"npp-compatible-versions": "[8.9.8,]",
+			"id": "2405357696cca26f6887701ab6d4e58c7c8671a201796c7a454048b521b29978",
+			"repository": "https://github.com/zzsolt/notepadplusplus-csv-visual-editor/releases/download/v1.0.1/CsvVisualEditor-1.0.1-win-x64.zip",
+			"description": "View, edit, filter and inspect CSV data in a docked table with conflict-checked Apply and Notepad++ undo.",
+			"author": "Zolnai Zsolt",
+			"homepage": "https://github.com/zzsolt/notepadplusplus-csv-visual-editor"
+		},
+		{
 			"folder-name": "CsvQuery",
 			"display-name": "CsvQuery",
 			"version": "1.2.9",
