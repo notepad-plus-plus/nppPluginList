@@ -1178,9 +1178,9 @@
 		{
 			"folder-name": "NppAIAssistant",
 			"display-name": "NppAIAssistant",
-			"version": "0.1.0.0",
-			"id": "2C94E42609E9A49F9B9840D617CD345635E6E9F7FCF4F5975884C355554F955E",
-			"repository": "https://github.com/pingqLIN/NppAIAssistant/releases/download/v0.1.0/NppAIAssistant-0.1.0.0-x64.zip",
+			"version": "0.2.0.6",
+			"id": "23B5051C584FE331C150D3361FC6FE4A23838CCDD33194F75A544776AC76B621",
+			"repository": "https://github.com/pingqLIN/NppAIAssistant/releases/download/v0.2.0.6/NppAIAssistant-0.2.0.6-x64.zip",
 			"description": "Lightweight AI assistant plugin for Notepad++ with visible prompts and single-turn behavior.",
 			"author": "pingqLIN",
 			"homepage": "https://github.com/pingqLIN/NppAIAssistant"
