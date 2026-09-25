@@ -4,6 +4,16 @@
 	"arch": "64",
 	"npp-plugins": [
 		{
+  			"folder-name": "SimplifyJson",
+  			"display-name": "Simplify Json",
+  			"version": "1.0.0",
+ 			"id": "09BE9C8D007F86D43636DD6A5DC907A235DEC58DDE67809638D4050D7990D460",
+  			"repository": "https://github.com/analystvipul/SimplifyJson/releases/download/v1.0.0/SimplifyJson-x64.zip",
+  			"description": "SimplifyJson provides practical JSON tools for Notepad++: escape and unescape JSON strings, beautify JSON with readable indentation, and minify JSON by removing unnecessary whitespace. Commands operate on the selected text or the entire document and validate JSON before formatting.",
+  			"author": "Vipul Patil",
+  			"homepage": "https://github.com/analystvipul/SimplifyJson"
+		},
+		{
 			"folder-name": "3P",
 			"display-name": "3P - Progress Programmers Pal",
 			"version": "1.8.8",
