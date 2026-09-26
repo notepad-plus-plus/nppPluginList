@@ -1004,6 +1004,17 @@
 			"homepage": "https://github.com/npp-plugins/mimetools"
 		},
 		{
+			"folder-name": "MoarFavorites",
+			"display-name": "MoarFavorites",
+			"version": "0.0.1",
+			"npp-compatible-versions": "[8.2,]",
+			"id": "cbfec0b60d1c85714a5172a4b975e6db72c78664589367130fad2d02fa6944fa",
+			"repository": "https://github.com/ERMtn/MoarFavorites/releases/download/v0.0.1-alpha/MoarFavorites_0.0.1_x64.zip",
+			"description": "Manage your most used files, as many as you want, with easy access from a toolbar icon. Add or remove the current file with one click (or edit the config file manually)",
+			"author": "ERMtn",
+			"homepage": "https://github.com/ERMtn/MoarFavorites"
+		},
+		{
 			"folder-name": "MultiReplace",
 			"display-name": "MultiReplace",
 			"version": "6.1.0.37",
