@@ -954,6 +954,17 @@
 			"homepage": "https://sourceforge.net/projects/npp-plugins/files/MultiClipboard/"
 		},
 		{
+			"folder-name": "MoarFavorites",
+			"display-name": "MoarFavorites",
+			"version": "0.0.1",
+			"npp-compatible-versions": "[8.2,]",
+			"id": "157b85e38a6924f2cde4de4ba8de24e1f3a0b84166f4ce668a997fbce115543f",
+			"repository": "https://github.com/ERMtn/MoarFavorites/releases/download/v0.0.1-alpha/MoarFavorites_0.0.1_x86.zip",
+			"description": "Manage your most used files, as many as you want, with easy access from a toolbar icon. Add or remove the current file with one click (or edit the config file manually)",
+			"author": "ERMtn",
+			"homepage": "https://github.com/ERMtn/MoarFavorites"
+		},
+		{
 			"folder-name": "MultiReplace",
 			"display-name": "MultiReplace",
 			"version": "6.1.0.37",
