@@ -114,6 +114,16 @@
 			"homepage": "https://github.com/francostellari/NppPlugins"
 		},
 		{
+			"folder-name": "BatPathIntelliSense",
+			"display-name": "BAT Path IntelliSense",
+			"version": "0.1.0",
+			"id": "1a54db508a5b3c65f51383cda8c43b4c69e3871e8f8ec4c8b92c6d7814cb8fb4",
+			"repository": "https://github.com/nicehero/NppBatPathIntelliSense/releases/download/v0.1.0/BatPathIntelliSense_x64.zip",
+			"description": "File and directory path completion for Windows .bat / .cmd files. Typing .\\ ..\\ C:\\ or \\\\server\\share\\ pops up a candidate list, inserts a trailing backslash for directories, and drills into the next level. Ported from the VS Code extension bat-path-intellisense.",
+			"author": "nicehero",
+			"homepage": "https://github.com/nicehero/NppBatPathIntelliSense"
+		},
+		{
 			"folder-name": "BetterMultiSelection",
 			"display-name": "BetterMultiSelection",
 			"version": "1.5",
