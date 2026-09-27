@@ -114,6 +114,16 @@
 			"homepage": "https://github.com/francostellari/NppPlugins"
 		},
 		{
+			"folder-name": "BatPathIntelliSense",
+			"display-name": "BAT Path IntelliSense",
+			"version": "0.1.0",
+			"id": "1a54db508a5b3c65f51383cda8c43b4c69e3871e8f8ec4c8b92c6d7814cb8fb4",
+			"repository": "https://github.com/nicehero/NppBatPathIntelliSense/releases/download/v0.1.0/BatPathIntelliSense_x64.zip",
+			"description": "File and directory path completion for Windows .bat / .cmd files. Typing .\\ ..\\ C:\\ or \\\\server\\share\\ pops up a candidate list, inserts a trailing backslash for directories, and drills into the next level. Ported from the VS Code extension bat-path-intellisense.",
+			"author": "nicehero",
+			"homepage": "https://github.com/nicehero/NppBatPathIntelliSense"
+		},
+		{
 			"folder-name": "BetterMultiSelection",
 			"display-name": "BetterMultiSelection",
 			"version": "1.5",
@@ -941,6 +951,16 @@
 			"homepage": "https://github.com/dail8859/LuaScript"
 		},
 		{
+			"folder-name": "NppMarkdownFeatures",
+			"display-name": "Markdown Features",
+			"version": "1.0.1",
+			"id": "85a329c7b99879b6f88582b6fa797bae1a814c5c19d961b958d7dcfa926b1dea",
+			"repository": "https://github.com/0langa/npp-markdown-features/releases/download/v1.0.1/NppMarkdownFeatures-v1.0.1-win-x64.zip",
+			"description": "[Requires Microsoft Edge WebView2 Runtime]\r\nAll-in-one Markdown plugin: rendered GitHub-flavored view with scroll sync, document outline panel, smart list and table editing, formatting commands, link tools and link checking, HTML export and copy, TOC generation, document cleanup, and live word count in the status bar.",
+			"author": "0langa",
+			"homepage": "https://github.com/0langa/npp-markdown-features"
+		},
+		{
 			"folder-name": "NppMarkdownPanel",
 			"display-name": "Markdown Panel",
 			"version": "0.9.3",
@@ -1013,6 +1033,17 @@
 			"description": "Manage your most used files, as many as you want, with easy access from a toolbar icon. Add or remove the current file with one click (or edit the config file manually)",
 			"author": "ERMtn",
 			"homepage": "https://github.com/ERMtn/MoarFavorites"
+    },
+		{
+			"folder-name": "NMD",
+			"display-name": "Modern Markdown viewer",
+			"version": "1.0.0",
+			"npp-compatible-versions": "[8.0,]",
+			"id": "b540515344ca15c638957a406dcdd6e661b0a69de1041a90804c524fd8bd715d",
+			"repository": "https://github.com/VioletTape/notepad_md_plugin/releases/download/1.0.0/NMD-v1.0.0-x64.zip",
+			"description": "Modern Markdown viewer with sync scrolling, zoom, mermaid, front-matter, and opinionated coloring (for now).",
+			"author": "violet tape",
+			"homepage": "https://github.com/VioletTape/notepad_md_plugin"
 		},
 		{
 			"folder-name": "MultiReplace",
@@ -1241,9 +1272,9 @@
 		{
 			"folder-name": "NppExec",
 			"display-name": "NppExec",
-			"version": "0.8.10",
-			"id": "fb1829a1003180dc760ebe8c9ae025d2e89bfe22bd5e33ed661748b747f32b5e",
-			"repository": "https://github.com/d0vgan/nppexec/releases/download/NppExec_v0810/NppExec_0810_dll_x64.zip",
+			"version": "0.8.12.1",
+			"id": "a87625e651e37f1fc6bee646cf8f827eaa784ec5a8a1250da4f107998ad10d12",
+			"repository": "https://github.com/d0vgan/nppexec/releases/download/NppExec_v08121/NppExec_08121_dll_x64.zip",
 			"description": "Execute commands or saved scripts without leaving Notepad++.",
 			"author": "Vitaliy Dovgan",
 			"homepage": "https://github.com/d0vgan/nppexec"
@@ -1331,6 +1362,17 @@
 			"description": "Adds Windows 7 jump list support.",
 			"author": "ahvgeezer",
 			"homepage": "https://sourceforge.net/projects/nppjumplist/"
+		},
+		{
+			"folder-name": "NppMarkdownNext",
+			"display-name": "NppMarkdownNext",
+			"version": "1.0.0",
+			"npp-compatible-versions": "[8.0,]",
+			"id": "a3491152fc41eb0d1515b603e910eb9fe8b0f69f970ba99a2b3774d9e591eaea",
+			"repository": "https://github.com/theneet0/NppMarkdownNext/releases/download/v1.0.0/NppMarkdownNext-1.0.0-x64.zip",
+			"description": "Next-generation native C++26 Markdown live preview & reader for Notepad++.\r\nFeatures include:\r\n- Ultra-fast WebView2 Chromium rendering with Direct2D hardware fallback\r\n- Real-time live preview with DOM diffing and bidirectional caret sync\r\n- Smart BiDi engine for Persian, Arabic, Hebrew, and mixed RTL/LTR documents\r\n- Built-in offline KaTeX math formulas and Mermaid UML diagrams\r\n- macOS-styled code blocks with syntax highlighting and 1-click copy\r\n- Slide-out Table of Contents (TOC) and in-page search\r\n- Real-time Notepad++ Dark Mode synchronization and standalone HTML export\r\n- 100% offline and self-contained",
+			"author": "theneet0",
+			"homepage": "https://github.com/theneet0/NppMarkdownNext"
 		},
 		{
 			"folder-name": "NppMenuSearch",

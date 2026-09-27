@@ -1200,9 +1200,9 @@
 		{
 			"folder-name": "NppExec",
 			"display-name": "NppExec",
-			"version": "0.8.10",
-			"id": "49d6b8fd513edefdf895ae7b8fbf597c6f7c34081b7d1875ca11b8eb7b1a40c3",
-			"repository": "https://github.com/d0vgan/nppexec/releases/download/NppExec_v0810/NppExec_0810_dll.zip",
+			"version": "0.8.12.1",
+			"id": "d8f85c27908e00b0f040baf2d6ac6e6ecb657a9ef4e890f9fa7698517f7f25da",
+			"repository": "https://github.com/d0vgan/nppexec/releases/download/NppExec_v08121/NppExec_08121_dll.zip",
 			"description": "Execute commands or saved scripts without leaving Notepad++.",
 			"author": "Vitaliy Dovgan",
 			"homepage": "https://github.com/d0vgan/nppexec"
@@ -1288,6 +1288,17 @@
 			"description": "Adds Windows 7 jump list support.",
 			"author": "ahvgeezer",
 			"homepage": "https://sourceforge.net/projects/nppjumplist/"
+		},
+		{
+			"folder-name": "NppMarkdownNext",
+			"display-name": "NppMarkdownNext",
+			"version": "1.0.0",
+			"npp-compatible-versions": "[8.0,]",
+			"id": "3942583e6a907cb9061212930968e043bcfb357c25a4c5effa74a0465f33e96d",
+			"repository": "https://github.com/theneet0/NppMarkdownNext/releases/download/v1.0.0/NppMarkdownNext-1.0.0-x86.zip",
+			"description": "Next-generation native C++26 Markdown live preview & reader for Notepad++.\r\nFeatures include:\r\n- Ultra-fast WebView2 Chromium rendering with Direct2D hardware fallback\r\n- Real-time live preview with DOM diffing and bidirectional caret sync\r\n- Smart BiDi engine for Persian, Arabic, Hebrew, and mixed RTL/LTR documents\r\n- Built-in offline KaTeX math formulas and Mermaid UML diagrams\r\n- macOS-styled code blocks with syntax highlighting and 1-click copy\r\n- Slide-out Table of Contents (TOC) and in-page search\r\n- Real-time Notepad++ Dark Mode synchronization and standalone HTML export\r\n- 100% offline and self-contained",
+			"author": "theneet0",
+			"homepage": "https://github.com/theneet0/NppMarkdownNext"
 		},
 		{
 			"folder-name": "NppMenuSearch",
