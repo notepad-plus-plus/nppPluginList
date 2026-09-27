@@ -405,6 +405,28 @@
 			"homepage": "https://github.com/pullitall/Notepadpp-light-dark-switch-and-automatic-switch-based-on-location"
 		},
 		{
+			"folder-name": "FileTools",
+			"display-name": "Datamodder File Tools",
+			"version": "1.3.1.3",
+			"npp-compatible-versions": "[8.3,]",
+			"id": "ffe99faa911a524128ce225dd77bd09277b5a073e34c94c5561929dbe9cfd3fb",
+			"repository": "https://github.com/dm-utils/filetools/releases/download/v1.3.1.3/FileTools.zip",
+			"description": "Tidy, validate and convert YAML, JSON and CSV directly in Notepad++.\r\nFeatures:\r\n- Reindent / tidy YAML (comments preserved)\r\n- Full conversion matrix: YAML, JSON, CSV and Parquet (via duckdb.exe) all reach each other\r\n- JSON: pretty-print, minify, sort keys, escape/unescape\r\n- CSV: align, compact, delimiter convert, sort, transpose, add/remove quotes\r\n- Settings dialog with saved profiles",
+			"author": "Datamodder",
+			"homepage": "https://datamodder.com/utils/file-tools"
+		},
+		{
+			"folder-name": "FormatSQL",
+			"display-name": "Datamodder SQL Formatter",
+			"version": "1.3.1.2",
+			"npp-compatible-versions": "[8.3,]",
+			"id": "e4837de661ed176dd5f05ca649ccc9eebcd195247f59ccd2df1c2ba2c3d2e2ed",
+			"repository": "https://github.com/dm-utils/formatsql/releases/download/v1.3.1.2/FormatSQL.zip",
+			"description": "Formats, minifies and converts SQL directly in Notepad++.\r\nFeatures:\r\n- Format / minify SQL, format-on-save, format-and-copy\r\n- Multi-dialect conversion (ANSI, Snowflake, MS SQL, PostgreSQL, MySQL, Databricks)\r\n- Quote, comment-style, boolean and number-format conversion\r\n- Configurable casing, alignment, structure and spacing rules with saved profiles",
+			"author": "Datamodder",
+			"homepage": "https://datamodder.com/utils/sql-formatter"
+		},
+		{
 			"folder-name": "dbgpPlugin",
 			"display-name": "DBGp",
 			"version": "0.14.2.1",
@@ -458,14 +480,14 @@
 			"homepage": "https://github.com/Predelnik/DSpellCheck"
 		},
 		{
-		    "folder-name": "DualScrollbars",
-		    "display-name": "Dual Scrollbars",
-		    "version": "1.0.0",
-		    "id": "811b53ca903ef1ee2b483df663bd755c524b03ed8f2f78eadd8d845c3933c956",
-		    "repository": "https://github.com/SaiyajinK/Dual-Scrollbars-for-Notepad-Plus-Plus/releases/download/1.0.0/Dual-Scrollbars-v1.0.0-x64.zip",
-		    "description": "A simple Notepad++ plugin that adds a second vertical scrollbar with mirrored line numbers and markers.",
-		    "author": "SaiyajinK",
-		    "homepage": "https://github.com/SaiyajinK/Dual-Scrollbars-for-Notepad-Plus-Plus"
+			"folder-name": "DualScrollbars",
+			"display-name": "Dual Scrollbars",
+			"version": "1.0.0",
+			"id": "811b53ca903ef1ee2b483df663bd755c524b03ed8f2f78eadd8d845c3933c956",
+			"repository": "https://github.com/SaiyajinK/Dual-Scrollbars-for-Notepad-Plus-Plus/releases/download/1.0.0/Dual-Scrollbars-v1.0.0-x64.zip",
+			"description": "A simple Notepad++ plugin that adds a second vertical scrollbar with mirrored line numbers and markers.",
+			"author": "SaiyajinK",
+			"homepage": "https://github.com/SaiyajinK/Dual-Scrollbars-for-Notepad-Plus-Plus"
 		},
 		{
 			"folder-name": "NppEditorConfig",
@@ -574,17 +596,6 @@
 			"homepage": "https://github.com/ufo/filefinder"
 		},
 		{
-			"folder-name": "FileTools",
-			"display-name": "Datamodder File Tools",
-			"version": "1.3.1.3",
-			"npp-compatible-versions": "[8.3,]",
-			"id": "ffe99faa911a524128ce225dd77bd09277b5a073e34c94c5561929dbe9cfd3fb",
-			"repository": "https://github.com/dm-utils/filetools/releases/download/v1.3.1.3/FileTools.zip",
-			"description": "Tidy, validate and convert YAML, JSON and CSV directly in Notepad++.\r\nFeatures:\r\n- Reindent / tidy YAML (comments preserved)\r\n- Full conversion matrix: YAML, JSON, CSV and Parquet (via duckdb.exe) all reach each other\r\n- JSON: pretty-print, minify, sort keys, escape/unescape\r\n- CSV: align, compact, delimiter convert, sort, transpose, add/remove quotes\r\n- Settings dialog with saved profiles",
-			"author": "Datamodder",
-			"homepage": "https://datamodder.com/utils/file-tools"
-		},
-		{
 			"folder-name": "FingerText2",
 			"display-name": "FingerText2",
 			"version": "26.6.15",
@@ -627,17 +638,6 @@
 			"description": "This Notepad++ plugin can hide the unsightly folding lines, and for convenience, you can fold and unfold the current level using the Alt + Left/Right keys.",
 			"author": "leonardchai@gmail.com",
 			"homepage": "https://github.com/leonardchai/FoldingLineHider"
-		},
-		{
-			"folder-name": "FormatSQL",
-			"display-name": "Datamodder SQL Formatter",
-			"version": "1.3.1.2",
-			"npp-compatible-versions": "[8.3,]",
-			"id": "e4837de661ed176dd5f05ca649ccc9eebcd195247f59ccd2df1c2ba2c3d2e2ed",
-			"repository": "https://github.com/dm-utils/formatsql/releases/download/v1.3.1.2/FormatSQL.zip",
-			"description": "Formats, minifies and converts SQL directly in Notepad++.\r\nFeatures:\r\n- Format / minify SQL, format-on-save, format-and-copy\r\n- Multi-dialect conversion (ANSI, Snowflake, MS SQL, PostgreSQL, MySQL, Databricks)\r\n- Quote, comment-style, boolean and number-format conversion\r\n- Configurable casing, alignment, structure and spacing rules with saved profiles",
-			"author": "Datamodder",
-			"homepage": "https://datamodder.com/utils/sql-formatter"
 		},
 		{
 			"folder-name": "GedcomLexer",
@@ -694,17 +694,6 @@
 			"homepage": "https://github.com/pisarev/graphbuilder-npp"
 		},
 		{
-			"folder-name": "HiddenLexers",
-			"display-name": "HiddenLexers",
-			"version": "1.0.0",
-			"id": "f7f091921dbe4d4c20a6c0f4288f811791691d414d022224fa9ee844e0a5ba49",
-			"repository": "https://github.com/pryrt/NppPlugin-HiddenLexers/releases/download/v1.0.0/HiddenLexers_v1.0.0_x64.zip",
-			"description": "Allows users to enable 'hidden' Lexilla lexers in Notepad++",
-			"author": "pryrt",
-			"homepage": "https://github.com/pryrt/NppPlugin-HiddenLexers",
-			"npp-compatible-versions": "[8.5,]"
-		},
-		{
 			"folder-name": "HexEditor",
 			"display-name": "HEX-Editor",
 			"version": "0.9.14.0",
@@ -715,6 +704,17 @@
 			"description": "Hex editor. Some reported issues, however many bugs fixed in latest release.",
 			"author": "Jens Lorenz",
 			"homepage": "https://github.com/chcg/NPP_HexEditor"
+		},
+		{
+			"folder-name": "HiddenLexers",
+			"display-name": "HiddenLexers",
+			"version": "1.0.0",
+			"id": "f7f091921dbe4d4c20a6c0f4288f811791691d414d022224fa9ee844e0a5ba49",
+			"repository": "https://github.com/pryrt/NppPlugin-HiddenLexers/releases/download/v1.0.0/HiddenLexers_v1.0.0_x64.zip",
+			"description": "Allows users to enable 'hidden' Lexilla lexers in Notepad++",
+			"author": "pryrt",
+			"homepage": "https://github.com/pryrt/NppPlugin-HiddenLexers",
+			"npp-compatible-versions": "[8.5,]"
 		},
 		{
 			"folder-name": "HLASMLexer",
@@ -812,17 +812,6 @@
 			"homepage": "https://github.com/davidsover/nppJSFunctionViewer"
 		},
 		{
-			"folder-name": "JsonLSimpleFormatter",
-			"display-name": "JsonL Simple Formatter",
-			"version": "1.0",
-			"npp-compatible-versions": "[8.8.5,]",
-			"id": "5f12ffc60687ea639226a98c5ac06e4e070b0b06070836454eab31ea41224f48",
-			"repository": "https://github.com/davikokar/JsonLSimpleFormatter/releases/download/v1.0.0/JsonLSimpleFormatter-1.0.0-x64.zip",
-			"description": "Plugin which toggles beetween pretty-printed and linearized json-l files.",
-			"author": "Davide Seddio",
-			"homepage": "https://github.com/davikokar/JsonLSimpleFormatter"
-		},
-		{
 			"folder-name": "JsonTools",
 			"display-name": "JSON Tools",
 			"version": "8.5",
@@ -835,18 +824,6 @@
 			"old-versions-compatibility": "[,4.10.0][8.4.1,]"
 		},
 		{
-			"folder-name": "NppVoicePlugin",
-			"display-name": "NppVoicePlugin",
-			"version": "1.5",
-			"npp-compatible-versions": "[8.8.8,]",
-			"old-versions-compatibility": "[,1.1][,8.8.8]",
-			"id": "05c1baf8fcaea81c6c9e820b27d6e6f24859b1d9d2bc08b5b3a4b63414a8dbb1",
-			"repository": "https://github.com/bms-prog/NppVoicePlugin/releases/download/v1.5/NppVoicePlugin.1.5.x64.zip",
-			"description": "Boost your productivity with voice input and AI integration! Completely local solution\r\n- Dictate text, read selected text aloud, and send spoken or selected text directly to your local Ollama AI.\r\n- Voice typing with speech recognition\r\n- Text-to-speech for selected text\r\n- Send spoken or selected text to your local Ollama AI\r\n- Supports English and Russian interface languages ​​and 19 voice model languages\r\n- Seamlessly integrated into Notepad++\r\n- See the Help section in the plugin menu for detailed setup and usage instructions.",
-			"author": "HC Team, HCC",
-			"homepage": "https://sites.google.com/view/nppvoiceplugin"
-		},
-		{
 			"folder-name": "NPPJSONViewer",
 			"display-name": "JSON Viewer",
 			"version": "2.2.0.0",
@@ -856,6 +833,17 @@
 			"author": "Kapil Ratnani, Rajendra Singh",
 			"homepage": "https://github.com/NPP-JSONViewer/JSON-Viewer",
 			"npp-compatible-versions": "[8.4.5,]"
+		},
+		{
+			"folder-name": "JsonLSimpleFormatter",
+			"display-name": "JsonL Simple Formatter",
+			"version": "1.0",
+			"npp-compatible-versions": "[8.8.5,]",
+			"id": "5f12ffc60687ea639226a98c5ac06e4e070b0b06070836454eab31ea41224f48",
+			"repository": "https://github.com/davikokar/JsonLSimpleFormatter/releases/download/v1.0.0/JsonLSimpleFormatter-1.0.0-x64.zip",
+			"description": "Plugin which toggles beetween pretty-printed and linearized json-l files.",
+			"author": "Davide Seddio",
+			"homepage": "https://github.com/davikokar/JsonLSimpleFormatter"
 		},
 		{
 			"folder-name": "JSMinNPP",
@@ -1033,7 +1021,7 @@
 			"description": "Manage your most used files, as many as you want, with easy access from a toolbar icon. Add or remove the current file with one click (or edit the config file manually)",
 			"author": "ERMtn",
 			"homepage": "https://github.com/ERMtn/MoarFavorites"
-    },
+		},
 		{
 			"folder-name": "NMD",
 			"display-name": "Modern Markdown viewer",
@@ -1196,17 +1184,6 @@
 			"homepage": "https://github.com/joaoasrosa/nppxmltreeview/"
 		},
 		{
-			"folder-name": "NppZenHankaku",
-			"display-name": "NppZenHankaku",
-			"version": "1.0.0",
-			"npp-compatible-versions": "[8.0,]",
-			"id": "f1dfe323bd9b17075138274e7ed2a6848d588a29e57da866186e3102c36f24d2",
-			"repository": "https://github.com/RivieraSystems/NppZenHankaku/releases/download/v1.0.0/NppZenHankaku_1.0.0_x64.zip",
-			"description": "Convert between full-width (zenkaku) and half-width (hankaku) characters: alphanumerics, katakana, symbols, and spaces. Supports multiple and rectangular selections.",
-			"author": "RivieraSystems",
-			"homepage": "https://github.com/RivieraSystems/NppZenHankaku"
-		},
-		{
 			"folder-name": "npp.connections",
 			"display-name": "npp.Connections",
 			"version": "1.1.0",
@@ -1344,15 +1321,15 @@
 			"homepage": "https://github.com/Pascal-Krenckel/NppGZipFileViewer"
 		},
 		{
-        "folder-name": "NppImagePreview",
-        "display-name": "NppImagePreview",
-        "version": "1.0.0",
-        "id": "9db7e5d5693bea511c6ff015a2acc08bfb24ad650ccfdd893672adee38f5aa95",
-        "repository": "https://github.com/bdgeek/NppImagePreview/releases/download/v1.0.0/NppImagePreview-v1.0.0-x64.zip",
-        "description": "Preview images referenced in HTML, CSS, PHP, and JavaScript files directly in Notepad++. Hover over an image path to display a thumbnail preview, or use Preview Image at Cursor. Supports PNG, JPG, WebP, GIF, SVG, BMP, ICO, AVIF, and TIFF.",
-        "author": "Mashkawat Ahsan",
-        "homepage": "https://github.com/bdgeek/NppImagePreview"
-        },
+			"folder-name": "NppImagePreview",
+			"display-name": "NppImagePreview",
+			"version": "1.0.0",
+			"id": "9db7e5d5693bea511c6ff015a2acc08bfb24ad650ccfdd893672adee38f5aa95",
+			"repository": "https://github.com/bdgeek/NppImagePreview/releases/download/v1.0.0/NppImagePreview-v1.0.0-x64.zip",
+			"description": "Preview images referenced in HTML, CSS, PHP, and JavaScript files directly in Notepad++. Hover over an image path to display a thumbnail preview, or use Preview Image at Cursor. Supports PNG, JPG, WebP, GIF, SVG, BMP, ICO, AVIF, and TIFF.",
+			"author": "Mashkawat Ahsan",
+			"homepage": "https://github.com/bdgeek/NppImagePreview"
+		},
 		{
 			"folder-name": "NppJumpList",
 			"display-name": "NppJumpList",
@@ -1519,6 +1496,29 @@
 			"description": "A Notepad++ plugin that adds Vim-style editing and key bindings.",
 			"author": "h-jangra",
 			"homepage": "https://github.com/h-jangra/NppVim"
+		},
+		{
+			"folder-name": "NppVoicePlugin",
+			"display-name": "NppVoicePlugin",
+			"version": "1.5",
+			"npp-compatible-versions": "[8.8.8,]",
+			"old-versions-compatibility": "[,1.1][,8.8.8]",
+			"id": "05c1baf8fcaea81c6c9e820b27d6e6f24859b1d9d2bc08b5b3a4b63414a8dbb1",
+			"repository": "https://github.com/bms-prog/NppVoicePlugin/releases/download/v1.5/NppVoicePlugin.1.5.x64.zip",
+			"description": "Boost your productivity with voice input and AI integration! Completely local solution\r\n- Dictate text, read selected text aloud, and send spoken or selected text directly to your local Ollama AI.\r\n- Voice typing with speech recognition\r\n- Text-to-speech for selected text\r\n- Send spoken or selected text to your local Ollama AI\r\n- Supports English and Russian interface languages ​​and 19 voice model languages\r\n- Seamlessly integrated into Notepad++\r\n- See the Help section in the plugin menu for detailed setup and usage instructions.",
+			"author": "HC Team, HCC",
+			"homepage": "https://sites.google.com/view/nppvoiceplugin"
+		},
+		{
+			"folder-name": "NppZenHankaku",
+			"display-name": "NppZenHankaku",
+			"version": "1.0.0",
+			"npp-compatible-versions": "[8.0,]",
+			"id": "f1dfe323bd9b17075138274e7ed2a6848d588a29e57da866186e3102c36f24d2",
+			"repository": "https://github.com/RivieraSystems/NppZenHankaku/releases/download/v1.0.0/NppZenHankaku_1.0.0_x64.zip",
+			"description": "Convert between full-width (zenkaku) and half-width (hankaku) characters: alphanumerics, katakana, symbols, and spaces. Supports multiple and rectangular selections.",
+			"author": "RivieraSystems",
+			"homepage": "https://github.com/RivieraSystems/NppZenHankaku"
 		},
 		{
 			"folder-name": "NWScript-Npp",

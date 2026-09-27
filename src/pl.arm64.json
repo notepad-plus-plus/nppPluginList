@@ -109,6 +109,16 @@
 			"homepage": "https://github.com/shriprem/Goto-Line-Col-NPP-Plugin"
 		},
 		{
+			"folder-name": "HexEditor",
+			"display-name": "HEX-Editor",
+			"version": "0.9.14.0",
+			"id": "ba7751e20460b1371703338fc371e5ada5cb733385ee12d016f6ee0002407296",
+			"repository": "https://github.com/chcg/NPP_HexEditor/releases/download/0.9.14/HexEditor_0.9.14_ARM64.zip",
+			"description": "Hex editor. Some reported issues, however many bugs fixed in latest release.",
+			"author": "Jens Lorenz",
+			"homepage": "https://github.com/chcg/NPP_HexEditor"
+		},
+		{
 			"folder-name": "HiddenLexers",
 			"display-name": "HiddenLexers",
 			"version": "1.0.0",
@@ -118,16 +128,6 @@
 			"author": "pryrt",
 			"homepage": "https://github.com/pryrt/NppPlugin-HiddenLexers",
 			"npp-compatible-versions": "[8.5,]"
-		},
-		{
-			"folder-name": "HexEditor",
-			"display-name": "HEX-Editor",
-			"version": "0.9.14.0",
-			"id": "ba7751e20460b1371703338fc371e5ada5cb733385ee12d016f6ee0002407296",
-			"repository": "https://github.com/chcg/NPP_HexEditor/releases/download/0.9.14/HexEditor_0.9.14_ARM64.zip",
-			"description": "Hex editor. Some reported issues, however many bugs fixed in latest release.",
-			"author": "Jens Lorenz",
-			"homepage": "https://github.com/chcg/NPP_HexEditor"
 		},
 		{
 			"folder-name": "HTMLTag",

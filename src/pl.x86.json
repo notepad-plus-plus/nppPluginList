@@ -643,6 +643,16 @@
 			"homepage": "https://grepbugs.com/plugins"
 		},
 		{
+			"folder-name": "HexEditor",
+			"display-name": "HEX-Editor",
+			"version": "0.9.14.0",
+			"id": "7e5503ab395bfb1c4cc3d7f0f7ba3e6856356ef0ada016d5fe68f7c5a694731c",
+			"repository": "https://github.com/chcg/NPP_HexEditor/releases/download/0.9.14/HexEditor_0.9.14_Win32.zip",
+			"description": "Hex editor. Some reported issues, however many bugs fixed in latest release.",
+			"author": "Jens Lorenz",
+			"homepage": "https://github.com/chcg/NPP_HexEditor"
+		},
+		{
 			"folder-name": "HiddenLexers",
 			"display-name": "HiddenLexers",
 			"version": "1.0.0",
@@ -652,16 +662,6 @@
 			"author": "pryrt",
 			"homepage": "https://github.com/pryrt/NppPlugin-HiddenLexers",
 			"npp-compatible-versions": "[8.5,]"
-		},
-		{
-			"folder-name": "HexEditor",
-			"display-name": "HEX-Editor",
-			"version": "0.9.14.0",
-			"id": "7e5503ab395bfb1c4cc3d7f0f7ba3e6856356ef0ada016d5fe68f7c5a694731c",
-			"repository": "https://github.com/chcg/NPP_HexEditor/releases/download/0.9.14/HexEditor_0.9.14_Win32.zip",
-			"description": "Hex editor. Some reported issues, however many bugs fixed in latest release.",
-			"author": "Jens Lorenz",
-			"homepage": "https://github.com/chcg/NPP_HexEditor"
 		},
 		{
 			"folder-name": "HTMLTag_unicode",
@@ -944,16 +944,6 @@
 			"homepage": "https://github.com/npp-plugins/mimetools"
 		},
 		{
-			"folder-name": "MultiClipboard",
-			"display-name": "MultiClipboard",
-			"version": "2.1.0.0",
-			"id": "fba2177939eae03056b0baeb724fd73faabb95298cca4beea91fe0bc19c3df56",
-			"repository": "https://downloads.sourceforge.net/project/npp-plugins/MultiClipboard/MultiClipboard%202.1%20unicode/MultiClipboard_2.1_unicode_dll.zip",
-			"description": "Implements multiple (10) text buffers that are filled via copying and/or cutting of text. To paste any text from the buffers, use Ctrl-V or middle mouse click (normal paste): to paste the most recently copied/cut text Ctrl-Shift-V or Shift-middle mouse click: to pop up a menu with the text buffer entries. Select the desired menu item to paste it.",
-			"author": "LoonyChewy",
-			"homepage": "https://sourceforge.net/projects/npp-plugins/files/MultiClipboard/"
-		},
-		{
 			"folder-name": "MoarFavorites",
 			"display-name": "MoarFavorites",
 			"version": "0.0.1",
@@ -963,6 +953,16 @@
 			"description": "Manage your most used files, as many as you want, with easy access from a toolbar icon. Add or remove the current file with one click (or edit the config file manually)",
 			"author": "ERMtn",
 			"homepage": "https://github.com/ERMtn/MoarFavorites"
+		},
+		{
+			"folder-name": "MultiClipboard",
+			"display-name": "MultiClipboard",
+			"version": "2.1.0.0",
+			"id": "fba2177939eae03056b0baeb724fd73faabb95298cca4beea91fe0bc19c3df56",
+			"repository": "https://downloads.sourceforge.net/project/npp-plugins/MultiClipboard/MultiClipboard%202.1%20unicode/MultiClipboard_2.1_unicode_dll.zip",
+			"description": "Implements multiple (10) text buffers that are filled via copying and/or cutting of text. To paste any text from the buffers, use Ctrl-V or middle mouse click (normal paste): to paste the most recently copied/cut text Ctrl-Shift-V or Shift-middle mouse click: to pop up a menu with the text buffer entries. Select the desired menu item to paste it.",
+			"author": "LoonyChewy",
+			"homepage": "https://sourceforge.net/projects/npp-plugins/files/MultiClipboard/"
 		},
 		{
 			"folder-name": "MultiReplace",
