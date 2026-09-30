@@ -2177,12 +2177,12 @@
 			"folder-name": "NppTranslate",
 			"display-name": "NppTranslate",
 			"version": "1.0.0.0",
-			"npp-compatible-versions": "[8.5,]"
+			"npp-compatible-versions": "[8.5,]",
 			"id": "9fc350e5b836b2f177c1e1cbcb4b474f1b1fbf244f7304d0cf77fbdf2771dc34",
 			"repository": "https://github.com/AndyDL24/PluginTranslateNPP/releases/download/1.0.0/NppTranslate_1.0.0_x64.zip",
 			"description": "Translate selected text in place, or into a CSV column.",
 			"author": "AndyD Andrea",
-			"homepage": "https://github.com/AndyDL24/PluginTranslateNPP",
+			"homepage": "https://github.com/AndyDL24/PluginTranslateNPP"
 		}
 	]
 }
