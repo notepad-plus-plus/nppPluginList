@@ -1852,6 +1852,17 @@
 			"homepage": "https://www.fesevur.com/selectquotedtext"
 		},
 		{
+		  "folder-name": "SemanticProgrammingLanguage",
+		  "display-name": "Semantic Programming Language",
+		  "version": "1.0.0",
+		  "npp-compatible-versions": "[8.4.7,]",
+		  "id": "1d7e6ccb7c0b520eba1e1170e8f1bcd3c6d0d66dfee385b1346c5631c73e116e",
+		  "repository": "https://github.com/SemanticProgrammingLanguage/Notepad-Plugin/releases/download/v1.0.0/SemanticProgrammingLanguage-1.0.0-x64.zip",
+		  "description": "Semantic Programming Language integration for Notepad++. Installs and updates syntax highlighting for .se and .sp files and provides quick access to the Semantic website and GitHub.",
+		  "author": "Tarek Wasfy",
+		  "homepage": "https://www.semantic-programming-language.com/"
+		},
+		{
 			"folder-name": "SessionMgr",
 			"display-name": "Session Manager",
 			"version": "1.4.4",
