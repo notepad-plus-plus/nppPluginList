@@ -2100,10 +2100,10 @@
 		{
 			"folder-name": "XBrackets",
 			"display-name": "XBrackets Lite",
-			"version": "1.3.1",
-			"id": "385588c50edde84fbb78617d6118d1ffea116883d81ef8f74dc3bd789a2e8742",
-			"repository": "https://github.com/d0vgan/npp-XBracketsLite/releases/download/v131/XBrackets_v131_dll.zip",
-			"description": "Allows autocompletion of brackets ([{\"\"}])\r\nInserts corresponding right bracket when the left bracket is typed. Uses \"smart\" autocompletion: * next character is analysed for ([{ brackets; * next &amp; previous characters are analysed for \" quote.",
+			"version": "2.0.4",
+			"id": "607d5bde9a598fc0070aec62adfa01fd70b46e8b690fe28bd86351b1090d39a7",
+			"repository": "https://github.com/d0vgan/npp-XBracketsLite/releases/download/XBrackets_v204/XBrackets_v204_dll.zip",
+			"description": "Allows autocompletion of brackets ([{\"\"}])\r\nInserts corresponding right bracket when the left bracket is typed. Uses \"smart\" autocompletion: * next character is analysed for ([{ brackets; * next &amp; previous characters are analysed for \" quote.\r\nSupports user-defined pairs of brackets/quotes.",
 			"author": "Vitaliy Dovgan",
 			"homepage": "https://github.com/d0vgan/npp-XBracketsLite"
 		},
