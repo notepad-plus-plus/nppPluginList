@@ -1014,10 +1014,10 @@
 		{
 			"folder-name": "MoarFavorites",
 			"display-name": "MoarFavorites",
-			"version": "0.0.1",
+			"version": "0.0.2",
 			"npp-compatible-versions": "[8.2,]",
-			"id": "cbfec0b60d1c85714a5172a4b975e6db72c78664589367130fad2d02fa6944fa",
-			"repository": "https://github.com/ERMtn/MoarFavorites/releases/download/v0.0.1-alpha/MoarFavorites_0.0.1_x64.zip",
+			"id": "76078c903a171e686c6234bf9e0352e1094fd53638253f1ac6a37594a747a0ec",
+			"repository": "https://github.com/ERMtn/MoarFavorites/releases/download/v0.0.2/MoarFavorites_0.0.2_x64.zip",
 			"description": "Manage your most used files, as many as you want, with easy access from a toolbar icon. Add or remove the current file with one click (or edit the config file manually)",
 			"author": "ERMtn",
 			"homepage": "https://github.com/ERMtn/MoarFavorites"
