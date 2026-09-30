@@ -550,9 +550,9 @@
 		{
 			"folder-name": "TreeSitterLexer",
 			"display-name": "TreeSitter",
-			"version": "1.4.2",
-			"id": "757485b3b8730ef7e75934401832f8abd82dfa6dc630fee010e5f1ec85ba6c0f",
-			"repository": "https://github.com/Thorium/NppTreeSitter/releases/download/1.4.2/NppTreeSitter_1.4.2_ARM64.zip",
+			"version": "1.4.3",
+			"id": "3f9f8dfb4271568faef713760e504e67bfb51de0bf287ff0b013f64e6b078706",
+			"repository": "https://github.com/Thorium/NppTreeSitter/releases/download/1.4.3/NppTreeSitter_1.4.3_ARM64.zip",
 			"description": "Integrate Tree-sitter to Notepad++. AST-based syntax highlighting and code folding for many languages.",
 			"author": "Tuomas Hietanen",
 			"homepage": "https://github.com/Thorium/NppTreeSitter/"
