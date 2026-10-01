@@ -1425,6 +1425,17 @@
 			"homepage": "https://github.com/viper3400/RegExTractor/wiki/de_userdocumentation"
 		},
 		{
+			"folder-name": "NppRestoreCursorPosition",
+			"display-name": "NppRestoreCursorPosition",
+			"version": "1.0.0",
+			"npp-compatible-versions": "[8.0,]",
+			"id": "81ddb90be42922bfa88d85f142a052002a434a0f32cf714fac5c2ab18a835a3f",
+			"repository": "https://github.com/RivieraSystems/NppRestoreCursorPosition/releases/download/v1.0.0/NppRestoreCursorPosition_1.0.0_x64.zip",
+			"description": "Remember the caret position of a closed file and restore it the next time that file is opened.",
+			"author": "RivieraSystems",
+			"homepage": "https://github.com/RivieraSystems/NppRestoreCursorPosition"
+		},
+		{
 			"folder-name": "NppS3",
 			"display-name": "NppS3",
 			"version": "1.0.0",
