@@ -1818,6 +1818,17 @@
 			"homepage": "https://github.com/Hsilgos/nppsaveasadmin"
 		},
 		{
+			"folder-name": "ScrollMarks",
+			"display-name": "ScrollMarks",
+			"version": "1.1.0",
+			"npp-compatible-versions": "[8.3,]",
+			"id": "2ac18d88621b4ebdf2b9dfd808a75be11177f6d0422c46dd9063c7ed791a7223",
+			"repository": "https://github.com/Hong-Seungmin/ScrollMarks/releases/download/v1.1.0/ScrollMarks_v1.1.0_x64.zip",
+			"description": "Shows where things are in the whole document, in a bar next to the vertical scrollbar: every occurrence of the selected text, bookmarks, change history, find marks, style tokens and the caret. Markers line up with the scrollbar thumb. Click a marker to look there, hover it to preview the lines around it. Previous and next occurrence commands. Defaults follow the Notepad++ settings and theme. English and Korean.",
+			"author": "Hong-Seungmin",
+			"homepage": "https://github.com/Hong-Seungmin/ScrollMarks"
+		},
+		{
 			"folder-name": "SecurePad",
 			"display-name": "SecurePad",
 			"version": "2.4",
