@@ -1105,6 +1105,17 @@
 			"homepage": "https://sourceforge.net/projects/locationnav/"
 		},
 		{
+			"folder-name": "NotepadViewerPlus",
+			"display-name": "Notepad Viewer Plus",
+			"version": "0.4.0",
+			"id": "0b671904ba1bc997b5cd8c7b62ea598b73fad8e97754b99d81d172eded2be747",
+			"repository": "https://github.com/Duclevn/notepad-viewer-plus-releases/releases/download/v0.4.0/NotepadViewerPlus-0.4.0-x64.zip",
+			"description": "[Requires WebView2 Evergreen Runtime and Microsoft Visual C++ v14 Redistributable] Offline docked preview for Markdown with math and diagrams, HTML, SVG, structured and tabular data, OpenAPI, images, and PDF.",
+			"author": "Duc Le",
+			"homepage": "https://github.com/Duclevn/notepad-viewer-plus-releases",
+			"npp-compatible-versions": "[8.9.8.1,8.9.8.1]"
+		},
+		{
 			"folder-name": "NppBplistPlugin",
 			"display-name": "Notepad++ bplist plugin",
 			"version": "3.0.0.0",
