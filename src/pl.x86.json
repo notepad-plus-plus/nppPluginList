@@ -1959,9 +1959,9 @@
 		{
 			"folder-name": "TidyText",
 			"display-name": "TidyText",
-			"version": "1.1.0.0",
-			"id": "d997a31500c2a135694c6b4403241658f17d944459a129fe3dd1fefb31434df4",
-			"repository": "https://github.com/gonzalu/TidyText/releases/download/v1.1.0/TidyText_Win32.zip",
+			"version": "1.2.0.0",
+			"id": "f88a895a6bc831fb3b076166f54e3ff1c95214689b0a6823cad308dae2c78bd2",
+			"repository": "https://github.com/gonzalu/TidyText/releases/download/v1.2.0/TidyText_Win32.zip",
 			"description": "Highlights and repairs non-printing and mis-encoded (mojibake) characters, including curly quotes, dashes, NBSP, zero-width spaces, BOM, and UTF-8-as-Latin-1 corruption. Also sends the current selection to ChatGPT, Claude, or Gemini via the clipboard and your default browser.",
 			"author": "gonzalu",
 			"homepage": "https://github.com/gonzalu/TidyText"
