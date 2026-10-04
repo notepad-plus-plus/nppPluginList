@@ -1513,11 +1513,11 @@
 		{
 			"folder-name": "PreviewHTML",
 			"display-name": "Preview HTML",
-			"version": "1.4.6.0",
+			"version": "1.4.7.0",
 			"npp-compatible-versions": "[8.4,]",
 			"old-versions-compatibility": "[,1.3.3.1][,8.3.3]",
-			"id": "480f0843574cc14087cd1df92646f105fc773d8579f005ab0e31b08c4ec66926",
-			"repository": "https://github.com/rdipardo/npp_preview/releases/download/v1.4.6.0/PreviewHTML_v1.4.6.0_win32.zip",
+			"id": "3e068c3d7e9779c591b34ae2f6206e4f59baf116ea8160020e63b0342a95cecb",
+			"repository": "https://github.com/rdipardo/npp_preview/releases/download/v1.4.7.0/PreviewHTML_v1.4.7.0_win32.zip",
 			"description": "Preview HTML files inside a WebView2 embedded browser, or preview Markdown, AsciiDoc, etc., rendered as HTML by an external program.",
 			"author": "Martijn Coppoolse",
 			"homepage": "https://github.com/rdipardo/npp_preview"
@@ -1703,6 +1703,17 @@
 			"description": "Allows saving file as administrator with Windows UAC prompt.",
 			"author": "Yauheni Khnykin",
 			"homepage": "https://github.com/Hsilgos/nppsaveasadmin"
+		},
+		{
+			"folder-name": "ScrollMarks",
+			"display-name": "ScrollMarks",
+			"version": "1.1.0",
+			"npp-compatible-versions": "[8.3,]",
+			"id": "4af44b7352cb305f59921f372cc93b4c64ada27fe371e9609dbb42bddaa7db77",
+			"repository": "https://github.com/Hong-Seungmin/ScrollMarks/releases/download/v1.1.0/ScrollMarks_v1.1.0_x86.zip",
+			"description": "Shows where things are in the whole document, in a bar next to the vertical scrollbar: every occurrence of the selected text, bookmarks, change history, find marks, style tokens and the caret. Markers line up with the scrollbar thumb. Click a marker to look there, hover it to preview the lines around it. Previous and next occurrence commands. Defaults follow the Notepad++ settings and theme. English and Korean.",
+			"author": "Hong-Seungmin",
+			"homepage": "https://github.com/Hong-Seungmin/ScrollMarks"
 		},
 		{
 			"folder-name": "SecurePad",
