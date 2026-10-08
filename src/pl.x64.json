@@ -1382,6 +1382,16 @@
 			"homepage": "https://sourceforge.net/projects/npp-plugins/files/NppDocShare/"
 		},
 		{
+			"folder-name": "NppNodeJS",
+			"display-name": "NppNodeJS",
+			"version": "1.0.1",
+			"id": "038d6f07859274b4fb1016de1f3e36ce0914601d59e5f50bb47e15561278d109",
+			"repository": "https://github.com/seantw/NppNodeJS/releases/download/v1.0.1/NppNodeJS-v1.0.1-x64.zip",
+			"description": "Lets you create custom script menus and run Node.js scripts from Notepad++.",
+			"author": "Sean Lin",
+			"homepage": "https://github.com/seantw/NppNodeJS"
+		},
+		{
 			"folder-name": "NppOpenAI",
 			"display-name": "NppOpenAI",
 			"version": "0.5.0.0",
