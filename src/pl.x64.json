@@ -650,6 +650,16 @@
 			"homepage": "https://github.com/leonardchai/FoldingLineHider"
 		},
 		{
+			"folder-name": "FtpSync",
+			"display-name": "FTP Sync",
+			"version": "0.5.8",
+			"id": "7d20e0e0611dac96d2b0e7eca8f7cf64039e921375b43b574ec0f8ac50d259c7",
+			"repository": "https://github.com/boardsea/FtpSync/releases/download/v0.5.8/FtpSync_v0.5.8_x64.zip",
+			"description": "FTP, FTPES and SFTP client with a server tree, transfer queue, journal, versioned backups and diff/merge protection against overwriting changes made on the server. Imports profiles from FileZilla (XML/CSV) and NppFTP. Interface languages: Russian, English, Ukrainian, German, Spanish, French, Chinese. [Requires .NET Framework 4.x]",
+			"author": "Paradise Web Design Studio (@pwds)",
+			"homepage": "https://github.com/boardsea/FtpSync"
+		},
+		{
 			"folder-name": "GedcomLexer",
 			"display-name": "GEDCOM Lexer",
 			"version": "0.5.0.170",
