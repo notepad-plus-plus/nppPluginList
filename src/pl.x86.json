@@ -2157,6 +2157,17 @@
 			"description": "Implementation of the Zen Coding method by Sergey Chikuyonok. Expand HTML, CSS, XML, XSLT and XSD from abbreviations\ntr#head1.header&gt;td*2 becomes &lt;tr id=\"head1\" class=\"header\"&gt;\n &lt;td&gt;&lt;/td&gt;\n &lt;td&gt;&lt;/td&gt;\n&lt;/tr&gt;\nUses the Python Script plugin.",
 			"author": "Dave Brotherstone",
 			"homepage": "https://github.com/bruderstein/ZenCoding-Python"
+		},
+		{
+			"folder-name": "NppTranslator",
+			"display-name": "NppTranslator",
+			"version": "1.0.0.0",
+			"npp-compatible-versions": "[8.5,]",
+			"id": "fc56d3ece3badf0bcdbac09b4c7acaed569205c7bc39493d6d4f946b9eea50e7",
+			"repository": "https://github.com/AndyDL24/PluginTranslateNPP/releases/download/1.0.0/NppTranslator_1.0.0_Win32.zip",
+			"description": "Translate selected text in place, or into a CSV column.",
+			"author": "AndyD Andrea",
+			"homepage": "https://github.com/AndyDL24/PluginTranslateNPP"
 		}
 	]
 }
