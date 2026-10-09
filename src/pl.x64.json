@@ -2209,10 +2209,10 @@
 		{
 		  "folder-name": "folderpad++",
 		  "display-name": "folderpad++",
-		  "version": "1.1.1",
+		  "version": "1.2.0",
 		  "npp-compatible-versions": "[8.9,]",
-		  "id": "18630bf6de8d2b51917c75a3d6822ec43d7f9adddccb81542140a3d345b3841a",
-		  "repository": "https://github.com/jks-liu/folderpad-plus-plus/releases/download/releases/v1.1.1/folderpad%2B%2B-1.1.1-x64.zip",
+		  "id": "af009682425c3b5bdf05a83f03ef216b98281fa4426070f85bd37b1575b9d71e",
+		  "repository": "https://github.com/jks-liu/folderpad-plus-plus/releases/download/releases/v1.2.0/folderpad%2B%2B-1.2.0-x64.zip",
 		  "description": "Organize open documents into folder tabs without scanning directories. Supports English and Chinese.",
 		  "author": "LIU Jinchen",
 		  "homepage": "https://github.com/jks-liu/folderpad-plus-plus"
