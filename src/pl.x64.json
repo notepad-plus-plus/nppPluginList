@@ -990,6 +990,17 @@
 			"homepage": "https://nea.github.io/MarkdownViewerPlusPlus/"
 		},
 		{
+			"folder-name": "MarkLens",
+			"display-name": "MarkLens",
+			"version": "0.1.2",
+			"npp-compatible-versions": "[8.3.1,]",
+			"id": "b18ad384cdb551bf4ead20c1724b263b594c20e5d4600f2f815e8a6ddc8b48b9",
+			"repository": "https://github.com/maarten-grassmid/marklens/releases/download/v0.1.2/MarkLens-0.1.2-x64.zip",
+			"description": "Fast Markdown preview with table of contents, jump-to-source highlighting and two-way scroll sync.",
+			"author": "Maarten Grassmid",
+			"homepage": "https://github.com/maarten-grassmid/marklens"
+		},
+		{
 			"folder-name": "MenuIcons",
 			"display-name": "MenuIcons",
 			"version": "2.0.7",
