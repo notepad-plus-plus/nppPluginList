@@ -500,10 +500,10 @@
 		{
 			"folder-name": "StayAwake_NPP",
 			"display-name": "StayAwake",
-			"version": "1.2.0.1",
-			"id": "cd951303abdf4bfbc02c21f584e3a7394818ecd9d3a76707b8c5b29301c99962",
-			"repository": "https://github.com/shriprem/StayAwake_NPP_Plugin/releases/download/v1.2.0.1/StayAwake_NPP_arm64.zip",
-			"description": "StayAwake enables you to maintain an Active status on Microsoft Teams by simulating key presses of unused or low side-effect buttons at specified intervals. StayAwake also prevents screen saver activation, screen blanking, and Windows session lockouts.",
+			"version": "1.5.0.0",
+			"id": "201cabb8a21527b24427686f0d3a1f40ab47ab2fbe702e0a646fede0245fc797",
+			"repository": "https://github.com/shriprem/StayAwake_NPP_Plugin/releases/download/v1.5.0.0/StayAwake_NPP_arm64.zip",
+			"description": "StayAwake enables you to maintain an Active status on Microsoft Teams by organically simulating random inputs of invisible mouse moves and no/low side-effect keys at random intervals within a specified range of seconds. StayAwake also prevents screen saver activation, screen blanking, and Windows session lockouts.",
 			"author": "Shridhar Kumar",
 			"homepage": "https://github.com/shriprem/StayAwake_NPP_Plugin"
 		},
