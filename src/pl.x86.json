@@ -2168,6 +2168,16 @@
 			"description": "Translate selected text in place, or into a CSV column.",
 			"author": "AndyD Andrea",
 			"homepage": "https://github.com/AndyDL24/PluginTranslateNPP"
+		},
+		{
+			"folder-name": "SqlColumnHighlighter",
+			"display-name": "SQL Column Highlighter",
+			"version": "1.0.0.0",
+			"id": "8a74ffa159495c53f2e2b68881bcf19d35b9bad30272c741d7f5787d987c244a",
+			"repository": "https://github.com/zhgao/npp-sql-column-highlighter/releases/download/v1.0.0/SqlColumnHighlighter-v1.0.0-x86.zip",
+			"description": "Click a column name in a SQL INSERT statement to highlight its value(s); double-click a value to highlight its column. All rows are highlighted for multi-row INSERTs.",
+			"author": "zhgao",
+			"homepage": "https://github.com/zhgao/npp-sql-column-highlighter"
 		}
 	]
 }
