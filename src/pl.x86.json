@@ -871,6 +871,17 @@
 			"homepage": "https://sourceforge.net/projects/locationnav/"
 		},
 		{
+			"folder-name": "LogRAM.Npp",
+			"display-name": "LogRAM",
+			"version": "1.3.4",
+			"npp-compatible-versions": "[8.9.8.1,]",
+			"id": "08ce5469d31ed46880c92902b74380dc183b595d49952d7eae63915475d4fac0",
+			"repository": "https://github.com/HBZHSN/LogRAM/releases/download/npp-1.3.4/LogRAM.Npp-1.3.4-x86-plugin-admin.zip",
+			"description": "Read-only large-log viewer with an in-memory SIMD/multicore search engine. Automatically opens .log files in a two-pane source/results workspace without loading the full log into the NPP editor. Supports UTF-8/GBK, regex and include/exclude queries, live append, line navigation and result export. Includes the .NET 8 runtime; use x64 for multi-GB logs.",
+			"author": "HBZHSN",
+			"homepage": "https://github.com/HBZHSN/LogRAM"
+		},
+		{
 			"folder-name": "LuaScript",
 			"display-name": "LuaScript",
 			"version": "0.12",
