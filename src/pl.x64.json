@@ -2237,6 +2237,17 @@
 		  "description": "Organize open documents into folder tabs without scanning directories. Supports English and Chinese.",
 		  "author": "LIU Jinchen",
 		  "homepage": "https://github.com/jks-liu/folderpad-plus-plus"
+		},
+		{
+		  "folder-name": "NppMultiSearch",
+		  "display-name": "Multi-Search",
+		  "version": "0.1.0.0",
+		  "npp-compatible-versions": "[8.9,]",
+		  "id": "2dc5c95a96df8ad928f182ecc1c659f47e1ce26db93136ce92fad61d560c9286",
+		  "repository": "https://github.com/NachoMarengo/NppMultiSearch/releases/download/v0.1.0/NppMultiSearch_v0.1.0.0_x64.zip",
+		  "description": "Search several words that match on the same line (must / must not / any of) in the current document or a folder, with results panel and per-value counts.",
+		  "author": "NachoMarengo",
+		  "homepage": "https://github.com/NachoMarengo/NppMultiSearch"
 		}
 	]
 }
