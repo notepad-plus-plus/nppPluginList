@@ -1,8 +1,18 @@
 {
 	"name": "npp-pluginList",
-	"version": "1.9.6",
+	"version": "1.9.9",
 	"arch": "64",
 	"npp-plugins": [
+		{
+  			"folder-name": "SimplifyJson",
+  			"display-name": "Simplify Json",
+  			"version": "1.0.1",
+ 			  "id": "9d97b0fa4b8bf5561d3cbc6dbe0cbe09bb22a197eaa9cb184d1430ed0d8556a4",
+  			"repository": "https://github.com/analystvipul/SimplifyJson/releases/download/v1.0.1/SimplifyJson-x64.zip",
+  			"description": "SimplifyJson provides practical JSON tools for Notepad++: escape and unescape JSON strings, beautify JSON with readable indentation, and minify JSON by removing unnecessary whitespace. Commands operate on the selected text or the entire document and validate JSON before formatting.",
+  			"author": "Vipul Patil",
+  			"homepage": "https://github.com/analystvipul/SimplifyJson"
+		},
 		{
 			"folder-name": "3P",
 			"display-name": "3P - Progress Programmers Pal",
@@ -49,9 +59,9 @@
 		{
 			"folder-name": "AnotherMarkdown",
 			"display-name": "Another Markdown",
-			"version": "0.1.11",
-			"id": "97303ccd172a59ab206d459b239b078f4742debbb176fe2384b3b44834929c47",
-			"repository": "https://github.com/ezyuzin/NppAnotherMarkdown/releases/download/0.1.11/AnotherMarkdown-0.1.11-x64.zip",
+			"version": "0.1.12",
+			"id": "9d358a09ae543df34ea8a857a886a01d1f619214811eafaf1745a2764a9f3c60",
+			"repository": "https://github.com/ezyuzin/NppAnotherMarkdown/releases/download/0.1.12/AnotherMarkdown-0.1.12-x64.zip",
 			"description": "[Requires .NET framework v4.7.2]\r\nEasiest customizable, extendable preview and edit for Markdown files",
 			"author": "Evgeny Zyuzin",
 			"homepage": "https://github.com/ezyuzin/NppAnotherMarkdown",
@@ -114,6 +124,16 @@
 			"homepage": "https://github.com/francostellari/NppPlugins"
 		},
 		{
+			"folder-name": "BatPathIntelliSense",
+			"display-name": "BAT Path IntelliSense",
+			"version": "0.1.0",
+			"id": "1a54db508a5b3c65f51383cda8c43b4c69e3871e8f8ec4c8b92c6d7814cb8fb4",
+			"repository": "https://github.com/nicehero/NppBatPathIntelliSense/releases/download/v0.1.0/BatPathIntelliSense_x64.zip",
+			"description": "File and directory path completion for Windows .bat / .cmd files. Typing .\\ ..\\ C:\\ or \\\\server\\share\\ pops up a candidate list, inserts a trailing backslash for directories, and drills into the next level. Ported from the VS Code extension bat-path-intellisense.",
+			"author": "nicehero",
+			"homepage": "https://github.com/nicehero/NppBatPathIntelliSense"
+		},
+		{
 			"folder-name": "BetterMultiSelection",
 			"display-name": "BetterMultiSelection",
 			"version": "1.5",
@@ -145,16 +165,6 @@
 			"homepage": "https://github.com/Natestah/BlitsNppPlugin"
 		},
 		{
-			"folder-name": "BunyanLogViewer",
-			"display-name": "Bunyan Log Viewer",
-			"version": "1.0.0",
-			"id": "CB3D00E6D3B99970CAFE07ECF4DC954B27423DD7A6F7419D8AD2A46724FA2330",
-			"repository": "https://github.com/jayapalb/notepad-bunyan-plugin/releases/download/1.0.0/BunyanLogViewer_x64.zip",
-			"description": "Docked Bunyan log viewer for Notepad++ with Bunyan-style short formatting, in-pane search, and inline DEBUG/INFO/WARN/ERROR filters.",
-			"author": "Jayapal B",
-			"homepage": "https://github.com/jayapalb/nodepaddplus_bunyan-plugin"
-		},
-		{
 			"folder-name": "BookmarksDook",
 			"display-name": "Bookmarks@Dook",
 			"version": "4.1.2",
@@ -175,6 +185,16 @@
 			"homepage": "https://github.com/niccord/BracketsCheck/"
 		},
 		{
+			"folder-name": "BunyanLogViewer",
+			"display-name": "Bunyan Log Viewer",
+			"version": "1.0.0",
+			"id": "CB3D00E6D3B99970CAFE07ECF4DC954B27423DD7A6F7419D8AD2A46724FA2330",
+			"repository": "https://github.com/jayapalb/notepad-bunyan-plugin/releases/download/1.0.0/BunyanLogViewer_x64.zip",
+			"description": "Docked Bunyan log viewer for Notepad++ with Bunyan-style short formatting, in-pane search, and inline DEBUG/INFO/WARN/ERROR filters.",
+			"author": "Jayapal B",
+			"homepage": "https://github.com/jayapalb/nodepaddplus_bunyan-plugin"
+		},
+		{
 			"folder-name": "CADdyTools",
 			"display-name": "CADdyTools",
 			"version": "1.1.3.7",
@@ -187,9 +207,9 @@
 		{
 			"folder-name": "NppChineseConverter",
 			"display-name": "Chinese Converter",
-			"version": "1.0.2",
-			"id": "f6f741aa936500b46fedc96b7e378d37e57c2d31d0945543fb81be74cb5b8625",
-			"repository": "https://github.com/lkk9898969/Npp_ChineseConverter/releases/download/v1.0.2/NppChineseConverter-x64.zip",
+			"version": "1.0.3",
+			"id": "3bdf539171d5e0392f11330b3de39afd4486a07f7411ff73946b3982f78f00b9",
+			"repository": "https://github.com/lkk9898969/Npp_ChineseConverter/releases/download/v1.0.3/NppChineseConverter-x64.zip",
 			"description": "Traditional and Simplified conversion plugin for Notepad++",
 			"author": "lkk9898969",
 			"homepage": "https://github.com/lkk9898969/Npp_ChineseConverter",
@@ -229,9 +249,9 @@
 		{
 			"folder-name": "ColumnsPlusPlus",
 			"display-name": "Columns++",
-			"version": "1.3.1",
-			"id": "F31475EE604E7645ADF998123FF37460B5D46477396675AAE17192A3F03BE7EB",
-			"repository": "https://github.com/Coises/ColumnsPlusPlus/releases/download/v1.3.1/ColumnsPlusPlus-1.3.1-x64.zip",
+			"version": "1.3.3",
+			"id": "787feb79155f95799c1cea2215c79421de37f0f4013a7803d5c38cbcf925c496",
+			"repository": "https://github.com/Coises/ColumnsPlusPlus/releases/download/v1.3.3/ColumnsPlusPlus-1.3.3-x64.zip",
 			"description": "Offers features for working with text and data arranged in columns, including an implementation of elastic tabstops, enhanced searching and sorting, column alignment and numeric calulations.",
 			"author": "Randall Joseph Fellmy",
 			"homepage": "https://github.com/Coises/ColumnsPlusPlus",
@@ -297,21 +317,21 @@
 		{
 			"folder-name": "Compose",
 			"display-name": "Compose",
-			"version": "1.1",
-			"id": "f3a160e1ea408187872e01a183012c2dc9dd6e126639aba093eeb6dcfb43ac6f",
-			"repository": "https://github.com/Coises/Compose-for-NotepadPlusPlus/releases/download/v1.1/Compose-1.1-x64.zip",
+			"version": "1.1.1",
+			"id": "fdd9694d3b08c0e5fa14c9e55ae4e87daae030f0b0de66d5ebb9240e82dde6ec",
+			"repository": "https://github.com/Coises/Compose-for-NotepadPlusPlus/releases/download/v1.1.1/Compose-1.1.1-x64.zip",
 			"description": "Implements a Compose key for entering characters not available on the keyboard with easily remembered key sequences.",
 			"author": "Randall Joseph Fellmy",
 			"homepage": "https://github.com/Coises/Compose-for-NotepadPlusPlus",
 			"npp-compatible-versions": "[8.5.4,]"
 		},
-	    {
+		{
 			"folder-name": "CompressedFileViewer",
 			"display-name": "CompressedFileViewer",
-			"version": "5.1.0",
-			"id": "5dd420a36f6ea99812f59ae52eb03aa2ec7ce77c96582923f6bf88513832cde8",
-			"repository": "https://github.com/Pascal-Krenckel/CompressedFileViewer/releases/download/v5.1.0-ver/CompressedFileViewerX64.zip",
-			"description": "[Requires .Net 8] A Notepad++ plugin to open and save files in the gzip, bzip2, brotli, XZ or ZStd format.",
+			"version": "5.1.1",
+			"id": "dad24388ca918bd275cbe856a7d0f92e8ae68724335db3d8a0b27048decfc42e",
+			"repository": "https://github.com/Pascal-Krenckel/CompressedFileViewer/releases/download/v5.1.1/CompressedFileViewerx64.zip",
+			"description": "[Requires .NET 8] A Notepad++ plugin for opening and saving files in GZip, BZip2, Brotli, XZ, or ZStd format. Enable the desired algorithms in the plugin settings after installation.",
 			"author": "Pascal Krenckel",
 			"homepage": "https://github.com/Pascal-Krenckel/CompressedFileViewer"
 		},
@@ -330,14 +350,25 @@
 		{
 			"folder-name": "CSVLint",
 			"display-name": "CSV Lint",
-			"version": "0.4.7",
+			"version": "0.4.9",
 			"npp-compatible-versions": "[8.4,]",
 			"old-versions-compatibility": "[,0.4.5.1][,8.3.3]",
-			"id": "1bc0b02a11905d9656f568f6a7beb7ceb18ab5ac378bd2ecac5161828f6a2f60",
-			"repository": "https://github.com/BdR76/CSVLint/releases/download/0.4.7/CSVLint_x64.zip",
+			"id": "7335ded4a7b9ce320b5641e916e161ec01a29277014a894abb3fdaebf9cc3af1",
+			"repository": "https://github.com/BdR76/CSVLint/releases/download/0.4.9/CSVLint_x64.zip",
 			"description": "Syntax highlighting and quality control for csv and fixed width data, detect column and datatypes, convert datetime/decimal format, sql, xml",
 			"author": "Bas de Reuver",
 			"homepage": "https://github.com/BdR76/CSVLint/"
+		},
+		{
+			"folder-name": "CsvVisualEditor",
+			"display-name": "CSV Visual Editor",
+			"version": "1.0.1",
+			"npp-compatible-versions": "[8.9.8,]",
+			"id": "2405357696cca26f6887701ab6d4e58c7c8671a201796c7a454048b521b29978",
+			"repository": "https://github.com/zzsolt/notepadplusplus-csv-visual-editor/releases/download/v1.0.1/CsvVisualEditor-1.0.1-win-x64.zip",
+			"description": "View, edit, filter and inspect CSV data in a docked table with conflict-checked Apply and Notepad++ undo.",
+			"author": "Zolnai Zsolt",
+			"homepage": "https://github.com/zzsolt/notepadplusplus-csv-visual-editor"
 		},
 		{
 			"folder-name": "CsvQuery",
@@ -382,6 +413,28 @@
 			"description": "Adds toolbar icons to instantly switch between light and dark mode with no restart required. Features an automatic mode that dynamically toggles your theme based on local sunrise and sunset times.",
 			"author": "pullitall",
 			"homepage": "https://github.com/pullitall/Notepadpp-light-dark-switch-and-automatic-switch-based-on-location"
+		},
+		{
+			"folder-name": "FileTools",
+			"display-name": "Datamodder File Tools",
+			"version": "1.3.1.3",
+			"npp-compatible-versions": "[8.3,]",
+			"id": "ffe99faa911a524128ce225dd77bd09277b5a073e34c94c5561929dbe9cfd3fb",
+			"repository": "https://github.com/dm-utils/filetools/releases/download/v1.3.1.3/FileTools.zip",
+			"description": "Tidy, validate and convert YAML, JSON and CSV directly in Notepad++.\r\nFeatures:\r\n- Reindent / tidy YAML (comments preserved)\r\n- Full conversion matrix: YAML, JSON, CSV and Parquet (via duckdb.exe) all reach each other\r\n- JSON: pretty-print, minify, sort keys, escape/unescape\r\n- CSV: align, compact, delimiter convert, sort, transpose, add/remove quotes\r\n- Settings dialog with saved profiles",
+			"author": "Datamodder",
+			"homepage": "https://datamodder.com/utils/file-tools"
+		},
+		{
+			"folder-name": "FormatSQL",
+			"display-name": "Datamodder SQL Formatter",
+			"version": "1.3.1.2",
+			"npp-compatible-versions": "[8.3,]",
+			"id": "e4837de661ed176dd5f05ca649ccc9eebcd195247f59ccd2df1c2ba2c3d2e2ed",
+			"repository": "https://github.com/dm-utils/formatsql/releases/download/v1.3.1.2/FormatSQL.zip",
+			"description": "Formats, minifies and converts SQL directly in Notepad++.\r\nFeatures:\r\n- Format / minify SQL, format-on-save, format-and-copy\r\n- Multi-dialect conversion (ANSI, Snowflake, MS SQL, PostgreSQL, MySQL, Databricks)\r\n- Quote, comment-style, boolean and number-format conversion\r\n- Configurable casing, alignment, structure and spacing rules with saved profiles",
+			"author": "Datamodder",
+			"homepage": "https://datamodder.com/utils/sql-formatter"
 		},
 		{
 			"folder-name": "dbgpPlugin",
@@ -437,6 +490,16 @@
 			"homepage": "https://github.com/Predelnik/DSpellCheck"
 		},
 		{
+			"folder-name": "DualScrollbars",
+			"display-name": "Dual Scrollbars",
+			"version": "1.0.0",
+			"id": "811b53ca903ef1ee2b483df663bd755c524b03ed8f2f78eadd8d845c3933c956",
+			"repository": "https://github.com/SaiyajinK/Dual-Scrollbars-for-Notepad-Plus-Plus/releases/download/1.0.0/Dual-Scrollbars-v1.0.0-x64.zip",
+			"description": "A simple Notepad++ plugin that adds a second vertical scrollbar with mirrored line numbers and markers.",
+			"author": "SaiyajinK",
+			"homepage": "https://github.com/SaiyajinK/Dual-Scrollbars-for-Notepad-Plus-Plus"
+		},
+		{
 			"folder-name": "NppEditorConfig",
 			"display-name": "EditorConfig",
 			"version": "0.4.0",
@@ -461,10 +524,10 @@
 		{
 			"folder-name": "EmojiDescription",
 			"display-name": "Emoji Description",
-			"version": "0.1.0",
-			"id": "308b06c81412e2db395f96ae21e2d497c12a6249106b7db5e5e2da2ace7c9c51",
-			"repository": "https://github.com/Ruberoid/npp_emoji_description/releases/download/v0.1.0/EmojiDescription_x64_v0.1.0.zip",
-			"description": "Displays detailed character encoding information in the status bar. Shows Unicode code point, decimal/hexadecimal values, HTML entity, and UTF-8 byte sequence for any character including emoji.",
+			"version": "0.4.17",
+			"id": "ac24918ad416ec81d74ca4d8e12bd1e87a84c232509df92b633a0808918df28e",
+			"repository": "https://github.com/Ruberoid/npp_emoji_description/releases/download/v0.4.17/EmojiDescription_x64_v0.4.17.zip",
+			"description": "Displays detailed character encoding information in the status bar: Unicode code point, character name, HTML entity, and the UTF-8 byte sequence in hexadecimal, decimal or git-style octal notation. A menu command opens a dialog with every field for the character at the caret, ready to copy to the clipboard. Works for any character including emoji.",
 			"author": "Ruberoid",
 			"homepage": "https://github.com/Ruberoid/npp_emoji_description"
 		},
@@ -545,9 +608,9 @@
 		{
 			"folder-name": "FingerText2",
 			"display-name": "FingerText2",
-			"version": "26.5.26.1",
-			"id": "37787783088f5f469bc6aa50d230ddcbe5d51d90cb0ef7a301feec203a94f790",
-			"repository": "https://github.com/ultimatejimmy/FingerText2/releases/download/26.5.26.1/FingerText2_26.5.26.1_64bit.zip",
+			"version": "26.6.15",
+			"id": "51772662966318de3bab705729c368b2cbe47b62e3fc073b5e1b200c2cba3145",
+			"repository": "https://github.com/ultimatejimmy/FingerText2/releases/download/26.6.15/FingerText2_26.6.15_64bit.zip",
 			"description": "Tab-triggered snippet plugin with hotspot navigation, dynamic hotspots, and a snippet dock.",
 			"author": "Jimmy Pautz",
 			"homepage": "https://github.com/ultimatejimmy/FingerText2"
@@ -563,6 +626,17 @@
 			"description": "Fixed Width Data Visualizer adds Excel-like features for fixed-width data files in Notepad++. Displays cursor position data. Foldable Record Blocks; Hop & Jump to specific fields. Field Copy & Field Paste. Data Extraction. Builtin dialogs to configure file-type, record-type & fields; and themes & colors. Automatic File Type Detection. Handles homogenous, mixed & multi-line records. Full Multi-byte character support. Darkmode enabled.",
 			"author": "Shridhar Kumar",
 			"homepage": "https://github.com/shriprem/FWDataViz"
+		},
+		{
+			"folder-name": "FixParser",
+			"display-name": "FixParser",
+			"version": "0.1.3",
+			"npp-compatible-versions": "[8.9.0,]",
+			"id": "ce42010f9cf6b8eb7c8fdc34e618554f2f89febd077bbe6008bda44ccdee4798",
+			"repository": "https://github.com/chtaylo3/fix-parser/releases/download/v0.1.3/FixParser_0.1.3_x64.zip",
+			"description": "Pretty-print and inspect FIX protocol logs: field/value decoding, hover quickview, and a dockable message inspector.",
+			"author": "Chris Taylor",
+			"homepage": "https://github.com/chtaylo3/fix-parser"
 		},
 		{
 			"folder-name": "FoldingLineHider",
@@ -588,6 +662,16 @@
 			"homepage": "https://sourceforge.net/projects/gedcomlexer/"
 		},
 		{
+			"folder-name": "GitHubRepoViewer",
+			"display-name": "GitHub Repo Viewer",
+			"version": "1.1",
+			"id": "c9a8effae062cb6df35111fd5293ab9c1f024ce029ce8b5bde475d9a46917419",
+			"repository": "https://github.com/ufoptg/GitHubRepoViewer/releases/download/v1.2/GitHubRepoViewer.zip",
+			"description": "Browse all your GitHub repositories in a docked tree, open files, and push edits back on save.",
+			"author": "TrueSaiyan",
+			"homepage": "https://github.com/ufoptg/GitHubRepoViewer"
+		},
+		{
 			"folder-name": "GitSCM",
 			"display-name": "GitSCM",
 			"version": "1.4.10.1",
@@ -610,6 +694,16 @@
 			"homepage": "https://github.com/shriprem/Goto-Line-Col-NPP-Plugin"
 		},
 		{
+			"folder-name": "GraphBuilderLaz",
+			"display-name": "Graph Builder",
+			"version": "1.3.9",
+			"id": "d293c56c81a5fff46a6984eeb2a538ac1139de2158452b21a0f807ce491a538d",
+			"repository": "https://github.com/pisarev/graphbuilder-npp/releases/download/v1.3.9/GraphBuilder-npp-1.3.9-win64.zip",
+			"description": "[Requires the WebView2 runtime, which ships with Windows 11 and arrives with Edge on Windows 10]\r\nA docked panel that plots the formula under your mouse: roots, intersections, extrema, a report, and a formula fitted to pasted data.",
+			"author": "Yuriy Pisarev",
+			"homepage": "https://github.com/pisarev/graphbuilder-npp"
+		},
+		{
 			"folder-name": "HexEditor",
 			"display-name": "HEX-Editor",
 			"version": "0.9.14.0",
@@ -622,11 +716,22 @@
 			"homepage": "https://github.com/chcg/NPP_HexEditor"
 		},
 		{
+			"folder-name": "HiddenLexers",
+			"display-name": "HiddenLexers",
+			"version": "1.0.0",
+			"id": "f7f091921dbe4d4c20a6c0f4288f811791691d414d022224fa9ee844e0a5ba49",
+			"repository": "https://github.com/pryrt/NppPlugin-HiddenLexers/releases/download/v1.0.0/HiddenLexers_v1.0.0_x64.zip",
+			"description": "Allows users to enable 'hidden' Lexilla lexers in Notepad++",
+			"author": "pryrt",
+			"homepage": "https://github.com/pryrt/NppPlugin-HiddenLexers",
+			"npp-compatible-versions": "[8.5,]"
+		},
+		{
 			"folder-name": "HLASMLexer",
 			"display-name": "HLASM Lexer - Column-Aware Syntax Highlighting",
-			"version": "1.0.0",
-			"id": "4bf87ca7aed8d068169d588d1ac791ee10fadef5f1f5a566915d5990440fec95",
-			"repository": "https://github.com/Zaneham/hlasm-npp/releases/download/v1.0.1/HLASMLexer_x64.zip",
+			"version": "1.1.1",
+			"id": "cd3bfda12873a6173f4ec63af33cb10f93336bd33ae7be3c9612a5bcdd824c69",
+			"repository": "https://github.com/Zaneham/hlasm-npp/releases/download/v1.1.1/HLASMLexer_x64.zip",
 			"description": "Column-aware syntax highlighting for IBM HLASM. Understands the 80-column punch card layout — labels, operations, operands, continuation markers and sequence numbers are each highlighted by their column position, not just keywords.",
 			"author": "Zane Hambly",
 			"homepage": "https://github.com/Zaneham/hlasm-npp"
@@ -634,11 +739,11 @@
 		{
 			"folder-name": "HTMLTag",
 			"display-name": "HTML Tag",
-			"version": "1.6.0.0",
+			"version": "1.6.1.0",
 			"npp-compatible-versions": "[8.3,]",
 			"old-versions-compatibility": "[,1.1][,8.2.1]",
-			"id": "0281be7b6f0c77661ba004e0c2f52f7f8b3289071535042879f8c69b242af5f4",
-			"repository": "https://github.com/rdipardo/nppHTMLTag/releases/download/v1.6.0/HTMLTag_v1.6.0_x64.zip",
+			"id": "32127f58479d106840a9790ed52296d62406e5715b63740ac96338d8ae8d515b",
+			"repository": "https://github.com/rdipardo/nppHTMLTag/releases/download/v1.6.1/HTMLTag_v1.6.1_x64.zip",
 			"description": "Provides three core functions:\r\n- HTML and XML tag jumping, like the built-in brace matching and selection\r\n of tags and/or contents.\r\n- HTML entity encoding/decoding (example: é to &eacute;)\r\n- JS character encoding/decoding (example: é to \\u00E9)",
 			"author": "Martijn Coppoolse",
 			"homepage": "https://github.com/rdipardo/nppHTMLTag"
@@ -740,6 +845,17 @@
 			"npp-compatible-versions": "[8.4.5,]"
 		},
 		{
+			"folder-name": "JsonLSimpleFormatter",
+			"display-name": "JsonL Simple Formatter",
+			"version": "1.0",
+			"npp-compatible-versions": "[8.8.5,]",
+			"id": "5f12ffc60687ea639226a98c5ac06e4e070b0b06070836454eab31ea41224f48",
+			"repository": "https://github.com/davikokar/JsonLSimpleFormatter/releases/download/v1.0.0/JsonLSimpleFormatter-1.0.0-x64.zip",
+			"description": "Plugin which toggles beetween pretty-printed and linearized json-l files.",
+			"author": "Davide Seddio",
+			"homepage": "https://github.com/davikokar/JsonLSimpleFormatter"
+		},
+		{
 			"folder-name": "JSMinNPP",
 			"display-name": "JSTool",
 			"version": "25.11.16",
@@ -801,6 +917,16 @@
 			"homepage": "https://github.com/thosrtanner/notepad-pp-linter"
 		},
 		{
+			"folder-name": "LLMAssistant",
+			"display-name": "LLM Assistant",
+			"version": "1.0",
+			"id": "d13e692bb8da61ee4168df1065d7abb30dc58977c71a665710f1fee25ac6fe32",
+			"repository": "https://github.com/Gvo87/NotepadPlusPlus-LLM-Plugin/releases/download/v1.0/LLMAssistant_v1.0_x64.zip",
+			"description": "AI-powered text processing (enhance, translate, summarize, grammar, code) via the OpenAI API, directly inside Notepad++.",
+			"author": "Gvo87",
+			"homepage": "https://github.com/Gvo87/NotepadPlusPlus-LLM-Plugin"
+		},
+		{
 			"folder-name": "LocationNavigate",
 			"display-name": "Location Navigate",
 			"version": "0.4.8.1",
@@ -823,11 +949,21 @@
 			"homepage": "https://github.com/dail8859/LuaScript"
 		},
 		{
+			"folder-name": "NppMarkdownFeatures",
+			"display-name": "Markdown Features",
+			"version": "1.0.1",
+			"id": "85a329c7b99879b6f88582b6fa797bae1a814c5c19d961b958d7dcfa926b1dea",
+			"repository": "https://github.com/0langa/npp-markdown-features/releases/download/v1.0.1/NppMarkdownFeatures-v1.0.1-win-x64.zip",
+			"description": "[Requires Microsoft Edge WebView2 Runtime]\r\nAll-in-one Markdown plugin: rendered GitHub-flavored view with scroll sync, document outline panel, smart list and table editing, formatting commands, link tools and link checking, HTML export and copy, TOC generation, document cleanup, and live word count in the status bar.",
+			"author": "0langa",
+			"homepage": "https://github.com/0langa/npp-markdown-features"
+		},
+		{
 			"folder-name": "NppMarkdownPanel",
 			"display-name": "Markdown Panel",
-			"version": "0.9.1",
-			"id": "f578f738ef0aeb535ea8b45916ff10c751dafe19c125db8f2081d94bebd1ffa9",
-			"repository": "https://github.com/mohzy83/NppMarkdownPanel/releases/download/0.9.1/NppMarkdownPanel-0.9.1.0-x64.zip",
+			"version": "0.9.3",
+			"id": "0366a693e89805edc8cb276d6ad713d892c8f4ec98b2f6570c8eaeb6deb1c3a8",
+			"repository": "https://github.com/mohzy83/NppMarkdownPanel/releases/download/0.9.3/NppMarkdownPanel-0.9.3.0-x64.zip",
 			"description": "Lightweight plugin to display rendered Markdown files.",
 			"author": "Mohzy83",
 			"homepage": "https://github.com/mohzy83/NppMarkdownPanel"
@@ -835,10 +971,10 @@
 		{
 			"folder-name": "MarkdownTableEditor",
 			"display-name": "Markdown Table Editor",
-			"version": "11.0.0",
+			"version": "11.2.0",
 			"npp-compatible-versions": "[8.3.1,]",
-			"id": "3761f726c4355a49fb774d7c3f677f8915280159dc3e54ae4dd7dd2e707799e4",
-			"repository": "https://github.com/krotname/NppMarkdownTableEditor/releases/download/v11.0.0/MarkdownTableEditor-11.0.0-x64-pluginadmin.zip",
+			"id": "7b6b859a552a04f291834b8d63516f00be4cafc9cd0d5f5ec6106c5a2770a6ce",
+			"repository": "https://github.com/krotname/NppMarkdownTableEditor/releases/download/v11.2.0/MarkdownTableEditor-11.2.0-x64-pluginadmin.zip",
 			"description": "Edits Markdown pipe tables as aligned text. Align, fit width, narrow or widen columns, navigate, insert, delete, move and sort rows or columns, convert CSV/TSV blocks, and insert new tables from Notepad++.",
 			"author": "Kreout",
 			"homepage": "https://github.com/krotname/NppMarkdownTableEditor"
@@ -852,6 +988,17 @@
 			"description": "View Markdown/CommonMark compliant text files rendered on-the-fly directly in Notepad++ in a docked panel.\r\nExport the rendered result as HTML or PDF and configure the file extensions to be rendered.",
 			"author": "nea",
 			"homepage": "https://nea.github.io/MarkdownViewerPlusPlus/"
+		},
+		{
+			"folder-name": "MarkLens",
+			"display-name": "MarkLens",
+			"version": "0.1.2",
+			"npp-compatible-versions": "[8.3.1,]",
+			"id": "b18ad384cdb551bf4ead20c1724b263b594c20e5d4600f2f815e8a6ddc8b48b9",
+			"repository": "https://github.com/maarten-grassmid/marklens/releases/download/v0.1.2/MarkLens-0.1.2-x64.zip",
+			"description": "Fast Markdown preview with table of contents, jump-to-source highlighting and two-way scroll sync.",
+			"author": "Maarten Grassmid",
+			"homepage": "https://github.com/maarten-grassmid/marklens"
 		},
 		{
 			"folder-name": "MenuIcons",
@@ -886,12 +1033,34 @@
 			"homepage": "https://github.com/npp-plugins/mimetools"
 		},
 		{
+			"folder-name": "MoarFavorites",
+			"display-name": "MoarFavorites",
+			"version": "0.0.2",
+			"npp-compatible-versions": "[8.2,]",
+			"id": "76078c903a171e686c6234bf9e0352e1094fd53638253f1ac6a37594a747a0ec",
+			"repository": "https://github.com/ERMtn/MoarFavorites/releases/download/v0.0.2/MoarFavorites_0.0.2_x64.zip",
+			"description": "Manage your most used files, as many as you want, with easy access from a toolbar icon. Add or remove the current file with one click (or edit the config file manually)",
+			"author": "ERMtn",
+			"homepage": "https://github.com/ERMtn/MoarFavorites"
+		},
+		{
+			"folder-name": "NMD",
+			"display-name": "Modern Markdown viewer",
+			"version": "1.0.0",
+			"npp-compatible-versions": "[8.0,]",
+			"id": "b540515344ca15c638957a406dcdd6e661b0a69de1041a90804c524fd8bd715d",
+			"repository": "https://github.com/VioletTape/notepad_md_plugin/releases/download/1.0.0/NMD-v1.0.0-x64.zip",
+			"description": "Modern Markdown viewer with sync scrolling, zoom, mermaid, front-matter, and opinionated coloring (for now).",
+			"author": "violet tape",
+			"homepage": "https://github.com/VioletTape/notepad_md_plugin"
+		},
+		{
 			"folder-name": "MultiReplace",
 			"display-name": "MultiReplace",
-			"version": "6.0.0.36",
+			"version": "6.1.0.37",
 			"npp-compatible-versions": "[8.5.4,]",
-			"id": "e6a7fe3a230ed5c61b4f76bfba53e077d30a24b1d8bacb323784e4c02c90dcae",
-			"repository": "https://github.com/daddel80/notepadpp-multireplace/releases/download/6.0.0.36/MultiReplace-v6.0.0.36-x64.zip",
+			"id": "042e6e712198d176b8479f7aa8ff7f47e23fb56453444409ac376d6f5882b42f",
+			"repository": "https://github.com/daddel80/notepadpp-multireplace/releases/download/6.1.0.37/MultiReplace-v6.1.0.37-x64.zip",
 			"description": "Multi-pattern search & replace across single or multiple files; reusable search & replace lists; CSV column operations (sort, delete, deduplicate); FlowTabs for visual column alignment; dockable search results; rectangular selection support; Lua/ExprTk formula engine with conditional and math logic.\r\n",
 			"author": "Thomas Knoefel",
 			"homepage": "https://github.com/daddel80/notepadpp-multireplace"
@@ -1016,11 +1185,11 @@
 		{
 			"folder-name": "nppRandomStringGenerator",
 			"display-name": "npp Random String Generator",
-			"version": "1.9.10",
+			"version": "1.9.11",
 			"npp-compatible-versions": "[8.3,]",
 			"old-versions-compatibility": "[,1.3][,8.2.1]",
-			"id": "91a83f309de8413c239bab2ed1fb027fc3f4f0099376df2262ec97b0951f6955",
-			"repository": "https://github.com/cmbsolutions/nppRandomStringGenerator/releases/download/v1.9.10/nppRandomStringGenerator.1.9.10.x64.zip",
+			"id": "1d4bd33f709666710b82ffeb74df656ada9e6a54994124b596e84d2723b4f22c",
+			"repository": "https://github.com/cmbsolutions/nppRandomStringGenerator/releases/download/v1.9.11/nppRandomStringGenerator.1.9.11.x64.zip",
 			"description": "Generates random strings with configurable output.",
 			"author": "Maurice CMBSolutions",
 			"homepage": "https://github.com/cmbsolutions/nppRandomStringGenerator"
@@ -1049,9 +1218,9 @@
 		{
 			"folder-name": "NppAIAssistant",
 			"display-name": "NppAIAssistant",
-			"version": "0.1.0.0",
-			"id": "2C94E42609E9A49F9B9840D617CD345635E6E9F7FCF4F5975884C355554F955E",
-			"repository": "https://github.com/pingqLIN/NppAIAssistant/releases/download/v0.1.0/NppAIAssistant-0.1.0.0-x64.zip",
+			"version": "0.2.0.6",
+			"id": "23B5051C584FE331C150D3361FC6FE4A23838CCDD33194F75A544776AC76B621",
+			"repository": "https://github.com/pingqLIN/NppAIAssistant/releases/download/v0.2.0.6/NppAIAssistant-0.2.0.6-x64.zip",
 			"description": "Lightweight AI assistant plugin for Notepad++ with visible prompts and single-turn behavior.",
 			"author": "pingqLIN",
 			"homepage": "https://github.com/pingqLIN/NppAIAssistant"
@@ -1059,11 +1228,11 @@
 		{
 			"folder-name": "NppCrossCheck",
 			"display-name": "NppCrossCheck",
-			"version": "1.2.0.0",
+			"version": "1.3.0.0",
 			"npp-compatible-versions": "[8.4,]",
 			"old-versions-compatibility": "[,1.1.0.0][8.4,]",
-			"id": "834dff6c43a5f7c872ebb6f35df7515f1cfc16049e75dd772d03030c907e5634",
-			"repository": "https://github.com/pablo-code14/NppCrossCheck/releases/download/v1.2.0/NppCrossCheck_x64.zip",
+			"id": "d823b1f629fb5837c8c3112e01067e2a5154aced3926f3a647af55238613ccb3",
+			"repository": "https://github.com/pablo-code14/NppCrossCheck/releases/download/v1.3.0/NppCrossCheck_x64.zip",
 			"description": "Compare two lists in the current document.\r\nPlace the two lists separated by one or more blank lines and run the plugin to cross-check their contents.",
 			"author": "Pablo Lopez",
 			"homepage": "https://github.com/pablo-code14/NppCrossCheck"
@@ -1101,9 +1270,9 @@
 		{
 			"folder-name": "NppExec",
 			"display-name": "NppExec",
-			"version": "0.8.10",
-			"id": "fb1829a1003180dc760ebe8c9ae025d2e89bfe22bd5e33ed661748b747f32b5e",
-			"repository": "https://github.com/d0vgan/nppexec/releases/download/NppExec_v0810/NppExec_0810_dll_x64.zip",
+			"version": "0.8.12.1",
+			"id": "a87625e651e37f1fc6bee646cf8f827eaa784ec5a8a1250da4f107998ad10d12",
+			"repository": "https://github.com/d0vgan/nppexec/releases/download/NppExec_v08121/NppExec_08121_dll_x64.zip",
 			"description": "Execute commands or saved scripts without leaving Notepad++.",
 			"author": "Vitaliy Dovgan",
 			"homepage": "https://github.com/d0vgan/nppexec"
@@ -1173,6 +1342,16 @@
 			"homepage": "https://github.com/Pascal-Krenckel/NppGZipFileViewer"
 		},
 		{
+			"folder-name": "NppImagePreview",
+			"display-name": "NppImagePreview",
+			"version": "1.0.0",
+			"id": "9db7e5d5693bea511c6ff015a2acc08bfb24ad650ccfdd893672adee38f5aa95",
+			"repository": "https://github.com/bdgeek/NppImagePreview/releases/download/v1.0.0/NppImagePreview-v1.0.0-x64.zip",
+			"description": "Preview images referenced in HTML, CSS, PHP, and JavaScript files directly in Notepad++. Hover over an image path to display a thumbnail preview, or use Preview Image at Cursor. Supports PNG, JPG, WebP, GIF, SVG, BMP, ICO, AVIF, and TIFF.",
+			"author": "Mashkawat Ahsan",
+			"homepage": "https://github.com/bdgeek/NppImagePreview"
+		},
+		{
 			"folder-name": "NppJumpList",
 			"display-name": "NppJumpList",
 			"version": "1.2.2",
@@ -1181,6 +1360,17 @@
 			"description": "Adds Windows 7 jump list support.",
 			"author": "ahvgeezer",
 			"homepage": "https://sourceforge.net/projects/nppjumplist/"
+		},
+		{
+			"folder-name": "NppMarkdownNext",
+			"display-name": "NppMarkdownNext",
+			"version": "1.0.0",
+			"npp-compatible-versions": "[8.0,]",
+			"id": "a3491152fc41eb0d1515b603e910eb9fe8b0f69f970ba99a2b3774d9e591eaea",
+			"repository": "https://github.com/theneet0/NppMarkdownNext/releases/download/v1.0.0/NppMarkdownNext-1.0.0-x64.zip",
+			"description": "Next-generation native C++26 Markdown live preview & reader for Notepad++.\r\nFeatures include:\r\n- Ultra-fast WebView2 Chromium rendering with Direct2D hardware fallback\r\n- Real-time live preview with DOM diffing and bidirectional caret sync\r\n- Smart BiDi engine for Persian, Arabic, Hebrew, and mixed RTL/LTR documents\r\n- Built-in offline KaTeX math formulas and Mermaid UML diagrams\r\n- macOS-styled code blocks with syntax highlighting and 1-click copy\r\n- Slide-out Table of Contents (TOC) and in-page search\r\n- Real-time Notepad++ Dark Mode synchronization and standalone HTML export\r\n- 100% offline and self-contained",
+			"author": "theneet0",
+			"homepage": "https://github.com/theneet0/NppMarkdownNext"
 		},
 		{
 			"folder-name": "NppMenuSearch",
@@ -1201,6 +1391,16 @@
 			"description": "Allows the same document to be edited in real time on two different computers. Only needs a network connection between the two.",
 			"author": "Harrybharry",
 			"homepage": "https://sourceforge.net/projects/npp-plugins/files/NppDocShare/"
+		},
+		{
+			"folder-name": "NppNodeJS",
+			"display-name": "NppNodeJS",
+			"version": "1.0.1.0",
+			"id": "606ca3ab2e81b45f1e8f552b3b6919baeb1d416796afc2fad5d72d8bec2cc2bf",
+			"repository": "https://github.com/seantw/NppNodeJS/releases/download/v1.0.1/NppNodeJS-v1.0.1-x64.zip",
+			"description": "Lets you create custom script menus and run Node.js scripts from Notepad++.",
+			"author": "Sean Lin",
+			"homepage": "https://github.com/seantw/NppNodeJS"
 		},
 		{
 			"folder-name": "NppOpenAI",
@@ -1246,6 +1446,27 @@
 			"homepage": "https://github.com/viper3400/RegExTractor/wiki/de_userdocumentation"
 		},
 		{
+			"folder-name": "NppRestoreCursorPosition",
+			"display-name": "NppRestoreCursorPosition",
+			"version": "1.0.0",
+			"npp-compatible-versions": "[8.0,]",
+			"id": "81ddb90be42922bfa88d85f142a052002a434a0f32cf714fac5c2ab18a835a3f",
+			"repository": "https://github.com/RivieraSystems/NppRestoreCursorPosition/releases/download/v1.0.0/NppRestoreCursorPosition_1.0.0_x64.zip",
+			"description": "Remember the caret position of a closed file and restore it the next time that file is opened.",
+			"author": "RivieraSystems",
+			"homepage": "https://github.com/RivieraSystems/NppRestoreCursorPosition"
+		},
+		{
+			"folder-name": "NppS3",
+			"display-name": "NppS3",
+			"version": "1.0.0",
+			"id": "e0294f6c35bbf566629317fac7a4801198fb33247da4d932b145e06e2f1ee432",
+			"repository": "https://github.com/bsy0318/NppS3/releases/download/v1.0.0/NppS3-1.0.0-x64.zip",
+			"description": "Browse and edit Amazon S3 and Cloudflare R2 objects from a docked panel. Open a remote object, edit it, and press Ctrl+S to upload it back.",
+			"author": "Seoyeon Bae",
+			"homepage": "https://github.com/bsy0318/NppS3"
+		},
+		{
 			"folder-name": "NppStripIpAndHost",
 			"display-name": "NppStripIpAndHost",
 			"version": "1.0.0",
@@ -1286,6 +1507,17 @@
 			"homepage": "https://github.com/KubaDee/NppTextViz"
 		},
 		{
+			"folder-name": "NppTranslatePanel",
+			"display-name": "NppTranslatePanel",
+			"version": "0.3.5.0",
+			"npp-compatible-versions": "[8.0,]",
+			"id": "171297358f543cd7f7fc1d90f2fa3b632cf5d03a2831c49e97f270f99cb3f3d4",
+			"repository": "https://github.com/Jerryk133/NppTranslatePanel/releases/download/v0.3.5/NppTranslatePanel-0.3.5-x64.zip",
+			"description": "[Requires .NET Framework 4.8] Translates selected text or the active document in a synchronized dockable panel. Supports DeepL (user API key required) and MyMemory.",
+			"author": "Jerryk133",
+			"homepage": "https://github.com/Jerryk133/NppTranslatePanel"
+		},
+		{
 			"folder-name": "NppUISpy",
 			"display-name": "NppUISpy",
 			"version": "1.2",
@@ -1308,6 +1540,29 @@
 			"homepage": "https://github.com/h-jangra/NppVim"
 		},
 		{
+			"folder-name": "NppVoicePlugin",
+			"display-name": "NppVoicePlugin",
+			"version": "1.5",
+			"npp-compatible-versions": "[8.8.8,]",
+			"old-versions-compatibility": "[,1.1][,8.8.8]",
+			"id": "05c1baf8fcaea81c6c9e820b27d6e6f24859b1d9d2bc08b5b3a4b63414a8dbb1",
+			"repository": "https://github.com/bms-prog/NppVoicePlugin/releases/download/v1.5/NppVoicePlugin.1.5.x64.zip",
+			"description": "Boost your productivity with voice input and AI integration! Completely local solution\r\n- Dictate text, read selected text aloud, and send spoken or selected text directly to your local Ollama AI.\r\n- Voice typing with speech recognition\r\n- Text-to-speech for selected text\r\n- Send spoken or selected text to your local Ollama AI\r\n- Supports English and Russian interface languages ​​and 19 voice model languages\r\n- Seamlessly integrated into Notepad++\r\n- See the Help section in the plugin menu for detailed setup and usage instructions.",
+			"author": "HC Team, HCC",
+			"homepage": "https://sites.google.com/view/nppvoiceplugin"
+		},
+		{
+			"folder-name": "NppZenHankaku",
+			"display-name": "NppZenHankaku",
+			"version": "1.0.0",
+			"npp-compatible-versions": "[8.0,]",
+			"id": "f1dfe323bd9b17075138274e7ed2a6848d588a29e57da866186e3102c36f24d2",
+			"repository": "https://github.com/RivieraSystems/NppZenHankaku/releases/download/v1.0.0/NppZenHankaku_1.0.0_x64.zip",
+			"description": "Convert between full-width (zenkaku) and half-width (hankaku) characters: alphanumerics, katakana, symbols, and spaces. Supports multiple and rectangular selections.",
+			"author": "RivieraSystems",
+			"homepage": "https://github.com/RivieraSystems/NppZenHankaku"
+		},
+		{
 			"folder-name": "NWScript-Npp",
 			"display-name": "NWScript Tools",
 			"version": "1.2.0.2300",
@@ -1327,6 +1582,16 @@
 			"description": "This is a Notepad++ plugin for Siemens NX CAM ASCII Database file, which help the user list all of type in database and format file.",
 			"author": "Xuefeng",
 			"homepage": "https://github.com/ZhuXuefengGitHub/NX_ASCII_Database_Helper"
+		},
+		{
+			"folder-name": "OCamlLexer",
+			"display-name": "OCaml Lexer",
+			"version": "1.0.0",
+			"id": "20b136328f477e7ace3366b0ca87d6de61d61b384969f275f419a41d65e8a3be",
+			"repository": "https://github.com/Zaneham/ocaml-npp/releases/download/v1.0.0/OCamlLexer_x64.zip",
+			"description": "Syntax highlighting, folding and live linting for OCaml. A Scintilla ILexer5 lexer, so OCaml registers as a real language, with nested comments, quoted strings and char literals kept apart from type variables. Bundles the olint linter, which draws diagnostics inline on open and save.",
+			"author": "Zane Hambly",
+			"homepage": "https://github.com/Zaneham/ocaml-npp"
 		},
 		{
 			"folder-name": "nppplugin_ofis2",
@@ -1396,11 +1661,11 @@
 		{
 			"folder-name": "PreviewHTML",
 			"display-name": "Preview HTML",
-			"version": "1.4.5.0",
+			"version": "1.4.7.0",
 			"npp-compatible-versions": "[8.4,]",
 			"old-versions-compatibility": "[,1.3.3.1][,8.3.3]",
-			"id": "b6eceaf008214b6d7909ce9b209c74f2f9b063e5aec683c8f275ffaaba9eb805",
-			"repository": "https://github.com/rdipardo/npp_preview/releases/download/v1.4.5.0/PreviewHTML_v1.4.5.0_x64.zip",
+			"id": "bf6d9dc3b71095094ac3f1a8e6ab53bc09b6ad16120ba3def2c6d3e7ffa15229",
+			"repository": "https://github.com/rdipardo/npp_preview/releases/download/v1.4.7.0/PreviewHTML_v1.4.7.0_x64.zip",
 			"description": "Preview HTML files inside a WebView2 embedded browser, or preview Markdown, AsciiDoc, etc., rendered as HTML by an external program.",
 			"author": "Martijn Coppoolse",
 			"homepage": "https://github.com/rdipardo/npp_preview"
@@ -1585,6 +1850,17 @@
 			"homepage": "https://github.com/Hsilgos/nppsaveasadmin"
 		},
 		{
+			"folder-name": "ScrollMarks",
+			"display-name": "ScrollMarks",
+			"version": "1.1.0",
+			"npp-compatible-versions": "[8.3,]",
+			"id": "2ac18d88621b4ebdf2b9dfd808a75be11177f6d0422c46dd9063c7ed791a7223",
+			"repository": "https://github.com/Hong-Seungmin/ScrollMarks/releases/download/v1.1.0/ScrollMarks_v1.1.0_x64.zip",
+			"description": "Shows where things are in the whole document, in a bar next to the vertical scrollbar: every occurrence of the selected text, bookmarks, change history, find marks, style tokens and the caret. Markers line up with the scrollbar thumb. Click a marker to look there, hover it to preview the lines around it. Previous and next occurrence commands. Defaults follow the Notepad++ settings and theme. English and Korean.",
+			"author": "Hong-Seungmin",
+			"homepage": "https://github.com/Hong-Seungmin/ScrollMarks"
+		},
+		{
 			"folder-name": "SecurePad",
 			"display-name": "SecurePad",
 			"version": "2.4",
@@ -1723,10 +1999,10 @@
 		{
 			"folder-name": "StayAwake_NPP",
 			"display-name": "StayAwake",
-			"version": "1.1.0.0",
-			"id": "53700424c0c7a58c324e38d8cfc4afff1d51b7948dc6bf0db6e5aba2a6f506d5",
-			"repository": "https://github.com/shriprem/StayAwake_NPP_Plugin/releases/download/v1.1.0.0/StayAwake_NPP_x64.zip",
-			"description": "StayAwake enables you to maintain an Active status on Microsoft Teams by simulating key presses of unused or low side-effect buttons at specified intervals. StayAwake also prevents screen saver activation, screen blanking, and Windows session lockouts.",
+			"version": "1.5.0.0",
+			"id": "d4b18ca30514bc6b2bfa193a48ef112f1b0bb7b92eda8cdc6b93304c3e2dc98a",
+			"repository": "https://github.com/shriprem/StayAwake_NPP_Plugin/releases/download/v1.5.0.0/StayAwake_NPP_x64.zip",
+			"description": "StayAwake enables you to maintain an Active status on Microsoft Teams by organically simulating random inputs of invisible mouse moves and no/low side-effect keys at random intervals within a specified range of seconds. StayAwake also prevents screen saver activation, screen blanking, and Windows session lockouts.",
 			"author": "Shridhar Kumar",
 			"homepage": "https://github.com/shriprem/StayAwake_NPP_Plugin"
 		},
@@ -1776,13 +2052,23 @@
 		{
 			"folder-name": "TCSyslogFinder",
 			"display-name": "TC Syslog Finder",
-			"version": "1.0.0.0",
+			"version": "1.1.0",
 			"npp-compatible-versions": "[8.0,]",
-			"id": "09a462e5e025bbb63b81d636974ba3c11a7849e4f4ea7deb4ea225321f380b63",
-			"repository": "https://github.com/bsagarzazu/npp-tc-syslog-finder/releases/download/v1.0.0/TCSyslogFinder_v1.0.0_x64.zip",
+			"id": "fbc35857fa65a657b388359bb2deb43c728e304f2ba75dd9be915ff55a03654c",
+			"repository": "https://github.com/bsagarzazu/npp-tc-syslog-finder/releases/download/v1.1.0/TCSyslogFinder_v1.1.0_x64.zip",
 			"description": "Instantly find and open the latest Teamcenter syslog in Notepad++.",
 			"author": "bsagarzazu",
 			"homepage": "https://github.com/bsagarzazu/npp-tc-syslog-finder"
+		},
+		{
+			"folder-name": "TidyText",
+			"display-name": "TidyText",
+			"version": "1.2.0.0",
+			"id": "e5af1d5bcc41c39206b3c87ef5215ba203800a8d6ff28f104fdae697c0e15678",
+			"repository": "https://github.com/gonzalu/TidyText/releases/download/v1.2.0/TidyText_x64.zip",
+			"description": "Highlights and repairs non-printing and mis-encoded (mojibake) characters, including curly quotes, dashes, NBSP, zero-width spaces, BOM, and UTF-8-as-Latin-1 corruption. Also sends the current selection to ChatGPT, Claude, or Gemini via the clipboard and your default browser.",
+			"author": "gonzalu",
+			"homepage": "https://github.com/gonzalu/TidyText"
 		},
 		{
 			"folder-name": "NppToolBucket",
@@ -1817,9 +2103,9 @@
 		{
 			"folder-name": "TreeSitterLexer",
 			"display-name": "TreeSitter",
-			"version": "1.2.0",
-			"id": "bc47f3d2b7fffc91ed1013c94f559b29ce5ace1df7210ea261f73422d0fddae4",
-			"repository": "https://github.com/Thorium/NppTreeSitter/releases/download/1.2.0/NppTreeSitter_1.2.0_x64.zip",
+			"version": "1.4.3",
+			"id": "3eccc30654cc340db5f1b9ea2989e20ad2d06aa12aca82f2f66870d55c35b2a9",
+			"repository": "https://github.com/Thorium/NppTreeSitter/releases/download/1.4.3/NppTreeSitter_1.4.3_x64.zip",
 			"description": "Integrate Tree-sitter to Notepad++. AST-based syntax highlighting and code folding for many languages.",
 			"author": "Tuomas Hietanen",
 			"homepage": "https://github.com/Thorium/NppTreeSitter/"
@@ -1837,10 +2123,10 @@
 		{
 			"folder-name": "VirtualFolders",
 			"display-name": "Virtual Folders",
-			"version": "1.0.3",
+			"version": "1.0.4",
 			"npp-compatible-versions": "[8.8.5,]",
-			"id": "0636215d29258b462512beee563064029abd4bf9ca4a0d9fe2fb450d41f032ca",
-			"repository": "https://github.com/FatihC/VirtualFolders/releases/download/v1.0.3/VirtualFolders-v1.0.3-x64.zip",
+			"id": "c8f6fdd53884a0e336acbb9b5f9f1455dadae4cc2d5c8080fecd8d25c42b30ff",
+			"repository": "https://github.com/FatihC/VirtualFolders/releases/download/v1.0.4/VirtualFolders-v1.0.4-x64.zip",
 			"description": "This plugin adds a dockable tree panel where you can create your own virtual folder structure. Group files from different paths, reorder them freely, and keep related resources together without touching the actual filesystem.",
 			"author": "Fatih Coşkun",
 			"homepage": "https://github.com/FatihC/VirtualFolders"
@@ -1901,10 +2187,10 @@
 		{
 			"folder-name": "XBrackets",
 			"display-name": "XBrackets Lite",
-			"version": "1.3.1",
-			"id": "2ff24582d336cbeda3ab39a61a299306d791f5a7983e80095b87310106e2a8fc",
-			"repository": "https://github.com/d0vgan/npp-XBracketsLite/releases/download/v131/XBrackets_v131_dll_x64.zip",
-			"description": "Allows autocompletion of brackets ([{\"\"}])\r\nInserts corresponding right bracket when the left bracket is typed. Uses \"smart\" autocompletion: * next character is analysed for ([{ brackets; * next &amp; previous characters are analysed for \" quote.",
+			"version": "2.0.4",
+			"id": "16dcbdb62c76afa805bc54148a042853fc92e5473f1b7cd72dd340b77847f8da",
+			"repository": "https://github.com/d0vgan/npp-XBracketsLite/releases/download/XBrackets_v204/XBrackets_v204_dll_x64.zip",
+			"description": "Allows autocompletion of brackets ([{\"\"}])\r\nInserts corresponding right bracket when the left bracket is typed. Uses \"smart\" autocompletion: * next character is analysed for ([{ brackets; * next &amp; previous characters are analysed for \" quote.\r\nSupports user-defined pairs of brackets/quotes.",
 			"author": "Vitaliy Dovgan",
 			"homepage": "https://github.com/d0vgan/npp-XBracketsLite"
 		},
@@ -1929,6 +2215,39 @@
 			"description": "Small set of useful tools for editing XML. Plugin is MSXML-based. The features are:\r\n- XML syntax Check\r\n- XML Schema (XSD) + DTD Validation\r\n- XML tag autoclose\r\n- Pretty print\n- Linarize XML\r\n- Current XML Path\r\n- Conversion XML &amp;lt;-&amp;gt; Text\n- Comment / Uncomment\r\n- XPath expression evaluation",
 			"author": "Nicolas Crittin",
 			"homepage": "https://github.com/morbac/xmltools"
+		},
+		{
+    		"folder-name": "NppTranslator",
+    		"display-name": "NppTranslator",
+    		"version": "1.0.0.0",
+    		"npp-compatible-versions": "[8.5,]",
+    		"id": "1c0de6beab68f612db09d9fb3ef50eb4c637f9a82d5ae33af8d54c1905951103",
+    		"repository": "https://github.com/AndyDL24/PluginTranslateNPP/releases/download/1.0.0/NppTranslator_1.0.0_x64.zip",
+    		"description": "Translate selected text in place, or into a CSV column.",
+    		"author": "AndyD Andrea",
+    		"homepage": "https://github.com/AndyDL24/PluginTranslateNPP"
+		},
+		{
+		  "folder-name": "folderpad++",
+		  "display-name": "folderpad++",
+		  "version": "1.2.0",
+		  "npp-compatible-versions": "[8.9,]",
+		  "id": "af009682425c3b5bdf05a83f03ef216b98281fa4426070f85bd37b1575b9d71e",
+		  "repository": "https://github.com/jks-liu/folderpad-plus-plus/releases/download/releases/v1.2.0/folderpad%2B%2B-1.2.0-x64.zip",
+		  "description": "Organize open documents into folder tabs without scanning directories. Supports English and Chinese.",
+		  "author": "LIU Jinchen",
+		  "homepage": "https://github.com/jks-liu/folderpad-plus-plus"
+		},
+		{
+		  "folder-name": "NppMultiSearch",
+		  "display-name": "Multi-Search",
+		  "version": "0.1.0.0",
+		  "npp-compatible-versions": "[8.9,]",
+		  "id": "2dc5c95a96df8ad928f182ecc1c659f47e1ce26db93136ce92fad61d560c9286",
+		  "repository": "https://github.com/NachoMarengo/NppMultiSearch/releases/download/v0.1.0/NppMultiSearch_v0.1.0.0_x64.zip",
+		  "description": "Search several words that match on the same line (must / must not / any of) in the current document or a folder, with results panel and per-value counts.",
+		  "author": "NachoMarengo",
+		  "homepage": "https://github.com/NachoMarengo/NppMultiSearch"
 		}
 	]
 }

@@ -10,10 +10,25 @@ from urllib.parse import unquote as unquote_url
 
 import requests
 from jsonschema import Draft202012Validator, FormatChecker
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 from win32api import GetFileVersionInfo, LOWORD, HIWORD, error as win32api_error
 
 api_url = os.environ.get('APPVEYOR_API_URL')
 has_error = False
+
+# Every run downloads the archive of every plugin in the list, so a single transient hiccup on any
+# entry - a dropped connection, a gateway timeout - fails the whole validation and hides the real
+# result. Retry those, and give up only when a host is genuinely unreachable.
+DOWNLOAD_TIMEOUT_SECONDS = 60
+DOWNLOAD_RETRIES = Retry(
+    total=3,
+    backoff_factor=2,
+    status_forcelist=(408, 425, 429, 500, 502, 503, 504),
+    allowed_methods=frozenset(['GET']),
+    # Let the existing status code check report a persistent failure with its own message.
+    raise_on_status=False,
+)
 
 # Constants for creating the plugin list overview
 C_LINE_BREAK = '\x0d'
@@ -36,6 +51,14 @@ def get_version_number(filename):
     ms = info['FileVersionMS']
     ls = info['FileVersionLS']
     return '.'.join(map(str, [HIWORD(ms), LOWORD(ms), HIWORD(ls), LOWORD(ls)]))
+
+
+def create_download_session():
+    session = requests.Session()
+    adapter = HTTPAdapter(max_retries=DOWNLOAD_RETRIES)
+    session.mount('https://', adapter)
+    session.mount('http://', adapter)
+    return session
 
 
 def post_error(message):
@@ -182,6 +205,7 @@ def parse(filename):
         shutil.rmtree("./" + provided_architecture, True)
 
     os.mkdir("./" + provided_architecture)
+    download_session = create_download_session()
     for plugin in pl["npp-plugins"]:
         print(plugin["display-name"], end='')
 
@@ -201,7 +225,10 @@ def parse(filename):
             print(f' *** {"; ".join(compatibility_messages)} ***')
 
         try:
-            response = requests.get(unquote_url(plugin["repository"]))
+            response = download_session.get(
+                unquote_url(plugin["repository"]),
+                timeout=DOWNLOAD_TIMEOUT_SECONDS,
+            )
         except requests.exceptions.RequestException as e:
             post_error(f'{plugin["display-name"]}: {str(e)}')
             continue
