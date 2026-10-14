@@ -204,6 +204,17 @@
 			"homepage": "https://github.com/krotname/NppMarkdownTableEditor"
 		},
 		{
+			"folder-name": "MarkdownReader",
+			"display-name": "MarkdownReader",
+			"version": "0.1.0",
+			"npp-compatible-versions": "[8.7.7,]",
+			"id": "cdcefd38f0d6f5f33313aa8e5a421e46c790064573ab5fd3c3c18f4e8e10eb52",
+			"repository": "https://github.com/rsalinger/NotepadPlusPlus-Markdown/releases/download/v0.1.0/MarkdownReader-arm64.zip",
+			"description": "Markdown preview and reading mode for Notepad++. A live preview panel docks next to the editor, and reading mode renders the document in place of the editor. GitHub-flavored Markdown, syntax highlighting, Mermaid diagrams, scroll sync, and light/dark themes that follow Notepad++. Uses the Microsoft Edge WebView2 Runtime (built into Windows 11).",
+			"author": "Ryan Salinger",
+			"homepage": "https://github.com/rsalinger/NotepadPlusPlus-Markdown"
+		},
+		{
 			"folder-name": "MenuIcons",
 			"display-name": "MenuIcons",
 			"version": "2.0.7",
