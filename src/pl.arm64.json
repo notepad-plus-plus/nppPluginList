@@ -79,6 +79,16 @@
 			"homepage": "https://github.com/Zukaritasu/notepadpp_rpc"
 		},
 		{
+		    "folder-name": "DualScrollbars",
+		    "display-name": "Dual Scrollbars",
+		    "version": "1.1.0",
+		    "id": "c3a3296fea45404f1dc4c4510a42aaf0daa1c0df3415d9b8db073009c3ceb60c",
+		    "repository": "https://github.com/SaiyajinK/Dual-Scrollbars-for-Notepad-Plus-Plus/releases/download/1.1.0/Dual-Scrollbars-v1.1.0-arm64.zip",
+		    "description": "A simple Notepad++ plugin that adds a second vertical scrollbar with mirrored line numbers and markers.",
+		    "author": "SaiyajinK",
+		    "homepage": "https://github.com/SaiyajinK/Dual-Scrollbars-for-Notepad-Plus-Plus"
+		},
+		{
 			"folder-name": "EmojiDescription",
 			"display-name": "Emoji Description",
 			"version": "0.4.17",
