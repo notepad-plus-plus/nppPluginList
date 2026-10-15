@@ -652,10 +652,10 @@
 		{
 			"folder-name": "FtpSync",
 			"display-name": "FTP Sync",
-			"version": "0.5.8",
-			"id": "7d20e0e0611dac96d2b0e7eca8f7cf64039e921375b43b574ec0f8ac50d259c7",
-			"repository": "https://github.com/boardsea/FtpSync/releases/download/v0.5.8/FtpSync_v0.5.8_x64.zip",
-			"description": "FTP, FTPES and SFTP client with a server tree, transfer queue, journal, versioned backups and diff/merge protection against overwriting changes made on the server. Imports profiles from FileZilla (XML/CSV) and NppFTP. Interface languages: Russian, English, Ukrainian, German, Spanish, French, Chinese. [Requires .NET Framework 4.x]",
+			"version": "0.6.5",
+			"id": "be8317400796e1c12cf1bbaf69dc82b886b5e0bb44b46171cbc8467fd38a7fad",
+			"repository": "https://github.com/boardsea/FtpSync/releases/download/v0.6.5/FtpSync_v0.6.5_x64.zip",
+			"description": "FTP, FTPES and SFTP client with a server tree, transfer queue, journal, versioned backups, diff/merge protection against overwriting changes made on the server, and a helper SSH console with a command reference. Imports profiles from FileZilla (XML/CSV) and NppFTP. Interface languages: Russian, English, German, Spanish, French, Chinese. [Requires .NET Framework 4.x]",
 			"author": "Paradise Web Design Studio (@pwds)",
 			"homepage": "https://github.com/boardsea/FtpSync"
 		},
