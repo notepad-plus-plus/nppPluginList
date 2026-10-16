@@ -1316,7 +1316,7 @@
 			"version": "1.0.0",
 			"npp-compatible-versions": "[8.9.8.1,]",
 			"id": "fae55227ebc30f96e8e4c10df0e288e0f36211f2f0a111147d2e1df46aaee858",
-			"repository": "https://github.com/ignaciojulio/npp-ldap-formatter/releases/download/v1.0.0/NppLdapFormatter-1.0.0-x86.zip",
+			"repository": "https://github.com/ignaciojulio/npp-ldap-formatter/releases/download/v1.0.0/NppLdapFormatter_x86.zip",
 			"description": "Validate and format LDAP filters as readable multiline expressions or compact single-line expressions. Preserves the original text on errors and supports atomic undo.",
 			"author": "Ignacio Javier Julio Posada",
 			"homepage": "https://github.com/ignaciojulio/npp-ldap-formatter"
