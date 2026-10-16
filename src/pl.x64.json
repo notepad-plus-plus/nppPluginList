@@ -492,9 +492,9 @@
 		{
 			"folder-name": "DualScrollbars",
 			"display-name": "Dual Scrollbars",
-			"version": "1.0.0",
-			"id": "811b53ca903ef1ee2b483df663bd755c524b03ed8f2f78eadd8d845c3933c956",
-			"repository": "https://github.com/SaiyajinK/Dual-Scrollbars-for-Notepad-Plus-Plus/releases/download/1.0.0/Dual-Scrollbars-v1.0.0-x64.zip",
+			"version": "1.1.0",
+			"id": "ab9b84be04646b91e3c9482646a61795215e163d41b71faf0a352e195de1c074",
+			"repository": "https://github.com/SaiyajinK/Dual-Scrollbars-for-Notepad-Plus-Plus/releases/download/1.1.0/Dual-Scrollbars-v1.1.0-x64.zip",
 			"description": "A simple Notepad++ plugin that adds a second vertical scrollbar with mirrored line numbers and markers.",
 			"author": "SaiyajinK",
 			"homepage": "https://github.com/SaiyajinK/Dual-Scrollbars-for-Notepad-Plus-Plus"
@@ -935,6 +935,17 @@
 			"description": "Navigate between your last edit/view points. Useful for code/text edit and view, especially for many and large text files\r\n1. Automatically record the cursor position and modified points\r\n2. You can jump to any position that your cursor has visited.\r\n3. Can use shortcuts (Ctrl+- for previous position and Ctrl+Shift+- for next position) to jump forward and back in code\r\n4. Can jump to any modified points (Ctrl+Alt+Z) back and forward (Ctrl+Alt+Y)\r\n5. History positions are automatically adjusted when text is modified.\r\n6. Can record positions data when application exit and it will be loaded in next run.\r\n7. Can navigate only in current file",
 			"author": "Austin Young",
 			"homepage": "https://sourceforge.net/projects/locationnav/"
+		},
+		{
+			"folder-name": "LogRAM.Npp",
+			"display-name": "LogRAM",
+			"version": "1.3.4",
+			"npp-compatible-versions": "[8.9.8.1,]",
+			"id": "063db05c86864b3ce8912c7263aeea714165150ec5730f2de340deffbfaeed97",
+			"repository": "https://github.com/HBZHSN/LogRAM/releases/download/npp-1.3.4/LogRAM.Npp-1.3.4-x64-plugin-admin.zip",
+			"description": "Read-only large-log viewer with an in-memory SIMD/multicore search engine. Automatically opens .log files in a two-pane source/results workspace without loading the full log into the NPP editor. Supports UTF-8/GBK, regex and include/exclude queries, live append, line navigation and result export. Includes the .NET 8 runtime; use x64 for multi-GB logs.",
+			"author": "HBZHSN",
+			"homepage": "https://github.com/HBZHSN/LogRAM"
 		},
 		{
 			"folder-name": "LuaScript",
@@ -1532,9 +1543,9 @@
 		{
 			"folder-name": "NppVim",
 			"display-name": "NppVim",
-			"version": "1.14.0.0",
-			"id": "b15fdad1ac67982c1c7a7b26c5cc86d3384e7c715a611957666679fb9ec92b36",
-			"repository": "https://github.com/h-jangra/NppVim/releases/download/1.14.0.0/NppVim-1.14.0.0-x64.zip",
+			"version": "1.14.4.0",
+			"id": "26843546fb8a8bdfeb48d69ee7779b6ab3846685343182539206f60ae7b6ab26",
+			"repository": "https://github.com/h-jangra/NppVim/releases/download/1.14.4.0/NppVim-1.14.4.0-x64.zip",
 			"description": "A Notepad++ plugin that adds Vim-style editing and key bindings.",
 			"author": "h-jangra",
 			"homepage": "https://github.com/h-jangra/NppVim"
@@ -1999,10 +2010,10 @@
 		{
 			"folder-name": "StayAwake_NPP",
 			"display-name": "StayAwake",
-			"version": "1.2.0.1",
-			"id": "dec88cbaeaf262fd0a68f81b9e160604a7593df601f448d36a204fdfce709cff",
-			"repository": "https://github.com/shriprem/StayAwake_NPP_Plugin/releases/download/v1.2.0.1/StayAwake_NPP_x64.zip",
-			"description": "StayAwake enables you to maintain an Active status on Microsoft Teams by simulating key presses of unused or low side-effect buttons at specified intervals. StayAwake also prevents screen saver activation, screen blanking, and Windows session lockouts.",
+			"version": "1.5.0.0",
+			"id": "d4b18ca30514bc6b2bfa193a48ef112f1b0bb7b92eda8cdc6b93304c3e2dc98a",
+			"repository": "https://github.com/shriprem/StayAwake_NPP_Plugin/releases/download/v1.5.0.0/StayAwake_NPP_x64.zip",
+			"description": "StayAwake enables you to maintain an Active status on Microsoft Teams by organically simulating random inputs of invisible mouse moves and no/low side-effect keys at random intervals within a specified range of seconds. StayAwake also prevents screen saver activation, screen blanking, and Windows session lockouts.",
 			"author": "Shridhar Kumar",
 			"homepage": "https://github.com/shriprem/StayAwake_NPP_Plugin"
 		},
@@ -2247,6 +2258,17 @@
 			"description": "Click a column name in a SQL INSERT statement to highlight its value(s); double-click a value to highlight its column. All rows are highlighted for multi-row INSERTs.",
 			"author": "zhgao",
 			"homepage": "https://github.com/zhgao/npp-sql-column-highlighter"
+    },
+    {
+		  "folder-name": "NppMultiSearch",
+		  "display-name": "Multi-Search",
+		  "version": "0.1.0.0",
+		  "npp-compatible-versions": "[8.9,]",
+		  "id": "2dc5c95a96df8ad928f182ecc1c659f47e1ce26db93136ce92fad61d560c9286",
+		  "repository": "https://github.com/NachoMarengo/NppMultiSearch/releases/download/v0.1.0/NppMultiSearch_v0.1.0.0_x64.zip",
+		  "description": "Search several words that match on the same line (must / must not / any of) in the current document or a folder, with results panel and per-value counts.",
+		  "author": "NachoMarengo",
+		  "homepage": "https://github.com/NachoMarengo/NppMultiSearch"
 		}
 	]
 }
