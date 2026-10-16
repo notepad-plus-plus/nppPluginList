@@ -355,6 +355,17 @@
 			"homepage": "https://sourceforge.net/projects/npp-plugins/files/NppDocShare/"
 		},
 		{
+			"folder-name": "NppLdapFormatter",
+			"display-name": "LDAP Formatter",
+			"version": "1.0.0",
+			"npp-compatible-versions": "[8.9.8.1,]",
+			"id": "5ee4db6d3912fc592756f27c46f43a14cea3d885b41c2113fe92835da786c361",
+			"repository": "https://github.com/ignaciojulio/npp-ldap-formatter/releases/download/v1.0.0/NppLdapFormatter-1.0.0-ARM64.zip",
+			"description": "Validate and format LDAP filters as readable multiline expressions or compact single-line expressions. Preserves the original text on errors and supports atomic undo.",
+			"author": "Ignacio Javier Julio Posada",
+			"homepage": "https://github.com/ignaciojulio/npp-ldap-formatter"
+		},
+		{
 			"folder-name": "NppS3",
 			"display-name": "NppS3",
 			"version": "1.0.0",
