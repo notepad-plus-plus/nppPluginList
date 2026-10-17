@@ -203,6 +203,16 @@
 			"homepage": "https://github.com/thosrtanner/notepad-pp-linter"
 		},
 		{
+			"folder-name": "LLMAssistant",
+			"display-name": "LLM Assistant",
+			"version": "1.2",
+			"id": "68b1b75de8d1881f66f027061bbab42eb55014ecca2dfa0144a8fce27c945e70",
+			"repository": "https://github.com/Gvo87/NotepadPlusPlus-LLM-Plugin/releases/download/v1.2/LLMAssistant_v1.2_arm64.zip",
+			"description": "AI-powered text processing (enhance, translate, summarize, grammar, code) via the OpenAI API, directly inside Notepad++.",
+			"author": "Gvo87",
+			"homepage": "https://github.com/Gvo87/NotepadPlusPlus-LLM-Plugin"
+		},
+		{
 			"folder-name": "MarkdownTableEditor",
 			"display-name": "Markdown Table Editor",
 			"version": "11.2.0",

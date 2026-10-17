@@ -919,9 +919,9 @@
 		{
 			"folder-name": "LLMAssistant",
 			"display-name": "LLM Assistant",
-			"version": "1.0",
-			"id": "d13e692bb8da61ee4168df1065d7abb30dc58977c71a665710f1fee25ac6fe32",
-			"repository": "https://github.com/Gvo87/NotepadPlusPlus-LLM-Plugin/releases/download/v1.0/LLMAssistant_v1.0_x64.zip",
+			"version": "1.2",
+			"id": "5a27334a6da5baa7b6cc40585ddc3a514cc5fbf901d636c67864b2a6faf20e28",
+			"repository": "https://github.com/Gvo87/NotepadPlusPlus-LLM-Plugin/releases/download/v1.2/LLMAssistant_v1.2_x64.zip",
 			"description": "AI-powered text processing (enhance, translate, summarize, grammar, code) via the OpenAI API, directly inside Notepad++.",
 			"author": "Gvo87",
 			"homepage": "https://github.com/Gvo87/NotepadPlusPlus-LLM-Plugin"

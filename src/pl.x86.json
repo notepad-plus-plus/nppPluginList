@@ -871,6 +871,16 @@
 			"homepage": "https://github.com/thosrtanner/notepad-pp-linter"
 		},
 		{
+			"folder-name": "LLMAssistant",
+			"display-name": "LLM Assistant",
+			"version": "1.2",
+			"id": "6feecc0e6d44882cede45524d81a68e04969344003ccf2dcf541b750608e915b",
+			"repository": "https://github.com/Gvo87/NotepadPlusPlus-LLM-Plugin/releases/download/v1.2/LLMAssistant_v1.2_x86.zip",
+			"description": "AI-powered text processing (enhance, translate, summarize, grammar, code) via the OpenAI API, directly inside Notepad++.",
+			"author": "Gvo87",
+			"homepage": "https://github.com/Gvo87/NotepadPlusPlus-LLM-Plugin"
+		},
+		{
 			"folder-name": "LocationNavigate",
 			"display-name": "Location Navigate",
 			"version": "0.4.8.1",
