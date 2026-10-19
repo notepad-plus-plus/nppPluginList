@@ -1311,6 +1311,17 @@
 			"homepage": "https://github.com/heldersepu/nppfavorites"
 		},
 		{
+			"folder-name": "NppFoldTail",
+			"display-name": "NppFoldTail",
+			"version": "0.7.1",
+			"npp-compatible-versions": "[8.9.8.1,]",
+			"id": "f3b9381104b5ca9ac842eb2d57f88adbf1c197eb243ce615b6b34ec13b2d5653",
+			"repository": "https://github.com/seantw/NppFoldTail/releases/download/v0.7.1/NppFoldTail-0.7.1-x64.zip",
+			"description": "Compact folding previews with closing delimiters, clickable ellipses and hover tooltips for code, HTML and comments.",
+			"author": "Sean Lin",
+			"homepage": "https://github.com/seantw/NppFoldTail"
+		},
+		{
 			"folder-name": "NppFTP",
 			"display-name": "NppFTP",
 			"version": "0.29.15",
