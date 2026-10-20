@@ -1555,11 +1555,11 @@
 		{
 			"folder-name": "PreviewHTML",
 			"display-name": "Preview HTML",
-			"version": "1.4.7.0",
+			"version": "1.4.8.0",
 			"npp-compatible-versions": "[8.4,]",
 			"old-versions-compatibility": "[,1.3.3.1][,8.3.3]",
-			"id": "3e068c3d7e9779c591b34ae2f6206e4f59baf116ea8160020e63b0342a95cecb",
-			"repository": "https://github.com/rdipardo/npp_preview/releases/download/v1.4.7.0/PreviewHTML_v1.4.7.0_win32.zip",
+			"id": "e8a513e5db4fab5f9b3f2141a7cce6f720df1fab1c35a949511debf9fb50f6fa",
+			"repository": "https://github.com/rdipardo/npp_preview/releases/download/v1.4.8.0/PreviewHTML_v1.4.8.0_win32.zip",
 			"description": "Preview HTML files inside a WebView2 embedded browser, or preview Markdown, AsciiDoc, etc., rendered as HTML by an external program.",
 			"author": "Martijn Coppoolse",
 			"homepage": "https://github.com/rdipardo/npp_preview"
