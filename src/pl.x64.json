@@ -1313,11 +1313,11 @@
 		{
 			"folder-name": "NppFoldTail",
 			"display-name": "NppFoldTail",
-			"version": "0.8.0",
+			"version": "0.8.1",
 			"npp-compatible-versions": "[8.9.8.1,]",
-			"id": "76e0c35df5e347995d8c747c1d52d583f5b64acb486de34f24a2dc6377178a67",
-			"repository": "https://github.com/seantw/NppFoldTail/releases/download/v0.8.0/NppFoldTail-0.8.0-x64.zip",
-			"description": "Compact folding previews for code, HTML/XML, JSON and indentation-based languages, with hover tooltips, optional comments and click-to-expand.",
+			"id": "3d1a3b90df14dfe90e98a6c5e42346a7cd1b46e4b93e51df715fc8bda3f4bd53",
+			"repository": "https://github.com/seantw/NppFoldTail/releases/download/v0.8.1/NppFoldTail-0.8.1-x64.zip",
+			"description": "A Notepad++ plugin for cleaner, more readable code folding.",
 			"author": "Sean Lin",
 			"homepage": "https://github.com/seantw/NppFoldTail"
 		},
