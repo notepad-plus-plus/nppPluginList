@@ -1313,11 +1313,11 @@
 		{
 			"folder-name": "NppFoldTail",
 			"display-name": "NppFoldTail",
-			"version": "0.7.1",
+			"version": "0.8.0",
 			"npp-compatible-versions": "[8.9.8.1,]",
-			"id": "f3b9381104b5ca9ac842eb2d57f88adbf1c197eb243ce615b6b34ec13b2d5653",
-			"repository": "https://github.com/seantw/NppFoldTail/releases/download/v0.7.1/NppFoldTail-0.7.1-x64.zip",
-			"description": "Compact folding previews with closing delimiters, clickable ellipses and hover tooltips for code, HTML and comments.",
+			"id": "76e0c35df5e347995d8c747c1d52d583f5b64acb486de34f24a2dc6377178a67",
+			"repository": "https://github.com/seantw/NppFoldTail/releases/download/v0.8.0/NppFoldTail-0.8.0-x64.zip",
+			"description": "Compact folding previews for code, HTML/XML, JSON and indentation-based languages, with hover tooltips, optional comments and click-to-expand.",
 			"author": "Sean Lin",
 			"homepage": "https://github.com/seantw/NppFoldTail"
 		},
