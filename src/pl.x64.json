@@ -1395,6 +1395,16 @@
 			"homepage": "https://github.com/theneet0/NppMarkdownNext"
 		},
 		{
+			"folder-name": "NppMenuScripts",
+			"display-name": "NppMenuScripts",
+			"version": "1.0.1.0",
+			"id": "114c790e3a8e97df3363e8a8374202a2ad448799caa58af606916217d2fc3029",
+			"repository": "https://github.com/seantw/NppMenuScripts/releases/download/v1.0.1.0/NppMenuScripts-v1.0.1.0-x64.zip",
+			"description": "Lets you create custom script menus and run JavaScript, Perl, and Python scripts from Notepad++.",
+			"author": "Sean Lin",
+			"homepage": "https://github.com/seantw/NppMenuScripts"
+		},
+		{
 			"folder-name": "NppMenuSearch",
 			"display-name": "NppMenuSearch",
 			"version": "0.9.7",
@@ -1413,16 +1423,6 @@
 			"description": "Allows the same document to be edited in real time on two different computers. Only needs a network connection between the two.",
 			"author": "Harrybharry",
 			"homepage": "https://sourceforge.net/projects/npp-plugins/files/NppDocShare/"
-		},
-		{
-			"folder-name": "NppNodeJS",
-			"display-name": "NppNodeJS",
-			"version": "1.0.1.0",
-			"id": "606ca3ab2e81b45f1e8f552b3b6919baeb1d416796afc2fad5d72d8bec2cc2bf",
-			"repository": "https://github.com/seantw/NppNodeJS/releases/download/v1.0.1/NppNodeJS-v1.0.1-x64.zip",
-			"description": "Lets you create custom script menus and run Node.js scripts from Notepad++.",
-			"author": "Sean Lin",
-			"homepage": "https://github.com/seantw/NppNodeJS"
 		},
 		{
 			"folder-name": "NppOpenAI",
