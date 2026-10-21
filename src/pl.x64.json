@@ -991,6 +991,17 @@
 			"homepage": "https://github.com/krotname/NppMarkdownTableEditor"
 		},
 		{
+			"folder-name": "Markdown_with_Mermaid",
+			"display-name": "Markdown with Mermaid",
+			"version": "1.4.1",
+			"npp-compatible-versions": "[8.4.1,]",
+			"id": "0e7a2bf5bc0508e43f78314eeebae71b832cc4dabf1082789b72836f1cbd631c",
+			"repository": "https://github.com/rhyots/Markdown_with_Mermaid/releases/download/v1.4.1/Markdown_with_Mermaid-1.4.1-x64.zip",
+			"description": "[Requires Microsoft Edge WebView2 Runtime]\r\nLive Markdown preview with offline Mermaid diagrams, automatic opening for Markdown files, synchronized scrolling, navigation, light/dark themes and document zoom. Copy formatted content or export the document or selection to HTML, PDF and DOCX.",
+			"author": "Artyom Nikiforov (rhyots)",
+			"homepage": "https://github.com/rhyots/Markdown_with_Mermaid"
+		},
+		{
 			"folder-name": "MarkdownViewerPlusPlus",
 			"display-name": "MarkdownViewer++",
 			"version": "0.8.2",
