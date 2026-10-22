@@ -1311,6 +1311,17 @@
 			"homepage": "https://github.com/heldersepu/nppfavorites"
 		},
 		{
+			"folder-name": "NppFoldTail",
+			"display-name": "NppFoldTail",
+			"version": "0.8.1",
+			"npp-compatible-versions": "[8.9.8.1,]",
+			"id": "3d1a3b90df14dfe90e98a6c5e42346a7cd1b46e4b93e51df715fc8bda3f4bd53",
+			"repository": "https://github.com/seantw/NppFoldTail/releases/download/v0.8.1/NppFoldTail-0.8.1-x64.zip",
+			"description": "A Notepad++ plugin for cleaner, more readable code folding.",
+			"author": "Sean Lin",
+			"homepage": "https://github.com/seantw/NppFoldTail"
+		},
+		{
 			"folder-name": "NppFTP",
 			"display-name": "NppFTP",
 			"version": "0.29.15",
