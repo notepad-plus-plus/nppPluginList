@@ -445,7 +445,7 @@
 			"repository": "https://github.com/dm-utils/regexviewer/releases/download/v1.3.1.0/RegexViewer.zip",
 			"description": "Paste a regex the way you got it - bare, inside Python, JavaScript, C#, Java, PHP, Go, PowerShell or sed/grep code, or a whole AI answer - and see what it does.\r\nFeatures:\r\n- Every match highlighted in the document, each group in its own colour\r\n- The pattern explained in plain language\r\n- Match like Notepad++, like the source language, or a fixed flavour (Python, JavaScript, .NET, Java, PCRE, POSIX, RE2)\r\n- Converted for Notepad++'s Find, with Replace and Replace all",
 			"author": "Datamodder",
-			"homepage": "https://github.com/dm-utils/regexviewer"
+			"homepage": "https://datamodder.com/utils/regex-viewer"
 		},
 		{
 			"folder-name": "FormatSQL",
