@@ -426,6 +426,28 @@
 			"homepage": "https://datamodder.com/utils/file-tools"
 		},
 		{
+			"folder-name": "QueryFiles",
+			"display-name": "Datamodder Query Files",
+			"version": "1.3.1.0",
+			"npp-compatible-versions": "[8.3,]",
+			"id": "fd4fd815ee42f544972f5c2ea273748970fb89ebda4c916839f3a2d5de4ebb39",
+			"repository": "https://github.com/dm-utils/queryfiles/releases/download/v1.3.1.0/QueryFiles.zip",
+			"description": "Run SQL on CSV, Parquet, JSON and Excel files directly in Notepad++, powered by DuckDB (duckdb.exe).\r\nFeatures:\r\n- Query this file: the open data file becomes THIS in a new SQL tab\r\n- Join files on disk: from 'orders.parquet' join 'customers.csv' ...\r\n- Results as text in a tab, or as a sortable table in a docked panel\r\n- Describe / Summarize THIS, toolbar button, cancel and timeout",
+			"author": "Datamodder",
+			"homepage": "https://datamodder.com/utils/query-files"
+		},
+		{
+			"folder-name": "RegexViewer",
+			"display-name": "Datamodder Regex Viewer",
+			"version": "1.3.1.0",
+			"npp-compatible-versions": "[8.3,]",
+			"id": "7130c9e72d65fb513b794eb5c27471efc7a616a844e7fe47afb3016cbd0903fe",
+			"repository": "https://github.com/dm-utils/regexviewer/releases/download/v1.3.1.0/RegexViewer.zip",
+			"description": "Paste a regex the way you got it - bare, inside Python, JavaScript, C#, Java, PHP, Go, PowerShell or sed/grep code, or a whole AI answer - and see what it does.\r\nFeatures:\r\n- Every match highlighted in the document, each group in its own colour\r\n- The pattern explained in plain language\r\n- Match like Notepad++, like the source language, or a fixed flavour (Python, JavaScript, .NET, Java, PCRE, POSIX, RE2)\r\n- Converted for Notepad++'s Find, with Replace and Replace all",
+			"author": "Datamodder",
+			"homepage": "https://github.com/dm-utils/regexviewer"
+		},
+		{
 			"folder-name": "FormatSQL",
 			"display-name": "Datamodder SQL Formatter",
 			"version": "1.3.1.2",
