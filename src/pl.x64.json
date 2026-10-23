@@ -2324,17 +2324,28 @@
 			"description": "Click a column name in a SQL INSERT statement to highlight its value(s); double-click a value to highlight its column. All rows are highlighted for multi-row INSERTs.",
 			"author": "zhgao",
 			"homepage": "https://github.com/zhgao/npp-sql-column-highlighter"
-    },
-    {
-		  "folder-name": "NppMultiSearch",
-		  "display-name": "Multi-Search",
-		  "version": "0.1.0.0",
-		  "npp-compatible-versions": "[8.9,]",
-		  "id": "2dc5c95a96df8ad928f182ecc1c659f47e1ce26db93136ce92fad61d560c9286",
-		  "repository": "https://github.com/NachoMarengo/NppMultiSearch/releases/download/v0.1.0/NppMultiSearch_v0.1.0.0_x64.zip",
-		  "description": "Search several words that match on the same line (must / must not / any of) in the current document or a folder, with results panel and per-value counts.",
-		  "author": "NachoMarengo",
-		  "homepage": "https://github.com/NachoMarengo/NppMultiSearch"
+		},
+		{
+			  "folder-name": "NppMultiSearch",
+			  "display-name": "Multi-Search",
+			  "version": "0.1.0.0",
+			  "npp-compatible-versions": "[8.9,]",
+			  "id": "2dc5c95a96df8ad928f182ecc1c659f47e1ce26db93136ce92fad61d560c9286",
+			  "repository": "https://github.com/NachoMarengo/NppMultiSearch/releases/download/v0.1.0/NppMultiSearch_v0.1.0.0_x64.zip",
+			  "description": "Search several words that match on the same line (must / must not / any of) in the current document or a folder, with results panel and per-value counts.",
+			  "author": "NachoMarengo",
+			  "homepage": "https://github.com/NachoMarengo/NppMultiSearch"
+		},
+		{
+			"folder-name": "CalcStudioEPM",
+			"display-name": "CalcStudio for Oracle EPM",
+			"version": "0.15.5.0",
+			"npp-compatible-versions": "[8.4.1,]",
+			"id": "e70230ea818b8411b05700a39e42eff28e77b1ee5822fb06e5db0fd65de6ec79",
+			"repository": "https://github.com/rlorenzoni/CalcStudioEPM/releases/download/v0.015.5/CalcStudioEPM_v0.015.5_x64.zip",
+			"description": "Edit Oracle EPM Cloud (Planning) Calculation Manager rules in Notepad++: pull rules, edit Calc Script and Groovy with syntax highlighting, autocomplete and local validation, then deploy and run them through EPM's public REST APIs. Not an Oracle product.",
+			"author": "RLorenzoni",
+			"homepage": "https://github.com/rlorenzoni/CalcStudioEPM"
 		}
 	]
 }
