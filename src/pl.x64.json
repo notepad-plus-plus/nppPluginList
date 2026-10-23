@@ -417,10 +417,10 @@
 		{
 			"folder-name": "FileTools",
 			"display-name": "Datamodder File Tools",
-			"version": "1.3.1.5",
+			"version": "1.3.1.6",
 			"npp-compatible-versions": "[8.3,]",
-			"id": "cc671ce0db5dd9a707f3479ab18459586aa5ab9673915eabb1478b770c6c3a77",
-			"repository": "https://github.com/dm-utils/filetools/releases/download/v1.3.1.5/FileTools.zip",
+			"id": "1e301ea7e6618f1217af9eced0e4b874db37794b07fb555b9db6462f54013a37",
+			"repository": "https://github.com/dm-utils/filetools/releases/download/v1.3.1.6/FileTools.zip",
 			"description": "Tidy, validate and convert YAML, JSON and CSV directly in Notepad++.\r\nFeatures:\r\n- Reindent / tidy YAML (comments preserved)\r\n- Full conversion matrix: YAML, JSON, CSV and Parquet (via duckdb.exe) all reach each other\r\n- JSON: pretty-print, minify, sort keys, escape/unescape\r\n- CSV: align, compact, delimiter convert, sort, transpose, add/remove quotes\r\n- Settings dialog with saved profiles",
 			"author": "Datamodder",
 			"homepage": "https://datamodder.com/utils/file-tools"
@@ -450,10 +450,10 @@
 		{
 			"folder-name": "FormatSQL",
 			"display-name": "Datamodder SQL Formatter",
-			"version": "1.3.2.15",
+			"version": "1.3.2.17",
 			"npp-compatible-versions": "[8.3,]",
-			"id": "584b3bd574a3e685cf501a91fde355705f37ae5e6647bc3e76c2cf05fe21163a",
-			"repository": "https://github.com/dm-utils/formatsql/releases/download/v1.3.2.15/FormatSQL.zip",
+			"id": "1a6e143dee7fec6561b5a2063067007b5513f4b0052e2a187323a6e7cc5240f3",
+			"repository": "https://github.com/dm-utils/formatsql/releases/download/v1.3.2.17/FormatSQL.zip",
 			"description": "Formats, minifies and converts SQL directly in Notepad++.\r\nFeatures:\r\n- Format / minify SQL, format-on-save, format-and-copy\r\n- Multi-dialect conversion (ANSI, Snowflake, MS SQL, PostgreSQL, MySQL, Databricks)\r\n- Quote, comment-style, boolean and number-format conversion\r\n- Configurable casing, alignment, structure and spacing rules with saved profiles",
 			"author": "Datamodder",
 			"homepage": "https://datamodder.com/utils/sql-formatter"
