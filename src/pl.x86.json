@@ -14,6 +14,16 @@
 			"homepage": "https://jcaillon.github.io/3P/"
 		},
 		{
+			"folder-name": "AwWatcherNPP",
+			"display-name": "ActivityWatch",
+			"version": "1.0.0",
+			"id": "223671747fb1bc11f173b59d483a4703daad9523f74dbc1828aeba6272788362",
+			"repository": "https://github.com/pytlus93/aw-watcher-notepadpp/releases/download/v1.0.0/aw-watcher-notepadpp-1.0.0-x86-plugin-admin.zip",
+			"description": "[Requires .NET Framework 4.8 and a local ActivityWatch server]\r\nRecords active file, project and language context in ActivityWatch while Notepad++ is foreground and the user is active. Configurable privacy controls; document contents are not captured.",
+			"author": "Filip Vrba",
+			"homepage": "https://github.com/pytlus93/aw-watcher-notepadpp"
+		},
+		{
 			"folder-name": "ActiveX",
 			"display-name": "ActiveX Plugin",
 			"version": "1.1.8.7",
