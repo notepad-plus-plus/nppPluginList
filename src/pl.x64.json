@@ -2367,6 +2367,17 @@
 			"description": "Edit Oracle EPM Cloud (Planning) Calculation Manager rules in Notepad++: pull rules, edit Calc Script and Groovy with syntax highlighting, autocomplete and local validation, then deploy and run them through EPM's public REST APIs. Not an Oracle product.",
 			"author": "RLorenzoni",
 			"homepage": "https://github.com/rlorenzoni/CalcStudioEPM"
+		},
+		{
+			"folder-name": "MermaidViewer",
+			"display-name": "Mermaid Viewer",
+			"version": "1.0.0.0",
+			"npp-compatible-versions": "[8.7,]",
+			"id": "8e502ee9a3b5a0dfc7b6be6754767ec55dd173b0f36d08e6e5f362923ef794c5",
+			"repository": "https://github.com/Lithe-Lab/MermaidViewerNpp/releases/download/v1.0.0/MermaidViewerForNPP_v1.0.0_x64.zip",
+			"description": "[Requires .NET Framework 4.8.1]\r\n\r\nThis plugin renders Markdown files and Mermaid diagrams.\r\nMermaid diagrams must be enclosed in a mermaid code block.\r\n\r\nInitial rendering may take some time when the plugin starts.",
+			"author": "Lithe-Lab",
+			"homepage": "https://github.com/Lithe-Lab/MermaidViewerNpp"
 		}
 	]
 }
