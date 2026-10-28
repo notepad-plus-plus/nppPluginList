@@ -2241,6 +2241,16 @@
 			"description": "Click a column name in a SQL INSERT statement to highlight its value(s); double-click a value to highlight its column. All rows are highlighted for multi-row INSERTs.",
 			"author": "zhgao",
 			"homepage": "https://github.com/zhgao/npp-sql-column-highlighter"
+		},
+		{
+		    "folder-name":  "NPPColorPicker",
+		    "display-name":  "Color Picker",
+		    "version":  "1.0.0",
+		    "id":  "cc7556c62462b0245dffec06a1c3d9a56a9ccdadfa71d51453d9fd3bdcad8f97",
+		    "repository":  "https://github.com/dasu88/NPPColorPicker/releases/download/v1.0.0/NPPColorPicker-1.0.0-x86.zip",
+		    "description":  "A native Win32 Notepad++ plugin that provides hover previews of HTML hexadecimal color codes in documents and lets users click to select a color and insert it back into the code.",
+		    "author":  "dasu88",
+		    "homepage":  "https://github.com/dasu88/NPPColorPicker"			
 		}
 	]
 }
