@@ -1513,11 +1513,11 @@
 		{
 			"folder-name": "NppQrCode64",
 			"display-name": "NppQrCode",
-			"version": "0.0.0.3",
+			"version": "0.0.0.4",
 			"npp-compatible-versions": "[8.4,]",
 			"old-versions-compatibility": "[,0.0.0.1][,8.3.3]",
-			"id": "3c14ee06e1aadd2456a04aa0674a8d55cb68f52a2f1839d77df2bc609f9e59c0",
-			"repository": "https://github.com/rdipardo/nppQrCode/releases/download/v0.0.0.3/NppQrCode-v0.0.0.3-x64.zip",
+			"id": "2a113c4154709ed0b471a6c1902d1dadc36ab4fe6f708c4f165acd6f9db303f7",
+			"repository": "https://github.com/rdipardo/nppQrCode/releases/download/v0.0.0.4/NppQrCode-v0.0.0.4-x64.zip",
 			"description": "Creates a QR code from selected text. Just select some text and click the toolbar button.",
 			"author": "Vladimir Korobenkov",
 			"homepage": "https://github.com/rdipardo/nppQrCode"
