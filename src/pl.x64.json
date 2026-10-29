@@ -427,10 +427,10 @@
 		{
 			"folder-name": "FileTools",
 			"display-name": "Datamodder File Tools",
-			"version": "1.3.1.6",
+			"version": "1.3.1.7",
 			"npp-compatible-versions": "[8.3,]",
-			"id": "1e301ea7e6618f1217af9eced0e4b874db37794b07fb555b9db6462f54013a37",
-			"repository": "https://github.com/dm-utils/filetools/releases/download/v1.3.1.6/FileTools.zip",
+			"id": "01f774e64a248e1b1a31514a98376c754318d370e8eff6d5cf971eac16444c99",
+			"repository": "https://github.com/dm-utils/filetools/releases/download/v1.3.1.7/FileTools.zip",
 			"description": "Tidy, validate and convert YAML, JSON and CSV directly in Notepad++.\r\nFeatures:\r\n- Reindent / tidy YAML (comments preserved)\r\n- Full conversion matrix: YAML, JSON, CSV and Parquet (via duckdb.exe) all reach each other\r\n- JSON: pretty-print, minify, sort keys, escape/unescape\r\n- CSV: align, compact, delimiter convert, sort, transpose, add/remove quotes\r\n- Settings dialog with saved profiles",
 			"author": "Datamodder",
 			"homepage": "https://datamodder.com/utils/file-tools"
@@ -438,10 +438,10 @@
 		{
 			"folder-name": "QueryFiles",
 			"display-name": "Datamodder Query Files",
-			"version": "1.3.1.0",
+			"version": "1.3.1.4",
 			"npp-compatible-versions": "[8.3,]",
-			"id": "fd4fd815ee42f544972f5c2ea273748970fb89ebda4c916839f3a2d5de4ebb39",
-			"repository": "https://github.com/dm-utils/queryfiles/releases/download/v1.3.1.0/QueryFiles.zip",
+			"id": "e1020c7c1578812bc5b5e1a2ba8c0f75893f27e5c461e6d0f087bb2b6eef494d",
+			"repository": "https://github.com/dm-utils/queryfiles/releases/download/v1.3.1.4/QueryFiles.zip",
 			"description": "Run SQL on CSV, Parquet, JSON and Excel files directly in Notepad++, powered by DuckDB (duckdb.exe).\r\nFeatures:\r\n- Query this file: the open data file becomes THIS in a new SQL tab\r\n- Join files on disk: from 'orders.parquet' join 'customers.csv' ...\r\n- Results as text in a tab, or as a sortable table in a docked panel\r\n- Describe / Summarize THIS, toolbar button, cancel and timeout",
 			"author": "Datamodder",
 			"homepage": "https://datamodder.com/utils/query-files"
@@ -449,10 +449,10 @@
 		{
 			"folder-name": "RegexViewer",
 			"display-name": "Datamodder Regex Viewer",
-			"version": "1.3.1.0",
+			"version": "1.3.1.1",
 			"npp-compatible-versions": "[8.3,]",
-			"id": "7130c9e72d65fb513b794eb5c27471efc7a616a844e7fe47afb3016cbd0903fe",
-			"repository": "https://github.com/dm-utils/regexviewer/releases/download/v1.3.1.0/RegexViewer.zip",
+			"id": "c5bb8097427a07ba3a20885c13a1309e111dd24fede5c322b145b53a586dba81",
+			"repository": "https://github.com/dm-utils/regexviewer/releases/download/v1.3.1.1/RegexViewer.zip",
 			"description": "Paste a regex the way you got it - bare, inside Python, JavaScript, C#, Java, PHP, Go, PowerShell or sed/grep code, or a whole AI answer - and see what it does.\r\nFeatures:\r\n- Every match highlighted in the document, each group in its own colour\r\n- The pattern explained in plain language\r\n- Match like Notepad++, like the source language, or a fixed flavour (Python, JavaScript, .NET, Java, PCRE, POSIX, RE2)\r\n- Converted for Notepad++'s Find, with Replace and Replace all",
 			"author": "Datamodder",
 			"homepage": "https://datamodder.com/utils/regex-viewer"
@@ -460,10 +460,10 @@
 		{
 			"folder-name": "FormatSQL",
 			"display-name": "Datamodder SQL Formatter",
-			"version": "1.3.2.17",
+			"version": "1.3.2.18",
 			"npp-compatible-versions": "[8.3,]",
-			"id": "1a6e143dee7fec6561b5a2063067007b5513f4b0052e2a187323a6e7cc5240f3",
-			"repository": "https://github.com/dm-utils/formatsql/releases/download/v1.3.2.17/FormatSQL.zip",
+			"id": "8544745b32586b423541c00aa87dedfeda22d2d2e2b4022d0e8bcbaff23d8ea5",
+			"repository": "https://github.com/dm-utils/formatsql/releases/download/v1.3.2.18/FormatSQL.zip",
 			"description": "Formats, minifies and converts SQL directly in Notepad++.\r\nFeatures:\r\n- Format / minify SQL, format-on-save, format-and-copy\r\n- Multi-dialect conversion (ANSI, Snowflake, MS SQL, PostgreSQL, MySQL, Databricks)\r\n- Quote, comment-style, boolean and number-format conversion\r\n- Configurable casing, alignment, structure and spacing rules with saved profiles",
 			"author": "Datamodder",
 			"homepage": "https://datamodder.com/utils/sql-formatter"
@@ -856,9 +856,9 @@
 		{
 			"folder-name": "JsonTools",
 			"display-name": "JSON Tools",
-			"version": "8.5",
-			"id": "2b430c399e3624ba02d4d9634cd4c307535cb10eafd5b478f630de866414e32a",
-			"repository": "https://github.com/molsonkiko/JsonToolsNppPlugin/releases/download/v8.5/Release_x64.zip",
+			"version": "8.6",
+			"id": "5a1aafb53df2435bc776d44006d46f79006b83f7f2e567b92e47299538e24ce8",
+			"repository": "https://github.com/molsonkiko/JsonToolsNppPlugin/releases/download/v8.6/Release_x64.zip",
 			"description": "Query/editing tool for JSON including linting, reformatting, a tree viewer with file navigation, JSON schema validation and generation, escaping/unescaping strings, and much more.\r\nThe tree viewer can also be used to explore CSV files and regex search results (experimental).",
 			"author": "Mark Johnston Olson",
 			"homepage": "https://github.com/molsonkiko/JsonToolsNppPlugin",
@@ -1367,10 +1367,10 @@
 		{
 			"folder-name": "NppFoldTail",
 			"display-name": "NppFoldTail",
-			"version": "0.8.3",
+			"version": "0.9.0",
 			"npp-compatible-versions": "[8.9.8.1,]",
-			"id": "8eede014b261eacaf985f0bd0307a3b87513c8853839dad793226ab63b675539",
-			"repository": "https://github.com/seantw/NppFoldTail/releases/download/v0.8.3/NppFoldTail-0.8.3-x64.zip",
+			"id": "883e9f77f599f803f31df5c4d54b3cced9c9830e209901fc2917ba659f08d68a",
+			"repository": "https://github.com/seantw/NppFoldTail/releases/download/v0.9.0/NppFoldTail-0.9.0-x64.zip",
 			"description": "A Notepad++ plugin for cleaner, more readable code folding.",
 			"author": "Sean Lin",
 			"homepage": "https://github.com/seantw/NppFoldTail"
@@ -1462,9 +1462,9 @@
 		{
 			"folder-name": "NppMenuScripts",
 			"display-name": "NppMenuScripts",
-			"version": "1.0.3.0",
-			"id": "ee6c4c3d6af91e5351f5d1decc1bff20758b320558dbe2eec2776522799ba58e",
-			"repository": "https://github.com/seantw/NppMenuScripts/releases/download/v1.0.3.0/NppMenuScripts-v1.0.3.0-x64.zip",
+			"version": "1.0.5.0",
+			"id": "a77ce7b4908bfdd99788f4c099a58926c910c07dd71cc7212ad1a4b19e9c14d8",
+			"repository": "https://github.com/seantw/NppMenuScripts/releases/download/v1.0.5.0/NppMenuScripts-v1.0.5.0-x64.zip",
 			"description": "Lets you create custom script menus and run JavaScript, Perl, and Python scripts from Notepad++.",
 			"author": "Sean Lin",
 			"homepage": "https://github.com/seantw/NppMenuScripts"
@@ -1513,11 +1513,11 @@
 		{
 			"folder-name": "NppQrCode64",
 			"display-name": "NppQrCode",
-			"version": "0.0.0.3",
+			"version": "0.0.0.4",
 			"npp-compatible-versions": "[8.4,]",
 			"old-versions-compatibility": "[,0.0.0.1][,8.3.3]",
-			"id": "3c14ee06e1aadd2456a04aa0674a8d55cb68f52a2f1839d77df2bc609f9e59c0",
-			"repository": "https://github.com/rdipardo/nppQrCode/releases/download/v0.0.0.3/NppQrCode-v0.0.0.3-x64.zip",
+			"id": "2a113c4154709ed0b471a6c1902d1dadc36ab4fe6f708c4f165acd6f9db303f7",
+			"repository": "https://github.com/rdipardo/nppQrCode/releases/download/v0.0.0.4/NppQrCode-v0.0.0.4-x64.zip",
 			"description": "Creates a QR code from selected text. Just select some text and click the toolbar button.",
 			"author": "Vladimir Korobenkov",
 			"homepage": "https://github.com/rdipardo/nppQrCode"
@@ -2200,10 +2200,10 @@
 		{
 			"folder-name": "TroiaLens",
 			"display-name": "TroiaLens",
-			"version": "0.1.4.2",
+			"version": "0.1.4.3",
 			"npp-compatible-versions": "[8.4,]",
-			"id": "45a7acdbb8fd26007d474fd40e9c33c21236d1b6d7230e340fcb0b3f315094b8",
-			"repository": "https://github.com/ufukt51/TroiaLensPlugin/releases/download/v0.1.4.2/TroiaLens-0.1.4.2-x64.zip",
+			"id": "4dc9b5f3b50a8b23f8d70bb49dbdcbb639edd97299614ce117e10bdcf304adf9",
+			"repository": "https://github.com/ufukt51/TroiaLensPlugin/releases/download/v0.1.4.3/TroiaLens-0.1.4.3-x64.zip",
 			"description": "[Requires .NET Framework 4.8 and Microsoft Edge WebView2 Runtime]\r\nAnalyzes Canias ERP Troia code execution trace files in a docked panel: summary, call tree, SQL analysis, repeated (N+1) calls, messages, errors and dump tables. Clicking a row moves the editor to that line. Adds syntax colouring for trace files.",
 			"author": "ufukt51",
 			"homepage": "https://github.com/ufukt51/TroiaLensPlugin"
