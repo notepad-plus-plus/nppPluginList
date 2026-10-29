@@ -4,16 +4,6 @@
 	"arch": "64",
 	"npp-plugins": [
 		{
-  			"folder-name": "SimplifyJson",
-  			"display-name": "Simplify Json",
-  			"version": "1.0.1",
- 			  "id": "9d97b0fa4b8bf5561d3cbc6dbe0cbe09bb22a197eaa9cb184d1430ed0d8556a4",
-  			"repository": "https://github.com/analystvipul/SimplifyJson/releases/download/v1.0.1/SimplifyJson-x64.zip",
-  			"description": "SimplifyJson provides practical JSON tools for Notepad++: escape and unescape JSON strings, beautify JSON with readable indentation, and minify JSON by removing unnecessary whitespace. Commands operate on the selected text or the entire document and validate JSON before formatting.",
-  			"author": "Vipul Patil",
-  			"homepage": "https://github.com/analystvipul/SimplifyJson"
-		},
-		{
 			"folder-name": "3P",
 			"display-name": "3P - Progress Programmers Pal",
 			"version": "1.8.8",
@@ -24,16 +14,6 @@
 			"homepage": "https://jcaillon.github.io/3P/"
 		},
 		{
-			"folder-name": "AwWatcherNPP",
-			"display-name": "ActivityWatch",
-			"version": "1.0.0",
-			"id": "aeb6521f3413ef88ee327739566301dd37b845fc11e366675e7bc29ee620f64b",
-			"repository": "https://github.com/pytlus93/aw-watcher-notepadpp/releases/download/v1.0.0/aw-watcher-notepadpp-1.0.0-x64-plugin-admin.zip",
-			"description": "[Requires .NET Framework 4.8 and a local ActivityWatch server]\r\nRecords active file, project and language context in ActivityWatch while Notepad++ is foreground and the user is active. Configurable privacy controls; document contents are not captured.",
-			"author": "Filip Vrba",
-			"homepage": "https://github.com/pytlus93/aw-watcher-notepadpp"
-		},
-		{
 			"folder-name": "ActiveX",
 			"display-name": "ActiveX Plugin",
 			"version": "1.1.8.7",
@@ -42,6 +22,16 @@
 			"description": "Allows you to control Notepad++ via ActiveX.\r\nYou can use ActiveX with many scripting languages (VBScript, JScript, PHP, ...) and other languages (C++, C+, VB.NET, Delphi, ...).\r\nSo you are not bound to a single language.",
 			"author": "Bananen-Joe",
 			"homepage": "https://sourceforge.net/projects/nppactivexplugin/"
+		},
+		{
+			"folder-name": "AwWatcherNPP",
+			"display-name": "ActivityWatch",
+			"version": "1.0.0",
+			"id": "aeb6521f3413ef88ee327739566301dd37b845fc11e366675e7bc29ee620f64b",
+			"repository": "https://github.com/pytlus93/aw-watcher-notepadpp/releases/download/v1.0.0/aw-watcher-notepadpp-1.0.0-x64-plugin-admin.zip",
+			"description": "[Requires .NET Framework 4.8 and a local ActivityWatch server]\r\nRecords active file, project and language context in ActivityWatch while Notepad++ is foreground and the user is active. Configurable privacy controls; document contents are not captured.",
+			"author": "Filip Vrba",
+			"homepage": "https://github.com/pytlus93/aw-watcher-notepadpp"
 		},
 		{
 			"folder-name": "AnalysePlugin",
@@ -215,6 +205,17 @@
 			"homepage": "https://github.com/MarioRosi/CADdyTools"
 		},
 		{
+			"folder-name": "CalcStudioEPM",
+			"display-name": "CalcStudio for Oracle EPM",
+			"version": "0.15.5.0",
+			"npp-compatible-versions": "[8.4.1,]",
+			"id": "e70230ea818b8411b05700a39e42eff28e77b1ee5822fb06e5db0fd65de6ec79",
+			"repository": "https://github.com/rlorenzoni/CalcStudioEPM/releases/download/v0.015.5/CalcStudioEPM_v0.015.5_x64.zip",
+			"description": "Edit Oracle EPM Cloud (Planning) Calculation Manager rules in Notepad++: pull rules, edit Calc Script and Groovy with syntax highlighting, autocomplete and local validation, then deploy and run them through EPM's public REST APIs. Not an Oracle product.",
+			"author": "RLorenzoni",
+			"homepage": "https://github.com/rlorenzoni/CalcStudioEPM"
+		},
+		{
 			"folder-name": "NppChineseConverter",
 			"display-name": "Chinese Converter",
 			"version": "1.0.3",
@@ -255,6 +256,16 @@
 			"author": "pryrt",
 			"homepage": "https://github.com/pryrt/NppPlugin-CollectionInterface",
 			"npp-compatible-versions": "[8.5,]"
+		},
+		{
+			"folder-name": "NPPColorPicker",
+			"display-name": "Color Picker",
+			"version": "1.0.0",
+			"id": "fc6036ca6facea55db68d729011bcbfd292f5c7676fab7ea0074c3d03c606ac2",
+			"repository": "https://github.com/dasu88/NPPColorPicker/releases/download/v1.0.0/NPPColorPicker-1.0.0-x64.zip",
+			"description": "A native Win32 Notepad++ plugin that provides hover previews of HTML hexadecimal color codes in documents and lets users click to select a color and insert it back into the code.",
+			"author": "dasu88",
+			"homepage": "https://github.com/dasu88/NPPColorPicker"
 		},
 		{
 			"folder-name": "ColumnsPlusPlus",
@@ -671,6 +682,17 @@
 			"homepage": "https://github.com/chtaylo3/fix-parser"
 		},
 		{
+			"folder-name": "folderpad++",
+			"display-name": "folderpad++",
+			"version": "1.2.0",
+			"npp-compatible-versions": "[8.9,]",
+			"id": "af009682425c3b5bdf05a83f03ef216b98281fa4426070f85bd37b1575b9d71e",
+			"repository": "https://github.com/jks-liu/folderpad-plus-plus/releases/download/releases/v1.2.0/folderpad%2B%2B-1.2.0-x64.zip",
+			"description": "Organize open documents into folder tabs without scanning directories. Supports English and Chinese.",
+			"author": "LIU Jinchen",
+			"homepage": "https://github.com/jks-liu/folderpad-plus-plus"
+		},
+		{
 			"folder-name": "FoldingLineHider",
 			"display-name": "Folding Line Hider",
 			"version": "1.1",
@@ -812,6 +834,16 @@
 			"homepage": "https://github.com/ffes/indentbyfold/"
 		},
 		{
+			"folder-name": "InputSequence",
+			"display-name": "Input Sequence",
+			"version": "1.5.2.0",
+			"id": "81c89b10bb5466d2b1c231e1572f1de5f95258e2ec4b3bb0f0893aee707b5b0b",
+			"repository": "https://github.com/dasu88/NPPInputSequence/releases/download/v1.5.2/NotepadPlusPlusInputSequence-1.5.2-win64.zip",
+			"description": "This plugin is a helper tool for Notepad++, inspired by the functionality of https://github.com/tomoki1207/vscode-input-sequence, providing similar capabilities within Notepad++.",
+			"author": "dasu88",
+			"homepage": "https://github.com/dasu88/NPPInputSequence"
+		},
+		{
 			"folder-name": "NppJavaPlugin",
 			"display-name": "Java Plugin",
 			"version": "0.4.1",
@@ -916,6 +948,17 @@
 			"description": "Allows loading a language specific help file (CHM, HLP, PDF) and search for the keyword under the cursor.\r\nThe latest version allows showing the help files as menu entries or in the context menu.",
 			"author": "Franco Stellari",
 			"homepage": "https://github.com/francostellari/NppPlugins"
+		},
+		{
+			"folder-name": "NppLdapFormatter",
+			"display-name": "LDAP Formatter",
+			"version": "1.0.0",
+			"npp-compatible-versions": "[8.9.8.1,]",
+			"id": "59aba8486e18f646b9edfe91aa2a902be77466b00077cfb330ab38c2b68cbc27",
+			"repository": "https://github.com/ignaciojulio/npp-ldap-formatter/releases/download/v1.0.0/NppLdapFormatter_x64.zip",
+			"description": "Validate and format LDAP filters as readable multiline expressions or compact single-line expressions. Preserves the original text on errors and supports atomic undo.",
+			"author": "Ignacio Javier Julio Posada",
+			"homepage": "https://github.com/ignaciojulio/npp-ldap-formatter"
 		},
 		{
 			"folder-name": "Linefilter3",
@@ -1118,6 +1161,17 @@
 			"description": "Modern Markdown viewer with sync scrolling, zoom, mermaid, front-matter, and opinionated coloring (for now).",
 			"author": "violet tape",
 			"homepage": "https://github.com/VioletTape/notepad_md_plugin"
+		},
+		{
+			"folder-name": "NppMultiSearch",
+			"display-name": "Multi-Search",
+			"version": "0.1.0.0",
+			"npp-compatible-versions": "[8.9,]",
+			"id": "2dc5c95a96df8ad928f182ecc1c659f47e1ce26db93136ce92fad61d560c9286",
+			"repository": "https://github.com/NachoMarengo/NppMultiSearch/releases/download/v0.1.0/NppMultiSearch_v0.1.0.0_x64.zip",
+			"description": "Search several words that match on the same line (must / must not / any of) in the current document or a folder, with results panel and per-value counts.",
+			"author": "NachoMarengo",
+			"homepage": "https://github.com/NachoMarengo/NppMultiSearch"
 		},
 		{
 			"folder-name": "MultiReplace",
@@ -1438,17 +1492,6 @@
 			"homepage": "https://sourceforge.net/projects/nppjumplist/"
 		},
 		{
-			"folder-name": "NppLdapFormatter",
-			"display-name": "LDAP Formatter",
-			"version": "1.0.0",
-			"npp-compatible-versions": "[8.9.8.1,]",
-			"id": "59aba8486e18f646b9edfe91aa2a902be77466b00077cfb330ab38c2b68cbc27",
-			"repository": "https://github.com/ignaciojulio/npp-ldap-formatter/releases/download/v1.0.0/NppLdapFormatter_x64.zip",
-			"description": "Validate and format LDAP filters as readable multiline expressions or compact single-line expressions. Preserves the original text on errors and supports atomic undo.",
-			"author": "Ignacio Javier Julio Posada",
-			"homepage": "https://github.com/ignaciojulio/npp-ldap-formatter"
-		},
-		{
 			"folder-name": "NppMarkdownNext",
 			"display-name": "NppMarkdownNext",
 			"version": "1.0.0",
@@ -1603,6 +1646,17 @@
 			"description": "[Requires .NET Framework 4.8] Translates selected text or the active document in a synchronized dockable panel. Supports DeepL (user API key required) and MyMemory.",
 			"author": "Jerryk133",
 			"homepage": "https://github.com/Jerryk133/NppTranslatePanel"
+		},
+		{
+			"folder-name": "NppTranslator",
+			"display-name": "NppTranslator",
+			"version": "1.0.0.0",
+			"npp-compatible-versions": "[8.5,]",
+			"id": "1c0de6beab68f612db09d9fb3ef50eb4c637f9a82d5ae33af8d54c1905951103",
+			"repository": "https://github.com/AndyDL24/PluginTranslateNPP/releases/download/1.0.0/NppTranslator_1.0.0_x64.zip",
+			"description": "Translate selected text in place, or into a CSV column.",
+			"author": "AndyD Andrea",
+			"homepage": "https://github.com/AndyDL24/PluginTranslateNPP"
 		},
 		{
 			"folder-name": "NppUISpy",
@@ -2012,6 +2066,16 @@
 			"homepage": "https://vk.com/wall203102356_293"
 		},
 		{
+			"folder-name": "SimplifyJson",
+			"display-name": "Simplify Json",
+			"version": "1.0.1",
+			"id": "9d97b0fa4b8bf5561d3cbc6dbe0cbe09bb22a197eaa9cb184d1430ed0d8556a4",
+			"repository": "https://github.com/analystvipul/SimplifyJson/releases/download/v1.0.1/SimplifyJson-x64.zip",
+			"description": "SimplifyJson provides practical JSON tools for Notepad++: escape and unescape JSON strings, beautify JSON with readable indentation, and minify JSON by removing unnecessary whitespace. Commands operate on the selected text or the entire document and validate JSON before formatting.",
+			"author": "Vipul Patil",
+			"homepage": "https://github.com/analystvipul/SimplifyJson"
+		},
+		{
 			"folder-name": "NppSnippets",
 			"display-name": "Snippets",
 			"version": "1.7.1",
@@ -2072,6 +2136,16 @@
 			"description": "No kidding, Notepad++ speaks now. With SpeechPlugin, you can make Notepad++ dictate your text or source code. Of course, speakers are necessary.",
 			"author": "Jim Xochellis",
 			"homepage": "https://github.com/chcg/SpeechPlugin"
+		},
+		{
+			"folder-name": "SqlColumnHighlighter",
+			"display-name": "SQL Column Highlighter",
+			"version": "1.0.0.0",
+			"id": "073a5995ca1a89757f5a2db083f9be57e33baee605c74134ef8e36643d71174b",
+			"repository": "https://github.com/zhgao/npp-sql-column-highlighter/releases/download/v1.0.0/SqlColumnHighlighter-v1.0.0-x64.zip",
+			"description": "Click a column name in a SQL INSERT statement to highlight its value(s); double-click a value to highlight its column. All rows are highlighted for multi-row INSERTs.",
+			"author": "zhgao",
+			"homepage": "https://github.com/zhgao/npp-sql-column-highlighter"
 		},
 		{
 			"folder-name": "SQLinFormNpp64",
@@ -2313,80 +2387,6 @@
 			"description": "Small set of useful tools for editing XML. Plugin is MSXML-based. The features are:\r\n- XML syntax Check\r\n- XML Schema (XSD) + DTD Validation\r\n- XML tag autoclose\r\n- Pretty print\n- Linarize XML\r\n- Current XML Path\r\n- Conversion XML &amp;lt;-&amp;gt; Text\n- Comment / Uncomment\r\n- XPath expression evaluation",
 			"author": "Nicolas Crittin",
 			"homepage": "https://github.com/morbac/xmltools"
-		},
-		{
-    		"folder-name": "NppTranslator",
-    		"display-name": "NppTranslator",
-    		"version": "1.0.0.0",
-    		"npp-compatible-versions": "[8.5,]",
-    		"id": "1c0de6beab68f612db09d9fb3ef50eb4c637f9a82d5ae33af8d54c1905951103",
-    		"repository": "https://github.com/AndyDL24/PluginTranslateNPP/releases/download/1.0.0/NppTranslator_1.0.0_x64.zip",
-    		"description": "Translate selected text in place, or into a CSV column.",
-    		"author": "AndyD Andrea",
-    		"homepage": "https://github.com/AndyDL24/PluginTranslateNPP"
-		},
-		{
-		  "folder-name": "folderpad++",
-		  "display-name": "folderpad++",
-		  "version": "1.2.0",
-		  "npp-compatible-versions": "[8.9,]",
-		  "id": "af009682425c3b5bdf05a83f03ef216b98281fa4426070f85bd37b1575b9d71e",
-		  "repository": "https://github.com/jks-liu/folderpad-plus-plus/releases/download/releases/v1.2.0/folderpad%2B%2B-1.2.0-x64.zip",
-		  "description": "Organize open documents into folder tabs without scanning directories. Supports English and Chinese.",
-		  "author": "LIU Jinchen",
-		  "homepage": "https://github.com/jks-liu/folderpad-plus-plus"
-		},
-		{
-			"folder-name": "SqlColumnHighlighter",
-			"display-name": "SQL Column Highlighter",
-			"version": "1.0.0.0",
-			"id": "073a5995ca1a89757f5a2db083f9be57e33baee605c74134ef8e36643d71174b",
-			"repository": "https://github.com/zhgao/npp-sql-column-highlighter/releases/download/v1.0.0/SqlColumnHighlighter-v1.0.0-x64.zip",
-			"description": "Click a column name in a SQL INSERT statement to highlight its value(s); double-click a value to highlight its column. All rows are highlighted for multi-row INSERTs.",
-			"author": "zhgao",
-			"homepage": "https://github.com/zhgao/npp-sql-column-highlighter"
-		},
-		{
-			  "folder-name": "NppMultiSearch",
-			  "display-name": "Multi-Search",
-			  "version": "0.1.0.0",
-			  "npp-compatible-versions": "[8.9,]",
-			  "id": "2dc5c95a96df8ad928f182ecc1c659f47e1ce26db93136ce92fad61d560c9286",
-			  "repository": "https://github.com/NachoMarengo/NppMultiSearch/releases/download/v0.1.0/NppMultiSearch_v0.1.0.0_x64.zip",
-			  "description": "Search several words that match on the same line (must / must not / any of) in the current document or a folder, with results panel and per-value counts.",
-			  "author": "NachoMarengo",
-			  "homepage": "https://github.com/NachoMarengo/NppMultiSearch"
-		},
-		{
-			"folder-name": "CalcStudioEPM",
-			"display-name": "CalcStudio for Oracle EPM",
-			"version": "0.15.5.0",
-			"npp-compatible-versions": "[8.4.1,]",
-			"id": "e70230ea818b8411b05700a39e42eff28e77b1ee5822fb06e5db0fd65de6ec79",
-			"repository": "https://github.com/rlorenzoni/CalcStudioEPM/releases/download/v0.015.5/CalcStudioEPM_v0.015.5_x64.zip",
-			"description": "Edit Oracle EPM Cloud (Planning) Calculation Manager rules in Notepad++: pull rules, edit Calc Script and Groovy with syntax highlighting, autocomplete and local validation, then deploy and run them through EPM's public REST APIs. Not an Oracle product.",
-			"author": "RLorenzoni",
-			"homepage": "https://github.com/rlorenzoni/CalcStudioEPM"
-		},
-		{
-			  "folder-name": "InputSequence",
-			  "display-name": "Input Sequence",
-			  "version": "1.5.2.0",
-			  "id": "81c89b10bb5466d2b1c231e1572f1de5f95258e2ec4b3bb0f0893aee707b5b0b",
-			  "repository": "https://github.com/dasu88/NPPInputSequence/releases/download/v1.5.2/NotepadPlusPlusInputSequence-1.5.2-win64.zip",
-			  "description": "This plugin is a helper tool for Notepad++, inspired by the functionality of https://github.com/tomoki1207/vscode-input-sequence, providing similar capabilities within Notepad++.",
-			  "author": "dasu88",
-			  "homepage": "https://github.com/dasu88/NPPInputSequence"
-    },
-    {
-    		"folder-name":  "NPPColorPicker",
-    		"display-name":  "Color Picker",
-    		"version":  "1.0.0",
-    		"id":  "fc6036ca6facea55db68d729011bcbfd292f5c7676fab7ea0074c3d03c606ac2",
-    		"repository":  "https://github.com/dasu88/NPPColorPicker/releases/download/v1.0.0/NPPColorPicker-1.0.0-x64.zip",
-    		"description":  "A native Win32 Notepad++ plugin that provides hover previews of HTML hexadecimal color codes in documents and lets users click to select a color and insert it back into the code.",
-    		"author":  "dasu88",
-    		"homepage":  "https://github.com/dasu88/NPPColorPicker"			
 		}
 	]
 }

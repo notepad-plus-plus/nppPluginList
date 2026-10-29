@@ -69,6 +69,50 @@
 			"homepage": "https://github.com/pullitall/Notepadpp-light-dark-switch-and-automatic-switch-based-on-location"
 		},
 		{
+			"folder-name": "FileTools",
+			"display-name": "Datamodder File Tools",
+			"version": "1.3.1.7",
+			"npp-compatible-versions": "[8.3,]",
+			"id": "d636fe59c03f5fccc35c50af7eef51f8c05bec4b20e32ac424f8f6ed2dd2ddc9",
+			"repository": "https://github.com/dm-utils/filetools/releases/download/v1.3.1.7/FileTools_arm64.zip",
+			"description": "Tidy, validate and convert YAML, JSON and CSV directly in Notepad++.\r\nFeatures:\r\n- Reindent / tidy YAML (comments preserved)\r\n- Full conversion matrix: YAML, JSON, CSV and Parquet (via duckdb.exe) all reach each other\r\n- JSON: pretty-print, minify, sort keys, escape/unescape\r\n- CSV: align, compact, delimiter convert, sort, transpose, add/remove quotes\r\n- Settings dialog with saved profiles",
+			"author": "Datamodder",
+			"homepage": "https://datamodder.com/utils/file-tools"
+		},
+		{
+			"folder-name": "QueryFiles",
+			"display-name": "Datamodder Query Files",
+			"version": "1.3.1.4",
+			"npp-compatible-versions": "[8.3,]",
+			"id": "7d138864c2ee6ed2627351b0cee677b4c2e27ca5b43aa68a6a54dae390a684f5",
+			"repository": "https://github.com/dm-utils/queryfiles/releases/download/v1.3.1.4/QueryFiles_arm64.zip",
+			"description": "Run SQL on CSV, Parquet, JSON and Excel files directly in Notepad++, powered by DuckDB (duckdb.exe).\r\nFeatures:\r\n- Query this file: the open data file becomes THIS in a new SQL tab\r\n- Join files on disk: from 'orders.parquet' join 'customers.csv' ...\r\n- Results as text in a tab, or as a sortable table in a docked panel\r\n- Describe / Summarize THIS, toolbar button, cancel and timeout",
+			"author": "Datamodder",
+			"homepage": "https://datamodder.com/utils/query-files"
+		},
+		{
+			"folder-name": "RegexViewer",
+			"display-name": "Datamodder Regex Viewer",
+			"version": "1.3.1.1",
+			"npp-compatible-versions": "[8.3,]",
+			"id": "c94f1731c01cb3cc3158a96be3ac8ab524873468baa0a227fb0970d6425a176f",
+			"repository": "https://github.com/dm-utils/regexviewer/releases/download/v1.3.1.1/RegexViewer_arm64.zip",
+			"description": "Paste a regex the way you got it - bare, inside Python, JavaScript, C#, Java, PHP, Go, PowerShell or sed/grep code, or a whole AI answer - and see what it does.\r\nFeatures:\r\n- Every match highlighted in the document, each group in its own colour\r\n- The pattern explained in plain language\r\n- Match like Notepad++, like the source language, or a fixed flavour (Python, JavaScript, .NET, Java, PCRE, POSIX, RE2)\r\n- Converted for Notepad++'s Find, with Replace and Replace all",
+			"author": "Datamodder",
+			"homepage": "https://datamodder.com/utils/regex-viewer"
+		},
+		{
+			"folder-name": "FormatSQL",
+			"display-name": "Datamodder SQL Formatter",
+			"version": "1.3.2.18",
+			"npp-compatible-versions": "[8.3,]",
+			"id": "096fa20e28a3d2be9fdeaba7c2e1733b62d290f64a53190dfc2566bad10e8798",
+			"repository": "https://github.com/dm-utils/formatsql/releases/download/v1.3.2.18/FormatSQL_arm64.zip",
+			"description": "Formats, minifies and converts SQL directly in Notepad++.\r\nFeatures:\r\n- Format / minify SQL, format-on-save, format-and-copy\r\n- Multi-dialect conversion (ANSI, Snowflake, MS SQL, PostgreSQL, MySQL, Databricks)\r\n- Quote, comment-style, boolean and number-format conversion\r\n- Configurable casing, alignment, structure and spacing rules with saved profiles",
+			"author": "Datamodder",
+			"homepage": "https://datamodder.com/utils/sql-formatter"
+		},
+		{
 			"folder-name": "DiscordRPC",
 			"display-name": "Discord Rich Presence",
 			"version": "2.1.711.1",
@@ -79,14 +123,14 @@
 			"homepage": "https://github.com/Zukaritasu/notepadpp_rpc"
 		},
 		{
-		    "folder-name": "DualScrollbars",
-		    "display-name": "Dual Scrollbars",
-		    "version": "1.1.0",
-		    "id": "c3a3296fea45404f1dc4c4510a42aaf0daa1c0df3415d9b8db073009c3ceb60c",
-		    "repository": "https://github.com/SaiyajinK/Dual-Scrollbars-for-Notepad-Plus-Plus/releases/download/1.1.0/Dual-Scrollbars-v1.1.0-arm64.zip",
-		    "description": "A simple Notepad++ plugin that adds a second vertical scrollbar with mirrored line numbers and markers.",
-		    "author": "SaiyajinK",
-		    "homepage": "https://github.com/SaiyajinK/Dual-Scrollbars-for-Notepad-Plus-Plus"
+			"folder-name": "DualScrollbars",
+			"display-name": "Dual Scrollbars",
+			"version": "1.1.0",
+			"id": "c3a3296fea45404f1dc4c4510a42aaf0daa1c0df3415d9b8db073009c3ceb60c",
+			"repository": "https://github.com/SaiyajinK/Dual-Scrollbars-for-Notepad-Plus-Plus/releases/download/1.1.0/Dual-Scrollbars-v1.1.0-arm64.zip",
+			"description": "A simple Notepad++ plugin that adds a second vertical scrollbar with mirrored line numbers and markers.",
+			"author": "SaiyajinK",
+			"homepage": "https://github.com/SaiyajinK/Dual-Scrollbars-for-Notepad-Plus-Plus"
 		},
 		{
 			"folder-name": "EmojiDescription",
@@ -190,6 +234,17 @@
 			"description": "Allows loading a language specific help file (CHM, HLP, PDF) and search for the keyword under the cursor.\r\nThe latest version allows showing the help files as menu entries or in the context menu.",
 			"author": "Franco Stellari",
 			"homepage": "https://github.com/francostellari/NppPlugins"
+		},
+		{
+			"folder-name": "NppLdapFormatter",
+			"display-name": "LDAP Formatter",
+			"version": "1.0.0",
+			"npp-compatible-versions": "[8.9.8.1,]",
+			"id": "5ee4db6d3912fc592756f27c46f43a14cea3d885b41c2113fe92835da786c361",
+			"repository": "https://github.com/ignaciojulio/npp-ldap-formatter/releases/download/v1.0.0/NppLdapFormatter_arm64.zip",
+			"description": "Validate and format LDAP filters as readable multiline expressions or compact single-line expressions. Preserves the original text on errors and supports atomic undo.",
+			"author": "Ignacio Javier Julio Posada",
+			"homepage": "https://github.com/ignaciojulio/npp-ldap-formatter"
 		},
 		{
 			"folder-name": "Linter++",
@@ -376,17 +431,6 @@
 			"homepage": "https://sourceforge.net/projects/npp-plugins/files/NppDocShare/"
 		},
 		{
-			"folder-name": "NppLdapFormatter",
-			"display-name": "LDAP Formatter",
-			"version": "1.0.0",
-			"npp-compatible-versions": "[8.9.8.1,]",
-			"id": "5ee4db6d3912fc592756f27c46f43a14cea3d885b41c2113fe92835da786c361",
-			"repository": "https://github.com/ignaciojulio/npp-ldap-formatter/releases/download/v1.0.0/NppLdapFormatter_arm64.zip",
-			"description": "Validate and format LDAP filters as readable multiline expressions or compact single-line expressions. Preserves the original text on errors and supports atomic undo.",
-			"author": "Ignacio Javier Julio Posada",
-			"homepage": "https://github.com/ignaciojulio/npp-ldap-formatter"
-		},
-		{
 			"folder-name": "NppS3",
 			"display-name": "NppS3",
 			"version": "1.0.0",
@@ -405,6 +449,17 @@
 			"description": "Hide or show lines to help analyse larger files - logs for example. Can hide all lines that contain text pattern. Or simply select several lines and hide them. Based on TextFX plugin v0.25 by Chris Severance.",
 			"author": "Jakub Dvorak",
 			"homepage": "https://github.com/KubaDee/NppTextViz"
+		},
+		{
+			"folder-name": "NppTranslator",
+			"display-name": "NppTranslator",
+			"version": "1.0.0.0",
+			"npp-compatible-versions": "[8.5,]",
+			"id": "fb92f42d68ac833c98c27a2d828396f28a1739a27119ff525e49564ec9affef2",
+			"repository": "https://github.com/AndyDL24/PluginTranslateNPP/releases/download/1.0.0/NppTranslator_1.0.0_ARM64.zip",
+			"description": "Translate selected text in place, or into a CSV column.",
+			"author": "AndyD Andrea",
+			"homepage": "https://github.com/AndyDL24/PluginTranslateNPP"
 		},
 		{
 			"folder-name": "NppVim",
@@ -651,61 +706,6 @@
 			"description": "Speed up your code editing! Enter an abbreviation (tag), press Alt + Enter, and expand the tag into a full code snippet. You can also wrap (surround) a selection e.g. with HTML tags.\r\n- More than 1000 preset tags: HTML (elements, attributes, BootStrap, Smarty, etc.), JavaScript (jQuery), CSS, PHP, SQL (MySQL, Eloquent ORM), etc.\r\n- Automatic or custom caret (cursor) positioning\r\n- Handling new lines, indents, etc.\r\n- Variables: clipboard content, current file name, custom date/time, etc.\r\n- Customizable tags in the plugin menu; assign tags to shortcuts\r\n- Customizable tags in the toolbar\r\n- Tag suggestions (similar tags)\r\n- Easy tag addition\r\n- Multiselect support\r\n- Unicode support\r\n- Over 17 years with Notepad++, now in 64-bit version!",
 			"author": "Alexander Iljin",
 			"homepage": "https://github.com/Krazal/WebEdit"
-		},
-		{
-			"folder-name": "NppTranslator",
-			"display-name": "NppTranslator",
-			"version": "1.0.0.0",
-			"npp-compatible-versions": "[8.5,]",
-			"id": "fb92f42d68ac833c98c27a2d828396f28a1739a27119ff525e49564ec9affef2",
-			"repository": "https://github.com/AndyDL24/PluginTranslateNPP/releases/download/1.0.0/NppTranslator_1.0.0_ARM64.zip",
-			"description": "Translate selected text in place, or into a CSV column.",
-			"author": "AndyD Andrea",
-			"homepage": "https://github.com/AndyDL24/PluginTranslateNPP"
-		},
-		{
-			"folder-name": "FormatSQL",
-			"display-name": "Datamodder SQL Formatter",
-			"version": "1.3.2.18",
-			"npp-compatible-versions": "[8.3,]",
-			"id": "096fa20e28a3d2be9fdeaba7c2e1733b62d290f64a53190dfc2566bad10e8798",
-			"repository": "https://github.com/dm-utils/formatsql/releases/download/v1.3.2.18/FormatSQL_arm64.zip",
-			"description": "Formats, minifies and converts SQL directly in Notepad++.\r\nFeatures:\r\n- Format / minify SQL, format-on-save, format-and-copy\r\n- Multi-dialect conversion (ANSI, Snowflake, MS SQL, PostgreSQL, MySQL, Databricks)\r\n- Quote, comment-style, boolean and number-format conversion\r\n- Configurable casing, alignment, structure and spacing rules with saved profiles",
-			"author": "Datamodder",
-			"homepage": "https://datamodder.com/utils/sql-formatter"
-		},
-		{
-			"folder-name": "FileTools",
-			"display-name": "Datamodder File Tools",
-			"version": "1.3.1.7",
-			"npp-compatible-versions": "[8.3,]",
-			"id": "d636fe59c03f5fccc35c50af7eef51f8c05bec4b20e32ac424f8f6ed2dd2ddc9",
-			"repository": "https://github.com/dm-utils/filetools/releases/download/v1.3.1.7/FileTools_arm64.zip",
-			"description": "Tidy, validate and convert YAML, JSON and CSV directly in Notepad++.\r\nFeatures:\r\n- Reindent / tidy YAML (comments preserved)\r\n- Full conversion matrix: YAML, JSON, CSV and Parquet (via duckdb.exe) all reach each other\r\n- JSON: pretty-print, minify, sort keys, escape/unescape\r\n- CSV: align, compact, delimiter convert, sort, transpose, add/remove quotes\r\n- Settings dialog with saved profiles",
-			"author": "Datamodder",
-			"homepage": "https://datamodder.com/utils/file-tools"
-		},
-		{
-			"folder-name": "QueryFiles",
-			"display-name": "Datamodder Query Files",
-			"version": "1.3.1.4",
-			"npp-compatible-versions": "[8.3,]",
-			"id": "7d138864c2ee6ed2627351b0cee677b4c2e27ca5b43aa68a6a54dae390a684f5",
-			"repository": "https://github.com/dm-utils/queryfiles/releases/download/v1.3.1.4/QueryFiles_arm64.zip",
-			"description": "Run SQL on CSV, Parquet, JSON and Excel files directly in Notepad++, powered by DuckDB (duckdb.exe).\r\nFeatures:\r\n- Query this file: the open data file becomes THIS in a new SQL tab\r\n- Join files on disk: from 'orders.parquet' join 'customers.csv' ...\r\n- Results as text in a tab, or as a sortable table in a docked panel\r\n- Describe / Summarize THIS, toolbar button, cancel and timeout",
-			"author": "Datamodder",
-			"homepage": "https://datamodder.com/utils/query-files"
-		},
-		{
-			"folder-name": "RegexViewer",
-			"display-name": "Datamodder Regex Viewer",
-			"version": "1.3.1.1",
-			"npp-compatible-versions": "[8.3,]",
-			"id": "c94f1731c01cb3cc3158a96be3ac8ab524873468baa0a227fb0970d6425a176f",
-			"repository": "https://github.com/dm-utils/regexviewer/releases/download/v1.3.1.1/RegexViewer_arm64.zip",
-			"description": "Paste a regex the way you got it - bare, inside Python, JavaScript, C#, Java, PHP, Go, PowerShell or sed/grep code, or a whole AI answer - and see what it does.\r\nFeatures:\r\n- Every match highlighted in the document, each group in its own colour\r\n- The pattern explained in plain language\r\n- Match like Notepad++, like the source language, or a fixed flavour (Python, JavaScript, .NET, Java, PCRE, POSIX, RE2)\r\n- Converted for Notepad++'s Find, with Replace and Replace all",
-			"author": "Datamodder",
-			"homepage": "https://datamodder.com/utils/regex-viewer"
 		}
 	]
 }
