@@ -2243,6 +2243,16 @@
 			"homepage": "https://github.com/zhgao/npp-sql-column-highlighter"
 		},
 		{
+			  "folder-name": "InputSequence",
+			  "display-name": "Input Sequence",
+			  "version": "1.5.2.0",
+			  "id": "701f0b4ddc9cd48668c21bbafa84ca99a3df99e48b2284093d182a643d434c8b",
+			  "repository": "https://github.com/dasu88/NPPInputSequence/releases/download/v1.5.2/NotepadPlusPlusInputSequence-1.5.2-win32.zip",
+			  "description": "This plugin is a helper tool for Notepad++, inspired by the functionality of https://github.com/tomoki1207/vscode-input-sequence, providing similar capabilities within Notepad++.",
+			  "author": "dasu88",
+			  "homepage": "https://github.com/dasu88/NPPInputSequence"
+    },
+    {
 		    "folder-name":  "NPPColorPicker",
 		    "display-name":  "Color Picker",
 		    "version":  "1.0.0",
