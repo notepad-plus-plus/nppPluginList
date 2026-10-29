@@ -2369,6 +2369,16 @@
 			"homepage": "https://github.com/rlorenzoni/CalcStudioEPM"
 		},
 		{
+			  "folder-name": "InputSequence",
+			  "display-name": "Input Sequence",
+			  "version": "1.5.2.0",
+			  "id": "81c89b10bb5466d2b1c231e1572f1de5f95258e2ec4b3bb0f0893aee707b5b0b",
+			  "repository": "https://github.com/dasu88/NPPInputSequence/releases/download/v1.5.2/NotepadPlusPlusInputSequence-1.5.2-win64.zip",
+			  "description": "This plugin is a helper tool for Notepad++, inspired by the functionality of https://github.com/tomoki1207/vscode-input-sequence, providing similar capabilities within Notepad++.",
+			  "author": "dasu88",
+			  "homepage": "https://github.com/dasu88/NPPInputSequence"
+    },
+    {
     		"folder-name":  "NPPColorPicker",
     		"display-name":  "Color Picker",
     		"version":  "1.0.0",
