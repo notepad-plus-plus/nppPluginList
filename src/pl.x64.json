@@ -2387,6 +2387,17 @@
 			"description": "Small set of useful tools for editing XML. Plugin is MSXML-based. The features are:\r\n- XML syntax Check\r\n- XML Schema (XSD) + DTD Validation\r\n- XML tag autoclose\r\n- Pretty print\n- Linarize XML\r\n- Current XML Path\r\n- Conversion XML &amp;lt;-&amp;gt; Text\n- Comment / Uncomment\r\n- XPath expression evaluation",
 			"author": "Nicolas Crittin",
 			"homepage": "https://github.com/morbac/xmltools"
+		},
+		{
+			"folder-name": "xsvViewer",
+			"display-name": "xsvViewer++",
+			"version": "1.0.1.0",
+			"npp-compatible-versions": "[8.9.8.1,]",
+			"id": "6bfdcd505821cff8961ab40fbea2e6e184df4736b06b82ed40b3c76626d9e592",
+			"repository": "https://github.com/mgalhu/xsvViewer/releases/download/v1.0.1/xsvViewer-1.0.1-x64.zip",
+			"description": "Shows CSV, TSV and other delimited files as an adjustable table in the tab. Detects delimiters, headers, comments and decimal commas. Sort, filter by text, number or regex, move, resize, hide and freeze columns, colour numbers by value, and export the view to CSV, TSV or Markdown. Handles millions of rows.",
+			"author": "Markus Galhuber",
+			"homepage": "https://github.com/mgalhu/xsvViewer"
 		}
 	]
 }
