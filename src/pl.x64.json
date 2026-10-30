@@ -260,9 +260,9 @@
 		{
 			"folder-name": "NPPColorPicker",
 			"display-name": "Color Picker",
-			"version": "1.0.0",
-			"id": "fc6036ca6facea55db68d729011bcbfd292f5c7676fab7ea0074c3d03c606ac2",
-			"repository": "https://github.com/dasu88/NPPColorPicker/releases/download/v1.0.0/NPPColorPicker-1.0.0-x64.zip",
+			"version": "1.0.1",
+			"id": "799b78ddca1b70fe80823befdcd10034fa7d45a353802e55a53f36eae8fb041c",
+			"repository": "https://github.com/dasu88/NPPColorPicker/releases/download/v1.0.1/NPPColorPicker-1.0.1-x64.zip",
 			"description": "A native Win32 Notepad++ plugin that provides hover previews of HTML hexadecimal color codes in documents and lets users click to select a color and insert it back into the code.",
 			"author": "dasu88",
 			"homepage": "https://github.com/dasu88/NPPColorPicker"
