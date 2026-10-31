@@ -1061,11 +1061,11 @@
 		{
 			"folder-name": "mimeTools",
 			"display-name": "Mime tools",
-			"version": "3.1",
+			"version": "3.2",
 			"npp-compatible-versions": "[8.4.7,]",
 			"old-versions-compatibility": "[,2.8][,8.4.6]",
-			"id": "dd171922d399a4044215554c08e771b0e130c66a288b513802cb7e3d96d94a8f",
-			"repository": "https://github.com/npp-plugins/mimetools/releases/download/v3.1/mimetools.v3.1.zip",
+			"id": "b66a3103a23ca6b50a225d6b06e20f540f93291e352f753851e13fec1c470c22",
+			"repository": "https://github.com/npp-plugins/mimetools/releases/download/v3.2/mimetools.v3.2.zip",
 			"description": "Implements several main functionalities defined in MIME (Multipurpose Internet Mail Extensions): Base64, Quoted-printable and URL encode/decode",
 			"author": "Don HO",
 			"homepage": "https://github.com/npp-plugins/mimetools"
