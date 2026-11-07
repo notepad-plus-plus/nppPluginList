@@ -2409,6 +2409,17 @@
 			"description": "Shows CSV, TSV and other delimited files as an adjustable table in the tab. Detects delimiters, headers, comments and decimal commas. Sort, filter by text, number or regex, move, resize, hide and freeze columns, colour numbers by value, and export the view to CSV, TSV or Markdown. Handles millions of rows.",
 			"author": "Markus Galhuber",
 			"homepage": "https://github.com/mgalhu/xsvViewer"
+		},
+		{
+			"folder-name": "MermaidViewer",
+			"display-name": "Mermaid Viewer",
+			"version": "1.1.0",
+			"npp-compatible-versions": "[8.7,]",
+			"id": "6c1a9f0c3593791fb66e3c32b3b767e9a58594ee06fcd9711f39b27a9d28ed17",
+			"repository": "https://github.com/Lithe-Lab/MermaidViewerNpp/releases/download/v1.1.0/MermaidViewerForNPP_v1.1.0_x64.zip",
+			"description": "[Requires .NET Framework 4.8.1]\r\n\r\nThis plugin renders Markdown files and Mermaid diagrams.\r\nMermaid diagrams must be enclosed in a mermaid code block.\r\n\r\nInitial rendering may take some time when the plugin starts.",
+			"author": "Lithe-Lab",
+			"homepage": "https://github.com/Lithe-Lab/MermaidViewerNpp"
 		}
 	]
 }
