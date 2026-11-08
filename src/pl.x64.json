@@ -2151,9 +2151,9 @@
 		{
 			"folder-name": "SqlColumnHighlighter",
 			"display-name": "SQL Column Highlighter",
-			"version": "1.0.0.0",
-			"id": "073a5995ca1a89757f5a2db083f9be57e33baee605c74134ef8e36643d71174b",
-			"repository": "https://github.com/zhgao/npp-sql-column-highlighter/releases/download/v1.0.0/SqlColumnHighlighter-v1.0.0-x64.zip",
+			"version": "1.0.4.0",
+			"id": "ab3fbfca1f6854f6a5a9133b6cd8b4c7d2551b5597143401ac06789498705317",
+			"repository": "https://github.com/zhgao/npp-sql-column-highlighter/releases/download/v1.0.4/SqlColumnHighlighter-v1.0.4-x64.zip",
 			"description": "Click a column name in a SQL INSERT statement to highlight its value(s); double-click a value to highlight its column. All rows are highlighted for multi-row INSERTs.",
 			"author": "zhgao",
 			"homepage": "https://github.com/zhgao/npp-sql-column-highlighter"
