@@ -1432,10 +1432,10 @@
 		{
 			"folder-name": "NppFoldTail",
 			"display-name": "NppFoldTail",
-			"version": "0.10.0",
+			"version": "0.11.0",
 			"npp-compatible-versions": "[8.9.8.1,]",
-			"id": "c16c088f4b64d5643a776fc6a21f5f0b3608bf1c10df3f95f630491bd35fe8f9",
-			"repository": "https://github.com/seantw/NppFoldTail/releases/download/v0.10.0/NppFoldTail-0.10.0-x64.zip",
+			"id": "e599574b8f4c98d44fa572ceef9f5b3b259a8a5a8202daf1d33141228131cb07",
+			"repository": "https://github.com/seantw/NppFoldTail/releases/download/v0.11.0/NppFoldTail-0.11.0-x64.zip",
 			"description": "A Notepad++ plugin for cleaner, more readable code folding.",
 			"author": "Sean Lin",
 			"homepage": "https://github.com/seantw/NppFoldTail"
