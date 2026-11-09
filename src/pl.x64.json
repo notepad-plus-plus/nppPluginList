@@ -1516,10 +1516,10 @@
 		{
 			"folder-name": "NppMenuScripts",
 			"display-name": "NppMenuScripts",
-			"version": "1.2.0.0",
-			"id": "c37dfd8439eaa9bad92acdb608f434154ed009e6606a8e23d46837e6f94cdb4d",
-			"repository": "https://github.com/seantw/NppMenuScripts/releases/download/v1.2.0.0/NppMenuScripts-v1.2.0.0-x64.zip",
-			"description": "Lets you create custom script menus and run JavaScript, Perl, and Python scripts from Notepad++.",
+			"version": "1.2.1.0",
+			"id": "a9b4f175cf74a12cd0a42c6a90bbd23efd4ea0f7363204200348c029bba3e15e",
+			"repository": "https://github.com/seantw/NppMenuScripts/releases/download/v1.2.1.0/NppMenuScripts-v1.2.1.0-x64.zip",
+			"description": "Lets you create custom script menus and run JavaScript, Perl, Python and HTML scripts from Notepad++.",
 			"author": "Sean Lin",
 			"homepage": "https://github.com/seantw/NppMenuScripts"
 		},
