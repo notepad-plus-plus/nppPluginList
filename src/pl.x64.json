@@ -1452,7 +1452,7 @@
 		},
 		{
 			"folder-name": "NppGdiEmoji",
-			"display-name": "NppGdiEmoji",
+			"display-name": "GDI Emoji",
 			"version": "0.1.0.0",
 			"id": "a780d81afc79dcc260347863a61757f04d2920db75331611506b9ffdfa3a2b6d",
 			"repository": "https://github.com/seantw/NppGdiEmoji/releases/download/v0.1.0/NppGdiEmoji-0.1.0-x64.zip",
