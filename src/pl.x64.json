@@ -1451,6 +1451,16 @@
 			"homepage": "https://ashkulz.github.io/NppFTP/"
 		},
 		{
+			"folder-name": "NppGdiEmoji",
+			"display-name": "NppGdiEmoji",
+			"version": "0.1.0.0",
+			"id": "a780d81afc79dcc260347863a61757f04d2920db75331611506b9ffdfa3a2b6d",
+			"repository": "https://github.com/seantw/NppGdiEmoji/releases/download/v0.1.0/NppGdiEmoji-0.1.0-x64.zip",
+			"description": "Displays supported color emoji in UTF-8 documents when Notepad++ uses GDI rendering mode.",
+			"author": "Sean Lin",
+			"homepage": "https://github.com/seantw/NppGdiEmoji"
+		},
+		{
 			"folder-name": "NppGist",
 			"display-name": "NppGist",
 			"version": "1.5.1.35",
