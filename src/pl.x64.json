@@ -1121,9 +1121,9 @@
 		{
 			"folder-name": "mdnotepad",
 			"display-name": "MD Notepad",
-			"version": "1.0.0",
-			"id": "52074d352af77c2f7269071b89f972875a74668be9ef9f5340b287f647a26a32",
-			"repository": "https://github.com/aideakit/mdnotepad/releases/download/v1.0.0/mdnotepad-1.0.0-x64-plugins-admin.zip",
+			"version": "1.0.1",
+			"id": "c50aff917a71a2d45a38b2e765137d553b28acce83ba0169fe62715d39009d4f",
+			"repository": "https://github.com/aideakit/mdnotepad/releases/download/v1.0.1/mdnotepad-1.0.1-x64-plugins-admin.zip",
 			"description": "Markdown preview panel next to the editor: GitHub style, Mermaid diagrams, dark theme, PDF export. Text can be edited in the preview too; the change goes into the Markdown source. Uses the Microsoft Edge WebView2 Runtime that is part of Windows 10/11.",
 			"author": "aideakit",
 			"homepage": "https://github.com/aideakit/mdnotepad"
