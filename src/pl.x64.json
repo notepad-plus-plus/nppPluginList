@@ -449,9 +449,9 @@
 		{
 			"folder-name": "PersianKit",
 			"display-name": "PersianKit - RTL & Vazirmatn (Persian)",
-			"version": "1.1.1",
-			"id": "721f473e9d58c7ac3f16d418faf99a4051a5d1be2d91167142928838932f12a6",
-			"repository": "https://github.com/ahmadkhanloo/npp-persian-kit/releases/download/v1.1.1/PersianKit_x64.zip",
+			"version": "1.2.0",
+			"id": "d9d468c59f38d8f5005ba91346d2d2caf71a9cb98ec50562a4e5bb41a32dd872",
+			"repository": "https://github.com/ahmadkhanloo/npp-persian-kit/releases/download/v1.2.0/PersianKit_x64.zip",
 			"description": "Right-to-left (RTL) text direction and the Vazirmatn font for Persian/Farsi documents.\r\n- Persian mode: RTL + Vazirmatn in one command\r\n- Toggle RTL/LTR per document (default Alt+Shift+R)\r\n- Auto Persian mode for .md/.txt files, remembered in NppPersianKit.ini\r\n- Needs DirectWrite off (Preferences > MISC) and UTF-8 documents; the plugin warns if not",
 			"author": "Mohammad Ahmadkhanloo",
 			"homepage": "https://github.com/ahmadkhanloo/npp-persian-kit"
