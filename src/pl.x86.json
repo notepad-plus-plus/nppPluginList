@@ -2316,6 +2316,17 @@
 			"description": "Implementation of the Zen Coding method by Sergey Chikuyonok. Expand HTML, CSS, XML, XSLT and XSD from abbreviations\ntr#head1.header&gt;td*2 becomes &lt;tr id=\"head1\" class=\"header\"&gt;\n &lt;td&gt;&lt;/td&gt;\n &lt;td&gt;&lt;/td&gt;\n&lt;/tr&gt;\nUses the Python Script plugin.",
 			"author": "Dave Brotherstone",
 			"homepage": "https://github.com/bruderstein/ZenCoding-Python"
+		},
+		{
+			"folder-name": "YamlProperties",
+			"display-name": "YamlProperties",
+			"version": "0.4.0",
+			"npp-compatible-versions": "[8.9.6.4,]",
+			"id": "8ffe2ab636d99540d77497d84f16c5e8d1459653b112e3a8571d436b3d94ab25",
+			"repository": "https://github.com/oiltea94/npp-yaml-properties/releases/download/v0.4.0/YamlProperties-0.4.0-x86-plugin-admin.zip",
+			"description": "Convert YAML and Java Properties in either direction. Supports selections, automatic format detection, optional key sorting and configurable new-tab or in-place output.",
+			"author": "OILTEA",
+			"homepage": "https://github.com/oiltea94/npp-yaml-properties"
 		}
 	]
 }

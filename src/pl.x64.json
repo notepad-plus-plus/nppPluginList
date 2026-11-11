@@ -2434,11 +2434,11 @@
 		{
 			"folder-name": "YamlProperties",
 			"display-name": "YamlProperties",
-			"version": "0.3.1",
+			"version": "0.4.0",
 			"npp-compatible-versions": "[8.9.6.4,]",
-			"id": "d86a376ce0fe62b8cfefd772acceb9794cfc7c9759ca9eaebb608adee4d4d19c",
-			"repository": "https://github.com/oiltea94/npp-yaml-properties/releases/download/v0.3.1/YamlProperties-0.3.1-x64-plugin-admin.zip",
-			"description": "Convert YAML and Java Properties in either direction. Supports selections, automatic format detection, literal keys and configurable new-tab or in-place output.",
+			"id": "7d7a603316340d7e26ef995201fe7f651a8721ee9064ececd2eb1811ecb8156e",
+			"repository": "https://github.com/oiltea94/npp-yaml-properties/releases/download/v0.4.0/YamlProperties-0.4.0-x64-plugin-admin.zip",
+			"description": "Convert YAML and Java Properties in either direction. Supports selections, automatic format detection, optional key sorting and configurable new-tab or in-place output.",
 			"author": "OILTEA",
 			"homepage": "https://github.com/oiltea94/npp-yaml-properties"
 		}
