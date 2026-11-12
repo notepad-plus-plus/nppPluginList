@@ -2430,6 +2430,17 @@
 			"description": "[Requires .NET Framework 4.8.1]\r\n\r\nThis plugin renders Markdown files and Mermaid diagrams.\r\nMermaid diagrams must be enclosed in a mermaid code block.\r\n\r\nInitial rendering may take some time when the plugin starts.",
 			"author": "Lithe-Lab",
 			"homepage": "https://github.com/Lithe-Lab/MermaidViewerNpp"
+		},
+		{
+			"folder-name": "YamlProperties",
+			"display-name": "YamlProperties",
+			"version": "0.5.0",
+			"npp-compatible-versions": "[8.9.6.4,]",
+			"id": "7418a07128a9cfcb894e6ca2f5cf5b7742bd6929a9c48e9912b60adb631bfb00",
+			"repository": "https://github.com/oiltea94/npp-yaml-properties/releases/download/v0.5.0/YamlProperties-0.5.0-x64-plugin-admin.zip",
+			"description": "Convert YAML and Java Properties in either direction. Supports selections, automatic format detection, optional key sorting and configurable new-tab or in-place output.",
+			"author": "OILTEA",
+			"homepage": "https://github.com/oiltea94/npp-yaml-properties"
 		}
 	]
 }
