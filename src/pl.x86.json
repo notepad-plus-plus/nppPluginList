@@ -2316,6 +2316,17 @@
 			"description": "Implementation of the Zen Coding method by Sergey Chikuyonok. Expand HTML, CSS, XML, XSLT and XSD from abbreviations\ntr#head1.header&gt;td*2 becomes &lt;tr id=\"head1\" class=\"header\"&gt;\n &lt;td&gt;&lt;/td&gt;\n &lt;td&gt;&lt;/td&gt;\n&lt;/tr&gt;\nUses the Python Script plugin.",
 			"author": "Dave Brotherstone",
 			"homepage": "https://github.com/bruderstein/ZenCoding-Python"
+		},
+		{
+			"folder-name": "NppFormatter",
+			"display-name": "NppFormatter",
+			"version": "0.1.0",
+			"npp-compatible-versions": "[8.9.6,]",
+			"id": "a9261893c314e5dfa1aeafa1d6b3fa8198317afe68a2d7dd83f029c387dfac95",
+			"repository": "https://github.com/oiltea94/npp-formatter/releases/download/v0.1.0/NppFormatter-0.1.0-x86-plugin-admin.zip",
+			"description": "Format documents with Prettier and project configuration. Supports Java via prettier-plugin-java. Requires separately installed Node.js and Prettier.",
+			"author": "OILTEA",
+			"homepage": "https://github.com/oiltea94/npp-formatter"
 		}
 	]
 }

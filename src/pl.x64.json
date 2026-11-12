@@ -2430,6 +2430,17 @@
 			"description": "[Requires .NET Framework 4.8.1]\r\n\r\nThis plugin renders Markdown files and Mermaid diagrams.\r\nMermaid diagrams must be enclosed in a mermaid code block.\r\n\r\nInitial rendering may take some time when the plugin starts.",
 			"author": "Lithe-Lab",
 			"homepage": "https://github.com/Lithe-Lab/MermaidViewerNpp"
+		},
+		{
+			"folder-name": "NppFormatter",
+			"display-name": "NppFormatter",
+			"version": "0.1.0",
+			"npp-compatible-versions": "[8.9.6,]",
+			"id": "005d2ab05e08d1976f813f548d8f634744b12ae52c027cd9130c23ca845f5a72",
+			"repository": "https://github.com/oiltea94/npp-formatter/releases/download/v0.1.0/NppFormatter-0.1.0-x64-plugin-admin.zip",
+			"description": "Format documents with Prettier and project configuration. Supports Java via prettier-plugin-java. Requires separately installed Node.js and Prettier.",
+			"author": "OILTEA",
+			"homepage": "https://github.com/oiltea94/npp-formatter"
 		}
 	]
 }
