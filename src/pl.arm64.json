@@ -706,6 +706,17 @@
 			"description": "Speed up your code editing! Enter an abbreviation (tag), press Alt + Enter, and expand the tag into a full code snippet. You can also wrap (surround) a selection e.g. with HTML tags.\r\n- More than 1000 preset tags: HTML (elements, attributes, BootStrap, Smarty, etc.), JavaScript (jQuery), CSS, PHP, SQL (MySQL, Eloquent ORM), etc.\r\n- Automatic or custom caret (cursor) positioning\r\n- Handling new lines, indents, etc.\r\n- Variables: clipboard content, current file name, custom date/time, etc.\r\n- Customizable tags in the plugin menu; assign tags to shortcuts\r\n- Customizable tags in the toolbar\r\n- Tag suggestions (similar tags)\r\n- Easy tag addition\r\n- Multiselect support\r\n- Unicode support\r\n- Over 17 years with Notepad++, now in 64-bit version!",
 			"author": "Alexander Iljin",
 			"homepage": "https://github.com/Krazal/WebEdit"
+		},
+		{
+			"folder-name": "NppFormatter",
+			"display-name": "NppFormatter",
+			"version": "0.4.0",
+			"npp-compatible-versions": "[8.9.6,]",
+			"id": "fff4acb05ca54084978c0f6fbabc98ac2fdaef47540812a9b3c13e858e40c909",
+			"repository": "https://github.com/oiltea94/npp-formatter/releases/download/v0.4.0/NppFormatter-0.4.0-arm64-plugin-admin.zip",
+			"description": "Format with Prettier, Python with Ruff, or C/C++ with clang-format and project configuration. Optional Java, XML, PHP, SQL, Properties, TOML and Shell packages. Includes environment checks. Install clang-format for C/C++, Ruff for Python, or Node.js, Prettier and optional packages for Prettier languages.",
+			"author": "OILTEA",
+			"homepage": "https://github.com/oiltea94/npp-formatter"
 		}
 	]
 }
