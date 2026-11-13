@@ -710,11 +710,11 @@
 		{
 			"folder-name": "NppFormatter",
 			"display-name": "NppFormatter",
-			"version": "0.3.0",
+			"version": "0.4.0",
 			"npp-compatible-versions": "[8.9.6,]",
-			"id": "84e0402570de0833f8eed7f79fe7193f2d993e998ad2782b2cfd86452f146f2c",
-			"repository": "https://github.com/oiltea94/npp-formatter/releases/download/v0.3.0/NppFormatter-0.3.0-arm64-plugin-admin.zip",
-			"description": "Format documents with Prettier or Python with Ruff and project configuration. Optional Java, XML, PHP, SQL, Properties, TOML and Shell packages. Includes environment checks. Install Ruff for Python; install Node.js, Prettier and optional packages for Prettier languages.",
+			"id": "fff4acb05ca54084978c0f6fbabc98ac2fdaef47540812a9b3c13e858e40c909",
+			"repository": "https://github.com/oiltea94/npp-formatter/releases/download/v0.4.0/NppFormatter-0.4.0-arm64-plugin-admin.zip",
+			"description": "Format with Prettier, Python with Ruff, or C/C++ with clang-format and project configuration. Optional Java, XML, PHP, SQL, Properties, TOML and Shell packages. Includes environment checks. Install clang-format for C/C++, Ruff for Python, or Node.js, Prettier and optional packages for Prettier languages.",
 			"author": "OILTEA",
 			"homepage": "https://github.com/oiltea94/npp-formatter"
 		}
