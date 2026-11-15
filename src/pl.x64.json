@@ -2295,10 +2295,10 @@
 		{
 			"folder-name": "TroiaLens",
 			"display-name": "TroiaLens",
-			"version": "0.1.4.4",
+			"version": "0.1.4.5",
 			"npp-compatible-versions": "[8.4,]",
-			"id": "9cd625aec97bcf6b826a08eb858d7fa589e16077ce6f575e36104e4232167db8",
-			"repository": "https://github.com/ufukt51/TroiaLensPlugin/releases/download/v0.1.4.4/TroiaLens-0.1.4.4-x64.zip",
+			"id": "1848a52010185a86ae86e6c407bbde87a234542d0e5445edd2c5292aff4b54eb",
+			"repository": "https://github.com/ufukt51/TroiaLensPlugin/releases/download/v0.1.4.5/TroiaLens-0.1.4.5-x64.zip",
 			"description": "[Requires .NET Framework 4.8 and Microsoft Edge WebView2 Runtime]\r\nAnalyzes Canias ERP Troia code execution trace files in a docked panel: summary, call tree, SQL analysis, repeated (N+1) calls, messages, errors and dump tables. Clicking a row moves the editor to that line. Adds syntax colouring for trace files.",
 			"author": "ufukt51",
 			"homepage": "https://github.com/ufukt51/TroiaLensPlugin"
