@@ -359,11 +359,11 @@
 		{
 			"folder-name": "CSScriptNpp",
 			"display-name": "CS-Script - C# Intellisense",
-			"version": "2.0.13.0",
+			"version": "2.0.14.0",
 			"npp-compatible-versions": "[8.3,]",
 			"old-versions-compatibility": "[,1.7.26][,8.2.1]",
-			"id": "ebfe340089468fc9c71f0ec0c0bcae79820cad40584747929d83f194512023b3",
-			"repository": "https://github.com/oleg-shilo/cs-script.npp/releases/download/v2.0.13.0/CSScriptNpp.2.0.13.0.x64.zip",
+			"id": "cf3e043445109998a0639d04b41166d744f72c788a628a5e29719b6f5aa30bba",
+			"repository": "https://github.com/oleg-shilo/cs-script.npp/releases/download/v2.0.14.0/CSScriptNpp.2.0.14.0.x64.zip",
 			"description": "CS-Script integration. Implements a real C# Intellisense solution based on CS-Script and Roslyn. Allows loading, executing modifying and debugging C# scripts in a way very similar to the Visual Studio C# projects support. This includes referencing assemblies and other scripts, code formatting, adding missing namespaces and intercepting Debug and Console output.",
 			"author": "Oleg Shilo",
 			"homepage": "https://github.com/oleg-shilo/cs-script.npp"
@@ -706,9 +706,9 @@
 		{
 			"folder-name": "NppGdiEmoji",
 			"display-name": "GDI Emoji",
-			"version": "0.1.1.0",
-			"id": "6d77f308265b6b1bc4f013936fa917396a036fdd93198342045cffeac92d14c4",
-			"repository": "https://github.com/seantw/NppGdiEmoji/releases/download/v0.1.1/NppGdiEmoji-0.1.1-x64.zip",
+			"version": "0.2.0.0",
+			"id": "caf5cc935d050107c336239dff6929fd99ef35d8e2e1042ecf8a0b2f8790da2b",
+			"repository": "https://github.com/seantw/NppGdiEmoji/releases/download/v0.2.0/NppGdiEmoji-0.2.0-x64.zip",
 			"description": "Displays supported color emoji in UTF-8 documents when Notepad++ uses GDI rendering mode.",
 			"author": "Sean Lin",
 			"homepage": "https://github.com/seantw/NppGdiEmoji"
@@ -1790,10 +1790,10 @@
 		{
 			"folder-name": "PlantUmlViewer",
 			"display-name": "PlantUML Viewer",
-			"version": "1.9.0.13",
+			"version": "1.10.0.14",
 			"npp-compatible-versions": "[8.3,]",
-			"id": "ec59705861f3715531d22f9f836e55a807709e038bb7cb8afc9f28875bc267cf",
-			"repository": "https://github.com/Fruchtzwerg94/PlantUmlViewer/releases/download/1.9.0.13/PlantUmlViewer_v1.9.0.13_x64.zip",
+			"id": "9fdc56bb667603bd60238354412c9f94847b142bda632f040f1a3f0b7e600090",
+			"repository": "https://github.com/Fruchtzwerg94/PlantUmlViewer/releases/download/1.10.0.14/PlantUmlViewer_v1.10.0.14_x64.zip",
 			"description": "A Notepad++ plugin to generate view and export PlantUML diagrams.",
 			"author": "Philipp Schmidt",
 			"homepage": "https://github.com/Fruchtzwerg94/PlantUmlViewer"
@@ -2295,10 +2295,10 @@
 		{
 			"folder-name": "TroiaLens",
 			"display-name": "TroiaLens",
-			"version": "0.1.4.4",
+			"version": "0.1.4.5",
 			"npp-compatible-versions": "[8.4,]",
-			"id": "9cd625aec97bcf6b826a08eb858d7fa589e16077ce6f575e36104e4232167db8",
-			"repository": "https://github.com/ufukt51/TroiaLensPlugin/releases/download/v0.1.4.4/TroiaLens-0.1.4.4-x64.zip",
+			"id": "1848a52010185a86ae86e6c407bbde87a234542d0e5445edd2c5292aff4b54eb",
+			"repository": "https://github.com/ufukt51/TroiaLensPlugin/releases/download/v0.1.4.5/TroiaLens-0.1.4.5-x64.zip",
 			"description": "[Requires .NET Framework 4.8 and Microsoft Edge WebView2 Runtime]\r\nAnalyzes Canias ERP Troia code execution trace files in a docked panel: summary, call tree, SQL analysis, repeated (N+1) calls, messages, errors and dump tables. Clicking a row moves the editor to that line. Adds syntax colouring for trace files.",
 			"author": "ufukt51",
 			"homepage": "https://github.com/ufukt51/TroiaLensPlugin"
@@ -2441,6 +2441,17 @@
 			"description": "Format with Prettier, Python with Ruff, or C/C++ with clang-format and project configuration. Optional Java, XML, PHP, SQL, Properties, TOML and Shell packages. Includes environment checks. Install clang-format for C/C++, Ruff for Python, or Node.js, Prettier and optional packages for Prettier languages.",
 			"author": "OILTEA",
 			"homepage": "https://github.com/oiltea94/npp-formatter"
+    },
+		{
+			"folder-name": "YamlProperties",
+			"display-name": "YamlProperties",
+			"version": "0.5.0",
+			"npp-compatible-versions": "[8.9.6.4,]",
+			"id": "7418a07128a9cfcb894e6ca2f5cf5b7742bd6929a9c48e9912b60adb631bfb00",
+			"repository": "https://github.com/oiltea94/npp-yaml-properties/releases/download/v0.5.0/YamlProperties-0.5.0-x64-plugin-admin.zip",
+			"description": "Convert YAML and Java Properties in either direction. Supports selections, automatic format detection, optional key sorting and configurable new-tab or in-place output.",
+			"author": "OILTEA",
+			"homepage": "https://github.com/oiltea94/npp-yaml-properties"
 		}
 	]
 }
