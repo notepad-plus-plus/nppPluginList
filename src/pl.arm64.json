@@ -708,6 +708,17 @@
 			"homepage": "https://github.com/Krazal/WebEdit"
 		},
 		{
+			"folder-name": "NppFormatter",
+			"display-name": "NppFormatter",
+			"version": "0.4.0",
+			"npp-compatible-versions": "[8.9.6,]",
+			"id": "fff4acb05ca54084978c0f6fbabc98ac2fdaef47540812a9b3c13e858e40c909",
+			"repository": "https://github.com/oiltea94/npp-formatter/releases/download/v0.4.0/NppFormatter-0.4.0-arm64-plugin-admin.zip",
+			"description": "Format with Prettier, Python with Ruff, or C/C++ with clang-format and project configuration. Optional Java, XML, PHP, SQL, Properties, TOML and Shell packages. Includes environment checks. Install clang-format for C/C++, Ruff for Python, or Node.js, Prettier and optional packages for Prettier languages.",
+			"author": "OILTEA",
+			"homepage": "https://github.com/oiltea94/npp-formatter"
+    	},
+		{
 			"folder-name": "YamlProperties",
 			"display-name": "YamlProperties",
 			"version": "0.5.0",
