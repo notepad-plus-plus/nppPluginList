@@ -997,6 +997,17 @@
 			"homepage": "https://github.com/dail8859/LuaScript"
 		},
 		{
+			"folder-name": "MahiMarkD++",
+			"display-name": "MahiMarkD++",
+			"version": "0.1.0",
+			"npp-compatible-versions": "[8.4.1,]",
+			"id": "6a949ba2c47102b69730d94120b5454d1cc8bb619a14f892d3f2b35bbd400f7e",
+			"repository": "https://github.com/Mahiron-hq/MahiMarkD-PlusPlus/releases/download/v0.1.0/MahiMarkD-PlusPlus-0.1.0-x86.zip",
+			"description": "[Requires Microsoft Edge WebView2 Runtime]\r\nFast Markdown preview in a docked panel with incremental rendering for large files. GitHub Flavored Markdown, code highlighting with copy buttons, KaTeX math, two-way scroll sync, click to source, table of contents, find in preview, export to HTML, PDF and DOCX, light, dark and editor-matched themes.",
+			"author": "Lev Burmistrov (Mahiron-hq)",
+			"homepage": "https://github.com/Mahiron-hq/MahiMarkD-PlusPlus"
+		},
+		{
 			"folder-name": "NppMarkdownPanel",
 			"display-name": "Markdown Panel",
 			"version": "0.9.3",
