@@ -706,9 +706,9 @@
 		{
 			"folder-name": "NppGdiEmoji",
 			"display-name": "GDI Emoji",
-			"version": "0.3.0.0",
-			"id": "82c97542c105c246f869e08a3f3afb993a63de41b640a3e28fed3d2370f6e812",
-			"repository": "https://github.com/seantw/NppGdiEmoji/releases/download/v0.3.0/NppGdiEmoji-0.3.0-x64.zip",
+			"version": "0.3.0.1",
+			"id": "056f761d623d7a1c7baf5ada0e336cd01853f97f624b397f6b846cfced6c6c56",
+			"repository": "https://github.com/seantw/NppGdiEmoji/releases/download/v0.3.1/NppGdiEmoji-0.3.1-x64.zip",
 			"description": "Displays supported color emoji in UTF-8 documents when Notepad++ uses GDI rendering mode.",
 			"author": "Sean Lin",
 			"homepage": "https://github.com/seantw/NppGdiEmoji"
