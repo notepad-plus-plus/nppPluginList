@@ -2452,6 +2452,18 @@
 			"description": "Convert YAML and Java Properties in either direction. Supports selections, automatic format detection, optional key sorting and configurable new-tab or in-place output.",
 			"author": "OILTEA",
 			"homepage": "https://github.com/oiltea94/npp-yaml-properties"
-		}
+		},
+		{
+			"folder-name": "JsonStringConverter",
+			"display-name": "JSON String Converter",
+			"version": "1.0.0.0",
+			"npp-compatible-versions": "[8.0,]",
+			"id": "92229735a5efdb06f736bde3921b0a709c065b55955e0b58905811907f2cf266",
+			"repository": "https://github.com/meysam-mahdavirad/JsonStringConverter/releases/download/v1.0.0.0/JsonStringConverter_v1.0.0.0_x64.zip",
+			"description": "Converts an escaped JSON string (e.g. \"{\\\"a\\\":1}\") into formatted JSON. Handles strings with or without surrounding quotes and double-escaped strings. Also pretty-prints, minifies and escapes JSON. Works on the selection or the whole document. Shortcut: Ctrl+Alt+Shift+J.",
+			"author": "Meysam Mahdavirad",
+			"homepage": "https://github.com/meysam-mahdavirad/JsonStringConverter"
+		},
+		
 	]
 }
