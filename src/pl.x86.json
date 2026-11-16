@@ -1039,6 +1039,16 @@
 			"homepage": "https://nea.github.io/MarkdownViewerPlusPlus/"
 		},
 		{
+			"folder-name": "mdnotepad",
+			"display-name": "MD Notepad",
+			"version": "1.0.1",
+			"id": "2abf7c18c183ab50aaaf671fec325731ef77d8fc7a742a124c2d34bbae8831fb",
+			"repository": "https://github.com/aideakit/mdnotepad/releases/download/v1.0.1/mdnotepad-1.0.1-x86-plugins-admin.zip",
+			"description": "Markdown preview panel next to the editor: GitHub style, Mermaid diagrams, dark theme, PDF export. Text can be edited in the preview too; the change goes into the Markdown source. Uses the Microsoft Edge WebView2 Runtime that is part of Windows 10/11.",
+			"author": "aideakit",
+			"homepage": "https://github.com/aideakit/mdnotepad"
+		},
+		{
 			"folder-name": "MenuIcons",
 			"display-name": "MenuIcons",
 			"version": "2.0.7",
