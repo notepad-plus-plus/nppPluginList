@@ -268,6 +268,17 @@
 			"homepage": "https://github.com/Gvo87/NotepadPlusPlus-LLM-Plugin"
 		},
 		{
+			"folder-name": "MahiMarkD++",
+			"display-name": "MahiMarkD++",
+			"version": "0.1.0",
+			"npp-compatible-versions": "[8.4.1,]",
+			"id": "327752066512d4cb9bb734ce3217242f4f1ba81f1ce19c917cfe5757039e71a5",
+			"repository": "https://github.com/Mahiron-hq/MahiMarkD-PlusPlus/releases/download/v0.1.0/MahiMarkD-PlusPlus-0.1.0-arm64.zip",
+			"description": "[Requires Microsoft Edge WebView2 Runtime]\r\nFast Markdown preview in a docked panel with incremental rendering for large files. GitHub Flavored Markdown, code highlighting with copy buttons, KaTeX math, two-way scroll sync, click to source, table of contents, find in preview, export to HTML, PDF and DOCX, light, dark and editor-matched themes.",
+			"author": "Lev Burmistrov (Mahiron-hq)",
+			"homepage": "https://github.com/Mahiron-hq/MahiMarkD-PlusPlus"
+		},
+		{
 			"folder-name": "MarkdownTableEditor",
 			"display-name": "Markdown Table Editor",
 			"version": "11.2.0",
