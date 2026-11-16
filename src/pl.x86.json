@@ -2349,6 +2349,6 @@
 			"description": "Converts an escaped JSON string (e.g. \"{\\\"a\\\":1}\") into formatted JSON. Handles strings with or without surrounding quotes and double-escaped strings. Also pretty-prints, minifies and escapes JSON. Works on the selection or the whole document. Shortcut: Ctrl+Alt+Shift+J.",
 			"author": "Meysam Mahdavirad",
 			"homepage": "https://github.com/meysam-mahdavirad/JsonStringConverter"
-		},
+		}
 	]
 }
