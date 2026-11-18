@@ -1799,6 +1799,17 @@
 			"homepage": "https://github.com/blu3mania/npp-papyrus"
 		},
 		{
+			"folder-name": "PipeHat",
+			"display-name": "PipeHat",
+			"version": "2.5.0",
+			"npp-compatible-versions": "[8.3,]",
+			"id": "0a9b87a6e550ed538d19f630560e9d4cfd8146e88ca74e907e7532ea11a96e29",
+			"repository": "https://github.com/iacsha/PipeHat-npp/releases/download/v2.5.0/PipeHat-v2.5.0-x64.zip",
+			"description": "HL7 v2.x message support. Syntax highlighting, hover tooltips with full field paths (PID-5.1), a dockable message tree down to subcomponents, structural validation, conformance profiles, compare views, pretty-print and PHI scrubbing. Optional MLLP send and listen, off by default and loopback-only unless enabled.",
+			"author": "Shawn Iachetta",
+			"homepage": "https://github.com/iacsha/PipeHat-npp"
+		},
+		{
 			"folder-name": "PlantUmlViewer",
 			"display-name": "PlantUML Viewer",
 			"version": "1.10.0.14",
