@@ -2349,6 +2349,17 @@
 			"description": "Convert YAML and Java Properties in either direction. Supports selections, automatic format detection, optional key sorting and configurable new-tab or in-place output.",
 			"author": "OILTEA",
 			"homepage": "https://github.com/oiltea94/npp-yaml-properties"
+		},
+		{
+			"folder-name": "YangTreeView",
+			"display-name": "YANG Tree View",
+			"version": "1.0.0",
+			"npp-compatible-versions": "[8.0,]",
+			"id": "94ac3bcfd207eeef56d894c4a7fedaaf0c3f3e13515d581805eedf5002a4f029",
+			"repository": "https://github.com/rogersacchelli/YangTreeView/releases/download/v1.0.0/YangTreeView-1.0.0-x86.zip",
+			"description": "Interactive, collapsible tree view of YANG modules (RFC 6020/7950) opened in your browser: containers, lists, choices, groupings inlined across imports and submodules, search, schema paths, types/keys/config badges. Also installs YANG syntax highlighting. Native DLL, no Python or other runtime needed.",
+			"author": "Roger Sacchelli",
+			"homepage": "https://github.com/rogersacchelli/YangTreeView"
 		}
 	]
 }
