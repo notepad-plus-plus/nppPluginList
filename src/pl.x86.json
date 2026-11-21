@@ -1040,16 +1040,6 @@
 			"homepage": "https://github.com/rhyots/Markdown_with_Mermaid"
 		},
 		{
-			"folder-name": "MarkdownViewerPlusPlus",
-			"display-name": "MarkdownViewer++",
-			"version": "0.8.2",
-			"id": "c62cce888f6a580c2e958480bd6bbed0e2c80f15ec1c422643650ed1eb1d0e3c",
-			"repository": "https://github.com/nea/MarkdownViewerPlusPlus/releases/download/0.8.2/MarkdownViewerPlusPlus-0.8.2-x86.zip",
-			"description": "View Markdown/CommonMark compliant text files rendered on-the-fly directly in Notepad++ in a docked panel.\r\nExport the rendered result as HTML or PDF and configure the file extensions to be rendered.",
-			"author": "nea",
-			"homepage": "https://nea.github.io/MarkdownViewerPlusPlus/"
-		},
-		{
 			"folder-name": "MenuIcons",
 			"display-name": "MenuIcons",
 			"version": "2.0.7",
