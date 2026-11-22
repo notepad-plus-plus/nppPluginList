@@ -1109,16 +1109,6 @@
 			"homepage": "https://github.com/rsalinger/NotepadPlusPlus-Markdown"
 		},
 		{
-			"folder-name": "MarkdownViewerPlusPlus",
-			"display-name": "MarkdownViewer++",
-			"version": "0.8.2",
-			"id": "e343c52798d76ef91bba41821088cc3e199d475c7124571881b560b6a3ec4693",
-			"repository": "https://github.com/nea/MarkdownViewerPlusPlus/releases/download/0.8.2/MarkdownViewerPlusPlus-0.8.2-x64.zip",
-			"description": "View Markdown/CommonMark compliant text files rendered on-the-fly directly in Notepad++ in a docked panel.\r\nExport the rendered result as HTML or PDF and configure the file extensions to be rendered.",
-			"author": "nea",
-			"homepage": "https://nea.github.io/MarkdownViewerPlusPlus/"
-		},
-		{
 			"folder-name": "MarkLens",
 			"display-name": "MarkLens",
 			"version": "0.1.2",
