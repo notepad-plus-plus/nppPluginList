@@ -2329,6 +2329,17 @@
 			"description": "Convert YAML and Java Properties in either direction. Supports selections, automatic format detection, optional key sorting and configurable new-tab or in-place output.",
 			"author": "OILTEA",
 			"homepage": "https://github.com/oiltea94/npp-yaml-properties"
+		},
+		{
+			"folder-name": "mdviewer",
+			"display-name": "mdviewer",
+			"version": "0.1.0.0",
+			"npp-compatible-versions": "[7.7,]",
+			"id": "becd6c9f5115d015e70970367754c9d03688b347649df5f59ca1a1dbe51fe3db",
+			"repository": "https://github.com/knico/mdviewer/releases/download/v0.1.0/mdviewer-0.1.0.0-x86.zip",
+			"description": "[Requires Microsoft Edge WebView2 Runtime]\r\nOffline Markdown preview in a docked panel with CommonMark/GFM tables, task lists, footnotes, syntax highlighting, KaTeX math and Mermaid diagrams. Bundled assets do not require a CDN.",
+			"author": "knico",
+			"homepage": "https://github.com/knico/mdviewer"
 		}
 	]
 }
