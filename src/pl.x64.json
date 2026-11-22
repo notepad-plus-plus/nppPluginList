@@ -910,9 +910,9 @@
 		{
 			"folder-name": "NPPJSONViewer",
 			"display-name": "JSON Viewer",
-			"version": "2.2.0.0",
-			"id": "86573e79adc2aba3e4e07d73cd085641275f8b4eb20cc68519961f9a9bfee273",
-			"repository": "https://github.com/NPP-JSONViewer/JSON-Viewer/releases/download/v2.2.0.0/NppJSONViewer_x64_Release.zip",
+			"version": "2.2.1.0",
+			"id": "254ff8a225d09dca94694f7f20d12c431f62dd9b2add83f9356fc0fb089b1426",
+			"repository": "https://github.com/NPP-JSONViewer/JSON-Viewer/releases/download/v2.2.1.0/NppJSONViewer_x64_Release.zip",
 			"description": "JSON viewer that displays the selected JSON string in a tree view.",
 			"author": "Kapil Ratnani, Rajendra Singh",
 			"homepage": "https://github.com/NPP-JSONViewer/JSON-Viewer",
