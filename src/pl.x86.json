@@ -253,16 +253,6 @@
 			"homepage": "https://sourceforge.net/projects/kered13-notepad-plugins/"
 		},
 		{
-			"folder-name": "ComparePlugin",
-			"display-name": "Compare",
-			"version": "2.0.2",
-			"id": "ea2f4cd6627c1b902f700a43b03b38f725e67136c8ce00ac3620ecc03417332a",
-			"repository": "https://github.com/pnedev/compare-plugin/releases/download/v2.0.2/ComparePlugin_v2.0.2_x86.zip",
-			"description": "Shows the differences between 2 files (side by side).",
-			"author": "Ty Landercasper, Jean-Sebastien Leroy, Pavel Nedev",
-			"homepage": "https://github.com/pnedev/compare-plugin"
-		},
-		{
 			"folder-name": "ComparePlus",
 			"display-name": "ComparePlus",
 			"version": "3.0.0",
@@ -855,9 +845,9 @@
 		{
 			"folder-name": "NPPJSONViewer",
 			"display-name": "JSON Viewer",
-			"version": "2.2.0.0",
-			"id": "47884e434c1cb16246b025a6bc86d12d1748afc2cc013595a370e07c09b33e5e",
-			"repository": "https://github.com/NPP-JSONViewer/JSON-Viewer/releases/download/v2.2.0.0/NppJSONViewer_Win32_Release.zip",
+			"version": "2.2.1.0",
+			"id": "65bc9a8b29045622c693fd0861dd179aba7cdd13ea03f0d066f92f136cd8468d",
+			"repository": "https://github.com/NPP-JSONViewer/JSON-Viewer/releases/download/v2.2.1.0/NppJSONViewer_Win32_Release.zip",
 			"description": "JSON viewer that displays the selected JSON string in a tree view.",
 			"author": "Kapil Ratnani, Rajendra Singh",
 			"homepage": "https://github.com/NPP-JSONViewer/JSON-Viewer",
@@ -1038,16 +1028,6 @@
 			"description": "[Requires Microsoft Edge WebView2 Runtime]\r\nLive Markdown preview with offline Mermaid diagrams, automatic opening for Markdown files, synchronized scrolling, navigation, light/dark themes and document zoom. Copy formatted content or export the document or selection to HTML, PDF and DOCX.",
 			"author": "Artyom Nikiforov (rhyots)",
 			"homepage": "https://github.com/rhyots/Markdown_with_Mermaid"
-		},
-		{
-			"folder-name": "MarkdownViewerPlusPlus",
-			"display-name": "MarkdownViewer++",
-			"version": "0.8.2",
-			"id": "c62cce888f6a580c2e958480bd6bbed0e2c80f15ec1c422643650ed1eb1d0e3c",
-			"repository": "https://github.com/nea/MarkdownViewerPlusPlus/releases/download/0.8.2/MarkdownViewerPlusPlus-0.8.2-x86.zip",
-			"description": "View Markdown/CommonMark compliant text files rendered on-the-fly directly in Notepad++ in a docked panel.\r\nExport the rendered result as HTML or PDF and configure the file extensions to be rendered.",
-			"author": "nea",
-			"homepage": "https://nea.github.io/MarkdownViewerPlusPlus/"
 		},
 		{
 			"folder-name": "MenuIcons",

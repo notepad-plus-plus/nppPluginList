@@ -312,18 +312,6 @@
 			"homepage": "https://sourceforge.net/projects/kered13-notepad-plugins/"
 		},
 		{
-			"folder-name": "ComparePlugin",
-			"display-name": "Compare",
-			"version": "2.0.2",
-			"npp-compatible-versions": "[8.3,]",
-			"old-versions-compatibility": "[,2.0.1][7.7,8.2.1]",
-			"id": "4151fbc9778047991cf4b900363d846bda5b0d1783e5fed9eb77e4c8253ba315",
-			"repository": "https://github.com/pnedev/compare-plugin/releases/download/v2.0.2/ComparePlugin_v2.0.2_X64.zip",
-			"description": "Shows the differences between 2 files (side by side).",
-			"author": "Ty Landercasper, Jean-Sebastien Leroy, Pavel Nedev",
-			"homepage": "https://github.com/pnedev/compare-plugin"
-		},
-		{
 			"folder-name": "ComparePlus",
 			"display-name": "ComparePlus",
 			"version": "3.0.0",
@@ -910,9 +898,9 @@
 		{
 			"folder-name": "NPPJSONViewer",
 			"display-name": "JSON Viewer",
-			"version": "2.2.0.0",
-			"id": "86573e79adc2aba3e4e07d73cd085641275f8b4eb20cc68519961f9a9bfee273",
-			"repository": "https://github.com/NPP-JSONViewer/JSON-Viewer/releases/download/v2.2.0.0/NppJSONViewer_x64_Release.zip",
+			"version": "2.2.1.0",
+			"id": "254ff8a225d09dca94694f7f20d12c431f62dd9b2add83f9356fc0fb089b1426",
+			"repository": "https://github.com/NPP-JSONViewer/JSON-Viewer/releases/download/v2.2.1.0/NppJSONViewer_x64_Release.zip",
 			"description": "JSON viewer that displays the selected JSON string in a tree view.",
 			"author": "Kapil Ratnani, Rajendra Singh",
 			"homepage": "https://github.com/NPP-JSONViewer/JSON-Viewer",
@@ -1107,16 +1095,6 @@
 			"description": "Markdown preview and reading mode for Notepad++. A live preview panel docks next to the editor, and reading mode renders the document in place of the editor. GitHub-flavored Markdown, syntax highlighting, Mermaid diagrams, scroll sync, and light/dark themes that follow Notepad++. Uses the Microsoft Edge WebView2 Runtime (built into Windows 11).",
 			"author": "Ryan Salinger",
 			"homepage": "https://github.com/rsalinger/NotepadPlusPlus-Markdown"
-		},
-		{
-			"folder-name": "MarkdownViewerPlusPlus",
-			"display-name": "MarkdownViewer++",
-			"version": "0.8.2",
-			"id": "e343c52798d76ef91bba41821088cc3e199d475c7124571881b560b6a3ec4693",
-			"repository": "https://github.com/nea/MarkdownViewerPlusPlus/releases/download/0.8.2/MarkdownViewerPlusPlus-0.8.2-x64.zip",
-			"description": "View Markdown/CommonMark compliant text files rendered on-the-fly directly in Notepad++ in a docked panel.\r\nExport the rendered result as HTML or PDF and configure the file extensions to be rendered.",
-			"author": "nea",
-			"homepage": "https://nea.github.io/MarkdownViewerPlusPlus/"
 		},
 		{
 			"folder-name": "MarkLens",
