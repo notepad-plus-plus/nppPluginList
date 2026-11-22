@@ -253,16 +253,6 @@
 			"homepage": "https://sourceforge.net/projects/kered13-notepad-plugins/"
 		},
 		{
-			"folder-name": "ComparePlugin",
-			"display-name": "Compare",
-			"version": "2.0.2",
-			"id": "ea2f4cd6627c1b902f700a43b03b38f725e67136c8ce00ac3620ecc03417332a",
-			"repository": "https://github.com/pnedev/compare-plugin/releases/download/v2.0.2/ComparePlugin_v2.0.2_x86.zip",
-			"description": "Shows the differences between 2 files (side by side).",
-			"author": "Ty Landercasper, Jean-Sebastien Leroy, Pavel Nedev",
-			"homepage": "https://github.com/pnedev/compare-plugin"
-		},
-		{
 			"folder-name": "ComparePlus",
 			"display-name": "ComparePlus",
 			"version": "3.0.0",
