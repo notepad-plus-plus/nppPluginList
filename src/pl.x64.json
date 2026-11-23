@@ -479,6 +479,17 @@
 			"homepage": "https://github.com/rdipardo/dbgpPlugin"
 		},
 		{
+			"folder-name": "deckcheck",
+			"display-name": "deckcheck",
+			"version": "0.2.0",
+			"npp-compatible-versions": "[8.9,]",
+			"id": "0f46940de5f5c8a8082767bc1d5b185f3b9c392b5c35fa265c8f014f2980502f",
+			"repository": "https://github.com/chintan-dshel/deckcheck/releases/download/v0.2.0/deckcheck-npp-x64.zip",
+			"description": "Checks LS-DYNA keyword decks (.k, .key) for structural mistakes across the whole model and its includes: dangling references, duplicate ids, bad values, include problems. Squiggles on the field, a findings panel with jump to the field. The checking engine is bundled: no Python needed.",
+			"author": "Chintan Shelat",
+			"homepage": "https://github.com/chintan-dshel/deckcheck"
+		},
+		{
 			"folder-name": "DiscordRPC",
 			"display-name": "Discord Rich Presence",
 			"version": "2.1.711.1",
