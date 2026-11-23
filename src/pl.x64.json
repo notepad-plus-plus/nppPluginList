@@ -1714,6 +1714,17 @@
 			"homepage": "https://sites.google.com/view/nppvoiceplugin"
 		},
 		{
+			"folder-name": "NppXmlTree",
+			"display-name": "XML Tree",
+			"version": "1.0.1",
+			"npp-compatible-versions": "[8.0,]",
+			"id": "5ce6da56041d870e449327d49d30500840a0ff8074940f27417356eef0ae4bb7",
+			"repository": "https://github.com/FalcoNefasto/npp-xml-tree/releases/download/v1.0.1/NppXmlTree-x64.zip",
+			"description": "A tree panel for XML documents in Notepad++, replicating the XML tree workflow of FOXE. Elements and attributes on the left, kept in step with the text: click a row to jump to it, rename, delete, duplicate or add children and attributes from the tree (each edit a single Ctrl+Z), character references both ways, and a well-formedness check that lists what is not closed with its line number.",
+			"author": "FalcoNefasto",
+			"homepage": "https://github.com/FalcoNefasto/npp-xml-tree"
+		},
+		{
 			"folder-name": "NppZenHankaku",
 			"display-name": "NppZenHankaku",
 			"version": "1.0.0",
