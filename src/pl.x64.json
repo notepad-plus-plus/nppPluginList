@@ -1586,6 +1586,17 @@
 			"homepage": "https://github.com/jejemorg/NppPluginOpenHost/"
 		},
 		{
+			"folder-name": "NppPrintPreview",
+			"display-name": "NppPrintPreview",
+			"version": "1.0.1",
+			"npp-compatible-versions": "[8.0,]",
+			"id": "2489d62bb027e7ff89346741f097a8091b2c328aba48ae2e0170f19c896b3fc5",
+			"repository": "https://github.com/Denkikaiden/NppPrintPreview/releases/download/v1.0.1/NppPrintPreview_1.0.1_x64.zip",
+			"description": "Print preview for Notepad++. Opens when you choose Print in Notepad++ (can be turned off) and shows pages laid out exactly like Notepad++'s own Print (Ctrl+P), and lets you adjust the printer, paper, font, font size, colors and margins for printing without changing Notepad++'s settings. Also works together with MultiColumnPreview (MulCoPre).",
+			"author": "denkikaiden",
+			"homepage": "https://github.com/Denkikaiden/NppPrintPreview"
+		},
+		{
 			"folder-name": "NppQrCode64",
 			"display-name": "NppQrCode",
 			"version": "0.0.0.4",
