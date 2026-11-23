@@ -595,6 +595,17 @@
 			"homepage": "https://github.com/swhitley/erphelper"
 		},
 		{
+			"folder-name": "exec++",
+			"display-name": "exec++",
+			"version": "0.5.0",
+			"npp-compatible-versions": "[8.9.9,]",
+			"id": "dbe5a2d843193bb423512ca941e2825fc9bf51e9c7f46d10fbabc6ce4124809f",
+			"repository": "https://github.com/fernandocpaz/exec-/releases/download/v0.5.0/exec-plus-plus-v0.5.0-plugins-admin-x64.zip",
+			"description": "Run selected text in Windows PowerShell, PowerShell 7, Command Prompt, or WSL Bash. Shows live output, exit codes, command-labeled run history, and automatically formatted JSON in a docked pane.",
+			"author": "fernandocpaz",
+			"homepage": "https://github.com/fernandocpaz/exec-"
+		},
+		{
 			"folder-name": "Explorer",
 			"display-name": "Explorer",
 			"version": "1.9.9.0",
