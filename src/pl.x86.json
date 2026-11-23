@@ -253,16 +253,6 @@
 			"homepage": "https://sourceforge.net/projects/kered13-notepad-plugins/"
 		},
 		{
-			"folder-name": "ComparePlugin",
-			"display-name": "Compare",
-			"version": "2.0.2",
-			"id": "ea2f4cd6627c1b902f700a43b03b38f725e67136c8ce00ac3620ecc03417332a",
-			"repository": "https://github.com/pnedev/compare-plugin/releases/download/v2.0.2/ComparePlugin_v2.0.2_x86.zip",
-			"description": "Shows the differences between 2 files (side by side).",
-			"author": "Ty Landercasper, Jean-Sebastien Leroy, Pavel Nedev",
-			"homepage": "https://github.com/pnedev/compare-plugin"
-		},
-		{
 			"folder-name": "ComparePlus",
 			"display-name": "ComparePlus",
 			"version": "3.0.0",
@@ -855,9 +845,9 @@
 		{
 			"folder-name": "NPPJSONViewer",
 			"display-name": "JSON Viewer",
-			"version": "2.2.0.0",
-			"id": "47884e434c1cb16246b025a6bc86d12d1748afc2cc013595a370e07c09b33e5e",
-			"repository": "https://github.com/NPP-JSONViewer/JSON-Viewer/releases/download/v2.2.0.0/NppJSONViewer_Win32_Release.zip",
+			"version": "2.2.1.0",
+			"id": "65bc9a8b29045622c693fd0861dd179aba7cdd13ea03f0d066f92f136cd8468d",
+			"repository": "https://github.com/NPP-JSONViewer/JSON-Viewer/releases/download/v2.2.1.0/NppJSONViewer_Win32_Release.zip",
 			"description": "JSON viewer that displays the selected JSON string in a tree view.",
 			"author": "Kapil Ratnani, Rajendra Singh",
 			"homepage": "https://github.com/NPP-JSONViewer/JSON-Viewer",
@@ -997,6 +987,17 @@
 			"homepage": "https://github.com/dail8859/LuaScript"
 		},
 		{
+			"folder-name": "MahiMarkD++",
+			"display-name": "MahiMarkD++",
+			"version": "0.1.0",
+			"npp-compatible-versions": "[8.4.1,]",
+			"id": "6a949ba2c47102b69730d94120b5454d1cc8bb619a14f892d3f2b35bbd400f7e",
+			"repository": "https://github.com/Mahiron-hq/MahiMarkD-PlusPlus/releases/download/v0.1.0/MahiMarkD-PlusPlus-0.1.0-x86.zip",
+			"description": "[Requires Microsoft Edge WebView2 Runtime]\r\nFast Markdown preview in a docked panel with incremental rendering for large files. GitHub Flavored Markdown, code highlighting with copy buttons, KaTeX math, two-way scroll sync, click to source, table of contents, find in preview, export to HTML, PDF and DOCX, light, dark and editor-matched themes.",
+			"author": "Lev Burmistrov (Mahiron-hq)",
+			"homepage": "https://github.com/Mahiron-hq/MahiMarkD-PlusPlus"
+		},
+		{
 			"folder-name": "NppMarkdownPanel",
 			"display-name": "Markdown Panel",
 			"version": "0.9.3",
@@ -1027,16 +1028,6 @@
 			"description": "[Requires Microsoft Edge WebView2 Runtime]\r\nLive Markdown preview with offline Mermaid diagrams, automatic opening for Markdown files, synchronized scrolling, navigation, light/dark themes and document zoom. Copy formatted content or export the document or selection to HTML, PDF and DOCX.",
 			"author": "Artyom Nikiforov (rhyots)",
 			"homepage": "https://github.com/rhyots/Markdown_with_Mermaid"
-		},
-		{
-			"folder-name": "MarkdownViewerPlusPlus",
-			"display-name": "MarkdownViewer++",
-			"version": "0.8.2",
-			"id": "c62cce888f6a580c2e958480bd6bbed0e2c80f15ec1c422643650ed1eb1d0e3c",
-			"repository": "https://github.com/nea/MarkdownViewerPlusPlus/releases/download/0.8.2/MarkdownViewerPlusPlus-0.8.2-x86.zip",
-			"description": "View Markdown/CommonMark compliant text files rendered on-the-fly directly in Notepad++ in a docked panel.\r\nExport the rendered result as HTML or PDF and configure the file extensions to be rendered.",
-			"author": "nea",
-			"homepage": "https://nea.github.io/MarkdownViewerPlusPlus/"
 		},
 		{
 			"folder-name": "MenuIcons",
@@ -2017,10 +2008,10 @@
 		{
 			"folder-name": "SQLinFormNpp",
 			"display-name": "SQLinForm",
-			"version": "26.4.7.1",
-			"id": "1091c032ed247f2215dcf7adb2f670b8760fdd6a6cc6b306d38f3d2fa7250f88",
-			"repository": "https://www.sqlinform.com/npp/SQLinFormNpp_26.4.7.zip",
-			"description": "Formats plain SQL, SQL embedded in program code, SQL snippets, and SQL statements with syntax errors.\r\nHas a powerful code folding feature and formats your SQL as you Type. Supports all major DB like Oracle, DB2, SQL Server, Teradata, Netezza, MySQL, Sybase, MS Access, etc. Incorporates its own multi-DB parser engine. No additional software required.",
+			"version": "26.11.22.1",
+			"id": "3c3ce58ac2109144506dd89994faaebbb1a7a0442c64563f0efc22d455c51c3c",
+            "repository": "https://www.sqlinform.com/npp/SQLinFormNpp_261122.zip",
+			"description": "Formats and Analyzes plain SQL, SQL embedded in program code, SQL snippets, and SQL statements with syntax errors.\r\nHas a powerful code folding feature and formats your SQL as you Type. Supports all major DB like Oracle, DB2, SQL Server, Teradata, Netezza, MySQL, Sybase, MS Access, etc. Incorporates its own multi-DB parser engine. No additional software required.",
 			"author": "Guido Thelen",
 			"homepage": "https://www.sqlinform.com"
 		},
@@ -2349,6 +2340,17 @@
 			"description": "Converts an escaped JSON string (e.g. \"{\\\"a\\\":1}\") into formatted JSON. Handles strings with or without surrounding quotes and double-escaped strings. Also pretty-prints, minifies and escapes JSON. Works on the selection or the whole document. Shortcut: Ctrl+Alt+Shift+J.",
 			"author": "Meysam Mahdavirad",
 			"homepage": "https://github.com/meysam-mahdavirad/JsonStringConverter"
+ 		},
+		{
+			"folder-name": "YangTreeView",
+			"display-name": "YANG Tree View",
+			"version": "1.0.0",
+			"npp-compatible-versions": "[8.0,]",
+			"id": "94ac3bcfd207eeef56d894c4a7fedaaf0c3f3e13515d581805eedf5002a4f029",
+			"repository": "https://github.com/rogersacchelli/YangTreeView/releases/download/v1.0.0/YangTreeView-1.0.0-x86.zip",
+			"description": "Interactive, collapsible tree view of YANG modules (RFC 6020/7950) opened in your browser: containers, lists, choices, groupings inlined across imports and submodules, search, schema paths, types/keys/config badges. Also installs YANG syntax highlighting. Native DLL, no Python or other runtime needed.",
+			"author": "Roger Sacchelli",
+			"homepage": "https://github.com/rogersacchelli/YangTreeView"
 		}
 	]
 }
