@@ -2331,6 +2331,17 @@
 			"homepage": "https://github.com/oiltea94/npp-yaml-properties"
 		},
 		{
+			"folder-name": "JsonStringConverter",
+			"display-name": "JSON String Converter",
+			"version": "1.0.0.0",
+			"npp-compatible-versions": "[8.0,]",
+			"id": "60c212b7bd95900bc95fb645f94afb2d2944a1b8a9c29afd5cc21b87f166ae30",
+			"repository": "https://github.com/meysam-mahdavirad/JsonStringConverter/releases/download/v1.0.0.0/JsonStringConverter_v1.0.0.0_x86.zip",
+			"description": "Converts an escaped JSON string (e.g. \"{\\\"a\\\":1}\") into formatted JSON. Handles strings with or without surrounding quotes and double-escaped strings. Also pretty-prints, minifies and escapes JSON. Works on the selection or the whole document. Shortcut: Ctrl+Alt+Shift+J.",
+			"author": "Meysam Mahdavirad",
+			"homepage": "https://github.com/meysam-mahdavirad/JsonStringConverter"
+ 		},
+		{
 			"folder-name": "YangTreeView",
 			"display-name": "YANG Tree View",
 			"version": "1.0.0",
