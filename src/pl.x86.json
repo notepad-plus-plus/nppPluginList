@@ -2361,6 +2361,17 @@
 			"description": "Interactive, collapsible tree view of YANG modules (RFC 6020/7950) opened in your browser: containers, lists, choices, groupings inlined across imports and submodules, search, schema paths, types/keys/config badges. Also installs YANG syntax highlighting. Native DLL, no Python or other runtime needed.",
 			"author": "Roger Sacchelli",
 			"homepage": "https://github.com/rogersacchelli/YangTreeView"
+		},
+		{
+			"folder-name": "NppXmlTree",
+			"display-name": "XML Tree",
+			"version": "1.1.0",
+			"npp-compatible-versions": "[8.0,]",
+			"id": "71136bd414daa47d3ed9aadeff17b8311f520ef063aec240f4db1cf0921a8ae9",
+			"repository": "https://github.com/FalcoNefasto/npp-xml-tree/releases/download/v1.1.0/NppXmlTree-x86.zip",
+			"description": "A tree panel for XML documents in Notepad++, replicating the XML tree workflow of FOXE. Elements and attributes on the left, kept in step with the text: click a row to jump to it, rename, delete, duplicate or add children and attributes from the tree (each edit a single Ctrl+Z), character references both ways, and a well-formedness check that lists what is not closed with its line number.",
+			"author": "FalcoNefasto",
+			"homepage": "https://github.com/FalcoNefasto/npp-xml-tree"
 		}
 	]
 }
