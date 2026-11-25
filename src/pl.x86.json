@@ -978,11 +978,11 @@
 		{
 			"folder-name": "LogRAM.Npp",
 			"display-name": "LogRAM",
-			"version": "1.3.4",
+			"version": "1.5.0",
 			"npp-compatible-versions": "[8.9.8.1,]",
-			"id": "08ce5469d31ed46880c92902b74380dc183b595d49952d7eae63915475d4fac0",
-			"repository": "https://github.com/HBZHSN/LogRAM/releases/download/npp-1.3.4/LogRAM.Npp-1.3.4-x86-plugin-admin.zip",
-			"description": "Read-only large-log viewer with an in-memory SIMD/multicore search engine. Automatically opens .log files in a two-pane source/results workspace without loading the full log into the NPP editor. Supports UTF-8/GBK, regex and include/exclude queries, live append, line navigation and result export. Includes the .NET 8 runtime; use x64 for multi-GB logs.",
+			"id": "017a3c6d6cb9c678a7c526ee4d5e63aa6404d1ca197b48b6d28a4f9676f810c8",
+			"repository": "https://github.com/HBZHSN/LogRAM/releases/download/npp-1.5.0/LogRAM.Npp-1.5.0-x86-plugin-admin.zip",
+			"description": "Read-only large-log viewer with an in-memory SIMD/multicore search engine. Automatically opens .log files in a two-pane source/results workspace without loading the full log into the NPP editor. Supports local and SSH remote Linux logs, UTF-8/GBK, regex and include/exclude queries, line pinning, secondary in-results find (Ctrl+F), live append, line navigation and result export. Includes the .NET 8 runtime; use x64 for multi-GB logs.",
 			"author": "HBZHSN",
 			"homepage": "https://github.com/HBZHSN/LogRAM"
 		},
