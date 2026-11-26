@@ -510,6 +510,17 @@
 			"homepage": "https://github.com/Zukaritasu/notepadpp_rpc"
 		},
 		{
+			"folder-name": "DocxReader",
+			"display-name": "DocxReader",
+			"version": "1.1.1.0",
+			"npp-compatible-versions": "[8.9.9.1,]",
+			"id": "b43e7817082eca294746bdd6baa5f341ddcc6a0057db8085b4b38bb4bdfd300c",
+			"repository": "https://github.com/imaxxero/DocxReader/releases/download/v1.1.1/DocxReader-1.1.1-x64-plugins-admin.zip",
+			"description": "Open local Word DOCX files as read-only text in Notepad++. Export plain text or Markdown. Works offline without Microsoft Word.",
+			"author": "imaxxero",
+			"homepage": "https://github.com/imaxxero/DocxReader"
+		},
+		{
 			"folder-name": "DoxyIt",
 			"display-name": "DoxyIt",
 			"version": "0.4.4",
