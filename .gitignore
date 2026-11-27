@@ -18,6 +18,7 @@ Thumbs.db
 *.opendb
 *.db
 *.md
+*.slnx
 obj/
 [Dd]ebug*/
 [Rr]elease*/

@@ -1,6 +1,6 @@
 {
 	"name": "npp-pluginList",
-	"version": "1.9.9",
+	"version": "2.0",
 	"arch": "arm64",
 	"npp-plugins": [
 		{
@@ -197,9 +197,9 @@
 		{
 			"folder-name": "NPPJSONViewer",
 			"display-name": "JSON Viewer",
-			"version": "2.2.0.0",
-			"id": "1c7c7c24bc48366572a9a8d8c588be444642d37414c5bcb8393c5f5d8f34b18c",
-			"repository": "https://github.com/NPP-JSONViewer/JSON-Viewer/releases/download/v2.2.0.0/NppJSONViewer_ARM64_Release.zip",
+			"version": "2.2.1.0",
+			"id": "cef61978e10cf1de5f5bc057b22106427ef213776b8381ee1b084f683ea5a57c",
+			"repository": "https://github.com/NPP-JSONViewer/JSON-Viewer/releases/download/v2.2.1.0/NppJSONViewer_ARM64_Release.zip",
 			"description": "JSON viewer that displays the selected JSON string in a tree view.",
 			"author": "Kapil Ratnani, Rajendra Singh",
 			"homepage": "https://github.com/NPP-JSONViewer/JSON-Viewer",
@@ -268,6 +268,17 @@
 			"homepage": "https://github.com/Gvo87/NotepadPlusPlus-LLM-Plugin"
 		},
 		{
+			"folder-name": "MahiMarkD++",
+			"display-name": "MahiMarkD++",
+			"version": "0.1.0",
+			"npp-compatible-versions": "[8.4.1,]",
+			"id": "327752066512d4cb9bb734ce3217242f4f1ba81f1ce19c917cfe5757039e71a5",
+			"repository": "https://github.com/Mahiron-hq/MahiMarkD-PlusPlus/releases/download/v0.1.0/MahiMarkD-PlusPlus-0.1.0-arm64.zip",
+			"description": "[Requires Microsoft Edge WebView2 Runtime]\r\nFast Markdown preview in a docked panel with incremental rendering for large files. GitHub Flavored Markdown, code highlighting with copy buttons, KaTeX math, two-way scroll sync, click to source, table of contents, find in preview, export to HTML, PDF and DOCX, light, dark and editor-matched themes.",
+			"author": "Lev Burmistrov (Mahiron-hq)",
+			"homepage": "https://github.com/Mahiron-hq/MahiMarkD-PlusPlus"
+		},
+		{
 			"folder-name": "MarkdownTableEditor",
 			"display-name": "Markdown Table Editor",
 			"version": "11.2.0",
@@ -302,11 +313,11 @@
 		{
 			"folder-name": "mimeTools",
 			"display-name": "Mime tools",
-			"version": "3.1",
+			"version": "3.2",
 			"npp-compatible-versions": "[8.4.7,]",
 			"old-versions-compatibility": "[,2.8][,8.4.6]",
-			"id": "e66f7fbae3a2ab23670764ce57265003c520afcf328d6bbf1add195119824199",
-			"repository": "https://github.com/npp-plugins/mimetools/releases/download/v3.1/mimetools.v3.1.arm64.zip",
+			"id": "7a1443d9bad7939c88c7c408064deadb458ead252d2b68468d84c57002e1ee6b",
+			"repository": "https://github.com/npp-plugins/mimetools/releases/download/v3.2/mimetools.v3.2.arm64.zip",
 			"description": "Implements several main functionalities defined in MIME (Multipurpose Internet Mail Extensions): Base64, Quoted-printable and URL encode/decode",
 			"author": "Don HO",
 			"homepage": "https://github.com/npp-plugins/mimetools"
@@ -480,6 +491,17 @@
 			"description": "Open files based on the selected text. A typical applications is 'include' files of may types of programs. Another applications is to open Matlab functions. Can be customized for different languages based on the open file extension. Multiple search folders may be specified along with multiple extensions.",
 			"author": "Franco Stellari",
 			"homepage": "https://github.com/francostellari/NppPlugins"
+		},
+		{
+			"folder-name": "PipeHat",
+			"display-name": "PipeHat",
+			"version": "2.5.1",
+			"npp-compatible-versions": "[8.3,]",
+			"id": "49a60358214dafa7cdeaa078fcbad499ba4c5612c527682ba088f71db6463729",
+			"repository": "https://github.com/iacsha/PipeHat-npp/releases/download/v2.5.1/PipeHat-v2.5.1-arm64.zip",
+			"description": "HL7 v2.x message support. Syntax highlighting, hover tooltips with full field paths (PID-5.1), a dockable message tree down to subcomponents, structural validation, conformance profiles, compare views, pretty-print and PHI scrubbing. Optional MLLP send and listen, off by default and loopback-only unless enabled.",
+			"author": "Shawn Iachetta",
+			"homepage": "https://github.com/iacsha/PipeHat-npp"
 		},
 		{
 			"folder-name": "pork2sausage",
@@ -706,6 +728,50 @@
 			"description": "Speed up your code editing! Enter an abbreviation (tag), press Alt + Enter, and expand the tag into a full code snippet. You can also wrap (surround) a selection e.g. with HTML tags.\r\n- More than 1000 preset tags: HTML (elements, attributes, BootStrap, Smarty, etc.), JavaScript (jQuery), CSS, PHP, SQL (MySQL, Eloquent ORM), etc.\r\n- Automatic or custom caret (cursor) positioning\r\n- Handling new lines, indents, etc.\r\n- Variables: clipboard content, current file name, custom date/time, etc.\r\n- Customizable tags in the plugin menu; assign tags to shortcuts\r\n- Customizable tags in the toolbar\r\n- Tag suggestions (similar tags)\r\n- Easy tag addition\r\n- Multiselect support\r\n- Unicode support\r\n- Over 17 years with Notepad++, now in 64-bit version!",
 			"author": "Alexander Iljin",
 			"homepage": "https://github.com/Krazal/WebEdit"
+		},
+		{
+			"folder-name": "NppFormatter",
+			"display-name": "NppFormatter",
+			"version": "0.4.0",
+			"npp-compatible-versions": "[8.9.6,]",
+			"id": "fff4acb05ca54084978c0f6fbabc98ac2fdaef47540812a9b3c13e858e40c909",
+			"repository": "https://github.com/oiltea94/npp-formatter/releases/download/v0.4.0/NppFormatter-0.4.0-arm64-plugin-admin.zip",
+			"description": "Format with Prettier, Python with Ruff, or C/C++ with clang-format and project configuration. Optional Java, XML, PHP, SQL, Properties, TOML and Shell packages. Includes environment checks. Install clang-format for C/C++, Ruff for Python, or Node.js, Prettier and optional packages for Prettier languages.",
+			"author": "OILTEA",
+			"homepage": "https://github.com/oiltea94/npp-formatter"
+    	},
+		{
+			"folder-name": "YamlProperties",
+			"display-name": "YamlProperties",
+			"version": "0.5.0",
+			"npp-compatible-versions": "[8.9.6.4,]",
+			"id": "e7fb32b03d074fa5fae2fb46632fafa55e7e23c903f3a6f8e2099425b9fe4c59",
+			"repository": "https://github.com/oiltea94/npp-yaml-properties/releases/download/v0.5.0/YamlProperties-0.5.0-arm64-plugin-admin.zip",
+			"description": "Convert YAML and Java Properties in either direction. Supports selections, automatic format detection, optional key sorting and configurable new-tab or in-place output.",
+			"author": "OILTEA",
+			"homepage": "https://github.com/oiltea94/npp-yaml-properties"
+		},
+		{
+			"folder-name": "YangTreeView",
+			"display-name": "YANG Tree View",
+			"version": "1.0.0",
+			"npp-compatible-versions": "[8.0,]",
+			"id": "79d01d728e55eaaa1681c247b010d4ed3efc12435312db2ad715e935695ecaa5",
+			"repository": "https://github.com/rogersacchelli/YangTreeView/releases/download/v1.0.0/YangTreeView-1.0.0-arm64.zip",
+			"description": "Interactive, collapsible tree view of YANG modules (RFC 6020/7950) opened in your browser: containers, lists, choices, groupings inlined across imports and submodules, search, schema paths, types/keys/config badges. Also installs YANG syntax highlighting. Native DLL, no Python or other runtime needed.",
+			"author": "Roger Sacchelli",
+			"homepage": "https://github.com/rogersacchelli/YangTreeView"
+		},
+		{
+			"folder-name": "NppXmlTree",
+			"display-name": "XML Tree",
+			"version": "1.1.0",
+			"npp-compatible-versions": "[8.0,]",
+			"id": "f0320e9c41a088ab51f25848357adba33bce1c6b6897ef4a6c7ea4a4f6c1a8dc",
+			"repository": "https://github.com/FalcoNefasto/npp-xml-tree/releases/download/v1.1.0/NppXmlTree-arm64.zip",
+			"description": "A tree panel for XML documents in Notepad++, replicating the XML tree workflow of FOXE. Elements and attributes on the left, kept in step with the text: click a row to jump to it, rename, delete, duplicate or add children and attributes from the tree (each edit a single Ctrl+Z), character references both ways, and a well-formedness check that lists what is not closed with its line number.",
+			"author": "FalcoNefasto",
+			"homepage": "https://github.com/FalcoNefasto/npp-xml-tree"
 		}
 	]
 }

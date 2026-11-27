@@ -1,6 +1,6 @@
 {
 	"name": "npp-pluginList",
-	"version": "1.9.9",
+	"version": "2.0",
 	"arch": "64",
 	"npp-plugins": [
 		{
@@ -260,9 +260,9 @@
 		{
 			"folder-name": "NPPColorPicker",
 			"display-name": "Color Picker",
-			"version": "1.0.0",
-			"id": "fc6036ca6facea55db68d729011bcbfd292f5c7676fab7ea0074c3d03c606ac2",
-			"repository": "https://github.com//NPPColorPicker/releases/download/v1.0.0/NPPColorPicker-1.0.0-x64.zip",
+			"version": "1.0.1",
+			"id": "799b78ddca1b70fe80823befdcd10034fa7d45a353802e55a53f36eae8fb041c",
+			"repository": "https://github.com/dasu88/NPPColorPicker/releases/download/v1.0.1/NPPColorPicker-1.0.1-x64.zip",
 			"description": "A native Win32 Notepad++ plugin that provides hover previews of HTML hexadecimal color codes in documents and lets users click to select a color and insert it back into the code.",
 			"author": "",
 			"homepage": "https://github.com//NPPColorPicker"
@@ -312,18 +312,6 @@
 			"homepage": "https://sourceforge.net/projects/kered13-notepad-plugins/"
 		},
 		{
-			"folder-name": "ComparePlugin",
-			"display-name": "Compare",
-			"version": "2.0.2",
-			"npp-compatible-versions": "[8.3,]",
-			"old-versions-compatibility": "[,2.0.1][7.7,8.2.1]",
-			"id": "4151fbc9778047991cf4b900363d846bda5b0d1783e5fed9eb77e4c8253ba315",
-			"repository": "https://github.com/pnedev/compare-plugin/releases/download/v2.0.2/ComparePlugin_v2.0.2_X64.zip",
-			"description": "Shows the differences between 2 files (side by side).",
-			"author": "Ty Landercasper, Jean-Sebastien Leroy, Pavel Nedev",
-			"homepage": "https://github.com/pnedev/compare-plugin"
-		},
-		{
 			"folder-name": "ComparePlus",
 			"display-name": "ComparePlus",
 			"version": "3.0.0",
@@ -359,11 +347,11 @@
 		{
 			"folder-name": "CSScriptNpp",
 			"display-name": "CS-Script - C# Intellisense",
-			"version": "2.0.13.0",
+			"version": "2.0.14.0",
 			"npp-compatible-versions": "[8.3,]",
 			"old-versions-compatibility": "[,1.7.26][,8.2.1]",
-			"id": "ebfe340089468fc9c71f0ec0c0bcae79820cad40584747929d83f194512023b3",
-			"repository": "https://github.com/oleg-shilo/cs-script.npp/releases/download/v2.0.13.0/CSScriptNpp.2.0.13.0.x64.zip",
+			"id": "cf3e043445109998a0639d04b41166d744f72c788a628a5e29719b6f5aa30bba",
+			"repository": "https://github.com/oleg-shilo/cs-script.npp/releases/download/v2.0.14.0/CSScriptNpp.2.0.14.0.x64.zip",
 			"description": "CS-Script integration. Implements a real C# Intellisense solution based on CS-Script and Roslyn. Allows loading, executing modifying and debugging C# scripts in a way very similar to the Visual Studio C# projects support. This includes referencing assemblies and other scripts, code formatting, adding missing namespaces and intercepting Debug and Console output.",
 			"author": "Oleg Shilo",
 			"homepage": "https://github.com/oleg-shilo/cs-script.npp"
@@ -447,6 +435,16 @@
 			"homepage": "https://datamodder.com/utils/file-tools"
 		},
 		{
+			"folder-name": "PersianKit",
+			"display-name": "PersianKit - RTL & Vazirmatn (Persian)",
+			"version": "1.3.1",
+			"id": "26e0243ac1f1305caa7a3e443f9e182a2791dfee55420dfb561dff75fb0682cd",
+			"repository": "https://github.com/ahmadkhanloo/npp-persian-kit/releases/download/v1.3.1/PersianKit_x64.zip",
+			"description": "Right-to-left (RTL) text direction and the Vazirmatn font for Persian/Farsi documents.\r\n- Persian mode: RTL + Vazirmatn in one command\r\n- Toggle RTL/LTR per document (default Alt+Shift+R)\r\n- Auto Persian mode for .md/.txt files, remembered in NppPersianKit.ini\r\n- Needs DirectWrite off (Preferences > MISC) and UTF-8 documents; the plugin warns if not",
+			"author": "Mohammad Ahmadkhanloo",
+			"homepage": "https://github.com/ahmadkhanloo/npp-persian-kit"
+		},
+		{
 			"folder-name": "QueryFiles",
 			"display-name": "Datamodder Query Files",
 			"version": "1.3.1.4",
@@ -489,6 +487,17 @@
 			"description": "PHP debugger (XDebug) which talks with the DBGP protocol. Transforms Notepad++ into a PHP IDE.",
 			"author": "Damjan Zobo Cvetko",
 			"homepage": "https://github.com/rdipardo/dbgpPlugin"
+		},
+		{
+			"folder-name": "deckcheck",
+			"display-name": "deckcheck",
+			"version": "0.2.0",
+			"npp-compatible-versions": "[8.9,]",
+			"id": "0f46940de5f5c8a8082767bc1d5b185f3b9c392b5c35fa265c8f014f2980502f",
+			"repository": "https://github.com/chintan-dshel/deckcheck/releases/download/v0.2.0/deckcheck-npp-x64.zip",
+			"description": "Checks LS-DYNA keyword decks (.k, .key) for structural mistakes across the whole model and its includes: dangling references, duplicate ids, bad values, include problems. Squiggles on the field, a findings panel with jump to the field. The checking engine is bundled: no Python needed.",
+			"author": "Chintan Shelat",
+			"homepage": "https://github.com/chintan-dshel/deckcheck"
 		},
 		{
 			"folder-name": "DiscordRPC",
@@ -594,6 +603,17 @@
 			"description": "A set of utilities for developing ERP integrations, includes XSL transformation and Workday API SOAP calls.",
 			"author": "Whitley Media",
 			"homepage": "https://github.com/swhitley/erphelper"
+		},
+		{
+			"folder-name": "exec++",
+			"display-name": "exec++",
+			"version": "0.5.0",
+			"npp-compatible-versions": "[8.9.9,]",
+			"id": "dbe5a2d843193bb423512ca941e2825fc9bf51e9c7f46d10fbabc6ce4124809f",
+			"repository": "https://github.com/fernandocpaz/exec-/releases/download/v0.5.0/exec-plus-plus-v0.5.0-plugins-admin-x64.zip",
+			"description": "Run selected text in Windows PowerShell, PowerShell 7, Command Prompt, or WSL Bash. Shows live output, exit codes, command-labeled run history, and automatically formatted JSON in a docked pane.",
+			"author": "fernandocpaz",
+			"homepage": "https://github.com/fernandocpaz/exec-"
 		},
 		{
 			"folder-name": "Explorer",
@@ -702,6 +722,16 @@
 			"description": "This Notepad++ plugin can hide the unsightly folding lines, and for convenience, you can fold and unfold the current level using the Alt + Left/Right keys.",
 			"author": "leonardchai@gmail.com",
 			"homepage": "https://github.com/leonardchai/FoldingLineHider"
+		},
+		{
+			"folder-name": "NppGdiEmoji",
+			"display-name": "GDI Emoji",
+			"version": "0.3.1.0",
+			"id": "056f761d623d7a1c7baf5ada0e336cd01853f97f624b397f6b846cfced6c6c56",
+			"repository": "https://github.com/seantw/NppGdiEmoji/releases/download/v0.3.1/NppGdiEmoji-0.3.1-x64.zip",
+			"description": "Displays supported color emoji in UTF-8 documents when Notepad++ uses GDI rendering mode.",
+			"author": "Sean Lin",
+			"homepage": "https://github.com/seantw/NppGdiEmoji"
 		},
 		{
 			"folder-name": "GedcomLexer",
@@ -900,9 +930,9 @@
 		{
 			"folder-name": "NPPJSONViewer",
 			"display-name": "JSON Viewer",
-			"version": "2.2.0.0",
-			"id": "86573e79adc2aba3e4e07d73cd085641275f8b4eb20cc68519961f9a9bfee273",
-			"repository": "https://github.com/NPP-JSONViewer/JSON-Viewer/releases/download/v2.2.0.0/NppJSONViewer_x64_Release.zip",
+			"version": "2.2.1.0",
+			"id": "254ff8a225d09dca94694f7f20d12c431f62dd9b2add83f9356fc0fb089b1426",
+			"repository": "https://github.com/NPP-JSONViewer/JSON-Viewer/releases/download/v2.2.1.0/NppJSONViewer_x64_Release.zip",
 			"description": "JSON viewer that displays the selected JSON string in a tree view.",
 			"author": "Kapil Ratnani, Rajendra Singh",
 			"homepage": "https://github.com/NPP-JSONViewer/JSON-Viewer",
@@ -1014,11 +1044,11 @@
 		{
 			"folder-name": "LogRAM.Npp",
 			"display-name": "LogRAM",
-			"version": "1.3.4",
+			"version": "1.5.0",
 			"npp-compatible-versions": "[8.9.8.1,]",
-			"id": "063db05c86864b3ce8912c7263aeea714165150ec5730f2de340deffbfaeed97",
-			"repository": "https://github.com/HBZHSN/LogRAM/releases/download/npp-1.3.4/LogRAM.Npp-1.3.4-x64-plugin-admin.zip",
-			"description": "Read-only large-log viewer with an in-memory SIMD/multicore search engine. Automatically opens .log files in a two-pane source/results workspace without loading the full log into the NPP editor. Supports UTF-8/GBK, regex and include/exclude queries, live append, line navigation and result export. Includes the .NET 8 runtime; use x64 for multi-GB logs.",
+			"id": "95d3b4304ae37d7ecce48583360e594d591fd1e93c63d7cd76bd1177c55e379a",
+			"repository": "https://github.com/HBZHSN/LogRAM/releases/download/npp-1.5.0/LogRAM.Npp-1.5.0-x64-plugin-admin.zip",
+			"description": "Read-only large-log viewer with an in-memory SIMD/multicore search engine. Automatically opens .log files in a two-pane source/results workspace without loading the full log into the NPP editor. Supports local and SSH remote Linux logs, UTF-8/GBK, regex and include/exclude queries, line pinning, secondary in-results find (Ctrl+F), live append, line navigation and result export. Includes the .NET 8 runtime; use x64 for multi-GB logs.",
 			"author": "HBZHSN",
 			"homepage": "https://github.com/HBZHSN/LogRAM"
 		},
@@ -1033,6 +1063,17 @@
 			"description": "Adds Lua scripting capabilities. This provides control over all of Scintilla's features and options with a light-weight, fully-functional programming language.",
 			"author": "Justin Dailey",
 			"homepage": "https://github.com/dail8859/LuaScript"
+		},
+		{
+			"folder-name": "MahiMarkD++",
+			"display-name": "MahiMarkD++",
+			"version": "0.1.0",
+			"npp-compatible-versions": "[8.4.1,]",
+			"id": "df14a0484727b5bac557180d9f2339842e792c0dcd489cbe44c252d917a9a7ce",
+			"repository": "https://github.com/Mahiron-hq/MahiMarkD-PlusPlus/releases/download/v0.1.0/MahiMarkD-PlusPlus-0.1.0-x64.zip",
+			"description": "[Requires Microsoft Edge WebView2 Runtime]\r\nFast Markdown preview in a docked panel with incremental rendering for large files. GitHub Flavored Markdown, code highlighting with copy buttons, KaTeX math, two-way scroll sync, click to source, table of contents, find in preview, export to HTML, PDF and DOCX, light, dark and editor-matched themes.",
+			"author": "Lev Burmistrov (Mahiron-hq)",
+			"homepage": "https://github.com/Mahiron-hq/MahiMarkD-PlusPlus"
 		},
 		{
 			"folder-name": "NppMarkdownFeatures",
@@ -1088,16 +1129,6 @@
 			"homepage": "https://github.com/rsalinger/NotepadPlusPlus-Markdown"
 		},
 		{
-			"folder-name": "MarkdownViewerPlusPlus",
-			"display-name": "MarkdownViewer++",
-			"version": "0.8.2",
-			"id": "e343c52798d76ef91bba41821088cc3e199d475c7124571881b560b6a3ec4693",
-			"repository": "https://github.com/nea/MarkdownViewerPlusPlus/releases/download/0.8.2/MarkdownViewerPlusPlus-0.8.2-x64.zip",
-			"description": "View Markdown/CommonMark compliant text files rendered on-the-fly directly in Notepad++ in a docked panel.\r\nExport the rendered result as HTML or PDF and configure the file extensions to be rendered.",
-			"author": "nea",
-			"homepage": "https://nea.github.io/MarkdownViewerPlusPlus/"
-		},
-		{
 			"folder-name": "MarkLens",
 			"display-name": "MarkLens",
 			"version": "0.1.2",
@@ -1107,6 +1138,16 @@
 			"description": "Fast Markdown preview with table of contents, jump-to-source highlighting and two-way scroll sync.",
 			"author": "Maarten Grassmid",
 			"homepage": "https://github.com/maarten-grassmid/marklens"
+		},
+		{
+			"folder-name": "mdnotepad",
+			"display-name": "MD Notepad",
+			"version": "1.0.1",
+			"id": "c50aff917a71a2d45a38b2e765137d553b28acce83ba0169fe62715d39009d4f",
+			"repository": "https://github.com/aideakit/mdnotepad/releases/download/v1.0.1/mdnotepad-1.0.1-x64-plugins-admin.zip",
+			"description": "Markdown preview panel next to the editor: GitHub style, Mermaid diagrams, dark theme, PDF export. Text can be edited in the preview too; the change goes into the Markdown source. Uses the Microsoft Edge WebView2 Runtime that is part of Windows 10/11.",
+			"author": "aideakit",
+			"homepage": "https://github.com/aideakit/mdnotepad"
 		},
 		{
 			"folder-name": "MenuIcons",
@@ -1131,11 +1172,11 @@
 		{
 			"folder-name": "mimeTools",
 			"display-name": "Mime tools",
-			"version": "3.1",
+			"version": "3.2",
 			"npp-compatible-versions": "[8.4.7,]",
 			"old-versions-compatibility": "[,2.8][,8.4.6]",
-			"id": "8df4ef5c94579639f5c429f97e13fe39802552d56db7e7eb3df226ccc9caae9b",
-			"repository": "https://github.com/npp-plugins/mimetools/releases/download/v3.1/mimetools.v3.1.x64.zip",
+			"id": "7294c6342a15479e79296a2b917ef646f9a6d9e0b464c9186ab0cf49963a1a74",
+			"repository": "https://github.com/npp-plugins/mimetools/releases/download/v3.2/mimetools.v3.2.x64.zip",
 			"description": "Implements several main functionalities defined in MIME (Multipurpose Internet Mail Extensions): Base64, Quoted-printable and URL encode/decode",
 			"author": "Don HO",
 			"homepage": "https://github.com/npp-plugins/mimetools"
@@ -1267,6 +1308,17 @@
 			"description": "Template for making plugin development as easy and simple as possible. Four steps and it's done.",
 			"author": "Don HO",
 			"homepage": "https://github.com/npp-plugins/plugintemplate"
+		},
+		{
+			"folder-name": "ForeLexer",
+			"display-name": "Notepad++ Syntax Plugin for Foresight Platform Fore",
+			"version": "1.1.0",
+			"npp-compatible-versions": "[8.9.8.1,]",
+			"id": "6178f4292090eb8efdbec3c89d0262596b199792745c352bb6f0832a0f146f7b",
+			"repository": "https://github.com/rhyots/notepad-plus-plus-syntax-plugin-foresight-platform-fore/releases/download/v1.1.0/NotepadPlusPlus-Syntax-Plugin-Foresight-Platform-Fore-1.1.0-plugins-admin-x64.zip",
+			"description": "Native highlighting and folding for Foresight / Prognoz Platform Fore. Automatic light/dark palettes, custom colors and conservative plain-text detection. Windows x64; not Fore.NET.",
+			"author": "Artyom Nikiforov (rhyots)",
+			"homepage": "https://github.com/rhyots/notepad-plus-plus-syntax-plugin-foresight-platform-fore"
 		},
 		{
 			"folder-name": "NotepadStarterPlugin",
@@ -1421,10 +1473,10 @@
 		{
 			"folder-name": "NppFoldTail",
 			"display-name": "NppFoldTail",
-			"version": "0.9.0",
+			"version": "0.12.0",
 			"npp-compatible-versions": "[8.9.8.1,]",
-			"id": "883e9f77f599f803f31df5c4d54b3cced9c9830e209901fc2917ba659f08d68a",
-			"repository": "https://github.com/seantw/NppFoldTail/releases/download/v0.9.0/NppFoldTail-0.9.0-x64.zip",
+			"id": "5ceae6cf5bb6204a54bbfed40fd44ad456e9fc5a670d3fae25c09dcfb4e69a7c",
+			"repository": "https://github.com/seantw/NppFoldTail/releases/download/v0.12.0/NppFoldTail-0.12.0-x64.zip",
 			"description": "A Notepad++ plugin for cleaner, more readable code folding.",
 			"author": "Sean Lin",
 			"homepage": "https://github.com/seantw/NppFoldTail"
@@ -1505,10 +1557,10 @@
 		{
 			"folder-name": "NppMenuScripts",
 			"display-name": "NppMenuScripts",
-			"version": "1.0.5.0",
-			"id": "a77ce7b4908bfdd99788f4c099a58926c910c07dd71cc7212ad1a4b19e9c14d8",
-			"repository": "https://github.com/seantw/NppMenuScripts/releases/download/v1.0.5.0/NppMenuScripts-v1.0.5.0-x64.zip",
-			"description": "Lets you create custom script menus and run JavaScript, Perl, and Python scripts from Notepad++.",
+			"version": "1.2.1.0",
+			"id": "a9b4f175cf74a12cd0a42c6a90bbd23efd4ea0f7363204200348c029bba3e15e",
+			"repository": "https://github.com/seantw/NppMenuScripts/releases/download/v1.2.1.0/NppMenuScripts-v1.2.1.0-x64.zip",
+			"description": "Lets you create custom script menus and run JavaScript, Perl, Python and HTML scripts from Notepad++.",
 			"author": "Sean Lin",
 			"homepage": "https://github.com/seantw/NppMenuScripts"
 		},
@@ -1552,6 +1604,17 @@
 			"description": "Allow to open Host file on Windows",
 			"author": "jejemorg",
 			"homepage": "https://github.com/jejemorg/NppPluginOpenHost/"
+		},
+		{
+			"folder-name": "NppPrintPreview",
+			"display-name": "NppPrintPreview",
+			"version": "1.0.1",
+			"npp-compatible-versions": "[8.0,]",
+			"id": "2489d62bb027e7ff89346741f097a8091b2c328aba48ae2e0170f19c896b3fc5",
+			"repository": "https://github.com/Denkikaiden/NppPrintPreview/releases/download/v1.0.1/NppPrintPreview_1.0.1_x64.zip",
+			"description": "Print preview for Notepad++. Opens when you choose Print in Notepad++ (can be turned off) and shows pages laid out exactly like Notepad++'s own Print (Ctrl+P), and lets you adjust the printer, paper, font, font size, colors and margins for printing without changing Notepad++'s settings. Also works together with MultiColumnPreview (MulCoPre).",
+			"author": "denkikaiden",
+			"homepage": "https://github.com/Denkikaiden/NppPrintPreview"
 		},
 		{
 			"folder-name": "NppQrCode64",
@@ -1693,6 +1756,17 @@
 			"homepage": "https://sites.google.com/view/nppvoiceplugin"
 		},
 		{
+			"folder-name": "NppXmlTree",
+			"display-name": "XML Tree",
+			"version": "1.1.0",
+			"npp-compatible-versions": "[8.0,]",
+			"id": "3ab4ac60859f19a47e52bf7e72bc381a84dcf8dd5793ac132de0c863b54637ac",
+			"repository": "https://github.com/FalcoNefasto/npp-xml-tree/releases/download/v1.1.0/NppXmlTree-x64.zip",
+			"description": "A tree panel for XML documents in Notepad++, replicating the XML tree workflow of FOXE. Elements and attributes on the left, kept in step with the text: click a row to jump to it, rename, delete, duplicate or add children and attributes from the tree (each edit a single Ctrl+Z), character references both ways, and a well-formedness check that lists what is not closed with its line number.",
+			"author": "FalcoNefasto",
+			"homepage": "https://github.com/FalcoNefasto/npp-xml-tree"
+		},
+		{
 			"folder-name": "NppZenHankaku",
 			"display-name": "NppZenHankaku",
 			"version": "1.0.0",
@@ -1767,12 +1841,23 @@
 			"homepage": "https://github.com/blu3mania/npp-papyrus"
 		},
 		{
+			"folder-name": "PipeHat",
+			"display-name": "PipeHat",
+			"version": "2.5.1",
+			"npp-compatible-versions": "[8.3,]",
+			"id": "6ee762f0c34c47b854724ff3525352695dbc0d04db298d98d41aab19cf8728bc",
+			"repository": "https://github.com/iacsha/PipeHat-npp/releases/download/v2.5.1/PipeHat-v2.5.1-x64.zip",
+			"description": "HL7 v2.x message support. Syntax highlighting, hover tooltips with full field paths (PID-5.1), a dockable message tree down to subcomponents, structural validation, conformance profiles, compare views, pretty-print and PHI scrubbing. Optional MLLP send and listen, off by default and loopback-only unless enabled.",
+			"author": "Shawn Iachetta",
+			"homepage": "https://github.com/iacsha/PipeHat-npp"
+		},
+		{
 			"folder-name": "PlantUmlViewer",
 			"display-name": "PlantUML Viewer",
-			"version": "1.9.0.13",
+			"version": "1.10.0.14",
 			"npp-compatible-versions": "[8.3,]",
-			"id": "ec59705861f3715531d22f9f836e55a807709e038bb7cb8afc9f28875bc267cf",
-			"repository": "https://github.com/Fruchtzwerg94/PlantUmlViewer/releases/download/1.9.0.13/PlantUmlViewer_v1.9.0.13_x64.zip",
+			"id": "9fdc56bb667603bd60238354412c9f94847b142bda632f040f1a3f0b7e600090",
+			"repository": "https://github.com/Fruchtzwerg94/PlantUmlViewer/releases/download/1.10.0.14/PlantUmlViewer_v1.10.0.14_x64.zip",
 			"description": "A Notepad++ plugin to generate view and export PlantUML diagrams.",
 			"author": "Philipp Schmidt",
 			"homepage": "https://github.com/Fruchtzwerg94/PlantUmlViewer"
@@ -2140,9 +2225,9 @@
 		{
 			"folder-name": "SqlColumnHighlighter",
 			"display-name": "SQL Column Highlighter",
-			"version": "1.0.0.0",
-			"id": "073a5995ca1a89757f5a2db083f9be57e33baee605c74134ef8e36643d71174b",
-			"repository": "https://github.com/zhgao/npp-sql-column-highlighter/releases/download/v1.0.0/SqlColumnHighlighter-v1.0.0-x64.zip",
+			"version": "1.0.4.0",
+			"id": "ab3fbfca1f6854f6a5a9133b6cd8b4c7d2551b5597143401ac06789498705317",
+			"repository": "https://github.com/zhgao/npp-sql-column-highlighter/releases/download/v1.0.4/SqlColumnHighlighter-v1.0.4-x64.zip",
 			"description": "Click a column name in a SQL INSERT statement to highlight its value(s); double-click a value to highlight its column. All rows are highlighted for multi-row INSERTs.",
 			"author": "zhgao",
 			"homepage": "https://github.com/zhgao/npp-sql-column-highlighter"
@@ -2150,10 +2235,10 @@
 		{
 			"folder-name": "SQLinFormNpp64",
 			"display-name": "SQLinForm",
-			"version": "26.4.7.1",
-			"id": "42d7b0358e8ec04eac17ca82fbc36baf82723603fc352d17ba81f142ce776696",
-			"repository": "https://www.sqlinform.com/npp/SQLinFormNpp64_26.4.7.zip",
-			"description": "Formats plain SQL, SQL embedded in program code, SQL snippets, and SQL statements with syntax errors.\r\nHas a powerful code folding feature and formats your SQL as you Type. Supports all major DB like Oracle, DB2, SQL Server, Teradata, Netezza, MySQL, Sybase, MS Access, etc. Incorporates its own multi-DB parser engine. No additional software required.",
+			"version": "26.11.22.1",
+			"id": "5b825c280d86e94d6695542c403584a086c4f87e406f45418ce895a5cf5e6513",
+			"repository": "https://www.sqlinform.com/npp/SQLinFormNpp64_261122.zip",
+			"description": "Formats and analyzes plain SQL, SQL embedded in program code, SQL snippets, and SQL statements with syntax errors.\r\nHas a powerful code folding feature and formats your SQL as you Type. Supports all major DB like Oracle, DB2, SQL Server, Teradata, Netezza, MySQL, Sybase, MS Access, etc. Incorporates its own multi-DB parser engine. No additional software required.",
 			"author": "Guido Thelen",
 			"homepage": "https://www.sqlinform.com"
 		},
@@ -2274,10 +2359,10 @@
 		{
 			"folder-name": "TroiaLens",
 			"display-name": "TroiaLens",
-			"version": "0.1.4.3",
+			"version": "0.1.4.5",
 			"npp-compatible-versions": "[8.4,]",
-			"id": "4dc9b5f3b50a8b23f8d70bb49dbdcbb639edd97299614ce117e10bdcf304adf9",
-			"repository": "https://github.com/ufukt51/TroiaLensPlugin/releases/download/v0.1.4.3/TroiaLens-0.1.4.3-x64.zip",
+			"id": "1848a52010185a86ae86e6c407bbde87a234542d0e5445edd2c5292aff4b54eb",
+			"repository": "https://github.com/ufukt51/TroiaLensPlugin/releases/download/v0.1.4.5/TroiaLens-0.1.4.5-x64.zip",
 			"description": "[Requires .NET Framework 4.8 and Microsoft Edge WebView2 Runtime]\r\nAnalyzes Canias ERP Troia code execution trace files in a docked panel: summary, call tree, SQL analysis, repeated (N+1) calls, messages, errors and dump tables. Clicking a row moves the editor to that line. Adds syntax colouring for trace files.",
 			"author": "ufukt51",
 			"homepage": "https://github.com/ufukt51/TroiaLensPlugin"
@@ -2387,6 +2472,72 @@
 			"description": "Small set of useful tools for editing XML. Plugin is MSXML-based. The features are:\r\n- XML syntax Check\r\n- XML Schema (XSD) + DTD Validation\r\n- XML tag autoclose\r\n- Pretty print\n- Linarize XML\r\n- Current XML Path\r\n- Conversion XML &amp;lt;-&amp;gt; Text\n- Comment / Uncomment\r\n- XPath expression evaluation",
 			"author": "Nicolas Crittin",
 			"homepage": "https://github.com/morbac/xmltools"
+		},
+		{
+			"folder-name": "xsvViewer",
+			"display-name": "xsvViewer++",
+			"version": "1.0.1.0",
+			"npp-compatible-versions": "[8.9.8.1,]",
+			"id": "6bfdcd505821cff8961ab40fbea2e6e184df4736b06b82ed40b3c76626d9e592",
+			"repository": "https://github.com/mgalhu/xsvViewer/releases/download/v1.0.1/xsvViewer-1.0.1-x64.zip",
+			"description": "Shows CSV, TSV and other delimited files as an adjustable table in the tab. Detects delimiters, headers, comments and decimal commas. Sort, filter by text, number or regex, move, resize, hide and freeze columns, colour numbers by value, and export the view to CSV, TSV or Markdown. Handles millions of rows.",
+			"author": "Markus Galhuber",
+			"homepage": "https://github.com/mgalhu/xsvViewer"
+		},
+		{
+			"folder-name": "MermaidViewer",
+			"display-name": "Mermaid Viewer",
+			"version": "1.1.0",
+			"npp-compatible-versions": "[8.7,]",
+			"id": "6c1a9f0c3593791fb66e3c32b3b767e9a58594ee06fcd9711f39b27a9d28ed17",
+			"repository": "https://github.com/Lithe-Lab/MermaidViewerNpp/releases/download/v1.1.0/MermaidViewerForNPP_v1.1.0_x64.zip",
+			"description": "[Requires .NET Framework 4.8.1]\r\n\r\nThis plugin renders Markdown files and Mermaid diagrams.\r\nMermaid diagrams must be enclosed in a mermaid code block.\r\n\r\nInitial rendering may take some time when the plugin starts.",
+			"author": "Lithe-Lab",
+			"homepage": "https://github.com/Lithe-Lab/MermaidViewerNpp"
+		},
+		{
+			"folder-name": "NppFormatter",
+			"display-name": "NppFormatter",
+			"version": "0.4.0",
+			"npp-compatible-versions": "[8.9.6,]",
+			"id": "31a8b1da03e06463e5e2ccf8dceb9af9473cce722c9499b8a3a18c6d4dd506d4",
+			"repository": "https://github.com/oiltea94/npp-formatter/releases/download/v0.4.0/NppFormatter-0.4.0-x64-plugin-admin.zip",
+			"description": "Format with Prettier, Python with Ruff, or C/C++ with clang-format and project configuration. Optional Java, XML, PHP, SQL, Properties, TOML and Shell packages. Includes environment checks. Install clang-format for C/C++, Ruff for Python, or Node.js, Prettier and optional packages for Prettier languages.",
+			"author": "OILTEA",
+			"homepage": "https://github.com/oiltea94/npp-formatter"
+    },
+		{
+			"folder-name": "YamlProperties",
+			"display-name": "YamlProperties",
+			"version": "0.5.0",
+			"npp-compatible-versions": "[8.9.6.4,]",
+			"id": "7418a07128a9cfcb894e6ca2f5cf5b7742bd6929a9c48e9912b60adb631bfb00",
+			"repository": "https://github.com/oiltea94/npp-yaml-properties/releases/download/v0.5.0/YamlProperties-0.5.0-x64-plugin-admin.zip",
+			"description": "Convert YAML and Java Properties in either direction. Supports selections, automatic format detection, optional key sorting and configurable new-tab or in-place output.",
+			"author": "OILTEA",
+			"homepage": "https://github.com/oiltea94/npp-yaml-properties"
+		},
+		{
+			"folder-name": "JsonStringConverter",
+			"display-name": "JSON String Converter",
+			"version": "1.0.0.0",
+			"npp-compatible-versions": "[8.0,]",
+			"id": "92229735a5efdb06f736bde3921b0a709c065b55955e0b58905811907f2cf266",
+			"repository": "https://github.com/meysam-mahdavirad/JsonStringConverter/releases/download/v1.0.0.0/JsonStringConverter_v1.0.0.0_x64.zip",
+			"description": "Converts an escaped JSON string (e.g. \"{\\\"a\\\":1}\") into formatted JSON. Handles strings with or without surrounding quotes and double-escaped strings. Also pretty-prints, minifies and escapes JSON. Works on the selection or the whole document. Shortcut: Ctrl+Alt+Shift+J.",
+			"author": "Meysam Mahdavirad",
+			"homepage": "https://github.com/meysam-mahdavirad/JsonStringConverter"
+		},
+		{      
+			"folder-name": "YangTreeView",
+			"display-name": "YANG Tree View",
+			"version": "1.0.0",
+			"npp-compatible-versions": "[8.0,]",
+			"id": "302f2f704cb37be9d1b1657997bc9dd46835c574c613681effbbc71704f4e3f9",
+			"repository": "https://github.com/rogersacchelli/YangTreeView/releases/download/v1.0.0/YangTreeView-1.0.0-x64.zip",
+			"description": "Interactive, collapsible tree view of YANG modules (RFC 6020/7950) opened in your browser: containers, lists, choices, groupings inlined across imports and submodules, search, schema paths, types/keys/config badges. Also installs YANG syntax highlighting. Native DLL, no Python or other runtime needed.",
+			"author": "Roger Sacchelli",
+			"homepage": "https://github.com/rogersacchelli/YangTreeView"
 		}
 	]
 }
