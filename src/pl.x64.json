@@ -262,10 +262,10 @@
 			"display-name": "Color Picker",
 			"version": "1.0.0",
 			"id": "fc6036ca6facea55db68d729011bcbfd292f5c7676fab7ea0074c3d03c606ac2",
-			"repository": "https://github.com/dasu88/NPPColorPicker/releases/download/v1.0.0/NPPColorPicker-1.0.0-x64.zip",
+			"repository": "https://github.com//NPPColorPicker/releases/download/v1.0.0/NPPColorPicker-1.0.0-x64.zip",
 			"description": "A native Win32 Notepad++ plugin that provides hover previews of HTML hexadecimal color codes in documents and lets users click to select a color and insert it back into the code.",
-			"author": "dasu88",
-			"homepage": "https://github.com/dasu88/NPPColorPicker"
+			"author": "",
+			"homepage": "https://github.com//NPPColorPicker"
 		},
 		{
 			"folder-name": "ColumnsPlusPlus",
@@ -838,7 +838,7 @@
 			"display-name": "Input Sequence",
 			"version": "1.5.3.0",
 			"id": "e14d749f4b73eca484785911eb4a4cc92a488a69dbb13310bdf6b32d23fce771",
-			"repository": "https://github.com/dasu88/NPPInputSequence/releases/download/v1.5.2/NotepadPlusPlusInputSequence-1.5.3-win64.zip",
+			"repository": "https://github.com/dasu88/NPPInputSequence/releases/download/v1.5.3/NotepadPlusPlusInputSequence-1.5.3-win64.zip",
 			"description": "This plugin is a helper tool for Notepad++, inspired by the functionality of https://github.com/tomoki1207/vscode-input-sequence, providing similar capabilities within Notepad++.",
 			"author": "dasu88",
 			"homepage": "https://github.com/dasu88/NPPInputSequence"
