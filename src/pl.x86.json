@@ -2119,10 +2119,10 @@
 		{
 			"folder-name": "TCSyslogFinder",
 			"display-name": "TC Syslog Finder",
-			"version": "1.1.0",
+			"version": "1.2.0",
 			"npp-compatible-versions": "[8.0,]",
-			"id": "d4aa2264f0d9389c3077a1f99c0310533eb760834428f1dc6aca2c92695c0369",
-			"repository": "https://github.com/bsagarzazu/npp-tc-syslog-finder/releases/download/v1.1.0/TCSyslogFinder_v1.1.0_x86.zip",
+			"id": "95676ed9be11d55fe01e8a43d05846c0f157e48b55d99efc4107f6d81b40c29f",
+			"repository": "https://github.com/bsagarzazu/npp-tc-syslog-finder/releases/download/v1.2.0/TCSyslogFinder_v1.2.0_Win32.zip",
 			"description": "Instantly find and open the latest Teamcenter syslog in Notepad++.",
 			"author": "bsagarzazu",
 			"homepage": "https://github.com/bsagarzazu/npp-tc-syslog-finder"
