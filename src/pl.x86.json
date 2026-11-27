@@ -2385,11 +2385,11 @@
 		{
 			"folder-name": "YangTreeView",
 			"display-name": "YANG Tree View",
-			"version": "1.0.0",
+			"version": "1.2.1",
 			"npp-compatible-versions": "[8.0,]",
-			"id": "94ac3bcfd207eeef56d894c4a7fedaaf0c3f3e13515d581805eedf5002a4f029",
-			"repository": "https://github.com/rogersacchelli/YangTreeView/releases/download/v1.0.0/YangTreeView-1.0.0-x86.zip",
-			"description": "Interactive, collapsible tree view of YANG modules (RFC 6020/7950) opened in your browser: containers, lists, choices, groupings inlined across imports and submodules, search, schema paths, types/keys/config badges. Also installs YANG syntax highlighting. Native DLL, no Python or other runtime needed.",
+			"id": "7f2817d866369a93ea3fef5169c106b9423a9aea69e42912b0915e2f4a1dcc63",
+			"repository": "https://github.com/rogersacchelli/YangTreeView/releases/download/v1.2.1/YangTreeView-1.2.1-x86.zip",
+			"description": "Interactive, collapsible tree view of YANG modules (RFC 6020/7950) in a docked panel (WebView2) or your browser: containers, lists, choices, groupings inlined across imports and submodules, search, schema paths, types/keys/config badges, jump to source. NETCONF request builder (get, get-config, edit-config, rpc, action) for the selected node. Also installs YANG syntax highlighting. Native DLL, no Python needed.",
 			"author": "Roger Sacchelli",
 			"homepage": "https://github.com/rogersacchelli/YangTreeView"
 		},
