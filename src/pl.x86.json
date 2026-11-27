@@ -2158,6 +2158,17 @@
 			"homepage": "https://github.com/gonzalu/TidyText"
 		},
 		{
+			"folder-name": "TomlLint",
+			"display-name": "TOML Lint",
+			"version": "1.3.0",
+			"npp-compatible-versions": "[8.7,]",
+			"id": "14dfdcc9a78b02af3b7c17e64c3a0022fcf58b61d36cd863ee4253f9281695e5",
+			"repository": "https://github.com/dsy0007/TomlLint/releases/download/v1.3.0/TomlLint-1.3.0-x86.zip",
+			"description": "Offline TOML syntax checker and formatter. Real-time linting with inline errors and fix hints, TOML 1.0 strict mode, = alignment formatter, settings stored in TOML. English/Korean UI.",
+			"author": "dsy0007",
+			"homepage": "https://github.com/dsy0007/TomlLint"
+		},
+		{
 			"folder-name": "NppToolBucket",
 			"display-name": "ToolBucket",
 			"version": "1.10.6622.41336",
